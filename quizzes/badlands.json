@@ -10,6 +10,10 @@
   "questions": true,
   "options": true
  },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "T.R. in the Badlands",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Badlands quiz — {tier}. Try it:",

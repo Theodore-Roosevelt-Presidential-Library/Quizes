@@ -178,6 +178,75 @@
   }
 
   /* ---------------------------------------------------------------------
+     Live head-to-head.
+
+     GitHub Pages is static file hosting, so there is nothing here that can
+     introduce two browsers to each other. The game runs peer-to-peer over
+     WebRTC, using PeerJS's free public broker purely to exchange connection
+     details — no account, no cost, and no game data passes through it.
+
+     PeerJS is ~100KB and is loaded ONLY when someone actually starts a live
+     game, so it never lands on a trlibrary.com page that nobody plays.
+
+     Known limit: the public broker is rate-limited and occasionally down, and
+     a minority of restrictive networks block direct peer connections outright.
+     Both cases are handled by falling back to the async challenge rather than
+     leaving anyone staring at a spinner.
+     --------------------------------------------------------------------- */
+  var LIVE_PARAM = 'trpllive';
+  var PEERJS_SRC = 'https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.5.4/peerjs.min.js';
+  var PEER_PREFIX = 'trplq-';
+  var CONNECT_TIMEOUT = 15000;
+
+  var peerLoading = null;
+  function loadPeerJS() {
+    if (global.Peer) return Promise.resolve(global.Peer);
+    if (peerLoading) return peerLoading;
+    peerLoading = new Promise(function (resolve, reject) {
+      var s = doc.createElement('script');
+      s.src = PEERJS_SRC;
+      s.async = true;
+      s.onload = function () {
+        global.Peer ? resolve(global.Peer) : reject(new Error('peerjs missing'));
+      };
+      s.onerror = function () { reject(new Error('peerjs blocked')); };
+      doc.head.appendChild(s);
+    });
+    return peerLoading;
+  }
+
+  /* Room codes avoid 0/O and 1/I/L so they can be read aloud over a phone. */
+  var CODE_ALPHABET = '23456789ABCDEFGHJKMNPQRSTUVWXYZ';
+  function roomCode() {
+    var out = '', i;
+    var buf = new Uint8Array(6);
+    if (global.crypto && crypto.getRandomValues) crypto.getRandomValues(buf);
+    else for (i = 0; i < 6; i++) buf[i] = Math.floor(Math.random() * 256);
+    for (i = 0; i < 6; i++) out += CODE_ALPHABET[buf[i] % CODE_ALPHABET.length];
+    return out;
+  }
+
+  function readLive() {
+    try {
+      var v = new URLSearchParams(global.location.search).get(LIVE_PARAM);
+      if (!v) return null;
+      var bits = String(v).split('.');
+      if (bits.length !== 2) return null;
+      return { quiz: bits[0].replace(/[^a-z0-9-]/gi, ''),
+               code: bits[1].replace(/[^0-9A-Z]/gi, '').toUpperCase() };
+    } catch (err) { return null; }
+  }
+
+  function liveUrl(base, quizId, code, anchor) {
+    var u = String(base).split('#')[0];
+    u = u.replace(new RegExp('([?&])' + LIVE_PARAM + '=[^&]*'), '$1')
+         .replace(new RegExp('([?&])' + PARAM + '=[^&]*'), '$1')
+         .replace(/[?&]$/, '');
+    u = u + (u.indexOf('?') > -1 ? '&' : '?') + LIVE_PARAM + '=' + quizId + '.' + code;
+    return anchor ? u + '#' + anchor : u;
+  }
+
+  /* ---------------------------------------------------------------------
      Fonts. @font-face declared inside a shadow root is ignored, so the faces
      have to be registered on the host document. Guarded so repeat embeds and
      re-scans only ever inject once. Falls back to the Oswald / Source Serif 4
@@ -380,6 +449,10 @@
     this.deck = [];           // the shuffled run — see deal()
     this.challenge = null;    // set by mount() when the URL carries one
     this.playerName = '';
+    this.live = null;         // live-game state, when playing head-to-head
+    this.peer = null; this.conn = null;
+    this.timerId = null; this.revealId = null;
+    this.playing = false; this.finished = false; this.counting = false;
   }
 
   /* Fisher-Yates on a copy. */
@@ -437,6 +510,144 @@
 
     this.index = 0;
     this.answers = [];
+  };
+
+  /* ---------------------------------------------------------------------
+     Live game — connection
+     --------------------------------------------------------------------- */
+
+  Quiz.prototype.liveSend = function (msg) {
+    try { if (this.conn && this.conn.open) this.conn.send(msg); } catch (err) {}
+  };
+
+  Quiz.prototype.liveTeardown = function () {
+    if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
+    if (this.revealId) { clearTimeout(this.revealId); this.revealId = null; }
+    try { if (this.conn) this.conn.close(); } catch (err) {}
+    try { if (this.peer) this.peer.destroy(); } catch (err) {}
+    this.conn = null; this.peer = null;
+  };
+
+  /* Host: open a room and wait. Guest: dial the code. Either way we end up
+     with one data channel and both names known. */
+  Quiz.prototype.liveStart = function (role, code) {
+    var self = this;
+    this.live = { role: role, code: code, opponent: '', oppScore: 0, oppAt: 0, oppDone: false };
+    this.renderLobby('Setting up…');
+
+    loadPeerJS().then(function (Peer) {
+      var id = role === 'host' ? PEER_PREFIX + code : undefined;
+      var peer = new Peer(id, { debug: 0 });
+      self.peer = peer;
+
+      var settled = false;
+      var giveUp = setTimeout(function () {
+        if (settled) return;
+        settled = true;
+        self.liveFailed(role === 'host'
+          ? 'No one joined, or the connection could not be made.'
+          : 'Could not reach that game. It may have ended, or the connection is blocked.');
+      }, CONNECT_TIMEOUT);
+
+      function wire(conn) {
+        if (settled) return;
+        settled = true;
+        clearTimeout(giveUp);
+        self.conn = conn;
+        conn.on('data', function (m) { self.liveMessage(m); });
+        conn.on('close', function () { self.liveDropped(); });
+        conn.on('error', function () { self.liveDropped(); });
+        self.liveSend({ t: 'hello', name: self.playerName });
+
+        if (role === 'host') {
+          /* The host deals, so both players get the identical run. */
+          self.deal();
+          self.liveSend({ t: 'deck', token: self.deckToken(self.playerName, 0) });
+          self.liveReady();
+        }
+        self.renderLobby('Connected. Waiting for your opponent to be ready…');
+      }
+
+      peer.on('error', function (e) {
+        if (settled) return;
+        settled = true;
+        clearTimeout(giveUp);
+        var kind = String((e && e.type) || '');
+        var msg =
+          kind === 'unavailable-id' ? 'That game code is already in use. Start a new game.' :
+          kind === 'peer-unavailable' ? 'That game is not open. It may have finished, or the host closed the page.' :
+          kind === 'browser-incompatible' ? 'This browser cannot run the live game.' :
+          kind === 'network' || kind === 'server-error' ? 'The matchmaking service is not responding right now.' :
+          kind === 'webrtc' || kind === 'disconnected' ? 'Your network is blocking the direct connection between browsers.' :
+          'The connection could not be made.';
+        self.liveFailed(msg);
+      });
+
+      if (role === 'host') {
+        peer.on('open', function () { self.renderLobby(null); });
+        peer.on('connection', function (conn) {
+          conn.on('open', function () { wire(conn); });
+        });
+      } else {
+        peer.on('open', function () {
+          var conn = peer.connect(PEER_PREFIX + code, { reliable: true });
+          conn.on('open', function () { wire(conn); });
+          conn.on('error', function () {});
+        });
+      }
+    }, function () {
+      self.liveFailed('The connection library could not load. Your network may be blocking it.');
+    });
+  };
+
+  Quiz.prototype.liveMessage = function (m) {
+    if (!m || !m.t) return;
+    var self = this;
+    if (m.t === 'hello') {
+      this.live.opponent = cleanName(m.name) || 'Your opponent';
+      if (this.live.role === 'host') this.renderLobby(null);
+    } else if (m.t === 'deck') {
+      var c = decodeChallenge(m.token);
+      if (c) { this.challenge = { deck: c.deck }; this.deal(); this.challenge = null; }
+      this.liveReady();
+    } else if (m.t === 'ready') {
+      this.live.theirReady = true;
+      this.maybeStart();
+    } else if (m.t === 'progress') {
+      this.live.oppScore = m.score; this.live.oppAt = m.i;
+      this.progress(true);
+    } else if (m.t === 'done') {
+      this.live.oppScore = m.score;
+      this.live.oppDone = true;
+      if (this.finished) this.renderLiveResults();
+      else this.progress(true);
+    }
+  };
+
+  /* Announce that this side has a deck and is good to go, then start if the
+     other side has already said the same. Both peers must announce — an
+     earlier version had only the guest doing it, which left the guest sitting
+     on the lobby screen while the host played alone. */
+  Quiz.prototype.liveReady = function () {
+    if (!this.live || this.live.ready) return;
+    this.live.ready = true;
+    this.liveSend({ t: 'ready' });
+    this.maybeStart();
+  };
+
+  Quiz.prototype.maybeStart = function () {
+    if (this.live && this.live.ready && this.live.theirReady) this.liveCountdown();
+  };
+
+  Quiz.prototype.liveDropped = function () {
+    if (this.finished || !this.live) return;
+    this.live.dropped = true;
+    if (this.playing) {
+      /* Mid-game: don't throw away their run. Let them finish alone. */
+      this.progress(true);
+    } else {
+      this.liveFailed('Your opponent disconnected.');
+    }
   };
 
   Quiz.prototype.deckToken = function (name, score) {
@@ -498,7 +709,17 @@
       'Question ' + Math.min(this.index + 1, total) + ' of ' + total;
     bar.querySelector('.progress__fill').style.width =
       ((this.answers.length / total) * 100) + '%';
-    bar.querySelector('.progress__score').textContent = this.score() + ' correct';
+
+    var L = this.live;
+    if (L) {
+      var them = L.dropped ? 'opponent left'
+        : L.oppDone ? L.opponent + ' finished on ' + L.oppScore
+        : (L.opponent || 'Opponent') + ' ' + L.oppScore + ' (Q' + Math.min(L.oppAt + 1, total) + ')';
+      bar.querySelector('.progress__score').textContent =
+        'You ' + this.score() + ' · ' + them;
+    } else {
+      bar.querySelector('.progress__score').textContent = this.score() + ' correct';
+    }
   };
 
   /* Two-column frame: media on the left, everything else on the right. */
@@ -557,7 +778,17 @@
 
     var kids = [];
 
-    if (c) {
+    if (this.liveInvite) {
+      var inv = this.liveInvite;
+      kids.push(e('span', { class: 'overline', text: 'Live head-to-head' }));
+      kids.push(e('h2', { text: 'You have been invited to a race' }));
+      kids.push(e('p', { class: 'lede',
+        text: 'Fifteen questions, twenty seconds each, both of you at the same time.' }));
+      kids.push(this.nameField('Who is playing?', function (name) {
+        self.playerName = name;
+        self.liveStart('guest', inv.code);
+      }));
+    } else if (c) {
       kids.push(e('span', { class: 'overline', text: 'You have been challenged' }));
       kids.push(e('h2', { text: c.name + ' scored ' + c.score + '/' + c.total }));
       kids.push(e('p', { class: 'lede',
@@ -577,7 +808,23 @@
       start.addEventListener('click', function () {
         self.deal(); self.renderQuestion();
       });
-      kids.push(start);
+      var liveBtn = e('button', { class: 'btn btn-quiet', type: 'button',
+        text: 'Play head-to-head' });
+      liveBtn.addEventListener('click', function () {
+        self.mount(e('div', { class: 'intro' }, [
+          self.frame(q.heroImage, q.heroAlt, q.heroCredit, [
+            e('span', { class: 'overline', text: 'Live head-to-head' }),
+            e('h2', { text: 'Race a friend' }),
+            e('p', { class: 'lede',
+              text: 'Fifteen questions, twenty seconds each, both of you at the same time. You will get a link to send them.' }),
+            self.nameField('Who is playing?', function (name) {
+              self.playerName = name;
+              self.liveStart('host', roomCode());
+            })
+          ])
+        ]));
+      });
+      kids.push(e('div', { class: 'row' }, [start, liveBtn]));
       kids.push(e('span', { class: 'intro__note',
         text: 'You will see the answer and the story behind it after each question.' }));
     }
@@ -585,6 +832,137 @@
     this.mount(e('div', { class: 'intro' }, [
       this.frame(q.heroImage, q.heroAlt, q.heroCredit, kids)
     ]));
+  };
+
+  /* ---------------------------------------------------------------------
+     Live game — screens
+     --------------------------------------------------------------------- */
+
+  Quiz.prototype.renderLobby = function (status) {
+    var self = this, e = this.el.bind(this), q = this.quiz;
+    this.progress(false);
+    var L = this.live;
+    var kids = [e('span', { class: 'overline', text: 'Live head-to-head' })];
+
+    if (L.role === 'host') {
+      kids.push(e('h2', { text: 'Your game is open' }));
+      var link = liveUrl(this.shareUrl, q.id, L.code, this.anchor);
+      kids.push(e('p', { class: 'lede',
+        text: 'Send this to your opponent. You will both answer the same fifteen questions at the same time, twenty seconds each.' }));
+
+      kids.push(e('div', { class: 'roomcode' }, [
+        e('span', { class: 'roomcode__label', text: 'Game code' }),
+        e('span', { class: 'roomcode__value', text: L.code })
+      ]));
+
+      var box = e('input', { class: 'linkbox', type: 'text', readonly: 'readonly',
+        'aria-label': 'Live game link', value: link });
+      var copy = e('button', { class: 'btn btn-primary', type: 'button', text: 'Copy link' });
+      copy.addEventListener('click', function () {
+        box.select();
+        var done = function () {
+          copy.textContent = 'Copied';
+          setTimeout(function () { copy.textContent = 'Copy link'; }, 1600);
+        };
+        if (global.navigator && navigator.clipboard) {
+          navigator.clipboard.writeText(link).then(done, done);
+        } else { try { doc.execCommand('copy'); done(); } catch (err) {} }
+      });
+      kids.push(e('div', { class: 'linkrow' }, [box, copy]));
+    } else {
+      kids.push(e('h2', { text: 'Joining the game' }));
+      kids.push(e('p', { class: 'lede',
+        text: 'Fifteen questions, twenty seconds each, both of you at once.' }));
+      kids.push(e('div', { class: 'roomcode' }, [
+        e('span', { class: 'roomcode__label', text: 'Game code' }),
+        e('span', { class: 'roomcode__value', text: L.code })
+      ]));
+    }
+
+    kids.push(e('p', { class: 'livestatus' }, [
+      e('span', { class: 'livestatus__dot' }),
+      e('span', { text: status || (L.opponent
+        ? L.opponent + ' is here. Starting…'
+        : 'Waiting for your opponent to join…') })
+    ]));
+
+    var bail = e('button', { class: 'btn btn-quiet', type: 'button', text: 'Play on my own instead' });
+    bail.addEventListener('click', function () {
+      self.liveTeardown(); self.live = null; self.deal(); self.renderQuestion();
+    });
+    kids.push(e('div', { class: 'row' }, [bail]));
+
+    this.mount(e('div', { class: 'intro' }, [
+      this.frame(q.heroImage, q.heroAlt, q.heroCredit, kids)
+    ]));
+  };
+
+  Quiz.prototype.liveFailed = function (why) {
+    var self = this, e = this.el.bind(this), q = this.quiz;
+    this.liveTeardown();
+    this.progress(false);
+
+    var solo = e('button', { class: 'btn btn-primary', type: 'button', text: 'Play on your own' });
+    solo.addEventListener('click', function () {
+      self.live = null; self.deal(); self.renderQuestion();
+    });
+
+    this.mount(e('div', { class: 'intro' }, [
+      this.frame(q.heroImage, q.heroAlt, q.heroCredit, [
+        e('span', { class: 'overline', text: 'Live game' }),
+        e('h2', { text: 'That did not connect' }),
+        e('p', { class: 'lede', text: why }),
+        e('p', { class: 'caption',
+          text: 'Some networks block direct connections between browsers. You can still play now and send your score as a challenge at the end — the questions are the same.' }),
+        e('div', { class: 'row' }, [solo])
+      ])
+    ]));
+  };
+
+  Quiz.prototype.liveCountdown = function () {
+    if (this.counting) return;
+    this.counting = true;
+    var self = this, e = this.el.bind(this);
+    var n = 3;
+    this.progress(false);
+
+    function tick() {
+      self.mount(e('div', { class: 'countdown' }, [
+        e('span', { class: 'countdown__num', text: n > 0 ? String(n) : 'Go' }),
+        e('span', { class: 'countdown__vs',
+          text: (self.playerName || 'You') + '  vs  ' + (self.live.opponent || 'Opponent') })
+      ]));
+      if (n <= 0) {
+        setTimeout(function () { self.playing = true; self.renderQuestion(); }, 600);
+        return;
+      }
+      n--;
+      setTimeout(tick, 900);
+    }
+    tick();
+  };
+
+  /* Twenty seconds a question. Running out scores it wrong and moves on —
+     otherwise one player wandering off stalls the other indefinitely. */
+  Quiz.prototype.startTimer = function () {
+    var self = this;
+    var cfg = this.quiz.live || {};
+    var span = (cfg.seconds || 20) * 1000;
+    var bar = this.root.getElementById('timerfill');
+    var num = this.root.getElementById('timernum');
+    var started = Date.now();
+
+    if (this.timerId) clearInterval(this.timerId);
+    this.timerId = setInterval(function () {
+      var left = Math.max(0, span - (Date.now() - started));
+      if (bar) bar.style.width = (left / span * 100) + '%';
+      if (num) num.textContent = Math.ceil(left / 1000) + 's';
+      if (bar) bar.className = 'timer__fill' + (left < 5000 ? ' is-urgent' : '');
+      if (left <= 0) {
+        clearInterval(self.timerId); self.timerId = null;
+        if (!self.locked) self.choose(-1);   // -1 is never the right index
+      }
+    }, 100);
   };
 
   Quiz.prototype.renderQuestion = function () {
@@ -602,26 +980,36 @@
       list.appendChild(e('li', {}, [btn]));
     });
 
+    var panelKids = [e('h3', { class: 'q-prompt', text: q.prompt }), list];
+    if (this.live) {
+      panelKids.unshift(e('div', { class: 'timer' }, [
+        e('span', { class: 'timer__track' }, [
+          e('span', { class: 'timer__fill', id: 'timerfill' })
+        ]),
+        e('span', { class: 'timer__num', id: 'timernum' })
+      ]));
+    }
+
     this.mount(e('div', {}, [
-      this.frame(q.image, q.imageAlt, q.credit, [
-        e('h3', { class: 'q-prompt', text: q.prompt }),
-        list
-      ]),
+      this.frame(q.image, q.imageAlt, q.credit, panelKids),
       e('div', { class: 'actions', id: 'actions' })
     ]));
 
     this.progress(true);
     this.reveal();
+    if (this.live) this.startTimer();
   };
 
   Quiz.prototype.choose = function (chosen) {
     if (this.locked) return;
     this.locked = true;
+    if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
     var self = this, e = this.el.bind(this);
     this.answers[this.index] = chosen;
 
     var q = this.deck[this.index];
     var correct = chosen === q.answer;
+    var timedOut = chosen === -1;
 
     this.root.querySelectorAll('.option').forEach(function (b, i) {
       b.disabled = true;
@@ -632,7 +1020,8 @@
 
     var fb = e('div', { class: 'feedback' + (correct ? '' : ' feedback--wrong'),
       role: 'status', 'aria-live': 'polite' });
-    fb.appendChild(e('p', { class: 'feedback__verdict', text: correct ? 'Correct.' : 'Not quite.' }));
+    fb.appendChild(e('p', { class: 'feedback__verdict',
+      text: correct ? 'Correct.' : timedOut ? "Time's up." : 'Not quite.' }));
     if (!correct) {
       fb.appendChild(e('p', { class: 'feedback__answer',
         text: 'The answer is ' + LETTERS[q.answer] + '. ' + q.options[q.answer] + '.' }));
@@ -650,7 +1039,9 @@
     var next = e('button', { class: 'btn btn-primary', type: 'button',
       text: last ? 'See your score' : 'Next question' });
     next.addEventListener('click', function () {
-      if (last) { self.renderResults(); } else { self.index++; self.renderQuestion(); }
+      if (self.revealId) { clearTimeout(self.revealId); self.revealId = null; }
+      if (last) { self.live ? self.renderLiveResults() : self.renderResults(); }
+      else { self.index++; self.renderQuestion(); }
     });
     var actions = this.root.getElementById('actions');
     actions.appendChild(e('span', { class: 'caption',
@@ -660,11 +1051,62 @@
     this.progress(true);
     next.focus({ preventScroll: true });
 
-    // Bring the explanation into view inside the panel, not the host page
-    var panel = this.root.querySelector('.panel');
-    if (panel && panel.scrollHeight > panel.clientHeight) {
-      panel.scrollTo({ top: fb.offsetTop - 8, behavior: 'smooth' });
+    if (this.live) {
+      this.liveSend({ t: 'progress', i: this.index + 1, score: this.score() });
+      /* Auto-advance so a distracted player cannot stall the race. The button
+         is still there for anyone who wants to move on sooner. */
+      var wait = ((this.quiz.live && this.quiz.live.revealSeconds) || 4) * 1000;
+      if (this.revealId) clearTimeout(this.revealId);
+      this.revealId = setTimeout(function () {
+        if (last) { self.renderLiveResults(); }
+        else { self.index++; self.renderQuestion(); }
+      }, wait);
     }
+
+
+  };
+
+  /* Live results. Both players report their final score; whoever finishes
+     second sees the comparison immediately, whoever finishes first sees a
+     holding state until the other lands. */
+  Quiz.prototype.renderLiveResults = function () {
+    var self = this, e = this.el.bind(this), q = this.quiz;
+    this.finished = true;
+    this.playing = false;
+    if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
+    this.liveSend({ t: 'done', score: this.score(), name: this.playerName });
+
+    var L = this.live;
+    var score = this.score(), total = this.deck.length, tier = this.tier(score);
+
+    if (!L.oppDone && !L.dropped) {
+      this.progress(false);
+      this.mount(e('div', { class: 'intro' }, [
+        this.frame(q.heroImage, q.heroAlt, q.heroCredit, [
+          e('span', { class: 'overline', text: 'Live head-to-head' }),
+          e('h2', { text: 'You finished on ' + score + '/' + total }),
+          e('p', { class: 'lede',
+            text: 'Waiting for ' + (L.opponent || 'your opponent') + ' to finish…' }),
+          e('p', { class: 'livestatus' }, [
+            e('span', { class: 'livestatus__dot' }),
+            e('span', { text: 'Still playing' })
+          ])
+        ])
+      ]));
+      return;
+    }
+
+    /* Hand the live outcome to the normal results screen by presenting the
+       opponent as a challenge — same comparison UI, same badge. */
+    this.challenge = {
+      name: L.opponent || 'Your opponent',
+      score: L.oppScore,
+      total: total,
+      deck: null
+    };
+    if (L.dropped) this.challenge.name = (L.opponent || 'Your opponent') + ' (left)';
+    this.liveTeardown();
+    this.renderResults();
   };
 
   Quiz.prototype.renderResults = function () {
@@ -933,10 +1375,12 @@
            than one embed, and the link names which quiz it belongs to. */
         var c = readChallenge();
         if (c && c.quiz === data.id) quiz.challenge = c;
+        var inv = readLive();
+        if (inv && inv.quiz === data.id && inv.code) quiz.liveInvite = inv;
         quiz.renderIntro();
         /* Arrived on a challenge link: the embed is usually well down the page,
            so put it in front of them rather than making them hunt for it. */
-        if (quiz.challenge) {
+        if (quiz.challenge || quiz.liveInvite) {
           setTimeout(function () {
             host.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }, 120);

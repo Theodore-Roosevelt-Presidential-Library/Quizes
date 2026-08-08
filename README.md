@@ -257,23 +257,59 @@ Use a server, not `file://` — the engine loads quiz content with `fetch()`.
 
 ---
 
-## Next: live head-to-head
+## Live head-to-head
 
-Not built yet. The constraint worth knowing before anyone plans around it: **GitHub
-Pages is static file hosting and cannot broker a connection between two browsers.**
-There is no GitHub service that does this.
+Two people race the same fifteen questions at the same time, twenty seconds each.
 
-The agreed direction is peer-to-peer WebRTC through a free public signalling broker —
-no vendor account, no cost — with a **ghost-race fallback**: if the direct connection
-can't be established, both players race the same deck from a shared seed against the
-opponent's recorded pace. That matters because 5–10% of connections fail behind
-restrictive networks, and a spinning "connecting…" on a Library page is worse than a
-slightly different game.
+One player picks **Play head-to-head**, enters a name, and gets a game code and a
+link. The other opens the link, enters a name, and both count down and start
+together. Each side sees the opponent's live score and which question they're on.
+At the end both get the same head-to-head result.
 
-Timer, when built: **20 seconds per question, running out scores it wrong** and moves on.
+```
+https://www.trlibrary.com/tr/badlands?trpllive=badlands.YFEUGP#trpl-quiz-badlands
+```
 
-The deck encoding above already does most of the work — it is exactly what both
-players need to be handed the same run.
+### How it connects
+
+GitHub Pages is static file hosting — there is nothing on it that can introduce two
+browsers to each other, and GitHub offers no service that does. The game runs
+**peer-to-peer over WebRTC**, using PeerJS's free public broker purely to swap
+connection details. No account, no cost, and no game data passes through it.
+
+PeerJS is ~100KB and is **loaded only when someone actually starts a live game**, so
+it never lands on a trlibrary.com page that nobody plays on.
+
+The host deals the deck and sends it over the data channel, so both players get the
+identical run — the same encoding the challenge links use.
+
+### What happens when it fails
+
+Two things will fail in the wild, and both are handled rather than left spinning:
+
+- **The public broker is rate-limited and occasionally down.** Failure to reach it,
+  a code that isn't open, or a network blocking direct peer connections all land on
+  a plain explanation with a "Play on your own" button that drops straight into a
+  normal solo run.
+- **An opponent disconnects mid-game.** The remaining player is not thrown out —
+  the progress bar notes they left and the run finishes, scored against whatever the
+  opponent had reached.
+
+There is a 15-second connection timeout, so nobody waits indefinitely.
+
+If live play gets real use, the fix for broker flakiness is to self-host
+`peerjs-server`; the client only needs a `host`/`port` option to point at it.
+
+### Timing
+
+Twenty seconds a question. Running out scores it wrong and moves on — otherwise one
+player wandering off stalls the other indefinitely. After answering, the explanation
+shows for four seconds and then auto-advances, with the button available to move on
+sooner. Both are configurable per quiz:
+
+```json
+"live": { "seconds": 20, "revealSeconds": 4 }
+```
 
 ## Open items
 
