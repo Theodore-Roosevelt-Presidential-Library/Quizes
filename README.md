@@ -33,6 +33,25 @@ headings: the embed rendered correctly and the host page was untouched.
 | `data-share-url` | the page's canonical URL, else its own URL | Where badge share links point |
 | `data-base` | wherever `embed.js` loaded from | Override the asset origin |
 
+### Sizing
+
+Desktop layout is two columns — image left, question right — on a white ground,
+sized so a whole question fits in view without scrolling the host page. One question
+runs about 520–580px tall regardless of how long the explanation is: the explanation
+scrolls inside its own panel and the primary button sits in a fixed bar beneath.
+
+Tune the frame height per placement with an inline custom property:
+
+```html
+<div data-trpl-quiz="badlands" style="--stage-h:24rem"></div>
+```
+
+Default is `clamp(21rem, 58vh, 27rem)`. Below 46rem wide the layout stacks to one
+column automatically.
+
+Images use `object-fit: contain`, never `cover` — a cropped portrait that cuts off
+Roosevelt's head is worse than a little white space. Keep that as it is.
+
 `TRPLQuiz.scan()` re-scans the document for mount points added after load — useful if
 a view or AJAX block injects the markup late.
 

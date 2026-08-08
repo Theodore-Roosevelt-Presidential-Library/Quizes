@@ -265,29 +265,38 @@
     bar.querySelector('.progress__score').textContent = this.score() + ' correct';
   };
 
+  /* Two-column frame: media on the left, everything else on the right. */
+  Quiz.prototype.frame = function (imgSrc, imgAlt, credit, panelKids) {
+    var e = this.el.bind(this);
+    var media = e('figure', { class: 'media' }, [
+      e('img', { src: url(imgSrc), alt: imgAlt || '' })
+    ]);
+    if (credit) media.appendChild(e('figcaption', { class: 'caption', text: credit }));
+    var panel = e('div', { class: 'panel' }, panelKids);
+    return e('div', { class: 'grid pad' }, [media, panel]);
+  };
+
   Quiz.prototype.renderIntro = function () {
     var self = this, e = this.el.bind(this), q = this.quiz;
     this.progress(false);
 
-    var box = e('div', { class: 'intro pad' });
-    if (q.subtitle) box.appendChild(e('span', { class: 'overline', text: q.subtitle }));
-    box.appendChild(e('h2', { text: q.title }));
-    if (q.heroImage) {
-      box.appendChild(e('figure', { class: 'intro__figure' }, [
-        e('img', { src: url(q.heroImage), alt: q.heroAlt || '' })
-      ]));
-    }
-    box.appendChild(e('p', { class: 'lede', text: q.intro || '' }));
+    var kids = [];
+    if (q.subtitle) kids.push(e('span', { class: 'overline', text: q.subtitle }));
+    kids.push(e('h2', { text: q.title }));
+    kids.push(e('p', { class: 'lede', text: q.intro || '' }));
 
     var start = e('button', { class: 'btn btn-primary', type: 'button',
       text: 'Start the quiz — ' + q.questions.length + ' questions' });
     start.addEventListener('click', function () {
       self.index = 0; self.answers = []; self.renderQuestion();
     });
-    box.appendChild(start);
-    box.appendChild(e('span', { class: 'intro__note',
+    kids.push(start);
+    kids.push(e('span', { class: 'intro__note',
       text: 'You will see the answer and the story behind it after each question.' }));
 
+    var box = e('div', { class: 'intro' }, [
+      this.frame(q.heroImage, q.heroAlt, q.heroCredit, kids)
+    ]);
     this.mount(box);
   };
 
@@ -295,16 +304,6 @@
     var self = this, e = this.el.bind(this);
     var q = this.quiz.questions[this.index];
     this.locked = false;
-
-    var box = e('div', { class: 'pad' });
-    if (q.image) {
-      var fig = e('figure', { class: 'q-figure' }, [
-        e('img', { src: url(q.image), alt: q.imageAlt || '' })
-      ]);
-      if (q.credit) fig.appendChild(e('figcaption', { class: 'caption', text: q.credit }));
-      box.appendChild(fig);
-    }
-    box.appendChild(e('h3', { class: 'q-prompt', text: q.prompt }));
 
     var list = e('ul', { class: 'options' });
     q.options.forEach(function (opt, i) {
@@ -315,10 +314,15 @@
       btn.addEventListener('click', function () { self.choose(i); });
       list.appendChild(e('li', {}, [btn]));
     });
-    box.appendChild(list);
-    box.appendChild(e('div', { class: 'actions', id: 'actions' }));
 
-    this.mount(box);
+    this.mount(e('div', {}, [
+      this.frame(q.image, q.imageAlt, q.credit, [
+        e('h3', { class: 'q-prompt', text: q.prompt }),
+        list
+      ]),
+      e('div', { class: 'actions', id: 'actions' })
+    ]));
+
     this.progress(true);
     this.reveal();
   };
@@ -352,6 +356,7 @@
         target: '_blank', rel: 'noopener noreferrer',
         text: q.link.label || 'Learn more at trlibrary.com' }));
     }
+    this.root.querySelector('.panel').classList.add('is-answered');
     this.root.querySelector('.options').after(fb);
 
     var last = this.index === this.quiz.questions.length - 1;
@@ -367,6 +372,12 @@
 
     this.progress(true);
     next.focus({ preventScroll: true });
+
+    // Bring the explanation into view inside the panel, not the host page
+    var panel = this.root.querySelector('.panel');
+    if (panel && panel.scrollHeight > panel.clientHeight) {
+      panel.scrollTo({ top: fb.offsetTop - 8, behavior: 'smooth' });
+    }
   };
 
   Quiz.prototype.renderResults = function () {
@@ -378,24 +389,16 @@
       .replace('{score}', score).replace('{total}', total).replace('{tier}', tier.name);
 
     this.progress(false);
-    var box = e('div');
 
-    var res = e('div', { class: 'results pad' });
-    res.appendChild(e('span', { class: 'overline', text: q.title }));
-    res.appendChild(e('p', { class: 'results__score', html: score + '<span>/' + total + '</span>' }));
-    res.appendChild(e('h3', { class: 'results__tier', text: tier.name }));
-    res.appendChild(e('p', { class: 'results__line', text: tier.line }));
-
+    /* Left column is the badge itself — it is the thing worth looking at. */
     var img = e('img', { class: 'badge-preview',
       alt: 'Shareable badge: ' + score + ' out of ' + total + ', ' + tier.name });
-    res.appendChild(img);
 
     var dl = e('button', { class: 'btn btn-primary', type: 'button', text: 'Download badge' });
-    var again = e('button', { class: 'btn btn-ghost', type: 'button', text: 'Try again' });
+    var again = e('button', { class: 'btn btn-quiet', type: 'button', text: 'Try again' });
     again.addEventListener('click', function () {
       self.index = 0; self.answers = []; self.renderQuestion();
     });
-    res.appendChild(e('div', { class: 'row' }, [dl, again]));
 
     var enc = encodeURIComponent;
     var row = e('div', { class: 'row' });
@@ -415,17 +418,36 @@
       });
       row.appendChild(native);
     }
-    res.appendChild(row);
-    res.appendChild(e('p', { class: 'caption',
-      style: 'margin-top:1rem;color:rgba(255,255,255,.7)',
-      text: 'Download the badge, then attach it to your post.' }));
-    box.appendChild(res);
 
-    var rev = e('div', { class: 'review pad' });
-    rev.appendChild(e('h3', { text: 'How you did' }));
+    var panel = [
+      e('span', { class: 'overline', text: q.title }),
+      e('p', { class: 'results__score', html: score + '<span>/' + total + '</span>' }),
+      e('h3', { class: 'results__tier', text: tier.name }),
+      e('p', { class: 'results__line', text: tier.line }),
+      e('div', { class: 'row' }, [dl, again]),
+      row,
+      e('p', { class: 'caption', style: 'margin-top:.6rem',
+        text: 'Download the badge, then attach it to your post.' })
+    ];
+    if (q.learnMore) {
+      panel.push(e('p', { style: 'margin-top:1rem' }, [
+        e('a', { class: 'btn btn-outline', href: q.learnMore,
+          target: '_blank', rel: 'noopener noreferrer', text: 'Go deeper at trlibrary.com' })
+      ]));
+    }
+
+    var media = e('figure', { class: 'media' }, [img]);
+    var box = e('div', {}, [
+      e('div', { class: 'grid pad' }, [media, e('div', { class: 'panel' }, panel)])
+    ]);
+
+    /* The full answer review is collapsed so the results still fit the frame. */
+    var rev = e('details', { class: 'review' });
+    rev.appendChild(e('summary', { text: 'Review all ' + total + ' answers' }));
+    var body = e('div', { class: 'review__body' });
     q.questions.forEach(function (item, i) {
       var ok = self.answers[i] === item.answer;
-      rev.appendChild(e('div', { class: 'review__item' }, [
+      body.appendChild(e('div', { class: 'review__item' }, [
         e('span', { class: 'review__mark ' + (ok ? 'review__mark--ok' : 'review__mark--no'),
           text: ok ? '✓' : '✗' }),
         e('div', {}, [
@@ -434,12 +456,7 @@
         ])
       ]));
     });
-    if (q.learnMore) {
-      rev.appendChild(e('p', { style: 'margin-top:1.75rem' }, [
-        e('a', { class: 'btn btn-outline', href: q.learnMore,
-          target: '_blank', rel: 'noopener noreferrer', text: 'Go deeper at trlibrary.com' })
-      ]));
-    }
+    rev.appendChild(body);
     box.appendChild(rev);
 
     this.mount(box);
