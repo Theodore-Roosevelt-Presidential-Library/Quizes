@@ -366,9 +366,9 @@
       if (last) { self.renderResults(); } else { self.index++; self.renderQuestion(); }
     });
     var actions = this.root.getElementById('actions');
-    actions.appendChild(next);
     actions.appendChild(e('span', { class: 'caption',
       text: (this.index + 1) + ' of ' + this.quiz.questions.length + ' answered' }));
+    actions.appendChild(next);
 
     this.progress(true);
     next.focus({ preventScroll: true });

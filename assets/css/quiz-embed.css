@@ -151,11 +151,13 @@ p:last-child{margin-bottom:0}
    always in view, however long the explanation runs. */
 .actions{
   display:flex;gap:.75rem;flex-wrap:wrap;align-items:center;
+  justify-content:flex-end;          /* the cursor is already on the right,
+                                        having just clicked an answer */
   padding:.7rem var(--pad);border-top:1px solid var(--hairline);
   background:var(--white);min-height:3.25rem;
 }
 .actions:empty{display:none}
-.actions .caption{margin:0}
+.actions .caption{margin:0;margin-right:auto}   /* count stays left */
 
 /* --- Intro ---------------------------------------------------------------- */
 .intro h2{font-size:clamp(1.75rem,3.4vw,2.5rem);text-transform:uppercase;margin-bottom:.2em}
