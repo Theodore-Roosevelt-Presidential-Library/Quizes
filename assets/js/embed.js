@@ -110,11 +110,13 @@
       ctx.fillRect(0, 0, S, S);
 
       if (o.photo && o.photo.complete && o.photo.naturalWidth) {
+        /* Fit, never fill. A cover-crop chops the top of Roosevelt's head off
+           a portrait plate, which is not a thing a presidential library ships. */
         var iw = o.photo.naturalWidth, ih = o.photo.naturalHeight;
-        var sc = Math.max(S / iw, S / ih), dw = iw * sc, dh = ih * sc;
+        var sc = Math.min(S / iw, S / ih), dw = iw * sc, dh = ih * sc;
         ctx.save();
-        ctx.globalAlpha = 0.85;
-        ctx.drawImage(o.photo, (S - dw) / 2, (S - dh) / 2 - S * 0.06, dw, dh);
+        ctx.globalAlpha = 0.42;   // a ghosted plate behind the type, not a portrait
+        ctx.drawImage(o.photo, (S - dw) / 2, (S - dh) / 2, dw, dh);
         ctx.restore();
         ctx.save();
         ctx.globalCompositeOperation = 'color';
@@ -122,11 +124,19 @@
         ctx.fillRect(0, 0, S, S);
         ctx.restore();
         var g = ctx.createLinearGradient(0, 0, 0, S);
-        g.addColorStop(0, 'rgba(27,69,50,0.62)');
-        g.addColorStop(0.34, 'rgba(27,69,50,0.50)');
-        g.addColorStop(0.62, 'rgba(22,55,40,0.86)');
-        g.addColorStop(1, 'rgba(22,55,40,0.98)');
+        g.addColorStop(0, 'rgba(22,55,40,0.72)');
+        g.addColorStop(0.30, 'rgba(27,69,50,0.42)');
+        g.addColorStop(0.62, 'rgba(27,69,50,0.46)');
+        g.addColorStop(1, 'rgba(22,55,40,0.82)');
         ctx.fillStyle = g;
+        ctx.fillRect(0, 0, S, S);
+        // dissolve the scanned plate's own edges into the field
+        var h = ctx.createLinearGradient(0, 0, S, 0);
+        h.addColorStop(0, 'rgba(27,69,50,0.95)');
+        h.addColorStop(0.16, 'rgba(27,69,50,0)');
+        h.addColorStop(0.84, 'rgba(27,69,50,0)');
+        h.addColorStop(1, 'rgba(27,69,50,0.95)');
+        ctx.fillStyle = h;
         ctx.fillRect(0, 0, S, S);
       }
 
@@ -135,52 +145,64 @@
       ctx.strokeRect(48, 48, S - 96, S - 96);
 
       ctx.textAlign = 'center';
-      ctx.fillStyle = SAND;
-      ctx.font = '700 30px ' + CAPTION;
-      if ('letterSpacing' in ctx) ctx.letterSpacing = '8px';
-      ctx.fillText('THEODORE ROOSEVELT PRESIDENTIAL LIBRARY', S / 2, 152);
-      if ('letterSpacing' in ctx) ctx.letterSpacing = '0px';
+
+      /* The wordmark, reversed to white. Falls back to letterspaced type if the
+         mark hasn't loaded, so the badge is never wordless. */
+      var headBottom;
+      if (o.logo && o.logo.complete && o.logo.naturalWidth) {
+        var lw = 470, lh = lw * (o.logo.naturalHeight / o.logo.naturalWidth);
+        ctx.drawImage(o.logo, (S - lw) / 2, 104, lw, lh);
+        headBottom = 104 + lh;
+      } else {
+        ctx.fillStyle = SAND;
+        ctx.font = '700 30px ' + CAPTION;
+        if ('letterSpacing' in ctx) ctx.letterSpacing = '8px';
+        ctx.fillText('THEODORE ROOSEVELT PRESIDENTIAL LIBRARY', S / 2, 150);
+        if ('letterSpacing' in ctx) ctx.letterSpacing = '0px';
+        headBottom = 170;
+      }
 
       ctx.fillStyle = WHITE;
-      ctx.font = '700 62px ' + DISPLAY;
-      var ty = 246;
+      ctx.font = '700 58px ' + DISPLAY;
+      var ty = headBottom + 82;
       wrap(ctx, String(o.quizTitle || '').toUpperCase(), S - 220).slice(0, 2)
-        .forEach(function (l) { ctx.fillText(l, S / 2, ty); ty += 64; });
+        .forEach(function (l) { ctx.fillText(l, S / 2, ty); ty += 60; });
 
       ctx.strokeStyle = 'rgba(209,204,189,0.5)';
       ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.moveTo(S / 2 - 110, ty + 6); ctx.lineTo(S / 2 + 110, ty + 6); ctx.stroke();
+      ctx.moveTo(S / 2 - 100, ty + 6); ctx.lineTo(S / 2 + 100, ty + 6); ctx.stroke();
 
       // Score, measured so the numeral pair sits optically centered
       ctx.textAlign = 'left';
-      ctx.font = '700 300px ' + DISPLAY;
+      ctx.font = '700 320px ' + DISPLAY;
       var wBig = ctx.measureText(String(o.score)).width;
-      ctx.font = '700 130px ' + DISPLAY;
+      ctx.font = '700 138px ' + DISPLAY;
       var wSm = ctx.measureText('/' + o.total).width;
       var x0 = (S - (wBig + 22 + wSm)) / 2;
+      var scoreBaseline = ty + 288;
       ctx.fillStyle = YELLOW;
-      ctx.font = '700 300px ' + DISPLAY;
-      ctx.fillText(String(o.score), x0, 632);
+      ctx.font = '700 320px ' + DISPLAY;
+      ctx.fillText(String(o.score), x0, scoreBaseline);
       ctx.fillStyle = 'rgba(255,255,255,0.72)';
-      ctx.font = '700 130px ' + DISPLAY;
-      ctx.fillText('/' + o.total, x0 + wBig + 22, 632);
+      ctx.font = '700 138px ' + DISPLAY;
+      ctx.fillText('/' + o.total, x0 + wBig + 22, scoreBaseline);
       ctx.textAlign = 'center';
 
       ctx.fillStyle = WHITE;
       ctx.font = '700 96px ' + DISPLAY;
-      var yy = 760;
+      var yy = scoreBaseline + 132;
       wrap(ctx, String(o.tier || '').toUpperCase(), S - 200).slice(0, 2)
-        .forEach(function (l) { ctx.fillText(l, S / 2, yy); yy += 96; });
+        .forEach(function (l) { ctx.fillText(l, S / 2, yy); yy += 92; });
 
-      ctx.fillStyle = 'rgba(255,255,255,0.86)';
+      ctx.fillStyle = 'rgba(255,255,255,0.9)';
       ctx.font = 'italic 40px ' + BODY;
-      var ly = yy + 18;
-      wrap(ctx, o.line || '', S - 260).slice(0, 2)
-        .forEach(function (l) { ctx.fillText(l, S / 2, ly); ly += 52; });
+      var ly = yy + 30;
+      wrap(ctx, o.line || '', S - 300).slice(0, 2)
+        .forEach(function (l) { ctx.fillText(l, S / 2, ly); ly += 50; });
 
       ctx.fillStyle = SAND;
-      ctx.font = '700 30px ' + CAPTION;
+      ctx.font = '700 28px ' + CAPTION;
       if ('letterSpacing' in ctx) ctx.letterSpacing = '5px';
       ctx.fillText('TRLIBRARY.COM', S / 2, S - 96);
       if ('letterSpacing' in ctx) ctx.letterSpacing = '0px';
@@ -400,23 +422,15 @@
       self.index = 0; self.answers = []; self.renderQuestion();
     });
 
-    var enc = encodeURIComponent;
+    /* No X / Facebook / LinkedIn intent links here. Those URLs can only carry
+       text and a link — they cannot attach the badge image, so the visitor
+       would post a bare link and wonder where their badge went. Instead:
+       download it, or use the OS share sheet where it can carry the file. */
     var row = e('div', { class: 'row' });
-    [
-      ['X', 'https://twitter.com/intent/tweet?text=' + enc(shareText) + '&url=' + enc(shareUrl)],
-      ['Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + enc(shareUrl)],
-      ['LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + enc(shareUrl)],
-      ['Bluesky', 'https://bsky.app/intent/compose?text=' + enc(shareText + ' ' + shareUrl)]
-    ].forEach(function (l) {
-      row.appendChild(e('a', { class: 'share-btn', href: l[1],
-        target: '_blank', rel: 'noopener noreferrer', text: l[0] }));
-    });
-    if (global.navigator && navigator.share) {
-      var native = e('button', { class: 'share-btn', type: 'button', text: 'Share' });
-      native.addEventListener('click', function () {
-        navigator.share({ title: q.title, text: shareText, url: shareUrl }).catch(function () {});
-      });
-      row.appendChild(native);
+    var shareBtn = null;
+    if (global.navigator && navigator.share && navigator.canShare) {
+      shareBtn = e('button', { class: 'share-btn', type: 'button', text: 'Share badge' });
+      row.appendChild(shareBtn);
     }
 
     var panel = [
@@ -427,7 +441,7 @@
       e('div', { class: 'row' }, [dl, again]),
       row,
       e('p', { class: 'caption', style: 'margin-top:.6rem',
-        text: 'Download the badge, then attach it to your post.' })
+        text: 'Save the badge, then post it wherever you like.' })
     ];
     if (q.learnMore) {
       panel.push(e('p', { style: 'margin-top:1rem' }, [
@@ -467,35 +481,60 @@
        the canvas and the download fails. Request it anonymously only when it
        really is cross-origin, and if the export still throws, redraw without
        the photograph rather than shipping a broken button. */
-    var photo = new Image();
     var isCrossOrigin = BASE && BASE.indexOf(global.location.origin + '/') !== 0;
-    if (isCrossOrigin) photo.crossOrigin = 'anonymous';
+    function loadImg(src) {
+      var im = new Image();
+      if (isCrossOrigin) im.crossOrigin = 'anonymous';
+      im.src = src;
+      return im;
+    }
+    var photo = q.heroImage ? loadImg(url(q.heroImage)) : null;
+    var logo = loadImg(url('assets/img/brand/trpl-wordmark-white.png'));
 
     var canvas = null;
-    function build() {
-      var usable = photo.complete && photo.naturalWidth;
-      canvas = BADGE.draw({
+    var filename = 'trpl-' + q.id + '-' + score + 'of' + total + '.png';
+    function opts(withPhoto) {
+      return {
         score: score, total: total, tier: tier.name, line: tier.line,
         quizTitle: (q.badge && q.badge.title) || q.title,
-        photo: usable ? photo : null
-      });
+        photo: withPhoto && photo && photo.complete && photo.naturalWidth ? photo : null,
+        logo: logo.complete && logo.naturalWidth ? logo : null
+      };
+    }
+    function build() {
+      canvas = BADGE.draw(opts(true));
       try {
         img.src = canvas.toDataURL('image/png');
       } catch (err) {
         // tainted — fall back to the typographic badge, which always exports
-        canvas = BADGE.draw({
-          score: score, total: total, tier: tier.name, line: tier.line,
-          quizTitle: (q.badge && q.badge.title) || q.title, photo: null
-        });
+        canvas = BADGE.draw(opts(false));
         img.src = canvas.toDataURL('image/png');
       }
     }
     dl.addEventListener('click', function () {
-      if (canvas) BADGE.download(canvas, 'trpl-' + q.id + '-' + score + 'of' + total + '.png');
+      if (canvas) BADGE.download(canvas, filename);
     });
-    photo.onload = build;
-    photo.onerror = build;
-    if (q.heroImage) { photo.src = url(q.heroImage); } else { build(); }
+    if (shareBtn) {
+      shareBtn.addEventListener('click', function () {
+        if (!canvas) return;
+        canvas.toBlob(function (blob) {
+          var file = new File([blob], filename, { type: 'image/png' });
+          if (navigator.canShare({ files: [file] })) {
+            navigator.share({ files: [file], text: shareText + ' ' + shareUrl })
+              .catch(function () {});
+          } else {
+            // the platform will not carry the image — give them the file instead
+            BADGE.download(canvas, filename);
+          }
+        }, 'image/png');
+      });
+    }
+    [photo, logo].forEach(function (im) {
+      if (!im) return;
+      im.addEventListener('load', build);
+      im.addEventListener('error', build);
+    });
+    build();
     if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(build);
   };
 

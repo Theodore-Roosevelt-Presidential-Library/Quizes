@@ -72,7 +72,19 @@ quiz.html?q=<id>         Full-page preview of a single embed, for QA
 
 A visitor answers a question, immediately sees right/wrong plus the correct answer,
 a short piece of history, and a link out to trlibrary.com in a new tab. At the end
-they get a score, an achievement tier, a downloadable badge, and share buttons.
+they get a score, an achievement tier, and a downloadable badge.
+
+### On sharing
+
+There are deliberately **no X / Facebook / LinkedIn / Bluesky buttons**. Those
+platforms' web intent URLs can carry text and a link but cannot attach an image, so
+a "share" button there would post a bare link and quietly drop the badge the visitor
+just earned. Instead the badge is a download, plus the OS share sheet on devices
+where `navigator.canShare({files})` reports it can actually carry the file.
+
+If you want the badge to appear when someone pastes a link, that is an Open Graph
+image on the trlibrary.com page hosting the embed — a Drupal change, not a change
+here, and it would show one generic image rather than a personal score.
 
 ---
 
@@ -192,9 +204,11 @@ Use a server, not `file://` — the engine loads quiz content with `fetch()`.
   cross-origin request is refused. Confirm the foundry web-embedding license, then
   self-host the four `.woff2` files in `assets/fonts/` and repoint the `src` URLs
   in `trpl.css`.
-- **Logo.** The header uses the black horizontal wordmark on white. Drop the official
-  **white** wordmark SVG into `assets/img/brand/` if you want the Dark Gray header
-  bar the brand standards specify — do not recolor the black file with CSS filters.
+- **Logo.** `assets/img/brand/` holds the horizontal wordmark as SVG in black and
+  reversed white, plus PNG rasters of each. The badge draws the white PNG; the gallery
+  header uses the black SVG. The white version was produced from the supplied vector by
+  setting the path fill, not by filtering a raster — keep it that way if it is ever
+  regenerated.
 - **Analytics.** No tracking is installed. If you want GA4 events on quiz starts,
   completions, scores, and shares, that's a small addition to `quiz.js`.
 - **Fact-check.** The Badlands content is drafted from the TRPL knowledge base but has
