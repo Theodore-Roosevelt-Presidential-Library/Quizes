@@ -1,0 +1,18 @@
+{
+  "site": {
+    "title": "Theodore Roosevelt Presidential Library Quizzes",
+    "tagline": "Fifteen questions. One badge. See how well you know T.R.",
+    "home": "https://www.trlibrary.com"
+  },
+  "quizzes": [
+    {
+      "id": "badlands",
+      "title": "T.R. in the Badlands",
+      "blurb": "In 1883 a bespectacled New York assemblyman got off a train in Dakota Territory to hunt buffalo. He left three years later a cattleman. Fifteen questions on the country that made him.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore Roosevelt in buckskin, photographed in 1885",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/badlands"
+    }
+  ]
+}
