@@ -74,6 +74,47 @@ A visitor answers a question, immediately sees right/wrong plus the correct answ
 a short piece of history, and a link out to trlibrary.com in a new tab. At the end
 they get a score, an achievement tier, and a downloadable badge.
 
+### Challenge a friend
+
+After finishing, a player can open **Challenge a friend**, enter a name, and get a
+link. The friend opens it and plays the **identical run** — same questions, same
+order, same answer positions — then sees a head-to-head result and can challenge back.
+
+Everything travels in the URL. Nothing is stored on a server, so there is no user
+data to hold, breach, or purge.
+
+```
+https://www.trlibrary.com/tr/badlands?trplq=<token>#trpl-quiz-badlands
+```
+
+The token is base64url over `version~quizId~score~total~deck~name~checksum`. The deck
+is two base36 characters per question — the source question index and an index into
+the 24 orderings of four options — so a fifteen-question challenge costs 30 characters
+and the whole link lands around 140.
+
+The trailing fragment points at the mount div, which is given the id
+`trpl-quiz-<quizId>` automatically. A challenged friend arriving on a long page is
+scrolled straight to the quiz instead of having to hunt for it.
+
+**The checksum is not security.** It stops someone editing a friend's score in the
+address bar; anyone who reads this file can forge a link. Nothing of value rides on
+it, and a tampered link simply falls back to a normal solo quiz.
+
+If a challenge names a quiz that isn't on the page, it's ignored — so a page can carry
+several embeds safely. If a question referenced in a link no longer exists because the
+quiz was edited, the run falls back to a normal shuffle rather than breaking.
+
+### Names
+
+Collected client-side only, never stored. Capped at 24 characters, whole HTML tags
+removed, stray markup characters stripped, URLs removed, and checked against a
+profanity list. Apostrophes and hyphens are kept — O'Keefe and Anne-Marie are names,
+not attacks; everything downstream sets text nodes and attributes, never `innerHTML`.
+
+The block list in `embed.js` is deliberately short and English-only. It stops the
+casual case, not a determined one. Names appear in shared trlibrary.com links, so if
+this gets real traffic it's worth revisiting.
+
 ### On sharing
 
 There are deliberately **no X / Facebook / LinkedIn / Bluesky buttons**. Those
@@ -215,6 +256,24 @@ python3 -m http.server 8000
 Use a server, not `file://` — the engine loads quiz content with `fetch()`.
 
 ---
+
+## Next: live head-to-head
+
+Not built yet. The constraint worth knowing before anyone plans around it: **GitHub
+Pages is static file hosting and cannot broker a connection between two browsers.**
+There is no GitHub service that does this.
+
+The agreed direction is peer-to-peer WebRTC through a free public signalling broker —
+no vendor account, no cost — with a **ghost-race fallback**: if the direct connection
+can't be established, both players race the same deck from a shared seed against the
+opponent's recorded pace. That matters because 5–10% of connections fail behind
+restrictive networks, and a spinning "connecting…" on a Library page is worse than a
+slightly different game.
+
+Timer, when built: **20 seconds per question, running out scores it wrong** and moves on.
+
+The deck encoding above already does most of the work — it is exactly what both
+players need to be handed the same run.
 
 ## Open items
 

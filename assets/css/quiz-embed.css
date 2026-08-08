@@ -182,6 +182,55 @@ p:last-child{margin-bottom:0}
   color:var(--dark-gray);text-decoration:none;background:transparent;cursor:pointer}
 .share-btn:hover{background:var(--dark-forest);border-color:var(--dark-forest);color:var(--white)}
 
+/* --- Name entry ----------------------------------------------------------- */
+.namefield{margin:.2rem 0 .4rem}
+.namefield__label{display:block;font-family:var(--font-caption);font-weight:700;
+  font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--dark-forest);margin-bottom:.45rem}
+.namefield__row{display:flex;gap:.5rem;flex-wrap:wrap;align-items:stretch}
+.namefield__input{
+  flex:1 1 11rem;min-width:0;font-family:var(--font-body);font-size:1rem;
+  color:var(--dark-gray);background:var(--white);
+  border:1px solid rgba(37,40,42,.3);border-radius:var(--radius);padding:.6rem .75rem;
+}
+.namefield__input:focus{border-color:var(--dark-forest);outline:none;
+  box-shadow:0 0 0 2px rgba(27,69,50,.18)}
+.namefield__err{font-family:var(--font-caption);font-size:.75rem;color:#B23A4E;
+  margin:.45rem 0 0}
+.namefield .caption{margin-top:.5rem}
+
+/* --- Head to head --------------------------------------------------------- */
+.versus{display:flex;align-items:center;gap:.75rem;margin:.6rem 0 .8rem}
+.versus__side{flex:1 1 0;min-width:0;border:1px solid var(--hairline);
+  border-radius:var(--radius);padding:.6rem .7rem;background:var(--white)}
+.versus__side.is-win{border-color:var(--dark-forest);border-width:2px;background:#EEF5EF}
+.versus__name{display:block;font-family:var(--font-caption);font-weight:700;
+  font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:#5b6063;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.versus__side.is-win .versus__name{color:var(--dark-forest)}
+.versus__score{display:block;font-family:var(--font-display);font-weight:700;
+  font-size:clamp(2rem,5vw,2.75rem);line-height:1;color:var(--dark-forest)}
+.versus__v{font-family:var(--font-caption);font-weight:700;font-size:.6875rem;
+  letter-spacing:.1em;text-transform:uppercase;color:#8a9094;flex:0 0 auto}
+
+/* --- Challenge builder ---------------------------------------------------- */
+.challenge{margin-top:.9rem;border-top:1px solid var(--hairline)}
+.challenge summary{
+  font-family:var(--font-caption);font-weight:700;font-size:.75rem;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--dark-forest);
+  cursor:pointer;padding:.8rem 0 .6rem;list-style:none;
+}
+.challenge summary::-webkit-details-marker{display:none}
+.challenge summary::after{content:" +"}
+.challenge[open] summary::after{content:" –"}
+.challenge__body{padding-bottom:.5rem}
+.linkrow{display:flex;gap:.5rem;flex-wrap:wrap;align-items:stretch;margin-top:.5rem}
+.linkbox{
+  flex:1 1 12rem;min-width:0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.75rem;color:#4a4f52;background:var(--sand-wash);
+  border:1px solid var(--hairline);border-radius:var(--radius);padding:.55rem .65rem;
+}
+
 .review{border-top:1px solid var(--hairline);margin-top:0}
 .review summary{
   font-family:var(--font-caption);font-weight:700;font-size:.75rem;

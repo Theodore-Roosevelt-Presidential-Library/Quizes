@@ -41,6 +41,143 @@
   }
 
   /* ---------------------------------------------------------------------
+     Challenge links.
+
+     Everything a challenge needs travels in the URL — nothing is stored on a
+     server, so there is no user data to hold, breach, or purge. The payload
+     carries the challenger's name, their score, and the exact deck they
+     played, so the friend faces the identical questions in the identical
+     order with the identical answer positions. Without that, "beat my score"
+     would be meaningless.
+     --------------------------------------------------------------------- */
+  var PARAM = 'trplq';
+
+  /* The 24 orderings of four options, lexicographic, so encoder and decoder
+     agree on what index 17 means. */
+  var PERMS = (function () {
+    var out = [];
+    function walk(left, acc) {
+      if (!left.length) { out.push(acc); return; }
+      for (var i = 0; i < left.length; i++) {
+        walk(left.slice(0, i).concat(left.slice(i + 1)), acc.concat([left[i]]));
+      }
+    }
+    walk([0, 1, 2, 3], []);
+    return out;
+  })();
+
+  function permIndex(perm) {
+    for (var i = 0; i < PERMS.length; i++) {
+      if (PERMS[i].join() === perm.join()) return i;
+    }
+    return 0;
+  }
+
+  // UTF-8 safe base64url, so names with accents survive the round trip
+  function b64encode(str) {
+    var bytes = new TextEncoder().encode(str), bin = '';
+    for (var i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function b64decode(s) {
+    s = String(s).replace(/-/g, '+').replace(/_/g, '/');
+    while (s.length % 4) s += '=';
+    var bin = atob(s), bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder().decode(bytes);
+  }
+
+  /* A short check value over the payload. This stops someone casually editing
+     their friend's score down in the address bar. It is NOT security — anyone
+     who reads this file can forge a link. Nothing of value rides on it. */
+  function checksum(str) {
+    var h = 5381;
+    for (var i = 0; i < str.length; i++) h = ((h * 33) ^ str.charCodeAt(i)) >>> 0;
+    return h.toString(36).slice(0, 6);
+  }
+
+  function encodeChallenge(o) {
+    // deck: two base36 chars per question — source index, then permutation index
+    var deck = o.deck.map(function (d) {
+      return d.src.toString(36) + permIndex(d.perm).toString(36);
+    }).join('');
+    var body = ['1', o.quiz, o.score, o.total, deck, o.name].join('~');
+    return b64encode(body + '~' + checksum(body));
+  }
+
+  function decodeChallenge(token) {
+    try {
+      var raw = b64decode(token);
+      var parts = raw.split('~');
+      if (parts.length < 7 || parts[0] !== '1') return null;
+      var sum = parts.pop();
+      if (checksum(parts.join('~')) !== sum) return null;
+      var deck = [], s = parts[4];
+      for (var i = 0; i + 1 < s.length; i += 2) {
+        deck.push({ src: parseInt(s[i], 36), perm: PERMS[parseInt(s[i + 1], 36)] || PERMS[0] });
+      }
+      return {
+        quiz: parts[1],
+        score: parseInt(parts[2], 10),
+        total: parseInt(parts[3], 10),
+        deck: deck,
+        name: parts.slice(5).join('~')
+      };
+    } catch (err) { return null; }
+  }
+
+  /* Names never leave the browser, but they do end up in shared links, so they
+     get cleaned before they go anywhere. */
+  var BLOCKED = ['fuck', 'shit', 'cunt', 'bitch', 'bastard', 'dick', 'cock',
+    'pussy', 'whore', 'slut', 'nigger', 'nigga', 'faggot', 'fag', 'rape',
+    'nazi', 'hitler', 'kike', 'spic', 'chink', 'retard', 'anus', 'penis',
+    'vagina', 'wank', 'twat', 'bollock', 'arsehole', 'asshole'];
+
+  function cleanName(input) {
+    var n = String(input || '')
+      .replace(/<[^>]*>/g, ' ')         // drop whole tags, not just the brackets,
+                                        // so "<script>x</script>" doesn't leave "scriptx/script"
+      /* Strip markup characters but keep apostrophes and hyphens — O'Keefe and
+         Anne-Marie are names, not attacks. Everything downstream sets text
+         nodes and attributes, never innerHTML, so these are safe to keep. */
+      .replace(/[<>&"`\\]/g, '')
+      .replace(/https?:\/\/\S+/gi, '')  // no links smuggled in
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 24);
+    var flat = n.toLowerCase().replace(/[^a-z]/g, '');
+    for (var i = 0; i < BLOCKED.length; i++) {
+      if (flat.indexOf(BLOCKED[i]) > -1) return '';
+    }
+    return n;
+  }
+
+  /* Read a challenge off the host page's own URL. */
+  function readChallenge() {
+    try {
+      var token = new URLSearchParams(global.location.search).get(PARAM);
+      if (!token) {
+        var m = global.location.hash.match(new RegExp(PARAM + '=([^&]+)'));
+        token = m && m[1];
+      }
+      return token ? decodeChallenge(token) : null;
+    } catch (err) { return null; }
+  }
+
+  /* The embed is usually partway down a long page, so the link carries a
+     fragment pointing at the quiz. The mount div is given this id when it
+     mounts, and the player is scrolled to it on arrival — a challenged friend
+     should land on the quiz, not on the top of the page hunting for it. */
+  function anchorFor(id) { return 'trpl-quiz-' + id; }
+
+  function challengeUrl(base, token, anchor) {
+    var u = String(base).split('#')[0];
+    u = u.replace(new RegExp('([?&])' + PARAM + '=[^&]*'), '$1').replace(/[?&]$/, '');
+    u = u + (u.indexOf('?') > -1 ? '&' : '?') + PARAM + '=' + token;
+    return anchor ? u + '#' + anchor : u;
+  }
+
+  /* ---------------------------------------------------------------------
      Fonts. @font-face declared inside a shadow root is ignored, so the faces
      have to be registered on the host document. Guarded so repeat embeds and
      re-scans only ever inject once. Falls back to the Oswald / Source Serif 4
@@ -195,10 +332,17 @@
       wrap(ctx, String(o.tier || '').toUpperCase(), S - 200).slice(0, 2)
         .forEach(function (l) { ctx.fillText(l, S / 2, yy); yy += 92; });
 
+      var ly = yy + 30;
+      if (o.versus) {
+        ctx.fillStyle = SAND;
+        ctx.font = '700 44px ' + DISPLAY;
+        wrap(ctx, String(o.versus).toUpperCase(), S - 240).slice(0, 2)
+          .forEach(function (l) { ctx.fillText(l, S / 2, ly); ly += 50; });
+        ly += 8;
+      }
       ctx.fillStyle = 'rgba(255,255,255,0.9)';
       ctx.font = 'italic 40px ' + BODY;
-      var ly = yy + 30;
-      wrap(ctx, o.line || '', S - 300).slice(0, 2)
+      wrap(ctx, o.line || '', S - 300).slice(0, o.versus ? 1 : 2)
         .forEach(function (l) { ctx.fillText(l, S / 2, ly); ly += 50; });
 
       ctx.fillStyle = SAND;
@@ -234,6 +378,8 @@
     this.answers = [];
     this.locked = false;
     this.deck = [];           // the shuffled run — see deal()
+    this.challenge = null;    // set by mount() when the URL carries one
+    this.playerName = '';
   }
 
   /* Fisher-Yates on a copy. */
@@ -254,24 +400,53 @@
        "shuffle": { "questions": false, "options": true }
      Turn questions off when a quiz is built as a narrative and the order carries
      meaning. */
-  Quiz.prototype.deal = function () {
-    var cfg = this.quiz.shuffle || {};
-    var source = cfg.questions === false
-      ? this.quiz.questions.slice()
-      : shuffled(this.quiz.questions);
+  /* Apply an option order to a question, remapping the correct index to follow
+     its option, and remember where it came from so the run can be replayed. */
+  function lay(q, src, order) {
+    var copy = {}, k;
+    for (k in q) if (Object.prototype.hasOwnProperty.call(q, k)) copy[k] = q[k];
+    copy.options = order.map(function (i) { return q.options[i]; });
+    copy.answer = order.indexOf(q.answer);
+    copy.src = src;
+    copy.perm = order;
+    return copy;
+  }
 
-    this.deck = source.map(function (q) {
-      if (cfg.options === false) return q;
-      var order = shuffled(q.options.map(function (_, i) { return i; }));
-      var copy = {}, k;
-      for (k in q) if (Object.prototype.hasOwnProperty.call(q, k)) copy[k] = q[k];
-      copy.options = order.map(function (i) { return q.options[i]; });
-      copy.answer = order.indexOf(q.answer);
-      return copy;
+  Quiz.prototype.deal = function () {
+    var all = this.quiz.questions;
+
+    /* Replaying a challenge: rebuild the challenger's exact run so both players
+       answer the same questions with the answers in the same places. */
+    if (this.challenge && this.challenge.deck && this.challenge.deck.length) {
+      this.deck = this.challenge.deck
+        .filter(function (d) { return all[d.src]; })
+        .map(function (d) { return lay(all[d.src], d.src, d.perm); });
+      if (this.deck.length) { this.index = 0; this.answers = []; return; }
+      // deck didn't survive (quiz edited since the link was made) — fall through
+    }
+
+    var cfg = this.quiz.shuffle || {};
+    var order = all.map(function (_, i) { return i; });
+    if (cfg.questions !== false) order = shuffled(order);
+
+    this.deck = order.map(function (src) {
+      var q = all[src];
+      var opts = q.options.map(function (_, i) { return i; });
+      return lay(q, src, cfg.options === false ? opts : shuffled(opts));
     });
 
     this.index = 0;
     this.answers = [];
+  };
+
+  Quiz.prototype.deckToken = function (name, score) {
+    return encodeChallenge({
+      quiz: this.quiz.id,
+      score: score,
+      total: this.deck.length,
+      name: name,
+      deck: this.deck.map(function (d) { return { src: d.src, perm: d.perm }; })
+    });
   };
 
   Quiz.prototype.el = function (tag, attrs, kids) {
@@ -337,28 +512,79 @@
     return e('div', { class: 'grid pad' }, [media, panel]);
   };
 
+  /* A small name field. Solo play never sees this — it only appears when a name
+     is actually needed, either to answer a challenge or to issue one. */
+  Quiz.prototype.nameField = function (label, onSubmit) {
+    var e = this.el.bind(this);
+    var input = e('input', { class: 'namefield__input', type: 'text',
+      maxlength: '24', placeholder: 'Your name', 'aria-label': label,
+      autocomplete: 'off', spellcheck: 'false' });
+    var err = e('p', { class: 'namefield__err', role: 'alert', hidden: 'hidden' });
+    var go = e('button', { class: 'btn btn-primary', type: 'button', text: 'Continue' });
+
+    function submit() {
+      var name = cleanName(input.value);
+      if (!name) {
+        err.textContent = input.value.trim()
+          ? 'Please choose a different name.'
+          : 'Enter a name to continue.';
+        err.hidden = false;
+        input.focus();
+        return;
+      }
+      err.hidden = true;
+      onSubmit(name);
+    }
+    go.addEventListener('click', submit);
+    input.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') { ev.preventDefault(); submit(); }
+    });
+
+    var wrap = e('div', { class: 'namefield' }, [
+      e('label', { class: 'namefield__label', text: label }),
+      e('div', { class: 'namefield__row' }, [input, go]),
+      err,
+      e('p', { class: 'caption', text: 'Your name is only used on this page and in the link you share. It is not stored anywhere.' })
+    ]);
+    setTimeout(function () { input.focus({ preventScroll: true }); }, 60);
+    return wrap;
+  };
+
   Quiz.prototype.renderIntro = function () {
     var self = this, e = this.el.bind(this), q = this.quiz;
     this.progress(false);
+    var c = this.challenge;
 
     var kids = [];
-    if (q.subtitle) kids.push(e('span', { class: 'overline', text: q.subtitle }));
-    kids.push(e('h2', { text: q.title }));
-    kids.push(e('p', { class: 'lede', text: q.intro || '' }));
 
-    var start = e('button', { class: 'btn btn-primary', type: 'button',
-      text: 'Start the quiz — ' + q.questions.length + ' questions' });
-    start.addEventListener('click', function () {
-      self.deal(); self.renderQuestion();
-    });
-    kids.push(start);
-    kids.push(e('span', { class: 'intro__note',
-      text: 'You will see the answer and the story behind it after each question.' }));
+    if (c) {
+      kids.push(e('span', { class: 'overline', text: 'You have been challenged' }));
+      kids.push(e('h2', { text: c.name + ' scored ' + c.score + '/' + c.total }));
+      kids.push(e('p', { class: 'lede',
+        text: 'Same questions, same order, same answer positions. Beat it if you can.' }));
+      kids.push(this.nameField('First, who is playing?', function (name) {
+        self.playerName = name;
+        self.deal();
+        self.renderQuestion();
+      }));
+    } else {
+      if (q.subtitle) kids.push(e('span', { class: 'overline', text: q.subtitle }));
+      kids.push(e('h2', { text: q.title }));
+      kids.push(e('p', { class: 'lede', text: q.intro || '' }));
 
-    var box = e('div', { class: 'intro' }, [
+      var start = e('button', { class: 'btn btn-primary', type: 'button',
+        text: 'Start the quiz — ' + q.questions.length + ' questions' });
+      start.addEventListener('click', function () {
+        self.deal(); self.renderQuestion();
+      });
+      kids.push(start);
+      kids.push(e('span', { class: 'intro__note',
+        text: 'You will see the answer and the story behind it after each question.' }));
+    }
+
+    this.mount(e('div', { class: 'intro' }, [
       this.frame(q.heroImage, q.heroAlt, q.heroCredit, kids)
-    ]);
-    this.mount(box);
+    ]));
   };
 
   Quiz.prototype.renderQuestion = function () {
@@ -472,16 +698,90 @@
       row.appendChild(shareBtn);
     }
 
-    var panel = [
-      e('span', { class: 'overline', text: q.title }),
-      e('p', { class: 'results__score', html: score + '<span>/' + total + '</span>' }),
-      e('h3', { class: 'results__tier', text: tier.name }),
-      e('p', { class: 'results__line', text: tier.line }),
-      e('div', { class: 'row' }, [dl, again]),
-      row,
-      e('p', { class: 'caption', style: 'margin-top:.6rem',
-        text: 'Save the badge, then post it wherever you like.' })
-    ];
+    var c = this.challenge;
+    var versus = null, verdict = '';
+    if (c) {
+      var me = this.playerName || 'You';
+      verdict = score > c.score ? 'You win.'
+              : score < c.score ? c.name + ' wins.'
+              : 'A dead heat.';
+      versus = me + ' ' + score + ' — ' + c.name + ' ' + c.score;
+    }
+
+    var panel = [];
+    panel.push(e('span', { class: 'overline', text: q.title }));
+
+    if (c) {
+      panel.push(e('div', { class: 'versus' }, [
+        e('div', { class: 'versus__side' + (score >= c.score ? ' is-win' : '') }, [
+          e('span', { class: 'versus__name', text: this.playerName || 'You' }),
+          e('span', { class: 'versus__score', text: String(score) })
+        ]),
+        e('span', { class: 'versus__v', text: 'vs' }),
+        e('div', { class: 'versus__side' + (c.score >= score ? ' is-win' : '') }, [
+          e('span', { class: 'versus__name', text: c.name }),
+          e('span', { class: 'versus__score', text: String(c.score) })
+        ])
+      ]));
+      panel.push(e('h3', { class: 'results__tier', text: verdict }));
+      panel.push(e('p', { class: 'results__line',
+        text: tier.name + ' — ' + tier.line }));
+    } else {
+      panel.push(e('p', { class: 'results__score',
+        html: score + '<span>/' + total + '</span>' }));
+      panel.push(e('h3', { class: 'results__tier', text: tier.name }));
+      panel.push(e('p', { class: 'results__line', text: tier.line }));
+    }
+
+    panel.push(e('div', { class: 'row' }, [dl, again]));
+    panel.push(row);
+
+    /* Challenge builder — collapsed until asked for, so the results screen
+       stays a results screen. */
+    var chal = e('details', { class: 'challenge' });
+    chal.appendChild(e('summary', {
+      text: c ? 'Challenge someone back' : 'Challenge a friend' }));
+    var cbody = e('div', { class: 'challenge__body' });
+    cbody.appendChild(this.nameField('Your name, for the challenge', function (name) {
+      cbody.innerHTML = '';
+      var token = self.deckToken(name, score);
+      var link = challengeUrl(self.shareUrl, token, self.anchor);
+
+      var box = e('input', { class: 'linkbox', type: 'text', readonly: 'readonly',
+        'aria-label': 'Challenge link', value: link });
+      var copy = e('button', { class: 'btn btn-primary', type: 'button', text: 'Copy link' });
+      copy.addEventListener('click', function () {
+        box.select();
+        var done = function () {
+          copy.textContent = 'Copied';
+          setTimeout(function () { copy.textContent = 'Copy link'; }, 1600);
+        };
+        if (global.navigator && navigator.clipboard) {
+          navigator.clipboard.writeText(link).then(done, function () { done(); });
+        } else { try { doc.execCommand('copy'); done(); } catch (err) {} }
+      });
+      cbody.appendChild(e('p', { class: 'caption',
+        text: 'Send this to a friend. They get the same fifteen questions in the same order, and their result is measured against your ' + score + '/' + total + '.' }));
+      cbody.appendChild(e('div', { class: 'linkrow' }, [box, copy]));
+      if (global.navigator && navigator.share) {
+        var sh = e('button', { class: 'share-btn', type: 'button', text: 'Send' });
+        sh.addEventListener('click', function () {
+          navigator.share({
+            title: q.title,
+            text: name + ' scored ' + score + '/' + total + ' on the ' + q.title +
+                  ' quiz. Can you beat it?',
+            url: link
+          }).catch(function () {});
+        });
+        cbody.appendChild(e('div', { class: 'row' }, [sh]));
+      }
+    }));
+    chal.appendChild(cbody);
+    panel.push(chal);
+
+    panel.push(e('p', { class: 'caption', style: 'margin-top:.6rem',
+      text: 'Save the badge, then post it wherever you like.' }));
+
     if (q.learnMore) {
       panel.push(e('p', { style: 'margin-top:1rem' }, [
         e('a', { class: 'btn btn-outline', href: q.learnMore,
@@ -536,6 +836,7 @@
       return {
         score: score, total: total, tier: tier.name, line: tier.line,
         quizTitle: (q.badge && q.badge.title) || q.title,
+        versus: versus,
         photo: withPhoto && photo && photo.complete && photo.naturalWidth ? photo : null,
         logo: logo.complete && logo.naturalWidth ? logo : null
       };
@@ -600,6 +901,7 @@
 
     var id = (host.getAttribute('data-trpl-quiz') || '').replace(/[^a-z0-9-]/gi, '');
     if (!id) return;
+    if (!host.id) host.id = anchorFor(id);
 
     installFonts();
 
@@ -625,7 +927,20 @@
       .then(function (r) { if (!r.ok) throw new Error('not found'); return r.json(); })
       .then(function (data) {
         data.id = data.id || id;
-        new Quiz(root, data, shareUrlFor(host)).renderIntro();
+        var quiz = new Quiz(root, data, shareUrlFor(host));
+        quiz.anchor = host.id;
+        /* Only honour a challenge aimed at this quiz — a page can carry more
+           than one embed, and the link names which quiz it belongs to. */
+        var c = readChallenge();
+        if (c && c.quiz === data.id) quiz.challenge = c;
+        quiz.renderIntro();
+        /* Arrived on a challenge link: the embed is usually well down the page,
+           so put it in front of them rather than making them hunt for it. */
+        if (quiz.challenge) {
+          setTimeout(function () {
+            host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 120);
+        }
       })
       .catch(function () {
         root.getElementById('stage').innerHTML =
