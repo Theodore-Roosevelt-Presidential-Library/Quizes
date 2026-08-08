@@ -3,14 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quizzes | Theodore Roosevelt Presidential Library</title>
-<meta name="description" content="Test what you know about Theodore Roosevelt. Fifteen questions, the story behind every answer, and a badge you can share.">
-<meta property="og:title" content="Theodore Roosevelt Presidential Library Quizzes">
-<meta property="og:description" content="Fifteen questions. One badge. See how well you know T.R.">
-<meta property="og:image" content="https://quiz.labs.trlibrary.com/assets/img/badlands/tr-1885-portrait.jpg">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@TRPresLibrary">
+<title>Quiz embeds | Theodore Roosevelt Presidential Library</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Preview and embed codes for Theodore Roosevelt Presidential Library quizzes. Copy a snippet and paste it into any trlibrary.com page.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -35,9 +30,20 @@
   <section class="hero" data-section-theme="green-white">
     <div class="wrap">
       <span class="overline" style="color:var(--sand)">Theodore Roosevelt Presidential Library</span>
-      <h1>Quizzes</h1>
-      <p class="lede" id="tagline">Fifteen questions. One badge. See how well you know T.R.</p>
+      <h1>Quiz embeds</h1>
+      <p class="lede" id="tagline">Preview a quiz, copy the snippet, paste it into any page on trlibrary.com. It renders inside a shadow root, so Drupal styling can't touch it and it can't touch Drupal.</p>
     </div>
+  </section>
+
+  <section class="wrap" style="padding:clamp(2.5rem,6vw,4rem) 0 1rem">
+    <h2 style="color:var(--dark-forest)">How to embed</h2>
+    <p class="lede" style="max-width:60ch">Paste both lines into a <strong>Custom Block</strong> or a text field using the <strong>Full HTML</strong> format. The script tag only needs to appear once per page even if you place several quizzes.</p>
+    <div class="embed-block">
+      <pre class="embed-code" id="generic-code">&lt;div data-trpl-quiz="badlands"&gt;&lt;/div&gt;
+&lt;script src="https://quiz.labs.trlibrary.com/assets/js/embed.js" async&gt;&lt;/script&gt;</pre>
+      <button class="btn btn-secondary copy-btn" data-target="generic-code" type="button">Copy</button>
+    </div>
+    <p class="caption" style="max-width:60ch">Share links default to whatever page the embed is sitting on. To pin them somewhere else, add <code>data-share-url="https://www.trlibrary.com/…"</code> to the div.</p>
   </section>
 
   <div class="wrap">
@@ -50,38 +56,61 @@
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>Theodore Roosevelt Presidential Library</strong> · Medora, North Dakota</p>
-    <p>Historical images from the Library's digital asset collections, drawn from the Library of Congress and the Houghton Library, Harvard University. <a href="https://www.trlibrary.com">trlibrary.com</a> · <a href="https://www.trlibrary.com/visit">Plan your visit</a> · <a href="https://www.trlibrary.com/privacy-policy">Privacy</a></p>
+    <p>Historical images from the Theodore Roosevelt Collection, Houghton Library, Harvard University, and the Library of Congress, Prints and Photographs Division. <a href="https://www.trlibrary.com">trlibrary.com</a> · <a href="https://www.trlibrary.com/visit">Plan your visit</a></p>
   </div>
 </footer>
 
 <script>
+var ORIGIN = location.origin.indexOf('github.io') > -1 || location.protocol === 'file:'
+  ? 'https://quiz.labs.trlibrary.com'
+  : location.origin;
+
 fetch('quizzes/index.json', { cache: 'no-cache' })
   .then(function (r) { return r.json(); })
   .then(function (data) {
-    if (data.site && data.site.tagline) document.getElementById('tagline').textContent = data.site.tagline;
     var grid = document.getElementById('quiz-grid');
     grid.innerHTML = '';
-    (data.quizzes || []).forEach(function (q) {
-      var a = document.createElement('a');
-      a.className = 'quiz-card';
-      a.href = 'quiz.html?q=' + encodeURIComponent(q.id);
-      a.style.textDecoration = 'none';
-      a.style.color = 'inherit';
-      a.innerHTML =
+    (data.quizzes || []).forEach(function (q, n) {
+      var codeId = 'code-' + q.id;
+      var card = document.createElement('article');
+      card.className = 'quiz-card';
+      card.innerHTML =
         '<img class="quiz-card__img" src="' + q.image + '" alt="' + (q.imageAlt || '') + '" loading="lazy">' +
         '<div class="quiz-card__body">' +
           '<span class="badge-pill">' + (q.questions || 15) + ' questions</span>' +
           '<h3>' + q.title + '</h3>' +
           '<p>' + q.blurb + '</p>' +
-          '<span class="btn btn-secondary" style="align-self:flex-start">Take the quiz</span>' +
+          '<div class="embed-block">' +
+            '<pre class="embed-code" id="' + codeId + '">' +
+              '&lt;div data-trpl-quiz="' + q.id + '"&gt;&lt;/div&gt;\n' +
+              '&lt;script src="' + ORIGIN + '/assets/js/embed.js" async&gt;&lt;/script&gt;' +
+            '</pre>' +
+            '<button class="btn btn-secondary copy-btn" data-target="' + codeId + '" type="button">Copy embed code</button>' +
+          '</div>' +
+          '<a class="btn btn-primary" style="align-self:flex-start" href="quiz.html?q=' + encodeURIComponent(q.id) + '">Preview it</a>' +
         '</div>';
-      grid.appendChild(a);
+      grid.appendChild(card);
     });
+    wireCopy();
   })
   .catch(function () {
     document.getElementById('quiz-grid').innerHTML =
       '<p class="error">Quizzes could not be loaded right now.</p>';
   });
+
+function wireCopy() {
+  document.querySelectorAll('.copy-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var text = document.getElementById(btn.dataset.target).textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        var was = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = was; }, 1600);
+      });
+    });
+  });
+}
+wireCopy();
 </script>
 </body>
 </html>

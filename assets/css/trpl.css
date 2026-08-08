@@ -228,6 +228,24 @@ p{margin:0 0 1rem}
 
 .loading,.error{padding:5rem 0;text-align:center;color:#5b6063;font-family:var(--font-caption)}
 
+/* --- Embed code blocks (gallery only) ------------------------------------ */
+.embed-block{margin:.5rem 0 1rem}
+.embed-code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.8125rem;line-height:1.55;white-space:pre-wrap;word-break:break-all;
+  background:var(--dark-gray);color:#E8E6E1;border-radius:var(--radius);
+  padding:.9rem 1rem;margin:0 0 .6rem;overflow-x:auto;
+}
+.copy-btn{padding:.55rem 1.1rem;font-size:.75rem}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.875em;background:var(--sand-wash);padding:.1em .35em;border-radius:3px}
+.preview-note{
+  font-family:var(--font-caption);font-size:.875rem;line-height:1.55;
+  background:var(--sand-wash);border-left:4px solid var(--sand);
+  padding:.9rem 1.1rem;border-radius:0 var(--radius) var(--radius) 0;margin:0 0 2rem;
+}
+.quiz-card__body .embed-code{font-size:.75rem}
+
 @media (max-width:40rem){
   .q-figure img{max-height:15rem}
   .site-header__logo img{height:34px}

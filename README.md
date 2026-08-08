@@ -1,23 +1,54 @@
 # TRPL Quizzes
 
-A reusable, JSON-driven quiz platform for the Theodore Roosevelt Presidential Library.
-Static HTML/CSS/JS — no build step, no dependencies. Push to `main` and GitHub Pages serves it.
+Embeddable quizzes for the Theodore Roosevelt Presidential Library. The quizzes are
+meant to live **on trlibrary.com pages**, not on a site of their own —
+`quiz.labs.trlibrary.com` is the preview gallery and asset host.
 
-**Live at:** https://quiz.labs.trlibrary.com
+Static HTML/CSS/JS — no build step, no dependencies. Push to `main`, GitHub Pages serves it.
+
+---
+
+## Embedding a quiz
+
+Paste these two lines into a **Custom Block** or any text field using the
+**Full HTML** format:
+
+```html
+<div data-trpl-quiz="badlands"></div>
+<script src="https://quiz.labs.trlibrary.com/assets/js/embed.js" async></script>
+```
+
+That's the whole integration. The script tag only needs to appear **once per page**
+even if you place several quizzes on it.
+
+The quiz mounts into a **shadow root**, so Drupal and Bootstrap styling cannot reach in
+and the quiz's styling cannot leak out. Verified against a host page deliberately
+loaded with Bootstrap plus `!important` overrides on `button`, `img`, `ul`, and
+headings: the embed rendered correctly and the host page was untouched.
+
+### Optional attributes
+
+| Attribute | Default | What it does |
+|---|---|---|
+| `data-share-url` | the page's canonical URL, else its own URL | Where badge share links point |
+| `data-base` | wherever `embed.js` loaded from | Override the asset origin |
+
+`TRPLQuiz.scan()` re-scans the document for mount points added after load — useful if
+a view or AJAX block injects the markup late.
 
 ---
 
 ## How it works
 
 ```
-index.html              Landing page — reads quizzes/index.json, renders a card per quiz
-quiz.html?q=<id>        The engine — reads quizzes/<id>.json and runs it
-assets/css/trpl.css     Brand stylesheet (colors, type, section themes)
-assets/js/quiz.js       Engine: question flow, feedback, scoring, results
-assets/js/badge.js      Canvas badge generator (1200×1200 PNG)
-assets/img/<quiz>/      Imagery for that quiz + credits.json (DAM ids and rights)
-quizzes/index.json      The list that populates the landing page
-quizzes/<id>.json       One file per quiz — this is the only file you edit to add content
+assets/js/embed.js       Everything: engine, badge generator, shadow-root mounting
+assets/css/quiz-embed.css  Styles for the quiz, loaded inside the shadow root
+assets/css/trpl.css      Styles for the gallery pages only
+assets/img/<quiz>/       Imagery for that quiz + credits.json (DAM ids, collection, rights)
+quizzes/index.json       The list that populates the gallery
+quizzes/<id>.json        One file per quiz — the only file you edit to add content
+index.html               Gallery: preview each quiz, copy its embed code
+quiz.html?q=<id>         Full-page preview of a single embed, for QA
 ```
 
 A visitor answers a question, immediately sees right/wrong plus the correct answer,
@@ -75,14 +106,20 @@ supports the tokens `{score}`, `{total}`, and `{tier}`.
 
 ---
 
-## Imagery
+## Imagery and credits
 
-All historical images come from the Library's Acquia DAM (Widen), which sources them
-from the Library of Congress and the Houghton Library at Harvard. They are downloaded
-once, resized to 1400px wide, and committed — no hotlinking, no runtime auth, no CORS.
+Historical images are pulled once from the Library's Acquia DAM (Widen), resized to
+1400px wide, and committed — no hotlinking, no runtime auth.
 
-`assets/img/badlands/credits.json` records the DAM asset id, original filename,
-catalog description, and rights statement for every file. Keep it current.
+**Credit the originating collection, never the DAM.** The DAM is our access system,
+not a source. Use:
+
+- `Theodore Roosevelt Collection, Houghton Library, Harvard University.`
+- `Library of Congress, Prints and Photographs Division.`
+
+`assets/img/<quiz>/credits.json` records, per file: the DAM asset id, original
+filename, catalog description, rights statement, originating `collection`, and the
+`credit_line` that appears under the image. Keep it current — it is the audit trail.
 
 To pull more assets:
 
@@ -99,6 +136,13 @@ several famous Badlands photographs are posed re-creations.
 ## Deployment
 
 GitHub Pages, served from `main`. `CNAME` and `.nojekyll` are already committed.
+**Pages is not enabled yet** — that is why nothing builds and nothing resolves.
+Turn it on in Settings → Pages and the first deployment will appear under Actions.
+
+Cross-origin note: the embed fetches `quizzes/<id>.json` from this host, so the host
+must send `Access-Control-Allow-Origin: *`. GitHub Pages does this for static files by
+default; if you ever move these assets behind a different server, that header has to
+come with them or every embed will fail to load its questions.
 
 **DNS — one record to create:**
 

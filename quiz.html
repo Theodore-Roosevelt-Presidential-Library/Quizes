@@ -3,14 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quiz | Theodore Roosevelt Presidential Library</title>
-<meta name="description" content="Test what you know about Theodore Roosevelt. Fifteen questions, the story behind every answer, and a badge you can share.">
-<meta property="og:title" content="Theodore Roosevelt Presidential Library Quizzes">
-<meta property="og:description" content="Fifteen questions. One badge. See how well you know T.R.">
-<meta property="og:image" content="https://quiz.labs.trlibrary.com/assets/img/badlands/tr-1885-portrait.jpg">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@TRPresLibrary">
+<title>Quiz preview | Theodore Roosevelt Presidential Library</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Preview and QA view for a Theodore Roosevelt Presidential Library quiz. The quiz is meant to be embedded on trlibrary.com.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -20,7 +15,7 @@
 
 <header class="site-header">
   <div class="wrap site-header__inner">
-    <a class="site-header__logo" href="https://www.trlibrary.com">
+    <a class="site-header__logo" href="index.html">
       <img src="assets/img/brand/trpl-wordmark-black.png" alt="Theodore Roosevelt Presidential Library">
     </a>
     <nav class="site-header__nav" aria-label="Primary">
@@ -31,26 +26,31 @@
   </div>
 </header>
 
-<div class="progress" id="progress" hidden>
-  <div class="wrap wrap--narrow progress__inner">
-    <span class="progress__label">Question 1</span>
-    <span class="progress__track"><span class="progress__fill"></span></span>
-    <span class="progress__score">0 correct</span>
-  </div>
-</div>
+<main class="wrap wrap--narrow" style="padding:2.5rem 0 4rem">
+  <p class="preview-note">
+    <strong>Preview.</strong> This is the QA view. The quiz below is the live embed,
+    running exactly as it will on trlibrary.com.
+    <a href="index.html">Get the embed code</a>.
+  </p>
 
-<main id="app">
-  <div class="wrap"><p class="loading">Loading the quiz…</p></div>
+  <!-- the embed, identical to what goes on trlibrary.com -->
+  <div data-trpl-quiz="badlands" id="mount"></div>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>Theodore Roosevelt Presidential Library</strong> · Medora, North Dakota</p>
-    <p>Historical images from the Library's digital asset collections, drawn from the Library of Congress and the Houghton Library, Harvard University. <a href="https://www.trlibrary.com">trlibrary.com</a> · <a href="index.html">All quizzes</a> · <a href="https://www.trlibrary.com/privacy-policy">Privacy</a></p>
+    <p>Historical images from the Theodore Roosevelt Collection, Houghton Library, Harvard University, and the Library of Congress, Prints and Photographs Division. <a href="https://www.trlibrary.com">trlibrary.com</a> · <a href="index.html">All quizzes</a></p>
   </div>
 </footer>
 
-<script src="assets/js/badge.js"></script>
-<script src="assets/js/quiz.js"></script>
+<script>
+// Preview convenience: ?q=<id> picks which quiz to mount.
+(function () {
+  var id = (new URLSearchParams(location.search).get('q') || 'badlands').replace(/[^a-z0-9-]/gi, '');
+  document.getElementById('mount').setAttribute('data-trpl-quiz', id);
+})();
+</script>
+<script src="assets/js/embed.js"></script>
 </body>
 </html>

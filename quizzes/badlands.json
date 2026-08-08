@@ -1,249 +1,318 @@
 {
-  "id": "badlands",
+ "id": "badlands",
+ "title": "T.R. in the Badlands",
+ "subtitle": "Dakota Territory, 1883–1887",
+ "intro": "Theodore Roosevelt arrived in Dakota Territory a grieving, asthmatic New York politician who weighed about 135 pounds. He left three years later a working cattleman who could ride from dawn to dusk. Fifteen questions on the country that made him — and on what he did while he was here.",
+ "heroImage": "assets/img/badlands/tr-1885-portrait.jpg",
+ "heroAlt": "Theodore Roosevelt in fringed buckskin with a rifle, 1885",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "badge": {
   "title": "T.R. in the Badlands",
-  "subtitle": "Dakota Territory, 1883–1887",
-  "intro": "Theodore Roosevelt arrived in Dakota Territory a grieving, asthmatic New York politician who weighed about 135 pounds. He left three years later a working cattleman who could ride from dawn to dusk. Fifteen questions on the country that made him — and on what he did while he was here.",
-  "heroImage": "assets/img/badlands/tr-1885-portrait.jpg",
-  "heroAlt": "Theodore Roosevelt in fringed buckskin with a rifle, 1885",
-  "learnMore": "https://www.trlibrary.com/tr/badlands",
-  "badge": {
-    "title": "T.R. in the Badlands",
-    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Badlands quiz — {tier}. Try it:",
-    "url": "https://quiz.labs.trlibrary.com/quiz.html?q=badlands"
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Badlands quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Elkhorn Ranchman",
+   "line": "Perfect. Hagedorn would have interviewed you."
   },
-  "tiers": [
-    { "min": 15, "name": "Elkhorn Ranchman", "line": "Perfect. Hagedorn would have interviewed you." },
-    { "min": 13, "name": "Deputy Sheriff", "line": "You know this country cold." },
-    { "min": 10, "name": "Roundup Rider", "line": "You've put in your hours in the saddle." },
-    { "min": 7,  "name": "Maltese Cross Hand", "line": "Solid work. A few more seasons and you're a cattleman." },
-    { "min": 4,  "name": "Greenhorn", "line": "You're learning the country. Keep riding." },
-    { "min": 0,  "name": "Four-Eyed Dude", "line": "Everybody starts here. So did he." }
-  ],
-  "questions": [
-    {
-      "prompt": "What drew Theodore Roosevelt to Dakota Territory in September 1883?",
-      "options": [
-        "He wanted to hunt buffalo before the last herds disappeared",
-        "He was sent west on New York State Assembly business",
-        "His family owned land in the Badlands",
-        "He was recovering from an injury on doctor's orders"
-      ],
-      "answer": 0,
-      "explanation": "Roosevelt was twenty-four, serving his third Assembly term, and worn thin by the session. He came to shoot a buffalo before there were none left to shoot. He nearly missed his chance: a herd of perhaps 300,000 animals had been slaughtered along the Little Missouri only months earlier, and he had to hunt for days to find one bull.",
-      "image": "assets/img/badlands/medora-1883.jpg",
-      "imageAlt": "Medora, Dakota Territory, in 1883 — the office and company store of the Marquis de Mores",
-      "credit": "Medora in 1883. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "What did the men around the Little Missouri call Roosevelt when he first stepped off the train?",
-      "options": [
-        "The Cattle King",
-        "The four-eyed dude",
-        "Mr. Assemblyman",
-        "Old Four Eyes"
-      ],
-      "answer": 1,
-      "explanation": "He was thin, wore thick spectacles, and dressed like Manhattan. \"Four-eyed dude\" was not a compliment — \"dude\" meant an Easterner playing at the frontier. The nickname stuck for a while. \"Old Four Eyes,\" the version most people know today, is largely a later coinage; contemporaries used the blunter phrase.",
-      "image": "assets/img/badlands/tr-first-buckskins.jpg",
-      "imageAlt": "Theodore Roosevelt in his first buckskin suit",
-      "credit": "\"Theodore Roosevelt in his first buckskins.\" Library of Congress, via the TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "More T.R. myths, sorted out" }
-    },
-    {
-      "prompt": "Who guided Roosevelt on that first buffalo hunt?",
-      "options": [
-        "Bill Sewall",
-        "The Marquis de Mores",
-        "Joe Ferris",
-        "\"Hell-Roaring\" Bill Jones"
-      ],
-      "answer": 2,
-      "explanation": "Joe Ferris was barn superintendent at the Pyramid Park Hotel and took the job for one hundred dollars. He expected the Easterner to quit. Instead he watched him fall off horses, get soaked, get lost, and keep going without complaint. Ferris later told Roosevelt's biographer Hermann Hagedorn: \"He had grit. I liked him from the start.\"",
-      "image": "assets/img/badlands/joe-ferris-store.jpg",
-      "imageAlt": "The store of Joe Ferris at Medora, North Dakota, with a group of men outside",
-      "credit": "The store of Joe Ferris at Medora, N.D. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around T.R." }
-    },
-    {
-      "prompt": "How did Roosevelt react when he finally killed his first buffalo?",
-      "options": [
-        "He recorded the weight in his hunting journal and moved on",
-        "He whooped, danced around the carcass, and beat it with his hat",
-        "He refused to take the head as a trophy",
-        "He said nothing at all for the rest of the day"
-      ],
-      "answer": 1,
-      "explanation": "After days of cold rain and sleet, the moment broke him wide open. Joe Ferris remembered it decades later: \"I never saw anyone so enthused in my life. He was perfectly crazy with the excitement. He got right down and beat the dead buffalo with his hat.\" Roosevelt handed Ferris a hundred dollars on the spot.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "Theodore Roosevelt in fringed buckskin holding a rifle, 1885",
-      "credit": "Theodore Roosevelt in 1885. Library of Congress, via the TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "Before he went home that autumn, Roosevelt wrote a check for $14,000. What did it buy?",
-      "options": [
-        "A half interest in the town of Medora",
-        "The Elkhorn Ranch",
-        "A stake in the Maltese Cross Ranch",
-        "Shares in the Northern Pacific Railroad"
-      ],
-      "answer": 2,
-      "explanation": "He handed $14,000 to Sylvane Ferris and Bill Merrifield and bought into the Maltese Cross — also called the Chimney Butte Ranch — about seven miles south of Medora, with a starting herd of roughly 450 head. Roosevelt was tickled by the brand. In his Autobiography: \"the general impression along the Little Missouri was that 'maltese' must be a plural.\"",
-      "image": "assets/img/badlands/maltese-cross-ranch.jpg",
-      "imageAlt": "The Maltese Cross Ranch house as it was when Roosevelt lived there",
-      "credit": "Maltese Cross Ranch house as it was when T.R. lived there. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "On February 14, 1884, Roosevelt suffered a loss that sent him back west for good. What happened?",
-      "options": [
-        "His wife and his mother died in the same house on the same day",
-        "His ranch partners dissolved the Maltese Cross agreement",
-        "He lost his Assembly seat in a recount",
-        "His Manhattan home burned"
-      ],
-      "answer": 0,
-      "explanation": "His mother, Martha \"Mittie\" Roosevelt, died of typhoid fever at three in the morning. His wife, Alice Hathaway Lee Roosevelt, died of Bright's disease that afternoon, two days after giving birth to their daughter. In his diary Roosevelt drew a heavy X and wrote beneath it: \"The light has gone out of my life.\" He almost never spoke of Alice again.",
-      "image": "assets/img/badlands/alice-hathaway-lee.jpg",
-      "imageAlt": "Alice Hathaway Lee, the first Mrs. Theodore Roosevelt",
-      "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
-    },
-    {
-      "prompt": "Roosevelt's second ranch, the Elkhorn, got its name from what?",
-      "options": [
-        "A nearby butte shaped like an antler",
-        "The brand used by the previous owner",
-        "A pair of interlocked elk antlers found on the site",
-        "An elk Roosevelt shot on his first day there"
-      ],
-      "answer": 2,
-      "explanation": "Two bull elk had locked antlers and died together where the ranch house went up — Roosevelt took the name from them. The Elkhorn sat about 35 miles north of Medora in a bend of the Little Missouri, deliberately remote. He called it his \"home ranch.\" Nothing remains today but the foundation stones.",
-      "image": "assets/img/badlands/elkhorn-ranch.jpg",
-      "imageAlt": "The Elkhorn Ranch house among cottonwoods on the Little Missouri",
-      "credit": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/visit/exhibits", "label": "See the Elkhorn cabin recreation at the Library" }
-    },
-    {
-      "prompt": "Roosevelt brought two men out from Maine to run the Elkhorn. Who were they?",
-      "options": [
-        "Sylvane Ferris and Bill Merrifield",
-        "Bill Sewall and Wilmot Dow",
-        "Gregor and Lincoln Lang",
-        "Joe Ferris and Arthur Packard"
-      ],
-      "answer": 1,
-      "explanation": "Bill Sewall was a Maine guide Roosevelt had hired as a teenager in 1878; Wilmot Dow was Sewall's nephew and, by local reckoning, the better shot of the two. Neither had ever worked cattle. Roosevelt wanted men he trusted more than men who knew the business — and Sewall, who was blunt to the point of rudeness, told him hard truths nobody else would.",
-      "image": "assets/img/badlands/dow-tr-sewall.jpg",
-      "imageAlt": "Wilmot Dow, Theodore Roosevelt, and Bill Sewall in fur coats at the Elkhorn Ranch",
-      "credit": "Wilmot Dow, T.R., and Bill Sewall at Elkhorn Ranch. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around T.R." }
-    },
-    {
-      "prompt": "Who founded the town of Medora and named it for his wife?",
-      "options": [
-        "Gregor Lang",
-        "Arthur Packard",
-        "Theodore Roosevelt",
-        "The Marquis de Mores"
-      ],
-      "answer": 3,
-      "explanation": "Antoine de Vallombrosa, the Marquis de Mores, was a French aristocrat and cavalry officer born the same year as Roosevelt. He founded Medora on April 1, 1883, naming it for his wife, Medora von Hoffman, and sank a fortune into a slaughterhouse meant to ship dressed beef east in refrigerated cars. The Chicago packers beat him. His abattoir chimney still stands.",
-      "image": "assets/img/badlands/de-mores-house.jpg",
-      "imageAlt": "The house of the Marquis de Mores above the Little Missouri at Medora",
-      "credit": "The house of the Marquis de Mores from the eastern bank of the river. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan a visit to Medora" }
-    },
-    {
-      "prompt": "Roosevelt also took an unpaid job keeping order in the Badlands. What was it?",
-      "options": [
-        "Deputy sheriff for the northern end of Billings County",
-        "Territorial judge at Dickinson",
-        "U.S. Marshal for Dakota Territory",
-        "Captain of the Medora militia"
-      ],
-      "answer": 0,
-      "explanation": "He served as deputy sheriff under \"Hell-Roaring\" Bill Jones, a man Roosevelt described as \"the nastiest talking man I ever heard.\" The arrangement was casual — Jones worked as a hired hand on Roosevelt's ranch when the ranch needed hands, and Roosevelt rode as deputy when the county needed a deputy. As he wrote later, \"we were far too remote from the county seat for the law to concern itself with us.\"",
-      "image": "assets/img/badlands/tr-ranch-costume.jpg",
-      "imageAlt": "Theodore Roosevelt mounted on horseback in ranch clothes near Medora",
-      "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "In a hotel barroom, a drunk with two revolvers announced, \"Four Eyes is going to treat!\" What did Roosevelt do?",
-      "options": [
-        "Bought the drinks and left quietly",
-        "Drew his own revolver",
-        "Knocked the man out with three punches",
-        "Sent for the sheriff"
-      ],
-      "answer": 2,
-      "explanation": "Roosevelt tried to laugh it off and move away first. When that failed, he wrote in his Autobiography: \"As I rose, I struck quick and hard with my right just to one side of the point of his jaw, hitting with my left as I straightened out, and then again with my right.\" The man's guns went off into the ceiling as he dropped. Roosevelt never named the town; tradition places it at Mingusville, now Wibaux, Montana.",
-      "image": "assets/img/badlands/bad-lands-cowboy.jpg",
-      "imageAlt": "The office of the Bad Lands Cow Boy newspaper in Medora",
-      "credit": "Office of the Bad Lands Cow Boy. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/quotes", "label": "T.R. in his own words" }
-    },
-    {
-      "prompt": "In March 1886 three men stole something from the Elkhorn and floated off down the Little Missouri. What did they take?",
-      "options": [
-        "Roosevelt's boat",
-        "Roosevelt's saddle horses",
-        "The ranch's winter supplies",
-        "The Elkhorn cattle brand irons"
-      ],
-      "answer": 0,
-      "explanation": "They took the scow — the flat-bottomed boat that was the ranch's only crossing of an ice-choked river. Sewall and Dow built a replacement in a few days below freezing, and on March 30 the three men launched it downstream after the thieves. Roosevelt packed Tolstoy's Anna Karenina and a volume of Matthew Arnold to read by the fire.",
-      "image": "assets/img/badlands/little-missouri.jpg",
-      "imageAlt": "The Little Missouri River winding through the Badlands",
-      "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "After capturing the thieves, Roosevelt turned down the easy option. What did he do instead?",
-      "options": [
-        "Let them go with a warning",
-        "Handed them to local cowboys, who would almost certainly have hanged them",
-        "Marched them roughly 100 miles overland to the sheriff at Dickinson",
-        "Held them at the ranch until spring"
-      ],
-      "answer": 2,
-      "explanation": "Hanging was what the country expected, and cowboys were on hand to do it. Roosevelt refused. He kept the three prisoners moving for some 36 hours to Dickinson, walking behind them with a Winchester and reading Matthew Arnold to stay awake. His feet blistered so badly that Dr. Victor Stickney had to treat them; his fee for the job was about fifty dollars. He later called it the most important thing he did in the Badlands — not because it was brave, but because choosing a hundred-mile march over a rope argued that law belongs even where there is no courthouse. (The thieves drew twenty-five months, not the three years some accounts report.)",
-      "image": "assets/img/badlands/boat-thieves-staged.jpg",
-      "imageAlt": "A staged photograph of Roosevelt guarding the boat thieves on a riverbank",
-      "credit": "\"T.R. guarding the boat thieves\" — a re-creation staged after the fact, with Sewall, Dow, and an unidentified man posing as the prisoners. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
-    },
-    {
-      "prompt": "The winter of 1886–87 ended the open range. What did ranchers call it, and what did it cost Roosevelt?",
-      "options": [
-        "The Long Freeze — he lost about a quarter of his herd",
-        "The Great Die-Up — he lost roughly 60 to 80 percent of his herd",
-        "The Blue Winter — he lost his ranch buildings",
-        "The Hard Snow — he lost nothing, having sold out in the fall"
-      ],
-      "answer": 1,
-      "explanation": "Temperatures fell to forty below and stayed. The range had been eaten bare by overstocking, so the cattle went into the storms already starving. Roosevelt came back in spring 1887 to find the coulees full of carcasses and 60 to 80 percent of his herd dead. He had put roughly $80,000 into the Badlands over the years. He never got most of it back.",
-      "image": "assets/img/badlands/roundup-herd.jpg",
-      "imageAlt": "A large herd of cattle on the northern plains",
-      "credit": "Cattle on the range. Photograph by L. A. Huffman. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/tr/conservation", "label": "How the range shaped his conservation" }
-    },
-    {
-      "prompt": "Looking back, how did Roosevelt weigh his Dakota years against the rest of his life?",
-      "options": [
-        "He called them a pleasant interruption",
-        "He credited them with making his presidency possible",
-        "He regretted the money he had lost there",
-        "He rarely referred to them once he left"
-      ],
-      "answer": 1,
-      "explanation": "\"I never would have been President if it had not been for my experiences in North Dakota,\" he said — a line the Library takes seriously enough to have built a presidential library around it. He arrived at 135 pounds with asthma and left at about 170 without it. He told his biographer Hermann Hagedorn, \"It was here that the romance of my life began.\"",
-      "image": "assets/img/badlands/tr-roundup-1885.jpg",
-      "imageAlt": "Theodore Roosevelt standing next to his horse on the roundup, 1885",
-      "credit": "Theodore Roosevelt on the round-up, 1885. TRPL Digital Asset Library.",
-      "link": { "url": "https://www.trlibrary.com/visit", "label": "Come see the country that did it" }
-    }
-  ]
+  {
+   "min": 13,
+   "name": "Deputy Sheriff",
+   "line": "You know this country cold."
+  },
+  {
+   "min": 10,
+   "name": "Roundup Rider",
+   "line": "You've put in your hours in the saddle."
+  },
+  {
+   "min": 7,
+   "name": "Maltese Cross Hand",
+   "line": "Solid work. A few more seasons and you're a cattleman."
+  },
+  {
+   "min": 4,
+   "name": "Greenhorn",
+   "line": "You're learning the country. Keep riding."
+  },
+  {
+   "min": 0,
+   "name": "Four-Eyed Dude",
+   "line": "Everybody starts here. So did he."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What drew Theodore Roosevelt to Dakota Territory in September 1883?",
+   "options": [
+    "He wanted to hunt buffalo before the last herds disappeared",
+    "He was sent west on New York State Assembly business",
+    "His family owned land in the Badlands",
+    "He was recovering from an injury on doctor's orders"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt was twenty-four, serving his third Assembly term, and worn thin by the session. He came to shoot a buffalo before there were none left to shoot. He nearly missed his chance: a herd of perhaps 300,000 animals had been slaughtered along the Little Missouri only months earlier, and he had to hunt for days to find one bull.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "Medora, Dakota Territory, in 1883 — the office and company store of the Marquis de Mores",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What did the men around the Little Missouri call Roosevelt when he first stepped off the train?",
+   "options": [
+    "The Cattle King",
+    "The four-eyed dude",
+    "Mr. Assemblyman",
+    "Old Four Eyes"
+   ],
+   "answer": 1,
+   "explanation": "He was thin, wore thick spectacles, and dressed like Manhattan. \"Four-eyed dude\" was not a compliment — \"dude\" meant an Easterner playing at the frontier. The nickname stuck for a while. \"Old Four Eyes,\" the version most people know today, is largely a later coinage; contemporaries used the blunter phrase.",
+   "image": "assets/img/badlands/tr-first-buckskins.jpg",
+   "imageAlt": "Theodore Roosevelt in his first buckskin suit",
+   "credit": "\"Theodore Roosevelt in his first buckskins.\" Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "More T.R. myths, sorted out"
+   }
+  },
+  {
+   "prompt": "Who guided Roosevelt on that first buffalo hunt?",
+   "options": [
+    "Bill Sewall",
+    "The Marquis de Mores",
+    "Joe Ferris",
+    "\"Hell-Roaring\" Bill Jones"
+   ],
+   "answer": 2,
+   "explanation": "Joe Ferris was barn superintendent at the Pyramid Park Hotel and took the job for one hundred dollars. He expected the Easterner to quit. Instead he watched him fall off horses, get soaked, get lost, and keep going without complaint. Ferris later told Roosevelt's biographer Hermann Hagedorn: \"He had grit. I liked him from the start.\"",
+   "image": "assets/img/badlands/joe-ferris-store.jpg",
+   "imageAlt": "The store of Joe Ferris at Medora, North Dakota, with a group of men outside",
+   "credit": "The store of Joe Ferris at Medora, N.D. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "How did Roosevelt react when he finally killed his first buffalo?",
+   "options": [
+    "He recorded the weight in his hunting journal and moved on",
+    "He whooped, danced around the carcass, and beat it with his hat",
+    "He refused to take the head as a trophy",
+    "He said nothing at all for the rest of the day"
+   ],
+   "answer": 1,
+   "explanation": "After days of cold rain and sleet, the moment broke him wide open. Joe Ferris remembered it decades later: \"I never saw anyone so enthused in my life. He was perfectly crazy with the excitement. He got right down and beat the dead buffalo with his hat.\" Roosevelt handed Ferris a hundred dollars on the spot.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt in fringed buckskin holding a rifle, 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Before he went home that autumn, Roosevelt wrote a check for $14,000. What did it buy?",
+   "options": [
+    "A half interest in the town of Medora",
+    "The Elkhorn Ranch",
+    "A stake in the Maltese Cross Ranch",
+    "Shares in the Northern Pacific Railroad"
+   ],
+   "answer": 2,
+   "explanation": "He handed $14,000 to Sylvane Ferris and Bill Merrifield and bought into the Maltese Cross — also called the Chimney Butte Ranch — about seven miles south of Medora, with a starting herd of roughly 450 head. Roosevelt was tickled by the brand. In his Autobiography: \"the general impression along the Little Missouri was that 'maltese' must be a plural.\"",
+   "image": "assets/img/badlands/maltese-cross-ranch.jpg",
+   "imageAlt": "The Maltese Cross Ranch house as it was when Roosevelt lived there",
+   "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "On February 14, 1884, Roosevelt suffered a loss that sent him back west for good. What happened?",
+   "options": [
+    "His wife and his mother died in the same house on the same day",
+    "His ranch partners dissolved the Maltese Cross agreement",
+    "He lost his Assembly seat in a recount",
+    "His Manhattan home burned"
+   ],
+   "answer": 0,
+   "explanation": "His mother, Martha \"Mittie\" Roosevelt, died of typhoid fever at three in the morning. His wife, Alice Hathaway Lee Roosevelt, died of Bright's disease that afternoon, two days after giving birth to their daughter. In his diary Roosevelt drew a heavy X and wrote beneath it: \"The light has gone out of my life.\" He almost never spoke of Alice again.",
+   "image": "assets/img/badlands/alice-hathaway-lee.jpg",
+   "imageAlt": "Alice Hathaway Lee, the first Mrs. Theodore Roosevelt",
+   "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "Roosevelt's second ranch, the Elkhorn, got its name from what?",
+   "options": [
+    "A nearby butte shaped like an antler",
+    "The brand used by the previous owner",
+    "A pair of interlocked elk antlers found on the site",
+    "An elk Roosevelt shot on his first day there"
+   ],
+   "answer": 2,
+   "explanation": "Two bull elk had locked antlers and died together where the ranch house went up — Roosevelt took the name from them. The Elkhorn sat about 35 miles north of Medora in a bend of the Little Missouri, deliberately remote. He called it his \"home ranch.\" Nothing remains today but the foundation stones.",
+   "image": "assets/img/badlands/elkhorn-ranch.jpg",
+   "imageAlt": "The Elkhorn Ranch house among cottonwoods on the Little Missouri",
+   "credit": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/exhibits",
+    "label": "See the Elkhorn cabin recreation at the Library"
+   }
+  },
+  {
+   "prompt": "Roosevelt brought two men out from Maine to run the Elkhorn. Who were they?",
+   "options": [
+    "Sylvane Ferris and Bill Merrifield",
+    "Bill Sewall and Wilmot Dow",
+    "Gregor and Lincoln Lang",
+    "Joe Ferris and Arthur Packard"
+   ],
+   "answer": 1,
+   "explanation": "Bill Sewall was a Maine guide Roosevelt had hired as a teenager in 1878; Wilmot Dow was Sewall's nephew and, by local reckoning, the better shot of the two. Neither had ever worked cattle. Roosevelt wanted men he trusted more than men who knew the business — and Sewall, who was blunt to the point of rudeness, told him hard truths nobody else would.",
+   "image": "assets/img/badlands/dow-tr-sewall.jpg",
+   "imageAlt": "Wilmot Dow, Theodore Roosevelt, and Bill Sewall in fur coats at the Elkhorn Ranch",
+   "credit": "Wilmot Dow, T.R., and Bill Sewall at Elkhorn Ranch. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "Who founded the town of Medora and named it for his wife?",
+   "options": [
+    "Gregor Lang",
+    "Arthur Packard",
+    "Theodore Roosevelt",
+    "The Marquis de Mores"
+   ],
+   "answer": 3,
+   "explanation": "Antoine de Vallombrosa, the Marquis de Mores, was a French aristocrat and cavalry officer born the same year as Roosevelt. He founded Medora on April 1, 1883, naming it for his wife, Medora von Hoffman, and sank a fortune into a slaughterhouse meant to ship dressed beef east in refrigerated cars. The Chicago packers beat him. His abattoir chimney still stands.",
+   "image": "assets/img/badlands/de-mores-house.jpg",
+   "imageAlt": "The house of the Marquis de Mores above the Little Missouri at Medora",
+   "credit": "The house of the Marquis de Mores from the eastern bank of the river. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  },
+  {
+   "prompt": "Roosevelt also took an unpaid job keeping order in the Badlands. What was it?",
+   "options": [
+    "Deputy sheriff for the northern end of Billings County",
+    "Territorial judge at Dickinson",
+    "U.S. Marshal for Dakota Territory",
+    "Captain of the Medora militia"
+   ],
+   "answer": 0,
+   "explanation": "He served as deputy sheriff under \"Hell-Roaring\" Bill Jones, a man Roosevelt described as \"the nastiest talking man I ever heard.\" The arrangement was casual — Jones worked as a hired hand on Roosevelt's ranch when the ranch needed hands, and Roosevelt rode as deputy when the county needed a deputy. As he wrote later, \"we were far too remote from the county seat for the law to concern itself with us.\"",
+   "image": "assets/img/badlands/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted on horseback in ranch clothes near Medora",
+   "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In a hotel barroom, a drunk with two revolvers announced, \"Four Eyes is going to treat!\" What did Roosevelt do?",
+   "options": [
+    "Bought the drinks and left quietly",
+    "Drew his own revolver",
+    "Knocked the man out with three punches",
+    "Sent for the sheriff"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt tried to laugh it off and move away first. When that failed, he wrote in his Autobiography: \"As I rose, I struck quick and hard with my right just to one side of the point of his jaw, hitting with my left as I straightened out, and then again with my right.\" The man's guns went off into the ceiling as he dropped. Roosevelt never named the town; tradition places it at Mingusville, now Wibaux, Montana.",
+   "image": "assets/img/badlands/bad-lands-cowboy.jpg",
+   "imageAlt": "The office of the Bad Lands Cow Boy newspaper in Medora",
+   "credit": "Office of the Bad Lands Cow Boy. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/quotes",
+    "label": "T.R. in his own words"
+   }
+  },
+  {
+   "prompt": "In March 1886 three men stole something from the Elkhorn and floated off down the Little Missouri. What did they take?",
+   "options": [
+    "Roosevelt's boat",
+    "Roosevelt's saddle horses",
+    "The ranch's winter supplies",
+    "The Elkhorn cattle brand irons"
+   ],
+   "answer": 0,
+   "explanation": "They took the scow — the flat-bottomed boat that was the ranch's only crossing of an ice-choked river. Sewall and Dow built a replacement in a few days below freezing, and on March 30 the three men launched it downstream after the thieves. Roosevelt packed Tolstoy's Anna Karenina and a volume of Matthew Arnold to read by the fire.",
+   "image": "assets/img/badlands/little-missouri.jpg",
+   "imageAlt": "The Little Missouri River winding through the Badlands",
+   "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "After capturing the thieves, Roosevelt turned down the easy option. What did he do instead?",
+   "options": [
+    "Let them go with a warning",
+    "Handed them to local cowboys, who would almost certainly have hanged them",
+    "Marched them roughly 100 miles overland to the sheriff at Dickinson",
+    "Held them at the ranch until spring"
+   ],
+   "answer": 2,
+   "explanation": "Hanging was what the country expected, and cowboys were on hand to do it. Roosevelt refused. He kept the three prisoners moving for some 36 hours to Dickinson, walking behind them with a Winchester and reading Matthew Arnold to stay awake. His feet blistered so badly that Dr. Victor Stickney had to treat them; his fee for the job was about fifty dollars. He later called it the most important thing he did in the Badlands — not because it was brave, but because choosing a hundred-mile march over a rope argued that law belongs even where there is no courthouse. (The thieves drew twenty-five months, not the three years some accounts report.)",
+   "image": "assets/img/badlands/boat-thieves-staged.jpg",
+   "imageAlt": "A staged photograph of Roosevelt guarding the boat thieves on a riverbank",
+   "credit": "\"T.R. guarding the boat thieves\" — a re-creation staged after the fact, with Sewall, Dow, and an unidentified man posing as the prisoners. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The winter of 1886–87 ended the open range. What did ranchers call it, and what did it cost Roosevelt?",
+   "options": [
+    "The Long Freeze — he lost about a quarter of his herd",
+    "The Great Die-Up — he lost roughly 60 to 80 percent of his herd",
+    "The Blue Winter — he lost his ranch buildings",
+    "The Hard Snow — he lost nothing, having sold out in the fall"
+   ],
+   "answer": 1,
+   "explanation": "Temperatures fell to forty below and stayed. The range had been eaten bare by overstocking, so the cattle went into the storms already starving. Roosevelt came back in spring 1887 to find the coulees full of carcasses and 60 to 80 percent of his herd dead. He had put roughly $80,000 into the Badlands over the years. He never got most of it back.",
+   "image": "assets/img/badlands/roundup-herd.jpg",
+   "imageAlt": "A large herd of cattle on the northern plains",
+   "credit": "Cattle on the range. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/conservation",
+    "label": "How the range shaped his conservation"
+   }
+  },
+  {
+   "prompt": "Looking back, how did Roosevelt weigh his Dakota years against the rest of his life?",
+   "options": [
+    "He called them a pleasant interruption",
+    "He credited them with making his presidency possible",
+    "He regretted the money he had lost there",
+    "He rarely referred to them once he left"
+   ],
+   "answer": 1,
+   "explanation": "\"I never would have been President if it had not been for my experiences in North Dakota,\" he said — a line the Library takes seriously enough to have built a presidential library around it. He arrived at 135 pounds with asthma and left at about 170 without it. He told his biographer Hermann Hagedorn, \"It was here that the romance of my life began.\"",
+   "image": "assets/img/badlands/tr-roundup-1885.jpg",
+   "imageAlt": "Theodore Roosevelt standing next to his horse on the roundup, 1885",
+   "credit": "Theodore Roosevelt on the round-up, 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Come see the country that did it"
+   }
+  }
+ ]
 }
