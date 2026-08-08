@@ -196,7 +196,18 @@
   var LIVE_PARAM = 'trpllive';
   var PEERJS_SRC = 'https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.5.4/peerjs.min.js';
   var PEER_PREFIX = 'trplq-';
-  var CONNECT_TIMEOUT = 15000;
+  /* Two very different waits.
+
+     The host is waiting on a human: they have to copy a link, send it, and the
+     friend has to notice and open it. Ten minutes, not fifteen seconds.
+
+     The guest is dialling a code that either exists or doesn't, so their wait
+     is short — but retried a few times, because the host's peer may be
+     momentarily reconnecting to the broker when they arrive. */
+  var HOST_WAIT = 10 * 60 * 1000;
+  var GUEST_WAIT = 20000;
+  var DIAL_RETRIES = 3;
+  var DIAL_RETRY_GAP = 4000;
 
   var peerLoading = null;
   function loadPeerJS() {
@@ -522,6 +533,7 @@
 
   Quiz.prototype.liveTeardown = function () {
     if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
+    if (this.waitTick) { clearInterval(this.waitTick); this.waitTick = null; }
     if (this.revealId) { clearTimeout(this.revealId); this.revealId = null; }
     try { if (this.conn) this.conn.close(); } catch (err) {}
     try { if (this.peer) this.peer.destroy(); } catch (err) {}
@@ -532,7 +544,10 @@
      with one data channel and both names known. */
   Quiz.prototype.liveStart = function (role, code) {
     var self = this;
-    this.live = { role: role, code: code, opponent: '', oppScore: 0, oppAt: 0, oppDone: false };
+    var cfg = this.quiz.live || {};
+    var hostWait = (cfg.waitMinutes ? cfg.waitMinutes * 60 * 1000 : HOST_WAIT);
+    this.live = { role: role, code: code, opponent: '', oppScore: 0, oppAt: 0,
+                  oppDone: false, until: Date.now() + (role === 'host' ? hostWait : GUEST_WAIT) };
     this.renderLobby('Setting up…');
 
     loadPeerJS().then(function (Peer) {
@@ -541,18 +556,40 @@
       self.peer = peer;
 
       var settled = false;
-      var giveUp = setTimeout(function () {
+      var dials = 0;
+
+      function fail(msg) {
         if (settled) return;
         settled = true;
-        self.liveFailed(role === 'host'
-          ? 'No one joined, or the connection could not be made.'
-          : 'Could not reach that game. It may have ended, or the connection is blocked.');
-      }, CONNECT_TIMEOUT);
+        clearTimeout(giveUp);
+        if (self.waitTick) { clearInterval(self.waitTick); self.waitTick = null; }
+        self.liveFailed(msg);
+      }
+
+      var giveUp = setTimeout(function () {
+        fail(role === 'host'
+          ? 'Nobody joined in ten minutes, so the game was closed.'
+          : 'Could not reach that game. It may have ended, or your network is blocking the connection.');
+      }, role === 'host' ? hostWait : GUEST_WAIT);
+
+      /* Keep the lobby honest about how long is left, and — more importantly —
+         keep the room alive. The public broker hangs up on idle peers, which
+         over a ten-minute wait would silently kill the game while the host sat
+         there believing it was open. */
+      if (self.waitTick) clearInterval(self.waitTick);
+      self.waitTick = setInterval(function () {
+        if (settled || !self.live) { clearInterval(self.waitTick); self.waitTick = null; return; }
+        if (peer.disconnected && !peer.destroyed) {
+          try { peer.reconnect(); } catch (err) {}
+        }
+        if (role === 'host' && !self.live.opponent) self.renderLobby(null);
+      }, 5000);
 
       function wire(conn) {
         if (settled) return;
         settled = true;
         clearTimeout(giveUp);
+        if (self.waitTick) { clearInterval(self.waitTick); self.waitTick = null; }
         self.conn = conn;
         conn.on('data', function (m) { self.liveMessage(m); });
         conn.on('close', function () { self.liveDropped(); });
@@ -568,19 +605,39 @@
         self.renderLobby('Connected. Waiting for your opponent to be ready…');
       }
 
+      function dial() {
+        dials++;
+        var conn = peer.connect(PEER_PREFIX + code, { reliable: true });
+        conn.on('open', function () { wire(conn); });
+        conn.on('error', function () {});
+      }
+
       peer.on('error', function (e) {
-        if (settled) return;
-        settled = true;
-        clearTimeout(giveUp);
         var kind = String((e && e.type) || '');
-        var msg =
+
+        /* The host might be mid-reconnect. Try again before giving up. */
+        if (kind === 'peer-unavailable' && role === 'guest' && dials < DIAL_RETRIES && !settled) {
+          self.renderLobby('Still looking for that game…');
+          setTimeout(function () { if (!settled) dial(); }, DIAL_RETRY_GAP);
+          return;
+        }
+        /* A dropped broker socket is recoverable — reconnect rather than fail. */
+        if (kind === 'disconnected' && !settled && !peer.destroyed) {
+          try { peer.reconnect(); return; } catch (err) {}
+        }
+
+        fail(
           kind === 'unavailable-id' ? 'That game code is already in use. Start a new game.' :
           kind === 'peer-unavailable' ? 'That game is not open. It may have finished, or the host closed the page.' :
           kind === 'browser-incompatible' ? 'This browser cannot run the live game.' :
           kind === 'network' || kind === 'server-error' ? 'The matchmaking service is not responding right now.' :
-          kind === 'webrtc' || kind === 'disconnected' ? 'Your network is blocking the direct connection between browsers.' :
-          'The connection could not be made.';
-        self.liveFailed(msg);
+          kind === 'webrtc' ? 'Your network is blocking the direct connection between browsers.' :
+          'The connection could not be made.');
+      });
+
+      peer.on('disconnected', function () {
+        if (settled || peer.destroyed) return;
+        try { peer.reconnect(); } catch (err) {}
       });
 
       if (role === 'host') {
@@ -589,11 +646,7 @@
           conn.on('open', function () { wire(conn); });
         });
       } else {
-        peer.on('open', function () {
-          var conn = peer.connect(PEER_PREFIX + code, { reliable: true });
-          conn.on('open', function () { wire(conn); });
-          conn.on('error', function () {});
-        });
+        peer.on('open', dial);
       }
     }, function () {
       self.liveFailed('The connection library could not load. Your network may be blocking it.');
@@ -879,11 +932,22 @@
       ]));
     }
 
+    /* Say how long the room stays open. Someone who has just texted a link
+       needs to know whether they can put the phone down. */
+    var waiting = status || (L.opponent
+      ? L.opponent + ' is here. Starting…'
+      : 'Waiting for your opponent to join…');
+    var left = '';
+    if (!L.opponent && !status && L.until) {
+      var secs = Math.max(0, Math.round((L.until - Date.now()) / 1000));
+      var mins = Math.floor(secs / 60);
+      left = mins > 0
+        ? ' Open for another ' + mins + ' minute' + (mins === 1 ? '' : 's') + '.'
+        : ' Closing in under a minute.';
+    }
     kids.push(e('p', { class: 'livestatus' }, [
       e('span', { class: 'livestatus__dot' }),
-      e('span', { text: status || (L.opponent
-        ? L.opponent + ' is here. Starting…'
-        : 'Waiting for your opponent to join…') })
+      e('span', { text: waiting + left })
     ]));
 
     var bail = e('button', { class: 'btn btn-quiet', type: 'button', text: 'Play on my own instead' });

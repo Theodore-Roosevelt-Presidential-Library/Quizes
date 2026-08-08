@@ -295,7 +295,23 @@ Two things will fail in the wild, and both are handled rather than left spinning
   the progress bar notes they left and the run finishes, scored against whatever the
   opponent had reached.
 
-There is a 15-second connection timeout, so nobody waits indefinitely.
+### Waiting
+
+The two sides wait for very different things, so they get very different timeouts.
+
+The **host** is waiting on a human — copy a link, send it, hope they notice. That's
+**ten minutes**, and the lobby says how long the room stays open so they know whether
+they can put the phone down. Override per quiz with `"waitMinutes"` in the `live`
+block.
+
+The **guest** is dialling a code that either exists or doesn't, so **twenty seconds**,
+retried up to three times four seconds apart — the host's peer may be momentarily
+reconnecting to the broker when the guest arrives.
+
+**The broker hangs up on idle peers**, which over a ten-minute wait would silently
+kill the room while the host sat there believing it was open. The client reconnects
+on `disconnected` and re-checks every five seconds while the lobby is up. Verified by
+holding a room open well past the old timeout and then joining it successfully.
 
 If live play gets real use, the fix for broker flakiness is to self-host
 `peerjs-server`; the client only needs a `host`/`port` option to point at it.
