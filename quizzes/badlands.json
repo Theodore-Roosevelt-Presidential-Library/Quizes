@@ -6,6 +6,10 @@
  "heroImage": "assets/img/badlands/tr-1885-portrait.jpg",
  "heroAlt": "Theodore Roosevelt in fringed buckskin with a rifle, 1885",
  "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
  "badge": {
   "title": "T.R. in the Badlands",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Badlands quiz — {tier}. Try it:",

@@ -115,9 +115,28 @@ That's it — no code changes.
 `answer` is the **zero-based index** into `options` — `0` is the first option.
 All `link` URLs open in a new tab with `rel="noopener noreferrer"`.
 
+### Shuffling
+
+Every run deals a fresh order: the questions are shuffled, the four options within
+each question are shuffled, and the correct index is remapped to follow its option.
+A retry re-deals. So "question 7 is B" is worth nothing to anyone.
+
+```json
+"shuffle": { "questions": true, "options": true }
+```
+
+Both default to `true` if the block is absent. Set `"questions": false` for a quiz
+built as a narrative where the order carries meaning — the Badlands questions run
+chronologically in the source file, and shuffling does trade that arc for the
+cheat-proofing.
+
+Because the order changes, **never write an explanation that refers to another
+question** ("as we saw above"). Each one has to stand alone.
+
 ### Quiz-level fields
 
-`title`, `subtitle`, `intro`, `heroImage`, `heroAlt`, `learnMore`, `badge`, `tiers`.
+`title`, `subtitle`, `intro`, `heroImage`, `heroAlt`, `learnMore`, `shuffle`,
+`badge`, `tiers`.
 
 `tiers` is a descending ladder of achievement bands. Each is `{ min, name, line }`;
 the engine picks the highest tier whose `min` the score meets. `badge.shareText`

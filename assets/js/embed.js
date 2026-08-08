@@ -233,7 +233,46 @@
     this.index = 0;
     this.answers = [];
     this.locked = false;
+    this.deck = [];           // the shuffled run — see deal()
   }
+
+  /* Fisher-Yates on a copy. */
+  function shuffled(arr) {
+    var a = arr.slice(), i, j, t;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  /* Build a fresh run: questions in random order, options within each question in
+     random order, correct index remapped to follow its option. Re-dealt on every
+     start and every retry, so a list of "question 7 is B" is worth nothing.
+
+     Either half can be switched off per quiz:
+       "shuffle": { "questions": false, "options": true }
+     Turn questions off when a quiz is built as a narrative and the order carries
+     meaning. */
+  Quiz.prototype.deal = function () {
+    var cfg = this.quiz.shuffle || {};
+    var source = cfg.questions === false
+      ? this.quiz.questions.slice()
+      : shuffled(this.quiz.questions);
+
+    this.deck = source.map(function (q) {
+      if (cfg.options === false) return q;
+      var order = shuffled(q.options.map(function (_, i) { return i; }));
+      var copy = {}, k;
+      for (k in q) if (Object.prototype.hasOwnProperty.call(q, k)) copy[k] = q[k];
+      copy.options = order.map(function (i) { return q.options[i]; });
+      copy.answer = order.indexOf(q.answer);
+      return copy;
+    });
+
+    this.index = 0;
+    this.answers = [];
+  };
 
   Quiz.prototype.el = function (tag, attrs, kids) {
     var n = doc.createElement(tag);
@@ -248,9 +287,9 @@
   };
 
   Quiz.prototype.score = function () {
-    var q = this.quiz;
+    var deck = this.deck;
     return this.answers.reduce(function (n, a, i) {
-      return n + (a === q.questions[i].answer ? 1 : 0);
+      return n + (a === deck[i].answer ? 1 : 0);
     }, 0);
   };
 
@@ -279,7 +318,7 @@
     var bar = this.root.getElementById('progress');
     bar.hidden = !visible;
     if (!visible) return;
-    var total = this.quiz.questions.length;
+    var total = this.deck.length;
     bar.querySelector('.progress__label').textContent =
       'Question ' + Math.min(this.index + 1, total) + ' of ' + total;
     bar.querySelector('.progress__fill').style.width =
@@ -310,7 +349,7 @@
     var start = e('button', { class: 'btn btn-primary', type: 'button',
       text: 'Start the quiz — ' + q.questions.length + ' questions' });
     start.addEventListener('click', function () {
-      self.index = 0; self.answers = []; self.renderQuestion();
+      self.deal(); self.renderQuestion();
     });
     kids.push(start);
     kids.push(e('span', { class: 'intro__note',
@@ -324,7 +363,7 @@
 
   Quiz.prototype.renderQuestion = function () {
     var self = this, e = this.el.bind(this);
-    var q = this.quiz.questions[this.index];
+    var q = this.deck[this.index];
     this.locked = false;
 
     var list = e('ul', { class: 'options' });
@@ -355,7 +394,7 @@
     var self = this, e = this.el.bind(this);
     this.answers[this.index] = chosen;
 
-    var q = this.quiz.questions[this.index];
+    var q = this.deck[this.index];
     var correct = chosen === q.answer;
 
     this.root.querySelectorAll('.option').forEach(function (b, i) {
@@ -381,7 +420,7 @@
     this.root.querySelector('.panel').classList.add('is-answered');
     this.root.querySelector('.options').after(fb);
 
-    var last = this.index === this.quiz.questions.length - 1;
+    var last = this.index === this.deck.length - 1;
     var next = e('button', { class: 'btn btn-primary', type: 'button',
       text: last ? 'See your score' : 'Next question' });
     next.addEventListener('click', function () {
@@ -389,7 +428,7 @@
     });
     var actions = this.root.getElementById('actions');
     actions.appendChild(e('span', { class: 'caption',
-      text: (this.index + 1) + ' of ' + this.quiz.questions.length + ' answered' }));
+      text: (this.index + 1) + ' of ' + this.deck.length + ' answered' }));
     actions.appendChild(next);
 
     this.progress(true);
@@ -404,7 +443,7 @@
 
   Quiz.prototype.renderResults = function () {
     var self = this, e = this.el.bind(this), q = this.quiz;
-    var score = this.score(), total = q.questions.length, tier = this.tier(score);
+    var score = this.score(), total = this.deck.length, tier = this.tier(score);
     var shareUrl = this.shareUrl;
     var shareText = ((q.badge && q.badge.shareText) ||
         'I scored {score}/{total} on the Theodore Roosevelt Presidential Library quiz — {tier}.')
@@ -419,7 +458,7 @@
     var dl = e('button', { class: 'btn btn-primary', type: 'button', text: 'Download badge' });
     var again = e('button', { class: 'btn btn-quiet', type: 'button', text: 'Try again' });
     again.addEventListener('click', function () {
-      self.index = 0; self.answers = []; self.renderQuestion();
+      self.deal(); self.renderQuestion();
     });
 
     /* No X / Facebook / LinkedIn intent links here. Those URLs can only carry
@@ -459,7 +498,7 @@
     var rev = e('details', { class: 'review' });
     rev.appendChild(e('summary', { text: 'Review all ' + total + ' answers' }));
     var body = e('div', { class: 'review__body' });
-    q.questions.forEach(function (item, i) {
+    self.deck.forEach(function (item, i) {
       var ok = self.answers[i] === item.answer;
       body.appendChild(e('div', { class: 'review__item' }, [
         e('span', { class: 'review__mark ' + (ok ? 'review__mark--ok' : 'review__mark--no'),
