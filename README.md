@@ -136,4 +136,4 @@ Use a server, not `file://` — the engine loads quiz content with `fetch()`.
   completions, scores, and shares, that's a small addition to `quiz.js`.
 - **Fact-check.** The Badlands content is drafted from the TRPL knowledge base but has
   **not yet completed** the independent two-source verification pass. Run that before
-  this goes public.
+  this goes public. 
