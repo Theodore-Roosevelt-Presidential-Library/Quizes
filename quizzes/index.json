@@ -165,6 +165,16 @@
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/legacy",
       "placement": "/tr/legacy"
+    },
+    {
+      "id": "teddy-bear",
+      "title": "The Teddy Bear",
+      "blurb": "A president refused a shot he thought unsporting, a cartoonist drew it, and a Brooklyn shopkeeper wrote for permission to use the name. Twelve questions on how a Mississippi hunt made the world's most successful toy.",
+      "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
+      "imageAlt": "Berryman's 1902 cartoon \"Drawing the line in Mississippi\"",
+      "questions": 12,
+      "learnMore": "https://www.trlibrary.com/tr/myths",
+      "placement": "/tr/myths"
     }
   ]
 }

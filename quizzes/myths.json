@@ -7,20 +7,50 @@
  "heroAlt": "Clifford Berryman's 1902 cartoon \"Drawing the Line in Mississippi\"",
  "heroCredit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/myths",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "Fact or Fiction",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Myths quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/myths"
  },
  "tiers": [
-  { "min": 15, "name": "Fact Checker", "line": "Perfect. Nothing got past you." },
-  { "min": 13, "name": "Archivist", "line": "You go to the source." },
-  { "min": 10, "name": "Sceptic", "line": "Healthy suspicion, well applied." },
-  { "min": 7,  "name": "Careful Reader", "line": "You caught most of them." },
-  { "min": 4,  "name": "Repeater of Stories", "line": "Check the next one before you tell it." },
-  { "min": 0,  "name": "Believer", "line": "Half of what you know isn't so. Start here." }
+  {
+   "min": 15,
+   "name": "Fact Checker",
+   "line": "Perfect. Nothing got past you."
+  },
+  {
+   "min": 13,
+   "name": "Archivist",
+   "line": "You go to the source."
+  },
+  {
+   "min": 10,
+   "name": "Sceptic",
+   "line": "Healthy suspicion, well applied."
+  },
+  {
+   "min": 7,
+   "name": "Careful Reader",
+   "line": "You caught most of them."
+  },
+  {
+   "min": 4,
+   "name": "Repeater of Stories",
+   "line": "Check the next one before you tell it."
+  },
+  {
+   "min": 0,
+   "name": "Believer",
+   "line": "Half of what you know isn't so. Start here."
+  }
  ],
  "questions": [
   {
@@ -36,7 +66,10 @@
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated three-quarter length portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "The teddy bear came from a 1902 hunting trip. What actually happened?",
@@ -51,7 +84,10 @@
    "image": "assets/img/shared/drawing-the-line-mississippi.jpg",
    "imageAlt": "Berryman's cartoon \"Drawing the Line in Mississippi\"",
    "credit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "How did the bear in Berryman's cartoons change over time?",
@@ -66,7 +102,10 @@
    "image": "assets/img/shared/berryman-to-the-woods.jpg",
    "imageAlt": "A later Clifford Berryman political cartoon featuring the bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "\"Speak softly and carry a big stick.\" Where did Roosevelt say the phrase came from?",
@@ -81,7 +120,10 @@
    "image": "assets/img/shared/young-head-old-shoulders.jpg",
    "imageAlt": "Chromolithograph print \"A young head on old shoulders\"",
    "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "The famous \"Man in the Arena\" passage comes from a speech given where?",
@@ -96,7 +138,10 @@
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "From the bully pulpit" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "From the bully pulpit"
+   }
   },
   {
    "prompt": "Roosevelt is often quoted saying he could carve a judge with more backbone out of a banana. Did he?",
@@ -111,7 +156,10 @@
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Did Roosevelt charge up San Juan Hill on horseback at the head of his men?",
@@ -126,7 +174,10 @@
    "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
    "imageAlt": "Painting of the charge of the Rough Riders at San Juan Hill",
    "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Several celebrated photographs of Roosevelt's Badlands adventures are what?",
@@ -141,10 +192,13 @@
    "image": "assets/img/badlands/boat-thieves-staged.jpg",
    "imageAlt": "Staged photograph of Roosevelt guarding the boat thieves",
    "credit": "\"T.R. guarding the boat thieves\" — a re-creation staged after the fact. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
-   "prompt": "Was Roosevelt's famous 1912 campaign line \"I am as fit as a bull moose\" the origin of the party's nickname?",
+   "prompt": "Was Roosevelt's famous 1912 line “I'm as fit as a bull moose” the origin of the party's nickname?",
    "options": [
     "Yes",
     "No, the moose came from a newspaper cartoon",
@@ -152,11 +206,14 @@
     "No, it was a Progressive Party committee decision"
    ],
    "answer": 0,
-   "explanation": "Roosevelt had been using the bull moose comparison for years to describe his own health and vigour, and the press attached it to the Progressive Party. That much is straightforward — unusually for this quiz.",
+   "explanation": "Roosevelt told an inquiring reporter “I'm as fit as a bull moose” and had used the comparison for years to describe his own vigour, and the press attached it to the Progressive Party. That much is straightforward — unusually for this quiz.",
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
    "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
    "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Was Roosevelt the youngest person ever elected president?",
@@ -171,7 +228,10 @@
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at McKinley's swearing in, March 1901",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "Roosevelt is said to have offered to raise \"an entire regiment of cowboys\" for the government in 1886. Is that his phrase?",
@@ -186,17 +246,28 @@
    "image": "assets/img/badlands/tr-ranch-costume.jpg",
    "imageAlt": "Theodore Roosevelt mounted in ranch clothes near Medora",
    "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "How long did the men who stole Roosevelt's boat actually serve?",
-   "options": ["Three years", "Twenty-five months", "Six months", "They were acquitted"],
+   "options": [
+    "Three years",
+    "Twenty-five months",
+    "Six months",
+    "They were acquitted"
+   ],
    "answer": 1,
    "explanation": "Twenty-five months. A widely read biography says three years, but the local newspaper of the day and several later historians agree on twenty-five months. Small discrepancies like this survive for a century because people quote each other rather than the record.",
    "image": "assets/img/badlands/dickinson-1883.jpg",
    "imageAlt": "Dickinson, Dakota Territory, in 1883",
    "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "\"Old Four Eyes\" is the nickname most often attached to Roosevelt's Badlands years. What did people actually call him?",
@@ -211,7 +282,10 @@
    "image": "assets/img/badlands/tr-first-buckskins.jpg",
    "imageAlt": "Theodore Roosevelt in his first buckskin suit",
    "credit": "\"Theodore Roosevelt in his first buckskins.\" Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Did Roosevelt really keep a bullet in his chest after the 1912 assassination attempt?",
@@ -226,7 +300,10 @@
    "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
    "imageAlt": "Roosevelt with Rough Rider veterans during the Bull Moose campaign",
    "credit": "T.R. with Rough Rider veterans during the Bull Moose campaign, Chicago. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What is the most reliable way to check whether Roosevelt said something?",
@@ -241,7 +318,10 @@
    "image": "assets/img/shared/sagamore-library-family.jpg",
    "imageAlt": "Photograph taken by a family member in the library at Sagamore Hill",
    "credit": "Taken by one of the family in the library at Sagamore Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/quotes", "label": "What he actually said, with sources" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/quotes",
+    "label": "What he actually said, with sources"
+   }
   }
  ]
 }

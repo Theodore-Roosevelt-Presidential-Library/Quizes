@@ -1,0 +1,17 @@
+{
+ "berryman-to-the-woods": {
+  "source": "dam",
+  "source_file": "loc_2021669741_To_the_Woods.jpg",
+  "description": "To the Woods! political cartoon by Clifford K. Berryman",
+  "collection": "Library of Congress, Prints and Photographs Division."
+ },
+ "drawing-the-line-original": {
+  "source": "loc",
+  "ref": "2008678324",
+  "source_file": "loc_pictures_2008678324",
+  "description": "Drawing the line in Mississippi",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1182"
+ }
+}

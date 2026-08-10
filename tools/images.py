@@ -98,14 +98,28 @@ def loc_item(pk):
     d = json.load(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60))
     it = d.get("item", {})
     urls = []
+    # LOC returns several size keys per resource and some of them are placeholder
+    # GIFs reading "not digitized" rather than the picture. Take them largest
+    # first and drop anything that is not actually an image file - an hdl.loc.gov
+    # handle is a landing page, not something PIL can open.
+    def usable(u):
+        if not isinstance(u, str) or not u.startswith("http"):
+            return False
+        if "notdig" in u or u.endswith(".gif") or "hdl.loc.gov" in u:
+            return False
+        return u.lower().endswith((".tif", ".tiff", ".jpg", ".jpeg", ".jp2", ".png"))
+
     for r in (d.get("resources") or []):
-        for k in ("large", "higher_resolution", "fullsize", "image"):
-            if r.get(k):
+        for k in ("largest", "larger", "large", "medium", "fullsize", "image"):
+            if usable(r.get(k)):
                 urls.append(r[k])
     img = (it.get("image") or {})
     for k in ("full", "thumb"):
-        if img.get(k):
+        if usable(img.get(k)):
             urls.append(img[k])
+    if not urls:
+        raise RuntimeError("no downloadable image on LOC record %s - it may not be "
+                           "digitised at this resolution" % pk)
     return {"title": it.get("title", ""), "date": it.get("created_published_date", ""),
             "rights": it.get("rights_information") or it.get("rights_advisory") or "",
             "urls": urls}
