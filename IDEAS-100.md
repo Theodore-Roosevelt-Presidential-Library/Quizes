@@ -205,3 +205,37 @@ Three things would have to change:
 Group B, the calendar. Twenty occasions, twenty guaranteed posting days, and each one
 is a reason for someone to come back who has already played. That is worth more than
 another twenty subject quizzes nobody has a reason to open on a Tuesday.
+
+---
+
+## Image sourcing beyond the DAM
+
+`tools/images.py` searches the DAM first and falls through to the Library of Congress,
+which is public domain and returns a rights statement with every record.
+
+```bash
+python3 tools/images.py search "1912 election cartoon"
+python3 tools/images.py fetch presidency "panama=loc:2010649455" "trusts=dam:<asset-id>"
+```
+
+Downloads, resizes to 1400px, and writes provenance and rights into the folder's
+`credits.json` alongside the file.
+
+### The Franklin problem
+
+Searching LOC for "Roosevelt Christmas" or "Roosevelt birthday" returns
+overwhelmingly **Franklin and Eleanor**, dated 1933–41 and correctly titled. Nothing
+in the metadata warns you, because the titles are not wrong — they are simply about a
+different Roosevelt. An FDR photograph on a Theodore Roosevelt presidential library
+quiz is the kind of error a reporter notices.
+
+The tool now filters anything dated after **1919**, the year T.R. died, and warns at
+fetch time if a record slips through by hand. Undated records are marked
+`UNDATED — check before use` rather than silently passed.
+
+This matters more as volume grows. Sixteen quizzes were hand-checked one image at a
+time. Several hundred images cannot be, so the guard has to live in the tool.
+
+**The rule still stands: open every image before you use it.** The date filter catches
+the wrong Roosevelt. It does not catch a mislabelled photograph, a staged
+re-creation, or a Puck cartoon about hats.
