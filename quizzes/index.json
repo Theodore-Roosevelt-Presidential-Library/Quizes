@@ -1,9 +1,10 @@
 {
   "site": {
     "title": "Theodore Roosevelt Presidential Library Quizzes",
-    "tagline": "Fifteen questions. One badge. See how well you know T.R.",
+    "tagline": "Preview a quiz, copy the snippet, paste it into any page on trlibrary.com.",
     "home": "https://www.trlibrary.com"
   },
+  "_note": "Placement is manual: paste the snippet for a given quiz id onto the page it belongs to. `placement` records the intended page for reference only - nothing reads it. `draft: true` means the quiz file does not exist yet.",
   "quizzes": [
     {
       "id": "badlands",
@@ -12,7 +13,173 @@
       "image": "assets/img/badlands/tr-1885-portrait.jpg",
       "imageAlt": "Theodore Roosevelt in buckskin, photographed in 1885",
       "questions": 15,
-      "learnMore": "https://www.trlibrary.com/tr/badlands"
+      "learnMore": "https://www.trlibrary.com/tr/badlands",
+      "placement": "/tr/badlands"
+    },
+    {
+      "id": "early-life",
+      "title": "The Making of a Boy",
+      "blurb": "Asthma nearly killed him. A bedroom museum, a taxidermy tutor, and a father who told him to make his body. Fifteen questions on the years before anyone had heard of him.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore Roosevelt as a young man",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/early-life",
+      "draft": true,
+      "placement": "/tr/early-life"
+    },
+    {
+      "id": "new-york-politics",
+      "title": "The Youngest Man in the Assembly",
+      "blurb": "Elected at twenty-three, dismissed as a dude, and fighting the machine within a year. Fifteen questions on Roosevelt's first taste of power.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore Roosevelt as a young New York State assemblyman",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/new-york-politics",
+      "draft": true,
+      "placement": "/tr/new-york-politics"
+    },
+    {
+      "id": "rise-to-power",
+      "title": "Fifteen Years to the White House",
+      "blurb": "Civil service reformer, police commissioner, governor, vice president — and then Buffalo. Fifteen questions on the climb.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Colonel Theodore Roosevelt",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+      "draft": true,
+      "placement": "/tr/rise-to-power"
+    },
+    {
+      "id": "rough-riders",
+      "title": "The Rough Riders",
+      "blurb": "A volunteer cavalry regiment of cowboys, Ivy League athletes, and lawmen, raised in weeks. Fifteen questions on 1898.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Colonel Theodore Roosevelt in his Rough Rider uniform",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+      "draft": true,
+      "placement": "/tr/rise-to-power/rough-riders"
+    },
+    {
+      "id": "presidency",
+      "title": "The Square Deal",
+      "blurb": "Forty-two years old and suddenly president. Trusts, coal strikes, a canal, and a Nobel Prize. Fifteen questions on eight years.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "President Theodore Roosevelt speaking to a crowd",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/presidency",
+      "draft": true,
+      "placement": "/tr/presidency"
+    },
+    {
+      "id": "conservation",
+      "title": "Two Hundred and Thirty Million Acres",
+      "blurb": "Parks, forests, monuments, bird reserves — the legacy that outlasted everything else he did. Fifteen questions on what he saved.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Yosemite Valley",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
+      "draft": true,
+      "placement": "/tr/presidency/conservation"
+    },
+    {
+      "id": "post-presidency",
+      "title": "After the White House",
+      "blurb": "An African safari, a third-party crusade, a bullet in the chest, and an unmapped river in the Amazon. Fifteen questions on his last decade.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Porters on the Roosevelt expedition",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/post-presidency",
+      "draft": true,
+      "placement": "/tr/post-presidency"
+    },
+    {
+      "id": "people",
+      "title": "The People Around Him",
+      "blurb": "Edith, John Muir, Booker T. Washington, and the rivals who sharpened him. Fifteen questions on the company he kept.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/people",
+      "draft": true,
+      "placement": "/tr/people"
+    },
+    {
+      "id": "family",
+      "title": "Life at Sagamore Hill",
+      "blurb": "Six children, a pony in the White House lift, and a family tree that reaches Eleanor and Franklin. Fifteen questions on the Roosevelts at home.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore and Edith Roosevelt with their six children",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/family",
+      "draft": true,
+      "placement": "/tr/family"
+    },
+    {
+      "id": "strenuous-life",
+      "title": "The Strenuous Life",
+      "blurb": "Boxing, judo, point-to-point walks through anything in the way. Fifteen questions on a creed he practised before he preached it.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore Roosevelt on horseback",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/strenuous-life",
+      "draft": true,
+      "placement": "/tr/strenuous-life"
+    },
+    {
+      "id": "naturalist",
+      "title": "The Naturalist",
+      "blurb": "A boy who mounted his own specimens grew into a president who could out-argue ornithologists. Fifteen questions on Roosevelt and the natural world.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Audubon plate of the wild turkey",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+      "draft": true,
+      "placement": "/tr/early-life/young-naturalist"
+    },
+    {
+      "id": "homes-and-places",
+      "title": "Where History Happened",
+      "blurb": "A Manhattan townhouse, a Badlands cabin, a hill above Oyster Bay, and the White House he renamed. Fifteen questions on the places that kept him.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "The White House grounds in the early 1900s",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/homes-and-places",
+      "draft": true,
+      "placement": "/tr/homes-and-places"
+    },
+    {
+      "id": "books-and-writings",
+      "title": "The Author President",
+      "blurb": "Some thirty-five books and thousands of articles, most of them written after living the story first. Fifteen questions on Roosevelt in print.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Theodore Roosevelt reading at the entrance of a tent",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/books-and-writings",
+      "draft": true,
+      "placement": "/tr/books-and-writings"
+    },
+    {
+      "id": "myths",
+      "title": "Fact or Fiction",
+      "blurb": "He hated being called Teddy, and that is the least of it. Fifteen questions separating the famous stories from the record.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "The 1902 Berryman cartoon that started the teddy bear",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/myths",
+      "draft": true,
+      "placement": "/tr/myths"
+    },
+    {
+      "id": "legacy",
+      "title": "The Measure of the Man",
+      "blurb": "Mount Rushmore, presidential rankings, and a name on a national park. Fifteen questions on how America decided to remember him.",
+      "image": "assets/img/badlands/tr-1885-portrait.jpg",
+      "imageAlt": "Mount Rushmore",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/legacy",
+      "draft": true,
+      "placement": "/tr/legacy"
     }
   ]
 }
