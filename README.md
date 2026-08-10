@@ -185,18 +185,6 @@ supports the tokens `{score}`, `{total}`, and `{tier}`.
 
 ---
 
-## Editorial standards this repo follows
-
-- **T.R.'s words are verbatim or not at all.** Never paraphrase inside quotation marks.
-  Keep period spelling as printed.
-- **Two independent sources** for every dated factual claim — one book in the TRPL corpus
-  and one external authority (LOC, NPS, Theodore Roosevelt Center, Dakota Datebook).
-- **"Buttes," never "mesa."** Present tense — the Library is open.
-- Where a famous image is a re-creation rather than documentary, say so in the `credit`.
-  The staged boat-thieves photograph in the Badlands quiz is labeled as such.
-
----
-
 ## Imagery and credits
 
 Historical images are pulled once from the Library's Acquia DAM (Widen), resized to
