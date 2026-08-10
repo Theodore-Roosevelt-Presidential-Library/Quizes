@@ -61,7 +61,7 @@
     "He was recovering from an injury on doctor's orders"
    ],
    "answer": 0,
-   "explanation": "Roosevelt was twenty-four, serving his third Assembly term, and worn thin by the session. He came to shoot a buffalo before there were none left to shoot. He nearly missed his chance: a herd of perhaps 300,000 animals had been slaughtered along the Little Missouri only months earlier, and he had to hunt for days to find one bull.",
+   "explanation": "Roosevelt was twenty-four, serving his third Assembly term, and worn thin by the session. He came to shoot a buffalo before there were none left to shoot — and very nearly left it too late. Commercial hunters had destroyed the last great herd along the Little Missouri only months earlier, and he had to hunt for days to find a single bull.",
    "image": "assets/img/badlands/medora-1883.jpg",
    "imageAlt": "Medora, Dakota Territory, in 1883 — the office and company store of the Marquis de Mores",
    "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -79,7 +79,7 @@
     "Old Four Eyes"
    ],
    "answer": 1,
-   "explanation": "He was thin, wore thick spectacles, and dressed like Manhattan. \"Four-eyed dude\" was not a compliment — \"dude\" meant an Easterner playing at the frontier. The nickname stuck for a while. \"Old Four Eyes,\" the version most people know today, is largely a later coinage; contemporaries used the blunter phrase.",
+   "explanation": "He was thin, wore thick spectacles, and dressed like Manhattan. \"Dude\" meant an Easterner playing at the frontier, and it was not affectionate. Roosevelt does not name the nickname in his Autobiography; it reaches us through the recollections of men who were there, collected decades later.",
    "image": "assets/img/badlands/tr-first-buckskins.jpg",
    "imageAlt": "Theodore Roosevelt in his first buckskin suit",
    "credit": "\"Theodore Roosevelt in his first buckskins.\" Library of Congress, Prints and Photographs Division.",
@@ -97,7 +97,7 @@
     "\"Hell-Roaring\" Bill Jones"
    ],
    "answer": 2,
-   "explanation": "Joe Ferris was barn superintendent at the Pyramid Park Hotel and took the job for one hundred dollars. He expected the Easterner to quit. Instead he watched him fall off horses, get soaked, get lost, and keep going without complaint. Ferris later told Roosevelt's biographer Hermann Hagedorn: \"He had grit. I liked him from the start.\"",
+   "explanation": "Joe Ferris was barn superintendent at the Pyramid Park Hotel and took the job for a hundred dollars, expecting the Easterner to quit. Instead he watched him fall off horses, get soaked, get lost, and keep going without complaint. Ferris's admiration for the young man's persistence is the thread running through every account of that fortnight.",
    "image": "assets/img/badlands/joe-ferris-store.jpg",
    "imageAlt": "The store of Joe Ferris at Medora, North Dakota, with a group of men outside",
    "credit": "The store of Joe Ferris at Medora, N.D. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -115,7 +115,7 @@
     "He said nothing at all for the rest of the day"
    ],
    "answer": 1,
-   "explanation": "After days of cold rain and sleet, the moment broke him wide open. Joe Ferris remembered it decades later: \"I never saw anyone so enthused in my life. He was perfectly crazy with the excitement. He got right down and beat the dead buffalo with his hat.\" Roosevelt handed Ferris a hundred dollars on the spot.",
+   "explanation": "After days of cold rain and sleet, the moment broke him wide open. Joe Ferris, recalling it for Roosevelt's biographer decades later, described him whooping and dancing round the carcass and striking it with his hat — behaviour Ferris had not seen from a grown man before.",
    "image": "assets/img/badlands/tr-1885-portrait.jpg",
    "imageAlt": "Theodore Roosevelt in fringed buckskin holding a rifle, 1885",
    "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
@@ -133,7 +133,7 @@
     "Shares in the Northern Pacific Railroad"
    ],
    "answer": 2,
-   "explanation": "He handed $14,000 to Sylvane Ferris and Bill Merrifield and bought into the Maltese Cross — also called the Chimney Butte Ranch — about seven miles south of Medora, with a starting herd of roughly 450 head. Roosevelt was tickled by the brand. In his Autobiography: \"the general impression along the Little Missouri was that 'maltese' must be a plural.\"",
+   "explanation": "He handed $14,000 to Sylvane Ferris and Bill Merrifield and bought into the Maltese Cross — known equally as the Chimney Butte Ranch — south of Medora, with a starting herd of roughly 450 head. Roosevelt was tickled by the brand. In his Autobiography he noted that \"the general impression along the Little Missouri was that 'maltese' must be a plural.\"",
    "image": "assets/img/badlands/maltese-cross-ranch.jpg",
    "imageAlt": "The Maltese Cross Ranch house as it was when Roosevelt lived there",
    "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -223,7 +223,7 @@
     "Captain of the Medora militia"
    ],
    "answer": 0,
-   "explanation": "He served as deputy sheriff under \"Hell-Roaring\" Bill Jones, a man Roosevelt described as \"the nastiest talking man I ever heard.\" The arrangement was casual — Jones worked as a hired hand on Roosevelt's ranch when the ranch needed hands, and Roosevelt rode as deputy when the county needed a deputy. As he wrote later, \"we were far too remote from the county seat for the law to concern itself with us.\"",
+   "explanation": "He served as deputy sheriff under \"Hell-Roaring\" Bill Jones, and once told Jones to his face that he was the nastiest talking man he had ever heard. The arrangement was casual: Jones worked as a hired hand on Roosevelt's ranch when the ranch needed hands, and Roosevelt rode as deputy when the county needed a deputy.",
    "image": "assets/img/badlands/tr-ranch-costume.jpg",
    "imageAlt": "Theodore Roosevelt mounted on horseback in ranch clothes near Medora",
    "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -233,7 +233,7 @@
    }
   },
   {
-   "prompt": "In a hotel barroom, a drunk with two revolvers announced, \"Four Eyes is going to treat!\" What did Roosevelt do?",
+   "prompt": "In a hotel barroom, a drunk with two revolvers announced, \"Four eyes is going to treat!\" What did Roosevelt do?",
    "options": [
     "Bought the drinks and left quietly",
     "Drew his own revolver",
@@ -241,7 +241,7 @@
     "Sent for the sheriff"
    ],
    "answer": 2,
-   "explanation": "Roosevelt tried to laugh it off and move away first. When that failed, he wrote in his Autobiography: \"As I rose, I struck quick and hard with my right just to one side of the point of his jaw, hitting with my left as I straightened out, and then again with my right.\" The man's guns went off into the ceiling as he dropped. Roosevelt never named the town; tradition places it at Mingusville, now Wibaux, Montana.",
+   "explanation": "Roosevelt tried to laugh it off and move away first. When that failed, he wrote in his Autobiography: \"As I rose, I struck quick and hard with my right just to one side of the point of his jaw, hitting with my left as I straightened out, and then again with my right.\" The man's guns went off into the ceiling as he dropped. Roosevelt never names the town; it is traditionally identified as Mingusville, now Wibaux, Montana.",
    "image": "assets/img/badlands/bad-lands-cowboy.jpg",
    "imageAlt": "The office of the Bad Lands Cow Boy newspaper in Medora",
    "credit": "Office of the Bad Lands Cow Boy. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -295,7 +295,7 @@
     "The Hard Snow — he lost nothing, having sold out in the fall"
    ],
    "answer": 1,
-   "explanation": "Temperatures fell to forty below and stayed. The range had been eaten bare by overstocking, so the cattle went into the storms already starving. Roosevelt came back in spring 1887 to find the coulees full of carcasses and 60 to 80 percent of his herd dead. He had put roughly $80,000 into the Badlands over the years. He never got most of it back.",
+   "explanation": "Temperatures fell to forty below and stayed. The range had been eaten bare by overstocking, so the cattle went into the storms already starving. Roosevelt came back in the spring of 1887 to find the coulees full of carcasses and the greater part of his herd dead — estimates run from 60 to 80 percent. It ended the open-range cattle boom on the northern plains.",
    "image": "assets/img/badlands/roundup-herd.jpg",
    "imageAlt": "A large herd of cattle on the northern plains",
    "credit": "Cattle on the range. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -313,7 +313,7 @@
     "He rarely referred to them once he left"
    ],
    "answer": 1,
-   "explanation": "\"I never would have been President if it had not been for my experiences in North Dakota,\" he said — a line the Library takes seriously enough to have built a presidential library around it. He arrived at 135 pounds with asthma and left at about 170 without it. He told his biographer Hermann Hagedorn, \"It was here that the romance of my life began.\"",
+   "explanation": "He said more than once that he would never have been president but for his years in North Dakota — a remark that reaches us through those who heard it rather than through anything he wrote, and which survives in slightly different wordings. What is not in doubt is the transformation: he arrived at about 135 pounds with asthma that had shadowed his whole life, and left at about 170 without it.",
    "image": "assets/img/badlands/tr-roundup-1885.jpg",
    "imageAlt": "Theodore Roosevelt standing next to his horse on the roundup, 1885",
    "credit": "Theodore Roosevelt on the round-up, 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
