@@ -7,20 +7,50 @@
  "heroAlt": "Roosevelt reading in front of his tent in a hunting camp",
  "heroCredit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/early-life/young-naturalist",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Naturalist",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Naturalist quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/early-life/young-naturalist"
  },
  "tiers": [
-  { "min": 15, "name": "Curator", "line": "Perfect. Every specimen labelled." },
-  { "min": 13, "name": "Field Ornithologist", "line": "You know your warblers." },
-  { "min": 10, "name": "Collector", "line": "A well-kept cabinet." },
-  { "min": 7,  "name": "Amateur Naturalist", "line": "Good notes, keep going." },
-  { "min": 4,  "name": "Sunday Birdwatcher", "line": "The list is growing." },
-  { "min": 0,  "name": "First Specimen", "line": "His was a seal skull. Start somewhere." }
+  {
+   "min": 15,
+   "name": "Curator",
+   "line": "Perfect. Every specimen labelled."
+  },
+  {
+   "min": 13,
+   "name": "Field Ornithologist",
+   "line": "You know your warblers."
+  },
+  {
+   "min": 10,
+   "name": "Collector",
+   "line": "A well-kept cabinet."
+  },
+  {
+   "min": 7,
+   "name": "Amateur Naturalist",
+   "line": "Good notes, keep going."
+  },
+  {
+   "min": 4,
+   "name": "Sunday Birdwatcher",
+   "line": "The list is growing."
+  },
+  {
+   "min": 0,
+   "name": "First Specimen",
+   "line": "His was a seal skull. Start somewhere."
+  }
  ],
  "questions": [
   {
@@ -36,7 +66,10 @@
    "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
    "imageAlt": "Tintype of the Roosevelt children",
    "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "Building a museum in his bedroom" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "Building a museum in his bedroom"
+   }
   },
   {
    "prompt": "What was the museum's first specimen?",
@@ -51,7 +84,10 @@
    "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
    "imageAlt": "The Roosevelt children",
    "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The young naturalist" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
   },
   {
    "prompt": "Who taught him taxidermy, and what was that man's claim to fame?",
@@ -66,7 +102,10 @@
    "image": "assets/img/early-life/dresden-club.jpg",
    "imageAlt": "The Roosevelt children and companions in Dresden",
    "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The young naturalist" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
   },
   {
    "prompt": "What did Roosevelt intend to become when he entered Harvard in 1876?",
@@ -81,7 +120,10 @@
    "image": "assets/img/early-life/tr-at-college.jpg",
    "imageAlt": "Theodore Roosevelt as a college student",
    "credit": "\"Theo. Roosevelt at college.\" Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/harvard", "label": "Roosevelt at Harvard" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
   },
   {
    "prompt": "Which institution did Roosevelt's father help found?",
@@ -96,7 +138,10 @@
    "image": "assets/img/shared/fraser-statue-memorial.jpg",
    "imageAlt": "The Fraser equestrian statue in front of the Roosevelt Memorial, New York City",
    "credit": "Fraser statue of T.R. in front of Roosevelt Memorial, New York City. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/father", "label": "Theodore Roosevelt Sr." }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/father",
+    "label": "Theodore Roosevelt Sr."
+   }
   },
   {
    "prompt": "Roosevelt published his first natural history work at what stage of life?",
@@ -107,11 +152,14 @@
     "He never published on natural history"
    ],
    "answer": 0,
-   "explanation": "He was producing careful ornithological notes as a boy — a list of birds observed in the Adirondacks appeared under his name while he was still a teenager. He was a published naturalist before he was a published historian.",
+   "explanation": "He was eighteen. His first ornithological work, The Summer Birds of the Adirondacks in Franklin County, N.Y., appeared in 1877 — a catalogue compiled in the mountains with his cousin. He was a published naturalist before he was a published historian.",
    "image": "assets/img/early-life/dresden-club.jpg",
    "imageAlt": "Roosevelt children and companions in Dresden",
    "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
   },
   {
    "prompt": "What was the primary stated purpose of Roosevelt's 1909 African expedition?",
@@ -126,17 +174,28 @@
    "image": "assets/img/post-presidency/safari-rhino.jpg",
    "imageAlt": "Measuring a rhinoceros horn on the African expedition",
    "credit": "Putting the tape on the rhino's horn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Which naturalist and museum taxidermist appears alongside Roosevelt in African expedition photographs?",
-   "options": ["Carl Akeley", "John Muir", "John Burroughs", "Frank Chapman"],
+   "options": [
+    "Carl Akeley",
+    "John Muir",
+    "John Burroughs",
+    "Frank Chapman"
+   ],
    "answer": 0,
    "explanation": "Carl Akeley, the pioneer of the museum habitat diorama, whose work transformed how the public saw wildlife. His methods are why natural history museums look the way they do.",
    "image": "assets/img/post-presidency/safari-akeley-elephant.jpg",
    "imageAlt": "Roosevelt, Carl Akeley and an elephant",
    "credit": "Father, Akeley, and elephant. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Roosevelt publicly attacked a group of popular writers in 1907. What was his objection?",
@@ -151,7 +210,10 @@
    "image": "assets/img/shared/tr-reading-kijabe.jpg",
    "imageAlt": "Roosevelt reading in front of his tent at Kijabe",
    "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
   },
   {
    "prompt": "What did Roosevelt famously do at Pelican Island, Florida, in 1903?",
@@ -166,7 +228,10 @@
    "image": "assets/img/conservation/inland-waterways.jpg",
    "imageAlt": "Roosevelt and Pinchot on the Mississippi with the Inland Waterways Commission",
    "credit": "Theodore Roosevelt and Gifford Pinchot on the Mississippi River, Inland Waterways Commission. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
   },
   {
    "prompt": "How good was Roosevelt's practical field knowledge of birds?",
@@ -181,7 +246,10 @@
    "image": "assets/img/shared/tr-reading-tent.jpg",
    "imageAlt": "Roosevelt reading in front of his tent",
    "credit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The naturalist" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The naturalist"
+   }
   },
   {
    "prompt": "Which of Roosevelt's books came out of his Dakota years as a working naturalist and hunter?",
@@ -196,7 +264,10 @@
    "image": "assets/img/badlands/tr-1885-portrait.jpg",
    "imageAlt": "Theodore Roosevelt in buckskin with a rifle, 1885",
    "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
   },
   {
    "prompt": "What did Roosevelt see in the Dakota Badlands that shaped his view of wildlife forever?",
@@ -211,7 +282,10 @@
    "image": "assets/img/badlands/roundup-herd.jpg",
    "imageAlt": "Cattle on the northern plains",
    "credit": "Cattle on the range. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "Which conservation and hunting organisation did Roosevelt co-found in 1887?",
@@ -226,7 +300,10 @@
    "image": "assets/img/conservation/muir-yosemite-standing.jpg",
    "imageAlt": "Roosevelt and John Muir in Yosemite",
    "credit": "Yosemite, Cal., with John Muir. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
   },
   {
    "prompt": "How did Roosevelt describe the relationship between his hunting and his science?",
@@ -241,7 +318,10 @@
    "image": "assets/img/shared/tr-reading-kijabe.jpg",
    "imageAlt": "Roosevelt reading at camp in Kijabe",
    "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The naturalist" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The naturalist"
+   }
   }
  ]
 }
