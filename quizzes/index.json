@@ -20,11 +20,10 @@
       "id": "early-life",
       "title": "The Making of a Boy",
       "blurb": "Asthma nearly killed him. A bedroom museum, a taxidermy tutor, and a father who told him to make his body. Fifteen questions on the years before anyone had heard of him.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "Theodore Roosevelt as a young man",
+      "image": "assets/img/early-life/teedie-age-two.jpg",
+      "imageAlt": "Theodore Roosevelt as a small boy, about two years old",
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/early-life",
-      "draft": true,
       "placement": "/tr/early-life"
     },
     {
