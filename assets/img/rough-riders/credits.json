@@ -1,0 +1,37 @@
+{
+ "rough-riders-top-of-hill": {
+  "dam_id": "288c9923-6869-40ff-a085-c289c9bad76f",
+  "source_file": "loc_96521936_Colonel_Roosevelt_and_his_Rough_Riders_a.tif",
+  "description": "[Colonel Roosevelt and his Rough Riders at the top of the hill which they captured, Battle of San Juan] \u2014 1 photographic print : albumen. \u2014 Creator: Dinwiddie, William \u2014 Date: 1898",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1127"
+ },
+ "charge-san-juan-painting": {
+  "dam_id": "d3e81d31-3255-41a6-8ca0-4bde08448af4",
+  "source_file": "loc_2013650936_Charge_of_the_Rough_Riders_at_San_Juan_H.tif",
+  "description": "[Charge of the Rough Riders at San Juan Hill] \u2014 Reproduction of painting by Frederic Remington showingTheodore Roosevelt, on horseback, with his men running close behind him; some men are being shot while others lay dead in the grass. \u2014 Creator: Remington, Frederic \u2014 Date: 1956",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x936"
+ },
+ "san-juan-monument": {
+  "dam_id": "3eda9153-c3df-4d9e-87d6-d2460fc8cf9d",
+  "source_file": "har_2009291_The_monument_on_San_Juan_Hill.jpg",
+  "description": "The monument on San Juan Hill \u2014 Several unidentified people in front of a monument to fallen Rough Riders, Santiago de Cuba (Cuba). \u2014 Date: 1900",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1119"
+ },
+ "parker-gatlings": {
+  "dam_id": "2a4d208a-252a-4f4c-84be-2a8f8a9ad679",
+  "source_file": "har_1386067_Lieut_Parker_and_his_Gatlings.jpg",
+  "description": "Lieut. Parker and his Gatlings \u2014 A man at a Gatling gun, not necessarily Parker, San Juan Heights (Cuba). \u2014 Date: 1898",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1047"
+ },
+ "col-brodie": {
+  "dam_id": "4720afee-820e-4e11-9815-177c6174cd3f",
+  "source_file": "loc_2009631478_Greeting_Col_Brodie_of_Rough_Riders.tif",
+  "description": "Greeting Col. Brodie of Rough Riders \u2014 1 photographic print. | Photograph showing Theodore Roosevelt and Col. Alexander O. Brodie, in uniform, greeting each other, surrounded by horses. \u2014 Creator: Thompson, Paul \u2014 Date: 1910",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1016"
+ }
+}
