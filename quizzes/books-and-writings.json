@@ -1,0 +1,242 @@
+{
+ "id": "books-and-writings",
+ "title": "The Author President",
+ "subtitle": "Roosevelt in Print",
+ "intro": "He published a serious naval history at twenty-three, wrote a four-volume frontier epic between political offices, and finished a biography in a room above a store in Medora. Some thirty-five books, thousands of articles, and an estimated hundred thousand letters. Fifteen questions on Roosevelt with a pen.",
+ "heroImage": "assets/img/shared/tr-reading-tent.jpg",
+ "heroAlt": "Roosevelt reading in front of his tent in a hunting camp",
+ "heroCredit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/books-and-writings",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "The Author President",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Books and Writings quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/books-and-writings"
+ },
+ "tiers": [
+  { "min": 15, "name": "Man of Letters", "line": "Perfect. Thirty-five books and counting." },
+  { "min": 13, "name": "Historian", "line": "You've read the footnotes." },
+  { "min": 10, "name": "Essayist", "line": "Well argued throughout." },
+  { "min": 7,  "name": "Correspondent", "line": "A good working library." },
+  { "min": 4,  "name": "Reader", "line": "Plenty more on the shelf." },
+  { "min": 0,  "name": "Uncut Pages", "line": "Start with the Autobiography." }
+ ],
+ "questions": [
+  {
+   "prompt": "Roughly how many books did Roosevelt write?",
+   "options": ["About ten", "About twenty", "About thirty-five", "More than a hundred"],
+   "answer": 2,
+   "explanation": "Around thirty-five, across history, natural history, memoir, biography and political essays — alongside thousands of articles and an estimated hundred thousand letters. He wrote quickly, in gaps between other work.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "The library at Sagamore Hill, photographed by a family member",
+   "credit": "Taken by one of the family in the library at Sagamore Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "What was Roosevelt's first book, begun while he was still at Harvard?",
+   "options": [
+    "The Winning of the West",
+    "The Naval War of 1812",
+    "Hunting Trips of a Ranchman",
+    "Thomas Hart Benton"
+   ],
+   "answer": 1,
+   "explanation": "The Naval War of 1812, started in his final year at Harvard and published in 1882 when he was twenty-three. It was taken seriously as scholarship — the Navy eventually placed a copy aboard every vessel.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt as a college student",
+   "credit": "\"Theo. Roosevelt at college.\" Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life/harvard", "label": "Roosevelt at Harvard" }
+  },
+  {
+   "prompt": "Which book did Roosevelt write largely in Dakota, in a room above Joe Ferris's store?",
+   "options": [
+    "Thomas Hart Benton",
+    "The Rough Riders",
+    "African Game Trails",
+    "The Wilderness Hunter"
+   ],
+   "answer": 0,
+   "explanation": "His biography of the Missouri senator Thomas Hart Benton, written through the spring and summer of 1886 between roundup work. He wrote to Lodge that he had finished all but about thirty pages, and confessed to \"dreadful misgivings\" about it.",
+   "image": "assets/img/badlands/joe-ferris-store.jpg",
+   "imageAlt": "The store of Joe Ferris at Medora, North Dakota",
+   "credit": "The store of Joe Ferris at Medora, N.D. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Which of Roosevelt's works is a four-volume history of the American frontier?",
+   "options": [
+    "The Winning of the West",
+    "The Naval War of 1812",
+    "The Strenuous Life",
+    "Oliver Cromwell"
+   ],
+   "answer": 0,
+   "explanation": "The Winning of the West, published between 1889 and 1896 while he was a civil service commissioner and police commissioner. It is his most ambitious historical work — and the one whose treatment of Native nations reads worst today.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "The library at Sagamore Hill",
+   "credit": "Taken by one of the family in the library at Sagamore Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "Which famous artist illustrated Roosevelt's Dakota hunting books?",
+   "options": [
+    "Frederic Remington",
+    "Charles Russell",
+    "Winslow Homer",
+    "Thomas Moran"
+   ],
+   "answer": 0,
+   "explanation": "Frederic Remington, whose drawings did as much as Roosevelt's prose to sell the books and fix the image of the West in the eastern imagination.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt in buckskin with a rifle, 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "What did Roosevelt take with him to read while chasing the boat thieves in 1886?",
+   "options": [
+    "The Bible only",
+    "Tolstoy's Anna Karenina and a volume of Matthew Arnold",
+    "Shakespeare",
+    "Nothing — there was no room"
+   ],
+   "answer": 1,
+   "explanation": "Anna Karenina on the boat and Matthew Arnold on the overland march, read by firelight to stay awake while guarding three prisoners. He was, by any measure, an unusual frontier deputy.",
+   "image": "assets/img/badlands/little-missouri.jpg",
+   "imageAlt": "The Little Missouri River",
+   "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Roosevelt's account of his own regiment was published in 1899. What did a satirist suggest it should have been called?",
+   "options": [
+    "\"My War\"",
+    "\"Alone in Cuba\"",
+    "\"The Colonel's Tale\"",
+    "\"How I Won\""
+   ],
+   "answer": 1,
+   "explanation": "Finley Peter Dunne, writing as Mr Dooley, suggested \"Alone in Cuba\" would have been the honest title. Roosevelt wrote to tell him he had enjoyed it — which says something about both men.",
+   "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
+   "imageAlt": "Painting of the charge of the Rough Riders",
+   "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rough Riders" }
+  },
+  {
+   "prompt": "What was the \"pigskin library\"?",
+   "options": [
+    "The Sagamore Hill book collection",
+    "A set of favourite books bound in pigskin to survive the African expedition",
+    "His White House reading room",
+    "A book club he founded"
+   ],
+   "answer": 1,
+   "explanation": "A compact travelling library, rebound in pigskin so it would survive heat, damp and being carried across East Africa. He read it in camp throughout the expedition — several photographs show him doing exactly that.",
+   "image": "assets/img/shared/tr-reading-kijabe.jpg",
+   "imageAlt": "Roosevelt reading in front of his tent at Kijabe",
+   "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "How fast was Roosevelt reputed to read?",
+   "options": [
+    "Slowly and repeatedly",
+    "Extremely fast — reportedly a book a day when he had time",
+    "Only in short bursts",
+    "He preferred being read to"
+   ],
+   "answer": 1,
+   "explanation": "Contemporaries reported he could get through a book in an evening and several in a day when unoccupied, with recall to match. He read constantly — between appointments, at meals, and on horseback in Dakota.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "When did Roosevelt publish his Autobiography?",
+   "options": ["1901", "1913", "1919, posthumously", "1890"],
+   "answer": 1,
+   "explanation": "1913, four years after leaving the presidency and shortly before the Brazilian expedition. It is vivid, selective and occasionally unreliable — he calls the boat thieves \"cattle-thieves,\" for instance — which is why historians read it alongside other sources rather than instead of them.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "The library at Sagamore Hill",
+   "credit": "Taken by one of the family in the library at Sagamore Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "Which of Roosevelt's books came out of the 1909 expedition?",
+   "options": [
+    "African Game Trails",
+    "Through the Brazilian Wilderness",
+    "The Wilderness Hunter",
+    "Ranch Life and the Hunting-Trail"
+   ],
+   "answer": 0,
+   "explanation": "African Game Trails. Through the Brazilian Wilderness came out of the later South American expedition — two separate books from two separate journeys, and both written at speed.",
+   "image": "assets/img/post-presidency/safari-lion.jpg",
+   "imageAlt": "Roosevelt and the safari party with a lion",
+   "credit": "Round the lion. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "What kind of writing did Roosevelt send his younger children while travelling?",
+   "options": [
+    "Formal essays",
+    "Letters illustrated with his own sketches",
+    "Poetry",
+    "Nothing; Edith wrote for him"
+   ],
+   "answer": 1,
+   "explanation": "Letters full of pen-and-ink drawings — animals, boats, jokes about the people he was meeting. Published after his death as Theodore Roosevelt's Letters to His Children, they did more for his popular reputation than most of his political work.",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Roosevelt's term for journalists who exposed corruption came from which book?",
+   "options": [
+    "Pilgrim's Progress",
+    "The Pilgrim's Regress",
+    "Paradise Lost",
+    "The Canterbury Tales"
+   ],
+   "answer": 0,
+   "explanation": "Bunyan's Pilgrim's Progress, and its man with the muck-rake who could look no way but downward. Roosevelt meant it as a warning about relentless exposure without hope; the journalists took it as a compliment and kept it.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his private office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "What did Roosevelt do professionally after leaving the presidency, besides exploring?",
+   "options": [
+    "Practised law",
+    "Worked as a magazine editor and contributing writer",
+    "Lectured at Harvard full time",
+    "Ran a publishing house"
+   ],
+   "answer": 1,
+   "explanation": "He wrote for The Outlook as a contributing editor, and later for Metropolitan magazine — using the platform to argue politics and review books. He was, in effect, a working journalist between campaigns.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "Why do historians treat Roosevelt's own accounts with care?",
+   "options": [
+    "He wrote in a private code",
+    "He was a vivid and honest writer who nonetheless misremembered details and shaped the story",
+    "His books were ghostwritten",
+    "Most of his manuscripts are lost"
+   ],
+   "answer": 1,
+   "explanation": "He wrote fast, from memory, and with an eye to how the story read. The Autobiography gets details wrong. It is indispensable for his voice and unreliable for dates — which is why any claim worth making gets checked against a second source.",
+   "image": "assets/img/shared/tr-reading-tent.jpg",
+   "imageAlt": "Roosevelt reading in front of his tent",
+   "credit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  }
+ ]
+}

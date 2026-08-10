@@ -1,0 +1,247 @@
+{
+ "id": "myths",
+ "title": "Fact or Fiction",
+ "subtitle": "The Stories, Checked",
+ "intro": "He hated being called Teddy. He never said several of the things carved on plinths. And the bear in the cartoon that started a toy industry was not the bear most people picture. Fifteen questions separating the famous stories from the record.",
+ "heroImage": "assets/img/shared/drawing-the-line-mississippi.jpg",
+ "heroAlt": "Clifford Berryman's 1902 cartoon \"Drawing the Line in Mississippi\"",
+ "heroCredit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/myths",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "Fact or Fiction",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Myths quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/myths"
+ },
+ "tiers": [
+  { "min": 15, "name": "Fact Checker", "line": "Perfect. Nothing got past you." },
+  { "min": 13, "name": "Archivist", "line": "You go to the source." },
+  { "min": 10, "name": "Sceptic", "line": "Healthy suspicion, well applied." },
+  { "min": 7,  "name": "Careful Reader", "line": "You caught most of them." },
+  { "min": 4,  "name": "Repeater of Stories", "line": "Check the next one before you tell it." },
+  { "min": 0,  "name": "Believer", "line": "Half of what you know isn't so. Start here." }
+ ],
+ "questions": [
+  {
+   "prompt": "How did Roosevelt feel about the nickname \"Teddy\"?",
+   "options": [
+    "He loved it and used it himself",
+    "He disliked it and family never used it",
+    "He was indifferent",
+    "He invented it"
+   ],
+   "answer": 1,
+   "explanation": "He disliked it. The family called him Teedie as a boy and Theodore as a man; Edith called him Theodore. \"Teddy\" was the public's and the newspapers', and one associate said the surest way to annoy him was to use it to his face.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated three-quarter length portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "The teddy bear came from a 1902 hunting trip. What actually happened?",
+   "options": [
+    "Roosevelt shot a bear and regretted it",
+    "He refused to shoot a bear that had been captured and tied for him",
+    "He rescued an orphaned cub",
+    "He was attacked by a bear and survived"
+   ],
+   "answer": 1,
+   "explanation": "On a Mississippi hunt his guides cornered and tied a bear so the president could shoot it. He refused — it was unsportsmanlike — though he did order the exhausted animal put out of its misery. Clifford Berryman's cartoon of the refusal is what launched the toy.",
+   "image": "assets/img/shared/drawing-the-line-mississippi.jpg",
+   "imageAlt": "Berryman's cartoon \"Drawing the Line in Mississippi\"",
+   "credit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "How did the bear in Berryman's cartoons change over time?",
+   "options": [
+    "It stayed exactly the same",
+    "It became smaller and cuter, turning into a cub",
+    "It was dropped after a year",
+    "It became a grizzly"
+   ],
+   "answer": 1,
+   "explanation": "The animal in the first drawing is a full-grown bear. Berryman kept redrawing it in later cartoons, and it shrank into the round-eyed cub everyone now pictures. The toy followed the cartoon, not the hunt.",
+   "image": "assets/img/shared/berryman-to-the-woods.jpg",
+   "imageAlt": "A later Clifford Berryman political cartoon featuring the bear",
+   "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "\"Speak softly and carry a big stick.\" Where did Roosevelt say the phrase came from?",
+   "options": [
+    "He coined it himself",
+    "He credited it to a West African proverb",
+    "It came from Lincoln",
+    "It was a Rough Rider saying"
+   ],
+   "answer": 1,
+   "explanation": "He attributed it to a West African proverb when he used it publicly in 1901. The half everyone forgets is \"speak softly\" — he meant restraint backed by capability, not swagger.",
+   "image": "assets/img/shared/young-head-old-shoulders.jpg",
+   "imageAlt": "Chromolithograph print \"A young head on old shoulders\"",
+   "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "The famous \"Man in the Arena\" passage comes from a speech given where?",
+   "options": [
+    "Chicago, 1912",
+    "The Sorbonne in Paris, 1910",
+    "Osawatomie, Kansas, 1910",
+    "The White House, 1905"
+   ],
+   "answer": 1,
+   "explanation": "From \"Citizenship in a Republic,\" delivered at the Sorbonne on April 23, 1910, a year after he left office. The arena passage is a few sentences in a very long address about the duties of citizens.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "From the bully pulpit" }
+  },
+  {
+   "prompt": "Roosevelt is often quoted saying he could carve a judge with more backbone out of a banana. Did he?",
+   "options": [
+    "Yes, in a letter to Henry Cabot Lodge",
+    "There is no reliable evidence he said it",
+    "Yes, in a public speech",
+    "Yes, but about a senator, not a judge"
+   ],
+   "answer": 1,
+   "explanation": "It is the most quotable line attached to his frustration with Justice Holmes, and it cannot be traced to him. Its earliest appearance is in a 1932 biography of Holmes — decades later, in indirect speech, citing no manuscript. A similar phrase was already circulating in the press by 1900.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "Did Roosevelt charge up San Juan Hill on horseback at the head of his men?",
+   "options": [
+    "Yes, exactly as the paintings show",
+    "He was mounted, but the hill his regiment took was Kettle Hill",
+    "He was not present at the battle",
+    "He led the charge on foot the whole way"
+   ],
+   "answer": 1,
+   "explanation": "He was mounted — officers' horses had made the crossing when the troopers' had not — but the Rough Riders' charge went up Kettle Hill, part of the same San Juan Heights. He dismounted near the crest where wire blocked the way.",
+   "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
+   "imageAlt": "Painting of the charge of the Rough Riders at San Juan Hill",
+   "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "Several celebrated photographs of Roosevelt's Badlands adventures are what?",
+   "options": [
+    "Documentary photographs taken as events happened",
+    "Re-creations staged afterwards with friends posing",
+    "Later paintings mistaken for photographs",
+    "Composites of several negatives"
+   ],
+   "answer": 1,
+   "explanation": "The best-known image of Roosevelt guarding the captured boat thieves was posed after the fact, with Sewall, Dow and an unidentified man standing in as the prisoners. It is a good picture and an honest one only if you say so.",
+   "image": "assets/img/badlands/boat-thieves-staged.jpg",
+   "imageAlt": "Staged photograph of Roosevelt guarding the boat thieves",
+   "credit": "\"T.R. guarding the boat thieves\" — a re-creation staged after the fact. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Was Roosevelt's famous 1912 campaign line \"I am as fit as a bull moose\" the origin of the party's nickname?",
+   "options": [
+    "Yes",
+    "No, the moose came from a newspaper cartoon",
+    "No, it was Taft's insult",
+    "No, it was a Progressive Party committee decision"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt had been using the bull moose comparison for years to describe his own health and vigour, and the press attached it to the Progressive Party. That much is straightforward — unusually for this quiz.",
+   "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
+   "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
+   "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "Was Roosevelt the youngest person ever elected president?",
+   "options": [
+    "Yes",
+    "No — he was the youngest to hold the office, but reached it through succession",
+    "No, that was Lincoln",
+    "Yes, at forty-two"
+   ],
+   "answer": 1,
+   "explanation": "He became president at forty-two, younger than anyone before or since, but by succession after McKinley's assassination. The youngest man ever *elected* was John F. Kennedy, at forty-three.",
+   "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
+   "imageAlt": "Vice President Roosevelt at McKinley's swearing in, March 1901",
+   "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Roosevelt is said to have offered to raise \"an entire regiment of cowboys\" for the government in 1886. Is that his phrase?",
+   "options": [
+    "Yes, from a letter to Henry Cabot Lodge",
+    "No — it comes from a newspaper speculating about what he might do",
+    "Yes, from a speech in Medora",
+    "No, it was invented in the 1950s"
+   ],
+   "answer": 1,
+   "explanation": "The phrase appears in quotation marks in more than one modern biography, but it traces to a Bismarck newspaper reporting that it was \"confidently believed\" Roosevelt *would* offer such a regiment. What he actually wrote to Lodge was \"some companies of horse riflemen.\"",
+   "image": "assets/img/badlands/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted in ranch clothes near Medora",
+   "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "How long did the men who stole Roosevelt's boat actually serve?",
+   "options": ["Three years", "Twenty-five months", "Six months", "They were acquitted"],
+   "answer": 1,
+   "explanation": "Twenty-five months. A widely read biography says three years, but the local newspaper of the day and several later historians agree on twenty-five months. Small discrepancies like this survive for a century because people quote each other rather than the record.",
+   "image": "assets/img/badlands/dickinson-1883.jpg",
+   "imageAlt": "Dickinson, Dakota Territory, in 1883",
+   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "\"Old Four Eyes\" is the nickname most often attached to Roosevelt's Badlands years. What did people actually call him?",
+   "options": [
+    "Old Four Eyes, exactly that",
+    "The four-eyed dude",
+    "The Colonel",
+    "Mr. Roosevelt only"
+   ],
+   "answer": 1,
+   "explanation": "Contemporaries used the blunter phrase — \"the four-eyed dude,\" or in one barroom, simply \"Four Eyes.\" The tidier \"Old Four Eyes\" is largely a later coinage, smoothed by retelling.",
+   "image": "assets/img/badlands/tr-first-buckskins.jpg",
+   "imageAlt": "Theodore Roosevelt in his first buckskin suit",
+   "credit": "\"Theodore Roosevelt in his first buckskins.\" Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+  },
+  {
+   "prompt": "Did Roosevelt really keep a bullet in his chest after the 1912 assassination attempt?",
+   "options": [
+    "No, it was removed that night",
+    "Yes, for the remaining seven years of his life",
+    "No, the bullet never reached him",
+    "Yes, but only for a few months"
+   ],
+   "answer": 1,
+   "explanation": "True. Surgeons judged the risk of removing it greater than the risk of leaving it, and he carried it until he died. He also finished the speech first, having reasoned aloud that he was not coughing blood.",
+   "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
+   "imageAlt": "Roosevelt with Rough Rider veterans during the Bull Moose campaign",
+   "credit": "T.R. with Rough Rider veterans during the Bull Moose campaign, Chicago. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "What is the most reliable way to check whether Roosevelt said something?",
+   "options": [
+    "If it appears in quotation marks in a modern biography",
+    "Trace it to his own letters, speeches or books with a date",
+    "If several websites agree",
+    "If it sounds like him"
+   ],
+   "answer": 1,
+   "explanation": "Biographies quote each other, and a phrase in quotation marks is not proof of authorship. The test is a primary source with a date — a letter, a printed speech, a book. Sounding like him is precisely how the fakes spread.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "Photograph taken by a family member in the library at Sagamore Hill",
+   "credit": "Taken by one of the family in the library at Sagamore Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/quotes", "label": "What he actually said, with sources" }
+  }
+ ]
+}

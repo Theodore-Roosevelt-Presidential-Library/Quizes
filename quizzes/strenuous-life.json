@@ -1,0 +1,237 @@
+{
+ "id": "strenuous-life",
+ "title": "The Strenuous Life",
+ "subtitle": "Vigor as a Way of Life",
+ "intro": "Doctors told his parents he might not live to grow up. He built himself a body in a home gymnasium and spent the next fifty years testing it — boxing, wrestling, riding, walking through obstacles rather than round them. Fifteen questions on a creed he practised long before he preached it.",
+ "heroImage": "assets/img/badlands/tr-ranch-costume.jpg",
+ "heroAlt": "Theodore Roosevelt mounted on horseback in ranch clothes",
+ "heroCredit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/strenuous-life",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "The Strenuous Life",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Strenuous Life quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/strenuous-life"
+ },
+ "tiers": [
+  { "min": 15, "name": "In the Arena", "line": "Perfect. Marred by no dust or sweat." },
+  { "min": 13, "name": "Point-to-Point", "line": "Over it, through it, never round it." },
+  { "min": 10, "name": "Sparring Partner", "line": "You can take a punch." },
+  { "min": 7,  "name": "In Training", "line": "The gymnasium is upstairs." },
+  { "min": 4,  "name": "Convalescent", "line": "So was he, once." },
+  { "min": 0,  "name": "Doctor's Orders", "line": "Rest, then begin again." }
+ ],
+ "questions": [
+  {
+   "prompt": "What condition made Roosevelt's childhood a physical struggle?",
+   "options": ["Polio", "Severe asthma", "Rheumatic fever", "Tuberculosis"],
+   "answer": 1,
+   "explanation": "Asthma, severe enough that his father would drive him through the night in a carriage so the rush of air would help him breathe. Nineteenth-century medicine had almost nothing else to offer.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a small boy",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life/childhood-illness", "label": "Overcoming childhood asthma" }
+  },
+  {
+   "prompt": "What did his father tell him to do about it?",
+   "options": [
+    "Rest and avoid exertion",
+    "Make his body",
+    "Move to a drier climate",
+    "Give up his studies"
+   ],
+   "answer": 1,
+   "explanation": "Theodore Sr. told him he had the mind but not the body, and that without the body the mind would not carry him as far as it should. \"You must make your body.\" A gymnasium was fitted out on the second-floor piazza and the boy went to work.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a young boy",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life/father", "label": "The man who shaped a president" }
+  },
+  {
+   "prompt": "Roosevelt's famous 1899 speech gave the creed its name. What was it called?",
+   "options": [
+    "Citizenship in a Republic",
+    "The Strenuous Life",
+    "The New Nationalism",
+    "The Man with the Muck-Rake"
+   ],
+   "answer": 1,
+   "explanation": "\"The Strenuous Life,\" delivered in Chicago in April 1899 while he was governor of New York. Its argument was that a life of ease is not worth living, for a man or for a nation.",
+   "image": "assets/img/shared/young-head-old-shoulders.jpg",
+   "imageAlt": "Chromolithograph print of Theodore Roosevelt",
+   "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "From the bully pulpit" }
+  },
+  {
+   "prompt": "What was a Roosevelt \"point-to-point\" walk?",
+   "options": [
+    "A timed race between two landmarks",
+    "Walking in a straight line to a chosen point, over or through every obstacle",
+    "A walking tour of Washington monuments",
+    "A hunting technique"
+   ],
+   "answer": 1,
+   "explanation": "You picked a point and went to it in a straight line. Haystacks were climbed, streams waded, cliffs scaled. Guests were invited along and frequently regretted it. The French ambassador Jules Jusserand kept up, which made his reputation in Washington.",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "What did the press call the group of friends who exercised and rode with President Roosevelt?",
+   "options": [
+    "The Kitchen Cabinet",
+    "The Tennis Cabinet",
+    "The Rough Riders",
+    "The Strenuous Set"
+   ],
+   "answer": 1,
+   "explanation": "The Tennis Cabinet — an informal circle of officials, diplomats and friends who played tennis, rode, boxed and went on the point-to-point walks. Membership mattered in Washington precisely because it was unofficial.",
+   "image": "assets/img/shared/tennis-cabinet.jpg",
+   "imageAlt": "President Roosevelt and his Tennis Cabinet",
+   "credit": "President Roosevelt and his Tennis Cabinet. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "What happened to Roosevelt's left eye while he was president?",
+   "options": [
+    "Nothing; his sight was unchanged",
+    "He was blinded in it during a boxing bout in the White House",
+    "He lost it in a riding accident",
+    "It was damaged in Cuba"
+   ],
+   "answer": 1,
+   "explanation": "A blow during a sparring session detached the retina and he lost the sight of that eye. He kept it quiet for years — it emerged publicly only later — and gave up boxing for jiu-jitsu.",
+   "image": "assets/img/shared/tennis-cabinet.jpg",
+   "imageAlt": "President Roosevelt with his Tennis Cabinet",
+   "credit": "President Roosevelt and his Tennis Cabinet. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "Which martial art did Roosevelt take up in the White House?",
+   "options": ["Judo and jiu-jitsu", "Karate", "Fencing only", "Boxing exclusively"],
+   "answer": 0,
+   "explanation": "He trained in Japanese jiu-jitsu with an instructor several times a week, on a mat laid down in the White House, and enjoyed being thrown by men half his size. It was unusual enough in 1904 to be newsworthy.",
+   "image": "assets/img/shared/tennis-cabinet.jpg",
+   "imageAlt": "President Roosevelt and his Tennis Cabinet",
+   "credit": "President Roosevelt and his Tennis Cabinet. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "Roughly how much did Roosevelt's physique change during his Badlands years?",
+   "options": [
+    "He lost weight and never regained it",
+    "He went from about 135 pounds to about 170, mostly muscle",
+    "His weight was unchanged",
+    "He gained fifty pounds"
+   ],
+   "answer": 1,
+   "explanation": "He arrived in 1883 at roughly 135 pounds and left in 1886 at about 170. A reporter noted that the voice which had piped \"Mistah Speakah\" in Albany was now strong enough to drive oxen.",
+   "image": "assets/img/badlands/tr-roundup-1885.jpg",
+   "imageAlt": "Theodore Roosevelt standing beside his horse on the round-up, 1885",
+   "credit": "Theodore Roosevelt on the round-up, 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "What became of Roosevelt's asthma after the Badlands?",
+   "options": [
+    "It worsened",
+    "It effectively disappeared as a serious affliction",
+    "It stayed the same",
+    "It was replaced by heart trouble"
+   ],
+   "answer": 1,
+   "explanation": "It never troubled him seriously again. Whether the cause was the climate, the exertion, or simply growing out of it, the disease that had defined his childhood was gone from his adult life.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt in buckskin, 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "In 1908 Roosevelt set a fitness standard for army officers and then did what?",
+   "options": [
+    "Exempted himself",
+    "Rode ninety-eight miles in a day to prove it was reasonable",
+    "Withdrew it after complaints",
+    "Applied it only to new recruits"
+   ],
+   "answer": 1,
+   "explanation": "Officers complained that a required ninety-mile ride over three days was excessive. Roosevelt, then forty-nine, rode from Washington to Warrenton, Virginia and back in a single day — most of it in freezing rain — and the complaints stopped.",
+   "image": "assets/img/shared/president-ranch-doorway.jpg",
+   "imageAlt": "President Roosevelt in the doorway of a ranch house with a dog in his lap",
+   "credit": "President in doorway of West Divide Creek ranch house. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "What did Roosevelt do about the brutality crisis in college football in 1905?",
+   "options": [
+    "Called for the sport to be banned",
+    "Summoned representatives of the major colleges to the White House to reform the rules",
+    "Ignored it",
+    "Set up a federal commission"
+   ],
+   "answer": 1,
+   "explanation": "Deaths and serious injuries had prompted calls to abolish the game. Roosevelt, who thought rough sport was good for young men but that maiming them was not, brought Harvard, Yale and Princeton to the White House and pressed for reform. The changes that followed led to the forward pass and the body that became the NCAA.",
+   "image": "assets/img/shared/tennis-cabinet.jpg",
+   "imageAlt": "President Roosevelt and his Tennis Cabinet",
+   "credit": "President Roosevelt and his Tennis Cabinet. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "What did Roosevelt insist the strenuous life was ultimately about?",
+   "options": [
+    "Athletic achievement for its own sake",
+    "Effort and duty — a life of work and risk rather than ease",
+    "Military service",
+    "Physical strength above intellect"
+   ],
+   "answer": 1,
+   "explanation": "He was explicit that he did not mean mere muscle. The doctrine was about a life of effort, labour and useful risk over one of ignoble ease — and he applied it to nations as readily as to men, which is where much of the criticism of it begins.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "From the bully pulpit" }
+  },
+  {
+   "prompt": "How did Roosevelt's insistence on physical risk touch his own family?",
+   "options": [
+    "It did not; he shielded his children",
+    "All four sons served in the First World War and the youngest was killed",
+    "His children refused to take part",
+    "Only his daughters were affected"
+   ],
+   "answer": 1,
+   "explanation": "Ted Jr., Kermit, Archie and Quentin all served. Archie and Ted were wounded; Quentin was shot down over France at twenty. Roosevelt had preached the doctrine for two decades and did not flinch from it publicly — but those close to him said he never recovered.",
+   "image": "assets/img/family/edith-and-quentin.jpg",
+   "imageAlt": "Portrait of Mrs. Roosevelt with Quentin",
+   "credit": "Mrs. Roosevelt, Quentin. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "What condition was Roosevelt in physically after the 1913–14 Brazilian expedition?",
+   "options": [
+    "Better than when he set out",
+    "Badly weakened — infection and fever cost him a great deal of weight and permanent health",
+    "Entirely unaffected",
+    "He recovered fully within weeks"
+   ],
+   "answer": 1,
+   "explanation": "A gashed leg turned septic and malarial fever followed. He came out perhaps fifty pounds lighter and never regained his old vigour. The strenuous life had a bill, and this was part of it.",
+   "image": "assets/img/post-presidency/safari-rhino.jpg",
+   "imageAlt": "Theodore Roosevelt on expedition",
+   "credit": "Putting the tape on the rhino's horn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "How old was Roosevelt when he died?",
+   "options": ["Fifty-four", "Sixty", "Sixty-seven", "Seventy-two"],
+   "answer": 1,
+   "explanation": "Sixty, in his sleep at Sagamore Hill in January 1919, of a coronary embolism. Vice President Marshall remarked that death had to take him sleeping, because awake there would have been a fight.",
+   "image": "assets/img/family/sagamore-parlor.jpg",
+   "imageAlt": "The parlor at Sagamore Hill",
+   "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+  }
+ ]
+}
