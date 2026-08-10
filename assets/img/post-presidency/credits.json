@@ -1,0 +1,44 @@
+{
+ "safari-rhino": {
+  "dam_id": "5ca955bf-2dfa-4968-9674-0d4035c2081c",
+  "source_file": "har_4631032_Putting_the_tape_on_the_rhino_s_horn.jpg",
+  "description": "Putting the tape on the rhino's horn \u2014 Theodore Roosevelt and others next to a dead rhinoceros. \u2014 Date: 1909-1910",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1810"
+ },
+ "safari-akeley-elephant": {
+  "dam_id": "27e38a03-3bd9-4fff-9b5a-f98db6cd8eef",
+  "source_file": "har_4631157_Father_Akeley_and_elephant.jpg",
+  "description": "Father, Akeley, and elephant \u2014 Theodore Roosevelt, Carl Akeley, and a dead elephant. \u2014 Date: 1909-1910",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1119"
+ },
+ "safari-lion": {
+  "dam_id": "760ca54f-f216-4985-8eda-f66f146e5fb2",
+  "source_file": "har_4631158_Round_the_lion.jpg",
+  "description": "Round the lion \u2014 Theodore Roosevelt (far right), others of the safari party, and Maasai men around a dead lion. \u2014 Date: 1909-1910",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1098"
+ },
+ "bull-moose-nomination": {
+  "dam_id": "c7718fb2-c88a-4a43-a89f-79d54ec7314f",
+  "source_file": "loc_2001697254_Roosevelt_and_Johnson_after_nomination.tif",
+  "description": "Roosevelt and Johnson after nomination \u2014 1 photographic print. | Theodore Roosevelt and Hiram Johnson, full-length portrait, standing, shaking hands after being nominated as presidential candidates for the Progressive or Bull-moose party. \u2014 Date: 1912",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1956"
+ },
+ "bull-moose-rough-riders": {
+  "dam_id": "3ddbf0e4-c262-4978-ad49-d7f651bc1373",
+  "source_file": "har_1386095_T_R_with_Rough_Rider_veterans_during_Bul.jpg",
+  "description": "T. R. with Rough Rider veterans during Bull Moose campaign, Chicago \u2014 From left to right: Arthur W. Merrifield, Sylvane Ferris, Theodore Roosevelt, Joseph Ferris, and George Meyers, at the Progressive Party Convention, Chicago (Ill.). Photograph by Moffett Studios. \u2014 Creator: Moffett Studio$$QMoffett Studio \u2014 Date: 1912 August",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1819"
+ },
+ "race-to-white-house": {
+  "dam_id": "919b9a2f-5b60-4c3c-836f-ac8522b40f4e",
+  "source_file": "loc_2016679299_Race_to_the_White_House_with_Wilson_on_a.tif",
+  "description": "[Race to the White House with Wilson on a donkey and Taft on an elephant being bitten by T. Roosevelt on a bull moose] \u2014 1 drawing. \u2014 Creator: Berryman, Clifford Kennedy \u2014 Date: 1912",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1668"
+ }
+}

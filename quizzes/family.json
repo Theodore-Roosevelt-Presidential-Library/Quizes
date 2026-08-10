@@ -1,0 +1,227 @@
+{
+ "id": "family",
+ "title": "Life at Sagamore Hill",
+ "subtitle": "The Roosevelts at Home",
+ "intro": "Six children, a formidable wife who ran the household and the president, a menagerie of pets, and a hill above Oyster Bay that stayed home for thirty-four years. Fifteen questions on the Roosevelts off duty.",
+ "heroImage": "assets/img/family/family-portrait.jpg",
+ "heroAlt": "Roosevelt family portrait",
+ "heroCredit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "Life at Sagamore Hill",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Roosevelt Family quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  { "min": 15, "name": "Head of the House", "line": "Perfect. Even Edith would be impressed." },
+  { "min": 13, "name": "First Lady", "line": "You run this household." },
+  { "min": 10, "name": "Eldest Child", "line": "You know where everything is kept." },
+  { "min": 7,  "name": "Cousin", "line": "Invited back for the summer." },
+  { "min": 4,  "name": "Weekend Guest", "line": "Stay for supper." },
+  { "min": 0,  "name": "Lost on the Drive", "line": "It is a long way up that hill." }
+ ],
+ "questions": [
+  {
+   "prompt": "How many children did Theodore Roosevelt have?",
+   "options": ["Four", "Five", "Six", "Eight"],
+   "answer": 2,
+   "explanation": "Six: Alice, from his first marriage, and then Ted Jr., Kermit, Ethel, Archie and Quentin with Edith. Contemporaries noted that the White House had not seen anything like them.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Roosevelt family portrait",
+   "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Who was Roosevelt's second wife?",
+   "options": [
+    "Edith Kermit Carow",
+    "Alice Hathaway Lee",
+    "Corinne Robinson",
+    "Anna Cowles"
+   ],
+   "answer": 0,
+   "explanation": "Edith Kermit Carow, whom he had known since childhood — she was a friend of his sister Corinne and had been in and out of the house on East 20th Street since they were small. They married in London in December 1886.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
+   "credit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "What was the Roosevelt home at Oyster Bay called?",
+   "options": ["Springwood", "Sagamore Hill", "Hyde Park", "Tranquility"],
+   "answer": 1,
+   "explanation": "Sagamore Hill, named for the Sagamore Mohannis, a chief who had signed away rights to the land generations earlier. Roosevelt built it in 1884–85 and it was home until he died there in 1919.",
+   "image": "assets/img/family/sagamore-parlor.jpg",
+   "imageAlt": "The parlor at Sagamore Hill",
+   "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  },
+  {
+   "prompt": "Roosevelt's eldest daughter Alice was famous in her own right. For what?",
+   "options": [
+    "Her charitable work",
+    "Her wit, independence and refusal to behave as a president's daughter should",
+    "Her painting",
+    "Her singing career"
+   ],
+   "answer": 1,
+   "explanation": "She smoked in public, drove her own car, kept a pet snake called Emily Spinach, and said whatever she liked. Her father is supposed to have remarked that he could run the country or control Alice, but not both.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Roosevelt family portrait",
+   "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Alice Roosevelt's 1906 White House wedding made her famous. Whom did she marry?",
+   "options": [
+    "Nicholas Longworth, congressman from Ohio",
+    "Franklin Roosevelt",
+    "Joseph Alsop",
+    "William Borah"
+   ],
+   "answer": 0,
+   "explanation": "Nicholas Longworth, an Ohio congressman who later became Speaker of the House. The wedding was a national event and the shade of blue in her gown became a fashion — \"Alice blue.\"",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Roosevelt family portrait",
+   "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "How is Eleanor Roosevelt related to Theodore?",
+   "options": [
+    "His daughter",
+    "His niece — daughter of his brother Elliott",
+    "His cousin",
+    "No relation; she married into the other branch"
+   ],
+   "answer": 1,
+   "explanation": "She was his niece, Elliott's daughter, born in 1884 — the same year as Theodore's Alice. When she married her distant cousin Franklin in 1905, it was Uncle Theodore who gave her away, and the newspapers noted that the president rather overshadowed the groom.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Roosevelt family portrait",
+   "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "What was Edith Roosevelt's role in the 1902 White House renovation?",
+   "options": [
+    "She opposed it",
+    "She drove it, and had the offices moved out of the family living quarters",
+    "She had no involvement",
+    "She insisted the family live elsewhere permanently"
+   ],
+   "answer": 1,
+   "explanation": "She pushed the renovation that separated the family's living space from the working offices, producing what became the West Wing. She also established the White House china collection and the practice of a first lady employing a social secretary.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
+   "credit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  },
+  {
+   "prompt": "The Roosevelt children were notorious in Washington for what?",
+   "options": [
+    "Their strict good behaviour",
+    "Roaming the White House with a menagerie of pets and treating it as a playground",
+    "Refusing to appear in public",
+    "Living apart from their parents"
+   ],
+   "answer": 1,
+   "explanation": "Snakes, a badger, a macaw, guinea pigs, a one-legged rooster and a pony named Algonquin — who was famously taken up in the White House lift to visit Archie when he was ill. Staff described the place as under occupation.",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt on a windy day at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Which Roosevelt son died in the First World War?",
+   "options": ["Quentin", "Kermit", "Archie", "Ted Jr."],
+   "answer": 0,
+   "explanation": "Quentin, the youngest, a pilot shot down over France in July 1918 at twenty. All four sons served; Archie and Ted were both wounded. Roosevelt had spent years preaching that the strenuous life meant risk, and the bill came due.",
+   "image": "assets/img/family/edith-and-quentin.jpg",
+   "imageAlt": "Portrait of Mrs. Roosevelt with Quentin",
+   "credit": "Mrs. Roosevelt, Quentin. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "Ted Jr. distinguished himself in the Second World War. How?",
+   "options": [
+    "He commanded a bomber group",
+    "He landed with the first wave at Utah Beach on D-Day and received the Medal of Honor",
+    "He served as a naval attaché",
+    "He led the Pacific fleet"
+   ],
+   "answer": 1,
+   "explanation": "Theodore Roosevelt Jr., aged fifty-six and walking with a cane, went ashore in the first wave at Utah Beach and reorganised the landing when it came in off target. He received the Medal of Honor, and died of a heart attack in Normandy the following month.",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+  },
+  {
+   "prompt": "Which son accompanied his father both to Africa and down the River of Doubt?",
+   "options": ["Kermit", "Archie", "Ted Jr.", "Quentin"],
+   "answer": 0,
+   "explanation": "Kermit, on both expeditions. In Brazil he refused to leave his father behind when Roosevelt, feverish and infected, urged the party to go on without him.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Roosevelt family portrait",
+   "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+  },
+  {
+   "prompt": "What did Roosevelt famously do with his children at Sagamore Hill and in Rock Creek Park?",
+   "options": [
+    "Formal lessons in Latin",
+    "Point-to-point walks — over or through obstacles, never round them",
+    "Competitive chess",
+    "Sunday sermons"
+   ],
+   "answer": 1,
+   "explanation": "The rule was that you went in a straight line to the chosen point: over the haystack, through the stream, up the cliff. Diplomats invited along tended to arrive back soaked. The French ambassador Jusserand famously kept up.",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+  },
+  {
+   "prompt": "What did Roosevelt often send his younger children when he was away?",
+   "options": [
+    "Telegrams",
+    "Illustrated letters with sketches",
+    "Newspaper clippings",
+    "Nothing — Edith wrote for him"
+   ],
+   "answer": 1,
+   "explanation": "Letters full of pen-and-ink drawings of animals, boats and jokes. A selection was published after his death as Theodore Roosevelt's Letters to His Children, and it did more for his popular reputation than most of his political writing.",
+   "image": "assets/img/family/sagamore-library.jpg",
+   "imageAlt": "The library at Sagamore Hill",
+   "credit": "Library at Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+  },
+  {
+   "prompt": "Where is Roosevelt buried?",
+   "options": [
+    "Arlington National Cemetery",
+    "Youngs Memorial Cemetery, Oyster Bay",
+    "The North Dakota Badlands",
+    "Hyde Park, New York"
+   ],
+   "answer": 1,
+   "explanation": "In Youngs Memorial Cemetery at Oyster Bay, a short distance from Sagamore Hill, on a wooded slope. Edith is buried beside him. There was no state funeral — the arrangements were deliberately plain.",
+   "image": "assets/img/family/sagamore-parlor.jpg",
+   "imageAlt": "The parlor at Sagamore Hill",
+   "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  },
+  {
+   "prompt": "How long did Edith Roosevelt outlive her husband?",
+   "options": ["Two years", "Nine years", "Nearly thirty years", "She died before him"],
+   "answer": 2,
+   "explanation": "She died in 1948, twenty-nine years after him, having lived to see Ted Jr. killed in Normandy and Kermit dead in Alaska. She burned much of her own correspondence, which is why she remains the least knowable figure in the family.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
+   "credit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  }
+ ]
+}

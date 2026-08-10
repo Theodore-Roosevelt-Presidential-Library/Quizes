@@ -1,0 +1,44 @@
+{
+ "muir-glacier-point": {
+  "dam_id": "f4128ef9-4845-4ed9-bd31-421567db5a35",
+  "source_file": "loc_93503130_Theodore_Roosevelt_and_John_Muir_on_Glac.tif",
+  "description": "[Theodore Roosevelt and John Muir on Glacier Point, Yosemite Valley, California, in 1903] \u2014 1 photographic print : stereograph (unmounted). \u2014 Creator: Underwood & Underwood \u2014 Date: 1906",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x870"
+ },
+ "muir-yosemite-standing": {
+  "dam_id": "b6dd1f94-381b-4d29-aead-25e0163d6cab",
+  "source_file": "har_4321034_Yosemite_Cal_with_John_Muir.jpg",
+  "description": "Yosemite, Cal. with John Muir \u2014 Theodore Roosevelt and John Muir standing on Glacier Point, with the Yosemite Falls in the background. Photograph by Underwood & Underwood. \u2014 Creator: Underwood & Underwood$$QUnderwood & Underwood \u2014 Date: 1903 May 17",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1734"
+ },
+ "pinchot-chief-forester": {
+  "dam_id": "e042f7d3-8ad9-481f-8208-716bdd6ac3b4",
+  "source_file": "loc_95514038_President_Theodore_Roosevelt_and_Chief_F.tif",
+  "description": "President Theodore Roosevelt and Chief Forester Gifford Pinchot -- T.R. and G.P. -- on the river steamer Mississippi This picture was taken on the trip of the Inland Waterways Commission down the Mississippi River in October 1907. \u2014 1 photographic print. \u2014 Date: 1907",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1745"
+ },
+ "glacier-point-scenery": {
+  "dam_id": "5be5840f-f928-4568-93ef-fa7ef59776d8",
+  "source_file": "loc_2010647532_Amidst_America_s_noblest_scenery_Preside.tif",
+  "description": "Amidst America's noblest scenery - President Roosevelt on Glacier Point,Yellowstone Valley, California \u2014 1 photographic print on stereo card : stereograph. \u2014 Creator: Underwood & Underwood \u2014 Date: 1904",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x723"
+ },
+ "inland-waterways": {
+  "dam_id": "6085b78c-634b-4efd-b403-7c90a2803550",
+  "source_file": "loc_2013647447_Teddy_Roosevelt_and_Gifford_Pinchot_on_M.tif",
+  "description": "Teddy Roosevelt and Gifford Pinchot on Miss River, Inland Waterways Cmsn \u2014 Photograph showing President Theodore Roosevelt aboard ship. \u2014 Date: 1907",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x863"
+ },
+ "conservation-conference": {
+  "dam_id": "bbfe5c78-f65f-42c9-8ae8-f80d20476584",
+  "source_file": "har_4505708_International_conservation_conference.jpg",
+  "description": "International conservation conference \u2014 From left to right, back row: R. E. Young, Robert Bacon, Gifford Pinchot, Shelby M. Cullom, James R. Garfield, James Bryce, Thomas R. Shipp, and Philander C. Knox; seated: Henri S. Beland, Clifford Si \u2014 Creator: Harris & Ewing$$QHarris & Ewing \u2014 Date: 1909 February 18-21",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1118"
+ }
+}

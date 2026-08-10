@@ -1,0 +1,237 @@
+{
+ "id": "conservation",
+ "title": "Two Hundred and Thirty Million Acres",
+ "subtitle": "Parks, Forests and Monuments",
+ "intro": "He had watched the buffalo vanish and the Dakota range eaten to bare earth, and he came to the presidency knowing exactly what unrestrained use looked like. Fifteen questions on the part of his record that has outlasted all the rest.",
+ "heroImage": "assets/img/conservation/muir-glacier-point.jpg",
+ "heroAlt": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite Valley",
+ "heroCredit": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite Valley, California. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "Two Hundred and Thirty Million Acres",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Conservation quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency/conservation"
+ },
+ "tiers": [
+  { "min": 15, "name": "Chief Forester", "line": "Perfect. Pinchot would have hired you." },
+  { "min": 13, "name": "Park Superintendent", "line": "You know what is protected and why." },
+  { "min": 10, "name": "Ranger", "line": "Sound on the ground." },
+  { "min": 7,  "name": "Naturalist", "line": "Good field notes." },
+  { "min": 4,  "name": "Day Visitor", "line": "Worth a longer stay." },
+  { "min": 0,  "name": "First Time Out", "line": "The country is still there. Go and see it." }
+ ],
+ "questions": [
+  {
+   "prompt": "Roughly how much land did Roosevelt place under federal protection?",
+   "options": [
+    "23 million acres",
+    "230 million acres",
+    "2.3 million acres",
+    "1 billion acres"
+   ],
+   "answer": 1,
+   "explanation": "About 230 million acres — an area comparable to the whole eastern seaboard from Maine to Florida. It came as national forests, monuments, parks, bird reserves and game preserves, most of it created by executive action rather than legislation.",
+   "image": "assets/img/conservation/glacier-point-scenery.jpg",
+   "imageAlt": "President Roosevelt on Glacier Point amid Yosemite scenery",
+   "credit": "Amidst America's noblest scenery — President Roosevelt on Glacier Point. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "In 1903 Roosevelt camped for three nights in Yosemite with a famous naturalist. Who?",
+   "options": ["John Burroughs", "John Muir", "Gifford Pinchot", "George Bird Grinnell"],
+   "answer": 1,
+   "explanation": "John Muir. They slipped away from the official party and camped in the open — waking one morning under several inches of fresh snow. Roosevelt called it the grandest day of his life, and Muir used the time to argue for federal control of the valley.",
+   "image": "assets/img/conservation/muir-yosemite-standing.jpg",
+   "imageAlt": "Theodore Roosevelt and John Muir standing together in Yosemite",
+   "credit": "Yosemite, Cal., with John Muir. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "Who was Roosevelt's chief forester and closest ally on conservation policy?",
+   "options": ["Gifford Pinchot", "John Muir", "Frederick Law Olmsted", "Stephen Mather"],
+   "answer": 0,
+   "explanation": "Gifford Pinchot, whom Roosevelt put in charge of the Division of Forestry and who went on to lead the United States Forest Service. Pinchot's doctrine was use rather than preservation — forests managed for the long term — which is precisely where he and Muir eventually parted company.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "President Theodore Roosevelt and Chief Forester Gifford Pinchot",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "Which 1906 law let Roosevelt protect land by proclamation, without waiting for Congress?",
+   "options": [
+    "The Antiquities Act",
+    "The Homestead Act",
+    "The Forest Reserve Act",
+    "The Reclamation Act"
+   ],
+   "answer": 0,
+   "explanation": "The Antiquities Act, passed to stop the looting of southwestern archaeological sites. Roosevelt read it broadly and used it to create eighteen national monuments — a power every president since has relied on, and argued about.",
+   "image": "assets/img/conservation/conservation-conference.jpg",
+   "imageAlt": "Delegates at an international conservation conference",
+   "credit": "International conservation conference. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "Roosevelt used the Antiquities Act to protect a vast canyon that Congress had refused to make a park. Which?",
+   "options": ["Zion", "Bryce Canyon", "The Grand Canyon", "Yosemite Valley"],
+   "answer": 2,
+   "explanation": "He declared the Grand Canyon a national monument in 1908 over the objections of mining and grazing interests, having failed to get a park bill through Congress. It did not become a national park until 1919, the year he died.",
+   "image": "assets/img/conservation/glacier-point-scenery.jpg",
+   "imageAlt": "President Roosevelt amid Yosemite scenery",
+   "credit": "Amidst America's noblest scenery — President Roosevelt on Glacier Point. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "What was Pelican Island, Florida, protected as in 1903?",
+   "options": [
+    "The first national monument",
+    "The first federal bird reservation",
+    "The first national seashore",
+    "The first national park in the East"
+   ],
+   "answer": 1,
+   "explanation": "The first federal bird reservation, created to stop plume hunters wiping out the pelicans for the millinery trade. Roosevelt is said to have asked whether any law prevented him from declaring it a reservation, been told there was none, and replied that he so declared it. Fifty more followed.",
+   "image": "assets/img/conservation/inland-waterways.jpg",
+   "imageAlt": "Roosevelt and Gifford Pinchot on the Mississippi with the Inland Waterways Commission",
+   "credit": "Theodore Roosevelt and Gifford Pinchot on the Mississippi River, Inland Waterways Commission. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "Which of these did Roosevelt NOT create during his presidency?",
+   "options": [
+    "National forests",
+    "National monuments",
+    "Federal bird reservations",
+    "The National Park Service"
+   ],
+   "answer": 3,
+   "explanation": "The National Park Service came in 1916, under Woodrow Wilson, seven years after Roosevelt left office. He created the parks and monuments; the agency to run them was somebody else's achievement.",
+   "image": "assets/img/conservation/conservation-conference.jpg",
+   "imageAlt": "Delegates at an international conservation conference",
+   "credit": "International conservation conference. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "What experience in Dakota shaped Roosevelt's conservation thinking most directly?",
+   "options": [
+    "Watching the buffalo disappear and the range destroyed by overgrazing",
+    "A forest fire near Medora",
+    "A flood on the Little Missouri",
+    "A dispute over water rights"
+   ],
+   "answer": 0,
+   "explanation": "He arrived in 1883 just after professional hunters had wiped out the last great herd on the Little Missouri, and he watched the open range eaten to bare earth before the winter of 1886–87 killed the cattle wholesale. He spoke about waste afterwards as a man who had seen it, not read about it.",
+   "image": "assets/img/conservation/inland-waterways.jpg",
+   "imageAlt": "Roosevelt and Pinchot with the Inland Waterways Commission",
+   "credit": "Theodore Roosevelt and Gifford Pinchot on the Mississippi River, Inland Waterways Commission. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Roosevelt co-founded a hunting and conservation club in 1887 that pushed early wildlife protection. What was it called?",
+   "options": [
+    "The Sierra Club",
+    "The Boone and Crockett Club",
+    "The Audubon Society",
+    "The Izaak Walton League"
+   ],
+   "answer": 1,
+   "explanation": "The Boone and Crockett Club, founded with George Bird Grinnell. It campaigned for game laws and for protecting Yellowstone at a time when the park was being poached with near impunity. Muir's Sierra Club came in 1892, and Roosevelt was never a member.",
+   "image": "assets/img/conservation/muir-yosemite-standing.jpg",
+   "imageAlt": "Roosevelt and John Muir in Yosemite",
+   "credit": "Yosemite, Cal., with John Muir. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "The 1902 Newlands Reclamation Act did what?",
+   "options": [
+    "Funded irrigation and water projects in the arid West from land-sale revenue",
+    "Reclaimed land from Native nations",
+    "Drained the Everglades",
+    "Restored logged-over forests in the East"
+   ],
+   "answer": 0,
+   "explanation": "It put the proceeds of western public-land sales into building dams and irrigation works, turning dry country into farmland. Roosevelt counted it among his proudest achievements. Its long-term consequences for western rivers are still being argued over.",
+   "image": "assets/img/conservation/inland-waterways.jpg",
+   "imageAlt": "Roosevelt and Pinchot on the Mississippi",
+   "credit": "Theodore Roosevelt and Gifford Pinchot on the Mississippi River, Inland Waterways Commission. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "Muir and Pinchot came to represent two rival conservation philosophies. What was the split?",
+   "options": [
+    "Federal versus state control",
+    "Preservation of wilderness untouched versus managed use of resources",
+    "Public versus private ownership",
+    "Hunting versus photography"
+   ],
+   "answer": 1,
+   "explanation": "Muir wanted wild places left alone as places of the spirit; Pinchot wanted forests managed scientifically for the greatest good over the longest term. Roosevelt drew on both and never fully chose. The argument broke into the open over damming Hetch Hetchy after he left office.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Roosevelt and Chief Forester Gifford Pinchot",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "In 1908 Roosevelt convened a first-of-its-kind gathering at the White House. Who attended?",
+   "options": [
+    "The governors of every state and territory, for a conference on natural resources",
+    "The heads of the railroads",
+    "Leaders of the labour unions",
+    "European heads of state"
+   ],
+   "answer": 0,
+   "explanation": "The Conference of Governors, in May 1908 — the first time the state governors had been assembled at the White House, and the subject was conservation. It led directly to state conservation commissions across the country.",
+   "image": "assets/img/conservation/conservation-conference.jpg",
+   "imageAlt": "Delegates at an international conservation conference",
+   "credit": "International conservation conference. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "Which national park is named for Roosevelt himself?",
+   "options": [
+    "Theodore Roosevelt National Park in North Dakota",
+    "Roosevelt National Park in New York",
+    "Rough Rider National Park in Cuba",
+    "Sagamore National Park on Long Island"
+   ],
+   "answer": 0,
+   "explanation": "Theodore Roosevelt National Park, in the North Dakota Badlands where he ranched — the only national park named for a single person. The Elkhorn Ranch site lies within it, marked now by little more than foundation stones.",
+   "image": "assets/img/conservation/glacier-point-scenery.jpg",
+   "imageAlt": "President Roosevelt amid western scenery",
+   "credit": "Amidst America's noblest scenery — President Roosevelt on Glacier Point. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/visit", "label": "Visit the Badlands" }
+  },
+  {
+   "prompt": "How did Roosevelt respond in 1907 when Congress moved to strip his power to create forest reserves in six western states?",
+   "options": [
+    "He vetoed the bill outright",
+    "He created millions of acres of new reserves before signing it",
+    "He accepted the limit",
+    "He took the case to the Supreme Court"
+   ],
+   "answer": 1,
+   "explanation": "With Pinchot working through the night on the maps, he proclaimed roughly sixteen million acres of new national forest in the days before signing the bill that would have stopped him. They became known as the midnight forests, and his opponents never forgave it.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Roosevelt and Chief Forester Gifford Pinchot",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+  },
+  {
+   "prompt": "Which idea sat at the centre of Roosevelt's conservation argument?",
+   "options": [
+    "That wilderness should be closed to the public",
+    "That natural resources are held in trust for future generations",
+    "That land should be sold to private owners who would care for it",
+    "That conservation was a matter for the states alone"
+   ],
+   "answer": 1,
+   "explanation": "That the country was holding its land, forests and wildlife in trust for the people who came after — and that using them up for present profit was a kind of theft from the unborn. It is the argument that turned conservation from a hobby of gentlemen hunters into federal policy.",
+   "image": "assets/img/conservation/muir-glacier-point.jpg",
+   "imageAlt": "Roosevelt and John Muir on Glacier Point",
+   "credit": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite Valley, California. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+  }
+ ]
+}

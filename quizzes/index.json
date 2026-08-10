@@ -60,33 +60,30 @@
       "id": "presidency",
       "title": "The Square Deal",
       "blurb": "Forty-two years old and suddenly president. Trusts, coal strikes, a canal, and a Nobel Prize. Fifteen questions on eight years.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "President Theodore Roosevelt speaking to a crowd",
+      "image": "assets/img/presidency/tr-private-office.jpg",
+      "imageAlt": "Theodore Roosevelt in his private office",
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/presidency",
-      "draft": true,
       "placement": "/tr/presidency"
     },
     {
       "id": "conservation",
       "title": "Two Hundred and Thirty Million Acres",
       "blurb": "Parks, forests, monuments, bird reserves — the legacy that outlasted everything else he did. Fifteen questions on what he saved.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "Yosemite Valley",
+      "image": "assets/img/conservation/muir-glacier-point.jpg",
+      "imageAlt": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite",
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
-      "draft": true,
       "placement": "/tr/presidency/conservation"
     },
     {
       "id": "post-presidency",
       "title": "After the White House",
       "blurb": "An African safari, a third-party crusade, a bullet in the chest, and an unmapped river in the Amazon. Fifteen questions on his last decade.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "Porters on the Roosevelt expedition",
+      "image": "assets/img/post-presidency/safari-akeley-elephant.jpg",
+      "imageAlt": "Roosevelt and Carl Akeley on the African expedition",
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/post-presidency",
-      "draft": true,
       "placement": "/tr/post-presidency"
     },
     {
@@ -104,11 +101,10 @@
       "id": "family",
       "title": "Life at Sagamore Hill",
       "blurb": "Six children, a pony in the White House lift, and a family tree that reaches Eleanor and Franklin. Fifteen questions on the Roosevelts at home.",
-      "image": "assets/img/badlands/tr-1885-portrait.jpg",
-      "imageAlt": "Theodore and Edith Roosevelt with their six children",
+      "image": "assets/img/family/family-portrait.jpg",
+      "imageAlt": "Roosevelt family portrait",
       "questions": 15,
       "learnMore": "https://www.trlibrary.com/tr/family",
-      "draft": true,
       "placement": "/tr/family"
     },
     {

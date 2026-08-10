@@ -1,0 +1,237 @@
+{
+ "id": "presidency",
+ "title": "The Square Deal",
+ "subtitle": "The White House, 1901–1909",
+ "intro": "He arrived by assassination at forty-two and treated the office as a place to act from rather than preside over. Trusts broken, a coal strike settled, a canal begun, a war ended, and a fleet sent round the world. Fifteen questions on eight years.",
+ "heroImage": "assets/img/presidency/tr-private-office.jpg",
+ "heroAlt": "Theodore Roosevelt, 26th President of the United States, in his private office",
+ "heroCredit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "The Square Deal",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Presidency quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  { "min": 15, "name": "The Bully Pulpit", "line": "Perfect. The whole eight years." },
+  { "min": 13, "name": "Cabinet Secretary", "line": "You were in the room." },
+  { "min": 10, "name": "Trust Buster", "line": "You know where the bodies are buried." },
+  { "min": 7,  "name": "Square Dealer", "line": "A fair hearing all round." },
+  { "min": 4,  "name": "Junior Clerk", "line": "Learning the building." },
+  { "min": 0,  "name": "Visitor's Gallery", "line": "Pull up a chair. It gets better." }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt gave the Executive Mansion the name it still carries. What was it?",
+   "options": ["The President's House", "The White House", "The Presidential Palace", "The Mansion"],
+   "answer": 1,
+   "explanation": "People had called it the White House informally for decades, but Roosevelt made it official in October 1901, putting the name on his stationery. It was a small act that said something larger about how he meant to occupy the place.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his private office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  },
+  {
+   "prompt": "Which railroad combination did Roosevelt's government break up, establishing him as a trust buster?",
+   "options": [
+    "Standard Oil",
+    "The Northern Securities Company",
+    "United States Steel",
+    "The American Tobacco Company"
+   ],
+   "answer": 1,
+   "explanation": "Northern Securities, a holding company assembled by J. P. Morgan, E. H. Harriman and James J. Hill to combine the great northwestern railroads. Roosevelt had it prosecuted under the Sherman Act in 1902 and the Supreme Court ordered it dissolved in 1904. Wall Street was genuinely shocked that a president would do it.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt at work in his office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "In 1902 Roosevelt intervened in a major strike. Which industry?",
+   "options": [
+    "Steel",
+    "Anthracite coal",
+    "Railroads",
+    "Textiles"
+   ],
+   "answer": 1,
+   "explanation": "The anthracite coalfields of Pennsylvania. Around 147,000 miners had walked out, and with winter coming the country faced a fuel crisis. Roosevelt summoned both sides to the White House and pressed them into arbitration — the first time a president had intervened in a labour dispute as something other than a strike-breaker.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "Campaign poster for Theodore Roosevelt and Charles W. Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "What did Roosevelt call his domestic programme?",
+   "options": ["The New Freedom", "The Square Deal", "The Fair Deal", "The New Nationalism"],
+   "answer": 1,
+   "explanation": "The Square Deal — the promise that capital, labour and the public would each get fair treatment and no more than fair treatment. The New Nationalism came later, in 1910, after he had left office.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "1904 campaign poster for Roosevelt and Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Roosevelt won the Nobel Peace Prize in 1906. For what?",
+   "options": [
+    "Building the Panama Canal",
+    "Mediating an end to the Russo-Japanese War",
+    "The Hague Conventions",
+    "Settling the Venezuela crisis"
+   ],
+   "answer": 1,
+   "explanation": "For brokering the peace between Russia and Japan. He was the first American to win any Nobel Prize. He gave the prize money away rather than keep it.",
+   "image": "assets/img/presidency/nobel-certificate.jpg",
+   "imageAlt": "The Nobel Peace Prize certificate awarded to Theodore Roosevelt",
+   "credit": "Certificate of the Nobel Prize. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Where were the Russo-Japanese peace talks held?",
+   "options": [
+    "Portsmouth, New Hampshire",
+    "The Hague",
+    "Washington, D.C.",
+    "Oyster Bay, New York"
+   ],
+   "answer": 0,
+   "explanation": "Portsmouth, New Hampshire, in the summer of 1905, chosen partly because it was cool in August and had the communications a major diplomatic event required. The resulting agreement is still known as the Treaty of Portsmouth.",
+   "image": "assets/img/presidency/nobel-certificate.jpg",
+   "imageAlt": "Theodore Roosevelt's Nobel Peace Prize certificate",
+   "credit": "Certificate of the Nobel Prize. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "How did the United States obtain the right to build a canal across Panama?",
+   "options": [
+    "By purchase from Colombia",
+    "After Panama declared independence from Colombia, with American encouragement and a warship offshore",
+    "By treaty with France alone",
+    "By United Nations mandate"
+   ],
+   "answer": 1,
+   "explanation": "Colombia's senate rejected the American terms. Panamanian separatists declared independence in November 1903, the United States recognised the new republic almost immediately, and the Hay–Bunau-Varilla Treaty followed within a fortnight. It remains the most criticised episode of his presidency, and he never apologised for it.",
+   "image": "assets/img/presidency/panama-culebra-address.jpg",
+   "imageAlt": "President Roosevelt addressing canal workers at Bas Obispo, Culebra Cut",
+   "credit": "Panama Canal. Pres. Roosevelt at Bas Obispo, Culebra Cut, addressing the workers. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Roosevelt travelled to Panama in 1906 and did something no sitting president had done before. What?",
+   "options": [
+    "Left the country while in office",
+    "Flew in an aeroplane",
+    "Addressed a foreign parliament",
+    "Broadcast by radio"
+   ],
+   "answer": 0,
+   "explanation": "He became the first sitting president to leave the United States. He went to see the canal being dug, climbed into a ninety-five-ton Bucyrus steam shovel for the photographers, and made sure the picture got home.",
+   "image": "assets/img/presidency/panama-steam-shovel.jpg",
+   "imageAlt": "President Roosevelt operating an American steam shovel at the Culebra Cut, Panama",
+   "credit": "President Roosevelt running an American steam-shovel at Culebra Cut, Panama. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Which two landmark consumer-protection laws did Roosevelt sign in 1906?",
+   "options": [
+    "The Pure Food and Drug Act and the Meat Inspection Act",
+    "The Sherman and Clayton Acts",
+    "The Hepburn and Elkins Acts",
+    "The Federal Reserve and Federal Trade Commission Acts"
+   ],
+   "answer": 0,
+   "explanation": "Both in 1906, and both owing something to the public revulsion that followed Upton Sinclair's The Jungle. Sinclair had aimed at the conditions of the workers and hit the nation's stomach instead — as he put it himself.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "In October 1901 Roosevelt caused a national furore by doing what?",
+   "options": [
+    "Inviting Booker T. Washington to dine at the White House",
+    "Appointing a woman to his cabinet",
+    "Refusing to attend church",
+    "Pardoning a political rival"
+   ],
+   "answer": 0,
+   "explanation": "He invited Booker T. Washington to dinner — the first time a president had entertained a Black American at the White House as a guest. The reaction across the South was ferocious. Roosevelt later wrote that he had not devoted much thought to the matter beforehand, and he never repeated the invitation.",
+   "image": "assets/img/presidency/booker-t-washington-tuskegee.jpg",
+   "imageAlt": "Theodore Roosevelt and Booker T. Washington at Tuskegee Institute",
+   "credit": "Theodore Roosevelt and Booker T. Washington at Tuskegee Normal and Industrial Institute. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+  },
+  {
+   "prompt": "What was the Great White Fleet?",
+   "options": [
+    "A fleet of Arctic exploration ships",
+    "A battleship fleet sent round the world to demonstrate American naval power",
+    "The Panama Canal dredging fleet",
+    "A merchant marine subsidy programme"
+   ],
+   "answer": 1,
+   "explanation": "Sixteen battleships, hulls painted white, sent on a circumnavigation from 1907 to 1909. Roosevelt sent them partly to impress Japan, partly to prove the navy could do it, and partly to make it politically impossible for Congress to shrink the fleet afterwards.",
+   "image": "assets/img/presidency/fleet-review-hampton-roads.jpg",
+   "imageAlt": "President Roosevelt aboard the Mayflower reviewing the fleet at Hampton Roads",
+   "credit": "President Roosevelt on the Mayflower reviewing fleet, Hampton Roads, Va. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Roosevelt's approach to foreign policy is usually summarised by which phrase?",
+   "options": [
+    "Peace through strength",
+    "Speak softly and carry a big stick",
+    "Manifest destiny",
+    "Entangling alliances with none"
+   ],
+   "answer": 1,
+   "explanation": "He used the line publicly as vice president in 1901 and attributed it to a West African proverb. The point people usually miss is the first half: the softness of the speech was supposed to be doing as much work as the size of the stick.",
+   "image": "assets/img/presidency/fleet-welcome-home.jpg",
+   "imageAlt": "The Great White Fleet returning from its world cruise to Hampton Roads",
+   "credit": "\"Welcome home!\" The Great White Fleet returning from its world cruise. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "In 1904 Roosevelt won the presidency in his own right. What did he announce on election night?",
+   "options": [
+    "That he would seek a third term",
+    "That he would not accept another nomination",
+    "That he would resign within two years",
+    "That he would appoint his opponent to the cabinet"
+   ],
+   "answer": 1,
+   "explanation": "He declared that having served three and a half years of McKinley's term plus a full term of his own, he would regard that as two terms and would not accept another nomination. He kept to it in 1908 and regretted it almost immediately — which is why he ran again in 1912.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "1904 campaign poster for Roosevelt and Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "What happened next" }
+  },
+  {
+   "prompt": "Roosevelt used a word for journalists who exposed corruption — one that stuck, though he meant it as criticism. What was it?",
+   "options": ["Muckrakers", "Scandalmongers", "Yellow press", "Pamphleteers"],
+   "answer": 0,
+   "explanation": "Muckrakers, borrowed from Bunyan's Pilgrim's Progress — the man with the muck-rake who could look no way but downward. Roosevelt used it in 1906 to warn that relentless exposure without hope could corrode public life. The journalists took the name as a badge of honour.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his private office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+  },
+  {
+   "prompt": "Who succeeded Roosevelt as president in 1909?",
+   "options": [
+    "William Howard Taft",
+    "Charles Evans Hughes",
+    "Elihu Root",
+    "Woodrow Wilson"
+   ],
+   "answer": 0,
+   "explanation": "William Howard Taft, his Secretary of War and personal choice, whom he pushed to the nomination and then left to it while he sailed for Africa. Within three years the friendship had collapsed and Roosevelt was running against him.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "1904 campaign poster for Roosevelt and Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "After the White House" }
+  }
+ ]
+}
