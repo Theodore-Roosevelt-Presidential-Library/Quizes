@@ -281,3 +281,54 @@ after they had been archived correctly; they were serving a stale anonymous
 page cache. Any check of what the public sees must append a cache-busting
 query string. Three rounds of re-archiving were spent on a problem that did
 not exist.
+
+---
+
+## ALL 35 LIVE — 11 August 2026
+
+The six North Dakota and national quizzes went up once the repo was pushed to
+GitHub Pages. Final anonymous, cache-busted verification: **35/35 quiz pages
+return 200**, **18/18 old URLs land on the intended successor**, and `/quiz`
+serves the gallery with no Typeform markup remaining.
+
+| Slug | Title | Teaser image |
+|---|---|---|
+| `medora` | Emperor of the Bad Lands | `bl-hub_medora_43` — the 1880s townsite with the de Morès abattoir chimney |
+| `great-die-up` | The Winter That Ended the Open Range | `05_work_badlandshorse.jpg` |
+| `national-park` | Seventy Thousand Acres | `day2-badlands.jpg` |
+| `badlands-wildlife` | What Lives Out There | `04_wildlife_bison.jpg` |
+| `election-1912` | Four Men and a Bullet | `fact5_bulletpierced_speech.jpg` — Elbert Martin holding the speech the bullet went through |
+| `coal-strike` | No Coal and Winter Coming | `ft1-hub_coal-strike_sq` |
+
+### Working the create form reliably
+
+The node form's field references are stable across page loads, but they have to
+be re-registered after every navigation before they can be set. The sequence
+that works, per node:
+
+1. Load `/node/add/quiz`, then locate Title, Quiz embed code, the Pathauto
+   toggle, URL alias and **Save as** in one pass
+2. Set all five directly — including **Save as → Published**, which is offered
+   on the *create* form, so a node can be published on first save rather than
+   created as a draft and edited afterwards
+3. Only then open the media library, search, select, insert
+4. Read the field values back before saving
+
+**Do not click the sidebar by coordinate.** Turning the Pathauto toggle off
+reveals the alias textbox and shifts everything below it, so a coordinate
+captured a moment earlier lands on "Configure URL alias patterns." — which
+navigates away and silently discards the whole form. Set the toggle and the
+alias by field reference, not by pixel.
+
+**The collapsed sidebar keeps saying "Automatic alias"** even after Pathauto is
+switched off and a manual alias is typed. The summary text is stale, not the
+form. Confirm by reading `path[0][pathauto]` and `path[0][alias]` off the form,
+or by checking the address bar after save — every one of these six was verified
+that way.
+
+### Still open
+
+- The sitemap: all of `/tr` and all of `/visit` are missing, and the 35 quiz
+  nodes want checking into it
+- The image review noted above (Square Deal's doubled stereograph frame, the
+  single portrait on The People Around Him, `07_father.jpg`)
