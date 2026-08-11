@@ -1,0 +1,29 @@
+{
+ "archie-and-quentin-1904": {
+  "source": "loc",
+  "ref": "2009631519",
+  "source_file": "loc_pictures_2009631519",
+  "description": "President Roosevelt, Archie Roosevelt, right side, Quentin Roosevelt, left side",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1680"
+ },
+ "sagamore-fireplace": {
+  "source": "loc",
+  "ref": "92520596",
+  "source_file": "loc_pictures_92520596",
+  "description": "[Interior of Sagamore Hill with fireplace and bearskins]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1378x1536"
+ },
+ "sagamore-interior-tusks": {
+  "source": "loc",
+  "ref": "92520594",
+  "source_file": "loc_pictures_92520594",
+  "description": "[Interior of Sagamore Hill with elephant tusks, antlers and bison head]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1032"
+ }
+}

@@ -195,6 +195,16 @@
       "questions": 10,
       "learnMore": "https://www.trlibrary.com/tr/early-life",
       "placement": "/tr/early-life"
+    },
+    {
+      "id": "christmas",
+      "title": "Christmas at the Roosevelts'",
+      "blurb": "The president who protected 230 million acres had reservations about cutting an evergreen. His nine-year-old son smuggled one into a closet anyway. Ten questions on Christmas in the Roosevelt house - including the last one.",
+      "image": "assets/img/christmas/archie-and-quentin-1904.jpg",
+      "imageAlt": "President Roosevelt seated between his sons Archie and Quentin, 1904",
+      "questions": 10,
+      "learnMore": "https://www.trlibrary.com/tr/family",
+      "placement": "/tr/family"
     }
   ]
 }

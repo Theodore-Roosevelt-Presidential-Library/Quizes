@@ -1,0 +1,172 @@
+{
+ "id": "christmas",
+ "title": "Christmas at the Roosevelts'",
+ "subtitle": "A President, a Closet, and a Smuggled Tree",
+ "intro": "The president who protected 230 million acres had reservations about cutting an evergreen for one week indoors. His nine-year-old son had other ideas. Ten questions on Christmas in the Roosevelt house — including the last one.",
+ "heroImage": "assets/img/christmas/archie-and-quentin-1904.jpg",
+ "heroAlt": "President Roosevelt seated between his sons Archie and Quentin, 1904",
+ "heroCredit": "President Roosevelt, Archie Roosevelt right side, Quentin Roosevelt left side, about 1904. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "Christmas at the Roosevelts'",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Christmas quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  { "min": 10, "name": "Keeper of the Closet", "line": "Perfect. Archie would be impressed." },
+  { "min": 8,  "name": "First Down the Stairs", "line": "You know this house." },
+  { "min": 6,  "name": "Stocking Filled", "line": "Nicely done." },
+  { "min": 4,  "name": "Waiting for Breakfast", "line": "The drawing room stays shut a while longer." },
+  { "min": 2,  "name": "Still Asleep", "line": "The others have already started." },
+  { "min": 0,  "name": "Lump of Coal", "line": "There is always next December." }
+ ],
+ "questions": [
+  {
+   "prompt": "What did Roosevelt think of Christmas trees while he was president?",
+   "options": [
+    "He disapproved of cutting evergreens and did not much want one",
+    "He insisted on the largest tree that would fit",
+    "He thought them a foreign custom",
+    "He had no view either way"
+   ],
+   "answer": 0,
+   "explanation": "A contemporary account put it plainly: in his trips to the woods he had seen the harm done by cutting down promising evergreens, so he did not believe very much in having a Christmas tree. Note what this is not — not a decree, not a ban on trees in the White House. A man with strong opinions about forests had one about his own parlour.",
+   "image": "assets/img/christmas/archie-and-quentin-1904.jpg",
+   "imageAlt": "President Roosevelt with Archie and Quentin",
+   "credit": "President Roosevelt, Archie Roosevelt right side, Quentin Roosevelt left side, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "What he saved" }
+  },
+  {
+   "prompt": "Archie got a tree anyway. Where did he hide it?",
+   "options": ["In a big unused closet", "Under his bed", "In the stables", "In the attic"],
+   "answer": 0,
+   "explanation": "He smuggled a small evergreen into the house and set it up in a large closet nobody was using, then worked on it for days. Accounts differ on the accomplice — his father's own letter credits one of the White House carpenters, while a book published at the time gives the job to Quentin. Both may be right; Archie was persuasive.",
+   "image": "assets/img/christmas/archie-and-quentin-1904.jpg",
+   "imageAlt": "Archie and Quentin Roosevelt with their father",
+   "credit": "President Roosevelt, Archie Roosevelt right side, Quentin Roosevelt left side, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "What did Archie announce when he set out to do it?",
+   "options": [
+    "“I’m going to fix up a tree”",
+    "“Father will never know”",
+    "“We shall have Christmas properly”",
+    "“One tree cannot hurt a forest”"
+   ],
+   "answer": 0,
+   "explanation": "“I’m going to fix up a tree,” he said — and did. On Christmas morning, once the presents had been handed out, he and Quentin asked their father to come and look at the closet. “What is up now?” he asked. “Come and see!” they shouted. The door came open on a tree blazing with lights, and by every account he enjoyed it as much as anyone in the room.",
+   "image": "assets/img/christmas/sagamore-fireplace.jpg",
+   "imageAlt": "A room at Sagamore Hill with fireplace and mantel",
+   "credit": "Interior of Sagamore Hill with fireplace and bearskins. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Who else got presents off Archie's tree?",
+   "options": [
+    "Jack the dog, Tom Quartz the kitten and Algonquin the pony",
+    "The White House staff",
+    "The Secret Service detail",
+    "Nobody — it was for the children"
+   ],
+   "answer": 0,
+   "explanation": "In his own account of the morning, Roosevelt lists a present each for Jack the dog, Tom Quartz the kitten and Algonquin the pony — animals Archie would no more think of neglecting, he wrote, than the president would think of neglecting Archie's brothers and sisters. It is a small line that tells you a great deal about that household.",
+   "image": "assets/img/pets/quentin-on-pony.jpg",
+   "imageAlt": "Quentin Roosevelt on a pony beside a White House policeman",
+   "credit": "Quentin Roosevelt on pony beside White House policeman. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The White House menagerie" }
+  },
+  {
+   "prompt": "How were the presents kept secret in the weeks before Christmas?",
+   "options": [
+    "A room was locked, and only Edith and one maid held a key",
+    "They were stored at the Treasury",
+    "They arrived on Christmas Eve only",
+    "The children were sent away until the day"
+   ],
+   "answer": 0,
+   "explanation": "One room was turned into a storeroom for the season and kept locked, the key held by Mrs. Roosevelt and a single maid. Gifts arrived from all over the country — friends and strangers alike insisted on remembering the president — and on Christmas morning they were laid out on a large oval table by one of the tall windows.",
+   "image": "assets/img/family/sagamore-parlor.jpg",
+   "imageAlt": "The parlor at Sagamore Hill",
+   "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  },
+  {
+   "prompt": "In his own childhood, where did the Roosevelt children hang their stockings?",
+   "options": [
+    "In their parents' bedroom",
+    "On the drawing-room mantel",
+    "At the foot of the stairs",
+    "In the nursery"
+   ],
+   "answer": 0,
+   "explanation": "In their parents' bedroom — and they used the biggest stockings they could borrow off a grown-up, which is a detail worth pausing on. On Christmas morning the children trooped in and ransacked them on their mother and father's bed. The larger presents waited downstairs behind a closed door until after breakfast, an almost unendurable wait.",
+   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
+   "imageAlt": "Tintype of the four Roosevelt children",
+   "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+  },
+  {
+   "prompt": "What did he say about the Christmases of his own boyhood?",
+   "options": [
+    "That he tried to reproduce them exactly for his own children",
+    "That they were too solemn for his taste",
+    "That he could scarcely remember them",
+    "That his own children's were better"
+   ],
+   "answer": 0,
+   "explanation": "He said he had never known anyone to have such attractive Christmases, and that in the next generation he set out to reproduce them exactly — the decorated tree, the stockings at the mantel, the rush of bare feet on the happiest morning of the year. For a man who changed nearly everything he touched, he left Christmas alone.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a small boy",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+  },
+  {
+   "prompt": "Where did he spend Christmas 1918, his last?",
+   "options": [
+    "At Sagamore Hill, home from hospital that morning",
+    "In hospital in New York",
+    "At the White House as a guest",
+    "In Washington on political business"
+   ],
+   "answer": 0,
+   "explanation": "He had been in hospital since November with rheumatism and inflammatory trouble, and Edith got him home to Oyster Bay in time for the day. Alice, Ethel, Archie and Grace were waiting at Sagamore Hill when she brought him in. Quentin, the boy from the closet story, had been shot down over France that July.",
+   "image": "assets/img/christmas/sagamore-interior-tusks.jpg",
+   "imageAlt": "Interior of Sagamore Hill with elephant tusks, antlers and a bison head",
+   "credit": "Interior of Sagamore Hill with elephant tusks, antlers and bison head. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Sagamore Hill" }
+  },
+  {
+   "prompt": "What promise did he tell his sister he had kept?",
+   "options": [
+    "To work up to the hilt until he was sixty",
+    "To visit every state in the Union",
+    "To never seek a third term",
+    "To finish his last book before the year's end"
+   ],
+   "answer": 0,
+   "explanation": "On Christmas Eve, bandaged and bright-eyed in a hospital bathrobe, he told his sister Corinne: “I promised myself that I would work up to the hilt until I was sixty, and I have done it.” He had turned sixty eight weeks earlier. Republicans were already talking about nominating him again in 1920.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, seated portrait. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "His last decade" }
+  },
+  {
+   "prompt": "Leaving the hospital that Christmas morning, dizziness hit him in the lift. What did he tell his doctor?",
+   "options": [
+    "“I am not sick and it will give the wrong impression”",
+    "“Walk ahead of me and say nothing”",
+    "“The press must not be told”",
+    "“I shall be quite well by the new year”"
+   ],
+   "answer": 0,
+   "explanation": "Dr. Richards reached out to steady him and he flinched: “Don’t do that, doctor. I am not sick and it will give the wrong impression.” Then he braced himself, walked the corridor unaided and got into his car. He died at Sagamore Hill twelve days later, on 6 January 1919.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, seated portrait. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+  }
+ ]
+}
