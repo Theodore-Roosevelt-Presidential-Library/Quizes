@@ -205,6 +205,16 @@
       "questions": 10,
       "learnMore": "https://www.trlibrary.com/tr/family",
       "placement": "/tr/family"
+    },
+    {
+      "id": "new-year",
+      "title": "Eight Thousand Handshakes",
+      "blurb": "Every New Year's Day the White House opened its doors and anyone willing to queue could shake the president's hand. On 1 January 1907 an awful lot of people did. Ten questions on the most exhausting tradition in American public life.",
+      "image": "assets/img/newyear/public-admitted-new-year.jpg",
+      "imageAlt": "Members of the public filing in to the White House for the New Year's reception",
+      "questions": 10,
+      "learnMore": "https://www.trlibrary.com/tr/presidency",
+      "placement": "/tr/presidency"
     }
   ]
 }

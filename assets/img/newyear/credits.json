@@ -1,0 +1,56 @@
+{
+ "public-admitted-new-year": {
+  "source": "loc",
+  "ref": "92514783",
+  "source_file": "loc_pictures_92514783",
+  "description": "General public being admitted to White House for New Year's reception",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1017"
+ },
+ "crowd-waiting-outside": {
+  "source": "loc",
+  "ref": "91787210",
+  "source_file": "loc_pictures_91787210",
+  "description": "[Crowd waiting in line outside of White House for New Year reception]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1109"
+ },
+ "dewey-in-line": {
+  "source": "dam",
+  "ref": "e5696112-d61f-4906-8dd2-af9ea994f595",
+  "source_file": "loc_2010646553_Admiral_Dewey_and_officers_of_the_Navy_i.tif",
+  "description": "Admiral Dewey and officers of the Navy, in line at President Roosevelt's New Year reception, 1902, White House, Washington \u2014 1 photographic print on stereo card : stereograph. | Stereograph showing Admiral Dewey and officers of the Navy standing in line. \u2014 Creator: Underwood & Underwood \u2014 Date: 1902",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x717"
+ },
+ "east-room-1903": {
+  "source": "loc",
+  "ref": "2017647900",
+  "source_file": "loc_pictures_2017647900",
+  "description": "The East Room, the grand Reception Room of the White House,  Washington, D.C.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x732"
+ },
+ "white-house-1905": {
+  "source": "loc",
+  "ref": "2017648904",
+  "source_file": "loc_pictures_2017648904",
+  "description": "The White House, Washington, D.C., U.S.A.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x728"
+ },
+ "shaking-hands-veterans": {
+  "source": "dam",
+  "ref": "16ae43da-1594-44b0-a83a-03335c48656f",
+  "source_file": "har_1182041_The_Col_shaking_hands_with_veterans_of_t.jpg",
+  "description": "The Col. shaking hands with veterans of the Spanish War \u2014 Theodore Roosevelt is not discernible in the photograph; probably Pocatello (Idaho). \u2014 Date: 1900 September 19",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1097"
+ }
+}
