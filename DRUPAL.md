@@ -110,8 +110,9 @@ purpose — a quiz that scores people on verbatim recall of quotations is exactl
 where a presidential library gets a quotation wrong) and **Leadership**. If
 either matters, they are worth building rather than redirecting.
 
-Do not unpublish the old nodes until the redirects are in and tested — deleting
-first turns a redirect into a 404.
+The old nodes have to come down **before** the redirects go in, not after — see
+the sequencing note at the end. A published node still holding
+`/quiz/rough-rider-quiz` wins over any redirect pointing at that path.
 
 ---
 
