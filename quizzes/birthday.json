@@ -94,7 +94,7 @@
    "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
   },
   {
-   "prompt": "What did Henry Cabot Lodge write to him on his forty-sixth birthday in 1904?",
+   "prompt": "Elihu Root sent him a note on his forty-sixth birthday in 1904. What did it say?",
    "options": [
     "\"You have made a very good start in life\"",
     "\"The nation is in your debt\"",
@@ -102,14 +102,14 @@
     "\"You will be president twice over\""
    ],
    "answer": 0,
-   "explanation": "\"You have made a very good start in life and your friends have great hopes for you when you grow up.\" Lodge was his closest political friend for thirty years, and the joke lands because Roosevelt was, at forty-six, already a former governor, a war hero and the sitting president.",
+   "explanation": "\"I congratulate you on attaining the respectable age of 46. You have made a very good start in life and your friends have great hopes for you when you grow up.\" Root was fourteen years his senior and teased him like an adolescent; Roosevelt, who enjoyed it, called him \"old man.\" The note went to a sitting president who was also a former governor and a war hero.",
    "image": "assets/img/presidency/tr-private-office.jpg",
    "imageAlt": "Theodore Roosevelt in his private office",
    "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
    "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
   },
   {
-   "prompt": "That 1904 birthday came shortly before what?",
+   "prompt": "His forty-sixth birthday, in October 1904, fell days before what?",
    "options": [
     "The election that made him president in his own right",
     "The Portsmouth peace conference",
