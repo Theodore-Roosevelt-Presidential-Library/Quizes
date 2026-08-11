@@ -1,0 +1,309 @@
+{
+ "id": "medora",
+ "title": "The Marquis and the Town He Built",
+ "subtitle": "Medora, Dakota Territory, 1883–1886",
+ "intro": "Six months before Theodore Roosevelt stepped off the train, a twenty-four-year-old French cavalry officer pitched a tent in the sagebrush across the river and named the place for his wife. Antoine de Vallombrosa, Marquis de Morès, meant to take the beef trade away from Chicago. Fourteen questions on the town he built, the fortune he burned, the killing that shadowed him, and the letter that nearly put him and Roosevelt on a dueling ground.",
+ "heroImage": "assets/img/medora/chateau-river.jpg",
+ "heroAlt": "The house of the Marquis de Mores on a bluff above the Little Missouri River at Medora",
+ "heroCredit": "The house of the Marquis de Mores from the eastern bank of the river — photographed for Hermann Hagedorn about 1919, some thirty years after the family left. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Marquis and the Town He Built",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about the Marquis de Morès and Medora — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Emperor of the Bad Lands",
+   "line": "Perfect. Nothing in the record got past you."
+  },
+  {
+   "min": 12,
+   "name": "Master of Medora",
+   "line": "You know this town and the man who made it."
+  },
+  {
+   "min": 9,
+   "name": "Stage-Line Driver",
+   "line": "Solid work on a complicated story."
+  },
+  {
+   "min": 6,
+   "name": "Company Store Clerk",
+   "line": "You have the shape of it. Keep reading."
+  },
+  {
+   "min": 3,
+   "name": "New Arrival on the Flat",
+   "line": "Everyone starts somewhere on this river."
+  },
+  {
+   "min": 0,
+   "name": "Just Off the Express",
+   "line": "Welcome to Medora. Have a look around."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "On April 1, 1883, the Marquis de Morès pitched a tent in the sagebrush and started a town. How did he christen it?",
+   "options": [
+    "He broke a bottle of wine over the tent",
+    "He drove a gilded spike by the rails",
+    "He fired a salute from a cannon",
+    "He buried a silver franc at the depot"
+   ],
+   "answer": 0,
+   "explanation": "He named it Medora, for his wife. His secretary, William van Driesche, stood at attention beside him while he cracked the bottle over an iron tent peg. The date was April Fool's Day, which Hermann Hagedorn could not resist calling auspicious. The Marquis had tried to buy into the existing settlement of Little Missouri on the west bank, been rebuffed, and answered by purchasing the flat on the opposite side and setting out to wipe his rival off the map. It worked: within a year the Northern Pacific had moved its express stop to his side of the river. Arnold Goplen's history counts 251 permanent residents at the close of 1884. The fuller boast — a good town with three hotels, a dozen stores, a church and a brickyard — is the Marquis's own, made in June 1885, and he was the man selling the place.",
+   "image": "assets/img/medora/medora-1883.jpg",
+   "imageAlt": "Three plain frame buildings standing in snow — the office and company store of the Marquis de Mores at Medora in 1883",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  },
+  {
+   "prompt": "Medora von Hoffman, the New Yorker the town is named for, was said by people who watched her to be better than her husband at what?",
+   "options": [
+    "Riding a bucking horse",
+    "Speaking Lakota",
+    "Shooting",
+    "Keeping the company books"
+   ],
+   "answer": 2,
+   "explanation": "She was a New York banker's daughter who met the Marquis in a Paris salon and married him in February 1882. She spoke seven languages, painted watercolors of the Little Missouri country that survive to this day, brought twenty servants west with her, and hunted the breaks sidesaddle in a black sombrero with an eagle feather in it. Witnesses judged her the better shot of the two, and her husband had killed two men in duels. After he was murdered she spent six years pressing the French courts to convict his killers — and then asked that the one death sentence handed down be commuted.",
+   "image": "assets/img/medora/marquise-house.jpg",
+   "imageAlt": "A two-story frame house with a wide porch standing on open prairie below a rounded butte, two figures walking nearby",
+   "credit": "The house of the Marquise de Mores at Medora — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "The Chateau de Mores still stands on its bluff above Medora. What sort of building is it?",
+   "options": [
+    "A stone keep brought from France",
+    "A frame house of twenty-six rooms",
+    "A brick mansion with a slate roof",
+    "A nine-room log hunting lodge"
+   ],
+   "answer": 1,
+   "explanation": "David McCullough puts it plainly: the chateau was \"an oversized frame farmhouse\" — light gray, red shutters, red roof, a deep porch running around two sides. What made it look grand was where it sat, alone on a bare promontory in full view of the whole town. Then the Marquise's square piano arrived by train from St. Paul, twenty servants took up their duties, and Medora decided it had a chateau. Their son Louis gave the house to North Dakota in 1936 on the condition that it be kept as a museum and opened to the public, furniture and all.",
+   "image": "assets/img/medora/chateau-river.jpg",
+   "imageAlt": "A two-story frame house standing alone on a bluff above the Little Missouri River, seen from among cottonwoods on the far bank",
+   "credit": "The house of the Marquis de Mores from the eastern bank of the river — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  },
+  {
+   "prompt": "The whole point of the abattoir was to kill cattle at Medora rather than ship them alive to Chicago. What was the argument for it?",
+   "options": [
+    "Chicago's yards refused Dakota cattle",
+    "Territorial law taxed every steer shipped out",
+    "The Northern Pacific had no stock cars to spare",
+    "Live cattle lost weight on the long haul east"
+   ],
+   "answer": 3,
+   "explanation": "De Morès set it out in print for his Northern Pacific Refrigerator Car Company: killing on the range would end the shrinkage of animals worn down by days in a cattle car, deliver meat in better condition, and cut out enough middlemen to drop the price at the counter. He also picked the site with care — eastern edge of the range, shortest haul to market, and, as he wrote, water and ice to any extent. How much the finished plant could actually handle is not settled: the Marquis himself claimed a capacity of 150 beeves a day, other accounts report about a hundred killed daily, and several writers repeat figures higher than either.",
+   "image": "assets/img/medora/abattoir.jpg",
+   "imageAlt": "The slaughterhouse of the Marquis de Mores at Medora, a group of long wooden buildings with an overhead conveyor running between them, seen across a sandy river flat",
+   "credit": "The abattoir of the Marquis de Mores at Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "On June 26, 1883, gunfire on the trail outside Little Missouri killed a young hunter named Riley Luffsey. What lay behind the quarrel?",
+   "options": [
+    "Fences across the hunters' old trails",
+    "A card game in Bill Williams's new saloon",
+    "Payment for a season's buffalo hides",
+    "Unpaid wages at the new slaughterhouse"
+   ],
+   "answer": 0,
+   "explanation": "The Marquis had begun fencing land the hunters had always ridden across, and a hunter named Frank O'Donnell, drinking, said he would shoot him on sight. The words were carried back — Jake Maunders, the Marquis's adviser, carried tales in both directions — and de Morès went to Mandan for a warrant only to be told by the judge to defend himself. Both sides armed. When O'Donnell rode out of town with Luffsey and John Reuter, known as \"Dutch Wannigan\", the Marquis and his men were posted off the trail. Luffsey was killed and Reuter wounded. Testimony conflicted about who fired first, and no court ever established whose bullet killed Luffsey. He was buried on Graveyard Butte above the settlement.",
+   "image": "assets/img/medora/luffsey-scene.jpg",
+   "imageAlt": "The Little Missouri valley below Medora, with a single railway track running along the near bank and buttes beyond",
+   "credit": "\"Scene of the murder of Riley Luffsey, from the trail down which he rode\" — photographed for Hermann Hagedorn about thirty-five years afterwards. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "De Morès went before the law repeatedly over the death of Riley Luffsey. How did it finally end?",
+   "options": [
+    "He was convicted of manslaughter and fined",
+    "A Bismarck jury acquitted him in 1885",
+    "He fled to France before the trial opened",
+    "The charge was dropped for want of a witness"
+   ],
+   "answer": 1,
+   "explanation": "Two justice-of-the-peace hearings discharged him in the summer of 1883. Two years later a grand jury indicted him for murder in the first degree, and he won a change of venue by arguing, among other things, that Mandan's Irish community sympathized with Luffsey, who was Irish. The trial opened in Bismarck on September 12, 1885 and ran a week, the prosecution made much of two duels he had fought in France that had killed both his opponents, and the verdict was not guilty. A. C. Huidekoper, who ranched nearby, recalled that at the earlier hearings there was \"a lot of free money floating\" around. One last line rests on Hagedorn alone, who wrote his book in 1921 out of interviews with the men still in Medora some thirty-five years afterwards: he has the Marquis saying that if he had known then what he later knew, \"Riley Luffsey would never have been killed\".",
+   "image": "assets/img/medora/bad-lands-cowboy.jpg",
+   "imageAlt": "A man and a woman standing in the doorway of the small frame office of the Bad Lands Cow Boy newspaper at Medora",
+   "credit": "Office of the Bad Lands Cow Boy, Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In September 1885 the Marquis sent Roosevelt a letter Roosevelt read as a challenge. What had convinced him Roosevelt was working against him?",
+   "options": [
+    "Roosevelt had testified for the prosecution",
+    "Roosevelt had bought the town's newspaper",
+    "He believed Roosevelt's friends paid witnesses",
+    "Roosevelt sat on the grand jury that indicted him"
+   ],
+   "answer": 2,
+   "explanation": "Two men took money from the Medora storekeeper Joe Ferris before traveling to the trial, and both turned up as witnesses for the prosecution. One was John Reuter — \"Dutch Wannigan\" — who had been wounded in the shooting that killed Luffsey and was by then night-herding for Roosevelt's Maltese Cross outfit. What the Marquis never grasped was that Ferris was the banker of the Badlands: there was no bank in Medora, cowhands left their wages with him for safekeeping, and the money the witnesses collected was simply their own. De Morès closed his letter, \"between gentlemen it is easy to settle matters of that sort directly\". Roosevelt opened his reply, \"Most emphatically I am not your enemy\".",
+   "image": "assets/img/badlands/joe-ferris-store.jpg",
+   "imageAlt": "Six men standing on the plank porch of Joe Ferris's store at Medora, North Dakota",
+   "credit": "The store of Joe Ferris at Medora, N.D. — photographed for Hermann Hagedorn about 1920, more than thirty years after the trial. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "Expecting a challenge from the Marquis, Roosevelt told Bill Sewall which weapon he would name. What was it?",
+   "options": [
+    "Rifles",
+    "Dueling pistols",
+    "Cavalry sabers",
+    "Bowie knives"
+   ],
+   "answer": 0,
+   "explanation": "De Morès had trained at the French military academy of Saint-Cyr and then at the cavalry school at Saumur, and had killed two men on dueling grounds in France. Roosevelt's eyesight was poor and he had never fought a duel in his life, so he ruled out the Frenchman's weapons. Sewall recalled the moment for Hagedorn thirty-five years later: \"I am no swordsman, and pistols are too uncertain and Frenchy for me.\" His terms were rifles at twelve paces, the two men to fire and keep advancing until one of them dropped. Sewall told him flatly that no challenge would come. None did — the Marquis wrote back that he had meant only that gentlemen could settle such things without trouble, and invited Roosevelt to dinner.",
+   "image": "assets/img/medora/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted on horseback in fringed buckskin and a broad hat, with a butte behind him",
+   "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Medora beef reached eastern counters cheaper than what shoppers were already buying. Why did they pass it by?",
+   "options": [
+    "New York's health board condemned the shops",
+    "The railroads would not carry it east in summer",
+    "It was sold only in hundred-pound lots",
+    "They mistrusted chilled, grass-fed meat"
+   ],
+   "answer": 3,
+   "explanation": "Eastern buyers disliked cold-storage meat on principle and had never eaten grass-fed beef. It was as good as corn-fed or better, Hagedorn wrote, but the customer \"would not change his habits even at a saving\" — a verdict that appears in Hagedorn and nowhere else, written up in 1921 from what the Medora men remembered. Rival packers pressed the point with advertisements setting pictures of scrawny cows labeled \"grass fed\" beside plump ones finished on corn. When Chicago's retailers refused the meat, de Morès opened his own shops — dozens of them, and stalls in New York's Fulton Market — and discovered something no ledger had predicted: people would not shop in a store that sold only one kind of meat.",
+   "image": "assets/img/medora/roundup-herd.jpg",
+   "imageAlt": "A long column of cattle strung out across open rolling grassland on the northern plains",
+   "credit": "\"Throwing rangers to the round-up\" — cattle on the northern range, photographed in 1907, two decades after the Marquis had gone. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Beef was not the only cargo he dreamed up. Which of these schemes did de Morès actually get running?",
+   "options": [
+    "A pottery works using local clay",
+    "Shipping Columbia River salmon east",
+    "A dairy exporting butter",
+    "A gold mine in Montana"
+   ],
+   "answer": 1,
+   "explanation": "Fresh Pacific salmon normally took about three weeks to cross the continent and arrived smoked or canned. De Morès had the catch cleaned at the riverside, packed in ice in his own refrigerator cars and hitched to the fast passenger trains, and put it on a New York table seven days out. He cleared something like a thousand dollars a car. The pottery works, the dairy and the gold mine were all announced to reporters and none was ever built. Neither were the fifty thousand cabbages he promised to raise under glass and feed on slaughterhouse offal.",
+   "image": "assets/img/medora/medora-from-butte.jpg",
+   "imageAlt": "The Little Missouri valley at Medora seen from the top of a butte, with the packing plant buildings on the flat below",
+   "credit": "The Little Missouri at Medora from the top of the butte, photographed in September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Marquis also sank money into a stage line running south out of Medora. Where was it headed?",
+   "options": [
+    "Bismarck",
+    "Miles City",
+    "Deadwood",
+    "Fort Buford"
+   ],
+   "answer": 2,
+   "explanation": "The gold camps in the Black Hills could otherwise be reached only by stage from Pierre, three hundred miles off, and freight was piling up for want of a road; Medora was a hundred miles nearer. De Morès handed the job first to the saloon-keeper Bill Williams and then to Williams's faro-dealing partner Jess Hogue. Both spent his money briskly and delivered nothing. It fell to Arthur Packard, the young editor of the Bad Lands Cow Boy, to get a coach through at last. Packard told the story to Hermann Hagedorn some thirty-five years later and it survives nowhere else: \"Our entrance into Deadwood was spectacular\", he said, and it ended with a ride to Lead City with Seth Bullock among the local dignitaries riding in state inside the coach. Packard's memory promotes Bullock to mayor of Deadwood; he had in fact been Lawrence County's first sheriff, and the mayoralty went to other men.",
+   "image": "assets/img/medora/little-missouri.jpg",
+   "imageAlt": "A wide bend of the Little Missouri River with a low cutbank and a line of cottonwoods on the far shore",
+   "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "What is left today of the Marquis's packing plant at Medora?",
+   "options": [
+    "Its brick chimney",
+    "The cold-storage house",
+    "The rail spur and its corrals",
+    "Nothing above ground"
+   ],
+   "answer": 0,
+   "explanation": "The abattoir was locked up for the winter in late 1886, as it was every winter, and never opened again. Every stockholder in the Marquis's last company was repaid in full, though the sources disagree about who wrote the checks — his own biographer credits the Marquis, while the men in Medora believed his father-in-law had settled up and told him there would be no more. What the American venture cost is genuinely unsettled: estimates run from three hundred thousand dollars to a million and a half. Fire took the plant in 1907 and left the chimney and the foundations, and for years afterwards railroad conductors would point the chimney out to passengers as the train ran through.",
+   "image": "assets/img/medora/abattoir-ruins.jpg",
+   "imageAlt": "A lone brick chimney standing on an empty river flat, with badlands buttes on the horizon",
+   "credit": "The ruins of the abattoir of the Marquis de Mores — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  },
+  {
+   "prompt": "The de Morès family left Dakota in the autumn of 1886. How did the Marquis's life end?",
+   "options": [
+    "Killed in a Paris duel",
+    "Killed in the Sahara in 1896",
+    "Died at Cannes of fever",
+    "Lost at sea off India"
+   ],
+   "answer": 1,
+   "explanation": "He hunted tigers in India, tried and failed to build a railroad in Indochina, and then threw himself into French nationalist politics, where he fought more duels and became a loud and ugly antisemitic agitator. From the end of 1893 he pursued a scheme for a French alliance with the peoples of North Africa. On June 9, 1896, at a place called El Ouatia in southern Tunisia, the guides he had hired and trusted turned on him. He had been born in Paris on June 14, 1858, so the killing came five days short of his birthday. Roosevelt was a New York police commissioner that summer. He had succeeded the Marquis years earlier as Dakota's man on the executive committee of the stockmen's association, and he never came back to Medora for a round-up again.",
+   "image": "assets/img/medora/chateau-badlands.jpg",
+   "imageAlt": "A wide view of the badlands near Medora, with the Marquis de Mores's house small on a terrace at the right",
+   "credit": "The Badlands near Medora, the house of the Marquis de Mores on the right — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt carried a book onto the 1886 round-up that Madame de Morès had lent him. What was it?",
+   "options": [
+    "Hugo's Les Misérables",
+    "Parkman's The Oregon Trail",
+    "Dumas's The Three Musketeers",
+    "Tolstoy's War and Peace"
+   ],
+   "answer": 3,
+   "explanation": "For all the fences and the lawyers and the letter about dueling, the two households dined at each other's tables on both sides of the country. The Montana Stockgrowers' Association ordered the round-up for District No. 6 to commence at Medora on May 25, 1886, and Roosevelt left his desk for it. Writing to his sister Bamie in June, he said they breakfasted at three and worked sixteen to eighteen hours a day counting night guard, \"so I get pretty sleepy; but I feel as strong as a bear\" — and that he had taken along the French edition of Tolstoy, borrowed from the Marquise, without yet finding a chance to read it. Clay Jenkinson and Edmund Morris both put that letter in 1886, and Carleton Putnam dates Roosevelt's argument with Tolstoy's morals to a month after his letter on the Haymarket bombing of May 1886.",
+   "image": "assets/img/medora/de-mores-men.jpg",
+   "imageAlt": "Seven mounted cowhands lined up under cottonwoods, with a man standing at the right",
+   "credit": "Men employed by the Marquis de Mores, near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

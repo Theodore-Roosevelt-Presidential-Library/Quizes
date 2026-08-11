@@ -22,8 +22,13 @@ sorts real names from accidents of punctuation without a dictionary.
 import json, os, re, sys, glob
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MAX_KEYWORDS = 50
-YEAR_SLOTS = 8          # reserved, or names crowd every year out of the list
+# Everything competes for the same list, so each category needs a reserved
+# floor or the most numerous one starves the rest. Names crowded out every
+# year on the first attempt; years and names together then crowded out every
+# lowercase noun, so "pronghorn" and "abattoir" matched nothing.
+MAX_KEYWORDS = 60
+YEAR_SLOTS = 8
+LOWER_SLOTS = 18
 
 # Capitalised words that are almost never what someone is searching for.
 STOP = set("""
@@ -47,7 +52,33 @@ YEAR = re.compile(r"(?<!\d)(1[6-9]\d\d|20\d\d)(?!\d)")
 SENTENCE_START = re.compile(r"(?:^|[.!?—:;]\s+|[\"“‘(]\s*)$")
 
 
-def harvest(quiz):
+def blobs_of(quiz):
+    """All the searchable prose in a quiz."""
+    out = []
+    for k in ("title", "subtitle", "intro"):
+        if quiz.get(k):
+            out.append(quiz[k])
+    for q in quiz.get("questions", []):
+        out.append(q.get("prompt", ""))
+        out.append(q.get("explanation", ""))
+        out.extend(q.get("options", []))
+    return out
+
+
+LOWER = re.compile(r"\b[a-z][a-z'-]{4,}\b")
+# Words too common across quizzes to be worth indexing, whatever their length.
+LOWER_STOP = set("""
+about after again against almost along already although always among another
+because before behind being below better between beyond called cannot could
+during eight either enough every first found never nothing other others
+should still their there these things think those three through under until
+which while whole whose without would years young
+roosevelt president american america country national states united
+question questions answer answers quiz history story
+""".split())
+
+
+def harvest(quiz, rare_lower=None):
     """Distinctive terms a visitor might plausibly type."""
     blobs = []
     for k in ("title", "subtitle", "intro"):
@@ -83,8 +114,30 @@ def harvest(quiz):
             counted[m.group(0)] = counted.get(m.group(0), 0) + 1
     years = sorted(counted, key=lambda y: (-counted[y], y))[:YEAR_SLOTS]
 
+    # Distinctive lowercase nouns. Capitals alone miss the words people
+    # actually type for a subject quiz — "pronghorn", "breaker", "anthracite",
+    # "abattoir". A word earns a slot by being RARE across the whole set: if it
+    # appears in three quizzes or fewer it identifies something, and if it
+    # appears in twenty it is just English.
+    rare = []
+    if rare_lower is not None:
+        here = {}
+        for text in blobs:
+            for m in LOWER.finditer(text):
+                w = m.group(0)
+                if w in LOWER_STOP or rare_lower.get(w, 99) > 3:
+                    continue
+                here[w] = here.get(w, 0) + 1
+        # Rarest across the set first, then commonest within this quiz. Taking
+        # them in document order instead meant a quiz's fourteen slots were
+        # spent on whatever happened to appear in question one.
+        rare = sorted(here, key=lambda w: (rare_lower[w], -here[w], w))
+
+    rare = rare[:LOWER_SLOTS]
+    names = words[:max(0, MAX_KEYWORDS - len(years) - len(rare))]
+
     out, lowered = [], set()
-    for w in years + words:
+    for w in years + rare + names:
         key = w.lower()
         if key in lowered:
             continue
@@ -98,13 +151,28 @@ def harvest(quiz):
 def build():
     idx_path = os.path.join(BASE, "quizzes", "index.json")
     idx = json.load(open(idx_path, encoding="utf-8"))
-    missing = []
+    missing, loaded = [], {}
     for entry in idx["quizzes"]:
         path = os.path.join(BASE, "quizzes", entry["id"] + ".json")
         if not os.path.exists(path):
             missing.append(entry["id"])
             continue
-        entry["keywords"] = harvest(json.load(open(path, encoding="utf-8")))
+        loaded[entry["id"]] = json.load(open(path, encoding="utf-8"))
+
+    # How many quizzes does each lowercase word appear in? Document frequency
+    # over the whole set, computed once.
+    rare_lower = {}
+    for quiz in loaded.values():
+        here = set()
+        for text in blobs_of(quiz):
+            for m in LOWER.finditer(text):
+                here.add(m.group(0))
+        for w in here:
+            rare_lower[w] = rare_lower.get(w, 0) + 1
+
+    for entry in idx["quizzes"]:
+        if entry["id"] in loaded:
+            entry["keywords"] = harvest(loaded[entry["id"]], rare_lower)
     return idx_path, idx, missing
 
 

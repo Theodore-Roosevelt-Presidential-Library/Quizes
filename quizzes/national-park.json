@@ -1,0 +1,327 @@
+{
+ "id": "national-park",
+ "title": "Seventy Thousand Acres",
+ "subtitle": "Theodore Roosevelt National Park",
+ "intro": "It took twenty-eight years of argument after Roosevelt died to protect the country that made him, and another thirty-one before anyone would call it a national park. Fifteen questions on how the badlands were saved, and what you actually find out there today.",
+ "heroImage": "assets/img/park/prairie-edge-badlands.jpg",
+ "heroAlt": "A man standing on the edge of a butte looking out over rolling prairie toward the badlands",
+ "heroCredit": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Seventy Thousand Acres",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about Theodore Roosevelt National Park — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Superintendent",
+   "line": "Perfect. The whole park, unit by unit."
+  },
+  {
+   "min": 13,
+   "name": "Park Ranger",
+   "line": "You could lead the walk yourself."
+  },
+  {
+   "min": 10,
+   "name": "Seasonal Interpreter",
+   "line": "Sound on the ground."
+  },
+  {
+   "min": 7,
+   "name": "Regular Visitor",
+   "line": "You have put real miles on that loop road."
+  },
+  {
+   "min": 4,
+   "name": "First Trip",
+   "line": "Worth a longer stay."
+  },
+  {
+   "min": 0,
+   "name": "Just Off the Interstate",
+   "line": "Start at Painted Canyon and keep going."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What did Congress name the park when it finally created it in 1947?",
+   "options": [
+    "Theodore Roosevelt National Monument",
+    "Roosevelt Recreation Demonstration Area",
+    "Theodore Roosevelt National Memorial Park",
+    "Little Missouri Badlands National Monument"
+   ],
+   "answer": 2,
+   "explanation": "Congress had already balked once: a park bill was vetoed in 1946 on the view that the badlands did not possess the qualities that merit national park ranking. North Dakota's Congressman William Lemke kept pushing, and on April 25, 1947 President Truman signed the bill. Memorial Park was the compromise wording, and it stuck — no other unit of the National Park System has ever carried it. The name is also why people still argue about what the place is: a memorial to a man, or a park in its own right.",
+   "image": "assets/img/park/prairie-edge-badlands.jpg",
+   "imageAlt": "A man on the edge of a butte looking west over prairie breaking into badlands",
+   "credit": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In what year did the word Memorial come out of the park's name?",
+   "options": [
+    "1947",
+    "1959",
+    "1978",
+    "1985"
+   ],
+   "answer": 2,
+   "explanation": "On November 10, 1978 President Carter signed Public Law 95-625 and the extra word came out of the title. The same law put 29,920 acres into the National Wilderness Preservation System — 19,410 of them in the North Unit and 10,510 in the South. Thirty-one years as the system's only memorial park, and then a quiet promotion.",
+   "image": "assets/img/park/butte-opposite-ranch.jpg",
+   "imageAlt": "A striped butte rising beyond a line of cottonwoods on the far bank of the Little Missouri",
+   "credit": "The butte opposite the Elkhorn ranch house, across the Little Missouri. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Whose crews cut the first roads and trails here and built the stone shelter at River Bend Overlook?",
+   "options": [
+    "The United States Army Corps of Engineers",
+    "The Bureau of Land Management",
+    "The Boone and Crockett Club",
+    "The Civilian Conservation Corps"
+   ],
+   "answer": 3,
+   "explanation": "Three Civilian Conservation Corps companies — 2767, 2771 and 2772, about two hundred men apiece, sponsored by the North Dakota State Historical Society — worked the badlands from 1934 to 1941. They quarried the local sandstone themselves with star drills and sledgehammers. The shelter at River Bend Overlook is theirs, along with the picnic shelters near Juniper Campground and, in the South Unit, the old East Entrance Station and the entrance pylons. None of them knew what they were building: the park would not exist for another six years.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "Frame buildings standing in snow on the open badlands flat at Medora",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which of these is an actual unit of the park?",
+   "options": [
+    "The Wind Canyon Unit",
+    "The Elkhorn Ranch Unit",
+    "The Painted Canyon Unit",
+    "The Maltese Cross Unit"
+   ],
+   "answer": 1,
+   "explanation": "There are three units. The South Unit at Medora is the big one at about 46,000 acres; the North Unit, roughly seventy minutes' drive away on Highway 85, adds about 24,000; and the Elkhorn Ranch Unit, all of 218 acres, sits on the river between them. Wind Canyon, Painted Canyon and the Maltese Cross Cabin are features inside the South Unit rather than units of their own. One quirk worth knowing before you plan a day: the North Unit keeps Central time and the South Unit keeps Mountain.",
+   "image": "assets/img/park/little-missouri-medora.jpg",
+   "imageAlt": "Medora and the Little Missouri valley seen from the top of a butte in 1900",
+   "credit": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Peaceful Valley Ranch stands beside the South Unit's scenic drive. What went on there for most of the twentieth century?",
+   "options": [
+    "Horseback rides for paying guests",
+    "A cavalry remount station",
+    "A federal fossil quarry",
+    "A cattle feedlot for the Medora packing plant"
+   ],
+   "answer": 0,
+   "explanation": "Eldridge \"Gerry\" Paddock put up a fourteen-by-sixteen-foot cabin on the spot in 1883, the same autumn Roosevelt first got off the train, and Benjamin Lamb built the ranch house two years later. But it was the Olsen family, who bought the place in 1915, who made its name. They ran more horses than cattle, and in 1918 they began taking vacationers out on horseback to the petrified forest and the neighbouring ranches — one of the first dude ranches in North Dakota. In 1922 they gave it the name it still carries. Carl Olsen sold to the government in 1936; the house served as the park's first headquarters, and concessionaires ran trail rides out of it right up to 2014. It is the only original ranch house left standing in the South Unit, and three of its buildings are on the National Register.",
+   "image": "assets/img/park/badlands-trail.jpg",
+   "imageAlt": "Two men and saddle horses working down a snowy badlands slope",
+   "credit": "\"Down a Bad Lands' trail,\" North Dakota, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "The Maltese Cross Cabin left the badlands for decades. Where did it go first?",
+   "options": [
+    "The 1904 World's Fair in St. Louis",
+    "The 1893 World's Fair in Chicago",
+    "The Smithsonian Institution in Washington",
+    "Sagamore Hill, Roosevelt's Long Island home"
+   ],
+   "answer": 0,
+   "explanation": "It was acquired during Roosevelt's presidency for the North Dakota exhibit at the St. Louis World's Fair, which he toured with Edith and enjoyed more than anything else there. From St. Louis it travelled to Portland for the Lewis and Clark Centennial Exposition, then to Fargo, then to the state capitol grounds at Bismarck, where the Daughters of the American Revolution took over its care. It came to the park in 1959, twelve years after the park was established. The graffiti on the door and the outside walls is a souvenir of all that touring.",
+   "image": "assets/img/badlands/maltese-cross-ranch.jpg",
+   "imageAlt": "The Maltese Cross ranch cabin with its shingled gable roof, a wagon team and a mounted rider outside",
+   "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The Maltese Cross Cabin behind the South Unit Visitor Center is built of what?",
+   "options": [
+    "Cottonwood",
+    "Ponderosa pine",
+    "Bur oak",
+    "Rocky Mountain juniper"
+   ],
+   "answer": 1,
+   "explanation": "The logs are the original ponderosa pine of 1883. Sylvane Ferris and Bill Merrifield built it to Roosevelt's order and it was grand by badlands standards — three rooms, wooden floors, a root cellar, and a shingled roof the Park Service calls an oddity on the northern plains, pitched enough to give the ranch hands a sleeping loft upstairs. Neighbours called it a mansion. The roof was gone by 1900 and was rebuilt when the cabin came to the park, so what you see today is a restoration; the window frames and the front door are thought to be original. His second ranch house, the Elkhorn, was a different animal altogether, put up out of cottonwood logs cut on the spot by two Maine woodsmen over the winter of 1884-85.",
+   "image": "assets/img/badlands/maltese-cross-ranch.jpg",
+   "imageAlt": "The one-and-a-half storey Maltese Cross cabin, shingled gable roof and log walls, low buttes behind",
+   "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The South Unit's Scenic Loop Drive reopened as a full loop late in 2025. What had closed part of it?",
+   "options": [
+    "A wildfire",
+    "Slides after heavy rain in 2019",
+    "A collapsed bridge",
+    "Winter snow damage"
+   ],
+   "answer": 1,
+   "explanation": "Severe rain in 2019 set off slides that carried sections of road down the embankment, and more than six miles of the thirty-six-mile loop shut on safety grounds. It stayed shut for six years. A rehabilitation costing about $51 million, funded through the Great American Outdoors Act, rebuilt the road base, the drainage and the surface between the East River Road junction and the old East Entrance Station pull-off, and the ribbon was cut on November 25, 2025. Roughly a hundred thousand vehicles drive the South Unit road in a normal year, so a great many people had been turning around at a barricade. Stretches of it still shut now and then for weather and repairs, so check the park's current conditions page the morning you go.",
+   "image": "assets/img/badlands/little-missouri.jpg",
+   "imageAlt": "A wide bend of the Little Missouri River with a cut bank and a line of trees on the far side",
+   "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "What waits at the far end of the North Unit's scenic drive?",
+   "options": [
+    "Oxbow Overlook",
+    "Painted Canyon Overlook",
+    "Buck Hill",
+    "Wind Canyon"
+   ],
+   "answer": 0,
+   "explanation": "Fourteen miles out, twenty-eight there and back, and worth an hour and a quarter at least. The first half traces the floor of the badlands; then the road climbs out of the canyon to River Bend Overlook and the stone shelter that frames the best-known view in the park, and finishes along the rim. Buck Hill and Wind Canyon are both in the South Unit. One quirk of the North Unit worth knowing before you set off: there is no prairie dog town visible from this road at all, and the nearest one is a mile in on foot from the Caprock Coulee parking area.",
+   "image": "assets/img/park/cedar-canon-little-missouri.jpg",
+   "imageAlt": "A long banded butte standing above the cut bank of the Little Missouri",
+   "credit": "\"Cedar Canon, Little Missouri River, Bad Lands,\" 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "What should you know about the Painted Canyon Visitor Center before you turn in?",
+   "options": [
+    "It sits at the end of the loop drive",
+    "It is the North Unit's main gate",
+    "It is not a park entrance",
+    "It is open only in winter"
+   ],
+   "answer": 2,
+   "explanation": "Painted Canyon sits right off Interstate 94 at Exit 32, seven miles east of Medora, with a visitor center, a rest area, a picnic pavilion and a sidewalk that traces the rim of the badlands. For a great many travellers it is the first and often the only look they get. But it is not a way into the park: the South Unit's scenic drive begins back west in Medora. Bison come through this stretch often enough that rangers ask people to keep well clear of them in the car park.",
+   "image": "assets/img/park/prairie-edge-badlands.jpg",
+   "imageAlt": "Rolling grassland breaking into eroded badlands, seen from a high butte",
+   "credit": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Where does the park's petrified forest rank among American concentrations of petrified wood?",
+   "options": [
+    "First",
+    "Third",
+    "Tenth",
+    "Twentieth"
+   ],
+   "answer": 1,
+   "explanation": "The Park Service puts it third in the country. The stumps are what is left of a landscape of big trees and shallow swamps, from long before any of this was buttes and prairie. Getting there is the work: about fifty minutes from Medora on dirt and gravel roads, then about a mile and a half on foot to either section of stumps, or 10.4 miles if you walk the whole loop. There is little shade and no water. Taking a piece home is illegal, which is a large part of why there is still anything left to see.",
+   "image": "assets/img/park/little-missouri-medora.jpg",
+   "imageAlt": "Eroded badlands buttes above the Little Missouri valley near Medora",
+   "credit": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Why are the park's free-roaming horses outside the 1971 Wild Free-Roaming Horses and Burros Act?",
+   "options": [
+    "The herd arrived after the Act was passed",
+    "The Act covers only Forest Service and BLM land",
+    "The Act protects burros only, not free-roaming horses",
+    "North Dakota exempted the park by state law"
+   ],
+   "answer": 1,
+   "explanation": "That Act reaches animals on Forest Service and Bureau of Land Management ground, and a national park is neither — so the statute that protects the mustangs of the Pryor Mountains and the Nevada range simply does not run here. The horses are held under a different heading altogether: a demonstration herd, which the Park Service defines as non-native livestock kept to maintain a cultural scene. That makes them a management decision rather than a protected species, and it is why the park darts mares with contraceptive, microchips foals, hangs GPS collars on a handful of mares to learn where the bands actually go, and periodically runs the lot into corrals. A new management strategy is being written; the Park Service has said the herd will likely end up smaller than it is now.",
+   "image": "assets/img/badlands/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted on horseback in ranch clothes with badlands buttes behind him",
+   "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "About five miles into the North Unit, a pullout looks out on big round stones sitting loose in the badlands. What are they?",
+   "options": [
+    "Glacial erratics carried down by ice",
+    "Cannonball concretions",
+    "Meteorites collected and set out by rangers",
+    "Grinding stones left by Mandan villagers"
+   ],
+   "answer": 1,
+   "explanation": "Cannonball concretions, and they grew where they sit. Mineral-rich water works down through the porous sand and clay of the badlands and drops its minerals in the gaps, where they set like glue around some small core; layer goes on layer, the way a pearl builds, until erosion carries off the softer rock around it and leaves the ball standing in the open. The butte behind the pullout is presumably still full of them, waiting. The Buckhorn Trail starts from the same parking area, so this is a good place to get out of the car whether or not you came for geology.",
+   "image": "assets/img/park/badlands-gumbo-strata.jpg",
+   "imageAlt": "A hard-capped column of pale badlands clay standing above a scatter of loose slabs",
+   "credit": "\"Grotesque stone strata and gumbo formation, North Dakota Bad Lands,\" 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "In November 1946, months before the park bill passed, what did this land briefly become?",
+   "options": [
+    "A national forest",
+    "A national monument",
+    "A national wildlife refuge",
+    "A state park"
+   ],
+   "answer": 2,
+   "explanation": "North Dakota had already said it did not want the land as a state park, which left the old Roosevelt Recreation Demonstration Area in federal hands with nobody quite responsible for it. When the park bill was vetoed, the whole area was transferred to the Fish and Wildlife Service as the Theodore Roosevelt National Wildlife Refuge. It held that status for about five months, long enough to be printed on maps. Congressman William Lemke would not let the matter rest, and by the following spring the refuge had been dissolved and the ground handed to the National Park Service instead.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "Bare frame buildings on a snowy flat at Medora, with badlands ridges beyond",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt wrote that his home ranch-house stood on the brink of which river?",
+   "options": [
+    "The Yellowstone",
+    "The Knife",
+    "The Missouri River itself",
+    "The Little Missouri"
+   ],
+   "answer": 3,
+   "explanation": "In Hunting Trips of a Ranchman he opened the description of the Elkhorn plainly enough: \"My home ranch-house stands on the river brink.\" The Little Missouri runs north through all three units of the park, and it is the reason there are badlands here at all — the river and its side creeks have done the cutting, and they are still at it, which is why road crews here spend as much of their time on drainage as on asphalt. Look down on it from Wind Canyon in the South Unit, or from the rim road in the North, and you are looking at the tool that made the view.",
+   "image": "assets/img/park/elkhorn-from-river.jpg",
+   "imageAlt": "The Elkhorn Ranch buildings among trees on the far bank, with cattle standing in the shallow Little Missouri",
+   "credit": "Elkhorn Ranch with the Little Missouri in the foreground. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

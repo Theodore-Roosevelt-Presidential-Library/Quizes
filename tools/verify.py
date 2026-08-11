@@ -74,15 +74,52 @@ def quotations(text):
     return out
 
 
+# Two files in the corpus are the SAME BOOK under different names, and one of
+# them is misattributed outright. Left alone, this tool reports a quotation
+# found in both as two independent hits, and a writer counting sources sees
+# corroboration that is not there. That happened: a whole batch of Badlands
+# questions was built believing Hagedorn had been confirmed by a 2011 author.
+#
+# `Roger L. Di Silvestro - Theodore Roosevelt in the Badlands (2011).md` is a
+# clean transcription of Hermann Hagedorn, "Roosevelt in the Bad Lands" (1921)
+# — same Roosevelt Memorial Association title page, same transcriber's note,
+# and the string "Di Silvestro" appears in it exactly zero times. The file
+# named for Hagedorn is a poorer OCR of the identical text.
+#
+# Rather than rename files in a corpus this tool only reads, collapse them here
+# and say so in the output. The clean transcription is worth keeping — it
+# carries the investment appendix the OCR lost, and it greps without the
+# line-break hyphenation that breaks long quotations in the scan.
+CORPUS_ALIASES = {
+    "Roger L. Di Silvestro - Theodore Roosevelt in the Badlands (2011).md":
+        "Hagedorn, Roosevelt in the Bad Lands (1921) [MISFILED as Di Silvestro]",
+    "Hermann Hagedorn - Roosevelt in the Bad Lands (1921).md":
+        "Hagedorn, Roosevelt in the Bad Lands (1921)",
+}
+# Anything mapping to the same value is one book, however many files it is in.
+_ALIAS_KEY = {k: v.split(" [")[0] for k, v in CORPUS_ALIASES.items()}
+
+
 def corpus_hits(needle, limit=3):
-    """Grep the corpus. Returns the titles that contain the string."""
+    """Grep the corpus. Returns the titles that contain the string.
+
+    Duplicate editions of the same book are collapsed to one entry, so the
+    count of hits is a count of BOOKS rather than a count of files.
+    """
     if not os.path.isdir(CORPUS):
         return None
     try:
         r = subprocess.run(["grep", "-rl", "-F", needle, CORPUS],
                            capture_output=True, text=True, timeout=120)
         files = [os.path.basename(f) for f in r.stdout.strip().split("\n") if f]
-        return files[:limit]
+        seen, out = set(), []
+        for f in files:
+            key = _ALIAS_KEY.get(f, f)
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(CORPUS_ALIASES.get(f, f))
+        return out[:limit]
     except Exception:
         return []
 

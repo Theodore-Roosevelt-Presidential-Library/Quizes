@@ -1,0 +1,327 @@
+{
+ "id": "badlands-wildlife",
+ "title": "The Animals of the Badlands",
+ "subtitle": "What Roosevelt Saw, and What Is There Now",
+ "intro": "He came to shoot a buffalo and very nearly could not find one. Then he stayed, and filled two books with prairie dogs, pronghorn, bighorn and mule deer. Fifteen questions on the wildlife of the North Dakota Badlands — what Roosevelt watched, what was lost, and what a visitor can expect to see today.",
+ "heroImage": "assets/img/wildlife/badlands-bullion-butte.jpg",
+ "heroAlt": "Broken badlands country of ridges and buttes running to a far horizon",
+ "heroCredit": "The Bad Lands from the slopes of Middle (or Bullion) Butte, near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Animals of the Badlands",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Badlands Wildlife quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Head Ranger",
+   "line": "Perfect. You could give the talk yourself."
+  },
+  {
+   "min": 13,
+   "name": "Field Biologist",
+   "line": "You know the herd and the history."
+  },
+  {
+   "min": 10,
+   "name": "Seasoned Guide",
+   "line": "You would find the bighorn."
+  },
+  {
+   "min": 7,
+   "name": "Backcountry Hiker",
+   "line": "Good eyes. Keep walking."
+  },
+  {
+   "min": 4,
+   "name": "Scenic Loop Driver",
+   "line": "The prairie dogs waved."
+  },
+  {
+   "min": 0,
+   "name": "First Morning Out",
+   "line": "Come back at dawn. Everything moves then."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt came west in September 1883 to shoot a buffalo. By his own account, why did it take days of hard riding to find one?",
+   "options": [
+    "The herds had crossed north into Canada for winter",
+    "Deep snow had pushed them into the Montana mountains",
+    "The last herds had been killed off months before",
+    "A prairie fire had driven them off the Little Missouri"
+   ],
+   "answer": 2,
+   "explanation": "He was months too late. In Hunting Trips of a Ranchman he wrote that “the last of the herds had been destroyed or driven out six months before, and there were only a few stragglers left.” He passed on a ranchman's account of riding a thousand miles across northern Montana in which the man was “never out of sight of a dead buffalo, and never in sight of a live one.” Roosevelt called the extermination “a veritable tragedy of the animal world” — and then, in the same chapter, defended it in terms about Native nations that read very badly today. Both things are in the book.",
+   "image": "assets/img/wildlife/sagebrush-plain.jpg",
+   "imageAlt": "Empty sagebrush prairie running flat to a low line of hills",
+   "credit": "\"Sagebrush plain,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Bison graze the park today. Where did the founding animals of 1956 come from?",
+   "options": [
+    "Yellowstone National Park",
+    "The National Bison Range, Montana",
+    "A private ranch in the Texas Panhandle",
+    "A wildlife refuge in Nebraska"
+   ],
+   "answer": 3,
+   "explanation": "Twenty-nine bison were brought up from Fort Niobrara National Wildlife Refuge in Nebraska and turned loose in the South Unit. By 1962 the herd had grown to 145, and twenty of them — ten bulls and ten cows — were moved north to found the North Unit herd. The park is fenced, so there is no natural check on the numbers and no wolves or grizzlies left to provide one; surplus animals are rounded up and transferred out, in recent years largely to Tribes.",
+   "image": "assets/img/wildlife/prairie-edge-badlands.jpg",
+   "imageAlt": "A man standing on a butte above open grassland stretching to the horizon",
+   "credit": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt described prairie dogs for his eastern readers. What did he say they were shaped like?",
+   "options": [
+    "Fat brown rabbits",
+    "Little woodchucks",
+    "Small badgers",
+    "Young beavers"
+   ],
+   "answer": 1,
+   "explanation": "“they are in shape like little woodchucks, and are the most noisy and inquisitive animals imaginable” — a line the National Park Service still quotes on its own prairie dog page. He was closer than he knew: prairie dogs are squirrels, and the woodchuck is a marmot, a near relative. The black-tailed prairie dog is the only one of North America's five species here. They live in family groups called coteries, greet one another with something very like a kiss, and do not hibernate.",
+   "image": "assets/img/wildlife/sagebrush-plain-buttes.jpg",
+   "imageAlt": "Open sage flat with badlands buttes rising behind",
+   "credit": "\"Sagebrush plain with buttes rising in the background,\" near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt told readers to keep a lookout around a prairie-dog town. Which pair did he say lived in the abandoned burrows?",
+   "options": [
+    "Beavers and muskrats",
+    "Skunks and wild turkeys",
+    "Rattlesnakes and burrowing owls",
+    "Bobcats and porcupines"
+   ],
+   "answer": 2,
+   "explanation": "“Rattlesnakes are quite plenty, living in the deserted holes, and the latter are also the homes of the little burrowing owls”. He was charmed by the owls, which he said had a habit of gravely bowing at anyone who rode past. A dog town is still the best place in the park to stand and wait: the road through the South Unit runs past three large ones, and badgers dig them, coyotes patrol them, hawks sit over them, and bison come in to graze the clipped ground.",
+   "image": "assets/img/wildlife/badlands-watercourse.jpg",
+   "imageAlt": "A sagebrush-covered gully cutting through pale badlands clay",
+   "credit": "\"Typical water course in the Badlands,\" near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which sense did Roosevelt say a pronghorn depends on almost entirely?",
+   "options": [
+    "Its hearing",
+    "Its sense of smell",
+    "Its sense of touch",
+    "Its eyesight"
+   ],
+   "answer": 3,
+   "explanation": "“The antelope, on the other hand, depends almost entirely on his great, bulging eyes, and very little on his nose.” He was contrasting it with the deer he hunted, which he thought worked mostly by scent. Modern figures back him up: the placement of those eyes gives a pronghorn something near 320 degrees of vision and lets it pick out movement three miles off. That is why they prefer wide open country. Do not count on seeing one here, though: most of the badlands pronghorn range on the Little Missouri grasslands that surround the park, and the Park Service says only that small groups or singles will occasionally come inside the fence. When they do, a prairie dog town cropped to nothing is the place to find them.",
+   "image": "assets/img/wildlife/glade-near-elkhorn.jpg",
+   "imageAlt": "A broad open valley of grass and sage between badlands slopes",
+   "credit": "\"A glade in the Badlands near Elkhorn.\" Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Pronghorn have one distinction shared with no other animal on earth. What is it?",
+   "options": [
+    "They shed their horns every year",
+    "They cannot run for more than a mile",
+    "Only the males grow horns",
+    "Their horns never stop growing"
+   ],
+   "answer": 0,
+   "explanation": "Both sexes carry horns — a sheath of keratin over a bony core — and the pronghorn is the only animal anywhere that sheds and regrows that sheath every year. It is also the only North American animal whose horns fork forward, and the second-fastest land mammal alive, behind the cheetah. Roosevelt noticed a limit that still shapes their lives on fenced range: a pronghorn “can skim across a level jump like a bird” but is “unable to leap any height”, so it goes under a wire fence rather than over it.",
+   "image": "assets/img/wildlife/badlands-lang-ranch.jpg",
+   "imageAlt": "A grassy coulee opening onto badlands country",
+   "credit": "\"The Badlands near Lang's ranch.\" Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Bighorn sheep died out of the North Dakota Badlands in the early 1900s. Where in the park should you look for the ones there now?",
+   "options": [
+    "Both units equally",
+    "The North Unit",
+    "The South Unit",
+    "Only the Elkhorn Ranch Unit"
+   ],
+   "answer": 1,
+   "explanation": "Worth being exact about this one, because \"brought back\" is not quite what happened. The sheep Roosevelt hunted were Audubon's bighorn, the plains animal, and overhunting and disease carried in by domestic livestock finished them here by the early 1900s; they were gone from their entire range across five states within a generation, and nobody has seen one since. What went into the badlands from 1956 was California bighorn out of British Columbia, and later Rocky Mountain bighorn out of Montana. The Park Service is blunt about where to try for their descendants: the North Unit, in the steep ground near the Little Missouri. The South Unit is simply not sheer enough, and none have been seen there for years. Roosevelt hunted sheep here in weather he remembered as arctic, and rated the work above all other American game — “this is the one in whose pursuit the successful hunter needs to show most skill, hardihood, and resolution.”",
+   "image": "assets/img/wildlife/badlands-bullion-butte.jpg",
+   "imageAlt": "Steep eroded badlands ridges falling away below a butte slope",
+   "credit": "The Bad Lands from the slopes of Middle (or Bullion) Butte, near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Elk were gone from the North Dakota Badlands by the late 1800s. In what year did the park bring them back?",
+   "options": [
+    "1919",
+    "1956",
+    "1985",
+    "2007"
+   ],
+   "answer": 2,
+   "explanation": "Rocky Mountain elk went into the South Unit on March 13, 1985, transferred from Wind Cave National Park in South Dakota, and the herd grew fast in good forage with nothing left to thin it. Roosevelt had watched the decline coming and said so plainly: “The buffalo are now gone forever, and the elk are rapidly sharing their fate; but antelope and deer are still quite plenty”. He also mourned the loss in the plural — “we no more see the long lines of elk trotting across them.” Go at first or last light; through the middle of the day they lie up in the juniper. The park points people two ways — up at the butte tops west of Wind Canyon Overlook, and out over the open grassland around Buck Hill and the park's southeastern corner.",
+   "image": "assets/img/wildlife/elkhorn-trophies.jpg",
+   "imageAlt": "The porch of a log ranch house strewn with elk and deer antlers",
+   "credit": "\"Another view of Elkhorn Ranch house. Trophies of the hunt scattered about.\" Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt described the peculiar way a black-tail — what we call a mule deer — runs. What did he see?",
+   "options": [
+    "A low, weaving run through the sagebrush",
+    "Long leaps that land on the front feet first",
+    "A fast trot with the head held low",
+    "Bounds with all four feet striking at once"
+   ],
+   "answer": 3,
+   "explanation": "He wrote that the black-tail “progresses by a series of prodigious bounds, striking the earth with all four feet at once, the legs held nearly stiff.” Biologists call it stotting, and the park explains it much as he did: it lets a deer see over brush, cross rough ground, and reverse direction inside a single bound. Roosevelt, who was trying to shoot them, found it maddening — the gait made a black-tail “a peculiarly difficult animal to hit while on the run”. Mule deer are now among the easiest animals to find in the South Unit; several groups live around the park headquarters.",
+   "image": "assets/img/wildlife/deer-heart-river.jpg",
+   "imageAlt": "A deer standing in the shallows of a North Dakota river below a stand of cottonwoods",
+   "credit": "\"Deer wading the shallows of the upper Heart River,\" North Dakota, 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Horses run loose in the park's South Unit. What does the National Park Service call them, and why?",
+   "options": [
+    "Feral, because they descend from domestic stock",
+    "Wild, because they predate European settlement",
+    "Native, because horses first evolved in North America",
+    "Exotic, because the Spanish brought them"
+   ],
+   "answer": 0,
+   "explanation": "Feral, not wild: they come from ranch horses turned out on the open range. Roosevelt made exactly the same distinction in the 1880s, writing that the loose horses of the Badlands were “invariably of domestic descent”, runaways from some ranch or outfit, “yet are quite as wild as the antelope on whose domain they have intruded.” A 1954 roundup pulled two hundred branded animals out of the newly fenced park and a few bands escaped it; the Park Service tried for years to remove the rest, then reversed course in 1970 and kept them as a historic demonstration herd.",
+   "image": "assets/img/wildlife/roosevelt-roundup-outfit.jpg",
+   "imageAlt": "Mounted cowboys and a chuck wagon drawn up on the open range",
+   "credit": "\"Roosevelt's outfit in the round-up,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The park keeps a small herd of Texas longhorn steers. Where, and what for?",
+   "options": [
+    "In the South Unit, to graze down invasive grass",
+    "In the North Unit, to show the trail-drive era",
+    "At the Elkhorn Ranch, from Roosevelt's own herd",
+    "Near Medora, for the Fourth of July parade"
+   ],
+   "answer": 1,
+   "explanation": "It is a demonstration herd, kept for history rather than for beef, and it has been in the North Unit since 1967, when the first six steers arrived. The Long X Trail — one of the routes cowboys used to push cattle north out of Texas — ran through what is now the North Unit, and Roosevelt stepped off the train at Medora just as that traffic was at its height. Every animal is a steer: the 1970 management plan for the herd called for that, so it can never throw a surplus calf, which also means the herd only lasts as long as the Park Service keeps buying replacements. Watch for them around mile marker two of the North Unit scenic drive.",
+   "image": "assets/img/wildlife/ranch-roundup-cattle.jpg",
+   "imageAlt": "Two mounted cowboys driving long-horned range cattle across open country",
+   "credit": "\"A Roosevelt ranch round-up,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which predator is a visitor most likely to see in the park today?",
+   "options": [
+    "The grey wolf",
+    "The grizzly bear",
+    "The coyote",
+    "The mountain lion"
+   ],
+   "answer": 2,
+   "explanation": "The coyote, working the prairie dog towns at either end of the day and calling after dark. Wolves and grizzlies are long gone from this country. The mountain lion is the interesting case: the Park Service will say only that an occasional one may roam through the park, while the state manages a resident badlands lion population just outside it, with a regulated hunting season. Either way there is no dependable predator on the grazers here, which is why the park ends up managing its own bison, elk and horse numbers. Roosevelt lay listening to the coyotes from his ranch house and wrote that they wail “like dismal ventriloquists”. He also poisoned them, along with wolves, to protect his cattle, and said so in print.",
+   "image": "assets/img/wildlife/roped-coyote.jpg",
+   "imageAlt": "Theodore Roosevelt standing beside his horse looking at a roped coyote",
+   "credit": "Theodore Roosevelt looking at a roped coyote, near Frederick, Oklahoma, April 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "How many venomous snake species live in Theodore Roosevelt National Park?",
+   "options": [
+    "One",
+    "None",
+    "Three",
+    "Six"
+   ],
+   "answer": 0,
+   "explanation": "Just the prairie rattlesnake, and the park notes it is less common now than in Roosevelt's day. What visitors usually meet instead are bullsnakes and racers, both harmless. Roosevelt wore high boots against them but thought the rattlesnake badly maligned: it “always gives fair warning before striking, and is both sluggish and timid”, and “If it can it will get out of the way”. The genuinely dangerous ones, he said, were the individuals whose rattle had been broken — those strike without warning.",
+   "image": "assets/img/wildlife/badlands-index-point.jpg",
+   "imageAlt": "A tall eroded spire of badlands clay standing clear of the broken ground behind it",
+   "credit": "\"Index point in the picturesque North Dakota Bad Lands,\" 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt wrote that the “great war eagle” took bighorn lambs. Which bird did he mean?",
+   "options": [
+    "The bald eagle",
+    "The golden eagle",
+    "The ferruginous hawk",
+    "The great horned owl"
+   ],
+   "answer": 1,
+   "explanation": "War eagle was the plains name for the golden eagle, the bird whose feathers went into war bonnets — and the bird the Rough Riders later kept as a regimental mascot. Roosevelt named it among the worst enemies of young bighorn lambs and reckoned it would take pronghorn and deer fawns too, though he thought it “but an occasional foe” beside the wolves and coyotes. Golden eagles are year-round residents of the park; scan the Little Missouri floodplain, and the sky above the North Unit's River Bend Overlook.",
+   "image": "assets/img/wildlife/little-missouri-medora.jpg",
+   "imageAlt": "The Little Missouri valley seen from the top of a butte above Medora",
+   "credit": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which two animals does the park say a visitor can expect to spot relatively easily?",
+   "options": [
+    "Elk and bighorn sheep",
+    "Beavers and bobcats",
+    "Bison and prairie dogs",
+    "Golden eagles and porcupines"
+   ],
+   "answer": 2,
+   "explanation": "Bison and black-tailed prairie dogs are the two the Park Service calls relatively easy to find; bighorn sheep and elk it lists among the hard ones, being few, shy and mostly out at dawn and dusk. Bison walk the roads in both units, and the park asks for twenty-five yards of clearance and a good deal of patience. Beyond that it is a matter of standing still: a prairie dog town does most of the work for you, since badgers, coyotes and hawks all come to it.",
+   "image": "assets/img/wildlife/badlands-lang-ranch.jpg",
+   "imageAlt": "Badlands grassland and coulees under a wide sky",
+   "credit": "\"The Badlands near Lang's ranch.\" Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  }
+ ]
+}

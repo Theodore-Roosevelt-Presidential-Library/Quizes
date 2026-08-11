@@ -1,0 +1,309 @@
+{
+ "id": "coal-strike",
+ "title": "The Anthracite Coal Strike",
+ "subtitle": "Pennsylvania and Washington, 1902",
+ "intro": "In May 1902 the men who dug the hard coal that heated the Northeast put down their tools. By October the cities were running out of fuel and a president who had no legal authority to act did something no president had done before. Fourteen questions on the strike, the men on both sides of it, and a settlement that was not a victory for anybody.",
+ "heroImage": "assets/img/coalstrike/powder-men.jpg",
+ "heroAlt": "Two coal miners walking away from the colliery with powder kegs on their shoulders",
+ "heroCredit": "Powder men in the Perrin coal mine, Pennsylvania, 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Anthracite Coal Strike",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Coal Strike quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "The Eminent Sociologist",
+   "line": "Perfect. Tweedledee and all."
+  },
+  {
+   "min": 12,
+   "name": "Commissioner",
+   "line": "You sat through every day of the hearings."
+  },
+  {
+   "min": 9,
+   "name": "Counsel of Record",
+   "line": "You could argue this one from either table."
+  },
+  {
+   "min": 6,
+   "name": "Wire Reporter",
+   "line": "You filed from Scranton and got it right."
+  },
+  {
+   "min": 3,
+   "name": "In the Public Gallery",
+   "line": "You caught most of the testimony."
+  },
+  {
+   "min": 0,
+   "name": "Late Edition",
+   "line": "Start at the beginning: 12 May 1902."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The strike shut down the anthracite fields of eastern Pennsylvania. What was anthracite mostly used for?",
+   "options": [
+    "Smelting copper ore in Montana",
+    "Firing the boilers of ocean liners",
+    "Heating homes, schools and hospitals",
+    "Making gas for streetlights"
+   ],
+   "answer": 2,
+   "explanation": "Anthracite is hard coal — dense, almost pure carbon, and it burns hot and nearly smokeless. That is why the northeastern cities had built their furnaces and house stoves around it rather than around sootier bituminous, which they were close enough to the coalfields to avoid. Practically the whole national supply came out of about four hundred and eighty square miles across five Pennsylvania counties. Shut those counties down and Boston, New York and Philadelphia get cold.",
+   "image": "assets/img/coalstrike/shipping-coal-after-strike.jpg",
+   "imageAlt": "Railway cars heaped with coal, with a tall coal breaker building behind them",
+   "credit": "Shipping coal after the strike, with the coal breaker in the background, Ashley, Pennsylvania, 29 December 1902. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "By October 1902, five months in, what was happening in the cities that burned anthracite?",
+   "options": [
+    "Prices had soared and crowds were seizing coal from freight trains",
+    "Factories had switched over painlessly to fuel oil",
+    "British imports had comfortably made up the shortfall",
+    "The federal government had begun rationing household fuel by the bushel"
+   ],
+   "answer": 0,
+   "explanation": "Accounts of how far the price went differ — five dollars a ton before the strike is the common starting figure, and the peaks quoted in eastern cities run from twenty dollars to nearly forty. What everybody agrees on is the direction and the panic. Schools began closing for want of fuel and mobs stopped coal trains passing through their towns. Roosevelt called it a coal famine, and wrote that he could not watch misery and death reach the great mass of people in the big cities and sit idle.",
+   "image": "assets/img/coalstrike/miners-wives-dump.jpg",
+   "imageAlt": "Two women in headscarves searching a slope of waste rock for pieces of coal",
+   "credit": "Miners' wives searching for coal on a waste dump during the anthracite coal strike, Hazleton, Pennsylvania, 1902. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who led the United Mine Workers through the strike?",
+   "options": [
+    "Samuel Gompers",
+    "John Mitchell",
+    "Eugene V. Debs",
+    "Mother Jones"
+   ],
+   "answer": 1,
+   "explanation": "Mitchell first went underground at twelve. His mother had died when he was small and his father, a miner, had been crushed by a runaway team of horses. He worked as a breaker boy, studied at night, rose through the union and became its president at twenty-eight. He was thirty-two during the strike, and he was no radical: he thought of himself as a businessman whose business was labour, and he spent the summer holding his own membership back from the confrontation they wanted.",
+   "image": "assets/img/coalstrike/breaker-boys-kingston.jpg",
+   "imageAlt": "A large crowd of miners and boys assembled outside a colliery building",
+   "credit": "Breaker boys and miners, Woodward coal breakers, Kingston, Pennsylvania, between 1890 and 1901. Detroit Publishing Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "The operators would not negotiate with Mitchell at all. What was their objection?",
+   "options": [
+    "A federal court had enjoined them from meeting him",
+    "They had already signed with a rival anthracite union",
+    "Pennsylvania law forbade bargaining with unions based in other states",
+    "They refused his union any standing to speak for their men"
+   ],
+   "answer": 3,
+   "explanation": "George F. Baer of the Philadelphia & Reading, who spoke for the coal-carrying railroads, would not meet Mitchell and denied that he could speak for anthracite men at all — three-quarters of the United Mine Workers' membership was in the softer bituminous fields. To Baer, Mitchell was \"only a common coal-miner, who had worked with his hands for 15 years, and was now a labor agitator.\" Recognition, not wages, was the rock the whole dispute broke on. About 147,000 men had put down their tools on 12 May over it, and by the autumn roughly ten thousand of them had given up and gone back to Europe rather than wait the operators out.",
+   "image": "assets/img/coalstrike/coal-miners-mules.jpg",
+   "imageAlt": "Two miners with lamps on their caps standing with mules in a low underground passage",
+   "credit": "The coal miners: two men with mules underground in a Pennsylvania mine, 1902. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Baer replied to a stranger who had written urging him, as a Christian, to settle. What did the letter claim?",
+   "options": [
+    "That God had put the country's property in his hands",
+    "That the strike would end the day the union's funds ran out",
+    "That the strike had been organised and paid for from abroad",
+    "That the mines could not reopen before spring in any case"
+   ],
+   "answer": 0,
+   "explanation": "Baer wrote that \"The rights and interests of the laboring man will be protected and cared for—not by the labor agitators, but by the Christian men to whom God in His infinite wisdom has given the control of the property interests of the country.\" His correspondent gave it to the newspapers. It is the most quoted sentence of the whole affair and the most often garbled; that is the wording carried by Edmund Morris, Harbaugh, Brands, Goodwin and Berfield alike. Editors called it the divine right of plutocrats, and public sympathy, which had been running against immigrant strikers, swung the other way.",
+   "image": "assets/img/coalstrike/morgan.jpg",
+   "imageAlt": "Half-length studio portrait of John Pierpont Morgan in a dark suit with a watch chain",
+   "credit": "John Pierpont Morgan, about 1902 — the coal-carrying railroads Baer spoke for sat inside his orbit. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What was a breaker boy's job?",
+   "options": [
+    "Carrying the miners' lamps down the shaft",
+    "Setting the powder charges at the coal face",
+    "Picking slate out of the coal as it poured down a chute",
+    "Recording each man's output at the pit head"
+   ],
+   "answer": 2,
+   "explanation": "The breaker was a tall black building where coal was crushed and sent down chutes. Boys sat on planks across the chutes, slowed the coal with their feet and picked out the slate, ten hours a day in grinding noise and dust. The rule was twelve years old; many started at eight, with birth certificates notarised for a quarter and accepted without question. Sources put the pay between about fifty and seventy cents a day. The oldest and the most badly injured men worked the breakers too.",
+   "image": "assets/img/coalstrike/breaker-boys-woodward.jpg",
+   "imageAlt": "Eight boys in work clothes and caps standing on and around wooden stairs at a colliery, several holding lunch pails",
+   "credit": "Breaker boys, Woodward Coal Mines, Kingston, Pennsylvania, about 1900. Detroit Publishing Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Contract miners were paid by the ton. Why did that put weighing at the centre of the dispute?",
+   "options": [
+    "The union wanted coal sold by volume instead of by weight",
+    "The companies did the weighing and the men had no check on it",
+    "The state required every colliery to recalibrate its scales daily",
+    "Pennsylvania taxed each ton as it left the pit head"
+   ],
+   "answer": 1,
+   "explanation": "A man was paid for what he dug, and his employer decided what that came to. So the miners asked for inspectors of their own on the scales, alongside higher pay, a shorter day and recognition of their union. The accounting ran against them in other ways too: a miner had to buy the black powder he blasted with, and a twenty-five-pound keg that cost the company a dollar could cost him nearly three.",
+   "image": "assets/img/coalstrike/coal-breaker-boys.jpg",
+   "imageAlt": "Three boys with coal-blackened faces standing arm in arm against a plank wall, lunch tins at their feet",
+   "credit": "Coal breaker boys, Kingston, Pennsylvania, between 1890 and 1910. Detroit Publishing Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The October 1902 meeting is remembered as the White House conference. Why was it not held in the White House?",
+   "options": [
+    "Roosevelt refused to receive the operators there",
+    "A typhoid scare had closed the building",
+    "Congress was meeting in it that autumn",
+    "The White House was gutted for a major rebuilding"
+   ],
+   "answer": 3,
+   "explanation": "The Roosevelts were camped in a rented house on Jackson Place, across Lafayette Square, while the mansion was rebuilt and the executive offices moved into a new wing. Roosevelt received both sides there on 3 October in a wheelchair. A trolley car had run into his carriage near Pittsfield, Massachusetts, a month before, killing his Secret Service man William Craig and leaving the President with a leg that had to be operated on.",
+   "image": "assets/img/coalstrike/powder-men.jpg",
+   "imageAlt": "Two coal miners walking away from the colliery with powder kegs on their shoulders",
+   "credit": "Powder men in the Perrin coal mine, Pennsylvania, 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "What did Mitchell propose at the October conference?",
+   "options": [
+    "An immediate return to work with no conditions attached",
+    "Federal purchase of the anthracite mines from the railroads",
+    "Sending the men back and accepting whatever tribunal Roosevelt named",
+    "Putting the whole question to the Pennsylvania legislature to decide"
+   ],
+   "answer": 2,
+   "explanation": "Mitchell said the miners would accept the ruling of a tribunal the President appointed even if it went against them — provided the operators would accept it too. They would not. Baer answered, \"We cannot agree to any proposition advanced by Mr. Mitchell,\" and told Roosevelt that \"The duty of the hour is not to waste time negotiating with the fomenters of this anarchy.\" Roosevelt was later quoted as saying that only one man in the room had behaved like a gentleman and it was not him — a good line, but one that survives at second hand and in two different wordings.",
+   "image": "assets/img/coalstrike/tr-mitchell-gibbons.jpg",
+   "imageAlt": "Theodore Roosevelt seated at a table on a platform with clergymen and John Mitchell",
+   "credit": "President Roosevelt, Cardinal Gibbons and John Mitchell, Mine Workers' Day, Wilkes-Barre, Pennsylvania, 1905 — three years after the strike. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "If the talks failed, what had Roosevelt quietly prepared to do?",
+   "options": [
+    "Send the army in to seize the mines and work them",
+    "Ask Congress to nationalise the coal railroads",
+    "Buy emergency coal from Britain and Germany",
+    "Cancel the coal railroads' federal mail contracts"
+   ],
+   "answer": 0,
+   "explanation": "He chose General John M. Schofield, told him to be ready to move into Pennsylvania at half an hour's notice, and instructed him to act \"paying no heed to any authority, judicial or otherwise, except mine.\" The orders, as Roosevelt described them in his Autobiography, were \"to dispossess the operators and run the mines as a receiver\" until the commission reported. He also arranged privately that Pennsylvania's governor would ask for the intervention the moment he wanted it asked for. When a congressman objected that this was seizing private property without due process, Roosevelt is remembered as taking him by the shoulder and shouting, \"The Constitution was made for the people and not the people for the Constitution\" — an anecdote his biographers pass on while noting it may have been improved in the telling.",
+   "image": "assets/img/coalstrike/shipping-coal-after-strike.jpg",
+   "imageAlt": "Loaded coal cars standing on the track outside a large coal breaker",
+   "credit": "Shipping coal after the strike, with the coal breaker in the background, Ashley, Pennsylvania, 29 December 1902. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who did Roosevelt work through to bring the operators to terms?",
+   "options": [
+    "Attorney General Philander Knox",
+    "J. Pierpont Morgan",
+    "Governor William Stone of Pennsylvania",
+    "Samuel Gompers of the A.F. of L."
+   ],
+   "answer": 1,
+   "explanation": "Most of the coal-carrying railroads sat inside Morgan's orbit, and he was the one man the operators would listen to. Elihu Root took a night train to New York and spent five hours with him aboard his yacht Corsair; what the two drafted became a statement every operator signed. Morgan carried it across Lafayette Square to Roosevelt's door on the evening of 13 October. Reporters mobbed him coming out. He stopped under a tree, relit his cigar, smiled, and walked off without a word. The same administration was at that moment in court trying to break up Morgan's Northern Securities Company.",
+   "image": "assets/img/coalstrike/cartoon-bull-by-horns.jpg",
+   "imageAlt": "Cartoon of a man in a frock coat wrestling a charging bull labelled Coal Operators' Combine, his hat flying off",
+   "credit": "\"He took the bull by the horns; but—\" — John Mitchell and the Coal Operators' Combine. Puck, 15 October 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "The operators dictated the five kinds of commissioner allowed, leaving no place for labour. How did Roosevelt get a union man on anyway?",
+   "options": [
+    "He named him as the commission's official recorder",
+    "He let the miners elect one of the five members",
+    "He created an extra seat reserved for the Secretary of Labor",
+    "He appointed one under the heading eminent sociologist"
+   ],
+   "answer": 3,
+   "explanation": "Edgar E. Clark, head of the Order of Railway Conductors, went on as the \"eminent sociologist\" the operators had themselves asked for, the announcement explaining that the President took the term to mean a man who had thought and studied on social questions. Roosevelt found \"that they did not mind my appointing any man, whether he was a labor man or not, so long as he was not appointed as a labor man,\" and never got over it: they \"would heroically submit to anarchy rather than have Tweedledum, yet if I would call it Tweedledee they would accept it with rapture.\" The commission ended up with seven members rather than five.",
+   "image": "assets/img/coalstrike/commission.jpg",
+   "imageAlt": "Seven men in dark suits posed in front of a wall of bookshelves, three seated and four standing",
+   "credit": "The Anthracite Coal Strike Commission, photographed by William H. Rau, 1903. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The commission reported in the spring of 1903. What did the miners get?",
+   "options": [
+    "A ten per cent rise and a nine-hour day, but no union recognition",
+    "Recognition of their union and an eight-hour day, but no rise in pay",
+    "Everything they had asked for when they walked out in May",
+    "Nothing: the commission found for the operators outright"
+   ],
+   "answer": 0,
+   "explanation": "The rise was backdated, the working day came down from ten hours to nine, and a standing board of conciliation was set up for future quarrels. On recognition the commission said the question lay outside its mandate, while stating that workers had the right to organise — a distinction that mattered enormously to the union and not at all to its members' pay packets. The operators were allowed a ten per cent rise in the price of coal to cover it. Both sides claimed the outcome, which is usually a sign that neither won.",
+   "image": "assets/img/coalstrike/commission.jpg",
+   "imageAlt": "The seven members of the Anthracite Coal Strike Commission posed for a group portrait",
+   "credit": "The Anthracite Coal Strike Commission, photographed by William H. Rau, 1903. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt filed the settlement under the phrase a square deal. What did he mean by it?",
+   "options": [
+    "A legal minimum wage fixed by the federal government",
+    "Government ownership of every industry essential to the public",
+    "A fair hearing for capital, labour and the public alike",
+    "A guaranteed eight-hour day written into federal law"
+   ],
+   "answer": 2,
+   "explanation": "He was trying the phrase out on speaking tours around this time — at Lynn, Massachusetts, he told a crowd he wanted \"a square deal for every man, great or small, rich or poor.\" Lincoln Steffens later claimed to have handed him the words, a claim his biographers treat with caution. It was less a programme than an argument about whose side the government was on, and worth measuring against what actually happened: the commission sat for months in Scranton and Philadelphia and swore in five hundred and fifty-eight witnesses, whose testimony filled more than ten thousand pages. Susan Berfield, working from those proceedings, retells one of them — Andrew Chippie, a breaker boy of twelve who had inherited his dead father's debt to the company and who, after sixty-four hours of work at four cents an hour, was $88.17 in arrears to it. Judge Gray remarked that he was not getting ahead very fast. He got the ten per cent. The union got nothing it could put in writing.",
+   "image": "assets/img/coalstrike/tr-80000-miners.jpg",
+   "imageAlt": "Theodore Roosevelt seated on a platform before an enormous crowd of miners",
+   "credit": "President Roosevelt at Mine Workers' Day, Wilkes-Barre, Pennsylvania, 1905. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  }
+ ]
+}

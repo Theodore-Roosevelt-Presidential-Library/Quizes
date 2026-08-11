@@ -1,0 +1,327 @@
+{
+ "id": "election-1912",
+ "title": "The Strangest Election",
+ "subtitle": "1912",
+ "intro": "A former president challenged the man he had put in the White House, won almost every primary, lost the nomination anyway, walked out of his own party, started a new one, was shot in the chest three weeks before the vote and finished the speech. Then he came second. Fifteen questions on the four-cornered election of 1912.",
+ "heroImage": "assets/img/election1912/we-like-his-grit.jpg",
+ "heroAlt": "Cartoon of Theodore Roosevelt at a lectern, blood on his shirt, holding up a rolled speech with a bullet hole marked in it",
+ "heroCredit": "“We are against his politics but we like his grit” — drawing by W. A. Rogers, published in the New York Herald, 16 October 1912. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/post-presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Strangest Election",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the election of 1912 — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/post-presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Standing at Armageddon",
+   "line": "Nothing got past you."
+  },
+  {
+   "min": 13,
+   "name": "Convention Floor Whip",
+   "line": "You could count that roll."
+  },
+  {
+   "min": 10,
+   "name": "Delegate at Large",
+   "line": "Seated, and on the right side of it."
+  },
+  {
+   "min": 7,
+   "name": "Primary Voter",
+   "line": "You turned out when it counted."
+  },
+  {
+   "min": 4,
+   "name": "Gallery Ticket",
+   "line": "A good seat for the noise."
+  },
+  {
+   "min": 0,
+   "name": "Steamrolled",
+   "line": "It happened to better men."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In 1912, for the first time, a bloc of states let Republican voters choose their convention delegates at the ballot box. What did those primaries show?",
+   "options": [
+    "Taft carried the country by a comfortable margin",
+    "La Follette led the field until he withdrew",
+    "Roosevelt outpolled Taft and La Follette put together",
+    "The three men finished within a few thousand votes"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt won nine of the twelve Republican primaries he contested, and took more votes than his two rivals combined — the exact totals differ a little from one account to another, but the margin is not in doubt. He beat Taft two to one in California and Illinois, and beat him in Ohio, which was Taft's home state. It made no difference. Most delegates in 1912 were still picked in caucuses and state conventions, and primaries would not decide a nomination for another sixty years.",
+   "image": "assets/img/election1912/spokane-crowd.jpg",
+   "imageAlt": "A crowd filling a wide small-city street in front of a bank and a hotel, waiting for a speech",
+   "credit": "Assembling for a speech, Spokane, Washington, 9 September 1912. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The first presidential preference primary of the 1912 campaign was held in North Dakota on 19 March. Who won the Republican contest there?",
+   "options": [
+    "Robert La Follette",
+    "Theodore Roosevelt",
+    "William Howard Taft",
+    "Hiram Johnson"
+   ],
+   "answer": 0,
+   "explanation": "The Wisconsin senator beat Roosevelt comfortably, and the win kept him in the race all the way to Chicago with delegates neither Roosevelt nor Taft could have. Geoffrey Cowan calls the North Dakota vote the country's first statewide direct presidential primary, and the New York Times headline the next morning ignored the winner entirely: “Beat Roosevelt in North Dakota.” It was a bruising place to lose for a man who had run cattle on the Little Missouri and never stopped saying what the country had done for him.",
+   "image": "assets/img/election1912/tr-campaign-1912.jpg",
+   "imageAlt": "Theodore Roosevelt seated in the back of an open touring car, an aide in a bowler hat in front of him",
+   "credit": "Ex-President Roosevelt in the campaign of 1912. One frame of a Keystone stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Two hundred and fifty-four delegate seats were disputed going into the Republican convention, and the party's national committee spent the week beforehand deciding them. How did it split them?",
+   "options": [
+    "It sent them all back to the states",
+    "127 to Taft, 127 to Roosevelt",
+    "All 254 to Taft",
+    "235 to Taft, 19 to Roosevelt"
+   ],
+   "answer": 3,
+   "explanation": "The committee sat from 8 June and worked through the states alphabetically, and Taft's people had the votes on it. Roosevelt's camp called it theft and built a campaign on the word. Historians who have gone back through the paperwork give a more tangled answer: some of the Roosevelt challenges were flimsy and some of the Taft rulings were indefensible, and on a scrupulously honest count neither man would have arrived with a majority.",
+   "image": "assets/img/election1912/california-delegates.jpg",
+   "imageAlt": "Delegates crowded onto the roof of a stagecoach in a city street, waving flags, a mounted policeman alongside",
+   "credit": "California delegates cheering on a stagecoach at the 1912 Republican National Convention, Chicago Coliseum, June 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Taft's managers installed a chairman to run the convention floor. Who took the gavel — a man who had sat in Roosevelt's own cabinet?",
+   "options": [
+    "Henry Cabot Lodge",
+    "Elihu Root",
+    "Nicholas Longworth",
+    "William Borah"
+   ],
+   "answer": 1,
+   "explanation": "Root had been Roosevelt's Secretary of War and then his Secretary of State, and was about as close a friend as he had in public life. He ruled for the president all week, and he did not enjoy it: “I care more for one button on Theodore Roosevelt’s waistcoat than for Taft’s whole body.” Roosevelt took it as a personal betrayal and said so for years afterwards. Lodge and Longworth also stayed with Taft; Longworth was married to Roosevelt's daughter Alice.",
+   "image": "assets/img/election1912/chicago-crowd.jpg",
+   "imageAlt": "A dense crowd of thousands in straw hats filling a Chicago street around parked cars, one placard held above the heads",
+   "credit": "Crowd listening to T.R. speak, Chicago, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "Roosevelt's delegates had a name for the way the chair disposed of their objections, and they imitated its noise from the floor all week. What was it?",
+   "options": [
+    "The threshing machine",
+    "The wringer",
+    "The steamroller",
+    "The cattle chute"
+   ],
+   "answer": 2,
+   "explanation": "Every time a ruling went Taft's way the hall filled with whistles, cries of “toot toot” and “all aboard,” and the hiss of sheets of sandpaper scraped together. A delegate from Mississippi rose to make the point of order that “the steam roller is exceeding the speed limit,” and brought the house down. Barbed wire had been strung around the rostrum before the doors opened, and a twelve-foot dry moat ran behind it.",
+   "image": "assets/img/election1912/california-delegates.jpg",
+   "imageAlt": "Delegates crowded onto the roof of a stagecoach in a city street, waving flags, a mounted policeman alongside",
+   "credit": "California delegates cheering on a stagecoach at the 1912 Republican National Convention, Chicago Coliseum, June 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "When the roll was called at last and Taft was renominated, what did most of Roosevelt's delegates do?",
+   "options": [
+    "Sat in their seats and answered “present and not voting”",
+    "Marched out of the hall before the roll began",
+    "Switched to La Follette to deny Taft a majority",
+    "Voted for Taft to hold the party together"
+   ],
+   "answer": 0,
+   "explanation": "It took 540 votes to nominate. Taft got 561 — twenty-one more than a majority — with 107 for Roosevelt from delegates who followed their primary instructions, 41 for La Follette, and two smaller tallies for Cummins of Iowa and Hughes of New York. Three hundred and forty-four answered the roll “present and not voting,” which was the point: a margin of twenty-one, with a silent bloc that size on the floor, makes a nomination look less like a mandate than a headcount. The published tallies wobble by a vote or two between the official proceedings and the newspaper counts.",
+   "image": "assets/img/election1912/california-delegates.jpg",
+   "imageAlt": "Delegates crowded onto the roof of a stagecoach in a city street, waving flags, a mounted policeman alongside",
+   "credit": "California delegates cheering on a stagecoach at the 1912 Republican National Convention, Chicago Coliseum, June 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The Republican convention adjourned at half past nine on the night of 22 June 1912. Two hours later Roosevelt was on a stage a few blocks away, launching a new party. Which Chicago hall?",
+   "options": [
+    "The Auditorium Theatre",
+    "The Congress Hotel ballroom",
+    "The Chicago Opera House",
+    "Orchestra Hall"
+   ],
+   "answer": 3,
+   "explanation": "Orchestra Hall was full to the doors on almost no notice. The Associated Press reported the queue outside standing four deep for blocks and thousands turned away; the crowd counts in the books run as high as fifteen thousand, which cannot be right, since the hall seats about two thousand five hundred. Hiram Johnson led the California men in at ten o'clock, Roosevelt reached the stage at half past eleven, and nothing was formally organised that night — the Progressive Party still had to hold a convention of its own, which it did back at the Coliseum in August.",
+   "image": "assets/img/election1912/chicago-crowd.jpg",
+   "imageAlt": "A dense crowd of thousands in straw hats filling a Chicago street around parked cars, one placard held above the heads",
+   "credit": "Crowd listening to T.R. speak, Chicago, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "“We stand at Armageddon, and we battle for the Lord.” Where did Roosevelt first say it?",
+   "options": [
+    "At the Progressive convention that August in Chicago",
+    "At a Chicago rally on the eve of the Republican convention",
+    "From the stage in Milwaukee after he was shot",
+    "In his last speech, at Madison Square Garden"
+   ],
+   "answer": 1,
+   "explanation": "17 June 1912, at the Chicago Auditorium, the night before the Republican convention opened its doors. He had never used that kind of language before, and it changed the temperature of the whole fight; the press corps started calling him John the Baptist. In August he closed his Progressive convention speech by quoting himself. Printings of the full peroration differ by a word here and there, but the last line is the same everywhere it appears.",
+   "image": "assets/img/election1912/chicago-crowd.jpg",
+   "imageAlt": "A dense crowd of thousands in straw hats filling a Chicago street around parked cars, one placard held above the heads",
+   "credit": "Crowd listening to T.R. speak, Chicago, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "T.R.'s speeches"
+   }
+  },
+  {
+   "prompt": "A settlement-house founder from Chicago rose to second Roosevelt's nomination in August 1912 — the first seconding speech ever made by a woman at a major party's national convention. Who was she?",
+   "options": [
+    "Ida Husted Harper",
+    "Florence Kelley",
+    "Jane Addams",
+    "Frances Kellor"
+   ],
+   "answer": 2,
+   "explanation": "Jane Addams of Hull House, on 7 August. The convention's own printed proceedings have her seconding him “because he is one of the few men in our public life who has been responsive to the social appeal and who has caught the significance of the modern movement.” It is sometimes said that no woman had ever addressed a national convention before her, and that is not so — J. Ellen Foster spoke to the Republican convention in 1892, and Mary Elizabeth Lease seconded James B. Weaver at the Populist convention the same year. What was new in 1912 was a woman making a seconding speech at a convention of one of the big parties. Addams had reservations and said so elsewhere: the same convention, at Roosevelt's direction, refused to seat Black delegations from the South, and W. E. B. Du Bois and other Black leaders who had leaned toward the new party turned away from it.",
+   "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
+   "imageAlt": "Theodore Roosevelt and Hiram Johnson standing and shaking hands",
+   "credit": "Roosevelt and Johnson after nomination, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Who ran for vice-president on the Progressive ticket?",
+   "options": [
+    "Hiram Johnson, governor of California",
+    "Albert Beveridge, of Indiana",
+    "Gifford Pinchot, of Pennsylvania",
+    "Benjamin Lindsey, of Colorado"
+   ],
+   "answer": 0,
+   "explanation": "Most of the betting had been on Judge Lindsey of Colorado, and when Lindsey rose to give the first seconding speech the hall worked out that he was not going to be on the ticket. Johnson got it: a formidable campaigner, he did not have to give up the governorship to run, and a New York and West Coast ticket looked well in print. Beveridge announced the choice at seven in the evening on 7 August, and when the two men came out together the delegates sang the Doxology while a minute gun went off in the organ loft. Roosevelt had made his “Confession of Faith” the previous day — two hours, twenty thousand words, applause stopping him a hundred and forty-five times.",
+   "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
+   "imageAlt": "Five men in suits posed together in a photographer's studio during the Progressive convention",
+   "credit": "T.R. with his Badlands and Rough Rider friends Arthur Merrifield, Sylvane Ferris, Joe Ferris and George Myers at the Progressive Party convention, Chicago, August 1912. Photograph by Moffett Studio. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The Progressive platform of 1912 was called “A Contract with the People.” Which of these did it ask for?",
+   "options": [
+    "Repeal of the pending income tax amendment",
+    "An immediate end to the protective tariff",
+    "A federal ban on organised labour",
+    "Votes for women"
+   ],
+   "answer": 3,
+   "explanation": "Along with direct primaries, direct election of senators, a minimum wage for women, limits on child labour, and a scheme of “social insurance” that reads now like a first sketch of Social Security. It also wanted a national commission with power to regulate big business outright rather than break it up. The plank that drew the most fire was the recall of judicial decisions in the states, which Roosevelt had proposed at Columbus that February and which convinced his opponents he meant to put the courts to a vote.",
+   "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
+   "imageAlt": "Five men in suits posed together in a photographer's studio during the Progressive convention",
+   "credit": "T.R. with his Badlands and Rough Rider friends Arthur Merrifield, Sylvane Ferris, Joe Ferris and George Myers at the Progressive Party convention, Chicago, August 1912. Photograph by Moffett Studio. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "John Schrank shot Roosevelt outside a Milwaukee hotel on 14 October 1912. What did he say had set him on it?",
+   "options": [
+    "Orders he said came from an anarchist circle in New York",
+    "A dream in which McKinley named Roosevelt his killer",
+    "Money he said he had been paid on Wall Street",
+    "A quarrel with a Progressive Party organiser"
+   ],
+   "answer": 1,
+   "explanation": "Schrank dated the dream to half past one in the morning on 15 September 1901 — the night after McKinley died in Buffalo, and days before the funeral services and the burial at Canton — and he had carried it for eleven years. He always insisted he had acted alone, and the police found nothing to contradict him. He had also filled pages arguing that a third term would end in dictatorship and civil war, and he trailed Roosevelt across several states before Milwaukee. Roosevelt went on to the auditorium and opened: “Friends, I shall ask you to be as quiet as possible. I don’t know whether you fully understand that I have just been shot; but it takes more than that to kill a Bull Moose.”",
+   "image": "assets/img/election1912/milwaukee-speech.jpg",
+   "imageAlt": "A young man in a suit holding out a thick sheaf of folded typescript with a ragged hole torn through it",
+   "credit": "Elbert Martin and the bullet-pierced speech, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Wilson, Roosevelt and Taft were three of the four names that mattered in November 1912. Who was the fourth, and took the biggest share the Socialists ever won?",
+   "options": [
+    "Eugene Chafin",
+    "Robert La Follette",
+    "Eugene V. Debs",
+    "Champ Clark"
+   ],
+   "answer": 2,
+   "explanation": "Debs took about 900,000 votes and six per cent — double his 1908 result and the high-water mark for his party. He won no electoral votes. Chafin, running for the Prohibition Party, took a little over one per cent. Chauncey Depew, the New York Republican, had summed up the two Republican halves months earlier: the only question left was “which corpse gets the most flowers.”",
+   "image": "assets/img/election1912/presidential-map.jpg",
+   "imageAlt": "A campaign poster shaped like a map of the United States, filled with crowd photographs, with portraits of Roosevelt, Wilson and Taft cut into it",
+   "credit": "Presidential map, 1912 — Theodore Roosevelt, Woodrow Wilson and William Howard Taft. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Wilson won 435 of the 531 electoral votes. What share of the popular vote was that built on?",
+   "options": [
+    "About 42 per cent",
+    "A little over half",
+    "Nearly 58 per cent",
+    "About 35 per cent"
+   ],
+   "answer": 0,
+   "explanation": "An electoral landslide on a minority of the vote. Roosevelt took 88 electoral votes and six states, still the strongest showing any third party has managed, and California split its electors between him and Wilson. Taft, the sitting president, took eight, from Utah and Vermont. Roosevelt and Taft together outpolled Wilson by well over a million; the published totals for each man vary a little from source to source. Roosevelt's own verdict is usually given as “I got more bullets than ballots this time,” which rests on a single authority: Lewis Gould has him saying it to a British visitor in January 1913, and the other books that carry the line are quoting Gould.",
+   "image": "assets/img/election1912/presidential-map.jpg",
+   "imageAlt": "A campaign poster shaped like a map of the United States, filled with crowd photographs, with portraits of Roosevelt, Wilson and Taft cut into it",
+   "credit": "Presidential map, 1912 — Theodore Roosevelt, Woodrow Wilson and William Howard Taft. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The split cost the Republicans more than the White House in November 1912. What else went?",
+   "options": [
+    "Every governorship west of the Mississippi",
+    "Their place on the ballot in four southern states",
+    "The Speakership, which they had held since 1911",
+    "Control of the Senate, and more ground in the House"
+   ],
+   "answer": 3,
+   "explanation": "Wilson arrived with both chambers behind him, the Democrats having taken the Senate and enlarged a House majority they already held. The Progressives did badly in 1914 and were finished by 1916, when Roosevelt declined their nomination and the Republicans reunited behind Charles Evans Hughes — and lost narrowly. Whether 1912 wrecked the party or forced it to modernise has been argued ever since, and this quiz is not going to settle it.",
+   "image": "assets/img/post-presidency/race-to-white-house.jpg",
+   "imageAlt": "Cartoon of a race to the White House with Wilson on a donkey, Taft on an elephant and Roosevelt on a bull moose",
+   "credit": "Race to the White House, with Wilson on a donkey and Taft on an elephant being bitten by T. Roosevelt on a bull moose. Drawing by Clifford K. Berryman, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  }
+ ]
+}

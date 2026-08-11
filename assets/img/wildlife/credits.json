@@ -1,0 +1,164 @@
+{
+ "badlands-buttes": {
+  "source": "dam",
+  "ref": "2f16fe06-479f-4022-8d04-c042c43f733a",
+  "source_file": "har_1182003_Buttes_in_Bad_Lands.jpg",
+  "description": "Buttes in Bad Lands — Badlands (N.D.). — Date: probably 1900 September 16",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1783",
+  "credit_line": "\"Buttes in Bad Lands,\" North Dakota, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "note": "RETIRED — roughly the lower half of the frame is motion blur, apparently shot from a moving train; a fence line streaks across the foreground."
+ },
+ "little-missouri-medora": {
+  "source": "dam",
+  "ref": "b86b3465-5be5-4794-968e-e8a22df018bd",
+  "source_file": "har_1182010_The_Little_Missouri_at_Medora_from_the_t.jpg",
+  "description": "The Little Missouri at Medora from the top of the butte — Medora (N.D.) and the Little Missouri River (Wyo.-N.D.) beyond. — Date: 1900 September 16",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1104",
+  "credit_line": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "sagebrush-plain-buttes": {
+  "source": "dam",
+  "ref": "7883fde8-a6ef-4ac8-8eee-921bb61b4dac",
+  "source_file": "har_3013621_Sagebrush_plain_with_buttes_rising_in_th.jpg",
+  "description": "Sagebrush plain with buttes rising in the background — Probably near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1142",
+  "credit_line": "\"Sagebrush plain with buttes rising in the background,\" near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "sagebrush-plain": {
+  "source": "dam",
+  "ref": "57e5ed4f-8718-49dd-a115-599149fc6560",
+  "source_file": "har_3013622_Sagebrush_plain.jpg",
+  "description": "Sagebrush plain — Probably near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1121",
+  "credit_line": "\"Sagebrush plain,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "prairie-edge-badlands": {
+  "source": "dam",
+  "ref": "139b4540-a10b-45ea-b08b-17a885e1d553",
+  "source_file": "har_3013462_Prairie_at_edge_of_the_Badlands.jpg",
+  "description": "Prairie at edge of the Badlands — Caption on back of photograph reads: \"From the top of a cone butte, looking west toward the Little Missouri. The grassy rolling hills gradually break into the rough 'Bad Lands.' In the Little Missouri — Creator: Holmboe, Frithjof$$QHolmboe, Frithjof — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x978",
+  "credit_line": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "badlands-bullion-butte": {
+  "source": "dam",
+  "ref": "3e709527-d0bd-4977-a117-a9e647e5a2e5",
+  "source_file": "har_3013630_The_Bad_Lands_from_the_slopes_of_Middle_.jpg",
+  "description": "The Bad Lands from the slopes of Middle (or Bullion) Butte — Near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1089",
+  "credit_line": "The Bad Lands from the slopes of Middle (or Bullion) Butte, near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "hunting-trophies-antlers": {
+  "source": "dam",
+  "ref": "6bd2a9d7-5e3a-48fd-823a-b7e1c1a33902",
+  "source_file": "har_3013557_Hunting_trophies.jpg",
+  "description": "Hunting trophies — Pile of antlers, probably near Medora (N.D.). Photograph probably by Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1885",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1012",
+  "credit_line": "\"Hunting trophies\" — a pile of antlers. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "note": "RETIRED — do not use for Badlands subjects. The photograph shows tall conifers and mountain slopes, not Little Missouri country; the DAM's 'probably near Medora' is not supported by the image. Nothing establishes the antlers as shed rather than hunted."
+ },
+ "elkhorn-trophies": {
+  "source": "dam",
+  "ref": "29742de0-3999-48f6-b1ab-7ab0fb9b71e3",
+  "source_file": "har_3013445_Another_view_of_Elkhorn_Ranch_house_Trop.jpg",
+  "description": "Another view of Elkhorn Ranch house. Trophies of the hunt scattered about — Piazza at Elkhorn Ranch littered with antlers, Medora (N.D.) Photograph by Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1886",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x917",
+  "credit_line": "\"Another view of Elkhorn Ranch house. Trophies of the hunt scattered about.\" Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "badlands-lang-ranch": {
+  "source": "dam",
+  "ref": "9a9220da-2409-4b9e-9d72-54f206d03d84",
+  "source_file": "har_3013494_The_Badlands_near_Lang_s_ranch.jpg",
+  "description": "The Badlands near Lang's ranch — View near the ranch of Gregor Lang, probably near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1090",
+  "credit_line": "\"The Badlands near Lang's ranch.\" Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "badlands-watercourse": {
+  "source": "dam",
+  "ref": "02ffa66b-eb06-494e-88d0-c84a618f0f23",
+  "source_file": "har_3013487_Typical_water_course_in_the_Badlands.jpg",
+  "description": "Typical water course in the Badlands — Sagebrush covered gully, probably near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1124",
+  "credit_line": "\"Typical water course in the Badlands,\" near Medora. Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "glade-near-elkhorn": {
+  "source": "dam",
+  "ref": "8f65f048-86a1-4436-a457-b5b594128acd",
+  "source_file": "har_3013502_A_glade_in_the_Badlands_near_Elkhorn.jpg",
+  "description": "A glade in the Badlands near Elkhorn — Sagebrush covered valley near the site of Theodore Roosevelt's Elkhorn Ranch, near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x890",
+  "credit_line": "\"A glade in the Badlands near Elkhorn.\" Photographed for Hermann Hagedorn. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "roped-coyote": {
+  "source": "dam",
+  "ref": "824c0c32-e71e-4c9b-9687-436ec517295e",
+  "source_file": "har_4142436_Theodore_Roosevelt_looking_at_a_roped_co.jpg",
+  "description": "Theodore Roosevelt looking at a roped coyote — While Roosevelt was hunting near Frederick (Okla.). — Date: 1905 April 8-13",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1757",
+  "credit_line": "Theodore Roosevelt looking at a roped coyote, near Frederick, Oklahoma, April 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "roosevelt-roundup-outfit": {
+  "source": "dam",
+  "ref": "1edc4509-61e5-4fb0-98f9-c32e70276246",
+  "source_file": "har_3013670_Roosevelt_s_outfit_in_the_round_up.jpg",
+  "description": "Roosevelt's outfit in the round-up — Theodore Roosevelt's Maltese Cross \"outfit\" out on a cattle round-up, near Medora (N.D.). Photography taken by or at the behest of Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1885",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1115",
+  "credit_line": "\"Roosevelt's outfit in the round-up,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "ranch-roundup-cattle": {
+  "source": "dam",
+  "ref": "0b03009a-726d-4f71-935c-998da395b861",
+  "source_file": "har_3013555_A_Roosevelt_ranch_round_up.jpg",
+  "description": "A Roosevelt ranch round-up — Two unidentified men on horses driving cattle, presumably that of Theodore Roosevelt, probably near Medora (N.D.). — Date: ca. 1885",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1020",
+  "credit_line": "\"A Roosevelt ranch round-up,\" near Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "deer-heart-river": {
+  "source": "loc",
+  "ref": "2018651734",
+  "source_file": "loc_pictures_2018651734",
+  "description": "Deer wading the shallows of the upper Heart River",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x728",
+  "credit_line": "\"Deer wading the shallows of the upper Heart River,\" North Dakota, 1905. Library of Congress, Prints and Photographs Division."
+ },
+ "badlands-index-point": {
+  "source": "loc",
+  "ref": "2018651737",
+  "source_file": "loc_pictures_2018651737",
+  "description": "Index point in the picturesque North Dakota Bad Lands",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x720",
+  "credit_line": "\"Index point in the picturesque North Dakota Bad Lands,\" 1905. Library of Congress, Prints and Photographs Division."
+ }
+}

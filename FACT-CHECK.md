@@ -246,3 +246,38 @@ recommended substitute for public copy.
 One remaining gap, smaller: the Appendix stating Roosevelt's total cattle investment is
 missing from our OCR of the book. That is the only place the ~$80,000 loss figure could
 come from.
+
+---
+
+## The corpus contains one book twice, under two names (August 2026)
+
+`Roger L. Di Silvestro - Theodore Roosevelt in the Badlands (2011).md` is **not
+by Di Silvestro**. It is a clean transcription of **Hermann Hagedorn,
+*Roosevelt in the Bad Lands* (1921)** — the same book as
+`Hermann Hagedorn - Roosevelt in the Bad Lands (1921).md`, which is a poorer
+OCR of the identical text. Confirmed: same Roosevelt Memorial Association
+title page, same copyright line, same transcriber's note, and the string
+"Di Silvestro" appears in the file zero times.
+
+**Why this mattered.** A quotation found in both files looks like two
+independent sources and is one. A whole batch of Badlands questions was built
+believing Hagedorn had been corroborated by a 2011 author. Nineteen claims
+across two quizzes were affected and have been re-attributed openly to
+Hagedorn, most of them as recollections he gathered thirty-five years after
+the events.
+
+`tools/verify.py` now collapses the two files and reports the true book, so
+this cannot recur silently. See `CORPUS_ALIASES` in that file.
+
+**A gain, not only a loss.** The clean transcription contains the appendix the
+OCR scan lost, which settles a question this document previously left open:
+
+> Expended September 1884 – July 1885 $82,500.00
+> Returns from cattle sales to December 1891 $42,443.32
+> Stock on the range, December 1891 $16,500.00
+> **Loss, not counting interest on the investment $23,556.68**
+
+Later operations reduced the figure across both ventures to **$20,292.63** by
+1899. Putnam gives the same numbers independently. So the "roughly $80,000
+loss" this file recorded as unsourceable is resolved: $82,500 was the sum
+*expended*, not the sum lost, and the two were being confused.

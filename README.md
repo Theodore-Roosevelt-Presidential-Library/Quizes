@@ -390,6 +390,17 @@ The trick is telling a name from a sentence-initial capital. A word is kept
 only if it appears mid-sentence at least once somewhere, which sorts "Rondon"
 from "Born" without needing a dictionary.
 
+Proper nouns alone are not enough, though — nobody searching a subject quiz
+types a capital. "pronghorn", "breaker", "anthracite", "chinook" are all
+lowercase and all matched nothing at first. So the harvester also takes
+lowercase words that are **rare across the whole set**: a word appearing in
+three quizzes or fewer identifies something; a word appearing in twenty is
+just English.
+
+Every category competes for the same list, so each has a reserved floor.
+Without one the most numerous category starves the rest — names crowded out
+every year, then names and years together crowded out every lowercase noun.
+
 ### The filter bar
 
 Three things the first build got wrong, for anyone tempted to undo them:

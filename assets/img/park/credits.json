@@ -1,0 +1,62 @@
+{
+ "little-missouri-medora": {
+  "source": "dam",
+  "source_file": "har_1182010_The_Little_Missouri_at_Medora_from_the_t.jpg",
+  "description": "The Little Missouri at Medora from the top of the butte — Medora (N.D.) and the Little Missouri River (Wyo.-N.D.) beyond. — Date: 1900 September 16",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1104",
+  "dam_id": "b86b3465-5be5-4794-968e-e8a22df018bd",
+  "credit_line": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "prairie-edge-badlands": {
+  "source": "dam",
+  "source_file": "har_3013462_Prairie_at_edge_of_the_Badlands.jpg",
+  "description": "Prairie at edge of the Badlands — Caption on back of photograph reads: \"From the top of a cone butte, looking west toward the Little Missouri. The grassy rolling hills gradually break into the rough 'Bad Lands.' In the Little Missouri — Creator: Holmboe, Frithjof$$QHolmboe, Frithjof — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x978",
+  "dam_id": "139b4540-a10b-45ea-b08b-17a885e1d553",
+  "credit_line": "Prairie at the edge of the Badlands. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "elkhorn-from-river": {
+  "source": "dam",
+  "source_file": "har_3013446_Ranch_house_taken_from_opposite_of_river.jpg",
+  "description": "Ranch house taken from opposite of river — Elkhorn Ranch with the Little Missouri River in the foreground, Medora (N.D.). Photograph by Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1886",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x927",
+  "dam_id": "fb7b5522-7b3a-41ce-bdbf-f4c7c76985c2",
+  "credit_line": "Elkhorn Ranch with the Little Missouri in the foreground. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "elkhorn-site-clearing": {
+  "source": "dam",
+  "source_file": "har_3013518_Site_of_Elkhorn_ranch_house_from_the_but.jpg",
+  "description": "Site of Elkhorn ranch-house from the butte behind — A clearing next to the Little Missouri River, near Medora (N.D.). Photograph taken by or at the behest of Hermann Hagedorn. — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x869",
+  "dam_id": "4fc68abd-6b82-4862-91d2-3b5b947de7bf",
+  "credit_line": "The site of the Elkhorn ranch house, seen from the butte behind, about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "butte-opposite-ranch": {
+  "source": "dam",
+  "source_file": "har_3013448_Opposite_the_ranch_house.jpg",
+  "description": "Opposite the ranch house — Butte on the opposite side of the Little Missouri River from Elkhorn Ranch, Medora (N.D.). Photograph probably taken by or at the behest of Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1886",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x916",
+  "dam_id": "11c7906b-6c6f-4a42-8186-b0ed6e8d1c28",
+  "credit_line": "The butte opposite the Elkhorn ranch house, across the Little Missouri. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "badlands-gumbo-strata": {
+  "source": "loc",
+  "ref": "2018651735",
+  "source_file": "loc_pictures_2018651735",
+  "description": "Grotesque stone strata and gumbo formation, North Dakota Bad Lands",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x726",
+  "credit_line": "\"Grotesque stone strata and gumbo formation, North Dakota Bad Lands,\" 1905. Library of Congress, Prints and Photographs Division."
+ }
+}

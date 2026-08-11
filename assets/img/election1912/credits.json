@@ -1,0 +1,71 @@
+{
+ "tr-campaign-1912": {
+  "source": "dam",
+  "ref": "aeaa4880-e0cf-4e12-bdc7-42d05776870e",
+  "source_file": "loc_2010649489_Ex_President_Roosevelt_in_the_campaign_o.tif",
+  "description": "Ex-President Roosevelt in the campaign of 1912 — 1 photographic print on stereo card : stereograph. — Creator: Keystone View Company — Date: 1912",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1452",
+  "note": "Keystone stereograph; cropped to a single frame with the card borders and caption removed."
+ },
+ "we-like-his-grit": {
+  "source": "dam",
+  "ref": "23774b21-9fa0-4a35-9f75-d5367981f13d",
+  "source_file": "loc_2010717717_We_are_against_his_politics_but_we_like_.tif",
+  "description": "We are against his politics but we like his grit — Roosevelt holding paper marked \"speech\" with bullet hole at top. (DLC/PP-1932:0042). Forms part of: Cabinet of American illustration (Library of Congress). Published in: New York Herald, Oct. 16, 1912 — Creator: Rogers, W. A. (William Allen) — Date: 1912",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/111_cai.html\">Cabinet of American Illustration - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1775",
+  "crop": "re-cropped from the LOC master TIFF (4506x5767), x 2-97.5%, y 1-95.6%. The printed caption slip pasted along the foot of the drawing is physically trimmed through the letters of \"GRIT\" on the original sheet, so it is framed out rather than shown sliced; the full title is carried in the credit line instead."
+ },
+ "spokane-crowd": {
+  "source": "dam",
+  "ref": "ea1b0297-30c6-4892-8958-427036af8d1f",
+  "source_file": "har_1262781_Assembling_for_speech.jpg",
+  "description": "Assembling for speech — Spokane (Wash.). — Date: 1912 September 9",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x847"
+ },
+ "presidential-map": {
+  "source": "dam",
+  "ref": "3796dcf9-2459-45be-b03d-6d30e36cc240",
+  "source_file": "loc_2011645484_Presidential_map.tif",
+  "description": "Presidential map — 1 photographic print. | Photograph of a presidential campaign poster showing cropped portraits of Theodore Roosevelt, Woodrow Wilson, and William Howard Taft, all working at desks, superimposed on a m — Date: 1912",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1123"
+ },
+ "milwaukee-speech": {
+  "source": "loc",
+  "ref": "2014690861",
+  "source_file": "loc_pictures_2014690861",
+  "description": "Elbert Martin and bullet-pierced speech",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1768",
+  "crop": "re-cropped from the LOC master TIFF (4310x5803), x 4-93%, y 4.5-88%; the black glass-negative rim on all four sides and the Bain agency's painted caption \"ELBERT MARTIN & BULLET-PIERCED SPEECH\" are outside the crop",
+  "note": "Bain glass negative. The painted caption reads correctly while the scratched negative number reads mirror-reversed — the Bain lettering was applied to the glass side, so on this plate the two disagree. There is no legible text inside the frame, so whether the image itself is laterally reversed cannot be settled from the plate, and it has been left as the Library holds it. Compare california-delegates, where in-frame street signage does settle it."
+ },
+ "chicago-crowd": {
+  "source": "loc",
+  "ref": "2014690550",
+  "source_file": "loc_pictures_2014690550",
+  "description": "Crowd listening to T.R. [Theodore Roosevelt] speak, Chicago",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1020"
+ },
+ "california-delegates": {
+  "source": "loc",
+  "ref": "2014690528",
+  "source_file": "loc_pictures_2014690528",
+  "description": "[California delegates cheering on stagecoach at the 1912 Republican National Convention held at the Chicago Coliseum, Chicago, Illinois, June 18-22, 1912]",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1125",
+  "crop": "re-cropped from the LOC master TIFF (5723x4203), x 3-88%, y 2.5-95.5%, then FLIPPED HORIZONTALLY; the black glass-negative rim and the Bain agency's painted caption \"CAL. DEL. CHEER...\" are outside the crop",
+  "note": "The Library's scan of this Bain glass negative is laterally reversed. The proof is inside the frame: the street sign for the Ford & Johnson Building, a real Chicago furniture house, reads backwards in the LOC file and reads correctly once flipped. The Bain agency's painted captions read the right way round in the unflipped scan because they were applied to the glass side of the plate, not the emulsion — which is why they now read backwards and have been cropped away. The pencilled negative number at the top right is on the glass side too and still reads reversed."
+ }
+}

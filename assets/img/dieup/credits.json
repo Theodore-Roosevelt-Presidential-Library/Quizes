@@ -1,0 +1,52 @@
+{
+ "huffman-herd": {
+  "source": "dam",
+  "ref": "c9d7bd44-5f20-42df-aa07-89b6f41d1ac1",
+  "source_file": "har_3013455_Herd_of_cattle_with_a_marked_cow_in_the_.jpg",
+  "description": "Herd of cattle with a marked cow in the foreground — Photograph by L. A. Huffman. — Creator: Huffman, L. A. (Laton Alton) 1854-1931$$QHuffman, L. A. (Laton Alton) 1854-1931 — Date: ca. 1880s",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1134",
+  "credit_line": "Herd of cattle with a marked cow in the foreground. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "huffman-ranch": {
+  "source": "dam",
+  "ref": "53e3fd53-167f-43e7-9abe-4f00d7cffc47",
+  "source_file": "har_3013453_A_cattle_ranch.jpg",
+  "description": "A cattle ranch — Cabin with a corral in the background. Photograph by L. A. Huffman. — Creator: Huffman, L. A. (Laton Alton) 1854-1931$$QHuffman, L. A. (Laton Alton) 1854-1931 — Date: ca. 1880s",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1126",
+  "credit_line": "A cattle ranch - cabin with a corral in the background, photographed on the Montana range in the 1880s. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "miles-city-1886": {
+  "source": "dam",
+  "ref": "9d8a6f73-60e4-4786-a9f6-2a9c6d295040",
+  "source_file": "har_3013653_The_Old_Mackqueen_House_Miles_City_1886.jpg",
+  "description": "The Old Mackqueen House, Miles City, 1886 — Caption continues: \"Where cattlemen congregated.\" Streetscape showing a boardwalk and the Old Mackqueen House (presumably a hotel), Miles City (Mont.). Photograph by L. A. Huffman. — Creator: Huffman, L. A. (Laton Alton) 1854-1931$$QHuffman, L. A. (Laton Alton) 1854-1931 — Date: 1886",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x963",
+  "credit_line": "The old MacQueen House, Miles City, 1886 - where cattlemen congregated. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "xit-roundup": {
+  "source": "dam",
+  "ref": "fbaf709e-7c4f-4f11-b28a-ca9aa3b94a8a",
+  "source_file": "har_3013676_The_old_XIT_round_up_outfit_on_the_move.jpg",
+  "description": "The old XIT round-up outfit on the move — Unidentified men driving horse-drawn wagons with other horses following behind. Photograph by L. A. Huffman. — Creator: Huffman, L. A. (Laton Alton) 1854-1931$$QHuffman, L. A. (Laton Alton) 1854-1931 — Date: not after 1912",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x592",
+  "credit_line": "\"The old XIT round-up outfit on the move, 4.30 a.m.\" - a later Montana round-up, not the winter of 1886-87: the XIT did not put cattle on its Montana range until 1889, and the print is dated no later than 1912. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "cattle-blizzard": {
+  "source": "loc",
+  "ref": "90710854",
+  "source_file": "loc_pictures_90710854 (LC-USZ62-100252)",
+  "description": "Cattle in a blizzard on the plains / drawn by Charles Graham from a sketch H. Worrall. 1 print : wood engraving. Illus. in: Harper's Weekly, 1886 Feb. 27, p. 132. Cropped from the LOC copy negative to the printed plate and its caption.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1090x800",
+  "credit_line": "Cattle in a Blizzard on the Plains - wood engraving by Charles Graham after a sketch by H. Worrall, published in Harper's Weekly, February 27, 1886. It is a picture of an earlier storm, printed a year before the winter of 1886-87. Library of Congress, Prints and Photographs Division."
+ }
+}

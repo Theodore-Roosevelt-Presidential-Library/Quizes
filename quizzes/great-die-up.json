@@ -1,0 +1,327 @@
+{
+ "id": "great-die-up",
+ "title": "The Great Die-Up",
+ "subtitle": "The winter of 1886-87 on the northern plains",
+ "intro": "The range was overstocked and the summer of 1886 had been dry. Then the snow came in November and did not stop. By the time the chinook opened the Little Missouri in March, the open-range cattle business on the northern plains was finished, and Theodore Roosevelt had lost most of what he had put into it. Fifteen questions on the winter that ended a way of doing business.",
+ "heroImage": "assets/img/dieup/cattle-blizzard.jpg",
+ "heroAlt": "Wood engraving of cattle standing and lying dead in driving snow, drifted up against a wire fence",
+ "heroCredit": "Cattle in a Blizzard on the Plains - wood engraving by Charles Graham after a sketch by H. Worrall, published in Harper's Weekly, February 27, 1886. It is a picture of an earlier storm, printed a year before the winter this quiz is about. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Great Die-Up",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the winter of 1886-87 - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Old-Timer",
+   "line": "Nothing about that winter got past you."
+  },
+  {
+   "min": 12,
+   "name": "Range Foreman",
+   "line": "You know the country and what it cost."
+  },
+  {
+   "min": 9,
+   "name": "Line Rider",
+   "line": "Solid. You have ridden most of this ground."
+  },
+  {
+   "min": 6,
+   "name": "New Hand",
+   "line": "A start. There is more to this winter than the snow."
+  },
+  {
+   "min": 3,
+   "name": "Tenderfoot",
+   "line": "Worth another ride through."
+  },
+  {
+   "min": 0,
+   "name": "Just Arrived",
+   "line": "Everyone starts somewhere. Go back and read the country."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What condition was the Badlands range in by the autumn of 1886, before any snow fell?",
+   "options": [
+    "Drought and grasshoppers had stripped it, and little hay was cut",
+    "Heavy summer rain had left the grass rank and green",
+    "Most herds had already been shipped east to market",
+    "A prairie fire in August had burned the river bottoms"
+   ],
+   "answer": 0,
+   "explanation": "The grass was gone before the winter started. Drought held all summer, a plague of grasshoppers worked over the hills, and ranchmen who normally put up hay harvested little or none, so every animal went out on the range to shift for itself. Roosevelt, chairing the Little Missouri Stockmen's Association, told a reporter from the Mandan Pioneer that July that in certain sections of the West \"the losses this year are enormous, owing to the drought and overstocking.\" He had ridden the country and seen it: \"Between the drought, the grasshoppers, and the late frosts, ice forming as late as June 10th, there is not a green thing in all the region I have been over.\" Hagedorn printed the interview in 1921 and Paul Grondahl quotes it independently.",
+   "image": "assets/img/dieup/huffman-herd.jpg",
+   "imageAlt": "A branded steer standing in dry, cropped grass in front of a large herd on the open range",
+   "credit": "Herd of cattle with a marked cow in the foreground. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt had already put the danger in print. What did he warn that overstocking would eventually do?",
+   "options": [
+    "Force the government to fence the public range",
+    "Kill about half the cattle in the Northwest",
+    "Push the big outfits south into Texas and Kansas",
+    "Drive beef prices past the reach of eastern buyers"
+   ],
+   "answer": 1,
+   "explanation": "He wrote it out himself, in the ranching articles for Century that became Ranch Life and the Hunting-Trail. David McCullough and Edmund Morris both date the writing to the autumn of 1886, before the first blizzard; the book appeared in 1888. \"Overstocking may cause little or no harm for two or three years, but sooner or later there comes a winter which means ruin to the ranches that have too many cattle on them.\" A crowded range, he went on, made it only a question of time before a winter came that would understock it by \"killing off about half of all the cattle\" in the Northwest. He had contributed his own full share to the crowding.",
+   "image": "assets/img/badlands/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted on horseback in ranch clothes near Medora",
+   "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/conservation",
+    "label": "How the range shaped his conservation"
+   }
+  },
+  {
+   "prompt": "Old hands along the Little Missouri spent that autumn predicting a bad winter. Where did they say the warnings were?",
+   "options": [
+    "In the price of beef at the Chicago yards",
+    "In an almanac printed at Bismarck that fall",
+    "In the animals - heavier coats, taller muskrat houses",
+    "In the Northern Pacific's freight schedules"
+   ],
+   "answer": 2,
+   "explanation": "Hermann Hagedorn came out to Medora after the First World War to interview the men who had been there, and collected what they remembered of that autumn. The muskrats, they said, were \"building their houses to twice their customary height\", with thicker walls and longer fur than any old-timer had known. The beavers cut willow brush by day as well as by night and stored double. \"The ducks and geese, which ordinarily flew south in October, that autumn had, a month earlier, already departed.\" And \"The Arctic owls, who came only in hard winters, were about.\" These are recollections set down some thirty-five years later - but the men giving them had lived through what came next.",
+   "image": "assets/img/badlands/joe-ferris-store.jpg",
+   "imageAlt": "A group of men standing outside Joe Ferris's store at Medora, North Dakota",
+   "credit": "The store of Joe Ferris at Medora, N.D. - photographed for Hermann Hagedorn about 1920, more than thirty years after that winter. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "The first blizzard came earlier than anyone on the range expected. In what month did it arrive?",
+   "options": [
+    "September 1886",
+    "November 1886",
+    "January 1887",
+    "March 1887"
+   ],
+   "answer": 1,
+   "explanation": "Ranchmen expected snow and cold snaps before Christmas and nothing severe until after New Year. It came in November instead, and it came as a full blizzard. Sources differ on the day - Hagedorn's account puts it toward the end of the first week of November, Edmund Morris dates the first snowfall to the 13th - but they agree on the month and on the character of it: \"The snow was like the finest powder, driving through every crack and nail hole, and piling snowdrifts within the houses as well as without.\" Lincoln Lang, a young man on his father's ranch, remembered opening the front door next morning and being met by \"a solid wall of snow reaching to the eaves of the house.\" Both sentences are Hagedorn's, set down in 1921 from what the survivors told him some thirty-five years afterwards; no other contemporary account of that first night survives.",
+   "image": "assets/img/dieup/miles-city-1886.jpg",
+   "imageAlt": "A dirt street and boardwalk in Miles City, Montana, in 1886, with a large frame hotel opposite",
+   "credit": "The old MacQueen House, Miles City, 1886 - where cattlemen congregated. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Cattle went down into the coulees and creek beds looking for shelter. Why did that kill them?",
+   "options": [
+    "The fine snow filled the coulees and buried them there",
+    "The wind funneled hardest through the coulees",
+    "The coulees flooded when the river ice broke up",
+    "Sagebrush in the coulees is poisonous in winter"
+   ],
+   "answer": 0,
+   "explanation": "The snow fell so dry and fine that the wind moved it like sand. Divides and plateaus blew nearly bare, while the coulees, gulches and creek beds - the only shelter in that country - packed full to a hundred feet or more. Cattle that crowded in were snowed under where they stood, or held fast by ice building around their feet. \"They died by thousands and tens of thousands,\" Hagedorn wrote, \"piled one on the other in coulees and wash-outs and hidden from sight by the snow.\" The whole of that description is his, reconstructed in 1921 from his Medora informants; no one was out in it keeping a record.",
+   "image": "assets/img/badlands/elkhorn-ranch.jpg",
+   "imageAlt": "The Elkhorn Ranch house among cottonwoods in a bottom on the Little Missouri",
+   "credit": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt described what drifting cattle did when they struck a fence or embankment they could not pass. What was it?",
+   "options": [
+    "Turned and worked their way back to the river bottoms",
+    "Broke through the wire and scattered onto the prairie",
+    "Stood with tails to the storm until they dropped",
+    "Followed the fence line until they found an opening"
+   ],
+   "answer": 2,
+   "explanation": "Cattle caught in the open do not face a blizzard; they walk with it, sometimes for scores of miles. Roosevelt wrote that on reaching an obstacle - \"as, for instance, a wire fence or a steep railway embankment, they will not try to make their way back against the storm, but will simply stand with their tails to it until they drop dead in their tracks.\" He added that the worst of that was far south of the Little Missouri, where long drift fences and railway grades collected the dead in rows. The Badlands were still mostly unfenced open range, so the coulees did what the fences did in Texas.",
+   "image": "assets/img/dieup/cattle-blizzard.jpg",
+   "imageAlt": "Wood engraving of cattle standing and lying dead in driving snow, drifted up against a wire fence",
+   "credit": "Cattle in a Blizzard on the Plains - wood engraving by Charles Graham after a sketch by H. Worrall, published in Harper's Weekly, February 27, 1886 - a year before the winter described here. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which animals in the herds went down first?",
+   "options": [
+    "The oldest range-raised steers",
+    "The yearlings trailed in from the south and east",
+    "The horses, which cannot paw through crusted snow",
+    "The big herds wintered along the railroad at Medora"
+   ],
+   "answer": 1,
+   "explanation": "Cattle trailed up from Texas or shipped in from Iowa and Minnesota had never met a northern winter and had not had a season on the range to harden. Hagedorn's account has them going first, standing helpless in the creek beds until they were snowed under or frozen where they stood. Roosevelt had made the same point in print: \"The herds that have just been put on suffer most in such a case; if they have come on late and are composed of weak animals, very few indeed, perhaps not ten per cent., will survive.\" Native stock in shaggier coats lasted longer - \"a range-raised steer is almost as tough as a buffalo\" - though by spring most of those were dead too.",
+   "image": "assets/img/badlands/roundup-herd.jpg",
+   "imageAlt": "A large herd of cattle spread across the northern plains",
+   "credit": "\"Throwing rangers to the round-up\" - cattle on the northern range, photographed by L. A. Huffman in 1907, twenty years after the die-up. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "By midwinter, starving cattle had drifted into the streets of Medora. What were they eating there?",
+   "options": [
+    "Tar paper off the sides of the buildings",
+    "Hay thrown down by the Northern Pacific crews",
+    "Grain spilled around the de Mores packing plant",
+    "Willow brush cut for them by the townspeople"
+   ],
+   "answer": 0,
+   "explanation": "The grass was buried, the sagebrush had been gnawed to stumps, and the cottonwood twigs were gone. Gaunt cattle came off the range into town, \"eating the tar-paper from the sides of the shacks\" until they dropped. Townspeople nailed planks across their windows to stop steers pushing their heads through the glass, and other animals stood along the railroad watching every passing train for anything that might fall off. All of that is Hagedorn's, collected in Medora in 1919 and 1920 from the people who had watched it; there was no fodder anywhere to give them, and nothing anyone could do but watch.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "The street at Medora, Dakota Territory, with the office and company store of the Marquis de Mores",
+   "credit": "Medora in 1883 - the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  },
+  {
+   "prompt": "A Montana ranch owner wrote asking how his cattle were faring. A cowboy on the place answered with a postcard-sized watercolor. What is it called?",
+   "options": [
+    "Bringing Home the Beef",
+    "Waiting for a Chinook",
+    "The Last Roundup",
+    "Cold Morning on the Range"
+   ],
+   "answer": 1,
+   "explanation": "Charles M. Russell was wrangling for the OH ranch in central Montana, owned by two Helena butchers, Louis Kaufman and Louis Stadler. Kaufman wrote to the foreman, Jesse Phelps, asking after the herd; while Phelps drafted a reply, Russell painted a starved steer ringed by wolves and sent it east with the letter. The Montana Historical Society, which shows it in Helena, gives the original title as Waiting for a Chinook and records that the subtitle The Last of 5000 was added later by someone else. Accounts differ on what he painted it on - the Society says the bottom of a collar box, others describe a piece of cardboard roughly three by four and a half inches. Newspapers reprinted it across the country, and it made Russell's name.",
+   "image": "assets/img/dieup/huffman-ranch.jpg",
+   "imageAlt": "A log ranch cabin with a sod roof, a pole corral behind it and cottonwoods alongside, three men standing at the left",
+   "credit": "A cattle ranch - cabin with a corral in the background, photographed on the Montana range in the 1880s. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "When the chinook finally came and the Little Missouri broke up, what did the ice carry down?",
+   "options": [
+    "Whole cottonwoods torn out by the roots, and nothing else",
+    "The wreckage of the de Mores slaughterhouse",
+    "Buffalo bones washed out of the old hunting grounds",
+    "Cattle carcasses, turning over and over in the floes"
+   ],
+   "answer": 3,
+   "explanation": "The warm wind reached the Badlands in early March 1887 - Morris dates it to the 2nd, and the Dickinson Press reported the thaw in its issue of the 5th. Within days the snow had softened everywhere, and the river came out of its banks running full of grinding ice. Lincoln Lang remembered \"countless carcasses of cattle going down with the ice, rolling over and over as they went\", four stiffened legs pointing skyward as each one turned. Lang is a genuine second witness rather than an echo of Hagedorn: he published his own account in Ranching with Roosevelt in 1926, and Edmund Morris cites both books for this passage. Hagedorn's narration adds that the sight went on \"not for an hour or for a few hours, but for days.\"",
+   "image": "assets/img/badlands/little-missouri.jpg",
+   "imageAlt": "The Little Missouri River winding through the Badlands beneath low bluffs",
+   "credit": "\"A plains river\" - the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What work took the place of the spring round-up on the Little Missouri in 1887?",
+   "options": [
+    "Rebuilding the drift fences along the river",
+    "Collecting and selling the bones",
+    "Restocking the range with cattle bought in Texas",
+    "Digging out the buried ranch houses"
+   ],
+   "answer": 1,
+   "explanation": "There was no general round-up that spring; there were not enough cattle left on the range to justify one. What came instead were wagons and bone merchants working for fertilizer companies - Edmund Morris and Michael Collins both describe them independently. The phrase belongs to Hagedorn alone, who ends his chapter flatly: what had been a flourishing cattle country was now \"a boneyard where the agents of fertilizer factories bargained for skeletons.\" Bill Merrifield's memory of riding out that spring survives in two tellings - in one, \"the first day I rode out I never saw a live animal\"; in another, recorded by Carleton Putnam, he and Roosevelt rode three days without seeing a live cow.",
+   "image": "assets/img/dieup/xit-roundup.jpg",
+   "imageAlt": "A round-up outfit of wagons, saddle horses and riders strung out across open Montana grassland at dawn",
+   "credit": "\"The old XIT round-up outfit on the move, 4.30 a.m.\" - a later Montana round-up, not the spring of 1887: the XIT did not put cattle on its Montana range until 1889, and the print is dated no later than 1912. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Bill Sewall and Wilmot Dow had settled up with Roosevelt and gone home to Maine before the snow came. What did he write to Sewall that spring?",
+   "options": [
+    "You boys were lucky to get out when you did",
+    "I mean to buy you both back into the business",
+    "Come out in June and we will start again",
+    "I have never regretted a dollar I spent here"
+   ],
+   "answer": 0,
+   "explanation": "Sewall and Dow had run the Elkhorn on shares, decided the arithmetic did not work, and squared accounts with Roosevelt in September 1886; they were back in Maine before the first blizzard. In April 1887 he wrote to Sewall from the wreck of it: \"You cannot imagine anything more dreary than the look of the Bad Lands.\" The range was picked clean - \"Everything was cropped as bare as a bone.\" In one draw he counted \"twenty-three dead cows and calves\" in a single patch of brushwood. Then he added: \"You boys were lucky to get out when you did; if you had waited until spring, I guess it would have been a case of walking.\" The letter does not rest on Hagedorn alone: Michael Collins quotes the same lines from Roosevelt's correspondence.",
+   "image": "assets/img/badlands/dow-tr-sewall.jpg",
+   "imageAlt": "Wilmot Dow, Theodore Roosevelt and Bill Sewall standing in heavy fur coats at the Elkhorn Ranch",
+   "credit": "Wilmot Dow, T.R., and Bill Sewall at Elkhorn Ranch. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around T.R."
+   }
+  },
+  {
+   "prompt": "Roosevelt reached Medora in April 1887 and wrote to his sister. What did he tell her he was planning?",
+   "options": [
+    "To buy up his neighbors' surviving stock",
+    "To winter the next herd on hay he grew himself",
+    "To get out of it",
+    "To sue the Northern Pacific over shipping rates"
+   ],
+   "answer": 2,
+   "explanation": "\"I am bluer than indigo about the cattle,\" he wrote. \"It is even worse than I feared.\" He put his Dakota stake at $80,000 and hoped to lose no more than half of it. How much he actually lost has never been settled: Morris puts his own herd loss near 65 percent against a local average of 75 to 85; Brinkley says less than half his herd survived and gives 60 to 75 percent for the northern plains; Hagedorn's account says no ranchman up and down the Little Missouri lost less than half. Sewall's impression was at least 50 percent and probably more. His New York ledgers, printed in Hagedorn's appendix and read the same way by Carleton Putnam, showed a net loss of $23,556.68 as the position stood in December 1891, not counting interest; further operations after that cut the final figure on the two ventures to $20,292.63 by 1899. Sylvane Ferris and Merrifield wanted to buy cheap stock and start again; Roosevelt refused, saying he could not afford to take the chance and had no right to.",
+   "image": "assets/img/badlands/maltese-cross-ranch.jpg",
+   "imageAlt": "The Maltese Cross Ranch cabin with a wagon and a mounted man in front of it",
+   "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Writing after the winter, how did Roosevelt sum up the open-range cattle business?",
+   "options": [
+    "Doomed, and unlikely to outlast the century",
+    "Safe for anyone willing to put up hay",
+    "The soundest investment left in the West",
+    "A business for corporations, not for men"
+   ],
+   "answer": 0,
+   "explanation": "He kept a ranch interest in Dakota into the 1890s, but he never believed in the open range again. In Ranch Life and the Hunting-Trail he wrote: \"In its present form stock-raising on the plains is doomed, and can hardly outlast the century.\" The great free ranches, he went on, marked a primitive stage of existence as surely as the tracts of primeval forest, and like them would pass away - which he regretted, having felt the charm of the life himself. He was right about the business, and roughly right about the timing.",
+   "image": "assets/img/badlands/tr-roundup-1885.jpg",
+   "imageAlt": "Theodore Roosevelt standing beside his horse on the round-up in 1885",
+   "credit": "Theodore Roosevelt on the round-up, 1885. The surviving print is mounted on a board that was altered to extend the image upward, the added area filled in with a painted sky. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/quotes",
+    "label": "T.R. in his own words"
+   }
+  },
+  {
+   "prompt": "What did the ranchers who survived that winter change about the way they ran cattle?",
+   "options": [
+    "They branded twice a year instead of once",
+    "They moved their herds south to Texas each fall",
+    "They ran their herds unbranded to save labor",
+    "They cut hay and fed through the winter"
+   ],
+   "answer": 3,
+   "explanation": "The lesson was blunt. As the historian H. W. Brands puts it, the first thing to go was \"the idea that cattle could survive the winter unassisted\" - animals needed shelter and, above all, hay. Hay meant fencing land to keep stock off it while it grew, and fencing land nobody owned meant trouble: in the late 1880s the federal government moved against 375 illegal enclosures covering 6.4 million acres. The industry that came out the other side ran smaller herds, better breeding and winter feed, and the big open-range syndicates never got their dominance back.",
+   "image": "assets/img/badlands/elkhorn-wagon.jpg",
+   "imageAlt": "A ranch wagon at the Elkhorn with a mounted rider alongside",
+   "credit": "Elkhorn Ranch wagon, Wilmot Dow mounted. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/conservation",
+    "label": "How the range shaped his conservation"
+   }
+  }
+ ]
+}
