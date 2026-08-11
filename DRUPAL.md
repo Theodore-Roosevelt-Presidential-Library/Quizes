@@ -188,3 +188,52 @@ the new ones.
 5. Swap the block on `/quiz`
 
 Doing step 4 before step 3 produces redirects that silently never fire.
+
+---
+
+## Status — 11 August 2026
+
+**All 29 Quiz nodes are built on trlibrary.com as Drafts.** Every one has its
+title, an image from the media library, the embed code, and the correct manual
+alias at `/quiz/<id>`. Each alias was read back from the address bar after save
+and confirmed; Pathauto is switched off on all of them.
+
+Nothing is public. The 18 old quizzes are still published and untouched.
+
+### What is left, in order
+
+1. **Publish the 29** (bulk operation on `/admin/content?type=quiz`)
+2. **Take the 18 old nodes down** — they must go before step 3
+3. **Add the 18 redirects** from `build/drupal-redirects.csv`
+4. **Swap the block on `/quiz`** for the gallery embed
+5. Re-run the sitemap
+
+### Images to review
+
+The Image field is a teaser and social-card image only — the gallery widget
+uses its own from GitHub Pages — so these were picked quickly from the media
+library and are worth a pass by someone with an eye on the collection. Two
+specifically:
+
+- **The Square Deal** got `7-TR-Square-Deal-Illustration.jpg`, which is a
+  stereograph card and shows the same frame twice.
+- **The People Around Him** got the Booker T. Washington portrait
+  (`pe-hub_booker-t-washington_sq`). Defensible — it is the People hub image —
+  but a quiz about many people leads with one face. Considered and rejected:
+  `pz-hub_booker_43`, the "EQUALITY" dinner cartoon, which is a hostile
+  period caricature and the wrong thing to put on a quiz card.
+
+### One thing worth fixing in the repo
+
+The media library has **`07_father.jpg`**, a proper portrait of Theodore
+Roosevelt Sr. The repo settled for a 339×420 photograph of the framed painting
+because nothing better could be found through the DAM or the LOC. This is
+better and it was in Drupal all along. Worth pulling into
+`assets/img/father/` to replace the undersized hero on the Greatheart quiz.
+
+### A loose end
+
+`/quiz/badlands` was first saved as `/quiz/tr-badlands` before the Pathauto
+toggle was understood, then corrected. Drupal may be holding the old alias as
+an automatic redirect. Harmless, but worth a look while the redirects are
+being added.
