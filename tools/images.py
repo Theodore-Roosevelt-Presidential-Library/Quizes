@@ -176,7 +176,10 @@ if __name__ == "__main__":
             print("\n=== %s" % q)
             try:
                 for r in dam_search(q, 5):
-                    print("  DAM %s | %s | %s" % (r["id"][:8], r["file"][:44], r["title"][:44]))
+                    # print the full asset id - a truncated one cannot be pasted
+                    # into the fetch command, which is the only reason to run search
+                    print("  DAM %s" % r["id"])
+                    print("      %-46s %s" % (r["file"][:46], r["title"][:60]))
             except Exception as e:
                 print("  DAM failed:", repr(e)[:60])
             try:

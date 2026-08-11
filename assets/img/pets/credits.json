@@ -1,0 +1,47 @@
+{
+ "quentin-on-pony": {
+  "source": "loc",
+  "ref": "93508732",
+  "source_file": "loc_pictures_93508732",
+  "description": "[Quentin Roosevelt on pony beside White House policeman]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1053"
+ },
+ "kermit-and-jack": {
+  "source": "loc",
+  "ref": "2001704079",
+  "source_file": "loc_pictures_2001704079",
+  "description": "Kermit Roosevelt and his dog Jack",
+  "rights": "No known restrictions on reproduction.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1827"
+ },
+ "roosevelt-family-dog": {
+  "source": "loc",
+  "ref": "2009631484",
+  "source_file": "loc_pictures_2009631484",
+  "description": "[Mr. and Mrs. Theodore Roosevelt with children and dog, some seated, others standing, outdoors]",
+  "rights": "No known restrictions on publication. No renewal in Copyright office.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1112"
+ },
+ "archie-and-josiah": {
+  "source": "dam",
+  "ref": "43525657-f11e-4f82-bf9a-1ccac23cdb3e",
+  "source_file": "har_4893135_Archie_and_Josiah_his_pet_badger.jpg",
+  "description": "Archie and Josiah, his pet badger \u2014 Archibald Bulloch Roosevelt. \u2014 Date: ca. 1905",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1415"
+ },
+ "josiah-at-sagamore": {
+  "source": "dam",
+  "ref": "88417503-e6ab-4904-80c2-328590cfc152",
+  "source_file": "har_1190465_Josiah_and_his_master_Archie_at_Sagamore.jpg",
+  "description": "Josiah and his master (Archie) at Sagamore. About 1905 \u2014 Archie and his pet badger. \u2014 Date: ca. 1905",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1394"
+ }
+}

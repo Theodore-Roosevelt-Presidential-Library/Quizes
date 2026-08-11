@@ -175,6 +175,26 @@
       "questions": 12,
       "learnMore": "https://www.trlibrary.com/tr/myths",
       "placement": "/tr/myths"
+    },
+    {
+      "id": "pets",
+      "title": "The White House Menagerie",
+      "blurb": "A badger named after the boy who caught it, a snake named after a thin aunt, and a pony that took the passenger lift. Twelve questions on the Roosevelt animals.",
+      "image": "assets/img/pets/archie-and-josiah.jpg",
+      "imageAlt": "Archie Roosevelt with Josiah, his pet badger",
+      "questions": 12,
+      "learnMore": "https://www.trlibrary.com/tr/family",
+      "placement": "/tr/family"
+    },
+    {
+      "id": "birthday",
+      "title": "The Twenty-Seventh of October",
+      "blurb": "Born on 27 October 1858 and married on the same date twenty-two years later. One birthday he spent walking the grounds with a bullet in his chest. Ten questions for the day itself.",
+      "image": "assets/img/early-life/teedie-age-two.jpg",
+      "imageAlt": "Theodore Roosevelt as a small boy, about two years old",
+      "questions": 10,
+      "learnMore": "https://www.trlibrary.com/tr/early-life",
+      "placement": "/tr/early-life"
     }
   ]
 }

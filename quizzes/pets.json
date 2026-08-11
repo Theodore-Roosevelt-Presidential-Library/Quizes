@@ -1,0 +1,187 @@
+{
+ "id": "pets",
+ "title": "The White House Menagerie",
+ "subtitle": "The Roosevelt Pets",
+ "intro": "A badger named after the boy who caught it. A snake named after a thin aunt. A pony that took the passenger lift to the second floor. Staff at the White House between 1901 and 1909 described the place as under occupation. Twelve questions on the Roosevelt animals.",
+ "heroImage": "assets/img/pets/archie-and-josiah.jpg",
+ "heroAlt": "Archie Roosevelt with Josiah, his pet badger",
+ "heroCredit": "Archie and Josiah, his pet badger. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "The White House Menagerie",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's White House Pets quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  { "min": 12, "name": "Keeper of the Menagerie", "line": "Perfect. Every last one accounted for." },
+  { "min": 10, "name": "Head Groom", "line": "You know where the pony went." },
+  { "min": 8,  "name": "Kennel Master", "line": "Very sound on the dogs." },
+  { "min": 5,  "name": "Stable Hand", "line": "Good work. Mind the badger." },
+  { "min": 3,  "name": "New Nursemaid", "line": "It gets louder from here." },
+  { "min": 0,  "name": "Startled Visitor", "line": "There is a snake in that sofa cushion." }
+ ],
+ "questions": [
+  {
+   "prompt": "Archie Roosevelt kept a pet badger. What was it called?",
+   "options": ["Josiah", "Jonathan", "Jasper", "Jack"],
+   "answer": 0,
+   "explanation": "Josiah — named not for a president or a poet but for the boy who caught him. A little girl came up to Roosevelt on a train platform and asked whether he would like a baby badger her brother Josiah had just found. He would.",
+   "image": "assets/img/pets/archie-and-josiah.jpg",
+   "imageAlt": "Archie Roosevelt holding Josiah the badger",
+   "credit": "Archie and Josiah, his pet badger. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "How did Archie's pony get up to the second floor of the White House?",
+   "options": [
+    "It was carried up the service stairs",
+    "It rode the passenger lift",
+    "It was hoisted through a window",
+    "It never did — the story is a myth"
+   ],
+   "answer": 1,
+   "explanation": "Seven-year-old Archie was ill upstairs, so his brothers coaxed the pony into the passenger elevator and took it to his bedroom to cheer him up. Tad Lincoln had once brought a goat into the White House. The Roosevelt boys went one better.",
+   "image": "assets/img/pets/quentin-on-pony.jpg",
+   "imageAlt": "Quentin Roosevelt on a pony beside a White House policeman",
+   "credit": "Quentin Roosevelt on pony beside White House policeman. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+  },
+  {
+   "prompt": "Alice Roosevelt carried a green snake in her handbag. What was it called?",
+   "options": ["Emily Spinach", "Medusa", "Slippers", "Josephine"],
+   "answer": 0,
+   "explanation": "Emily Spinach — Emily for an aunt Alice considered notably thin, and Spinach for the colour. She took it to parties. It is difficult to think of a detail that captures Alice better.",
+   "image": "assets/img/pets/roosevelt-family-dog.jpg",
+   "imageAlt": "Mr. and Mrs. Theodore Roosevelt with their children and a dog",
+   "credit": "Mr. and Mrs. Theodore Roosevelt with children and dog. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "What was unusual about Slippers, one of the White House cats?",
+   "options": [
+    "He was six-toed",
+    "He was completely blind",
+    "He had no tail",
+    "He was a stray who arrived during the inauguration"
+   ],
+   "answer": 0,
+   "explanation": "A grey cat with six toes, and enough standing in the household that he is remembered by name alongside Tom Quartz, the other Roosevelt cat.",
+   "image": "assets/img/pets/roosevelt-family-dog.jpg",
+   "imageAlt": "The Roosevelt family with a dog",
+   "credit": "Mr. and Mrs. Theodore Roosevelt with children and dog. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Pete, a bull terrier, was removed from the White House. Why?",
+   "options": [
+    "He bit too many visitors",
+    "He chewed through a treaty",
+    "He was frightened of the cats",
+    "He belonged to a departing staff member"
+   ],
+   "answer": 0,
+   "explanation": "Pete bit so many callers that the president reluctantly exiled him to Oyster Bay. Reports at the time included a French ambassador's trousers. Even Roosevelt, who tolerated a great deal from his animals, had a limit.",
+   "image": "assets/img/pets/kermit-and-jack.jpg",
+   "imageAlt": "Kermit Roosevelt with his dog Jack",
+   "credit": "Kermit Roosevelt and his dog Jack. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "The children kept a young bear. What did they name it?",
+   "options": [
+    "Jonathan Edwards, after the Puritan preacher",
+    "Cotton Mather",
+    "Teddy, after their father",
+    "Bruin"
+   ],
+   "answer": 0,
+   "explanation": "Jonathan Edwards, after the eighteenth-century preacher of hellfire sermons — a joke about the animal's temperament that tells you something about the reading level in that nursery. Sources differ on whether he was a black bear or a cinnamon; they agree he was untamable.",
+   "image": "assets/img/pets/josiah-at-sagamore.jpg",
+   "imageAlt": "Josiah the badger with Archie at Sagamore Hill",
+   "credit": "Josiah and his master (Archie) at Sagamore, about 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Eli Yale was which sort of animal?",
+   "options": ["A blue macaw", "A bulldog", "A raccoon", "A pony"],
+   "answer": 0,
+   "explanation": "A blue macaw belonging to Ted, named with the cheerful disrespect of a Harvard family. He lived upstairs and was, by most accounts, loud.",
+   "image": "assets/img/pets/kermit-and-jack.jpg",
+   "imageAlt": "Kermit Roosevelt with his dog Jack",
+   "credit": "Kermit Roosevelt and his dog Jack. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "What did Kermit bring to the breakfast table in his pocket?",
+   "options": ["A kangaroo rat", "A frog", "A hamster", "A garter snake"],
+   "answer": 0,
+   "explanation": "A kangaroo rat, regularly. Kermit was the quietest of the boys and in some ways the strangest — he later went with his father to Africa and down an uncharted river in the Amazon, so the small mammal at breakfast was an early sign.",
+   "image": "assets/img/pets/kermit-and-jack.jpg",
+   "imageAlt": "Kermit Roosevelt with his dog Jack",
+   "credit": "Kermit Roosevelt and his dog Jack. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Kermit's later expeditions" }
+  },
+  {
+   "prompt": "Where were guests most likely to find a live reptile?",
+   "options": [
+    "Hidden in the sofa cushions",
+    "In the East Room chandelier",
+    "In the presidential bathtub",
+    "Under the dining table"
+   ],
+   "answer": 0,
+   "explanation": "The children hid live reptiles in sofa cushions, walked upstairs on stilts, and waded in the fountains on the grounds. The Roosevelt White House was not a quiet building and nobody involved pretended otherwise.",
+   "image": "assets/img/pets/roosevelt-family-dog.jpg",
+   "imageAlt": "The Roosevelt family with a dog",
+   "credit": "Mr. and Mrs. Theodore Roosevelt with children and dog. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Which of these was NOT among the Roosevelt animals?",
+   "options": [
+    "A badger",
+    "A macaw",
+    "A one-legged rooster",
+    "A tiger cub"
+   ],
+   "answer": 3,
+   "explanation": "No tiger. The list is strange enough without one: a badger, macaws, a bear, snakes, guinea pigs, a one-legged rooster, a barn owl, an eagle, a coyote, dogs, cats and ponies. Foreign heads of state sent animals, and the children kept them.",
+   "image": "assets/img/pets/archie-and-josiah.jpg",
+   "imageAlt": "Archie Roosevelt with Josiah the badger",
+   "credit": "Archie and Josiah, his pet badger. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+  },
+  {
+   "prompt": "Roosevelt's interest in animals began long before the White House. How early?",
+   "options": [
+    "As a boy, with a museum of specimens in his bedroom",
+    "During his Harvard years",
+    "In the Badlands in the 1880s",
+    "Only once he had children"
+   ],
+   "answer": 0,
+   "explanation": "He founded the grandly named Roosevelt Museum of Natural History as a child, learned taxidermy from a man who had travelled with Audubon, and published an ornithological catalogue at eighteen. The White House menagerie was a family tradition with a long start.",
+   "image": "assets/img/pets/josiah-at-sagamore.jpg",
+   "imageAlt": "Josiah the badger at Sagamore Hill",
+   "credit": "Josiah and his master (Archie) at Sagamore, about 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The young naturalist" }
+  },
+  {
+   "prompt": "What happened to the animals when the Roosevelts left the White House in 1909?",
+   "options": [
+    "They were given to a zoo",
+    "The household moved with them to Sagamore Hill",
+    "They were left for the Tafts",
+    "They were all released"
+   ],
+   "answer": 1,
+   "explanation": "Sagamore Hill had been the family's home since 1885 and had always kept animals — the menagerie simply went back to Oyster Bay, where Pete the bull terrier had already been sent. Roosevelt lived there until he died in 1919.",
+   "image": "assets/img/pets/roosevelt-family-dog.jpg",
+   "imageAlt": "The Roosevelt family with a dog",
+   "credit": "Mr. and Mrs. Theodore Roosevelt with children and dog. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+  }
+ ]
+}
