@@ -1,0 +1,93 @@
+{
+ "mayflower-envoys": {
+  "source": "dam",
+  "ref": "6bcf699d-5a4a-4de5-afad-87169f4b4992",
+  "source_file": "har_4419534_Peace_envoys_on_board_Mayflower.jpg",
+  "description": "Peace envoys on board Mayflower — From right to left: Count Sergei Vitte, Baron Roman Rosen, Theodore Roosevelt, Komura Jutaro, and Takahira Kogoro, Oyster Bay (N.Y.). Photograph by Underwood & Underwood. — Creator: Underwood & Underwood$$QUnderwood & Underwood — Date: 1905 August 5",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1758"
+ },
+ "russian-delegation": {
+  "source": "dam",
+  "ref": "b2d65b07-124a-49fb-ba5b-8f554bce84eb",
+  "source_file": "har_4419567_Russian_delegation_at_the_Portsmouth_pea.jpg",
+  "description": "Russian delegation at the Portsmouth peace conference — From left to right, standing: G.A. Planson, Ivan Korostovets, M. Batchoff, a man, Gregory Willenkin, four men, W. Yermiloff, and three men; sitting, Sergei Vitte and Roman Rosen, Portsmouth (N.H.). — Date: 1905 not after September 5",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x930"
+ },
+ "japanese-delegation": {
+  "source": "dam",
+  "ref": "ac6eb060-f486-4e80-8d91-0cc3470a6b4d",
+  "source_file": "har_4419568_Japanese_delegation_at_the_Portsmouth_pe.jpg",
+  "description": "Japanese delegation at the Portsmouth peace conference — From left to right, standing: Adachi Mineichiro, Henry W. Anderson, and Sato Aimaro; sitting, Takahira Kogoro and Jutaro Komura, Portsmouth (N.H.). — Date: 1905 not after September 5",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1939"
+ },
+ "nobel-certificate": {
+  "source": "dam",
+  "ref": "c94f9831-46d5-4973-89e4-d85e49a2a853",
+  "source_file": "har_4454028_Certificate_of_the_Nobel_prize.jpg",
+  "description": "Certificate of the Nobel prize — Nobel Peace Prize certificate awarded to Theodore Roosevelt 1906 December 10.",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1771"
+ },
+ "peace-conference-building": {
+  "source": "loc",
+  "ref": "2005680011",
+  "source_file": "loc_pictures_2005680011",
+  "description": "Peace Conference building. Portsmouth Navy Yard, 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x892"
+ },
+ "signing-the-treaty": {
+  "source": "loc",
+  "ref": "2010717135",
+  "source_file": "loc_pictures_2010717135",
+  "description": "Signing the treaty at Portsmouth",
+  "rights": "No known restrictions on publication. For information see \"Cabinet of American Illustration,\" http://www.loc.gov/rr/print/res/111_cai.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1814",
+  "note": "Cropped from the LOC scan to remove the colour calibration strip and mount border."
+ },
+ "press-corps": {
+  "source": "loc",
+  "ref": "2005683151",
+  "source_file": "loc_pictures_2005683151",
+  "description": "Newspaper correspondents at Portsmouth Peace Conference 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1076"
+ },
+ "hotel-wentworth": {
+  "source": "loc",
+  "ref": "2005680019",
+  "source_file": "loc_pictures_2005680019",
+  "description": "Hotel Wentworth, New Castle, N.H.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x915"
+ },
+ "haakon-carriage": {
+  "source": "loc",
+  "ref": "2013651160",
+  "source_file": "loc_pictures_2013651160",
+  "description": "King Haakon and Col. Roosevelt in royal carriage leaving the station at Christiania",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1030"
+ },
+ "tr-at-desk": {
+  "source": "dam",
+  "ref": "ce2e3f1d-a5a8-4354-aaec-dd43022a59e1",
+  "source_file": "loc_2013650862_Theodore_Roosevelt_seated_at_desk_readin.tif",
+  "description": "[Theodore Roosevelt, seated at desk, reading] — 1 photographic print. | Photograph shows President Roosevelt seated at his desk reading a letter. — Creator: Harris & Ewing — Date: 1906",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x992"
+ }
+}

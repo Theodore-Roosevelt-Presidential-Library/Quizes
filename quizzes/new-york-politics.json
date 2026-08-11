@@ -7,118 +7,184 @@
  "heroAlt": "Composite photograph of the New York State Assembly, 1882–1884",
  "heroCredit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
  "learnMore": "https://www.trlibrary.com/tr/new-york-politics",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Youngest Man in the Assembly",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's New York Politics quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/new-york-politics"
  },
  "tiers": [
-  { "min": 15, "name": "Speaker of the House", "line": "Perfect. Albany never stood a chance." },
-  { "min": 13, "name": "Committee Chairman", "line": "You know how this machine worked." },
-  { "min": 10, "name": "Assemblyman", "line": "Elected on the first ballot." },
-  { "min": 7,  "name": "Ward Heeler", "line": "Learning the district. Keep at it." },
-  { "min": 4,  "name": "Morton Hall Regular", "line": "You've been to a meeting or two." },
-  { "min": 0,  "name": "The Dude from the Silk Stockings", "line": "They laughed at him too." }
+  {
+   "min": 15,
+   "name": "Speaker of the House",
+   "line": "Perfect. Albany never stood a chance."
+  },
+  {
+   "min": 13,
+   "name": "Committee Chairman",
+   "line": "You know how this machine worked."
+  },
+  {
+   "min": 10,
+   "name": "Assemblyman",
+   "line": "Elected on the first ballot."
+  },
+  {
+   "min": 7,
+   "name": "Ward Heeler",
+   "line": "Learning the district. Keep at it."
+  },
+  {
+   "min": 4,
+   "name": "Morton Hall Regular",
+   "line": "You've been to a meeting or two."
+  },
+  {
+   "min": 0,
+   "name": "The Dude from the Silk Stockings",
+   "line": "They laughed at him too."
+  }
  ],
  "questions": [
   {
    "prompt": "How old was Roosevelt when he took his seat in the New York State Assembly?",
-   "options": ["Twenty-three", "Twenty-six", "Twenty-nine", "Thirty-one"],
-   "answer": 0,
+   "options": [
+    "Twenty-nine",
+    "Twenty-six",
+    "Twenty-three",
+    "Thirty-one"
+   ],
+   "answer": 2,
    "explanation": "Twenty-three, and unmistakably the youngest member of the house. He deferred to nobody, which is not usually how a first term goes. Within weeks the older members had noticed him, mostly with irritation.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "Composite photograph of the New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/new-york-politics", "label": "New York politics" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
   },
   {
    "prompt": "Which Manhattan district sent him to Albany?",
    "options": [
-    "The Twenty-first — the so-called silk stocking district",
-    "The Bowery",
-    "Hell's Kitchen",
-    "Brooklyn Heights"
+    "The Bowery and the Lower East Side tenement wards",
+    "Hell's Kitchen and the West Side rail yards",
+    "Harlem and the wards above Central Park",
+    "The Twenty-first, the silk stocking district"
    ],
-   "answer": 0,
-   "explanation": "The Twenty-first, a wealthy Republican district on the East Side that the press called the silk stocking district. Roosevelt won control of its Republican association by turning up to meetings that men of his class did not usually attend.",
+   "answer": 3,
+   "explanation": "The Twenty-first, a wealthy Republican district on the East Side that the press called the silk stocking district — the phrase was a jab at the money in it, and it stuck. Roosevelt won control of its Republican association by turning up to meetings that men of his class did not usually attend, in a room over a store, week after week, until the regulars stopped treating him as a visitor.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "Composite photograph of the New York State Assembly by the Notman Photo Company",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/new-york-politics", "label": "New York politics" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
   },
   {
    "prompt": "Where did Roosevelt begin his political career, learning the trade from the ground up?",
    "options": [
     "Tammany Hall",
     "Morton Hall, above a store",
-    "The Union League Club",
-    "The Harvard Club"
+    "The Harvard Club",
+    "The Union League Club"
    ],
    "answer": 1,
    "explanation": "Morton Hall was the grandly named headquarters of the Twenty-first District Republican Association — a barn-sized room over a store, full of men his family would not have invited to dinner. He went anyway, and kept going until they took him seriously.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/new-york-politics", "label": "New York politics" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
   },
   {
    "prompt": "What made Roosevelt's name in his first term?",
    "options": [
-    "A bill to fund the Erie Canal",
-    "Demanding the investigation and impeachment of a state judge",
-    "A speech on tariff reform",
-    "Blocking the state budget"
+    "Demanding an investigation of a state judge",
+    "A bill to widen and fund the Erie Canal",
+    "Blocking the governor's budget in committee",
+    "A long speech attacking the protective tariff"
    ],
-   "answer": 1,
-   "explanation": "He went after Judge Theodore Westbrook over his handling of a case involving Jay Gould's elevated railway, and called for an investigation. It emerged that Westbrook's own son and cousin were employed by one of the receivers. The resolution failed, but the young assemblyman had made himself impossible to ignore.",
+   "answer": 0,
+   "explanation": "He went after Judge Theodore Westbrook over his handling of a case involving Jay Gould's elevated railway, calling for an investigation with a view to impeachment. It emerged that Westbrook's own son and cousin were employed by one of the receivers, and that Westbrook had written to Gould in terms no judge should have used about a litigant before him. The resolution failed, and the older members made sure the freshman knew it had failed. But the young assemblyman had made himself impossible to ignore, and the New York papers had a reformer to write about.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/new-york-politics", "label": "New York politics" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
   },
   {
    "prompt": "What did Roosevelt's fellow legislators and the press call him early on?",
-   "options": ["The Colonel", "A dude", "The Boss", "The Reformer"],
-   "answer": 1,
+   "options": [
+    "The Colonel",
+    "The Reformer",
+    "The Boss",
+    "A dude"
+   ],
+   "answer": 3,
    "explanation": "\"Dude\" — a dandy, an Easterner playing at something. It was aimed at his clothes, his voice, and his side-whiskers, and it was not affectionate. He got the same word thrown at him in Dakota a year later.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "The other place they called him that" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "The other place they called him that"
+   }
   },
   {
    "prompt": "How many one-year terms did Roosevelt serve in the Assembly?",
-   "options": ["One", "Two", "Three", "Five"],
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Five"
+   ],
    "answer": 2,
    "explanation": "Three, from 1882 through 1884. Assembly terms in New York ran a single year, so he faced the voters each autumn. He chose not to seek a fourth.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/new-york-politics", "label": "New York politics" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
   },
   {
    "prompt": "On February 14, 1884, while Roosevelt was in Albany, what happened?",
    "options": [
-    "His wife and his mother died in the same house on the same day",
-    "He lost a leadership vote",
-    "The Assembly chamber burned",
-    "He was censured by his own party"
+    "His wife and his mother died on the same day",
+    "His own party stripped him of a committee chair",
+    "The Assembly chamber was gutted by fire",
+    "He resigned his seat without explanation"
    ],
    "answer": 0,
-   "explanation": "His mother died of typhoid at three in the morning; his wife Alice died that afternoon of Bright's disease, two days after their daughter was born. In his diary he drew a heavy cross and wrote: \"The light has gone out of my life.\" He went back to Albany and finished the session.",
+   "explanation": "Both women died in the same house, hours apart. His mother died of typhoid at three in the morning; his wife Alice died that afternoon of Bright's disease, two days after their daughter was born. In his diary he drew a heavy cross and wrote: \"The light has gone out of my life.\" He went back to Albany within days and finished the session — chairing his committee, reporting his bills, saying nothing about any of it.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "Where he went next" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "Where he went next"
+   }
   },
   {
    "prompt": "At the 1884 Republican National Convention, Roosevelt backed a reform candidate against the front-runner. Who was his man?",
    "options": [
-    "James G. Blaine",
-    "George Edmunds of Vermont",
     "Chester A. Arthur",
+    "George Edmunds of Vermont",
+    "James G. Blaine",
     "Grover Cleveland"
    ],
    "answer": 1,
@@ -126,107 +192,136 @@
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "What came after" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "What came after"
+   }
   },
   {
    "prompt": "At that same 1884 convention, Roosevelt supported an African American delegate for temporary chairman. Who was he?",
    "options": [
     "Frederick Douglass",
-    "Blanche K. Bruce",
     "John Roy Lynch",
+    "Blanche K. Bruce",
     "Booker T. Washington"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "John Roy Lynch of Mississippi, a former congressman born into slavery. Roosevelt spoke for him on the convention floor and Lynch was elected temporary chairman — a deliberate statement that the party of Lincoln still meant something, made by a man who was, at that moment, privately shattered.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Many reform Republicans bolted the party rather than support Blaine. What did Roosevelt do?",
    "options": [
-    "Bolted with them and backed Cleveland",
-    "Stayed with the ticket and campaigned for Blaine",
+    "Ran as an independent",
     "Refused to campaign at all",
-    "Ran as an independent"
+    "Bolted with them and backed Cleveland",
+    "Campaigned for Blaine"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The bolters became known as Mugwumps. Roosevelt, who privately loathed Blaine, stayed loyal to the ticket and campaigned for him. He calculated that a man who walks out has no party left to reform. It cost him friends, and he had doubts about it for years.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "In 1886 Roosevelt ran for mayor of New York City. How did he finish?",
-   "options": ["First", "Second", "Third", "He withdrew before polling day"],
-   "answer": 2,
+   "options": [
+    "Third",
+    "First",
+    "Second",
+    "He withdrew before polling day"
+   ],
+   "answer": 0,
    "explanation": "Third, in a famous three-way race. Abram Hewitt won for the Democrats; the labour reformer Henry George came second; Roosevelt, the Republican, trailed. It was his most public failure to date — and it clarified for him that his future lay in national politics.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Who was the third-party candidate who beat Roosevelt into second place in that mayoral race?",
    "options": [
-    "Henry George, the land-tax reformer",
-    "Samuel Gompers",
-    "Eugene Debs",
-    "Daniel De Leon"
+    "Daniel De Leon",
+    "Eugene V. Debs",
+    "Henry George",
+    "Samuel Gompers"
    ],
-   "answer": 0,
-   "explanation": "Henry George, author of Progress and Poverty and the most influential economic radical in America, running as the United Labor candidate. That a sitting Republican finished behind him tells you how volatile New York politics were in 1886.",
+   "answer": 2,
+   "explanation": "Henry George, author of Progress and Poverty and the most influential economic radical in America, running as the United Labor candidate on a single tax on the value of land. His book had sold in the hundreds of thousands and his campaign pulled together trade unionists, Irish nationalists and socialists into something New York had not seen before. That a sitting Republican finished behind him tells you how volatile the city's politics were in 1886.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What did Roosevelt do immediately after losing the 1886 mayoral election?",
    "options": [
-    "Returned to the Badlands for good",
     "Sailed for London and married Edith Kermit Carow",
     "Took a seat in Congress",
+    "Returned to the Badlands for good",
     "Retired from public life for a decade"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "He sailed on the Etruria with his sister Bamie — travelling as \"Mr. and Miss Merrifield\" to dodge reporters — and married Edith Kermit Carow at St George's, Hanover Square, on December 2, 1886. One account called it a wedding befitting a defeated mayoral candidate.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "What did Roosevelt do with his infant daughter Alice after her mother's death?",
    "options": [
-    "Raised her himself in Albany",
-    "Placed her in the care of his sister Bamie",
     "Sent her to her Lee grandparents permanently",
-    "Took her west to Dakota"
+    "Placed her in the care of his sister Bamie",
+    "Took her west to Dakota",
+    "Raised her himself in Albany"
    ],
    "answer": 1,
    "explanation": "His sister Anna — \"Bamie\" — took the baby and raised her for the first three years. Roosevelt could barely speak of Alice's mother afterwards, and almost never did. Bamie was unmarried and childless, and became the steadiest figure in the family.",
    "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
    "imageAlt": "The New York State Assembly, 1882–1884",
    "credit": "N.Y. Assembly, 1882–1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "Between leaving the Assembly and returning to public office, what did Roosevelt do?",
    "options": [
-    "Practised law in Manhattan",
-    "Ranched cattle in Dakota Territory and wrote history",
-    "Taught at Harvard",
-    "Travelled in Europe as a diplomat"
+    "Took a diplomatic post at the Berlin legation",
+    "Practised law in a Wall Street firm",
+    "Ranched cattle in Dakota Territory",
+    "Taught history at Harvard"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "He went west. Between 1884 and 1886 he ran cattle on the Little Missouri, served as a deputy sheriff, chaired a stockmen's association, and wrote a full-length biography of Thomas Hart Benton in a room above a store in Medora.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   }
  ]
 }

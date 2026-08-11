@@ -1,0 +1,83 @@
+{
+ "tr-rondon": {
+  "source": "dam",
+  "ref": "c999911a-6c72-4527-98af-c363663f8fbf",
+  "source_file": "loc_2006689865_President_Theodore_Roosevelt_with_Brazil.tif",
+  "description": "[President Theodore Roosevelt with Brazilian officer C\u00e2ndido Rondon (right) and another man, holding the skin of a jaguar during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1031"
+ },
+ "tr-in-boat": {
+  "source": "dam",
+  "ref": "66390250-98f7-4d27-a0e8-a5d5e7e5ead8",
+  "source_file": "loc_2006689860_Theodore_Roosevelt_seated_in_a_boat_duri.tif",
+  "description": "[Theodore Roosevelt seated in a boat during the during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. \u2014 Creator: Roosevelt, Kermit \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x968"
+ },
+ "tr-writing": {
+  "source": "dam",
+  "ref": "941b87e2-63e2-469e-bf8d-7229d17acb8a",
+  "source_file": "loc_2006689855_Theodore_Roosevelt_seated_at_a_folding_t.tif",
+  "description": "[Theodore Roosevelt, seated at a folding table, writing, during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. \u2014 Creator: Roosevelt, Kermit \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1299"
+ },
+ "tr-riding": {
+  "source": "dam",
+  "ref": "f8a3263f-18a9-4d3a-88b6-36381461df08",
+  "source_file": "loc_2006689853_Theodore_Roosevelt_riding_with_others_du.tif",
+  "description": "[Theodore Roosevelt riding with others during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. \u2014 Creator: Roosevelt, Kermit \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1307"
+ },
+ "tr-group": {
+  "source": "dam",
+  "ref": "dcd2c6ca-2aa2-4d6e-98e7-fe71944d817e",
+  "source_file": "loc_2006689854_Theodore_Roosevelt_with_others_during_th.tif",
+  "description": "[Theodore Roosevelt with others during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. \u2014 Creator: Roosevelt, Kermit \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "tr-boat2": {
+  "source": "dam",
+  "ref": "be54bf2f-eafd-4bb2-a560-9aa7c4de1cca",
+  "source_file": "loc_2006689850_Theodore_Roosevelt_seated_in_boat_during.tif",
+  "description": "[Theodore Roosevelt seated in boat during the during the Roosevelt-Rondon Scientific Expedition to Brazil] \u2014 1 slide : lantern. | Photograph shows Theodore Roosevelt (?) in boat. \u2014 Creator: Roosevelt, Kermit \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x922"
+ },
+ "tr-map": {
+  "source": "dam",
+  "ref": "e1ee9035-f537-4afe-9022-17411e752494",
+  "source_file": "loc_2009633768_President_Roosevelt_pointing_at_a_map_of.tif",
+  "description": "[President Roosevelt pointing at a map of South America towards the area explored during the Roosevelt-Rondon Scientific Expedition in Brazil as another man looks on] \u2014 1 photographic print. \u2014 Date: 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1162"
+ },
+ "tr-rondon3": {
+  "source": "loc",
+  "ref": "2006689864",
+  "source_file": "loc_pictures_2006689864",
+  "description": "[President Theodore Roosevelt with Brazilian officer C\u00e2ndido Rondon, standing next to a river, during the Roosevelt-Rondon Scientific Expedition to Brazil]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x920"
+ },
+ "tr-return-1914": {
+  "source": "loc",
+  "ref": "2013650879",
+  "source_file": "loc_pictures_2013650879",
+  "description": "Colonel Roosevelt's return whatderyermean my river.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1729"
+ }
+}

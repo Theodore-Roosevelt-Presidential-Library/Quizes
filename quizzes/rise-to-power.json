@@ -7,226 +7,321 @@
  "heroAlt": "Theodore Roosevelt as Assistant Secretary of the Navy",
  "heroCredit": "Theodore Roosevelt as Assistant Secretary of the Navy. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
  "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "Fifteen Years to the White House",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Rise to Power quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/rise-to-power"
  },
  "tiers": [
-  { "min": 15, "name": "Commander in Chief", "line": "Perfect. Straight to the top." },
-  { "min": 13, "name": "Governor", "line": "Albany is yours." },
-  { "min": 10, "name": "Police Commissioner", "line": "You'd have survived Mulberry Street." },
-  { "min": 7,  "name": "Civil Service Commissioner", "line": "Unglamorous, and you did the work." },
-  { "min": 4,  "name": "Candidate", "line": "Third place is still a start." },
-  { "min": 0,  "name": "Private Citizen", "line": "Everybody begins outside the arena." }
+  {
+   "min": 15,
+   "name": "Commander in Chief",
+   "line": "Perfect. Straight to the top."
+  },
+  {
+   "min": 13,
+   "name": "Governor",
+   "line": "Albany is yours."
+  },
+  {
+   "min": 10,
+   "name": "Police Commissioner",
+   "line": "You'd have survived Mulberry Street."
+  },
+  {
+   "min": 7,
+   "name": "Civil Service Commissioner",
+   "line": "Unglamorous, and you did the work."
+  },
+  {
+   "min": 4,
+   "name": "Candidate",
+   "line": "Third place is still a start."
+  },
+  {
+   "min": 0,
+   "name": "Private Citizen",
+   "line": "Everybody begins outside the arena."
+  }
  ],
  "questions": [
   {
    "prompt": "What was Roosevelt's first federal appointment, in 1889?",
    "options": [
-    "United States Civil Service Commissioner",
+    "Ambassador to Britain",
     "Assistant Secretary of the Navy",
-    "Collector of the Port of New York",
-    "Ambassador to Britain"
+    "Civil Service Commissioner",
+    "Collector of the Port of New York"
    ],
-   "answer": 0,
-   "explanation": "President Benjamin Harrison appointed him a Civil Service Commissioner at $3,500 a year — a small, thankless job enforcing merit hiring against a patronage system that had no intention of cooperating. He held it for six years and made it noisy.",
+   "answer": 2,
+   "explanation": "President Benjamin Harrison appointed him one of three United States Civil Service Commissioners at $3,500 a year — a small, thankless job enforcing merit hiring against a patronage system that had no intention of cooperating. He held it for six years, under two presidents of opposing parties, and made it noisy: he went after postmasters who sold jobs, testified against his own party's appointees, and treated a backwater commission as though it were a department of state.",
    "image": "assets/img/rise-to-power/assistant-secretary-navy.jpg",
    "imageAlt": "Theodore Roosevelt in the 1890s",
    "credit": "Theodore Roosevelt as Assistant Secretary of the Navy. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What job did Roosevelt take in New York City in 1895?",
    "options": [
-    "District attorney",
     "President of the Board of Police Commissioners",
-    "Commissioner of public works",
-    "City comptroller"
+    "Comptroller of the City of New York",
+    "District attorney for New York County",
+    "Commissioner of public works for Manhattan"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "He joined the four-man Board of Police Commissioners and became its president, taking over a force that was corrupt from top to bottom. His office was on Mulberry Street, and he ran the job as though the building were on fire.",
    "image": "assets/img/rise-to-power/police-commissioner-desk.jpg",
    "imageAlt": "Theodore Roosevelt at his desk as police commissioner",
    "credit": "T.R. at his desk as Police Commissioner. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What became Roosevelt's most notorious habit as police commissioner?",
    "options": [
     "Riding patrol on horseback in uniform",
-    "Prowling the streets after midnight to catch officers off post",
+    "Prowling the streets after midnight",
     "Personally arresting suspects",
     "Publishing officers' salaries in the newspapers"
    ],
    "answer": 1,
-   "explanation": "He walked the beats between midnight and dawn, often with the reporter Jacob Riis, checking whether patrolmen were where they were supposed to be. Plenty were not. \"These midnight rambles are great fun,\" he wrote — and the papers loved them as much as the force hated them.",
+   "explanation": "He walked the beats between midnight and dawn to catch patrolmen off post, often with the reporter Jacob Riis. Plenty of them were off post — asleep, drinking, or sitting in a friendly saloon — and the ones he caught found the commissioner himself standing over them. \"These midnight rambles are great fun,\" he wrote — and the papers loved them as much as the force hated them.",
    "image": "assets/img/rise-to-power/mulberry-street-office.jpg",
    "imageAlt": "Theodore Roosevelt in his Mulberry Street office as police commissioner",
    "credit": "Theodore Roosevelt in his Mulberry Street office when he was police commissioner. The New York Public Library.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "Which reformer and photographer accompanied Roosevelt on those night walks?",
-   "options": ["Lincoln Steffens", "Jacob Riis", "Upton Sinclair", "Ida Tarbell"],
-   "answer": 1,
+   "options": [
+    "Lincoln Steffens",
+    "Ida Tarbell",
+    "Upton Sinclair",
+    "Jacob Riis"
+   ],
+   "answer": 3,
    "explanation": "Jacob Riis, whose How the Other Half Lives had shown middle-class New York what its tenements looked like. Roosevelt read the book, walked into Riis's office and offered to help. They became lifelong friends.",
    "image": "assets/img/rise-to-power/police-board.jpg",
    "imageAlt": "The New York City Board of Police Commissioners with Roosevelt at the centre",
    "credit": "N.Y.C. Board of Police Commissioners, T.R. in centre. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "Which unpopular law did Roosevelt insist on enforcing, to the fury of much of the city?",
    "options": [
+    "Sabbath restrictions on streetcars",
     "The Sunday closing law for saloons",
-    "The tenement housing code",
     "The city's anti-gambling statutes",
-    "Sabbath restrictions on streetcars"
+    "The tenement housing code"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The law closing saloons on Sundays had gone unenforced for years and was used mainly to extract bribes. Roosevelt enforced it evenly, which made him briefly one of the most unpopular men in New York — and made the point that a bad law selectively enforced is worse than a bad law.",
    "image": "assets/img/rise-to-power/police-board.jpg",
    "imageAlt": "The Board of Police Commissioners",
    "credit": "N.Y.C. Board of Police Commissioners, T.R. in centre. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What post did Roosevelt take under President McKinley in 1897?",
    "options": [
-    "Secretary of War",
     "Assistant Secretary of the Navy",
+    "Attorney General of the United States",
     "Secretary of the Interior",
-    "Attorney General"
+    "Secretary of War"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Assistant Secretary of the Navy — a job he had said outright that he wanted. McKinley's advisers argued about it for weeks, on the reasonable grounds that Roosevelt would not stay quiet. He did not.",
    "image": "assets/img/rise-to-power/assistant-secretary-navy.jpg",
    "imageAlt": "Theodore Roosevelt as Assistant Secretary of the Navy",
    "credit": "Theodore Roosevelt as Assistant Secretary of the Navy. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "In 1898 Roosevelt left Washington to do what?",
    "options": [
-    "Run for Congress",
-    "Raise and fight with a volunteer cavalry regiment in Cuba",
     "Take command of a battleship",
-    "Serve as military governor of Puerto Rico"
+    "Run for Congress",
+    "Serve as military governor of Puerto Rico",
+    "Raise a volunteer cavalry regiment"
    ],
-   "answer": 1,
-   "explanation": "He resigned and helped raise the First United States Volunteer Cavalry — the Rough Riders — serving first as lieutenant colonel under Leonard Wood and then as colonel. He came home in August a national figure.",
+   "answer": 3,
+   "explanation": "He resigned the Navy Department and helped raise the First United States Volunteer Cavalry — the Rough Riders — then went to Cuba with it, serving first as lieutenant colonel under Leonard Wood and then, when Wood moved up to a brigade, as colonel. Friends told him he was throwing away a career and leaving a wife who had just been gravely ill. He went anyway, and came home in August a national figure.",
    "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
    "imageAlt": "Roosevelt and the Rough Riders at the top of the captured hill",
    "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rough Riders" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rough Riders"
+   }
   },
   {
    "prompt": "What office did Roosevelt win in November 1898, months after returning from Cuba?",
    "options": [
-    "Mayor of New York City",
     "United States senator",
+    "Congressman",
     "Governor of New York",
-    "Congressman"
+    "Mayor of New York City"
    ],
    "answer": 2,
    "explanation": "Governor of New York, by a narrow margin. The party bosses wanted the war hero on the ticket and assumed they could manage him afterwards. That assumption did not survive his first year in Albany.",
    "image": "assets/img/rise-to-power/governor-campaign-poster.jpg",
    "imageAlt": "Campaign poster for Colonel Theodore Roosevelt for Governor",
    "credit": "For Governor, Col. Theodore Roosevelt; For Lieut. Governor, Timothy L. Woodruff. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Which New York party boss found Governor Roosevelt impossible to control?",
-   "options": ["Thomas Platt", "Boss Tweed", "Richard Croker", "Mark Hanna"],
-   "answer": 0,
+   "options": [
+    "Richard Croker",
+    "Mark Hanna",
+    "Boss Tweed",
+    "Thomas Platt"
+   ],
+   "answer": 3,
    "explanation": "Senator Thomas Platt, the state's Republican boss, who had reluctantly backed Roosevelt for governor and spent two years regretting it — particularly over a tax on public-service corporation franchises that Roosevelt pushed through against him.",
    "image": "assets/img/rise-to-power/governor-dewey-celebration.jpg",
    "imageAlt": "Governor Roosevelt leading New York troops at the Dewey Celebration",
    "credit": "Governor Roosevelt leading the New York troops, Dewey Celebration, New York. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Why did New York's party leaders push Roosevelt onto the 1900 national ticket as vice president?",
    "options": [
-    "They wanted him groomed for the presidency",
-    "To get him out of the governorship and into a harmless office",
+    "He had lost his re-election bid",
+    "To get him out of Albany",
     "McKinley personally demanded him",
-    "He had lost his re-election bid"
+    "They wanted him groomed for the presidency"
    ],
    "answer": 1,
-   "explanation": "The vice presidency was, at the time, a political dead end — which was exactly its appeal to men who wanted Roosevelt out of Albany. Mark Hanna is said to have asked whether they realised there would be only one life between that madman and the presidency.",
+   "explanation": "Thomas Platt and the New York organisation wanted him out of the governorship and into an office where he could do no damage, and the vice presidency was, at the time, exactly that: a political dead end with a gavel and no power. Roosevelt saw the trap and did not want the job. He took it anyway rather than fight his own party in public. Mark Hanna is said to have asked whether they realised there would be only one life between that madman and the presidency.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at the swearing in of President McKinley, March 1901",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "How long was Roosevelt vice president?",
-   "options": ["About six months", "Two years", "A full four-year term", "Eighteen months"],
+   "options": [
+    "About six months",
+    "Two years",
+    "A full four-year term",
+    "Eighteen months"
+   ],
    "answer": 0,
    "explanation": "Inaugurated in March 1901, president by September. He had time to preside over the Senate for a matter of days and to complain about how little there was to do.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at McKinley's swearing in, March 1901",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "Where was President McKinley shot in September 1901?",
    "options": [
     "Washington, D.C.",
-    "The Pan-American Exposition in Buffalo",
     "Canton, Ohio",
+    "The Pan-American Exposition in Buffalo",
     "A railway station in Baltimore"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "At the Pan-American Exposition in Buffalo, New York, on September 6, 1901, by the anarchist Leon Czolgosz. McKinley seemed to rally, then declined; he died on September 14.",
    "image": "assets/img/rise-to-power/buffalo-interview.jpg",
    "imageAlt": "Vice President Roosevelt being interviewed at Buffalo during McKinley's illness",
    "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's illness. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "Where was Roosevelt when word came that McKinley was dying?",
    "options": [
-    "At Sagamore Hill",
-    "Climbing in the Adirondacks",
     "In the Senate chamber",
-    "Aboard a train to Buffalo"
+    "Aboard a train to Buffalo",
+    "At Sagamore Hill",
+    "Climbing in the Adirondacks"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "In the Adirondacks — he had gone climbing after McKinley appeared to be recovering, partly to signal to the country that there was nothing to fear. A guide brought the message up the mountain, and he came down through the night by buckboard.",
    "image": "assets/img/rise-to-power/buffalo-interview.jpg",
    "imageAlt": "Roosevelt interviewed at Buffalo during McKinley's illness",
    "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's illness. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "How old was Roosevelt when he became president?",
-   "options": ["Thirty-eight", "Forty-two", "Forty-six", "Fifty"],
-   "answer": 1,
+   "options": [
+    "Forty-two",
+    "Thirty-eight",
+    "Forty-six",
+    "Fifty"
+   ],
+   "answer": 0,
    "explanation": "Forty-two — the youngest person ever to hold the office, and still is. John F. Kennedy was the youngest elected president; Roosevelt reached it younger, by way of an assassination.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at McKinley's swearing in",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "Where did Roosevelt take the presidential oath?",
    "options": [
-    "The Capitol in Washington",
-    "A private house in Buffalo",
+    "The Executive Mansion",
     "Aboard a train",
-    "The Executive Mansion"
+    "A private house in Buffalo",
+    "The Capitol in Washington"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "In the library of the Ansley Wilcox house in Buffalo, on September 14, 1901, hours after McKinley died. He wore borrowed formal clothes and promised to continue his predecessor's policies — a promise he kept for rather less time than his listeners expected.",
    "image": "assets/img/rise-to-power/buffalo-interview.jpg",
    "imageAlt": "Roosevelt at Buffalo during McKinley's illness",
    "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's illness. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   }
  ]
 }

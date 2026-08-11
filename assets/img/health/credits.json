@@ -1,0 +1,55 @@
+{
+ "xray-1912": {
+  "source": "loc",
+  "ref": "2014690853",
+  "source_file": "loc_pictures_2014690853",
+  "description": "X-Ray of Roosevelt [shows bullet]",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1031",
+  "credit_line": "X-ray of Roosevelt showing the bullet, 1912. Library of Congress, Prints and Photographs Division."
+ },
+ "oyster-bay-oct-1912": {
+  "source": "loc",
+  "ref": "2014690855",
+  "source_file": "loc_pictures_2014690855",
+  "description": "Roosevelt at Oyster Bay",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1260x1230",
+  "credit_line": "Roosevelt at Oyster Bay, 22 October 1912. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Cropped to remove out-of-focus foreground."
+ },
+ "western-tour-1902": {
+  "source": "dam",
+  "ref": "8418d9ad-690e-402c-a9ae-a3210c7b19fb",
+  "source_file": "loc_2010646579_How_the_American_people_greeted_their_Pr.tif",
+  "description": "How the American people greeted their President on his western tour, Noblesville, Ind., U.S.A. — 1 photographic print on stereo card : stereograph. | Stereograph showing Roosevelt speaking before a crowd. — Creator: Singley, B. L. (Benjamin Lloyd) — Date: 1902",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "542x590",
+  "credit_line": "How the American people greeted their President on his western tour, Noblesville, Indiana, 1902. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Stereograph card; cropped to the left frame only."
+ },
+ "sagamore-veranda": {
+  "source": "dam",
+  "ref": "c9d6fbb6-54b2-49db-9ceb-bcbc0020faa7",
+  "source_file": "loc_2010649038_View_across_the_veranda_towards_the_harb.tif",
+  "description": "View across the veranda towards the harbor, Roosevelt home at Oyster Bay, L.I. — 1 photographic print on stereo card : stereograph. — Creator: Keystone View Company — Date: 1919",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "540x575",
+  "credit_line": "View across the veranda towards the harbor, Roosevelt home at Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Stereograph card; cropped to the left frame only."
+ },
+ "tr-full-length": {
+  "source": "dam",
+  "ref": "fa98019b-f6e8-4490-80d7-facf65f6899f",
+  "source_file": "loc_96521983_Theodore_Roosevelt_full_length_portrait_.tif",
+  "description": "[Theodore Roosevelt, full-length portrait, standing beside large globe, facing front] — 1 photographic print. — Creator: Rockwood Photo Co. — Date: 1903",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1789",
+  "credit_line": "Theodore Roosevelt, full-length portrait, 1903. Photograph by Rockwood Photo Co. Library of Congress, Prints and Photographs Division."
+ }
+}

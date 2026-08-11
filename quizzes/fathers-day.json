@@ -1,0 +1,309 @@
+{
+ "id": "fathers-day",
+ "title": "Greatheart",
+ "subtitle": "Theodore Roosevelt Sr., 1831–1878",
+ "intro": "He drove his gasping son through the streets at night so the boy would breathe. He was the only man his son was ever afraid of. He hired a substitute rather than fight the Civil War, and never forgave himself for it. He died at forty-six, and his son spent the rest of his life measuring himself against him. Fourteen questions on the first Theodore Roosevelt.",
+ "heroImage": "assets/img/father/tr-sr-portrait.jpg",
+ "heroAlt": "The painted portrait of Theodore Roosevelt Sr. in its gilt frame at Sagamore Hill, photographed in 1966, hanging on patterned wallpaper above a bookcase with a mounted specimen along the shelf",
+ "heroCredit": "The portrait of Theodore Roosevelt Sr. hanging at Sagamore Hill, photographed in 1966. Gottscho-Schleisner Collection, Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life/father",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Greatheart",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about T.R.'s father — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/early-life/father"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Greatheart",
+   "line": "Perfect. The name fits."
+  },
+  {
+   "min": 12,
+   "name": "Best Man He Ever Knew",
+   "line": "Very close to word-perfect."
+  },
+  {
+   "min": 10,
+   "name": "Allotment Commissioner",
+   "line": "You did the unglamorous work and got it right."
+  },
+  {
+   "min": 7,
+   "name": "Sunday at the Lodging House",
+   "line": "Solid. He would have kept you talking."
+  },
+  {
+   "min": 4,
+   "name": "Out on the Piazza",
+   "line": "A start. Hard drudgery, but you will do it."
+  },
+  {
+   "min": 0,
+   "name": "Out for Air",
+   "line": "Everyone begins somewhere. So did the boy."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The Roosevelt family called Theodore Sr. Greatheart. Where does that name come from?",
+   "options": [
+    "A Dutch family motto carried from New Amsterdam",
+    "The lead horse of his four-in-hand team",
+    "A nickname the New York newspapers gave him",
+    "A character in John Bunyan's The Pilgrim's Progress"
+   ],
+   "answer": 3,
+   "explanation": "Mr. Greatheart is Bunyan's guide and protector of pilgrims, the one who walks ahead and clears the giants out of the road. The name came from his wife's sister, who lived with the family and watched him set off for church with his children one Sunday morning. In his Autobiography, Roosevelt remembered his aunt saying that his father \"always reminded her of Greatheart in Bunyan.\" It stuck. His children used it in letters and diaries for the rest of their lives.",
+   "image": "assets/img/father/tr-sr-portrait.jpg",
+   "imageAlt": "Painted portrait of Theodore Roosevelt Sr. in a gilt frame, hanging above a bookcase",
+   "credit": "Theodore Roosevelt Sr., from the portrait at Sagamore Hill, photographed in 1966. Gottscho-Schleisner Collection, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/father",
+    "label": "The man who shaped a president"
+   }
+  },
+  {
+   "prompt": "Theodore Sr. had a standing remedy for the nights when his asthmatic son could not breathe. What was it?",
+   "options": [
+    "He drove the boy through the streets in the carriage",
+    "He sent a servant for a doctor from Bellevue",
+    "He sat the boy over a steam kettle until it was light",
+    "He carried the boy up to the roof for the cold air"
+   ],
+   "answer": 0,
+   "explanation": "First he would carry the gasping child from room to room, sometimes for hours. When that failed the horses were brought round at whatever hour it was, and father and son went off over the cobbles at a good clip on the theory that the rush of night air would force the lungs open. Roosevelt never got over it: \"I could breathe, I could sleep, when he had me in his arms.\" Writing as a grown man he put it plainer still: \"he got me breath, he got me lungs, strength—life.\" Nothing in the medicine of the 1860s reliably stopped an attack, so what the boy remembered was not a treatment but a man who would call for the horses at any hour of the night.",
+   "image": "assets/img/father/broadway-1870.jpg",
+   "imageAlt": "Broadway in New York about 1870, crowded with horse-drawn omnibuses, wagons and awnings",
+   "credit": "Broadway near Grand Street, New York, about 1870. From a stereograph card, cropped to one frame. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/childhood-illness",
+    "label": "Overcoming childhood asthma"
+   }
+  },
+  {
+   "prompt": "Roosevelt spent years of his boyhood on a programme of physical training. What did it actually consist of?",
+   "options": [
+    "A course of calisthenics taught by an army drill sergeant",
+    "Weights and bars, at a gymnasium and on the piazza",
+    "Fencing lessons from a French master in the city",
+    "Sea bathing at Oyster Bay in every season of the year"
+   ],
+   "answer": 1,
+   "explanation": "\"Theodore, you have the mind but you have not the body, and without the help of the body the mind cannot go as far as it should,\" his father told him. The boy began at John Wood's gymnasium in the city — dumbbells, punching bag, the chest machine — and then carried on at home. His sister Corinne's clearest memory of childhood was the sight of him between the bars, \"widening his chest by regular, monotonous motion,\" which she called drudgery indeed. It was years before anything visible came of it.",
+   "image": "assets/img/father/on-the-nile.jpg",
+   "imageAlt": "Sepia group photograph of the Roosevelt family and travelling companions posed together on the Nile",
+   "credit": "The Roosevelts and their travelling companions on the Nile, winter of 1872–73. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
+  },
+  {
+   "prompt": "What finally pushed the young Roosevelt into taking boxing lessons?",
+   "options": [
+    "A challenge from a boy in his Sunday school class",
+    "A brawl outside a Harvard lecture hall",
+    "Two boys on a stagecoach to Moosehead Lake",
+    "A dare from his younger brother Elliott"
+   ],
+   "answer": 2,
+   "explanation": "He was travelling alone to Maine because of his asthma. The two boys, he wrote later, found that he was \"a foreordained and predestined victim\" — and the humiliating part was that when he finally swung back, either one of them could hold him off without much bothering to hurt him. So he went home and, \"with my father's hearty approval, I started to learn to box.\" His first master was an ex-prizefighter named John Long. The first thing Roosevelt ever won was a pewter mug worth about fifty cents, and he bragged about it for years.",
+   "image": "assets/img/father/moosehead-lake.jpg",
+   "imageAlt": "Passengers standing on the deck of a small lake steamer at Moosehead Lake, Maine",
+   "credit": "The lake steamer Twilight at Moosehead Lake, Maine, photographed in the 1880s. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "Making the body"
+   }
+  },
+  {
+   "prompt": "The Civil War split the Roosevelt household. What did Theodore Sr. do about military service?",
+   "options": [
+    "He took a commission in a New York regiment",
+    "He went south to plead with his wife's family",
+    "He hired a substitute to serve in his place",
+    "He served as an army surgeon"
+   ],
+   "answer": 2,
+   "explanation": "He was twenty-nine when the war began, in good health, and a Lincoln Republican — married to a Georgian whose brothers were serving the Confederacy. His daughter Bamie wrote that their mother \"was very frail, and felt it would kill her for him to fight against her brothers.\" Paying for a substitute was legal and common among wealthy New Yorkers, and he never made peace with it. Bamie recorded that he came to feel \"he had done a very wrong thing in not having put every feeling aside and joined the absolute fighting forces.\" His son, who wrote at length about him, never mentioned the episode in his own Autobiography.",
+   "image": "assets/img/father/ny-infantry-winter-camp.jpg",
+   "imageAlt": "Cased tintype of a New York infantry company drawn up with rifles outside their tents in winter camp",
+   "credit": "Men of the 124th New York Infantry in winter camp in Virginia, 1863–64. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/civil-war",
+    "label": "A family divided"
+   }
+  },
+  {
+   "prompt": "Theodore Sr. stayed out of uniform, but he did not stay home. What war work did Abraham Lincoln appoint him to?",
+   "options": [
+    "Commissioner for prisoner exchange",
+    "Superintendent of the army hospitals in Washington",
+    "Quartermaster general for the port of New York",
+    "Allotment commissioner, sending soldiers' pay home"
+   ],
+   "answer": 3,
+   "explanation": "He and two colleagues drafted the bill themselves and then spent three months in Washington pushing it through a Congress that could not understand why anyone would lobby for a scheme nobody stood to profit from. Lincoln named him one of New York's three commissioners. He then rode camp to camp through a brutal winter persuading men to sign — \"On the saddle often six to eight hours a day,\" a family account records, \"standing in the cold and mud as long.\" The money went to wives and children who had been left with nothing.",
+   "image": "assets/img/father/army-camp-1862.jpg",
+   "imageAlt": "Wartime pencil and wash sketch of a Union army winter camp with log huts, tents and soldiers hauling firewood",
+   "credit": "A Union winter camp on the Potomac, sketched in March 1862. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/civil-war",
+    "label": "The Roosevelts and the Civil War"
+   }
+  },
+  {
+   "prompt": "Which institution's founding charter was approved in the front parlour of the Roosevelt house on East 20th Street?",
+   "options": [
+    "The New York Zoological Society",
+    "The American Museum of Natural History",
+    "The New-York Historical Society",
+    "The New York Public Library"
+   ],
+   "answer": 1,
+   "explanation": "On the evening of April 8, 1869, some of the richest men in New York crowded under the parlour chandelier to back a young naturalist named Albert Bickmore, who wanted a natural history museum for the city. Theodore Sr. was among the founders, as he was of the Metropolitan Museum of Art. His ten-year-old son was upstairs running a museum of his own out of a bedroom; forty years later he would be shipping specimens back to the real one from Africa.",
+   "image": "assets/img/early-life/birthplace-20th-street.jpg",
+   "imageAlt": "The brownstone at 28 East 20th Street, New York, where Theodore Roosevelt was born",
+   "credit": "Theodore Roosevelt's birthplace, 28 East 20th Street, New York. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "Theodore Sr. once had disabled children laid out in braces on his own dining table during a society reception. Why?",
+   "options": [
+    "To raise the money for a new orthopaedic hospital",
+    "To demonstrate a new treatment for asthma",
+    "To recruit families for the Children's Aid Society trains west",
+    "To shame the city into building public bathhouses"
+   ],
+   "answer": 0,
+   "explanation": "His eldest daughter, Bamie, had a spinal condition, and the doctor who got her upright convinced him the same methods could help poor children who would never see a specialist. His friends declined to fund a hospital, so he invited them to a reception instead, threw open the dining-room doors, and put his daughter Corinne beside the table to explain how the steel braces worked. Mrs. John Jacob Astor said it for the room: \"Theodore, you are right; these children must be restored and made into active citizens again, and I for one will help you in your work.\" The money was raised that afternoon.",
+   "image": "assets/img/father/57th-street-dining-room.jpg",
+   "imageAlt": "Ornate Victorian dining room with a large round table, carved panelling and a gas chandelier",
+   "credit": "The dining room at 6 West 57th Street, the Roosevelt family's uptown house. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/father",
+    "label": "Theodore Roosevelt Sr."
+   }
+  },
+  {
+   "prompt": "How did Theodore Sr. spend Sunday evenings for most of his adult life?",
+   "options": [
+    "At the Newsboys' Lodging House, talking to the boys",
+    "At his desk at Roosevelt & Son, catching up on the week",
+    "At the opera with Mittie",
+    "At a whist party at the Century Association"
+   ],
+   "answer": 0,
+   "explanation": "The lodging house was a Children's Aid Society refuge on the West Side where a homeless boy could get a clean bed in a warm room for a few cents. His daughter wrote that \"Every Sunday evening of his life he went to that lodging-house\" after an early family supper, to talk to the boys about citizenship and decent behaviour. His son took the seat at the head of that table after he died and kept it for a while, then admitted to the reporter Jacob Riis that he had done it poorly and had to find his own way of working.",
+   "image": "assets/img/father/newsboys-washing-up.jpg",
+   "imageAlt": "Boys washing at a long trough of taps in the washroom of a New York newsboys' lodging house",
+   "credit": "Washing up at a New York newsboys' lodging house, about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "A governor of Alaska once introduced himself to Theodore Roosevelt with a claim about Roosevelt's father. What was it?",
+   "options": [
+    "That Theodore Sr. had taught him in a Sunday school class",
+    "That Theodore Sr. had taken him in as a street orphan",
+    "That Theodore Sr. had staked him to his first gold claim",
+    "That Theodore Sr. had recommended him for an army commission"
+   ],
+   "answer": 1,
+   "explanation": "Governor Brady had been a New York street child, taken in by Charles Loring Brace's Children's Aid Society, which sent thousands of city waifs to families in the West. Roosevelt tells it in his Autobiography: the governor of Alaska \"was one of these ex-newsboys who had been sent from New York out West by Mr. Brace and my father.\" His sister remembered Brady's own words at the meeting: \"Your father picked me up from the streets in New York, a waif and an orphan.\" He had repaid the money years earlier, he added, but not the rest of it.",
+   "image": "assets/img/father/childrens-aid-society.jpg",
+   "imageAlt": "Nine boys crowded into an open window, grinning at the camera, at a Children's Aid Society lodging house",
+   "credit": "Children's Aid Society, New York, about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The world he grew up in"
+   }
+  },
+  {
+   "prompt": "In the last months of his life Theodore Sr. took a public beating in Washington. Over what?",
+   "options": [
+    "He was sued over the family's plate-glass importing business",
+    "He was accused of profiteering on wartime army contracts",
+    "He lost a race for mayor of New York",
+    "The Senate refused to confirm him as Collector of the Port"
+   ],
+   "answer": 3,
+   "explanation": "Hayes put him up as an honest man to break Senator Roscoe Conkling's grip on the New York Custom House. Conkling chaired the very committee the nomination had to pass through, and he killed it in December 1877. Roosevelt had never much wanted the job and loathed the whole business. The illness came on during the fight rather than after it — vague digestive trouble that hardened into an intestinal blockage — and he was dead inside two months. The family always believed the Custom House business had helped to kill him. In his last letter to his son he wrote: \"I fear for your future. We cannot stand so corrupt a government for any great length of time.\"",
+   "image": "assets/img/father/57th-street-entrance-hall.jpg",
+   "imageAlt": "Panelled Victorian entrance hall hung with mounted antlers and animal heads, with a hall bench and lantern",
+   "credit": "The entrance hall at 6 West 57th Street, where the family was living in 1878. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "Roosevelt and New York politics"
+   }
+  },
+  {
+   "prompt": "Theodore Sr. sent his son off to Harvard with an instruction about priorities. In what order did he rank them?",
+   "options": [
+    "Health first, studies next, morals last",
+    "Studies first, then health, and morals last of all",
+    "Morals first, health next, studies last",
+    "Duty first, family next, studies last"
+   ],
+   "answer": 2,
+   "explanation": "\"Take care of your morals first, your health next, and finally your studies,\" he wrote. We have the line because his son quoted it back in a letter home a few weeks after his father died, and the son took it seriously enough to teach a mission Sunday school class for all four of his college years — and still come out magna cum laude and Phi Beta Kappa.",
+   "image": "assets/img/father/57th-street-library.jpg",
+   "imageAlt": "Victorian library with glazed bookcases, a carved fireplace and heavily draped furniture",
+   "credit": "The library at 6 West 57th Street. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt Sr. died on February 9, 1878, aged forty-six. Where was his son?",
+   "options": [
+    "On a ship returning from a winter in Europe",
+    "On the night train from Cambridge",
+    "Hunting in the Adirondacks with Henry Minot",
+    "At his father's bedside"
+   ],
+   "answer": 1,
+   "explanation": "The family had kept the worst of it from him so as not to wreck his examinations. The doctors had called it acute peritonitis; what was actually killing him was a tumour in the abdomen, and the pain in the last weeks turned his dark hair grey. The summons reached Harvard late on the Saturday. He ran for the night train and reached New York on Sunday morning to find the flags at half-mast. That night he drew a heavy black slash down the margin of his diary and got only as far as \"My dear Father. Born Sept. 23, 1831.\" A month on he was still writing about \"the blackest day of my life.\"",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt as a young Harvard student, with side whiskers, in head-and-shoulders portrait",
+   "credit": "\"Theo. Roosevelt at college.\" Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Harvard, and the loss of his father"
+   }
+  },
+  {
+   "prompt": "Roosevelt opened the passage about his father in his Autobiography with one sentence of judgement. What did he say?",
+   "options": [
+    "That his father was the best man he ever knew",
+    "That his father should have been president",
+    "That his father was the finest orator in New York",
+    "That his father was a saint who never raised his voice"
+   ],
+   "answer": 0,
+   "explanation": "\"My father, Theodore Roosevelt, was the best man I ever knew.\" He wrote it thirty-five years after the man died. In the same paragraph he added something less comfortable: \"he was the only man of whom I was ever really afraid.\" Not a wrong fear, he insisted, because his father was entirely just — but the fear was real, and so was the standard it left behind.",
+   "image": "assets/img/father/on-the-nile.jpg",
+   "imageAlt": "Sepia group photograph of the Roosevelt family and their travelling companions posed together on the Nile, father and son among them",
+   "credit": "The Roosevelts and their travelling companions on the Nile, winter of 1872–73. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/father",
+    "label": "Theodore Roosevelt Sr."
+   }
+  }
+ ]
+}

@@ -56,12 +56,12 @@
   {
    "prompt": "What did the young Roosevelt call his boyhood collection?",
    "options": [
+    "The Teedie Collection",
     "The East 20th Street Cabinet",
     "The Roosevelt Museum of Natural History",
-    "The Manhattan Society of Naturalists",
-    "The Teedie Collection"
+    "The Manhattan Society of Naturalists"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "The Roosevelt Museum of Natural History, founded with two cousins and equipped with its own labels. It spread out of his bedroom and through the house, to the visible strain of the household staff.",
    "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
    "imageAlt": "Tintype of the Roosevelt children",
@@ -74,13 +74,13 @@
   {
    "prompt": "What was the museum's first specimen?",
    "options": [
-    "A robin's egg",
-    "The skull of a dead seal from a Broadway market",
-    "A butterfly",
-    "A fossil"
+    "A robin's egg taken in Central Park",
+    "A seal's skull",
+    "A trilobite fossil",
+    "A mounted red squirrel"
    ],
    "answer": 1,
-   "explanation": "He came across a seal laid out on a plank in a market on Broadway, measured it repeatedly over several days, and eventually got hold of the skull. He traced his whole interest in natural history back to that animal.",
+   "explanation": "He came across a dead seal laid out on a plank in a market on Broadway, went back day after day to measure it, and eventually got hold of the head so that he could clean the skull. That skull became the first item in the collection, and he traced his whole interest in natural history back to that one animal — a boy with a folding rule, taking the measurements of something he had only ever read about.",
    "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
    "imageAlt": "The Roosevelt children",
    "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -92,13 +92,13 @@
   {
    "prompt": "Who taught him taxidermy, and what was that man's claim to fame?",
    "options": [
-    "John G. Bell, who had travelled west with Audubon",
-    "Spencer Baird of the Smithsonian",
-    "Carl Akeley, the museum diorama pioneer",
-    "Louis Agassiz of Harvard"
+    "John G. Bell, who travelled with Audubon",
+    "Carl Akeley, who pioneered the museum diorama",
+    "Louis Agassiz of Harvard",
+    "Spencer Baird of the Smithsonian"
    ],
    "answer": 0,
-   "explanation": "John G. Bell kept a taxidermy shop on Broadway and had accompanied John James Audubon on his western journey. Roosevelt took lessons there as a boy and mounted his own specimens for years afterwards.",
+   "explanation": "John G. Bell kept a musty little taxidermy shop on Broadway and had gone west with John James Audubon. Roosevelt took lessons there as a boy and mounted his own specimens for years afterwards. Bell is also the reason the collection stopped being a heap — a seal skull here, a turtle shell there, some mice caught in the pantry — and started being something with labels and a method behind it.",
    "image": "assets/img/early-life/dresden-club.jpg",
    "imageAlt": "The Roosevelt children and companions in Dresden",
    "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -110,13 +110,13 @@
   {
    "prompt": "What did Roosevelt intend to become when he entered Harvard in 1876?",
    "options": [
+    "An officer in the navy",
     "A lawyer",
-    "A natural historian or scientist",
-    "A politician",
-    "A soldier"
+    "A reforming politician",
+    "A scientist"
    ],
-   "answer": 1,
-   "explanation": "He went up meaning to be a scientist. What put him off was the direction the discipline was taking — laboratory and microscope work rather than the outdoor field study he loved. He turned to history and politics instead, and never stopped doing natural history on the side.",
+   "answer": 3,
+   "explanation": "He went up meaning to be a scientist — a field naturalist of the kind Bell and Audubon had been. What put him off was the direction the discipline was taking: Harvard science by the 1870s meant the laboratory and the microscope rather than the outdoor field study he loved. He turned to history and politics instead, and never stopped doing natural history on the side.",
    "image": "assets/img/early-life/tr-at-college.jpg",
    "imageAlt": "Theodore Roosevelt as a college student",
    "credit": "\"Theo. Roosevelt at college.\" Library of Congress, Prints and Photographs Division.",
@@ -128,12 +128,12 @@
   {
    "prompt": "Which institution did Roosevelt's father help found?",
    "options": [
-    "The Smithsonian",
-    "The American Museum of Natural History",
+    "The New York Botanical Garden",
     "The Bronx Zoo",
-    "The New York Botanical Garden"
+    "The Smithsonian",
+    "The American Museum of Natural History"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Theodore Roosevelt Sr. was among the founders of the American Museum of Natural History in New York — an institution that his son supplied with specimens as a boy and supported all his life.",
    "image": "assets/img/shared/fraser-statue-memorial.jpg",
    "imageAlt": "The Fraser equestrian statue in front of the Roosevelt Memorial, New York City",
@@ -147,9 +147,9 @@
    "prompt": "Roosevelt published his first natural history work at what stage of life?",
    "options": [
     "As a teenager, before college",
-    "During his presidency",
+    "He never published on natural history",
     "In retirement",
-    "He never published on natural history"
+    "During his presidency"
    ],
    "answer": 0,
    "explanation": "He was eighteen. His first ornithological work, The Summer Birds of the Adirondacks in Franklin County, N.Y., appeared in 1877 — a catalogue compiled in the mountains with his cousin. He was a published naturalist before he was a published historian.",
@@ -164,12 +164,12 @@
   {
    "prompt": "What was the primary stated purpose of Roosevelt's 1909 African expedition?",
    "options": [
-    "Sport hunting",
-    "Scientific collecting for the Smithsonian",
     "Diplomatic contact with colonial governments",
-    "Prospecting"
+    "Prospecting",
+    "Scientific collecting for the Smithsonian",
+    "Sport hunting"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Scientific collecting, and the expedition sent home many thousands of specimens. Roosevelt was quite clear that the shooting served the collecting. The scale of it has drawn criticism ever since, and he defended it as museum work.",
    "image": "assets/img/post-presidency/safari-rhino.jpg",
    "imageAlt": "Measuring a rhinoceros horn on the African expedition",
@@ -182,12 +182,12 @@
   {
    "prompt": "Which naturalist and museum taxidermist appears alongside Roosevelt in African expedition photographs?",
    "options": [
+    "Frank Chapman",
     "Carl Akeley",
     "John Muir",
-    "John Burroughs",
-    "Frank Chapman"
+    "John Burroughs"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Carl Akeley, the pioneer of the museum habitat diorama, whose work transformed how the public saw wildlife. His methods are why natural history museums look the way they do.",
    "image": "assets/img/post-presidency/safari-akeley-elephant.jpg",
    "imageAlt": "Roosevelt, Carl Akeley and an elephant",
@@ -200,13 +200,13 @@
   {
    "prompt": "Roosevelt publicly attacked a group of popular writers in 1907. What was his objection?",
    "options": [
-    "They wrote sentimental fiction about wild animals that misrepresented how animals behave",
-    "They opposed conservation",
-    "They plagiarised his books",
-    "They criticised hunting"
+    "They published under false names",
+    "They lifted passages from his books",
+    "They opposed the creation of forest reserves",
+    "They invented animal behaviour"
    ],
-   "answer": 0,
-   "explanation": "The \"nature fakers\" controversy. Roosevelt, backed by John Burroughs, went after authors whose animal stories attributed impossible reasoning and behaviour to wild creatures. He thought sentimental invention passed off as observation did real damage to how people understood nature.",
+   "answer": 3,
+   "explanation": "The “nature fakers” controversy. Roosevelt, backed by John Burroughs, went after authors whose animal stories attributed impossible reasoning and behaviour to wild creatures. He thought sentimental invention passed off as observation did real damage to how people understood nature. The offender he named most often was the Reverend William J. Long, and the row played out in the magazines through 1907 with a sitting president as one of the combatants.",
    "image": "assets/img/shared/tr-reading-kijabe.jpg",
    "imageAlt": "Roosevelt reading in front of his tent at Kijabe",
    "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -236,13 +236,13 @@
   {
    "prompt": "How good was Roosevelt's practical field knowledge of birds?",
    "options": [
-    "Superficial — he relied on guides",
-    "Serious enough to identify species by song and to argue with professional ornithologists",
-    "Limited to North American species he hunted",
-    "He had lost interest by adulthood"
+    "He had largely lost interest by adulthood",
+    "Good enough to identify birds by song",
+    "Limited to the North American species he hunted",
+    "Superficial — he leaned on professional guides"
    ],
    "answer": 1,
-   "explanation": "He identified birds by ear, kept lists everywhere he went, and on a walk through the English countryside in 1910 with the British statesman Edward Grey he named the species by song as they went. Grey, himself a serious birdwatcher, was impressed.",
+   "explanation": "He identified birds by ear, kept lists everywhere he went, and on a walk through the English countryside in 1910 with the British statesman Edward Grey he named the species by song as they went. Grey, himself a serious birdwatcher, was impressed. He was also willing to argue the point with professional ornithologists, in print, while holding federal office.",
    "image": "assets/img/shared/tr-reading-tent.jpg",
    "imageAlt": "Roosevelt reading in front of his tent",
    "credit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
@@ -255,11 +255,11 @@
    "prompt": "Which of Roosevelt's books came out of his Dakota years as a working naturalist and hunter?",
    "options": [
     "The Naval War of 1812",
+    "Oliver Cromwell",
     "Hunting Trips of a Ranchman",
-    "The Winning of the West",
-    "Oliver Cromwell"
+    "The Winning of the West"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Hunting Trips of a Ranchman, published in 1885 and illustrated in part by Frederic Remington. It was followed by Ranch Life and the Hunting-Trail and later The Wilderness Hunter — all part natural history, part memoir.",
    "image": "assets/img/badlands/tr-1885-portrait.jpg",
    "imageAlt": "Theodore Roosevelt in buckskin with a rifle, 1885",
@@ -272,12 +272,12 @@
   {
    "prompt": "What did Roosevelt see in the Dakota Badlands that shaped his view of wildlife forever?",
    "options": [
+    "A wildfire on the prairie",
     "A wolf pack hunting",
-    "The near-extermination of the buffalo",
     "The first grizzly bears he had seen",
-    "A wildfire on the prairie"
+    "The near-extermination of the buffalo"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "He arrived in 1883 just months after commercial hunters had destroyed the last great herd on the Little Missouri. He hunted the survivors and wrote about the bones scattered across the prairie. It is the single clearest source of his later conviction that unrestricted use was theft from the future.",
    "image": "assets/img/badlands/roundup-herd.jpg",
    "imageAlt": "Cattle on the northern plains",
@@ -290,12 +290,12 @@
   {
    "prompt": "Which conservation and hunting organisation did Roosevelt co-found in 1887?",
    "options": [
-    "The Boone and Crockett Club",
     "The Sierra Club",
-    "The National Audubon Society",
-    "The Wilderness Society"
+    "The Boone and Crockett Club",
+    "The Wilderness Society",
+    "The National Audubon Society"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The Boone and Crockett Club, founded with George Bird Grinnell to campaign for game laws and the protection of Yellowstone. Its members were hunters, and their argument was that without protection there would be nothing left to hunt.",
    "image": "assets/img/conservation/muir-yosemite-standing.jpg",
    "imageAlt": "Roosevelt and John Muir in Yosemite",
@@ -308,13 +308,13 @@
   {
    "prompt": "How did Roosevelt describe the relationship between his hunting and his science?",
    "options": [
-    "He kept them entirely separate",
-    "He treated collecting and observation as the point, with hunting the means",
-    "He abandoned science when he began hunting",
-    "He regarded hunting as purely recreational"
+    "Hunting served the collecting",
+    "He regarded hunting as purely recreational",
+    "He kept the two entirely separate",
+    "He abandoned science when he began hunting"
    ],
-   "answer": 1,
-   "explanation": "He saw no contradiction: specimens had to be collected to be studied, and field observation mattered more than laboratory work. Modern readers often find that hard to reconcile, and it is a fair tension to sit with rather than explain away.",
+   "answer": 0,
+   "explanation": "He saw no contradiction: specimens had to be collected before they could be studied, and field observation mattered more to him than laboratory work. Collecting and observation were the point and the rifle was the means — that is how he described it and how he defended it. Modern readers often find it hard to reconcile, and it is a fair tension to sit with rather than explain away.",
    "image": "assets/img/shared/tr-reading-kijabe.jpg",
    "imageAlt": "Roosevelt reading at camp in Kijabe",
    "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",

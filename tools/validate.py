@@ -26,6 +26,56 @@ REQUIRED_Q = ("prompt", "options", "answer", "explanation",
 REQUIRED_TOP = ("id", "title", "intro", "heroImage", "learnMore",
                 "badge", "tiers", "questions")
 
+# The longest-option tell.
+#
+# Writing a quiz pulls you one way: the true answer is the one you know the most
+# about, so it collects the qualifiers, and the distractors — which you are
+# inventing, and have nothing to say about — come out short. Do that fifteen
+# times and the quiz can be beaten without reading the questions. A repo-wide
+# audit found 56% of questions had the longest option correct against 25% by
+# chance, so this is not a hypothetical.
+#
+# GAP is per-question and catches the blatant ones. SHARE is per-file: a couple
+# of long correct answers is chance, most of them is a pattern. The ceiling is
+# deliberately loose — forcing it to 25% would mean padding distractors, and
+# "never the longest" is just as beatable as "always the longest".
+MAX_GAP = 18            # chars the correct option may exceed the next-longest by
+MAX_LONGEST_SHARE = 0.45
+
+
+def length_tell(qs):
+    """Report questions where option length gives the answer away."""
+    out, longest = [], 0
+    for i, x in enumerate(qs, 1):
+        opts, a = x.get("options", []), x.get("answer")
+        if len(opts) < 2 or not isinstance(a, int) or not (0 <= a < len(opts)):
+            continue
+        lens = [len(o) for o in opts]
+        others = max(l for j, l in enumerate(lens) if j != a)
+        if lens[a] == max(lens):
+            longest += 1
+        gap = lens[a] - others
+        if gap > MAX_GAP:
+            out.append("q%d correct option is %d chars longer than any other — "
+                       "readable without knowing the answer" % (i, gap))
+    n = len(qs)
+    if n and longest / n > MAX_LONGEST_SHARE:
+        out.append("the correct option is the longest in %d of %d questions "
+                   "(%.0f%%) — chance is 25%%, so this quiz can be played on "
+                   "option length alone" % (longest, n, 100 * longest / n))
+    return out
+
+
+def answer_spread(qs):
+    """Report a file whose answer index never moves."""
+    idx = [x.get("answer") for x in qs
+           if isinstance(x.get("answer"), int)]
+    if len(idx) >= 8 and len(set(idx)) == 1:
+        return ["every answer index is %d — options are shuffled at runtime so "
+                "this is invisible in play, but it means the file has never "
+                "been read in the order it is written" % idx[0]]
+    return []
+
 
 def check(path):
     problems = []
@@ -89,6 +139,9 @@ def check(path):
         seen_prompts.add(p)
         if not x.get("imageAlt"):
             problems.append("q%d has no alt text" % i)
+
+    problems.extend(length_tell(qs))
+    problems.extend(answer_spread(qs))
 
     return problems
 

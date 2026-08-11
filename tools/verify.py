@@ -37,9 +37,18 @@ KNOWN_BAD = {
               "speech, citing no manuscript.",
     "entire regiment of cowboys": "Not his words — a Bismarck newspaper speculating "
               "about what he might do. He wrote 'some companies of horse riflemen'.",
-    "never would have been President": "Real in substance but NOT in the "
-              "Autobiography, and secondary sources give at least two wordings. "
-              "Report it as recollection; do not present it as a verbatim quote.",
+    "never would have been President": "Verdict unchanged, but the hunt is now "
+              "finished: NOT in the Autobiography, and NOT in Hagedorn's "
+              "'Roosevelt in the Bad Lands' (1921), which entered the corpus in "
+              "2026 and was the last plausible eyewitness source. It survives only "
+              "in secondary works, in at least two wordings ('here in North "
+              "Dakota' and without), and Dalton traces it no further back than "
+              "Elwyn Robinson's 'History of North Dakota' (1966); Collins hedges "
+              "it as something Roosevelt 'speculated'. Report it as recollection; "
+              "do not present it as a verbatim quote. If you need a sourceable "
+              "line to the same effect, use Roosevelt at Sioux Falls, September 3, "
+              "1910: his Dakota years were 'the most important educational asset "
+              "of all my life.'",
 }
 
 # Figures worth a second look wherever they appear.

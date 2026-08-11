@@ -57,12 +57,12 @@
    "prompt": "How did Roosevelt feel about the nickname \"Teddy\"?",
    "options": [
     "He loved it and used it himself",
-    "He disliked it and family never used it",
-    "He was indifferent",
-    "He invented it"
+    "He coined it himself as a boy",
+    "He disliked it",
+    "He was indifferent to it"
    ],
-   "answer": 1,
-   "explanation": "He disliked it. The family called him Teedie as a boy and Theodore as a man; Edith called him Theodore. \"Teddy\" was the public's and the newspapers', and one associate said the surest way to annoy him was to use it to his face.",
+   "answer": 2,
+   "explanation": "He disliked it. The family called him Teedie as a boy and Theodore as a man; Edith called him Theodore. “Teddy” was the public's and the newspapers', and one associate said the surest way to annoy him was to use it to his face. It stuck anyway, and it outlasted him — the best-selling toy in American history is named after a nickname he did not want.",
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated three-quarter length portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
@@ -74,13 +74,13 @@
   {
    "prompt": "The teddy bear came from a 1902 hunting trip. What actually happened?",
    "options": [
-    "Roosevelt shot a bear and regretted it",
-    "He refused to shoot a bear that had been captured and tied for him",
-    "He rescued an orphaned cub",
-    "He was attacked by a bear and survived"
+    "He rescued an orphaned cub and raised it",
+    "He refused to shoot a tethered bear",
+    "He was charged by a bear and killed it",
+    "He shot a bear and later regretted it"
    ],
    "answer": 1,
-   "explanation": "On a Mississippi hunt his guides cornered and tied a bear so the president could shoot it. He refused — it was unsportsmanlike — though he did order the exhausted animal put out of its misery. Clifford Berryman's cartoon of the refusal is what launched the toy.",
+   "explanation": "On a Mississippi hunt his guides cornered and tied a bear so the president could shoot it. He refused — it was unsportsmanlike — though he did order the exhausted animal put out of its misery. Clifford Berryman's cartoon of the refusal is what launched the toy. It was November 1902, the hunt had produced nothing else, and the animal was a full-grown black bear rather than anything anyone would want to cuddle.",
    "image": "assets/img/shared/drawing-the-line-mississippi.jpg",
    "imageAlt": "Berryman's cartoon \"Drawing the Line in Mississippi\"",
    "credit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
@@ -92,13 +92,13 @@
   {
    "prompt": "How did the bear in Berryman's cartoons change over time?",
    "options": [
-    "It stayed exactly the same",
-    "It became smaller and cuter, turning into a cub",
-    "It was dropped after a year",
-    "It became a grizzly"
+    "It was dropped after the 1904 election",
+    "It grew into a full-sized grizzly",
+    "It stayed exactly as first drawn",
+    "It shrank into a cub"
    ],
-   "answer": 1,
-   "explanation": "The animal in the first drawing is a full-grown bear. Berryman kept redrawing it in later cartoons, and it shrank into the round-eyed cub everyone now pictures. The toy followed the cartoon, not the hunt.",
+   "answer": 3,
+   "explanation": "The animal in the first drawing is a full-grown bear with a rope round its neck. Berryman kept redrawing it in later cartoons, and it shrank into the round-eyed cub everyone now pictures. The toy followed the cartoon, not the hunt. He drew that bear for the rest of his career, which is a long time for a joke about one refused shot to keep running.",
    "image": "assets/img/shared/berryman-to-the-woods.jpg",
    "imageAlt": "A later Clifford Berryman political cartoon featuring the bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
@@ -110,13 +110,13 @@
   {
    "prompt": "\"Speak softly and carry a big stick.\" Where did Roosevelt say the phrase came from?",
    "options": [
-    "He coined it himself",
-    "He credited it to a West African proverb",
-    "It came from Lincoln",
-    "It was a Rough Rider saying"
+    "He called it a West African proverb",
+    "He credited it to a line of Lincoln's",
+    "He said he coined it himself",
+    "He said it was a Rough Rider saying"
    ],
-   "answer": 1,
-   "explanation": "He attributed it to a West African proverb when he used it publicly in 1901. The half everyone forgets is \"speak softly\" — he meant restraint backed by capability, not swagger.",
+   "answer": 0,
+   "explanation": "He attributed it to a West African proverb when he used it publicly in 1901. The half everyone forgets is the first one — he meant restraint backed by capability, not swagger, and he had rather less patience than his reputation suggests for men who talked loudly and had nothing behind it. He was still vice president when he said it in Minnesota, days before McKinley was shot.",
    "image": "assets/img/shared/young-head-old-shoulders.jpg",
    "imageAlt": "Chromolithograph print \"A young head on old shoulders\"",
    "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
@@ -129,11 +129,11 @@
    "prompt": "The famous \"Man in the Arena\" passage comes from a speech given where?",
    "options": [
     "Chicago, 1912",
+    "The White House, 1905",
     "The Sorbonne in Paris, 1910",
-    "Osawatomie, Kansas, 1910",
-    "The White House, 1905"
+    "Osawatomie, Kansas, 1910"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "From \"Citizenship in a Republic,\" delivered at the Sorbonne on April 23, 1910, a year after he left office. The arena passage is a few sentences in a very long address about the duties of citizens.",
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
@@ -146,12 +146,12 @@
   {
    "prompt": "Roosevelt is often quoted saying he could carve a judge with more backbone out of a banana. Did he?",
    "options": [
-    "Yes, in a letter to Henry Cabot Lodge",
     "There is no reliable evidence he said it",
-    "Yes, in a public speech",
-    "Yes, but about a senator, not a judge"
+    "Yes, in a letter to Henry Cabot Lodge",
+    "Yes, but about a senator, not a judge",
+    "Yes, in a public speech"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "It is the most quotable line attached to his frustration with Justice Holmes, and it cannot be traced to him. Its earliest appearance is in a 1932 biography of Holmes — decades later, in indirect speech, citing no manuscript. A similar phrase was already circulating in the press by 1900.",
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
@@ -165,12 +165,12 @@
    "prompt": "Did Roosevelt charge up San Juan Hill on horseback at the head of his men?",
    "options": [
     "Yes, exactly as the paintings show",
-    "He was mounted, but the hill his regiment took was Kettle Hill",
-    "He was not present at the battle",
+    "Mounted — but up Kettle Hill",
+    "He arrived after the hill was taken",
     "He led the charge on foot the whole way"
    ],
    "answer": 1,
-   "explanation": "He was mounted — officers' horses had made the crossing when the troopers' had not — but the Rough Riders' charge went up Kettle Hill, part of the same San Juan Heights. He dismounted near the crest where wire blocked the way.",
+   "explanation": "He was mounted — officers' horses had made the crossing when the troopers' had not — but the Rough Riders' charge went up Kettle Hill, part of the same San Juan Heights. He dismounted near the crest where wire blocked the way. The horse was called Little Texas, he turned it loose about forty yards short of the brow, and he finished on foot like everyone else. The paintings fold two hills and several regiments into one man.",
    "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
    "imageAlt": "Painting of the charge of the Rough Riders at San Juan Hill",
    "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
@@ -182,12 +182,12 @@
   {
    "prompt": "Several celebrated photographs of Roosevelt's Badlands adventures are what?",
    "options": [
+    "Composites of several negatives",
     "Documentary photographs taken as events happened",
-    "Re-creations staged afterwards with friends posing",
     "Later paintings mistaken for photographs",
-    "Composites of several negatives"
+    "Re-creations staged afterwards with friends posing"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "The best-known image of Roosevelt guarding the captured boat thieves was posed after the fact, with Sewall, Dow and an unidentified man standing in as the prisoners. It is a good picture and an honest one only if you say so.",
    "image": "assets/img/badlands/boat-thieves-staged.jpg",
    "imageAlt": "Staged photograph of Roosevelt guarding the boat thieves",
@@ -200,12 +200,12 @@
   {
    "prompt": "Was Roosevelt's famous 1912 line “I'm as fit as a bull moose” the origin of the party's nickname?",
    "options": [
+    "No, it was a Progressive Party committee decision",
     "Yes",
     "No, the moose came from a newspaper cartoon",
-    "No, it was Taft's insult",
-    "No, it was a Progressive Party committee decision"
+    "No, it was Taft's insult"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Roosevelt told an inquiring reporter “I'm as fit as a bull moose” and had used the comparison for years to describe his own vigour, and the press attached it to the Progressive Party. That much is straightforward — unusually for this quiz.",
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
    "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
@@ -218,13 +218,13 @@
   {
    "prompt": "Was Roosevelt the youngest person ever elected president?",
    "options": [
-    "Yes",
-    "No — he was the youngest to hold the office, but reached it through succession",
-    "No, that was Lincoln",
-    "Yes, at forty-two"
+    "No — he reached the office by succession",
+    "No — that record belongs to Ulysses S. Grant",
+    "Yes, at forty-two",
+    "Yes, and the youngest ever nominated"
    ],
-   "answer": 1,
-   "explanation": "He became president at forty-two, younger than anyone before or since, but by succession after McKinley's assassination. The youngest man ever *elected* was John F. Kennedy, at forty-three.",
+   "answer": 0,
+   "explanation": "He became president at forty-two, younger than anyone before or since, but by succession after McKinley's assassination. The youngest man ever elected was John F. Kennedy, at forty-three. Roosevelt was forty-six when he won the office in his own right in 1904 — which is the detail that gets lost every time the two records are run together.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at McKinley's swearing in, March 1901",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -237,12 +237,12 @@
    "prompt": "Roosevelt is said to have offered to raise \"an entire regiment of cowboys\" for the government in 1886. Is that his phrase?",
    "options": [
     "Yes, from a letter to Henry Cabot Lodge",
-    "No — it comes from a newspaper speculating about what he might do",
-    "Yes, from a speech in Medora",
-    "No, it was invented in the 1950s"
+    "No — a biographer invented it in the 1950s",
+    "Yes, from a speech he gave in Medora",
+    "No — a newspaper put it in his mouth"
    ],
-   "answer": 1,
-   "explanation": "The phrase appears in quotation marks in more than one modern biography, but it traces to a Bismarck newspaper reporting that it was \"confidently believed\" Roosevelt *would* offer such a regiment. What he actually wrote to Lodge was \"some companies of horse riflemen.\"",
+   "answer": 3,
+   "explanation": "The phrase appears in quotation marks in more than one modern biography, but it traces to a Bismarck newspaper reporting that it was “confidently believed” Roosevelt *would* offer such a regiment. What he actually wrote to Lodge was “some companies of horse riflemen.” A newspaper's guess about what a man might do became, through eighty years of quotation, something he was said to have said.",
    "image": "assets/img/badlands/tr-ranch-costume.jpg",
    "imageAlt": "Theodore Roosevelt mounted in ranch clothes near Medora",
    "credit": "Theodore Roosevelt in ranch costume. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -254,12 +254,12 @@
   {
    "prompt": "How long did the men who stole Roosevelt's boat actually serve?",
    "options": [
+    "They were acquitted",
     "Three years",
     "Twenty-five months",
-    "Six months",
-    "They were acquitted"
+    "Six months"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Twenty-five months. A widely read biography says three years, but the local newspaper of the day and several later historians agree on twenty-five months. Small discrepancies like this survive for a century because people quote each other rather than the record.",
    "image": "assets/img/badlands/dickinson-1883.jpg",
    "imageAlt": "Dickinson, Dakota Territory, in 1883",
@@ -272,12 +272,12 @@
   {
    "prompt": "\"Old Four Eyes\" is the nickname most often attached to Roosevelt's Badlands years. What did people actually call him?",
    "options": [
-    "Old Four Eyes, exactly that",
     "The four-eyed dude",
     "The Colonel",
-    "Mr. Roosevelt only"
+    "Mr. Roosevelt only",
+    "Old Four Eyes, exactly that"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Contemporaries used the blunter phrase — \"the four-eyed dude,\" or in one barroom, simply \"Four Eyes.\" The tidier \"Old Four Eyes\" is largely a later coinage, smoothed by retelling.",
    "image": "assets/img/badlands/tr-first-buckskins.jpg",
    "imageAlt": "Theodore Roosevelt in his first buckskin suit",
@@ -290,9 +290,9 @@
   {
    "prompt": "Did Roosevelt really keep a bullet in his chest after the 1912 assassination attempt?",
    "options": [
-    "No, it was removed that night",
-    "Yes, for the remaining seven years of his life",
     "No, the bullet never reached him",
+    "Yes, for the remaining seven years of his life",
+    "No, it was removed that night",
     "Yes, but only for a few months"
    ],
    "answer": 1,
@@ -308,12 +308,12 @@
   {
    "prompt": "What is the most reliable way to check whether Roosevelt said something?",
    "options": [
-    "If it appears in quotation marks in a modern biography",
-    "Trace it to his own letters, speeches or books with a date",
     "If several websites agree",
-    "If it sounds like him"
+    "If it appears in quotation marks in a modern biography",
+    "If it sounds like him",
+    "Trace it to his own letters, speeches or books with a date"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Biographies quote each other, and a phrase in quotation marks is not proof of authorship. The test is a primary source with a date — a letter, a printed speech, a book. Sounding like him is precisely how the fakes spread.",
    "image": "assets/img/shared/sagamore-library-family.jpg",
    "imageAlt": "Photograph taken by a family member in the library at Sagamore Hill",

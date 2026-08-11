@@ -1,0 +1,309 @@
+{
+ "id": "nobel-peace-prize",
+ "title": "The Peacemaker",
+ "subtitle": "Portsmouth, 1905 — and the prize that followed",
+ "intro": "Russia and Japan had been killing each other for a year and a half, and neither could say so out loud. Roosevelt got them into the same room by pretending the idea was his, solved a war of etiquette with a buffet and no chairs, and won a prize he did not travel to collect. Fourteen questions on the summer he made peace.",
+ "heroImage": "assets/img/nobel/mayflower-envoys.jpg",
+ "heroAlt": "Theodore Roosevelt standing between the Russian and Japanese peace envoys aboard the yacht Mayflower, August 1905",
+ "heroCredit": "Peace envoys on board the Mayflower, Oyster Bay, New York, 5 August 1905. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Peacemaker",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Nobel Peace Prize quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Plenipotentiary",
+   "line": "Full powers. You settled it."
+  },
+  {
+   "min": 12,
+   "name": "The Mediator",
+   "line": "Both sides trust you. That is the hard part."
+  },
+  {
+   "min": 9,
+   "name": "Back Channel",
+   "line": "You know who was really carrying the messages."
+  },
+  {
+   "min": 6,
+   "name": "Envoy",
+   "line": "Credentials accepted."
+  },
+  {
+   "min": 3,
+   "name": "Press Corps",
+   "line": "Camped outside the gate with everyone else."
+  },
+  {
+   "min": 0,
+   "name": "Waiting on the Cable",
+   "line": "No news yet. Stay by the wire."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In May 1905 the Japanese navy destroyed a Russian fleet that had sailed most of the way around the world to reach the fight. Which battle?",
+   "options": [
+    "The Battle of Mukden",
+    "The Battle of Tsushima Strait",
+    "The Battle of the Yellow Sea",
+    "The siege of Port Arthur"
+   ],
+   "answer": 1,
+   "explanation": "Russia's Baltic Fleet had spent seven months and eighteen thousand miles getting there, and Admiral Togo destroyed it in the space of a day and a night at the end of May 1905. Roosevelt wrote to his friend Baron Kentaro Kaneko: “Neither Trafalgar nor the defeat of the Spanish Armada was as complete.” Within a week Japan was quietly asking him to bring the war to an end.",
+   "image": "assets/img/nobel/tr-at-desk.jpg",
+   "imageAlt": "President Theodore Roosevelt seated at his desk, reading a document",
+   "credit": "Theodore Roosevelt, seated at desk, reading, 1906. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "When Japan asked Roosevelt to bring the two sides together, it attached one condition to how the request was to be handled. What was it?",
+   "options": [
+    "That he act as though the idea were his own",
+    "That the talks be held in Tokyo",
+    "That he guarantee Japan a cash indemnity",
+    "That Great Britain co-sponsor the invitation"
+   ],
+   "answer": 0,
+   "explanation": "Tokyo's cable of 31 May 1905 asked the President to move “directly and entirely of his own motion and initiative” — Japan could not be seen to be suing for peace after winning every battle. Roosevelt kept the request so close that reportedly only Edith and his secretary knew of it. In his Autobiography he put the whole delicate business in one line: “I first satisfied myself that each side wished me to act,” but each was anxious the other should not think the move had come from them.",
+   "image": "assets/img/nobel/tr-at-desk.jpg",
+   "imageAlt": "President Theodore Roosevelt at his desk with papers",
+   "credit": "Theodore Roosevelt, seated at desk, reading, 1906. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Russia and Japan first agreed to meet in Washington, D.C. Why did the conference end up in Portsmouth, New Hampshire?",
+   "options": [
+    "Russia refused to negotiate inside any national capital city",
+    "Japan insisted on a city with a Japanese consulate",
+    "The August heat, and Roosevelt wanted the talks near him",
+    "Congress voted to bar both delegations from the capital"
+   ],
+   "answer": 2,
+   "explanation": "A Japanese representative hoped that “Newport [Rhode Island] or some other place in the United States may be selected,” and the State Department went shopping along the New England coast — Bar Harbor, Portland, Atlantic City, and the Mount Washington Hotel at Bretton Woods were all in the running. Portsmouth had barely eleven thousand people, which was the point: few distractions, good hotels, and an active Navy yard the President controlled outright and could seal off. Naval cable lines ran straight back to his porch.",
+   "image": "assets/img/nobel/hotel-wentworth.jpg",
+   "imageAlt": "Postcard view of the Hotel Wentworth at New Castle, New Hampshire, seen across the water",
+   "credit": "Hotel Wentworth, New Castle, N.H. — postcard written from the peace conference, 30 August 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The treaty is named for Portsmouth, New Hampshire — but the building the delegates actually argued in stood in a different state. Which one?",
+   "options": [
+    "Vermont",
+    "Rhode Island",
+    "Massachusetts",
+    "Maine"
+   ],
+   "answer": 3,
+   "explanation": "The Portsmouth Navy Yard sits on an island in the Piscataqua River, on the Kittery, Maine, side of the line. The delegations lodged and dined in New Hampshire and crossed the water each day to work in a plain brick building known as Building 86. One historian of the conference notes the point drily in a footnote, because almost nobody has ever bothered to correct the name.",
+   "image": "assets/img/nobel/peace-conference-building.jpg",
+   "imageAlt": "A period postcard showing a pen-and-ink drawing of the Peace Conference building at the Portsmouth Navy Yard, with a handwritten note dated August 18, 1905",
+   "credit": "Peace Conference building, Portsmouth Navy Yard, 1905 — postcard written from the conference on 18 August 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Before the talks began, Roosevelt had to receive both delegations without either being able to claim it had been slighted. How did he do it?",
+   "options": [
+    "A round table with numbered places drawn by lot in advance",
+    "A coin toss in front of both delegations",
+    "Two identical lunches served in separate rooms",
+    "A stand-up buffet aboard the yacht, with no seats at all"
+   ],
+   "answer": 3,
+   "explanation": "The questions were who sat at the President's right, who entered the dining room first, and whose sovereign was toasted first — and Sergei Witte had already snapped that “I will not suffer a toast to our Emperor offered after one to the Mikado.” So on 5 August 1905, aboard the Mayflower off Oyster Bay, Roosevelt simply removed the furniture from the argument: plates filled from a buffet, everyone on their feet, and the two chief envoys walked through the door side by side. Then he raised his glass: “Gentlemen, I propose a toast to which there will be no answer and which I ask you to drink in silence, standing.”",
+   "image": "assets/img/nobel/mayflower-envoys.jpg",
+   "imageAlt": "Theodore Roosevelt standing between the Russian and Japanese peace envoys aboard the Mayflower",
+   "credit": "Peace envoys on board the Mayflower, Oyster Bay, New York, 5 August 1905. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill and Oyster Bay"
+   }
+  },
+  {
+   "prompt": "Where was Roosevelt while the Portsmouth conference was actually sitting?",
+   "options": [
+    "In the conference room at the Navy Yard, chairing every session",
+    "At Sagamore Hill — he never attended a single session",
+    "At the Hotel Wentworth, living alongside the delegates",
+    "At the White House, receiving daily deputations"
+   ],
+   "answer": 1,
+   "explanation": "He ran the whole thing from his summer home by cipher telegram, summoning envoys down to Oyster Bay one at a time when things stalled, and had a Navy man inside the yard keeping the wire open to him deep into the night. His absence is exactly why some historians have argued he was an interested bystander rather than a mediator, and why the prize was questioned from the start. Others read the same evidence and call it the most effective long-distance diplomacy any American president has managed.",
+   "image": "assets/img/nobel/press-corps.jpg",
+   "imageAlt": "A crowd of newspaper correspondents posed outside a building at the Portsmouth Navy Yard in 1905",
+   "credit": "Newspaper correspondents at the Portsmouth Peace Conference, 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "By late August the conference had deadlocked over two Japanese demands. What were they?",
+   "options": [
+    "A cash indemnity, and the island of Sakhalin",
+    "Korea, and the Philippines",
+    "Port Arthur, and Vladivostok",
+    "Fishing rights, and limits on Russian naval tonnage"
+   ],
+   "answer": 0,
+   "explanation": "Japan had won the war and was very nearly broke; it wanted Russia to pay for it. Nicholas II's position never moved off “not an inch of land, not a rouble of indemnities” — even though Japanese troops were already sitting on Sakhalin, which made the second half of that sentence a fiction. Roosevelt cabled the Tsar directly, wrote to his Japanese back channel that another year of war would cost Japan more than it could ever recover, and complained to his son Kermit that the negotiators were turning his hair grey.",
+   "image": "assets/img/nobel/russian-delegation.jpg",
+   "imageAlt": "The Russian delegation at the Portsmouth peace conference, with Sergei Witte and Baron Rosen seated at the centre",
+   "credit": "Russian delegation at the Portsmouth peace conference, 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "How was the deadlock finally broken?",
+   "options": [
+    "The United States lent Japan the money Russia would not pay",
+    "Russia paid a reduced indemnity and kept the whole of Sakhalin",
+    "Japan dropped the indemnity and took southern Sakhalin",
+    "Both questions were referred to arbitration at The Hague"
+   ],
+   "answer": 2,
+   "explanation": "At the last session, after a long silence, Baron Komura accepted the split and withdrew the claim for money; Witte proposed the fiftieth parallel as the line. Russia paid nothing at all, which was the outcome the Tsar had insisted on from the first day and the one nobody in Tokyo had prepared their public for. Witte went home to be called “Count Half Sakhalin.” Accounts differ over whether the final session fell on 28 or 29 August; the treaty itself was signed on 5 September 1905.",
+   "image": "assets/img/nobel/japanese-delegation.jpg",
+   "imageAlt": "The Japanese delegation at the Portsmouth peace conference, with Baron Komura and Minister Takahira seated",
+   "credit": "Japanese delegation at the Portsmouth peace conference, 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "How did the Japanese public receive the terms of the Treaty of Portsmouth?",
+   "options": [
+    "With fury — a mass protest in Tokyo turned into days of rioting",
+    "With celebration, and a national holiday",
+    "With a formal vote of thanks to Roosevelt in the Diet",
+    "With indifference, since the war had been popular but distant"
+   ],
+   "answer": 0,
+   "explanation": "On the day the treaty was signed, a protest meeting in Tokyo's Hibiya Park was broken up by police and the city went up; martial law followed, and order took days to restore. Japan's own leaders had promised their people an indemnity and then come home without one. Where the anger was actually aimed is still argued: some accounts have Tokyo politicians deflecting the blame onto Roosevelt, while the American minister in Tokyo reported at the time that the crowds were going after their own police and government first and foreigners barely at all.",
+   "image": "assets/img/nobel/japanese-delegation.jpg",
+   "imageAlt": "Baron Komura and Minister Takahira with members of the Japanese delegation at Portsmouth",
+   "credit": "Japanese delegation at the Portsmouth peace conference, 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Portsmouth drew an enormous press corps. How did the Navy deal with the reporters?",
+   "options": [
+    "It gave each major paper a seat in the conference room",
+    "It issued a verbatim transcript after every session",
+    "It carried them out to the sessions aboard the Mayflower",
+    "It shut them out of the Navy Yard entirely"
+   ],
+   "answer": 3,
+   "explanation": "A Navy memorandum of the time reports “hundreds of correspondents in Portsmouth and vicinity now,” and warns that the ambassadors could scarcely leave their hotel rooms without being mobbed; the only workable answer was “absolutely excluding all correspondents from the Yard.” It did not help much. Witte worked the American papers relentlessly — Roosevelt thought he had “talked like a fool” to them about Japan, though it won Russia a good deal of sympathy — while Komura stayed silent and lost the argument in print before he lost it at home.",
+   "image": "assets/img/nobel/signing-the-treaty.jpg",
+   "imageAlt": "A two-panel newspaper cartoon captioned Signing the Treaty at Portsmouth, showing a scrum of photographers above and a dignified imagined scene below",
+   "credit": "John T. McCutcheon, Signing the treaty at Portsmouth, c. 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt did not go to Norway to collect the 1906 Nobel Peace Prize. Who accepted it for him?",
+   "options": [
+    "Secretary of State Elihu Root",
+    "His daughter Alice",
+    "The American minister to Norway",
+    "Nobody — it was simply posted to Washington"
+   ],
+   "answer": 2,
+   "explanation": "He was still president, so the job fell to Herbert H. D. Peirce — the same State Department official who had chosen Portsmouth, arranged the yacht, and kept the cipher line to Oyster Bay open all summer, and who by December 1906 was the United States minister in Norway. Roosevelt cabled the committee that he was profoundly moved, adding: “What I did I was able to accomplish only as the representative of the Nation of which for the time being I am President.” He was the first American to win a Nobel Prize in any category.",
+   "image": "assets/img/nobel/nobel-certificate.jpg",
+   "imageAlt": "The Nobel Peace Prize certificate awarded to Theodore Roosevelt, dated Kristiania, 10 December 1906, photographed with its presentation case",
+   "credit": "Certificate of the Nobel Prize awarded to Theodore Roosevelt, 10 December 1906. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt finally delivered his Nobel lecture on 5 May 1910, more than three years after the award. What did he use it to propose?",
+   "options": [
+    "An international ban on submarine warfare",
+    "A League of Peace with the power to keep the peace by force",
+    "The immediate abolition of all standing armies",
+    "A world court deliberately given no enforcement power"
+   ],
+   "answer": 1,
+   "explanation": "He was a private citizen by then, coming home from a year in Africa, and he arrived in Christiania — today's Oslo — with bronchitis. The speech was short, hard to hear and drew little applause, but one line outlived everything around it: “it would be a master stroke if those great Powers honestly bent on peace would form a League of Peace, not only to keep the peace among themselves, but to prevent, by force if necessary, its being broken by others.” That was nine years before the League of Nations, and Andrew Carnegie, who had wanted a disarmament sermon, was disgusted.",
+   "image": "assets/img/nobel/haakon-carriage.jpg",
+   "imageAlt": "Theodore Roosevelt riding in an open royal carriage with King Haakon VII of Norway in 1910",
+   "credit": "King Haakon and Colonel Roosevelt in a royal carriage, Christiania, Norway, 1910. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt do with the Nobel prize money?",
+   "options": [
+    "Endowed a chair in history at Harvard",
+    "Gave it to the Navy toward a new battleship",
+    "Kept it and left it to his children",
+    "Put it in trust for industrial peace"
+   ],
+   "answer": 3,
+   "explanation": "He decided, after talking it over with Edith, that money earned as a public man was not his to keep — “I felt that the money must be considered as having been given me in trust for the United States” — and told Kermit that “I hated to come to the decision, because I very much wisht for the extra money to leave to all you children.” Then the twist: the trustees never agreed how to spend a cent of it. Once America was in the war he asked Congress to give it back — accounts put that request in July 1917 or July 1918 — and on 22 August 1918 he set out where it had gone: $45,482.83 with the interest, split twenty-eight ways among war-relief causes, from the Red Cross and the Salvation Army to the Jewish Welfare Board, Belgian refugees in Holland, and hostess houses for Black troops. The sum at the 1906 end is reported variously as roughly thirty-seven or forty thousand dollars — Roosevelt himself always called it forty.",
+   "image": "assets/img/nobel/nobel-certificate.jpg",
+   "imageAlt": "Theodore Roosevelt's Nobel Peace Prize certificate photographed with its presentation case",
+   "credit": "Certificate of the Nobel Prize awarded to Theodore Roosevelt, 10 December 1906. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Japan sent Roosevelt a gift in remembrance of the peace of Portsmouth. What was it?",
+   "options": [
+    "A jade seal",
+    "An ancient samurai sword",
+    "A lacquered writing desk",
+    "A bronze temple bell"
+   ],
+   "answer": 1,
+   "explanation": "Listing the treasures crowding his hall at Sagamore Hill, Roosevelt gets to “a priceless ancient Samurai sword, coming from Japan in remembrance of the peace of Portsmouth” — one account credits Baron Komura himself with the gift. It arrived from the country whose streets had rioted over the terms, which tells you how differently a government and a crowd can read the same document. The candlestick used to seal the treaty came to him too, sent by a naval officer who had been in the room.",
+   "image": "assets/img/nobel/mayflower-envoys.jpg",
+   "imageAlt": "Roosevelt with the Russian and Japanese envoys aboard the Mayflower in August 1905",
+   "credit": "Peace envoys on board the Mayflower, Oyster Bay, New York, 5 August 1905. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill"
+   }
+  }
+ ]
+}

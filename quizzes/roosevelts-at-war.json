@@ -1,0 +1,291 @@
+{
+ "id": "roosevelts-at-war",
+ "title": "The Roosevelts at War",
+ "subtitle": "Four Sons, a Daughter, and the Great War",
+ "intro": "Theodore Roosevelt spent thirty years telling Americans that a life worth living carried risk. When the United States entered the First World War, all four of his sons went, his daughter and son-in-law went, and he was refused. Thirteen questions on what the war did to one family — and to its father.",
+ "heroImage": "assets/img/war/tr-and-boys.jpg",
+ "heroAlt": "President Roosevelt seated with his four sons in the White House",
+ "heroCredit": "President Roosevelt and his sons Ted, Archie, Quentin and Kermit, White House, 1904. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Roosevelts at War",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about the Roosevelts in the First World War — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Keeper of the Record",
+   "line": "Every name and every date. You could tell this story yourself."
+  },
+  {
+   "min": 11,
+   "name": "Family Historian",
+   "line": "You have read the letters, not just the headlines."
+  },
+  {
+   "min": 9,
+   "name": "Well Briefed",
+   "line": "You know what this family gave."
+  },
+  {
+   "min": 6,
+   "name": "Following the Story",
+   "line": "A solid start. There is more in the letters."
+  },
+  {
+   "min": 3,
+   "name": "Just Arrived",
+   "line": "Worth another run through."
+  },
+  {
+   "min": 0,
+   "name": "New to the Story",
+   "line": "Begin with Quentin and work outward."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Quentin Roosevelt was killed in France on 14 July 1918. What was he doing?",
+   "options": [
+    "Serving as a surgeon at a field hospital",
+    "Flying a fighter with an American squadron in France",
+    "Driving an ambulance for the Red Cross",
+    "Commanding an infantry battalion in the line"
+   ],
+   "answer": 1,
+   "explanation": "He was a pilot with the 95th Aero Squadron, whose aircraft carried a kicking mule on the fuselage, and he had shot down his first enemy plane only days before. He was twenty. After his first dogfight he tried to explain it to his mother: “You get so excited that you forget everything except getting the other fellow.”",
+   "image": "assets/img/war/quentin-nieuport.jpg",
+   "imageAlt": "Quentin Roosevelt in a flying coat and goggles standing beside his aircraft on a French airfield",
+   "credit": "Quentin Roosevelt beside his aircraft in France, 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Quentin's eyesight was poor enough to keep him out of flight training. How did he get in anyway?",
+   "options": [
+    "The Army Air Service granted him a medical waiver",
+    "He served as an aircraft mechanic instead and never flew",
+    "He joined the Royal Flying Corps, which had no eye test",
+    "He memorised the eye chart"
+   ],
+   "answer": 3,
+   "explanation": "His cousin Eleanor — who watched her own brother Hall do exactly the same thing — said she thought both of them must have learned the card by heart. His father was delighted rather than scandalised: what mattered to Theodore Roosevelt was that the boy got in, not how. Quentin was nineteen when he enlisted, and had spent most of his boyhood in the White House.",
+   "image": "assets/img/war/quentin-algonquin.jpg",
+   "imageAlt": "A small boy, Quentin Roosevelt, riding a Shetland pony on the White House grounds",
+   "credit": "Quentin Roosevelt on the Shetland pony Algonquin at the White House, 1903. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "In 1917 Roosevelt asked permission to raise a division of volunteers and lead it to France himself. What happened?",
+   "options": [
+    "He was given the division but ruled medically unfit before it sailed",
+    "The division sailed in 1918 under a deputy commander",
+    "President Wilson refused him",
+    "He withdrew the request once his sons had enlisted"
+   ],
+   "answer": 2,
+   "explanation": "Wilson wired that his decision was “based entirely upon imperative considerations of public policy and not upon personal or private choice.” Roosevelt flatly rejected that, and he was probably right that politics was part of it — but so was arithmetic. He was fifty-eight, blind in one eye, half deaf, and still subject to the fever he had brought back from the Amazon. His valet said he had never seen him so cast down.",
+   "image": "assets/img/war/tr-1918-b.jpg",
+   "imageAlt": "Theodore Roosevelt speaking from a porch to a seated crowd on a lawn in 1918",
+   "credit": "Theodore Roosevelt addressing a gathering, April 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Congress did write volunteer divisions into the 1917 draft law. What did the provision actually do?",
+   "options": [
+    "It authorised the divisions and left it to the president",
+    "It named Roosevelt to command the First Division",
+    "It required the president to accept Roosevelt's division at once",
+    "It barred volunteer units for the rest of the war"
+   ],
+   "answer": 0,
+   "explanation": "The amendment permitted the divisions and then handed the decision to a president who had no intention of making it. Roosevelt was not short of men — applications came in by the thousand — though how many is still argued: twenty-three thousand in some accounts, two hundred thousand in others, and three hundred thousand by Roosevelt's own count. Georges Clemenceau, out of office in France and not yet its wartime premier, published an open letter begging Wilson to reconsider. None of it moved the White House.",
+   "image": "assets/img/war/tr-and-boys.jpg",
+   "imageAlt": "President Roosevelt seated with his four sons in the White House",
+   "credit": "President Roosevelt and his sons Ted, Archie, Quentin and Kermit, White House, 1904. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Kermit Roosevelt went to war before the United States did. Whose army did he join, and where did he fight?",
+   "options": [
+    "The Canadian army, in Flanders",
+    "The British army, in Mesopotamia",
+    "The Italian army, in the Alps",
+    "The French army, in the trenches on the Somme"
+   ],
+   "answer": 1,
+   "explanation": "His father wrote to Prime Minister Lloyd George to place him, and Kermit took an honorary British captaincy and went to fight the Ottomans in what is now Iraq. He taught himself Arabic, won the British Military Cross, and — the story runs — at Tikrit bluffed a body of Turkish soldiers into surrendering while carrying nothing but a swagger stick. He then arranged a transfer to American artillery so he could serve in France beside his brothers.",
+   "image": "assets/img/war/derby-archie-eleanor-kermit.jpg",
+   "imageAlt": "Three men in uniform and a woman posed for a studio portrait, one of the men seated on the floor with his arm in a sling",
+   "credit": "Richard Derby, Eleanor and Kermit Roosevelt, with Archie Roosevelt in front, 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "At Cantigny, the first American offensive of the war, Theodore Roosevelt Jr. was gassed in the eyes and lungs. What did he do next?",
+   "options": [
+    "Was invalided home to the United States within the week",
+    "Resigned his commission and went home",
+    "Was transferred to a staff post at headquarters in Paris",
+    "Refused evacuation and stayed in command"
+   ],
+   "answer": 3,
+   "explanation": "He was temporarily blinded, coughing so badly he had to sleep sitting up, and roughly two hundred of his comrades were killed around him — and he stayed. Weeks later, at Ploisy near Soissons, he led a charge on a machine-gun nest without a helmet and took a bullet through the leg; he walked with a cane for the rest of his life. He received the Distinguished Service Cross. Twenty-six years later he went ashore at Utah Beach with that same cane.",
+   "image": "assets/img/war/ted-jr-chasseurs.jpg",
+   "imageAlt": "Theodore Roosevelt Jr. in a steel helmet in a trench with a French officer, 1917",
+   "credit": "Theodore Roosevelt Jr. in training with the Chasseurs Alpins, 1917. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  },
+  {
+   "prompt": "Archie Roosevelt was hit by shrapnel in France early in 1918. How badly was he hurt?",
+   "options": [
+    "Shrapnel cut a nerve in his arm and smashed his knee",
+    "A flesh wound — he was back with his unit inside the week",
+    "He was blinded in one eye and never served again",
+    "He was captured while being carried to an aid station"
+   ],
+   "answer": 0,
+   "explanation": "He lay fourteen hours in the muck of no-man's-land before he was brought in, and the surgeons argued about taking the leg off. What reached Sagamore Hill first was only the good half of it: a wire-service man arrived with word that France had given Archie the Croix de Guerre and that he had been wounded, though not seriously. Edith — famously the calm one — called for the Madeira at lunch, drank a toast to her son, and startled the table by smashing the glass on the floor. Only afterwards did a cable from Ted Jr. tell them how bad it really was. Archie went back into uniform after Pearl Harbor and was wounded again in the Pacific, in the same arm and leg; his biographers call him the only American soldier declared totally disabled in two wars.",
+   "image": "assets/img/war/archie-wounded.jpg",
+   "imageAlt": "Archie Roosevelt in uniform standing beside a nurse outside a hospital in France",
+   "credit": "Archie Roosevelt with a nurse, probably in France, 1918. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Roosevelt's daughter Ethel and her husband, Dr. Richard Derby, went to work in an American hospital in France. When did they go?",
+   "options": [
+    "In 1918, in the weeks after Quentin was killed",
+    "In 1919, once the Armistice had been signed in France",
+    "In 1914, while the United States was still neutral",
+    "In 1917, with the first American troops to reach France"
+   ],
+   "answer": 2,
+   "explanation": "Derby read the news out of Belgium and the Marne and decided to go; Ethel refused to be left behind and went as a nurse. He ran a surgical ward, she nursed the wounded, and their baby son stayed at Sagamore Hill with his grandparents. Derby returned in uniform with the American Medical Corps in 1917, and was once blown off his feet by a German shell without much harm done.",
+   "image": "assets/img/war/tr-portrait-1916.jpg",
+   "imageAlt": "Theodore Roosevelt seated holding a baby, with a small boy beside him",
+   "credit": "Theodore Roosevelt with his grandsons Richard Derby Jr. and Kermit Roosevelt Jr., about 1916. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt's youngest son, Quentin, was shot down well behind German lines in July 1918. What did the Germans who reached the wreck do?",
+   "options": [
+    "Left the wreck untouched and moved on",
+    "Buried him where he fell, with full military honours",
+    "Returned his body through the Red Cross within days",
+    "Held him prisoner for the remainder of the war"
+   ],
+   "answer": 1,
+   "explanation": "A captured American officer watched the burial and described a detachment of German soldiers drawn up at the graveside with their officers standing at attention. On 20 July German airmen flew over the American lines and dropped a note confirming his death, along with his identification bracelet. They knew whose son he was — and that cut both ways. The same men photographed the body lying beside the wrecked aircraft, and in Germany the picture was printed as a postcard and sold.",
+   "image": "assets/img/war/quentin-grave.jpg",
+   "imageAlt": "A soldier standing beside a fenced grave in an open field, marked with a cross and wreaths",
+   "credit": "Grave of Lieut. Quentin Roosevelt, buried by Germans where he fell. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "The Army offered to bring Quentin's body home. What did his parents decide?",
+   "options": [
+    "They left the decision to the French government",
+    "They accepted, and he was buried at Oyster Bay",
+    "They accepted, and he was buried at Arlington",
+    "They declined, and asked that he be left where he fell"
+   ],
+   "answer": 3,
+   "explanation": "His father wrote: “We greatly prefer that Quentin shall continue to lie on the spot where he fell in battle, and where the foemen buried him.” It was an old family conviction — where the tree falls, there let it lie. Pershing reported that the crash site had become a place passing troops stopped at, and Edith later paid for a stone fountain in the village. After the Second World War his remains were moved to the American cemetery in Normandy, where his brother Ted now lies beside him.",
+   "image": "assets/img/war/quentin-grave.jpg",
+   "imageAlt": "A soldier standing beside a fenced grave in an open field, marked with a cross and wreaths",
+   "credit": "Grave of Lieut. Quentin Roosevelt, buried by Germans where he fell. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "How did Theodore and Edith Roosevelt first learn that Quentin was missing?",
+   "options": [
+    "They read it in the morning newspaper",
+    "A telephone call from President Wilson",
+    "A wire-service reporter came to the door at Sagamore Hill",
+    "A War Department telegram delivered by a uniformed officer"
+   ],
+   "answer": 2,
+   "explanation": "Philip Thompson of the Associated Press turned up with a censored cable from Paris that said only to watch Sagamore Hill. Roosevelt shut the door so his wife would not hear and said something had happened to one of the boys. Thompson came back next morning with confirmation, and Roosevelt's first words were about Edith: “How am I going to break it to her?” Half an hour later he handed out a statement saying that they were very glad that he got to the front and had a chance to render some service to his country. Quentin had become secretly engaged before he sailed, to Flora Whitney, who was still trying to get a passport to France to marry him.",
+   "image": "assets/img/war/tr-portrait-1916.jpg",
+   "imageAlt": "Theodore Roosevelt seated holding a baby grandson, with a small boy standing beside him",
+   "credit": "Theodore Roosevelt with his grandsons Richard Derby Jr. and Kermit Roosevelt Jr., about 1916. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The day after the news about Quentin reached Sagamore Hill in July 1918, Roosevelt kept a promise made before it came. What did he do?",
+   "options": [
+    "Spoke at the New York Republican state convention",
+    "Announced that he would run for governor of New York",
+    "Sailed for France to visit the front",
+    "Cancelled every public engagement for the rest of the year"
+   ],
+   "answer": 0,
+   "explanation": "His sister Corinne told him he need not come. He answered that it was more than ever his duty to be there, and he went to Saratoga and spoke. Republicans wanted him to run for governor again; he would not. In public he was granite. In a letter he was not: “It is rather awful to know,” he wrote, “that he paid with his life, and that my other sons may pay with their lives, to try to put in practice what I preached.” A friend who saw him that autumn said the old exuberance had gone and “the boy in him had died.”",
+   "image": "assets/img/war/tr-1918-b.jpg",
+   "imageAlt": "Theodore Roosevelt speaking from a porch to a seated crowd on a lawn in 1918",
+   "credit": "Theodore Roosevelt addressing a gathering, April 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "Speeches"
+   }
+  },
+  {
+   "prompt": "Roosevelt died at Sagamore Hill on 6 January 1919. Archie cabled his brothers, still in uniform in Europe. What did the cable say?",
+   "options": [
+    "The old lion is dead",
+    "Come home at once",
+    "The Colonel is down",
+    "Father has gone home"
+   ],
+   "answer": 0,
+   "explanation": "Five words in a telegram, and every one of them landed. He died in his sleep at sixty, six months after Quentin. Ted and Kermit were with the occupying army in Germany; Kermit wrote to his mother the next day that the bottom had dropped out for him. There was no music at the funeral and no official pallbearers, and Flora Whitney walked with the family. He had written in his last year that “Only those are fit to live who do not fear to die” — and he had already paid for the sentence.",
+   "image": "assets/img/war/tr-funeral.jpg",
+   "imageAlt": "A flag-draped casket carried up a snowy wooded slope past parked motor hearses",
+   "credit": "Roosevelt's funeral procession, Youngs Memorial Cemetery, Oyster Bay, January 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  }
+ ]
+}

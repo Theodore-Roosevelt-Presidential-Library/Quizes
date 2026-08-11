@@ -7,148 +7,202 @@
  "heroAlt": "Theodore Roosevelt and Carl Akeley with an elephant on the African expedition",
  "heroCredit": "Father, Akeley, and elephant. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
  "learnMore": "https://www.trlibrary.com/tr/post-presidency",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "After the White House",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Post-Presidency quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/post-presidency"
  },
  "tiers": [
-  { "min": 15, "name": "Bull Moose", "line": "Perfect. Fit as one." },
-  { "min": 13, "name": "River Explorer", "line": "You'd have made it down the Dúvida." },
-  { "min": 10, "name": "Safari Naturalist", "line": "Good eye in the field." },
-  { "min": 7,  "name": "Campaign Manager", "line": "A creditable third party." },
-  { "min": 4,  "name": "Armchair Traveller", "line": "The maps are still worth reading." },
-  { "min": 0,  "name": "Retired Gentleman", "line": "He tried that too. It didn't take." }
+  {
+   "min": 15,
+   "name": "Bull Moose",
+   "line": "Perfect. Fit as one."
+  },
+  {
+   "min": 13,
+   "name": "River Explorer",
+   "line": "You'd have made it down the Dúvida."
+  },
+  {
+   "min": 10,
+   "name": "Safari Naturalist",
+   "line": "Good eye in the field."
+  },
+  {
+   "min": 7,
+   "name": "Campaign Manager",
+   "line": "A creditable third party."
+  },
+  {
+   "min": 4,
+   "name": "Armchair Traveller",
+   "line": "The maps are still worth reading."
+  },
+  {
+   "min": 0,
+   "name": "Retired Gentleman",
+   "line": "He tried that too. It didn't take."
+  }
  ],
  "questions": [
   {
    "prompt": "What did Roosevelt do almost immediately after leaving office in 1909?",
    "options": [
-    "Retired to Sagamore Hill to write",
-    "Left for a year-long expedition in Africa",
-    "Ran for the Senate",
-    "Took a professorship at Harvard"
+    "Went home to Sagamore Hill to write his memoirs",
+    "Took a professorship in history at Harvard",
+    "Ran for the Senate seat from New York",
+    "Left for a year-long expedition in Africa"
    ],
-   "answer": 1,
-   "explanation": "He sailed for East Africa within weeks, on an expedition backed by the Smithsonian. Part hunting trip, part scientific collecting expedition, it kept him out of Taft's way for the better part of a year — which was partly the point.",
+   "answer": 3,
+   "explanation": "Taft was inaugurated on 4 March 1909 and Roosevelt sailed for East Africa on the 23rd, on an expedition backed by the Smithsonian. Part hunting trip, part scientific collecting expedition, it kept him out of his successor's way for the better part of a year — which was partly the point, since a former president loose in the country would have been read as a rival government. The Autobiography came later, in 1913, and he never took a chair at Harvard or ran for the Senate. He was fifty years old and had been president for seven and a half of them.",
    "image": "assets/img/post-presidency/safari-lion.jpg",
    "imageAlt": "Theodore Roosevelt and members of the safari party with a lion",
    "credit": "Round the lion. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Which institution sponsored the African expedition and received its specimens?",
    "options": [
     "The Smithsonian Institution",
-    "The British Museum",
     "Harvard's Museum of Comparative Zoology",
-    "The Field Museum"
+    "The Field Museum",
+    "The British Museum"
    ],
    "answer": 0,
    "explanation": "The Smithsonian, with the American Museum of Natural History also involved. The expedition collected many thousands of specimens — birds, mammals, reptiles and plants — and much of it took years to catalogue. Roosevelt insisted the collecting was the purpose and the shooting merely the method.",
    "image": "assets/img/post-presidency/safari-rhino.jpg",
    "imageAlt": "Theodore Roosevelt and others measuring a rhinoceros horn",
    "credit": "Putting the tape on the rhino's horn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/young-naturalist", "label": "The naturalist" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The naturalist"
+   }
   },
   {
    "prompt": "Who accompanied Roosevelt on the African expedition as a fellow collector?",
    "options": [
+    "His brother Elliott",
     "His son Kermit",
-    "His son Ted",
     "His daughter Alice",
-    "His brother Elliott"
+    "His son Ted"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Kermit, then nineteen and just finishing his first year at Harvard. He was the family's natural adventurer, and he would go with his father again to South America four years later — where he probably saved his life.",
    "image": "assets/img/post-presidency/safari-akeley-elephant.jpg",
    "imageAlt": "Roosevelt and Carl Akeley with an elephant",
    "credit": "Father, Akeley, and elephant. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "Why did Roosevelt break with his successor, William Howard Taft?",
    "options": [
-    "A personal quarrel over money",
-    "Taft's conservatism and his handling of conservation and the trusts",
-    "Taft's foreign policy in Asia",
-    "A dispute over cabinet appointments"
+    "Taft's veto of the Payne–Aldrich tariff",
+    "Taft's decision to recognise the Chinese republic",
+    "Taft's drift to the party's conservative wing",
+    "A personal quarrel over royalties from his African book"
    ],
-   "answer": 1,
-   "explanation": "Roosevelt came home to find his hand-picked successor siding with the party's old guard, and the row over the firing of Gifford Pinchot crystallised it. What began as policy disagreement turned personal and stayed that way for years.",
+   "answer": 2,
+   "explanation": "Roosevelt came home from Africa to find his hand-picked successor governing with the party's old guard rather than against it. The specifics were conservation and the trusts: Taft's Interior Secretary, Richard Ballinger, undid some of the land withdrawals, Gifford Pinchot went public about it and was fired for insubordination, and then Taft's Justice Department brought an antitrust suit against U.S. Steel that named Roosevelt's own 1907 decision as the wrong done. Taft also signed the Payne–Aldrich tariff instead of fighting it, which cost him the progressives. What began as policy disagreement turned personal and stayed that way for years; the two men did not speak again until 1918.",
    "image": "assets/img/post-presidency/race-to-white-house.jpg",
    "imageAlt": "Cartoon of the race to the White House with Wilson on a donkey and Taft on an elephant",
    "credit": "Race to the White House, with Wilson on a donkey and Taft on an elephant. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What was Roosevelt's third party in 1912 popularly called?",
    "options": [
-    "The Progressive, or Bull Moose, Party",
+    "The Independent Republicans",
     "The Populist Party",
-    "The Union Party",
-    "The Independent Republicans"
+    "The Progressive, or Bull Moose, Party",
+    "The Union Party"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Formally the Progressive Party. The nickname came from Roosevelt's own line that he felt as fit as a bull moose, and it stuck to the party, its cartoons and its campaign.",
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
    "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
    "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "In October 1912, campaigning in Milwaukee, what happened to Roosevelt?",
    "options": [
-    "He collapsed from exhaustion",
-    "He was shot in the chest and delivered his speech anyway",
-    "His train derailed",
-    "He lost his voice entirely"
+    "His campaign train derailed outside Racine",
+    "He was shot and spoke anyway",
+    "He collapsed from exhaustion and was ordered to bed",
+    "He lost his voice and finished the tour in silence"
    ],
    "answer": 1,
-   "explanation": "A saloonkeeper named John Schrank shot him at close range. The bullet passed through his folded fifty-page speech and steel spectacle case before entering his chest. Reasoning that he was not coughing blood and so the lung was untouched, he spoke for the better part of an hour before going to hospital.",
+   "explanation": "A saloonkeeper named John Schrank shot him in the chest at close range as he stood in an open car outside the Gilpatrick Hotel. The bullet passed through the folded fifty-page speech in his breast pocket and his steel spectacle case before entering him. Reasoning that he was not coughing blood and so the lung was untouched, he insisted on being driven to the auditorium, opened by telling the crowd it took more than that to kill a bull moose, and spoke for the better part of an hour with the manuscript bloodied in his hand before he would go to hospital. Schrank was found insane and spent the rest of his life in a state institution.",
    "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
    "imageAlt": "Roosevelt with Rough Rider veterans during the Bull Moose campaign in Chicago",
    "credit": "T.R. with Rough Rider veterans during the Bull Moose campaign, Chicago. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What happened to the bullet?",
    "options": [
-    "It was removed the same night",
-    "It stayed in his chest for the rest of his life",
     "It was never found",
-    "It lodged in the speech manuscript and never entered him"
+    "It lodged in the speech manuscript and never entered him",
+    "It was removed the same night",
+    "It stayed in his chest for the rest of his life"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Surgeons judged it more dangerous to dig it out than to leave it, and he carried it in his chest wall until he died seven years later.",
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
    "imageAlt": "Roosevelt and Hiram Johnson after the nomination",
    "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "How did the 1912 presidential election end?",
    "options": [
-    "Roosevelt won",
-    "Taft won",
     "Woodrow Wilson won, with Roosevelt second and Taft third",
+    "Taft won",
+    "Roosevelt won",
     "The election went to the House of Representatives"
    ],
-   "answer": 2,
+   "answer": 0,
    "explanation": "Roosevelt and Taft split the Republican vote and handed the presidency to Woodrow Wilson. Roosevelt finished second — still the strongest third-party showing in American history — and Taft, the sitting president, carried two states.",
    "image": "assets/img/post-presidency/race-to-white-house.jpg",
    "imageAlt": "Cartoon of the 1912 race to the White House",
    "credit": "Race to the White House, with Wilson on a donkey and Taft on an elephant. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "In 1913–14 Roosevelt joined an expedition to map an uncharted river. Where?",
    "options": [
-    "The Congo basin",
-    "The Amazon basin in Brazil",
     "The Orinoco in Venezuela",
+    "The Amazon basin in Brazil",
+    "The Congo basin",
     "The Mekong"
    ],
    "answer": 1,
@@ -156,82 +210,118 @@
    "image": "assets/img/post-presidency/safari-rhino.jpg",
    "imageAlt": "Theodore Roosevelt on expedition",
    "credit": "Putting the tape on the rhino's horn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What happened to Roosevelt on that river?",
    "options": [
-    "He was uninjured throughout",
-    "He gashed his leg, developed infection and fever, and asked to be left behind",
-    "He was bitten by a snake",
-    "He turned back early"
+    "He was bitten by a bushmaster and treated in camp",
+    "He came through the descent without injury",
+    "He turned back early and waited at the headwaters",
+    "He gashed his leg and nearly died of infection"
    ],
-   "answer": 1,
-   "explanation": "He cut his leg helping free a canoe, the wound became infected, and malarial fever followed. At his worst he urged the others to go on without him. Kermit refused. He came out perhaps fifty pounds lighter and never fully recovered his health.",
+   "answer": 3,
+   "explanation": "He went into the water to help free two canoes pinned against the rocks and cut his leg open on one of them. The wound became infected, malarial fever followed, and an old abscess from a carriage accident years earlier had to be lanced in the jungle without proper anaesthetic. At his worst he urged the others to go on and leave him behind, and he is said to have carried a fatal dose of morphine for exactly that purpose. Kermit refused to go, which settled it, because his father knew the boy would not leave the body. He came out perhaps fifty pounds lighter and never fully recovered his health.",
    "image": "assets/img/post-presidency/safari-lion.jpg",
    "imageAlt": "Roosevelt with the safari party",
    "credit": "Round the lion. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What is that river called today?",
-   "options": ["Rio Kermit", "Rio Roosevelt", "Rio Rondon", "Rio da Dúvida still"],
-   "answer": 1,
+   "options": [
+    "Rio Rondon",
+    "Rio Kermit",
+    "Rio Roosevelt",
+    "Rio da Dúvida still"
+   ],
+   "answer": 2,
    "explanation": "The Brazilian government renamed it Rio Roosevelt in his honour. Locally it is often still called the Rio Teodoro.",
    "image": "assets/img/post-presidency/safari-akeley-elephant.jpg",
    "imageAlt": "Roosevelt on expedition with Carl Akeley",
    "credit": "Father, Akeley, and elephant. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "What did Roosevelt ask to do when the United States entered the First World War in 1917?",
    "options": [
-    "Serve as Secretary of War",
     "Raise a volunteer division and take it to France",
+    "Serve as Secretary of War",
     "Tour the country selling war bonds",
     "Command the navy"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "He asked President Wilson for permission to raise a volunteer division and lead it to France, at fifty-eight and in poor health. Wilson refused. Roosevelt never forgave him, and all four of his sons went instead.",
    "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
    "imageAlt": "Roosevelt with Rough Rider veterans",
    "credit": "T.R. with Rough Rider veterans during the Bull Moose campaign, Chicago. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Which of Roosevelt's sons was killed in the First World War?",
-   "options": ["Ted Jr.", "Kermit", "Archie", "Quentin"],
-   "answer": 3,
-   "explanation": "Quentin, the youngest, a pilot shot down behind German lines in July 1918. He was twenty. Those close to Roosevelt said he never recovered, and he died six months later.",
+   "options": [
+    "Quentin",
+    "Kermit",
+    "Theodore Jr.",
+    "Archibald"
+   ],
+   "answer": 0,
+   "explanation": "Quentin, the youngest, a pursuit pilot shot down behind German lines on 14 July 1918. He was twenty. All four sons served: Theodore Jr. and Archibald were both wounded in France, and Kermit went first with the British in Mesopotamia because he could not wait for the American army. The Germans buried Quentin with military honours where he fell, and photographs of the grave were circulated as propaganda. Those close to Roosevelt said he never recovered; he died six months later.",
    "image": "assets/img/post-presidency/race-to-white-house.jpg",
    "imageAlt": "Political cartoon of the era",
    "credit": "Race to the White House, with Wilson on a donkey and Taft on an elephant. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "Where and when did Roosevelt die?",
    "options": [
-    "At Sagamore Hill, January 6, 1919",
     "In Manhattan, October 1919",
+    "At Oyster Bay, 1918",
     "In Washington, 1920",
-    "At Oyster Bay, 1918"
+    "At Sagamore Hill, January 6, 1919"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "In his sleep at Sagamore Hill, in the early hours of January 6, 1919, aged sixty. His son Archie cabled his brothers: the old lion is dead.",
    "image": "assets/img/post-presidency/safari-rhino.jpg",
    "imageAlt": "Theodore Roosevelt on expedition",
    "credit": "Putting the tape on the rhino's horn. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "How many books did Roosevelt write across his life?",
-   "options": ["About five", "About a dozen", "About thirty-five", "More than a hundred"],
-   "answer": 2,
+   "options": [
+    "About a dozen",
+    "About thirty-five",
+    "More than a hundred",
+    "About five"
+   ],
+   "answer": 1,
    "explanation": "Around thirty-five, plus thousands of articles and an estimated hundred thousand letters. Several came out of this last decade alone — the African book, the Autobiography, and the account of the Brazilian river.",
    "image": "assets/img/post-presidency/safari-lion.jpg",
    "imageAlt": "Roosevelt with the safari party",
    "credit": "Round the lion. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
   }
  ]
 }

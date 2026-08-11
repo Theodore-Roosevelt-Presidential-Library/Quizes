@@ -196,9 +196,20 @@ Three things would have to change:
 2. **A verification pass that runs on the corpus automatically** — extract every
    quotation and figure, grep, flag the misses for a human. The audit script written
    for this project is the seed of that.
-3. **Hagedorn's *Roosevelt in the Bad Lands* (1921) in the corpus.** It is the
-   eyewitness source for the Dakota period and its absence already cost us four
-   quotations.
+3. ~~**Hagedorn's *Roosevelt in the Bad Lands* (1921) in the corpus.**~~ **Done.** The
+   book is in `/Users/mbriney/TRPL/Book_Text/` and the four Badlands quotations have
+   been run down against it: two restored verbatim, two confirmed as not Hagedorn's
+   wording and left paraphrased. Two figures came back as well. One did not — the
+   appendix stating Roosevelt's cattle investment is missing from the OCR — and
+   neither did the founding line, "I never would have been President if it had not
+   been for my experiences in North Dakota," which is not in the book and still has no
+   primary source. See `FACT-CHECK.md`.
+
+   What replaces it on this list: **a fiction blocklist.** The corpus contains novels
+   — Shaara's *The Old Lion*, Gilbert Morris's *The Rough Rider*, Charyn's *Cowboy
+   King* — whose invented dialogue greps exactly like a real quotation. At a hundred
+   quizzes nobody will catch that by eye. `verify.py` should refuse to count a hit
+   that lands only in a novel.
 
 ## If you only did ten
 

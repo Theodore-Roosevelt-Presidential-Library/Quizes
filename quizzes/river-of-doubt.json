@@ -1,0 +1,327 @@
+{
+ "id": "river-of-doubt",
+ "title": "The River of Doubt",
+ "subtitle": "The Roosevelt–Rondon Scientific Expedition, 1913–14",
+ "intro": "A fifty-five-year-old ex-president, a Brazilian colonel who had spent half his life mapping the Amazon, seven dugout canoes, and a river nobody had followed to its end. Two men did not come home. Fifteen questions on the hardest journey of Theodore Roosevelt's life — and on Cândido Rondon, whose expedition it equally was.",
+ "heroImage": "assets/img/amazon/tr-boat2.jpg",
+ "heroAlt": "Theodore Roosevelt sitting among baggage in a loaded dugout canoe at a riverbank in Brazil",
+ "heroCredit": "Roosevelt with loaded dugout canoes on the riverbank during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/post-presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The River of Doubt",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's River of Doubt quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/post-presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Put It on the Map",
+   "line": "Scientific precision, and you meant it."
+  },
+  {
+   "min": 13,
+   "name": "Co-Commander",
+   "line": "Roosevelt and Rondon would both have signed off."
+  },
+  {
+   "min": 10,
+   "name": "Fixed-Station Surveyor",
+   "line": "Slow, careful, and right."
+  },
+  {
+   "min": 7,
+   "name": "Camarada",
+   "line": "The people who did the hardest work of all."
+  },
+  {
+   "min": 4,
+   "name": "Highlands Traveller",
+   "line": "You got as far as the telegraph line."
+  },
+  {
+   "min": 0,
+   "name": "Armchair Cartographer",
+   "line": "The maps are still worth reading."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt's 1913 trip to South America began as a lecture tour with a gentle river journey attached. What turned it into the descent of an unmapped river?",
+   "options": [
+    "A dare from a reporter travelling with him",
+    "A question from Brazil's foreign minister",
+    "A cable from President Wilson",
+    "A telegram from the American Museum of Natural History"
+   ],
+   "answer": 1,
+   "explanation": "The original plan was speeches in Argentina, Brazil and Chile, plus a comparatively tame river trip mapped out by Father John Zahm. Then, at a meeting in Rio de Janeiro, Müller asked him: “why don’t you go down an unknown river?” Roosevelt agreed almost on the spot. Müller immediately began to worry about what he had done, warning his guest that the Brazilians could tell him nothing of what would happen.",
+   "image": "assets/img/amazon/tr-map.jpg",
+   "imageAlt": "Theodore Roosevelt in a suit pointing to a river on a large map of South America while another man watches",
+   "credit": "Roosevelt pointing out the ground the expedition covered on a map of South America. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "What was Cândido Rondon's role on the expedition?",
+   "options": [
+    "Roosevelt's interpreter and secretary",
+    "A Brazilian journalist sent to report the trip",
+    "Co-commander, and the man who had named the river",
+    "A local guide hired at the last river town"
+   ],
+   "answer": 2,
+   "explanation": "Rondon was a colonel in the Brazilian army and head of its Strategic Telegraph Commission, and he had already spent roughly half his life exploring the Amazon. In 1909, out of food and out of time, his party stumbled on a stream that twisted so wildly nobody could say where it went, and he named it Rio da Dúvida — the River of Doubt. The venture went out under both men's names: the Roosevelt-Rondon Scientific Expedition.",
+   "image": "assets/img/amazon/tr-rondon3.jpg",
+   "imageAlt": "Theodore Roosevelt and Colonel Cândido Rondon standing on a sandbank beside dugout canoes with game they have shot",
+   "credit": "Roosevelt (left) and Colonel Cândido Rondon on a riverbank during the Roosevelt-Rondon Scientific Expedition. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Rondon gave his soldiers one standing order about the Indigenous peoples whose land they crossed. What was it?",
+   "options": [
+    "Shoot only if they shoot first",
+    "Speak to no one without an interpreter",
+    "Trade for everything, take nothing",
+    "Die if you must, but never kill"
+   ],
+   "answer": 3,
+   "explanation": "Those were his own words, and every soldier in his commission could recite them. Rondon's men had to watch friends die at the hands of people they were forbidden to fire on, and he told them, “for I loved this man who has perished for my sake. But I command you to do as he did. Never shoot.” It cost him soldiers, and it was the reason the tribes along his telegraph line ever risked trusting him at all. One cook, offered a place on the River of Doubt, replied: “Sir! I have done nothing to deserve such punishment!”",
+   "image": "assets/img/amazon/tr-rondon.jpg",
+   "imageAlt": "Theodore Roosevelt and Cândido Rondon holding up a jaguar skin in tall grass, with two other men nearby",
+   "credit": "Roosevelt with Cândido Rondon (right) and a jaguar skin during the Roosevelt-Rondon Scientific Expedition. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "In 1910 Brazil created its first federal agency devoted to protecting Indigenous people. Who was its first director?",
+   "options": [
+    "Cândido Rondon",
+    "Hermann von Ihering",
+    "Lauro Müller",
+    "Lieutenant João Lyra"
+   ],
+   "answer": 0,
+   "explanation": "The agency came out of a public argument. In 1908 von Ihering, who ran the São Paulo Museum, wrote that Brazil's Indians would not survive the country's ambitions and should not be allowed to stand in their way. Rondon took him on in the press, and the Indian Protection Service was the result, with Rondon at its head. Protecting Amazonian peoples outlasted exploring as his life's work — a Brazilian state carries his name today, and the agency's descendant, FUNAI, still exists.",
+   "image": "assets/img/amazon/tr-rondon3.jpg",
+   "imageAlt": "Colonel Cândido Rondon in uniform standing on a riverbank in Brazil with Theodore Roosevelt",
+   "credit": "Roosevelt (left) and Colonel Cândido Rondon on a riverbank during the Roosevelt-Rondon Scientific Expedition. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Father John Zahm, the priest who had spent years talking Roosevelt into going to South America, was sent home before the river. What finally did it?",
+   "options": [
+    "He refused to travel on Sundays",
+    "He lost the expedition's only set of maps",
+    "He asked to be carried in a chair by Indigenous porters",
+    "He demanded that the expedition turn back at the first rapids"
+   ],
+   "answer": 2,
+   "explanation": "Rondon told him no Pareci would submit to such degrading and subservient work. Zahm, undeterred, explained that in Peru carrying a priest that way was “an honour worth disputing.” After a heated exchange, Roosevelt invited him into his tent; when the two came out, Zahm was going home. Roosevelt then sat down with a blank sheet of paper, handwrote a formal record of the dismissal, and had everyone but the paddlers sign it.",
+   "image": "assets/img/amazon/tr-riding.jpg",
+   "imageAlt": "A line of riders on horses and oxen crossing open grassland dotted with palm trees in Brazil",
+   "credit": "The expedition crossing the Brazilian highlands. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "What did the expedition actually descend the River of Doubt in?",
+   "options": [
+    "The lightweight canvas-covered canoes ordered in New York",
+    "Seven dugout canoes, two of them old and leaking",
+    "Two steel-hulled motorboats shipped from Pennsylvania",
+    "Rafts lashed together on the riverbank"
+   ],
+   "answer": 1,
+   "explanation": "The good canoes and the motorboats the quartermaster had bought at home went down other rivers with other men. At the telegraph bridge where the descent began there were no boats at all, so Rondon bought seven dugouts from Nhambiquara families. Roosevelt described them without flattery: “One was small, one was cranky, and two were old, waterlogged, and leaky.” Loaded with food for twenty-two men, they rode a few inches above the water.",
+   "image": "assets/img/amazon/tr-boat2.jpg",
+   "imageAlt": "Theodore Roosevelt seated among bundles in a long dugout canoe pulled up on a muddy riverbank, with several men around him",
+   "credit": "Roosevelt with loaded dugout canoes on the riverbank. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Against Rondon's signal to pull ashore, Kermit Roosevelt ordered his canoe on into a set of rapids. What was the result?",
+   "options": [
+    "Kermit broke an arm and had to be carried for a week",
+    "The canoe was lost with the surveying instruments, and no one was hurt",
+    "The canoe was swamped, but everyone reached the bank",
+    "It went over a waterfall and the paddler Simplício drowned"
+   ],
+   "answer": 3,
+   "explanation": "The two paddlers with him balked; Roosevelt himself called them exceptionally good men in every way. One of them, João, fought his way to shore. Kermit surfaced downstream and caught a branch. The third man did not come up, and his body was never found. Rondon named the falls for him, which was the only marker any of them could give.",
+   "image": "assets/img/amazon/tr-in-boat.jpg",
+   "imageAlt": "Theodore Roosevelt sitting on baggage in a loaded boat at the water's edge while men work around him",
+   "credit": "Roosevelt seated in a loaded boat during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Weeks into the descent, a paddler named Julio shot and killed Sergeant Paishon on a portage trail. What had led up to it?",
+   "options": [
+    "Paishon had caught him stealing food and rebuked him",
+    "Julio blamed Paishon for the loss of a canoe",
+    "A dispute over wages he had been promised before they set out",
+    "A quarrel over which channel to run"
+   ],
+   "answer": 0,
+   "explanation": "By then the officers had halved their own rations so the paddlers could eat, and Roosevelt did not treat the stealing as petty: “the theft of food comes next to murder as a crime,” he wrote. Paishon, a sergeant in Brazil's Fifth Battalion of Engineers, had once struck him in the mouth for it. On the morning of the killing, Julio picked up a carbine that had been left beside a load on the trail, walked back along it, and shot Paishon through the heart from a dozen paces. Rondon named the falls and the hills around them for the dead man.",
+   "image": "assets/img/amazon/tr-boat2.jpg",
+   "imageAlt": "Members of the expedition working around heavily loaded dugout canoes tied up at a riverbank",
+   "credit": "Roosevelt with loaded dugout canoes on the riverbank. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "A paddler shot Sergeant Paishon dead on a portage trail and vanished into the forest. Roosevelt and Rondon then had the sharpest disagreement of the journey over him. What did Rondon insist on?",
+   "options": [
+    "Recovering him so that he could be tried in Brazil",
+    "Leaving him a canoe and a share of the rations",
+    "Executing him as soon as he was caught",
+    "Putting him in irons in one of the canoes"
+   ],
+   "answer": 0,
+   "explanation": "The man was a camarada named Julio de Lima, who had run off with the carbine still in his hands; nobody in camp believed Paishon was the only target he had in mind. He reappeared days later, crouched on the bank and begging to be taken aboard. Rondon called back that he could not stop the canoe and interrupt the survey — then argued that night that it was “the duty of a Brazilian officer and of a man” to bring a murderer home for trial. Roosevelt, feverish and watching the food run out, finally shouted, “The expedition is endangered!” But the soldiers were Rondon's to command, and Roosevelt said so plainly in his own account. Two paddlers spent a whole day searching, calling and firing rifles, and never caught sight of him.",
+   "image": "assets/img/amazon/tr-in-boat.jpg",
+   "imageAlt": "Theodore Roosevelt seated in a loaded boat on the river while men move baggage on the bank behind him",
+   "credit": "Roosevelt seated in a loaded boat during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "A barefoot paddler clearing a campsite swung an axe at a three-foot coral snake, missed, and drove it straight toward Roosevelt. What happened next?",
+   "options": [
+    "It vanished into the brush and the camp was moved",
+    "It bit him on the ankle and the doctor opened the wound",
+    "Roosevelt stamped on it with his heavy hobnailed boot",
+    "Rondon shot it"
+   ],
+   "answer": 2,
+   "explanation": "George Cherrie, the expedition's naturalist, said Roosevelt danced far more livelily killing that snake than he had dancing a hornpipe on the ship out. Accounts differ on how close it came — Cherrie has the snake striking first and spending its venom in the leather; other tellings simply have Roosevelt crushing it. Either way there was nothing to be done if it had connected. No antivenom existed, and in rural Brazil at the time a coral-snake bite was not treated at all.",
+   "image": "assets/img/amazon/tr-group.jpg",
+   "imageAlt": "Theodore Roosevelt standing in tall grass beside a pack ox and a rider during the overland journey",
+   "credit": "Roosevelt with a pack ox on the overland journey. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt put on each evening before sitting down at his little folding table in camp?",
+   "options": [
+    "A pair of spare spectacles kept dry in oilcloth",
+    "The uniform coat of the Brazilian telegraph service",
+    "A rubber cape against the rain",
+    "Fringed gauntlets and a head net"
+   ],
+   "answer": 3,
+   "explanation": "He was writing the magazine articles he had contracted to file from the field, and the insects made it nearly impossible. So he wrote gloved and veiled, sometimes until nine at night, and the finished sheets went into a black leather bag that stayed within reach the whole way down the river. They became the book Through the Brazilian Wilderness. Rondon, no easy judge of anyone, said Roosevelt wrote every day and never neglected the work, even when it took heroic effort.",
+   "image": "assets/img/amazon/tr-writing.jpg",
+   "imageAlt": "Theodore Roosevelt writing at a folding camp table wearing long fringed gloves and a hat covered with mosquito netting",
+   "credit": "Roosevelt at his camp table in gauntlets and a netted helmet during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "Roosevelt packed one item at home in case the worst happened on the river. What was it?",
+   "options": [
+    "A signal rocket",
+    "A vial holding a lethal dose of morphine",
+    "A revolver he reserved for himself",
+    "A sealed letter to be opened only by Edith"
+   ],
+   "answer": 1,
+   "explanation": "It was tucked among his spare socks and his many spare pairs of eyeglasses. “I have always made it a practice on such trips to take a bottle of morphine with me,” he had told a reporter, because he would not be the man who slowed everyone else down. On the river, with his leg infected and the canoes about to be abandoned, he woke Cherrie before dawn: “Boys, I realize that some of us are not going to finish this journey. Cherrie, I want you and Kermit to go on. You can get out. I will stop here.” Neither of them went.",
+   "image": "assets/img/amazon/tr-writing.jpg",
+   "imageAlt": "Theodore Roosevelt seated at a folding camp table in gloves and a netted hat, writing",
+   "credit": "Roosevelt at his camp table during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "At the height of his fever, what did Roosevelt repeat over and over in the tent?",
+   "options": [
+    "The Gettysburg Address",
+    "The names of his four sons",
+    "Coleridge's Kubla Khan",
+    "The Twenty-third Psalm"
+   ],
+   "answer": 2,
+   "explanation": "“In Xanadu did Kubla Khan a stately pleasure-dome decree” — round and round, hour after hour, while Cherrie and Kermit took turns sitting up with him. Cherrie did not think he would live through the night, and wrote so in his diary. The fever and the infection came home with him and never entirely let go; he was giving lectures within weeks and was ill again by the summer.",
+   "image": "assets/img/amazon/tr-return-1914.jpg",
+   "imageAlt": "Close-up photograph of a thin, drawn Theodore Roosevelt in a hat and overcoat on his return from South America",
+   "credit": "Colonel Roosevelt on his return, 1914. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "The expedition never once met the people whose country the river ran through, but knew it was being watched. What made that unmistakable?",
+   "options": [
+    "Rondon's dog was killed with arrows just outside camp",
+    "Fires were lit on both banks ahead of them",
+    "Footprints were found in every campsite they made",
+    "A canoe was taken during the night"
+   ],
+   "answer": 0,
+   "explanation": "Rondon had walked out with the dog to look for game. Lobo ran ahead, and Rondon heard him cry out; he followed the blood a few hundred yards and found him with two arrows through him. Had Rondon been walking in front, the dog's place would have been his. The people in the forest were the Cinta Larga, who had had almost no contact with the outside world, and Candice Millard's account of the tribe has them divided among themselves over whether to attack. They never did.",
+   "image": "assets/img/amazon/tr-riding.jpg",
+   "imageAlt": "Riders and pack animals moving across open country in Brazil with dogs running alongside",
+   "credit": "The expedition on the move during the Roosevelt-Rondon Scientific Expedition. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Back home, prominent geographers publicly doubted that Roosevelt had found what he said he had. How did he answer them?",
+   "options": [
+    "He refused to discuss the trip in public again",
+    "He sued a London newspaper for libel",
+    "He sent Kermit back to photograph the river",
+    "He lectured in Washington and then again in London"
+   ],
+   "answer": 3,
+   "explanation": "Sir Clements Markham, a former president of the Royal Geographical Society, said he felt “somewhat incredulous as to Col. Roosevelt having actually discovered a new river nearly a thousand miles long.” So Roosevelt went and stood up in front of them: the National Geographic Society in Washington first, then the Royal Geographical Society in London. He was so weakened that people in the Washington hall could barely hear him, and nobody left. What settled the argument was not oratory but Rondon's survey work — the river they charted, Roosevelt wrote, was “some fifteen hundred kilometres in length.” His own line for it, “the biggest affluent of the biggest affluent of the mightiest river in the world,” was a boast rather than a measurement: the River of Doubt is a branch of the Aripuanã, and it is the Aripuanã that is the Madeira's largest tributary.",
+   "image": "assets/img/amazon/tr-map.jpg",
+   "imageAlt": "Theodore Roosevelt pointing to a river on a map of South America while another man looks on",
+   "credit": "Roosevelt pointing out the ground the expedition covered on a map of South America. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  }
+ ]
+}

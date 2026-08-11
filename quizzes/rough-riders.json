@@ -7,226 +7,321 @@
  "heroAlt": "Colonel Roosevelt and his Rough Riders at the top of the hill they captured",
  "heroCredit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Rough Riders",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Rough Riders quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/rise-to-power"
  },
  "tiers": [
-  { "min": 15, "name": "Colonel of the Regiment", "line": "Perfect. Not a man out of step." },
-  { "min": 13, "name": "Troop Captain", "line": "You know this outfit." },
-  { "min": 10, "name": "Sergeant", "line": "Steady under fire." },
-  { "min": 7,  "name": "Trooper", "line": "Mustered in and holding the line." },
-  { "min": 4,  "name": "Raw Recruit", "line": "San Antonio will sort you out." },
-  { "min": 0,  "name": "Left Behind in Tampa", "line": "So were most of the horses." }
+  {
+   "min": 15,
+   "name": "Colonel of the Regiment",
+   "line": "Perfect. Not a man out of step."
+  },
+  {
+   "min": 13,
+   "name": "Troop Captain",
+   "line": "You know this outfit."
+  },
+  {
+   "min": 10,
+   "name": "Sergeant",
+   "line": "Steady under fire."
+  },
+  {
+   "min": 7,
+   "name": "Trooper",
+   "line": "Mustered in and holding the line."
+  },
+  {
+   "min": 4,
+   "name": "Raw Recruit",
+   "line": "San Antonio will sort you out."
+  },
+  {
+   "min": 0,
+   "name": "Left Behind in Tampa",
+   "line": "So were most of the horses."
+  }
  ],
  "questions": [
   {
    "prompt": "What was the regiment's official name?",
    "options": [
-    "The First United States Volunteer Cavalry",
     "The First New York Volunteers",
+    "The Western Volunteer Horse",
     "The Roosevelt Rifles",
-    "The Western Volunteer Horse"
+    "The First United States Volunteer Cavalry"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "The First United States Volunteer Cavalry. \"Rough Riders\" was a newspaper coinage, borrowed from Wild West show billing, and the men adopted it because it was better than anything the army came up with.",
    "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
    "imageAlt": "Roosevelt and the Rough Riders at the top of the captured hill",
    "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What post did Roosevelt resign in order to go to war?",
    "options": [
+    "Civil Service Commissioner",
     "Governor of New York",
     "Assistant Secretary of the Navy",
-    "New York police commissioner",
-    "Civil Service Commissioner"
+    "New York police commissioner"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Assistant Secretary of the Navy — a job he had wanted badly and had used to push the fleet toward readiness. When war came he resigned to fight in it, against the advice of nearly everyone who liked him.",
    "image": "assets/img/rough-riders/col-brodie.jpg",
    "imageAlt": "Roosevelt greeting Colonel Brodie of the Rough Riders",
    "credit": "Greeting Col. Brodie of Rough Riders. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Roosevelt was offered command of the regiment but turned it down. Why?",
    "options": [
-    "He thought he lacked the military experience and asked for second-in-command",
-    "He was too ill to lead",
-    "The War Department forbade it",
-    "He wanted a naval command instead"
+    "He thought he lacked the experience",
+    "He was too ill to take the field",
+    "He wanted a naval command instead",
+    "The War Department refused to commission a civilian as colonel"
    ],
    "answer": 0,
-   "explanation": "He judged that he did not yet know enough to command a regiment in the field, and asked instead to serve under Leonard Wood, an army surgeon with a Medal of Honor and real campaign experience. Roosevelt took the lieutenant-colonelcy and learned the job. He got the colonelcy later, when Wood was promoted.",
+   "explanation": "Secretary of War Russell Alger offered him the colonelcy outright. Roosevelt judged that he did not yet know enough to command a regiment in the field, and asked instead to serve as second-in-command under Leonard Wood — an army surgeon with a Medal of Honor and real campaign experience against Geronimo. It is the least characteristic decision of his life and probably the shrewdest: he took the lieutenant-colonelcy, learned the job from a professional, and got the colonelcy anyway six weeks later when Wood moved up to a brigade.",
    "image": "assets/img/rough-riders/col-brodie.jpg",
    "imageAlt": "Roosevelt greeting Colonel Brodie of the Rough Riders",
    "credit": "Greeting Col. Brodie of Rough Riders. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Where did the regiment muster and train?",
-   "options": ["Tampa, Florida", "San Antonio, Texas", "Fort Riley, Kansas", "Governors Island, New York"],
+   "options": [
+    "Governors Island, New York",
+    "San Antonio, Texas",
+    "Tampa, Florida",
+    "Fort Riley, Kansas"
+   ],
    "answer": 1,
    "explanation": "San Antonio, Texas. Wood went ahead to set up the camp; Roosevelt followed on May 12, 1898. The recruits arrived from the territories and the eastern colleges within days of each other, which is roughly as long as they had to become a regiment.",
    "image": "assets/img/rough-riders/col-brodie.jpg",
    "imageAlt": "Roosevelt greeting Colonel Brodie of the Rough Riders",
    "credit": "Greeting Col. Brodie of Rough Riders. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Who filled the ranks of the Rough Riders?",
    "options": [
+    "Western cowboys and Eastern college men",
+    "Cuban exiles recruited in Florida",
     "Regular army cavalry transferred from the frontier",
-    "Cowboys and lawmen from the territories alongside Ivy League athletes and clubmen",
-    "New York City policemen",
-    "Cuban exiles recruited in Florida"
+    "New York City policemen"
    ],
-   "answer": 1,
-   "explanation": "Both, deliberately. Roosevelt recruited hunters, cowpunchers, sheriffs and Native American troopers from the western territories, and mixed them with Harvard, Yale and Princeton men — including a polo player or two and an Englishman who turned up expecting cavalrymen to carry canes.",
+   "answer": 0,
+   "explanation": "Both, deliberately. Roosevelt recruited hunters, cowpunchers, sheriffs and Native American troopers from the western territories — Arizona, New Mexico, Oklahoma and Indian Territory — and mixed them with Harvard, Yale and Princeton men, including a polo player or two and an Englishman who turned up expecting cavalrymen to carry canes. The mix was the point: he believed the two halves of the country would recognise each other if you put them in the same camp, and by all accounts the western half won the argument about how to behave in it.",
    "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
    "imageAlt": "Roosevelt and the Rough Riders on the captured hill",
    "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What happened to most of the regiment's horses?",
    "options": [
-    "They were shipped to Cuba with the men",
-    "They were left behind in Tampa for lack of transport",
     "They were lost at sea",
-    "They were sold to the Cuban army"
+    "They were sold to the Cuban army",
+    "They were left behind in Tampa",
+    "They were shipped to Cuba with the men"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "There was not enough shipping. Most of the horses stayed in Tampa, so a cavalry regiment fought its war on foot — as did the rest of the division, cavalry in name only. Officers' horses were allowed aboard, which is why Roosevelt was mounted and conspicuous when the others were not.",
    "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
    "imageAlt": "Painting of the charge of the Rough Riders at San Juan Hill",
    "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What was the regiment's first fight, on June 24, 1898?",
-   "options": ["El Caney", "Las Guásimas", "Kettle Hill", "Siboney"],
+   "options": [
+    "El Caney",
+    "Las Guásimas",
+    "Siboney",
+    "Kettle Hill"
+   ],
    "answer": 1,
    "explanation": "Las Guásimas, named for a pass about twelve miles from Santiago. The Rough Riders pushed through jungle and heavy undergrowth in brutal heat against entrenched Spanish troops they mostly could not see. It was a shock, and it taught them what smokeless powder meant.",
    "image": "assets/img/rough-riders/san-juan-monument.jpg",
    "imageAlt": "The monument on San Juan Hill",
    "credit": "The monument on San Juan Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "On July 1, 1898, which hill did Roosevelt and the Rough Riders actually charge?",
-   "options": ["San Juan Hill", "Kettle Hill", "El Viso", "Cerro Gordo"],
-   "answer": 1,
+   "options": [
+    "San Juan Hill",
+    "Cerro Gordo",
+    "El Viso",
+    "Kettle Hill"
+   ],
+   "answer": 3,
    "explanation": "Kettle Hill. The larger action is remembered as San Juan Hill, and the two are part of the same San Juan Heights, but Roosevelt's charge went up Kettle Hill. From the top he had a clear view of Kent's infantry still working their way up San Juan Hill across the valley.",
    "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
    "imageAlt": "Painting of the charge of the Rough Riders at San Juan Hill",
    "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "How was Roosevelt most easily identified during the charge?",
    "options": [
-    "By a blue polka-dot neckerchief flying from his hat",
-    "By a red sash",
     "By carrying the regimental colours himself",
-    "By his white horse"
+    "By a red sash",
+    "By his white horse",
+    "By a blue polka-dot neckerchief"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "A blue neckerchief with white polka dots, worn round his hat and streaming behind him. His men remembered it for the rest of their lives — \"the man with the flying blue neckerchief.\" It also made him an obvious target, which he seems not to have minded.",
    "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
    "imageAlt": "Roosevelt and the Rough Riders at the top of the captured hill",
    "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Which weapon gave decisive support to the American advance on the heights?",
    "options": [
-    "Naval gunfire",
     "Lieutenant Parker's Gatling gun detachment",
     "Cavalry sabres",
-    "Aerial observation balloons directing artillery"
+    "Aerial observation balloons directing artillery",
+    "Naval gunfire"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Lieutenant John Parker's Gatling guns opened on the Spanish trenches and their effect on the defenders was immediate. Roosevelt was unstinting about it afterwards, and said so in print — unusual generosity from a man writing his own account of his own battle.",
    "image": "assets/img/rough-riders/parker-gatlings.jpg",
    "imageAlt": "A man at a Gatling gun, from the Roosevelt collection",
    "credit": "Lieut. Parker and his Gatlings. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Roosevelt was recommended for the Medal of Honor in 1898. What happened?",
    "options": [
-    "He received it that year",
-    "He declined it",
+    "It was downgraded to a Distinguished Service Cross",
     "It was blocked, and not awarded until long after his death",
-    "It was downgraded to a Distinguished Service Cross"
+    "He declined it",
+    "He received it that year"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "He was recommended for it, and he wanted it badly. The award was blocked — Roosevelt had been publicly scathing about the War Department's handling of the campaign, and the Secretary of War was in no mood to decorate him. It was finally awarded in 2001, posthumously.",
    "image": "assets/img/rough-riders/san-juan-monument.jpg",
    "imageAlt": "The monument on San Juan Hill",
    "credit": "The monument on San Juan Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "What did Roosevelt do with the story of the regiment after the war?",
    "options": [
     "Refused to discuss it publicly",
+    "Published it only after leaving the presidency",
     "Wrote a bestselling account called The Rough Riders",
-    "Left it to war correspondents",
-    "Published it only after leaving the presidency"
+    "Left it to war correspondents"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "He wrote The Rough Riders, serialised and then published in 1899. It sold well and it fixed the legend. Finley Peter Dunne's satirical review suggested a more honest title would have been \"Alone in Cuba\" — a joke Roosevelt enjoyed enough to write and tell Dunne so.",
    "image": "assets/img/rough-riders/charge-san-juan-painting.jpg",
    "imageAlt": "Painting of the charge of the Rough Riders",
    "credit": "Charge of the Rough Riders at San Juan Hill, reproduction of a painting. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The author president" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
   },
   {
    "prompt": "What ended the regiment's war, more than Spanish bullets did?",
    "options": [
-    "Disease — yellow fever and malaria in the camps",
-    "Mutiny",
     "Running out of ammunition",
+    "Mutiny",
+    "Disease in the camps",
     "The Spanish counter-attack"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Fever. With Santiago taken, the army sat in a pestilential camp losing men daily to yellow fever and malaria while Washington hesitated to bring them home. Roosevelt helped force the issue with a blunt public letter, which did nothing for his standing at the War Department.",
    "image": "assets/img/rough-riders/san-juan-monument.jpg",
    "imageAlt": "The monument on San Juan Hill",
    "credit": "The monument on San Juan Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "How long did the Rough Riders exist as a regiment?",
-   "options": ["About four months", "About a year", "Three years", "Through the whole war and occupation"],
-   "answer": 0,
+   "options": [
+    "Through the whole war and occupation",
+    "About four months",
+    "Three years",
+    "About a year"
+   ],
+   "answer": 1,
    "explanation": "Roughly four months, from muster in May 1898 to muster out in September. They trained for weeks, fought for a fortnight, and were disbanded before the leaves turned — and they are remembered better than regiments that served for decades.",
    "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
    "imageAlt": "Roosevelt and the Rough Riders on the captured hill",
    "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "What did Cuba do for Roosevelt's political career?",
    "options": [
     "Very little — he was already famous",
-    "It made him a national hero and he was elected Governor of New York within months",
     "It damaged him politically",
-    "It delayed his career by several years"
+    "It delayed his career by several years",
+    "It made him governor within months"
    ],
-   "answer": 1,
-   "explanation": "He came home in August 1898 a national figure and was elected Governor of New York that November. Three years later he was president. The hill in Cuba is where the last stretch of that climb began.",
+   "answer": 3,
+   "explanation": "He came home in August 1898 a national figure — the most famous man in the country who was not a general — and was elected Governor of New York that November, by a margin of about eighteen thousand votes in a race the Republicans had expected to lose. The party bosses took him because they needed the hero and thought they could handle him afterwards. Three years later he was president. The hill in Cuba is where the last stretch of that climb began.",
    "image": "assets/img/rough-riders/col-brodie.jpg",
    "imageAlt": "Roosevelt greeting Colonel Brodie of the Rough Riders",
    "credit": "Greeting Col. Brodie of Rough Riders. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   }
  ]
 }

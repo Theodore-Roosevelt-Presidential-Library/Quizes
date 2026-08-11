@@ -1,0 +1,291 @@
+{
+ "id": "health",
+ "title": "The Doctor's Notes",
+ "subtitle": "Roosevelt's body, 1858–1919",
+ "intro": "An asthmatic child dosed with black coffee and cigars. A Harvard graduate told his heart would not stand exertion. A president blind in one eye. A candidate who carried a bullet in his chest for the last six years of his life. Thirteen questions on what happened to Theodore Roosevelt's body across sixty years, and on what the medicine of the day could and could not do about it.",
+ "heroImage": "assets/img/health/tr-full-length.jpg",
+ "heroAlt": "Theodore Roosevelt standing beside a large globe, 1903",
+ "heroCredit": "Theodore Roosevelt, full-length portrait, 1903. Photograph by Rockwood Photo Co. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/strenuous-life",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Doctor's Notes",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on Roosevelt's health — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/strenuous-life"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Attending Physician",
+   "line": "You have read the whole chart."
+  },
+  {
+   "min": 11,
+   "name": "Consulting Surgeon",
+   "line": "Called in on the difficult cases."
+  },
+  {
+   "min": 9,
+   "name": "House Officer",
+   "line": "On the ward and keeping up."
+  },
+  {
+   "min": 6,
+   "name": "Medical Student",
+   "line": "The reading is coming along."
+  },
+  {
+   "min": 3,
+   "name": "First Rounds",
+   "line": "Plenty still to learn."
+  },
+  {
+   "min": 0,
+   "name": "Case Notes Open",
+   "line": "Start at the beginning."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "When the young Theodore Roosevelt could not breathe, his father sometimes made him smoke a cigar. What was the cigar meant to do?",
+   "options": [
+    "Mask the smell of the sickroom",
+    "Make him sick enough to break the spasm",
+    "Settle him enough to let him sleep",
+    "Dry out the lungs with warm smoke"
+   ],
+   "answer": 1,
+   "explanation": "Victorian asthma medicine worked largely by shock. A cigar given to a child with no tolerance for tobacco was a dose of nicotine poisoning, and the collapse that followed was thought to end the attack. Henry Hyde Salter, the leading English authority on asthma at the time, described what happened in anyone who had not “established a tolerance to tobacco” — vertigo, cold sweat, vomiting. The syrup of ipecac his parents also gave him was aimed at exactly the same result.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a small boy, standing on a chair for a studio portrait",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/childhood-illness",
+    "label": "Overcoming childhood asthma"
+   }
+  },
+  {
+   "prompt": "Mittie Roosevelt called one household remedy the family's trump card against her son's asthma attacks. What was it?",
+   "options": [
+    "Strong black coffee",
+    "Laudanum",
+    "Sea bathing",
+    "A mustard plaster on the chest"
+   ],
+   "answer": 0,
+   "explanation": "On a bad night, when nothing else had worked, a cup of very strong black coffee often ended the spasm and let the boy sleep. Nobody in the house knew why. Caffeine is chemically close to theophylline, a drug still given to asthmatics today — which makes the coffee about the only thing in the family's repertoire that a modern doctor would recognise as sound treatment.",
+   "image": "assets/img/early-life/dresden-club.jpg",
+   "imageAlt": "Five children posed in a photographer's studio in Dresden, Theodore Roosevelt seated at the left",
+   "credit": "The Dresden Literary American Club — Theodore Roosevelt (left) with his brother Elliott, his sister Corinne and their cousins, Dresden, 1873. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/childhood-illness",
+    "label": "Overcoming childhood asthma"
+   }
+  },
+  {
+   "prompt": "A doctor examining Roosevelt as he left Harvard found trouble with his heart. What was he told to do about it?",
+   "options": [
+    "Take up rowing on the Charles to strengthen it",
+    "Come back in a year for a second opinion",
+    "Live quietly and give up strenuous exercise",
+    "Move west for a season of dry air"
+   ],
+   "answer": 2,
+   "explanation": "He answered on the spot: “I’m going to do all the things you tell me not to do. If I’ve got to live the sort of life you have described, I don’t care how short it is.” Then he kept it to himself for decades — even Alice Lee, whom he married within months, appears not to have known. He was born in October 1858 and died in January 1919, which gave him sixty years and a little over two months.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Head-and-shoulders portrait of Theodore Roosevelt as a young man with side whiskers",
+   "credit": "Theodore Roosevelt at college, 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "Roosevelt lost most of the sight in one eye after a blow taken while boxing in the White House. Writing about it afterwards, why did he count himself fortunate?",
+   "options": [
+    "The blow could easily have broken his jaw",
+    "It happened in private rather than in front of a crowd",
+    "The sight came back within a year",
+    "It was the left eye, so he could still shoot"
+   ],
+   "answer": 3,
+   "explanation": "In his Autobiography he says an officer caught him in one bout and the blow “smashed the little blood-vessels”; the sight on that side “has been dim ever since.” Had it been the right eye, he wrote, he would have been entirely unable to shoot — which to him was the loss that mattered. He gave up boxing for jiu-jitsu and said nothing public about it while he was president. Accounts still disagree about the year and about which officer landed the punch.",
+   "image": "assets/img/health/tr-full-length.jpg",
+   "imageAlt": "Theodore Roosevelt standing beside a large globe in a formal portrait",
+   "credit": "Theodore Roosevelt, full-length portrait, 1903. Photograph by Rockwood Photo Co. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
+  },
+  {
+   "prompt": "On 3 September 1902 a trolley car ran into President Roosevelt's carriage near Pittsfield, Massachusetts. What happened?",
+   "options": [
+    "He was thrown into the road and his bodyguard killed",
+    "The trolley left the rails before it reached the carriage",
+    "The carriage overturned and everyone walked away unhurt",
+    "Roosevelt broke his arm and the trolley driver was unhurt"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt landed on his face, felt about in the grass and found his spectacles unbroken, and got up with a swollen cheek and what looked like a minor bruise on his left shin. William Craig, the Secret Service man riding up front, went under the wheels; he was the first agent to die in the line of duty. Roosevelt finished the day's schedule. “It takes more than a trolley accident to knock me out,” he told reporters, “and more than a crowd to tire me.”",
+   "image": "assets/img/health/western-tour-1902.jpg",
+   "imageAlt": "Theodore Roosevelt speaking from a platform to a dense crowd in a small town square",
+   "credit": "How the American people greeted their President on his western tour, Noblesville, Indiana, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In September 1902, three weeks after a trolley car struck the president's carriage, surgeons in Indianapolis opened an abscess on his shin. What did Roosevelt decline?",
+   "options": [
+    "The presence of his own physician",
+    "A second opinion",
+    "Being carried out on a stretcher",
+    "Any anaesthetic"
+   ],
+   "answer": 3,
+   "explanation": "He went to St. Vincent's Hospital straight from a reception, having given the public no warning at all — the carriage simply turned the wrong way and the rumours started. Before going in he told Elihu Root that if anything happened he wanted him as secretary of state. Then he lay down on the table and refused anaesthetic: “Guess I can stand the pain.” It took three aspirations with a syringe before the wound was pronounced clean, and the rest of the western tour was cancelled.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated in a carved chair holding a book, 1902",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What did a shin injury taken in a 1902 carriage collision leave Roosevelt with for the rest of his life?",
+   "options": [
+    "The loss of the leg below the knee",
+    "A stiff knee that never bent properly again",
+    "A shin that flared up at the slightest knock",
+    "Nothing lasting at all once the wound had healed"
+   ],
+   "answer": 2,
+   "explanation": "The first operation did not settle it. A few days later a second one cut down to the bone, which the Surgeon General of the Navy scraped smooth and left unstitched to drain; for that one Roosevelt accepted whiskey and cocaine. In 1908 a branch caught him on the same shin while he was riding at Oyster Bay and the inflammation came straight back. By the time he set off for South America he had been told plainly that even a small injury to that leg could be dangerous.",
+   "image": "assets/img/health/oyster-bay-oct-1912.jpg",
+   "imageAlt": "Theodore Roosevelt in a heavy overcoat and hat, looking down, surrounded by other men",
+   "credit": "Roosevelt at Oyster Bay, 22 October 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "An X-ray taken after Roosevelt was shot in Milwaukee in October 1912 showed where the bullet had come to rest. Where was it?",
+   "options": [
+    "Lodged in his right shoulder blade",
+    "Against a rib, which it had cracked",
+    "In the lower lobe of his left lung",
+    "Nowhere — it had passed clean through him"
+   ],
+   "answer": 1,
+   "explanation": "Before it reached him the bullet had gone through a heavy overcoat, a folded fifty-page speech, a steel-reinforced spectacle case, and two webs of suspender, and it was still travelling upward towards the heart. His own physician reckoned that without the spectacle case turning it aside he would not have lived a minute. Surgeons decided that digging it out was the greater risk, so it stayed exactly where the plate shows it.",
+   "image": "assets/img/health/xray-1912.jpg",
+   "imageAlt": "An X-ray plate of a man's chest, annotated in white ink with an arrow labelled Bullet",
+   "credit": "X-ray of Roosevelt showing the bullet, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt was subject to sudden attacks of fever for the last twenty years of his life. Where had he picked up the malaria behind them?",
+   "options": [
+    "Panama, 1906",
+    "British East Africa, 1909",
+    "Cuba, 1898",
+    "Brazil, 1914"
+   ],
+   "answer": 2,
+   "explanation": "He called it his Cuban fever. Disease, not Spanish rifles, was the real enemy of that campaign — far more American soldiers died of malaria, yellow fever and typhoid than were killed in action. The parasite can sit in the liver for years, and the attacks kept returning: convulsive chills, a cracking headache, a day or two of high fever, then gone as suddenly as it came. Quinine was the only thing anyone could offer him, and it never cleared it.",
+   "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
+   "imageAlt": "Colonel Roosevelt standing with his Rough Riders around a flag on a captured hill in Cuba",
+   "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured, Battle of San Juan. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rough Riders"
+   }
+  },
+  {
+   "prompt": "On the River of Doubt in April 1914, the infected wound on Roosevelt's leg finally had to be cut open. Where was the operation done?",
+   "options": [
+    "On the riverbank itself, with no anaesthetic",
+    "In the expedition's medical tent",
+    "In the largest of the dugout canoes",
+    "At a mission station further downstream"
+   ],
+   "answer": 0,
+   "explanation": "Dr. José Cajazeira had a wooden medicine box, a silver syringe and a dwindling supply of quinine, and very little else. He cut into the abscess on the bank, with flies drawn by the smell, inserted a drainage tube and left the wound to run. Roosevelt made no sound. He had resisted the operation for days, and by his own account the missing anaesthetic worried him far less than what might get into an open wound in a rain forest.",
+   "image": "assets/img/amazon/tr-writing.jpg",
+   "imageAlt": "Theodore Roosevelt writing at a folding table in camp, wearing a head net and gauntlets",
+   "credit": "Theodore Roosevelt writing in camp during the Roosevelt-Rondon Scientific Expedition, 1913. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Edith Roosevelt made her husband submit to a full medical examination before he did any more politicking after Brazil. What did the doctor find?",
+   "options": [
+    "That he was in good condition for a man of his age",
+    "No trace of malaria at all",
+    "A heart condition requiring immediate surgery",
+    "An enlarged spleen, and orders to rest for four months"
+   ],
+   "answer": 3,
+   "explanation": "Dr. Alexander Lambert had hunted with Roosevelt as well as treated him, and did not soften it: four months of rest at the very least, or the ill health would become chronic. Roosevelt had come off the ship yellow with malaria, walking with a cane and a great deal lighter than when he set out — the sources disagree on exactly how much lighter. He was back on the road inside the year.",
+   "image": "assets/img/amazon/tr-return-1914.jpg",
+   "imageAlt": "A gaunt Theodore Roosevelt in a broad-brimmed hat, photographed on his return from South America",
+   "credit": "Colonel Roosevelt on his return from South America, 1914. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt spent a month in hospital early in 1918 with abscesses that came close to killing him. What did he come out with permanently?",
+   "options": [
+    "A weakened voice and nothing more",
+    "Deafness in one ear",
+    "A paralysed left arm",
+    "No lasting damage of any kind"
+   ],
+   "answer": 1,
+   "explanation": "Surgeons operated on the ear and on abscesses elsewhere, and for a few days reporters kept a death watch in the hospital lobby. He came out deaf in the left ear and so dizzy that turning his head made him vomit — awkward for a man whose left eye had already gone, since he had nothing on that side to orient himself by. He was speaking in public again by the spring. His son Quentin was killed in France that July.",
+   "image": "assets/img/war/tr-1918-b.jpg",
+   "imageAlt": "Theodore Roosevelt speaking from a porch to a seated crowd on a lawn, April 1918",
+   "credit": "Theodore Roosevelt addressing a gathering, April 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt's last recorded words, at Sagamore Hill on the night of 5 January 1919, were spoken to his valet James Amos. What did he say?",
+   "options": [
+    "\"I have had a good run of it, James\"",
+    "\"Tell Edith I am sorry for the trouble\"",
+    "\"Put another log on the fire, will you, James?\"",
+    "\"James, will you please put out the light?\""
+   ],
+   "answer": 3,
+   "explanation": "The line comes from Amos's own account: “James, will you please put out the light?” Amos had just helped him into bed, and Edith had come in to say goodnight and gone to her room. Some time after four in the morning his breathing was heard to change; Edith was called, and he did not wake. He was sixty. What killed him was put down to a blood clot, and the accounts have never entirely agreed on where it lodged.",
+   "image": "assets/img/health/sagamore-veranda.jpg",
+   "imageAlt": "Sagamore Hill seen from the lawn through bare winter trees, showing the wide veranda",
+   "credit": "View across the veranda towards the harbor, Roosevelt home at Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  }
+ ]
+}

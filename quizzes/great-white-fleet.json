@@ -1,0 +1,309 @@
+{
+ "id": "great-white-fleet",
+ "title": "Sixteen Battleships",
+ "subtitle": "The cruise of the Great White Fleet, 1907–1909",
+ "intro": "In December 1907 sixteen white-hulled battleships steamed out of Hampton Roads with no announced destination beyond San Francisco. Fourteen months later they came home from the other direction, having gone all the way round. Fourteen questions on why Roosevelt sent them, who tried to stop him, and what the voyage did and did not prove.",
+ "heroImage": "assets/img/fleet/fleet-leaving-hampton-roads.jpg",
+ "heroAlt": "A column of American battleships trailing smoke as it steams away from Hampton Roads",
+ "heroCredit": "The great fleet of American battleships leaving Hampton Roads for the Pacific. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Sixteen Battleships",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Great White Fleet quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Circumnavigator",
+   "line": "Perfect. All the way round and home on time."
+  },
+  {
+   "min": 12,
+   "name": "Flag Officer",
+   "line": "You could have taken the fleet from San Francisco."
+  },
+  {
+   "min": 9,
+   "name": "Officer of the Deck",
+   "line": "Steady on course."
+  },
+  {
+   "min": 6,
+   "name": "Able Seaman",
+   "line": "Solid work between coalings."
+  },
+  {
+   "min": 3,
+   "name": "Landsman",
+   "line": "Still finding your sea legs."
+  },
+  {
+   "min": 0,
+   "name": "On the Pier",
+   "line": "Waving from Old Point Comfort. Come aboard next time."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt said his main purpose in sending the fleet around the world was to make an impression on one audience above all others. Which?",
+   "options": [
+    "The German Kaiser",
+    "The Japanese government",
+    "The British Admiralty",
+    "The American people"
+   ],
+   "answer": 3,
+   "explanation": "He was flat about it in his Autobiography — “My prime purpose was to impress the American people” — and he wanted them impressed enough that the next request for battleships would not need explaining. He also decided on the whole thing without consulting his Cabinet, on a principle he liked to repeat: “A council of war never fights.”",
+   "image": "assets/img/fleet/tr-on-battleship-connecticut.jpg",
+   "imageAlt": "President Roosevelt, hat in hand, on the deck of a battleship with officers saluting and ranks of sailors behind",
+   "credit": "Theodore Roosevelt on the battleship Connecticut on the return of the Great White Fleet, Hampton Roads, Virginia, 22 February 1909. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The chairman of the Senate Naval Affairs Committee announced that Congress would not appropriate the money for the cruise. How did Roosevelt answer him?",
+   "options": [
+    "He asked the Supreme Court to rule on his authority as commander",
+    "He paid for the coal out of a private subscription in New York",
+    "He told Congress the ships could simply stay in the Pacific",
+    "He cancelled the voyage and sent a single squadron instead"
+   ],
+   "answer": 2,
+   "explanation": "The senator was Eugene Hale of Maine, a long-standing sceptic of naval spending from an Atlantic seaboard state — and the big eastern papers were pleading with Congress to keep the ships at home. Roosevelt wrote to a member of Congress that “I am Commander-in-Chief, and my decision is absolute in the matter.” His own summary of how the fight ended: “There was no further difficulty about the money.”",
+   "image": "assets/img/fleet/reviewing-fleet-from-mayflower.jpg",
+   "imageAlt": "Theodore Roosevelt in a top hat watching from the deck of the presidential yacht Mayflower beside a naval officer",
+   "credit": "Reviewing the fleet from the Mayflower, Hampton Roads, Virginia, 16 December 1907. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "When the sixteen battleships left Hampton Roads in December 1907, what had the government officially announced as their destination?",
+   "options": [
+    "San Francisco, by way of the Straits of Magellan",
+    "A voyage all the way around the world",
+    "A permanent transfer to the Asiatic Station",
+    "Tokyo Bay"
+   ],
+   "answer": 0,
+   "explanation": "Officially this was a practice cruise to the Pacific coast, with the route home left undecided. The order to keep going westward around the globe came months later, when the ships were already on the far side of South America. Roosevelt wanted the navy broken in where it was safe to break: “I want all failures, blunders, and shortcomings to be made apparent in time of peace and not in time of war.”",
+   "image": "assets/img/fleet/sailors-band-on-deck.jpg",
+   "imageAlt": "Sailors and a ship's band lined up on deck saluting as the presidential yacht Mayflower steams past",
+   "credit": "Sailors and marching band on deck saluting the presidential yacht Mayflower at the departure of the fleet from Hampton Roads, 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The fleet left Manila for home on 1 December 1908. Which way did it go?",
+   "options": [
+    "Back east across the Pacific the way it had come",
+    "West through the Suez Canal and the Mediterranean",
+    "Round Cape Horn again and north through the Atlantic",
+    "South around the Cape of Good Hope"
+   ],
+   "answer": 1,
+   "explanation": "The run home was the anticlimax of the whole voyage. The ships threaded the Straits of Malacca without stopping at Singapore, coaled in Ceylon and went through the canal, and at Port Said the squadrons split up so they could call at ports in Europe, North Africa and Turkey; several of them helped with the relief effort at Messina in Sicily, which had just been wrecked. They gathered again at Gibraltar on 1 February 1909 for the last leg. Everything was timed so the fleet would be home while Roosevelt was still in office.",
+   "image": "assets/img/fleet/suez-canal-mouth.jpg",
+   "imageAlt": "A steamship lying off a waterfront of sheds and lateen-rigged boats at the mouth of the Suez Canal, with rowing boats in the foreground",
+   "credit": "Mouth of the Suez Canal, Suez, Egypt, about 1900 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Rear Admiral Robley “Fighting Bob” Evans took the fleet out of Hampton Roads but did not finish the voyage. Why not?",
+   "options": [
+    "Ill health forced him to hand over at San Francisco",
+    "He died at sea and was buried off the Chilean coast",
+    "He was recalled to Washington to run the Navy Department",
+    "He was court-martialled after a collision off Brazil"
+   ],
+   "answer": 0,
+   "explanation": "Evans was the last officer on active duty who had served in the Civil War, and his old war wounds and a bout of rheumatism had him bedridden by the time the fleet reached Rio; at later stops he did not even attempt to go ashore. He had promised at a farewell dinner in New York that nobody would be disappointed in the fleet, whether “it proves a feast, a frolic or a fight.” When the gunnery practice at Magdalena Bay in Mexico ended he transferred to a small auxiliary and was taken north to the hot springs at Paso Robles, still holding the command. He rejoined the flagship on 5 May, brought the fleet into San Francisco, gave it up there and retired.",
+   "image": "assets/img/fleet/fleet-at-magdalena-bay.jpg",
+   "imageAlt": "Battleships and auxiliaries lying at anchor in a wide desert bay, seen from a scrub-covered shore",
+   "credit": "Man of War Cove, Magdalena Bay, Mexico, 13 March 1908 — the fleet at anchor for target practice. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who commanded the fleet for the round-the-world leg after it reached San Francisco?",
+   "options": [
+    "Captain Alfred Thayer Mahan",
+    "Admiral George Dewey",
+    "Rear Admiral Charles S. Sperry",
+    "Commodore Winfield Scott Schley"
+   ],
+   "answer": 2,
+   "explanation": "Sperry had already taken one of the squadrons around South America, and Roosevelt chose him partly because he was a diplomat as much as a seaman — which was about to matter. Months ahead of the Japan visit he wrote privately to an official of the Japanese Foreign Office to arrange landing piers, guides, rest houses and honest money changers for his crews, plus an unarmed American shore patrol to walk anyone unruly quietly back to the boats. Afterwards he reported that “The arrangements were marvelously perfect.”",
+   "image": "assets/img/fleet/tr-sperry-bacon.jpg",
+   "imageAlt": "Theodore Roosevelt on a ship's deck with naval officers, one in a cocked hat, and civilians in top hats",
+   "credit": "President Roosevelt, Admiral Sperry and Secretary Bacon on the Mayflower, Hampton Roads, Virginia, 16 December 1907. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "The fleet reached Yokohama in October 1908. What sort of welcome did it get?",
+   "options": [
+    "Frosty and official, with shore leave refused to the crews",
+    "None, because the visit was cancelled at the last minute",
+    "A protest flotilla that blocked the harbour entrance",
+    "Enormous — the warmest welcome of the whole cruise"
+   ],
+   "answer": 3,
+   "explanation": "The American ambassador thought it outdid the welcome Japan had given its own Admiral Togo coming home from Tsushima. Tens of thousands of Japanese schoolchildren had learned American songs for the occasion. Sperry reported that in Yokohama as many as a thousand English-speaking college students acted as volunteer guides, and that in Tokyo the refreshment places would not let the men pay for anything, though they were more than ready to. Roosevelt's verdict in his Autobiography: “The most noteworthy incident of the cruise was the reception given to our fleet in Japan.”",
+   "image": "assets/img/fleet/battleship-ohio-forecastle.jpg",
+   "imageAlt": "Sailors in white uniforms on the forecastle of a battleship, with another white battleship at anchor beyond",
+   "credit": "View from the forecastle deck of battleship Ohio, showing the Maine in the distance, Hampton Roads, Virginia, 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The Japan visit came against a quarrel that had begun two years earlier. What set it off?",
+   "options": [
+    "Japan demanded that the United States give up the Philippines",
+    "San Francisco's school board segregated Japanese pupils",
+    "An American gunboat ran aground in Tokyo Bay and was seized",
+    "Japan refused to sign the Treaty of Portsmouth"
+   ],
+   "answer": 1,
+   "explanation": "In October 1906 the San Francisco Board of Education directed Japanese children into a segregated school, at a time when Japanese residents on the West Coast were facing sustained agitation and violence. Japan protested; Roosevelt summoned the entire school board to Washington and the order was withdrawn, and in return Japan agreed to stop issuing passports to labourers bound for the mainland. That bargain — the Gentlemen's Agreement — was never a single signed document, and it took more than a year to settle.",
+   "image": "assets/img/fleet/fleet-leaving-hampton-roads.jpg",
+   "imageAlt": "Battleships on the horizon seen from the deck of another ship at sea",
+   "credit": "The great fleet of American battleships leaving Hampton Roads for the Pacific. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Australia and New Zealand were not in the original plan. How did they get onto the itinerary?",
+   "options": [
+    "A storm blew the fleet far to the south",
+    "Britain requested the visit through its ambassador in Washington",
+    "The Australian government sent an invitation and Roosevelt accepted it",
+    "Coal ran short and the ships had to divert"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt wrote that “It was not originally my intention that the fleet should visit Australia” — the invitation came from Australia's own government, and he took it gladly. The turnout startled everyone: a journalist travelling with the fleet reported that New Zealand had come down with a new disease he called “fleetitis.” In Sydney one captain found a sailor asleep on a park bench under a hand-lettered sign politely heading off any more hospitality, part of which read: “I am very tired and would like to go to sleep.”",
+   "image": "assets/img/fleet/fleet-review-sydney.jpg",
+   "imageAlt": "A crowd in Edwardian hats packed along a parade ground in Sydney watching troops march past a flag-hung pavilion",
+   "credit": "U.S. Fleet at Sydney — Review, 1908. Photograph by the Bain News Service. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What became of the fleet's white paint and the gilded scrollwork on its bows after the cruise?",
+   "options": [
+    "They were kept as a memorial to the voyage",
+    "The gilding was melted down and struck into medals for the crews",
+    "The white was kept until the last of the ships was scrapped",
+    "Both were stripped off and the ships repainted battleship gray"
+   ],
+   "answer": 3,
+   "explanation": "White hulls with buff upperworks were the peacetime livery, and the bows and sterns carried gilt scrollwork — handsome by day and hopeless by night. Sperry told Roosevelt he had once picked out white battleships under searchlights at seven sea miles while a black ship slipped past within a mile and a half unnoticed, and asked the department to change the regulations. The ships went into the yards in 1909 and came out gray, and the Victorian white-and-buff livery was gone for good.",
+   "image": "assets/img/fleet/battleship-ohio-forecastle.jpg",
+   "imageAlt": "A white-painted battleship at anchor seen past sailors standing on the deck of another warship",
+   "credit": "View from the forecastle deck of battleship Ohio, showing the Maine in the distance, Hampton Roads, Virginia, 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "A British warship completed shortly before the cruise had already made every ship in the fleet out of date. Which one?",
+   "options": [
+    "HMS Warrior",
+    "HMS Dreadnought",
+    "HMS Victory",
+    "HMS Beagle"
+   ],
+   "answer": 1,
+   "explanation": "Dreadnought went to sea in 1906 carrying ten twelve-inch guns and driven by steam turbines. The American flagship Connecticut carried four twelve-inch guns and reciprocating engines that tended to break down if held at full speed for long. Roosevelt knew exactly what he was sending, which is part of why the cruise doubled as an argument to Congress for better ships — and Congress did authorise two more before he left office.",
+   "image": "assets/img/fleet/sperry-flagship-spectacle.jpg",
+   "imageAlt": "The deck of a battleship packed with sailors in white caps listening to a speaker",
+   "credit": "On board Admiral Sperry's flagship Connecticut as President Roosevelt delivered the address of welcome to the returning fleet, Hampton Roads, Virginia, 22 February 1909. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What was the most serious practical weakness the voyage exposed?",
+   "options": [
+    "The navy owned too few colliers to coal its own fleet",
+    "Not one ship in the fleet could exceed eight knots",
+    "The ships had no wireless and could not signal ahead",
+    "There were not enough officers to man all sixteen ships"
+   ],
+   "answer": 0,
+   "explanation": "There was no worldwide network of American coaling stations, so coal had to be stockpiled in advance at ports all over the world — and because the navy did not own enough colliers to do it, much of it came out to the fleet in chartered foreign ships. That works beautifully in peacetime and disappears the moment there is a war. The men were the opposite story: drilled between every port and given target practice at Magdalena Bay and Manila, the crews came home in better fighting shape than they had left in.",
+   "image": "assets/img/fleet/coaling-st-thomas.jpg",
+   "imageAlt": "Labourers carrying baskets of coal on their heads up a long plank ramp to the side of a white battleship, with another warship anchored beyond",
+   "credit": "Coaling U.S. battleships at St. Thomas, West Indies, about 1906 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt's admirals told him the small torpedo craft could never stand the voyage. What changed his mind?",
+   "options": [
+    "Two young lieutenants told him over dinner that the boats could take it",
+    "A wager with the chairman of the Senate Naval Affairs Committee",
+    "His son Kermit asked him to send them",
+    "A newspaper campaign on the crews' behalf"
+   ],
+   "answer": 0,
+   "explanation": "He had two naval lieutenants aboard the Mayflower for dinner off Provincetown and they could not help asking. They told him the enlisted men wanted it so badly that on one boat the crew were holding off re-enlisting until they knew. He sent the order within half an hour, and the little flotilla made the passage to the Pacific coast under its own power: “It went round in fine shape, not a boat being laid up.” He thought it did the navy more credit than the battleships had.",
+   "image": "assets/img/fleet/evans-round-world.jpg",
+   "imageAlt": "Theodore Roosevelt on deck in a top hat and overcoat beside Rear Admiral Robley Evans in a cocked hat",
+   "credit": "Admiral Evans, commander in chief of the round-the-world fleet, with Theodore Roosevelt on the Mayflower, 16 December 1907. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The fleet came home to Hampton Roads on 22 February 1909. What else was that date?",
+   "options": [
+    "Roosevelt's last day in office",
+    "Lincoln's Birthday",
+    "The anniversary of the sinking of the Maine",
+    "Washington's Birthday"
+   ],
+   "answer": 3,
+   "explanation": "Roosevelt went down to meet them in the rain aboard the Mayflower, then climbed onto a twelve-inch gun turret on the flagship Connecticut to speak to the crew: “This is the first battle fleet that has ever circumnavigated the globe.” Ten days later he handed the office to William Howard Taft. On his last full day in the White House he wrote to Taft with one piece of unasked-for naval advice — never divide the fleet.",
+   "image": "assets/img/fleet/fleet-welcome-home.jpg",
+   "imageAlt": "Pen-and-ink cartoon of George Washington and Uncle Sam waving their hats from a wharf as battleships steam in, Washington's hat trailing a ribbon reading February 22nd",
+   "credit": "\"Welcome home!\" — the Great White Fleet returning from its world cruise to Hampton Roads, Virginia. Drawing by W. A. Rogers, 1909. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  }
+ ]
+}

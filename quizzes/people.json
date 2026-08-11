@@ -7,206 +7,321 @@
  "heroAlt": "Portrait of Edith Kermit Carow Roosevelt",
  "heroCredit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/people",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The People Around Him",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's People quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/people"
  },
  "tiers": [
-  { "min": 15, "name": "Closest Confidant", "line": "Perfect. You knew them all." },
-  { "min": 13, "name": "Tennis Cabinet", "line": "You were in the inner circle." },
-  { "min": 10, "name": "Trusted Adviser", "line": "Your counsel was taken." },
-  { "min": 7,  "name": "Cabinet Officer", "line": "Solid, if occasionally overruled." },
-  { "min": 4,  "name": "Acquaintance", "line": "You've met at receptions." },
-  { "min": 0,  "name": "Political Rival", "line": "He'd have enjoyed the argument." }
+  {
+   "min": 15,
+   "name": "Closest Confidant",
+   "line": "Perfect. You knew them all."
+  },
+  {
+   "min": 13,
+   "name": "Tennis Cabinet",
+   "line": "You were in the inner circle."
+  },
+  {
+   "min": 10,
+   "name": "Trusted Adviser",
+   "line": "Your counsel was taken."
+  },
+  {
+   "min": 7,
+   "name": "Cabinet Officer",
+   "line": "Solid, if occasionally overruled."
+  },
+  {
+   "min": 4,
+   "name": "Acquaintance",
+   "line": "You've met at receptions."
+  },
+  {
+   "min": 0,
+   "name": "Political Rival",
+   "line": "He'd have enjoyed the argument."
+  }
  ],
  "questions": [
   {
    "prompt": "Which sister did Roosevelt rely on most throughout his life?",
-   "options": ["Corinne", "Anna, called \"Bamie\"", "Ethel", "Alice"],
-   "answer": 1,
+   "options": [
+    "Anna, called \"Bamie\"",
+    "Ethel",
+    "Corinne",
+    "Alice"
+   ],
+   "answer": 0,
    "explanation": "Bamie — the eldest, unmarried for most of her life, and the steadiest person in the family. She raised his daughter Alice after 1884, ran a household that doubled as a political salon, and gave him advice he actually took.",
    "image": "assets/img/early-life/alice-corinne-anna.jpg",
    "imageAlt": "Alice, Corinne and Anna Roosevelt",
    "credit": "Alice, Corinne, and Anna. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life/siblings", "label": "Bamie, Elliott, and Corinne" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/siblings",
+    "label": "Bamie, Elliott, and Corinne"
+   }
   },
   {
    "prompt": "How long had Roosevelt known Edith Carow before they married?",
    "options": [
+    "They met in London",
     "A few months",
-    "Since childhood — she was a friend of his sister",
     "They met during his Badlands years",
-    "They met in London"
+    "Since childhood — she was a friend of his sister"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "Since they were small children. Edith was Corinne's friend and had been in and out of the Roosevelt house on East 20th Street for years. They married in London in December 1886, after a secretly conducted courtship.",
    "image": "assets/img/family/edith-portrait.jpg",
    "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
    "credit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "Who was Roosevelt's closest political friend and correspondent for over thirty years?",
    "options": [
-    "Henry Cabot Lodge",
-    "Elihu Root",
     "Mark Hanna",
-    "William Howard Taft"
+    "Henry Cabot Lodge",
+    "William Howard Taft",
+    "Elihu Root"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "Henry Cabot Lodge, senator from Massachusetts. Their correspondence runs to hundreds of letters and is one of the best sources on Roosevelt's private thinking — he wrote to Lodge the things he would not say in public.",
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "Which reformer and photographer showed Roosevelt New York's tenements?",
-   "options": ["Jacob Riis", "Lincoln Steffens", "Ida Tarbell", "Upton Sinclair"],
-   "answer": 0,
+   "options": [
+    "Upton Sinclair",
+    "Ida Tarbell",
+    "Jacob Riis",
+    "Lincoln Steffens"
+   ],
+   "answer": 2,
    "explanation": "Jacob Riis, author of How the Other Half Lives. Roosevelt read the book, walked into Riis's office and offered to help. Riis went with him on the midnight walks that made his name as police commissioner, and they stayed friends for life.",
    "image": "assets/img/rise-to-power/mulberry-street-office.jpg",
    "imageAlt": "Roosevelt in his Mulberry Street office as police commissioner",
    "credit": "Theodore Roosevelt in his Mulberry Street office when he was police commissioner. The New York Public Library.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "With whom did Roosevelt camp in Yosemite in 1903?",
-   "options": ["Gifford Pinchot", "John Muir", "John Burroughs", "Frederick Law Olmsted"],
-   "answer": 1,
+   "options": [
+    "John Muir",
+    "Gifford Pinchot",
+    "Frederick Law Olmsted",
+    "John Burroughs"
+   ],
+   "answer": 0,
    "explanation": "John Muir, for three nights, having deliberately ditched the official party. They woke one morning under fresh snow. Muir used the time to press the case for federal control of the valley, and got it.",
    "image": "assets/img/conservation/muir-glacier-point.jpg",
    "imageAlt": "Theodore Roosevelt and John Muir on Glacier Point",
    "credit": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite Valley, California. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
   },
   {
    "prompt": "Who was Roosevelt's chief forester and the architect of his conservation policy?",
-   "options": ["Gifford Pinchot", "John Muir", "George Bird Grinnell", "Stephen Mather"],
-   "answer": 0,
+   "options": [
+    "Stephen Mather",
+    "Gifford Pinchot",
+    "George Bird Grinnell",
+    "John Muir"
+   ],
+   "answer": 1,
    "explanation": "Gifford Pinchot, first chief of the United States Forest Service. He and Roosevelt worked so closely that when Congress moved to strip the president's power to create forest reserves, Pinchot stayed up over the maps so Roosevelt could proclaim sixteen million acres before signing.",
    "image": "assets/img/conservation/pinchot-chief-forester.jpg",
    "imageAlt": "President Roosevelt and Chief Forester Gifford Pinchot",
    "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
   },
   {
    "prompt": "Which Black leader did Roosevelt invite to dine at the White House in 1901?",
    "options": [
-    "Booker T. Washington",
-    "W. E. B. Du Bois",
     "Frederick Douglass",
-    "John Roy Lynch"
+    "John Roy Lynch",
+    "W. E. B. Du Bois",
+    "Booker T. Washington"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "Booker T. Washington, founder of Tuskegee Institute — the first time a president had entertained a Black American as a dinner guest at the White House. The reaction across the South was violent enough that Roosevelt never repeated the invitation.",
    "image": "assets/img/presidency/booker-t-washington-tuskegee.jpg",
    "imageAlt": "Theodore Roosevelt and Booker T. Washington at Tuskegee Institute",
    "credit": "Theodore Roosevelt and Booker T. Washington at Tuskegee Normal and Industrial Institute. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "Who commanded the Rough Riders above Roosevelt?",
    "options": [
-    "Leonard Wood",
     "William Rufus Shafter",
-    "Joseph Wheeler",
-    "Nelson Miles"
+    "Nelson Miles",
+    "Leonard Wood",
+    "Joseph Wheeler"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Colonel Leonard Wood, an army surgeon with a Medal of Honor and real campaign experience. Roosevelt turned down the command himself on the grounds that he did not yet know enough, and served as lieutenant colonel under Wood until Wood was promoted.",
    "image": "assets/img/rough-riders/col-brodie.jpg",
    "imageAlt": "Roosevelt greeting Colonel Brodie of the Rough Riders",
    "credit": "Greeting Col. Brodie of Rough Riders. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rough Riders" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rough Riders"
+   }
   },
   {
    "prompt": "Which New York party boss reluctantly made Roosevelt governor and then tried to get rid of him?",
-   "options": ["Thomas Platt", "Richard Croker", "Boss Tweed", "Chauncey Depew"],
-   "answer": 0,
+   "options": [
+    "Richard Croker",
+    "Thomas Platt",
+    "Chauncey Depew",
+    "Boss Tweed"
+   ],
+   "answer": 1,
    "explanation": "Senator Thomas Platt, who wanted a war hero on the ticket and assumed he could manage him. Two years later he was working to push Roosevelt into the vice presidency — an office then regarded as a political graveyard.",
    "image": "assets/img/rise-to-power/governor-campaign-poster.jpg",
    "imageAlt": "Campaign poster for Colonel Theodore Roosevelt for Governor",
    "credit": "For Governor, Col. Theodore Roosevelt; For Lieut. Governor, Timothy L. Woodruff. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Which Republican power broker asked whether his party realised there would be only one life between \"that madman\" and the presidency?",
-   "options": ["Mark Hanna", "Thomas Platt", "Elihu Root", "Nelson Aldrich"],
-   "answer": 0,
+   "options": [
+    "Nelson Aldrich",
+    "Thomas Platt",
+    "Elihu Root",
+    "Mark Hanna"
+   ],
+   "answer": 3,
    "explanation": "Mark Hanna of Ohio, McKinley's closest political ally, who opposed putting Roosevelt on the 1900 ticket. Within eighteen months he was proved right in the worst possible way.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at McKinley's swearing in",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "Rise to power" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
   },
   {
    "prompt": "Which friend and cabinet member did Roosevelt promote to the presidency in 1908 and then run against in 1912?",
    "options": [
-    "William Howard Taft",
-    "Elihu Root",
     "Charles Evans Hughes",
-    "Philander Knox"
+    "Philander Knox",
+    "William Howard Taft",
+    "Elihu Root"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "William Howard Taft, his Secretary of War. Roosevelt chose him, pushed him to the nomination, and then broke with him so completely that he split the Republican Party to oppose him. They reconciled, briefly, near the end of Roosevelt's life.",
    "image": "assets/img/post-presidency/race-to-white-house.jpg",
    "imageAlt": "Cartoon of the 1912 race to the White House",
    "credit": "Race to the White House, with Wilson on a donkey and Taft on an elephant. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Which men did Roosevelt bring from Maine to run his Elkhorn Ranch?",
    "options": [
     "Bill Sewall and Wilmot Dow",
     "Sylvane and Joe Ferris",
-    "Bill Merrifield and Gregor Lang",
-    "Lincoln Lang and Bill Jones"
+    "Lincoln Lang and Bill Jones",
+    "Bill Merrifield and Gregor Lang"
    ],
    "answer": 0,
    "explanation": "Bill Sewall, a Maine guide he had first hired as a teenager in 1878, and Sewall's nephew Wilmot Dow. Neither had worked cattle. Roosevelt wanted men he trusted, and Sewall was blunt enough to tell him things nobody else would.",
    "image": "assets/img/badlands/dow-tr-sewall.jpg",
    "imageAlt": "Wilmot Dow, Theodore Roosevelt and Bill Sewall at the Elkhorn Ranch",
    "credit": "Wilmot Dow, T.R., and Bill Sewall at Elkhorn Ranch. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "Who guided Roosevelt on his first Dakota buffalo hunt and became his lieutenant in the Badlands?",
-   "options": ["Joe Ferris", "Bill Merrifield", "Gregor Lang", "\"Hell-Roaring\" Bill Jones"],
+   "options": [
+    "Joe Ferris",
+    "Gregor Lang",
+    "Bill Merrifield",
+    "\"Hell-Roaring\" Bill Jones"
+   ],
    "answer": 0,
    "explanation": "Joe Ferris, barn superintendent at the Pyramid Park Hotel, who took the job for a hundred dollars expecting the Easterner to quit. He later ran a store in Medora where Roosevelt wrote part of a book upstairs.",
    "image": "assets/img/badlands/joe-ferris-store.jpg",
    "imageAlt": "The store of Joe Ferris at Medora, North Dakota",
    "credit": "The store of Joe Ferris at Medora, N.D. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "Which French aristocrat founded Medora and became Roosevelt's neighbour and rival in Dakota?",
    "options": [
-    "The Marquis de Mores",
-    "The Comte de Paris",
     "Baron de Hirsch",
+    "The Comte de Paris",
+    "The Marquis de Mores",
     "The Duc d'Orléans"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "Antoine de Vallombrosa, the Marquis de Mores, born the same year as Roosevelt. He founded Medora in 1883, named it for his wife, and sank a fortune into a scheme to ship dressed beef east in refrigerated cars. The relationship between the two men was tense and nearly ended in a duel.",
    "image": "assets/img/badlands/de-mores-house.jpg",
    "imageAlt": "The house of the Marquis de Mores above the Little Missouri",
    "credit": "The house of the Marquis de Mores from the eastern bank of the river. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "Which niece of Roosevelt's became one of the most influential Americans of the twentieth century?",
-   "options": ["Eleanor Roosevelt", "Alice Roosevelt Longworth", "Ethel Roosevelt Derby", "Corinne Robinson"],
-   "answer": 0,
+   "options": [
+    "Corinne Robinson",
+    "Ethel Roosevelt Derby",
+    "Alice Roosevelt Longworth",
+    "Eleanor Roosevelt"
+   ],
+   "answer": 3,
    "explanation": "Eleanor, daughter of his brother Elliott. Roosevelt gave her away at her 1905 wedding to Franklin — and, according to the newspapers, rather stole the occasion. Alice was his daughter, not his niece.",
    "image": "assets/img/family/family-portrait.jpg",
    "imageAlt": "Roosevelt family portrait",
    "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   }
  ]
 }

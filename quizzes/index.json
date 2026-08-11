@@ -225,6 +225,76 @@
       "questions": 11,
       "learnMore": "https://www.trlibrary.com/tr/badlands",
       "placement": "/tr/badlands"
+    },
+    {
+      "id": "roosevelts-at-war",
+      "title": "The Roosevelts at War",
+      "blurb": "Four sons in France and Mesopotamia, a father refused the division he begged for, and a telegram that never came. Thirteen questions on the Roosevelts and the First World War.",
+      "image": "assets/img/war/quentin-nieuport.jpg",
+      "imageAlt": "Quentin Roosevelt with his Nieuport aircraft",
+      "questions": 13,
+      "learnMore": "https://www.trlibrary.com/tr/family",
+      "placement": "/tr/family"
+    },
+    {
+      "id": "fathers-day",
+      "title": "Greatheart",
+      "blurb": "The nights his father drove him through the streets to force air into his lungs, the substitute he hired in 1861, and the verdict his son never revised. Fourteen questions on Theodore Roosevelt Senior.",
+      "image": "assets/img/father/tr-sr-portrait.jpg",
+      "imageAlt": "Portrait of Theodore Roosevelt Sr. hanging at Sagamore Hill, photographed in 1966",
+      "questions": 14,
+      "learnMore": "https://www.trlibrary.com/tr/early-life/father",
+      "placement": "/tr/early-life/father"
+    },
+    {
+      "id": "panama-canal",
+      "title": "The Path Between the Seas",
+      "blurb": "A French failure, a revolution that lasted a day, a doctor who fought mosquitoes, and the biggest earth-moving job ever attempted. Fifteen questions on the canal.",
+      "image": "assets/img/panama/steam-shovel-1906.jpg",
+      "imageAlt": "A Bucyrus steam shovel working the Culebra Cut",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/presidency",
+      "placement": "/tr/presidency"
+    },
+    {
+      "id": "river-of-doubt",
+      "title": "The River of Doubt",
+      "blurb": "An unmapped Amazon tributary, a Brazilian co-commander, a drowning, a murder, and an infected leg a thousand miles from help. Fifteen questions on the expedition that nearly killed him.",
+      "image": "assets/img/amazon/tr-rondon.jpg",
+      "imageAlt": "Roosevelt and Candido Rondon on the Brazilian expedition",
+      "questions": 15,
+      "learnMore": "https://www.trlibrary.com/tr/post-presidency",
+      "placement": "/tr/post-presidency"
+    },
+    {
+      "id": "great-white-fleet",
+      "title": "Sixteen Battleships",
+      "blurb": "He had money to send them halfway and dared Congress to leave them there. Fourteen questions on the cruise that took the American navy round the world.",
+      "image": "assets/img/fleet/fleet-leaving-hampton-roads.jpg",
+      "imageAlt": "The battle fleet leaving Hampton Roads",
+      "questions": 14,
+      "learnMore": "https://www.trlibrary.com/tr/presidency",
+      "placement": "/tr/presidency"
+    },
+    {
+      "id": "health",
+      "title": "The Body He Made",
+      "blurb": "Asthma, a warning about his heart, a blind eye nobody knew about, a bullet that stayed in, and fevers that came back until the end. Thirteen questions on sixty years of hard use.",
+      "image": "assets/img/health/xray-1912.jpg",
+      "imageAlt": "The 1912 X-ray plate showing the bullet in Roosevelt's chest",
+      "questions": 13,
+      "learnMore": "https://www.trlibrary.com/tr/strenuous-life",
+      "placement": "/tr/strenuous-life"
+    },
+    {
+      "id": "nobel-peace-prize",
+      "title": "The Peacemaker",
+      "blurb": "Two empires at war, a navy yard in Maine, a buffet lunch that solved an unsolvable protocol problem, and the first Nobel Prize ever won by an American. Fourteen questions.",
+      "image": "assets/img/nobel/mayflower-envoys.jpg",
+      "imageAlt": "The Russian and Japanese envoys with Roosevelt aboard the Mayflower",
+      "questions": 14,
+      "learnMore": "https://www.trlibrary.com/tr/presidency",
+      "placement": "/tr/presidency"
     }
   ]
 }

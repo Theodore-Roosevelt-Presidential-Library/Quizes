@@ -7,151 +7,231 @@
  "heroAlt": "Theodore Roosevelt as a small boy, about two years old",
  "heroCredit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
  "learnMore": "https://www.trlibrary.com/tr/early-life",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Twenty-Seventh of October",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's birthday quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/early-life"
  },
  "tiers": [
-  { "min": 10, "name": "Guest of Honour", "line": "Perfect. Take the head of the table." },
-  { "min": 8,  "name": "Invited to Dinner", "line": "You know the family well." },
-  { "min": 6,  "name": "Sent a Telegram", "line": "Thoughtfully done." },
-  { "min": 4,  "name": "Signed the Card", "line": "A decent showing." },
-  { "min": 2,  "name": "Arrived Late", "line": "There is still cake." },
-  { "min": 0,  "name": "Wrong Date Entirely", "line": "It is the twenty-seventh. Write it down." }
+  {
+   "min": 10,
+   "name": "Guest of Honour",
+   "line": "Perfect. Take the head of the table."
+  },
+  {
+   "min": 8,
+   "name": "Invited to Dinner",
+   "line": "You know the family well."
+  },
+  {
+   "min": 6,
+   "name": "Sent a Telegram",
+   "line": "Thoughtfully done."
+  },
+  {
+   "min": 4,
+   "name": "Signed the Card",
+   "line": "A decent showing."
+  },
+  {
+   "min": 2,
+   "name": "Arrived Late",
+   "line": "There is still cake."
+  },
+  {
+   "min": 0,
+   "name": "Wrong Date Entirely",
+   "line": "It is the twenty-seventh. Write it down."
+  }
  ],
  "questions": [
   {
    "prompt": "On what date was Theodore Roosevelt born?",
-   "options": ["October 27, 1858", "October 27, 1861", "September 14, 1858", "January 6, 1858"],
-   "answer": 0,
+   "options": [
+    "September 14, 1858",
+    "January 6, 1858",
+    "October 27, 1861",
+    "October 27, 1858"
+   ],
+   "answer": 3,
    "explanation": "27 October 1858, in New York City — the second of four children and the first son of Theodore Roosevelt Sr. and Martha Bulloch Roosevelt. January 6 is the date he died, sixty years later.",
    "image": "assets/img/early-life/teedie-age-two.jpg",
    "imageAlt": "Theodore Roosevelt as a small boy",
    "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
   },
   {
    "prompt": "Where was he born?",
    "options": [
-    "A brownstone at 28 East 20th Street, Manhattan",
-    "Sagamore Hill, Oyster Bay",
-    "Hyde Park, New York",
-    "Albany"
+    "28 East 20th Street, Manhattan",
+    "A brownstone on Beacon Hill in Boston",
+    "Sagamore Hill, the family home at Oyster Bay",
+    "Hyde Park, up the Hudson from New York City"
    ],
    "answer": 0,
-   "explanation": "A five-storey brownstone on East 20th Street, in a fashionable stretch of Manhattan. The house was pulled down in 1916 and rebuilt as a memorial after his death; it stands today as the Theodore Roosevelt Birthplace National Historic Site.",
+   "explanation": "A five-storey brownstone in a fashionable stretch of Manhattan, and the family's home until they moved uptown in the 1870s. The house was pulled down in 1916. After his death his sisters organised a reconstruction of it as a memorial, complete in every detail, exactly as it had been when they were growing up — and it stands today as the Theodore Roosevelt Birthplace National Historic Site. Sagamore Hill, the house most people associate with him, was not built until 1884.",
    "image": "assets/img/early-life/birthplace-20th-street.jpg",
    "imageAlt": "Theodore Roosevelt's birthplace at 28 East 20th Street, New York",
    "credit": "Theodore Roosevelt's birthplace, 28 East 20th Street, New York. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
   },
   {
    "prompt": "What else happened on 27 October 1880?",
    "options": [
+    "His father died",
     "He married Alice Hathaway Lee",
-    "He graduated from Harvard",
     "He was elected to the Assembly",
-    "His father died"
+    "He graduated from Harvard"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "He married Alice Hathaway Lee in the Unitarian church at Brookline, Massachusetts, on his twenty-second birthday. He had pursued her relentlessly for two years, and he chose the date.",
    "image": "assets/img/early-life/alice-hathaway-lee.jpg",
    "imageAlt": "Alice Hathaway Lee, the first Mrs. Theodore Roosevelt",
    "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
   },
   {
    "prompt": "As a boy, what delighted him about one particular birthday morning?",
    "options": [
+    "He was taken to see a circus in the city",
+    "He was allowed to stay up until midnight",
     "It snowed for the first time on his birthday",
-    "He was given his first rifle",
-    "He saw his first bear",
     "His father returned from a long absence"
    ],
-   "answer": 0,
-   "explanation": "A snowstorm on the night of 26 October. His family recorded that Teedie was delighted to have had snow on his birthday morning, never having had that before. He was a boy who kept records of things, and this went in the record.",
+   "answer": 2,
+   "explanation": "A snowstorm on the night of 26 October. His family recorded that Teedie was delighted to have had snow on his birthday morning, never having had that before. He was a boy who kept records of things — his childhood diaries log the weather, the birds he saw and the exact contents of the little museum he kept in his bedroom — and this went in the record with the rest.",
    "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
    "imageAlt": "Tintype of the four Roosevelt children",
    "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
   },
   {
    "prompt": "In 1912 his birthday fell thirteen days after a significant event. What?",
    "options": [
+    "He had returned from his African safari",
+    "He had accepted the Progressive nomination",
     "He had been shot in the chest in Milwaukee",
-    "He had lost the presidential election",
-    "He had returned from Africa",
-    "He had founded the Progressive Party"
+    "He had lost the election to Woodrow Wilson"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "A saloonkeeper shot him at close range in Milwaukee on 14 October; he delivered his speech before going to hospital. Edith made him stay indoors for three days. On his birthday he went out to walk the grounds anyway, to her considerable displeasure. He called the resting mollycoddling.",
    "image": "assets/img/post-presidency/bull-moose-rough-riders.jpg",
    "imageAlt": "Roosevelt with Rough Rider veterans during the Bull Moose campaign",
    "credit": "T.R. with Rough Rider veterans during the Bull Moose campaign, Chicago. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/post-presidency", "label": "Post-presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
   },
   {
    "prompt": "Elihu Root sent him a note on his forty-sixth birthday in 1904. What did it say?",
    "options": [
+    "\"The nation has never been in better hands\"",
     "\"You have made a very good start in life\"",
-    "\"The nation is in your debt\"",
-    "\"Rest now, old friend\"",
-    "\"You will be president twice over\""
+    "\"I trust you will spend the day out of doors\"",
+    "\"Rest now, old friend, the work is finished\""
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "\"I congratulate you on attaining the respectable age of 46. You have made a very good start in life and your friends have great hopes for you when you grow up.\" Root was fourteen years his senior and teased him like an adolescent; Roosevelt, who enjoyed it, called him \"old man.\" The note went to a sitting president who was also a former governor and a war hero.",
    "image": "assets/img/presidency/tr-private-office.jpg",
    "imageAlt": "Theodore Roosevelt in his private office",
    "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "His forty-sixth birthday, in October 1904, fell days before what?",
    "options": [
-    "The election that made him president in his own right",
-    "The Portsmouth peace conference",
-    "His trip to Panama",
-    "The founding of the Forest Service"
+    "The election he won in his own right",
+    "The Portsmouth conference that ended the Russo-Japanese War",
+    "The founding of the United States Forest Service",
+    "His voyage to inspect the Panama Canal works"
    ],
    "answer": 0,
-   "explanation": "The November 1904 election, which he won handsomely — the first time he had been elected president rather than inheriting the office. On election night he announced he would not accept another nomination, a promise he kept in 1908 and regretted almost immediately.",
+   "explanation": "The presidential election of November 1904, twelve days after the birthday, which he won handsomely — the first time he had been elected to the office rather than inheriting it from a murdered predecessor. On election night he announced he would not accept another nomination, a promise he kept in 1908 and regretted almost immediately. The other three all happened, but later: Portsmouth in 1905, the Forest Service in 1905, Panama in 1906.",
    "image": "assets/img/presidency/campaign-1904-poster.jpg",
    "imageAlt": "Campaign poster for Theodore Roosevelt and Charles W. Fairbanks",
    "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "How old was he when he became president?",
-   "options": ["Forty-two", "Thirty-nine", "Forty-six", "Fifty-one"],
-   "answer": 0,
+   "options": [
+    "Thirty-nine",
+    "Forty-six",
+    "Fifty-one",
+    "Forty-two"
+   ],
+   "answer": 3,
    "explanation": "Forty-two, and still the youngest person ever to hold the office. He reached it by succession after McKinley's assassination — the youngest man ever elected to the presidency was John F. Kennedy, at forty-three.",
    "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
    "imageAlt": "Vice President Roosevelt at the swearing in of President McKinley, March 1901",
    "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "What did his family call him as a boy?",
-   "options": ["Teedie", "Teddy", "Thee", "Ted"],
-   "answer": 0,
+   "options": [
+    "Thee",
+    "Ted",
+    "Teddy",
+    "Teedie"
+   ],
+   "answer": 3,
    "explanation": "Teedie. His father was Thee and his eldest son would be Ted. He disliked Teddy all his life — that one belonged to the newspapers, not the family.",
    "image": "assets/img/early-life/teedie-age-two.jpg",
    "imageAlt": "Theodore Roosevelt at about two years old",
    "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "The name he hated" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "The name he hated"
+   }
   },
   {
    "prompt": "How many birthdays did he have in all?",
-   "options": ["Sixty", "Fifty-four", "Sixty-seven", "Seventy-two"],
+   "options": [
+    "Sixty",
+    "Seventy-two",
+    "Sixty-seven",
+    "Fifty-four"
+   ],
    "answer": 0,
    "explanation": "Sixty. He died in his sleep at Sagamore Hill on 6 January 1919, ten weeks after his sixtieth birthday. Vice President Marshall remarked that death had to take him sleeping, because awake there would have been a fight.",
    "image": "assets/img/family/sagamore-parlor.jpg",
    "imageAlt": "The parlor at Sagamore Hill",
    "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   }
  ]
 }

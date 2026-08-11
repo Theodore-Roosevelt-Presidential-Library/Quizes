@@ -7,231 +7,321 @@
  "heroAlt": "Theodore Roosevelt's birthplace at 28 East 20th Street, New York",
  "heroCredit": "Theodore Roosevelt's birthplace, 28 East 20th Street, New York. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/homes-and-places",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "Where History Happened",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Homes and Places quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/homes-and-places"
  },
  "tiers": [
-  { "min": 15, "name": "Keeper of the House", "line": "Perfect. Every room accounted for." },
-  { "min": 13, "name": "Site Historian", "line": "You know the ground." },
-  { "min": 10, "name": "Guide", "line": "You could lead the tour." },
-  { "min": 7,  "name": "Frequent Visitor", "line": "Come back in another season." },
-  { "min": 4,  "name": "First Trip", "line": "Plenty still to see." },
-  { "min": 0,  "name": "Booking Your Ticket", "line": "Start in Medora." }
+  {
+   "min": 15,
+   "name": "Keeper of the House",
+   "line": "Perfect. Every room accounted for."
+  },
+  {
+   "min": 13,
+   "name": "Site Historian",
+   "line": "You know the ground."
+  },
+  {
+   "min": 10,
+   "name": "Guide",
+   "line": "You could lead the tour."
+  },
+  {
+   "min": 7,
+   "name": "Frequent Visitor",
+   "line": "Come back in another season."
+  },
+  {
+   "min": 4,
+   "name": "First Trip",
+   "line": "Plenty still to see."
+  },
+  {
+   "min": 0,
+   "name": "Booking Your Ticket",
+   "line": "Start in Medora."
+  }
  ],
  "questions": [
   {
    "prompt": "Where was Roosevelt born?",
    "options": [
-    "Sagamore Hill, Oyster Bay",
+    "Albany",
     "28 East 20th Street, Manhattan",
-    "Hyde Park, New York",
-    "Albany"
+    "Sagamore Hill, Oyster Bay",
+    "Hyde Park, New York"
    ],
    "answer": 1,
    "explanation": "A brownstone at 28 East 20th Street. It was demolished in 1916 and reconstructed as a memorial after his death; today it is the Theodore Roosevelt Birthplace National Historic Site — a rebuilt house standing where the original stood.",
    "image": "assets/img/early-life/birthplace-20th-street.jpg",
    "imageAlt": "Roosevelt's birthplace at 28 East 20th Street",
    "credit": "Theodore Roosevelt's birthplace, 28 East 20th Street, New York. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
   },
   {
    "prompt": "What was Roosevelt's lifelong home at Oyster Bay called?",
-   "options": ["Springwood", "Sagamore Hill", "Tranquility", "Pyramid Park"],
-   "answer": 1,
+   "options": [
+    "Sagamore Hill",
+    "Springwood",
+    "Pyramid Park",
+    "Tranquility"
+   ],
+   "answer": 0,
    "explanation": "Sagamore Hill, built in 1884–85 and named for the Sagamore Mohannis, a chief who had signed away rights to the land generations before. Roosevelt lived there until he died in his sleep in an upstairs room in January 1919.",
    "image": "assets/img/family/sagamore-parlor.jpg",
    "imageAlt": "The parlor at Sagamore Hill",
    "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/homes-and-places", "label": "Where history happened" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
   },
   {
    "prompt": "What were Roosevelt's two Dakota ranches called?",
    "options": [
-    "The Maltese Cross and the Elkhorn",
+    "The Little Missouri and the Elkhorn",
     "The Bar-T and the Circle Dot",
     "Chimney Butte and Pyramid Park",
-    "The Little Missouri and the Elkhorn"
+    "The Maltese Cross and the Elkhorn"
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "The Maltese Cross, also called Chimney Butte, about seven miles south of Medora; and the Elkhorn, roughly thirty-five miles north, named for a pair of interlocked elk antlers found on the site.",
    "image": "assets/img/badlands/maltese-cross-ranch.jpg",
    "imageAlt": "The Maltese Cross Ranch house",
    "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "What remains at the Elkhorn Ranch site today?",
    "options": [
     "The original cabin, fully preserved",
+    "Nothing is known of the location",
     "Foundation stones and the site itself",
-    "A reconstructed village",
-    "Nothing is known of the location"
+    "A reconstructed village"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Foundation stones, cottonwoods and the bend of the Little Missouri. The site sits within Theodore Roosevelt National Park and is often called the Cradle of Conservation. Getting there still requires effort, which is arguably the point.",
    "image": "assets/img/badlands/elkhorn-ranch.jpg",
    "imageAlt": "The Elkhorn Ranch house among cottonwoods on the Little Missouri",
    "credit": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan a visit" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
   },
   {
    "prompt": "Who founded the town of Medora, and after whom was it named?",
    "options": [
-    "Roosevelt, after his mother",
+    "Gregor Lang, after his daughter",
     "The Marquis de Mores, after his wife",
     "The Northern Pacific Railroad, after a director",
-    "Gregor Lang, after his daughter"
+    "Roosevelt, after his mother"
    ],
    "answer": 1,
    "explanation": "The Marquis de Mores founded it on April 1, 1883, and named it for his wife, Medora von Hoffman. His chateau still overlooks the town, and the ruined chimney of his beef-packing plant still stands.",
    "image": "assets/img/badlands/de-mores-house.jpg",
    "imageAlt": "The house of the Marquis de Mores above the Little Missouri",
    "credit": "The house of the Marquis de Mores from the eastern bank of the river. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan a visit to Medora" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
   },
   {
    "prompt": "Where did Roosevelt take the presidential oath in 1901?",
    "options": [
-    "The Capitol",
-    "The library of a private house in Buffalo",
-    "Sagamore Hill",
-    "The Executive Mansion"
+    "Sagamore Hill, Oyster Bay",
+    "The Executive Mansion in Washington",
+    "A private house in Buffalo",
+    "The Capitol, before Congress"
    ],
-   "answer": 1,
-   "explanation": "In the library of the Ansley Wilcox house in Buffalo, hours after McKinley died, wearing borrowed formal clothes. The house is now the Theodore Roosevelt Inaugural National Historic Site.",
+   "answer": 2,
+   "explanation": "In the library of Ansley Wilcox's house in Buffalo, hours after McKinley died, wearing borrowed formal clothes. Wilcox was a friend, and Roosevelt had been staying with him through the vigil; the oath was administered in a private parlour with a few dozen people standing about. The house is now the Theodore Roosevelt Inaugural National Historic Site.",
    "image": "assets/img/rise-to-power/buffalo-interview.jpg",
    "imageAlt": "Roosevelt at Buffalo during McKinley's illness",
    "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's illness. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "What did Roosevelt officially rename the Executive Mansion in 1901?",
-   "options": ["The President's House", "The White House", "The Presidential Residence", "The Mansion"],
-   "answer": 1,
+   "options": [
+    "The Presidential Residence",
+    "The Mansion",
+    "The President's House",
+    "The White House"
+   ],
+   "answer": 3,
    "explanation": "The White House. People had used the name informally for decades; Roosevelt put it on the stationery and made it official that October.",
    "image": "assets/img/presidency/tr-private-office.jpg",
    "imageAlt": "Theodore Roosevelt in his private office",
    "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "What came out of the 1902 White House renovation Edith Roosevelt drove?",
    "options": [
+    "The West Wing",
     "The Rose Garden",
-    "The West Wing, separating offices from family quarters",
     "The Oval Office in its current form",
-    "The East Room"
+    "The North Portico and its columns"
    ],
-   "answer": 1,
-   "explanation": "The executive offices were moved out of the family's living space into a new wing on the west side. The Oval Office itself came later, under Taft.",
+   "answer": 0,
+   "explanation": "The executive offices were moved out of the family's living space into a new wing on the west side — room for a presidential staff of thirty-eight, and a room of their own for the reporters, who had until then loitered in the entrance hall. Charles McKim gutted the building to do it. The Oval Office itself came later, under Taft.",
    "image": "assets/img/family/edith-portrait.jpg",
    "imageAlt": "Portrait of Edith Kermit Carow Roosevelt",
    "credit": "Edith Kermit Carow Roosevelt. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "Which national park bears Roosevelt's name?",
    "options": [
-    "Theodore Roosevelt National Park, North Dakota",
     "Roosevelt National Park, New York",
-    "Rough Rider National Park, Cuba",
-    "Sagamore National Park, Long Island"
+    "Sagamore National Park, Long Island",
+    "Theodore Roosevelt National Park",
+    "Rough Rider National Park, Cuba"
    ],
-   "answer": 0,
-   "explanation": "Theodore Roosevelt National Park in the North Dakota Badlands — the only national park named for a single person. Its three units include the Elkhorn Ranch site and the Maltese Cross cabin.",
+   "answer": 2,
+   "explanation": "Theodore Roosevelt National Park, in the Badlands of western North Dakota — the only national park named for a single person. Its three units are the South Unit at Medora, the North Unit up near Watford City, and the Elkhorn Ranch site between them. The Maltese Cross cabin stands behind the South Unit visitor centre, having been moved several times before it came home.",
    "image": "assets/img/badlands/little-missouri.jpg",
    "imageAlt": "The Little Missouri River in the Badlands",
    "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan a visit" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
   },
   {
    "prompt": "Where did Roosevelt marry his first wife, Alice Hathaway Lee?",
    "options": [
     "Brookline, Massachusetts",
     "St George's, Hanover Square, London",
-    "Oyster Bay",
-    "Manhattan"
+    "Manhattan",
+    "Oyster Bay"
    ],
    "answer": 0,
    "explanation": "In the Unitarian church at Brookline, Massachusetts, on October 27, 1880 — his twenty-second birthday. His second marriage, to Edith, took place at St George's, Hanover Square, in London six years later.",
    "image": "assets/img/early-life/alice-hathaway-lee.jpg",
    "imageAlt": "Alice Hathaway Lee, the first Mrs. Theodore Roosevelt",
    "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/early-life", "label": "T.R.'s early life" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
   },
   {
    "prompt": "Where was Roosevelt when he learned McKinley was dying?",
    "options": [
-    "Sagamore Hill",
-    "Climbing in the Adirondacks",
-    "The Capitol",
-    "Buffalo"
+    "At Sagamore Hill, Oyster Bay",
+    "Already in Buffalo at the bedside",
+    "Campaigning in the Midwest",
+    "Climbing in the Adirondacks"
    ],
-   "answer": 1,
-   "explanation": "On Mount Marcy in the Adirondacks. He had gone climbing after McKinley seemed to rally, partly to reassure the country. A guide brought the message up the mountain and he came down through the night by buckboard.",
+   "answer": 3,
+   "explanation": "On Mount Marcy, the highest peak in New York. He had gone climbing after McKinley seemed to rally, partly to reassure a country that was reading the bulletins hour by hour. A guide brought the message up the mountain and he came down through the night by buckboard, changing horses in the dark, to catch a train at North Creek — by which time McKinley was already dead and Roosevelt was president.",
    "image": "assets/img/rise-to-power/buffalo-interview.jpg",
    "imageAlt": "Roosevelt at Buffalo during McKinley's illness",
    "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's illness. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "Where did Roosevelt deliver the \"Man in the Arena\" speech?",
    "options": [
-    "Chicago",
+    "Oxford University",
     "The Sorbonne, Paris",
-    "Osawatomie, Kansas",
-    "Oxford"
+    "The Chicago Coliseum",
+    "Osawatomie, Kansas"
    ],
    "answer": 1,
-   "explanation": "At the Sorbonne in Paris on April 23, 1910, in an address titled \"Citizenship in a Republic,\" given on his way home from Africa. The arena passage is a short stretch of a long speech.",
+   "explanation": "At the Sorbonne in Paris on April 23, 1910, in an address titled “Citizenship in a Republic,” given on his way home from Africa. The arena passage is a short stretch of a long speech. He spoke at Oxford that June and at Osawatomie that August as well, which is part of why the three get muddled — 1910 was a year of large speeches in large halls.",
    "image": "assets/img/shared/young-head-old-shoulders.jpg",
    "imageAlt": "Chromolithograph print of Theodore Roosevelt",
    "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "From the bully pulpit" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "From the bully pulpit"
+   }
   },
   {
    "prompt": "Where is Roosevelt buried?",
    "options": [
-    "Arlington National Cemetery",
     "Youngs Memorial Cemetery, Oyster Bay",
-    "The Badlands",
-    "Hyde Park"
+    "Arlington National Cemetery",
+    "Hyde Park",
+    "The Badlands"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "In Youngs Memorial Cemetery at Oyster Bay, on a wooded slope near Sagamore Hill, beside Edith. The arrangements were deliberately plain — there was no state funeral.",
    "image": "assets/img/family/sagamore-library.jpg",
    "imageAlt": "The library at Sagamore Hill",
    "credit": "Library at Sagamore Hill. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Where does the Theodore Roosevelt Presidential Library stand?",
    "options": [
-    "Oyster Bay, New York",
+    "Buffalo, New York",
     "Medora, North Dakota",
     "Washington, D.C.",
-    "Buffalo, New York"
+    "Oyster Bay, New York"
    ],
    "answer": 1,
    "explanation": "In Medora, in the Badlands of western North Dakota — the country where he ranched, and the place he credited with making the rest of his life possible. The Library is open year-round with seasonal hours.",
    "image": "assets/img/badlands/medora-1883.jpg",
    "imageAlt": "Medora, Dakota Territory, in 1883",
    "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan your visit" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan your visit"
+   }
   },
   {
    "prompt": "Which town did Roosevelt march the boat thieves to, roughly a hundred miles overland?",
-   "options": ["Bismarck", "Dickinson", "Miles City", "Mandan"],
-   "answer": 1,
+   "options": [
+    "Mandan",
+    "Bismarck",
+    "Miles City",
+    "Dickinson"
+   ],
+   "answer": 3,
    "explanation": "Dickinson, the nearest place with a sheriff and a courthouse. He kept the prisoners moving for around thirty-six hours and arrived barely able to walk, his feet so blistered that Dr Victor Stickney had to treat them.",
    "image": "assets/img/badlands/dickinson-1883.jpg",
    "imageAlt": "Dickinson, Dakota Territory, in 1883",
    "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   }
  ]
 }

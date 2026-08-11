@@ -1,0 +1,327 @@
+{
+ "id": "panama-canal",
+ "title": "The Path Between the Seas",
+ "subtitle": "Building the Panama Canal",
+ "intro": "The French tried it first and were beaten by mountains, mud and mosquitoes. The Americans finished it — after a rejected treaty, a revolution, a fight over locks, and a doctor almost nobody listened to. Fifteen questions on the biggest thing anyone had ever built.",
+ "heroImage": "assets/img/panama/tr-at-panama.jpg",
+ "heroAlt": "President Theodore Roosevelt standing on a steam shovel at the Panama Canal works in 1906",
+ "heroCredit": "President Roosevelt at the Panama Canal construction site, 1906. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Path Between the Seas",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Panama Canal quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Ocean to Ocean",
+   "line": "Perfect. Atlantic to Pacific in a single day."
+  },
+  {
+   "min": 13,
+   "name": "Pedro Miguel Lock",
+   "line": "One lock left and the Pacific beyond it."
+  },
+  {
+   "min": 10,
+   "name": "Gaillard Cut",
+   "line": "Through the mountain spine of the isthmus."
+  },
+  {
+   "min": 7,
+   "name": "Gatun Lake",
+   "line": "Eighty-five feet above the sea and steaming."
+  },
+  {
+   "min": 4,
+   "name": "Gatun Locks",
+   "line": "First lift out of the Atlantic."
+  },
+  {
+   "min": 0,
+   "name": "Limon Bay",
+   "line": "Riding at anchor at the Atlantic entrance. Come back and make the transit."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The French tried first, and the man who led them was already world-famous. Who was he?",
+   "options": [
+    "Philippe Bunau-Varilla",
+    "Gustave Eiffel",
+    "Georges-Eugène Haussmann",
+    "Ferdinand de Lesseps"
+   ],
+   "answer": 3,
+   "explanation": "De Lesseps had built the Suez Canal, and he was a diplomat by training rather than an engineer. He was certain Panama could be dug flat, at sea level, exactly as Suez had been — across a mountain spine and a river that floods. He had promised to break ground on the first day of 1880, and he kept the promise aboard a tug in Panama Bay that never reached the chosen spot: his seven-year-old daughter Ferdinande swung a pickax, brought specially from France, into a champagne box on the deck.",
+   "image": "assets/img/panama/french-machinery-abandoned.jpg",
+   "imageAlt": "Rusting French excavating machinery collapsing into the water on the bank of the canal near Cristóbal",
+   "credit": "Abandoned French machinery on the bank of the Panama Canal near Cristobal — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "When the French finally admitted Panama would need locks, they hired the most celebrated engineer in France to build them. Who?",
+   "options": [
+    "Georges-Eugène Haussmann",
+    "Gustave Eiffel",
+    "Louis Pasteur",
+    "Frédéric Auguste Bartholdi"
+   ],
+   "answer": 1,
+   "explanation": "Eiffel's men were excavating the lock basins on the isthmus and his castings were being shipped from France when the money ran out. The tower that carries his name opened in Paris in 1889, the same year the canal company collapsed, and his beautifully machined lock parts were still lying in the jungle when the Americans turned up fifteen years later. He was prosecuted in the enormous fraud scandal that followed, convicted, and then cleared on appeal.",
+   "image": "assets/img/panama/canal-under-construction.jpg",
+   "imageAlt": "A water-filled stretch of the canal channel cut between steep excavated hillsides",
+   "credit": "Panama Canal under construction. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Before Panama was chosen, the Senate came close to putting the canal through Nicaragua instead. What arrived on every senator's desk days before the deciding vote?",
+   "options": [
+    "A Nicaraguan postage stamp showing a volcano in eruption",
+    "A telegram from the King of Spain",
+    "A petition signed by ten thousand engineers",
+    "A jar of Panamanian soil"
+   ],
+   "answer": 0,
+   "explanation": "Nicaragua advertised its own volcanoes on its stamps. Philippe Bunau-Varilla, the French promoter working for the Panama route, went round the stamp dealers of Washington until he had ninety one-centavo copies, one for each senator, pasted each on a sheet and typed a line beneath offering it as official evidence of volcanic activity. Panama carried the Senate by 42 votes to 34. Bunau-Varilla claimed ever afterwards that the stamp fired the last shot of the fight. David McCullough gives that shot to Senator Morgan of Alabama, who rose the following day to denounce the Panama lobby by name — but agrees the volcanoes mattered: had Momotombo and Mont Pelée been quiet that spring, he writes, it is quite unlikely the Senate would have voted as it did.",
+   "image": "assets/img/panama/isthmian-canal-game.jpg",
+   "imageAlt": "Colour cartoon of a railroad lobbyist working two puppets labelled Panama Route and Nicaragua Route, making them fight",
+   "credit": "The Isthmian Canal Game, Puck, 23 April 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In August 1903 the Colombian senate threw out the canal treaty its own minister had signed in Washington. What was that treaty called?",
+   "options": [
+    "The Hay-Pauncefote Treaty",
+    "The Clayton-Bulwer Treaty",
+    "The Hay-Herrán Treaty",
+    "The Hay-Bunau-Varilla Treaty"
+   ],
+   "answer": 2,
+   "explanation": "Tomás Herrán signed for Colombia on 22 January 1903; on 12 August the Colombian senate rejected it, by every account unanimously. Bogotá wanted more money and objected to handing over authority on its own soil, and it assumed Washington would simply come back with a better offer. The other names are real treaties and none of them is this one: Hay-Pauncefote settled matters with Britain so an American-only canal was possible, Clayton-Bulwer was the 1850 agreement it replaced, and Hay-Bunau-Varilla is what the United States signed after Panama broke away.",
+   "image": "assets/img/panama/cartoon-sacre-bleu.jpg",
+   "imageAlt": "Colour cartoon of a French figure outside the U.S. Treasury reading a newspaper headline that Colombia rejects the canal treaty",
+   "credit": "Sacre bleu! — Puck, 9 September 1903, on the collapse of the canal treaty. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Colombian troops came ashore at Colón on the morning of 3 November 1903 to put down the revolt. What stopped them reaching Panama City that day?",
+   "options": [
+    "A hurricane washed out the roads",
+    "The Panama Railroad carried the generals but not the troops",
+    "They mutinied and joined the rebels",
+    "The rebels tore up the track outside Colón"
+   ],
+   "answer": 1,
+   "explanation": "The railroad across the isthmus was American-owned, and that decided the day. James Shaler, its seventy-seven-year-old American superintendent, met the officers on the wharf and pressed a special one-car train on them as a courtesy, explaining that a temporary shortage of equipment meant their five hundred men would follow shortly. When one general grew suspicious and wanted off, Shaler stepped to the back of the carriage, pulled the signal cord and hopped down, smiling and waving as the train pulled out. The generals were arrested in Panama City that evening. Two days later the leaderless troops were paid $8,000 out of the railroad's safe to board a steamer for Cartagena — and only after they had sailed did four hundred American marines land at Colón. The only casualties of the whole revolution were a Chinese shopkeeper asleep in his bed and a donkey, both killed by shells from a Colombian gunboat.",
+   "image": "assets/img/panama/cartoon-held-up-wrong-man.jpg",
+   "imageAlt": "Black and white cartoon cover showing a figure labelled Colombia holding a revolver being seized by a Rough Rider figure carrying a bag marked millions for a canal",
+   "credit": "Held up the wrong man — Harper's Weekly, 21 November 1903. American opinion on the affair was sharply divided at the time. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who signed the treaty that handed the United States its Canal Zone — signing on behalf of the brand-new Republic of Panama?",
+   "options": [
+    "Theodore Roosevelt",
+    "Manuel Amador Guerrero, Panama's first president",
+    "John Hay, the American Secretary of State",
+    "Philippe Bunau-Varilla, a French citizen"
+   ],
+   "answer": 3,
+   "explanation": "Bunau-Varilla had a financial interest in the canal and had been made Panama's minister in Washington within days of the new republic's founding. He and Hay signed at seven in the evening on 18 November 1903, hours before Panama's own delegation reached the city. He had brought no seal, so Hay offered him a choice of rings, one of them the signet Byron was wearing the day he died; he chose the Hay family arms. Hay wrote privately to a senator that the treaty was \"vastly advantageous to the United States, and we must confess, with what face we can muster, not so advantageous to Panama\".",
+   "image": "assets/img/panama/panama-city-1904.jpg",
+   "imageAlt": "The city of Panama seen from the old fort in 1904, a soldier standing on the rampart in the foreground",
+   "credit": "The city of Panama, capital of the new republic, 1904 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Dr. William Gorgas arrived in 1904 certain that one thing had to be beaten before a spadeful of earth was worth turning. What?",
+   "options": [
+    "Rats carrying plague",
+    "Foul air rising off the swamps",
+    "Mosquitoes",
+    "Contaminated drinking water"
+   ],
+   "answer": 2,
+   "explanation": "Gorgas had proved the method in Havana: go after the standing water the insects breed in. At the old French hospital at Ancon he found the wards doing the exact opposite — bed legs standing in shallow pans of water, and garden plants ringed with water-filled crockery to keep the ants off. The place had been raising the mosquitoes that filled its own graveyard. Nurses on night duty wrapped themselves in bandages soaked in citronella. The canal commission ignored his requests for supplies for the better part of a year; once John Stevens backed him, yellow fever was gone from the isthmus by 1906.",
+   "image": "assets/img/panama/ancon-hospital.jpg",
+   "imageAlt": "A palm-lined dirt road past the verandahed wooden wards of Ancon Hospital, Panama",
+   "credit": "Ancon Hospital from the Tivoli Hotel, Isthmus of Panama — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "John Stevens took charge as chief engineer in 1905 and startled everybody within weeks. What did he do?",
+   "options": [
+    "Stopped the digging altogether",
+    "Moved his headquarters to Washington",
+    "Doubled the workforce overnight",
+    "Ordered the shovels worked around the clock"
+   ],
+   "answer": 0,
+   "explanation": "On 1 August he halted excavation in the Culebra Cut and sent the steam-shovel crews home. \"The digging is the least thing of all,\" he said, and spent the next year building houses, mess halls, hospitals, cold storage and a properly rebuilt double-tracked railway before he would let anyone dig again. He was a railroad man to the bone — he had found Marias Pass for the Great Northern on foot and alone after his guide gave up — and he had been recommended to Roosevelt by James J. Hill, who had no time for Roosevelt whatsoever.",
+   "image": "assets/img/panama/steam-shovel-1906.jpg",
+   "imageAlt": "A steam shovel loading spoil into a line of railway dump cars in a rock cutting, 1906",
+   "credit": "Steam shovel at work digging the canal, Isthmus of Panama, 1906 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "In 1906 Congress settled one last argument about the canal itself. What was the question?",
+   "options": [
+    "Whether to dig at sea level or build a canal of locks",
+    "Whether ships should pass in one direction only",
+    "Whether the walls should be concrete or cut stone",
+    "Whether the Navy or the Army should own it"
+   ],
+   "answer": 0,
+   "explanation": "The choice was between a sea-level ditch and a canal that would lift ships over the isthmus through locks, using a dammed Chagres to make an artificial lake most of the way across. The international board Roosevelt appointed split down the middle: its majority, mostly European, wanted sea level, and the American minority wanted locks. Stevens came north to argue the case and Roosevelt backed him. The Senate voted 36 to 31 — a swing of three votes and the United States would have attempted a sea-level canal, which by every later estimate it could not have finished. George Goethals said afterwards that there was not money enough in the world to dig one at Panama.",
+   "image": "assets/img/panama/gatun-locks.jpg",
+   "imageAlt": "The vast concrete chambers of the Gatun Locks with tugs and barges waiting in the lower chamber",
+   "credit": "Gatun locks looking toward the Atlantic entrance of the canal, with tugs, dredges and barges ready for the first lockage. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The lock plan meant damming a river, drowning a valley and floating ships across the isthmus on the lake. Which river?",
+   "options": [
+    "The Magdalena",
+    "The Chagres",
+    "The San Juan",
+    "The Atrato"
+   ],
+   "answer": 1,
+   "explanation": "\"The one great problem in the construction of any canal down there is the control of the Chagres River,\" Stevens told Congress. \"That overshadows everything else.\" Dammed at Gatun, it made what was then the largest artificial lake in the world, and the locks raise a ship eighty-five feet to reach it and lower it down the far side. Congress was badly frightened of earth dams — the Johnstown flood of 1889, which killed more than two thousand people when a dam let go, was still fresh in everyone's mind.",
+   "image": "assets/img/panama/gatun-dam-spillway.jpg",
+   "imageAlt": "A steam shovel and drilling rig at work digging the spillway for the Gatun Dam, with loaded spoil cars alongside",
+   "credit": "Digging the spillway at Gatun, Panama Canal Zone — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In 1907 Roosevelt handed the whole works to an Army engineer, George Goethals. What was the deciding reason for choosing a soldier?",
+   "options": [
+    "Congress insisted on a West Point man",
+    "He was the cheapest candidate",
+    "He had worked on the Suez Canal",
+    "A soldier could not resign"
+   ],
+   "answer": 3,
+   "explanation": "Two civilian chief engineers had walked away from Panama and Roosevelt had had enough of it. Goethals had never met the President before the night he was summoned to the White House; as the other new commissioners came in one at a time, Roosevelt told each of them that any disagreement with Goethals would constitute his resignation. Goethals wrote to a friend a week or so later, \"It’s a case of just plain straight duty. I am ordered down—there was no alternative.\" He stayed seven years and saw the first ship through.",
+   "image": "assets/img/panama/ancon-in-gatun-locks.jpg",
+   "imageAlt": "The steamer Ancon in a chamber of the Gatun Locks in 1914, crowds lining the lock walls",
+   "credit": "The steamer Ancon in the Gatun Locks, 1914. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "The hardest stretch of the whole canal was a trench blasted through the mountain spine of the isthmus. What is it called?",
+   "options": [
+    "The Miraflores Trench",
+    "The Darién Cut",
+    "The Culebra Cut",
+    "The Chagres Passage"
+   ],
+   "answer": 2,
+   "explanation": "Nine miles of drills, dynamite and steam shovels, and it kept filling itself back in — the banks slid into the excavation year after year, and the Cucaracha slide went on moving for decades. Major David Gaillard, who ran the digging, described the ground in Scientific American as \"a tropical glacier—of mud instead of ice\", measured by survey stakes set on its surface exactly the way stakes are set on glaciers. The Cut carries his name today.",
+   "image": "assets/img/panama/culebra-cut-gaillard.jpg",
+   "imageAlt": "Lines of railway track curving through the Culebra Cut between raw excavated hillsides, with spoil trains and workers",
+   "credit": "Culebra Cut, now known as Gaillard Cut, during construction. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt sailed for Panama in November 1906. Why November?",
+   "options": [
+    "The canal was finished and ready to open",
+    "He was collecting his Nobel Prize on the way",
+    "It was the one month with no risk of hurricanes",
+    "He wanted to see the work at its worst, in the rains"
+   ],
+   "answer": 3,
+   "explanation": "November is the height of the Panamanian rainy season, and he chose it deliberately: he wanted to see the excavation under the conditions that had beaten the French, not on a dry day arranged for a visitor. He got precisely what he asked for. The downpour on his second day was the worst in fifteen years, three inches in under two hours, and he went out into it in a white suit and a seaman's sou'wester. \"I tramped everywhere through the mud,\" he wrote. At the station he spotted William Gorgas in the crowd, pulled him into a closed carriage — then the two of them slipped out the far door and went straight to Ancon Hospital, arriving two hours before he was expected while the escort galloped on to the hotel with an empty carriage. He also walked unannounced into the workers' mess hall at La Boca and sat down to the thirty-cent lunch.",
+   "image": "assets/img/panama/tr-mess-hall-la-boca.jpg",
+   "imageAlt": "Theodore Roosevelt in a white suit and Edith Roosevelt in a veiled hat coming down the steps of the mess hall at La Boca, Panama",
+   "credit": "Mess Hall, La Boca, Panama — Theodore Roosevelt and Edith Kermit Carow Roosevelt, 1906. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "\"I took the Isthmus\" is Roosevelt's most quoted line about Panama. When did he say it?",
+   "options": [
+    "In his message to Congress in 1903",
+    "In the 1904 election campaign",
+    "In a speech at the University of California in 1911",
+    "In his inaugural address in 1905"
+   ],
+   "answer": 2,
+   "explanation": "He said it at Berkeley on 23 March 1911, two years out of office and never one to leave a fight alone: \"Accordingly I took the Isthmus, started the canal, and then left Congress—not to debate the canal, but to debate me.\" A fresh congressional investigation was called for within days. How the Canal Zone was obtained is still argued over; Colombia was eventually paid twenty-five million dollars, in a treaty concluded in 1921, two years after Roosevelt's death.",
+   "image": "assets/img/panama/roosevelts-rough-diggers.jpg",
+   "imageAlt": "Colour cartoon of Roosevelt in Rough Rider uniform leading a charge of men carrying shovels instead of rifles",
+   "credit": "Roosevelt's Rough Diggers, Puck, November 1906. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Most of the men who dug the canal for the Americans came from where?",
+   "options": [
+    "The British West Indies",
+    "Ireland",
+    "China",
+    "The American South"
+   ],
+   "answer": 0,
+   "explanation": "Recruiters worked across the Caribbean, but the main office was just off Trafalgar Square in Bridgetown, and Barbados alone sent close to twenty thousand men — the police had to turn out to keep the crowds in order on the days it opened. The payroll was split in two, a \"gold roll\" paid in gold dollars and a \"silver roll\" paid in silver. The labels were nominally about currency. In practice they sorted the workforce by race and nationality, and that division shaped life in the Canal Zone for two generations.",
+   "image": "assets/img/panama/tr-steam-shovel-climbing.jpg",
+   "imageAlt": "A man in a white suit climbing onto a working steam shovel while a crowd of canal workers watches from the mud below",
+   "credit": "Upon the big steam shovel — Theodore Roosevelt climbing into a steam shovel with canal workers around him, 1906. Photograph by J. L. Wright. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  }
+ ]
+}

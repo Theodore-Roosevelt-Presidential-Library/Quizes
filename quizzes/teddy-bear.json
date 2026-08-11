@@ -7,27 +7,57 @@
  "heroAlt": "Clifford Berryman's cartoon \"Drawing the line in Mississippi\"",
  "heroCredit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
  "learnMore": "https://www.trlibrary.com/tr/myths",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Teddy Bear",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Teddy Bear quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/myths"
  },
  "tiers": [
-  { "min": 12, "name": "Holt Collier", "line": "Perfect. Nobody knows this country better." },
-  { "min": 10, "name": "The Cartoonist", "line": "You saw what everyone missed." },
-  { "min": 8,  "name": "Toymaker", "line": "You know how it was made." },
-  { "min": 5,  "name": "Delta Guide", "line": "Good tracking." },
-  { "min": 3,  "name": "Following the Dogs", "line": "You're on the trail." },
-  { "min": 0,  "name": "Still in Camp", "line": "The canebrake is that way." }
+  {
+   "min": 12,
+   "name": "Holt Collier",
+   "line": "Perfect. Nobody knows this country better."
+  },
+  {
+   "min": 10,
+   "name": "The Cartoonist",
+   "line": "You saw what everyone missed."
+  },
+  {
+   "min": 8,
+   "name": "Toymaker",
+   "line": "You know how it was made."
+  },
+  {
+   "min": 5,
+   "name": "Delta Guide",
+   "line": "Good tracking."
+  },
+  {
+   "min": 3,
+   "name": "Following the Dogs",
+   "line": "You're on the trail."
+  },
+  {
+   "min": 0,
+   "name": "Still in Camp",
+   "line": "The canebrake is that way."
+  }
  ],
  "questions": [
   {
    "prompt": "Where was the 1902 hunt that produced the teddy bear?",
    "options": [
     "The Mississippi Delta, near Smedes",
-    "The Louisiana bayou",
+    "The Louisiana canebrakes",
     "The Ozarks in Arkansas",
     "The Great Smoky Mountains"
    ],
@@ -36,167 +66,208 @@
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's cartoon of Roosevelt refusing to shoot the bear",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Who led the hunt as Roosevelt's guide?",
    "options": [
-    "Holt Collier, a formerly enslaved Mississippian and celebrated bear hunter",
-    "Ben Lilly, the Louisiana houndsman",
-    "A party of local planters",
-    "Roosevelt guided himself"
+    "Roosevelt hunted without a guide",
+    "Holt Collier, a Mississippi bear hunter",
+    "A party of Delta planters who knew the country",
+    "Ben Lilly, the celebrated Louisiana houndsman"
    ],
-   "answer": 0,
-   "explanation": "Holt Collier, then fifty-six, chosen because no one in the Delta could track a bear like him. He had killed his first with a twelve-gauge Scott shotgun in a swamp at the age of ten and had guided for more than thirty years. He is credited with taking some three thousand bears in his lifetime — a figure that says as much about the century as about the man.",
+   "answer": 1,
+   "explanation": "Holt Collier, then fifty-six, chosen because no one in the Delta could track a bear like him. He had been born into slavery in 1846, killed his first bear with a twelve-gauge Scott shotgun in a swamp at the age of ten, ran away at fourteen and — improbably, and to Roosevelt's fascination — served with the Confederate army before coming home to the Delta to hunt. He had guided for more than thirty years by 1902 and is credited with taking some three thousand bears in his lifetime, a figure that says as much about the century as about the man. Ben Lilly was a real Roosevelt guide, but on a different hunt: the Louisiana canebrakes in 1907.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's 1902 cartoon of the Mississippi bear hunt",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/people", "label": "The people around him" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
   },
   {
    "prompt": "What happened when the hunting party finally cornered a bear?",
    "options": [
-    "Roosevelt shot it cleanly",
-    "It was captured and tied up so the president could shoot it",
-    "It escaped into the canebrake",
-    "It was found already dead"
+    "It broke through the dogs and escaped into the canebrake",
+    "It was found dead, killed by the dogs",
+    "It was caught alive and tied up",
+    "Roosevelt brought it down with a single clean shot"
    ],
-   "answer": 1,
-   "explanation": "The dogs brought it to bay and it was secured so the president could have his shot. In the struggle the bear seized one of Collier's dogs and killed it. By the time Roosevelt reached the spot the animal was exhausted and tied.",
+   "answer": 2,
+   "explanation": "The dogs brought it to bay and it was roped and secured so the president could have his shot — the whole point of the expedition being that the president should get a bear. In the struggle the bear seized one of Collier's dogs and killed it. By the time Roosevelt rode up to the spot the animal was exhausted, injured and tied fast, and the hunt everyone had planned for months had arranged itself into something he wanted no part of.",
    "image": "assets/img/teddy-bear/berryman-to-the-woods.jpg",
    "imageAlt": "A later Berryman cartoon featuring the bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "What was the bear tied to?",
-   "options": ["A fence post", "A willow tree", "A wagon wheel", "A stake driven in the mud"],
-   "answer": 1,
+   "options": [
+    "A stake driven in the mud",
+    "A fence post",
+    "A wagon wheel",
+    "A willow tree"
+   ],
+   "answer": 3,
    "explanation": "A willow. Roosevelt afterwards described it as a poor, ragged thing the hunting guides had tied to a willow tree — which tells you what he thought of the arrangement.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's cartoon of the tied bear",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Why did Roosevelt refuse to shoot it?",
    "options": [
     "He had run out of ammunition",
-    "He judged it unsportsmanlike",
     "He was too far away for a clean shot",
+    "He judged it unsportsmanlike",
     "He had already filled his quota"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "Shooting a tethered animal was not hunting, and he would not do it. This was a man who had spent twenty years writing about the ethics of the chase; the refusal was entirely in character and no part of it was staged for the press.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Roosevelt turning away from the tied bear in Berryman's cartoon",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/strenuous-life", "label": "The strenuous life" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
   },
   {
    "prompt": "What became of the bear?",
    "options": [
-    "It was released unharmed",
-    "It was killed anyway, to end its suffering",
-    "It was taken to a zoo",
-    "It broke free and escaped"
+    "It was cut loose and released unharmed",
+    "It was killed anyway",
+    "It was crated and sent to a zoo in Washington",
+    "It broke free in the night and escaped"
    ],
    "answer": 1,
-   "explanation": "This is the part the toy leaves out. The animal was exhausted, injured and beyond saving, and Roosevelt ordered it put out of its misery — he simply would not be the one to claim it as a trophy. The refusal was about sportsmanship, not mercy.",
+   "explanation": "This is the part the toy leaves out. The animal was exhausted, injured and beyond saving, and Roosevelt ordered it put out of its misery — he simply would not be the one to claim it as a trophy. The refusal was about sportsmanship, not mercy, and the cartoon that followed quietly turned the one into the other. Nothing in the story ends with a bear walking free into the canebrake.",
    "image": "assets/img/teddy-bear/berryman-to-the-woods.jpg",
    "imageAlt": "A later Berryman cartoon featuring the bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Who drew the cartoon that made the story famous?",
    "options": [
-    "Thomas Nast",
     "Clifford Berryman",
-    "Homer Davenport",
-    "Joseph Keppler"
+    "Joseph Keppler",
+    "Thomas Nast",
+    "Homer Davenport"
    ],
-   "answer": 1,
+   "answer": 0,
    "explanation": "Clifford K. Berryman, whose drawing ran on the front page of the next day's Washington Post. He titled it \"The Passing Show,\" but almost nobody calls it that — it is remembered by its caption instead.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's cartoon as published",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "What was the cartoon's caption?",
    "options": [
-    "\"Drawing the Line in Mississippi\"",
     "\"The President's Mercy\"",
+    "\"Teddy's Bear\"",
     "\"A Square Deal for the Bear\"",
-    "\"Teddy's Bear\""
+    "\"Drawing the Line in Mississippi\""
    ],
-   "answer": 0,
+   "answer": 3,
    "explanation": "\"Drawing the Line in Mississippi.\" Many scholars read the caption as a double meaning — the line Roosevelt drew at shooting a tied bear, and a second line being drawn in Mississippi over race. The cartoon is funnier and sharper than the toy it produced.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's captioned cartoon",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/complex-legacy", "label": "An honest accounting" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
   },
   {
    "prompt": "How did the bear in Berryman's drawings change as he kept reusing it?",
    "options": [
-    "It grew larger and fiercer",
-    "It shrank until it was a small round-eyed cub",
-    "It was replaced by a moose",
-    "He stopped drawing it after a month"
+    "It grew larger and fiercer with each drawing",
+    "It shrank into a small cub",
+    "It vanished from his cartoons within a year",
+    "It stayed exactly as he first drew it"
    ],
    "answer": 1,
-   "explanation": "The animal in the first drawing is a full-grown bear. Berryman put it in cartoon after cartoon and it dwindled, ending as the wide-eyed cub everybody now pictures. Toy makers copied the cartoon rather than the hunt — which is why the teddy bear is cute and the real one was not.",
+   "explanation": "The animal in the first drawing is a full-grown bear. Berryman kept it in cartoon after cartoon for the rest of his career and it dwindled with each appearance, ending as the small, round-eyed, wide-mouthed cub everybody now pictures. Toy makers copied the cartoon rather than the hunt — which is why the teddy bear is cute and the real one was not.",
    "image": "assets/img/teddy-bear/berryman-to-the-woods.jpg",
    "imageAlt": "The shrunken cartoon bear in a later Berryman drawing",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "Who made the first American toy bears inspired by the cartoon?",
    "options": [
+    "F.A.O. Schwarz, the New York toy emporium",
     "Margarete Steiff in Germany",
-    "Rose and Morris Michtom, Brooklyn shopkeepers",
-    "F.A.O. Schwarz",
-    "The Ideal Novelty and Toy Company's designers in Ohio"
+    "Rose and Morris Michtom",
+    "The Milton Bradley company of Springfield, Massachusetts"
    ],
-   "answer": 1,
-   "explanation": "Rose Michtom, moved by the story, sewed two plush bears stuffed with excelsior and put them in the shop window. Her husband Morris had the commercial idea that followed.",
+   "answer": 2,
+   "explanation": "Rose Michtom, moved by the story, sewed two plush bears stuffed with excelsior and put them in the window of the small Brooklyn shop she and her husband kept. Her husband Morris had the commercial idea that followed, wrote to the White House, and built the whole thing into the Ideal Novelty and Toy Company — which is why the first American teddy bear and the first American teddy bear manufacturer are the same two people.",
    "image": "assets/img/teddy-bear/berryman-to-the-woods.jpg",
    "imageAlt": "Berryman's cartoon bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "What did Morris Michtom do before selling the toy under Roosevelt's name?",
    "options": [
-    "Registered a trademark",
-    "Wrote to the president asking permission",
     "Sold it under a different name for a year",
-    "Nothing — he never asked"
+    "Nothing — he never asked",
+    "Registered a trademark",
+    "Wrote to the president asking permission"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "He wrote to the White House asking permission to market it as \"Teddy's Bear,\" and Roosevelt granted it. There is a nice irony in that: Roosevelt disliked being called Teddy, and signed away his nickname to a toy that has carried it for more than a century.",
    "image": "assets/img/teddy-bear/drawing-the-line-original.jpg",
    "imageAlt": "Berryman's cartoon that inspired the toy",
    "credit": "\"Drawing the line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "The name he hated" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "The name he hated"
+   }
   },
   {
    "prompt": "Meanwhile in Germany, someone was making stuffed bears entirely independently. Who?",
    "options": [
     "Margarete Steiff, a seamstress in Giengen",
+    "Nobody — the toy was purely American",
     "The Bing brothers of Nuremberg",
-    "Käthe Kruse",
-    "Nobody — the toy was purely American"
+    "Käthe Kruse, the German dollmaker"
    ],
    "answer": 0,
    "explanation": "Margarete Steiff, who had survived polio and built a soft-toy business in the small town of Giengen. Her nephew Richard sketched brown bears at the Stuttgart and Munich zoos and persuaded her to make one. At first nobody bought them. The two stories met in the American market and the teddy bear became a craze on both sides of the Atlantic.",
    "image": "assets/img/teddy-bear/berryman-to-the-woods.jpg",
    "imageAlt": "Berryman's cartoon bear",
    "credit": "\"To the Woods!\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   }
  ]
 }

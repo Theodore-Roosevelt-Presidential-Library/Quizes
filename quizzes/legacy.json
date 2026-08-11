@@ -7,28 +7,58 @@
  "heroAlt": "James Earle Fraser's equestrian statue in front of the Roosevelt Memorial, New York City",
  "heroCredit": "Fraser statue of T.R. in front of Roosevelt Memorial, New York City. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
  "learnMore": "https://www.trlibrary.com/tr/legacy",
- "shuffle": { "questions": true, "options": true },
- "live": { "seconds": 20, "revealSeconds": 4 },
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
  "badge": {
   "title": "The Measure of the Man",
   "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Legacy quiz — {tier}. Try it:",
   "url": "https://www.trlibrary.com/tr/legacy"
  },
  "tiers": [
-  { "min": 15, "name": "Carved in Granite", "line": "Perfect. A permanent record." },
-  { "min": 13, "name": "The Historians' Verdict", "line": "Top of the rankings." },
-  { "min": 10, "name": "Monument", "line": "You'll be remembered for this." },
-  { "min": 7,  "name": "Plaque", "line": "Modest, but it counts." },
-  { "min": 4,  "name": "Footnote", "line": "Everyone starts as one." },
-  { "min": 0,  "name": "Unmarked", "line": "There is time yet." }
+  {
+   "min": 15,
+   "name": "Carved in Granite",
+   "line": "Perfect. A permanent record."
+  },
+  {
+   "min": 13,
+   "name": "The Historians' Verdict",
+   "line": "Top of the rankings."
+  },
+  {
+   "min": 10,
+   "name": "Monument",
+   "line": "You'll be remembered for this."
+  },
+  {
+   "min": 7,
+   "name": "Plaque",
+   "line": "Modest, but it counts."
+  },
+  {
+   "min": 4,
+   "name": "Footnote",
+   "line": "Everyone starts as one."
+  },
+  {
+   "min": 0,
+   "name": "Unmarked",
+   "line": "There is time yet."
+  }
  ],
  "questions": [
   {
    "prompt": "Roosevelt is one of four presidents carved on Mount Rushmore. Who are the others?",
    "options": [
     "Washington, Jefferson, Lincoln",
-    "Washington, Adams, Lincoln",
     "Jefferson, Jackson, Lincoln",
+    "Washington, Adams, Lincoln",
     "Washington, Jefferson, Grant"
    ],
    "answer": 0,
@@ -36,59 +66,71 @@
    "image": "assets/img/shared/fraser-statue-memorial.jpg",
    "imageAlt": "The Fraser equestrian statue in front of the Roosevelt Memorial, New York",
    "credit": "Fraser statue of T.R. in front of Roosevelt Memorial, New York City. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Where do historians typically rank Roosevelt among American presidents?",
    "options": [
-    "In the middle of the pack",
-    "Consistently in or near the top five",
     "In the bottom half",
-    "Rankings vary wildly with no pattern"
+    "In the middle of the pack",
+    "Rankings vary wildly with no pattern",
+    "Consistently in or near the top five"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "He appears in or near the top five in almost every scholarly survey since such rankings began, usually alongside Lincoln, Washington and Franklin Roosevelt. His position has been remarkably stable across decades of changing historical fashion.",
    "image": "assets/img/presidency/tr-private-office.jpg",
    "imageAlt": "Theodore Roosevelt in his private office",
    "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Which everyday object is named after Roosevelt?",
    "options": [
+    "The safari jacket",
     "The teddy bear",
-    "The bully pulpit",
     "The rough rider boot",
-    "The safari jacket"
+    "The bully pulpit"
    ],
-   "answer": 0,
+   "answer": 1,
    "explanation": "The teddy bear, from the 1902 Mississippi hunt where he refused to shoot a bear that had been tied up for him. A Brooklyn shopkeeper made a stuffed bear, called it Teddy's bear, and an industry followed. Roosevelt disliked the nickname and tolerated the toy.",
    "image": "assets/img/shared/drawing-the-line-mississippi.jpg",
    "imageAlt": "Berryman's cartoon \"Drawing the Line in Mississippi\"",
    "credit": "\"Drawing the Line in Mississippi,\" Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact versus fiction" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
   },
   {
    "prompt": "What phrase did Roosevelt coin for the presidency as a platform for persuasion?",
    "options": [
-    "The bully pulpit",
-    "The people's house",
     "The office of moral suasion",
+    "The people's house",
+    "The bully pulpit",
     "The national podium"
    ],
-   "answer": 0,
+   "answer": 2,
    "explanation": "\"Bully\" meant excellent in his usage, not domineering. He meant the presidency gave him a magnificent platform from which to preach — and he used it more deliberately than any president before him.",
    "image": "assets/img/shared/young-head-old-shoulders.jpg",
    "imageAlt": "Chromolithograph print of Theodore Roosevelt",
    "credit": "\"A young head on old shoulders.\" Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Which part of Roosevelt's record is most often called his most enduring?",
    "options": [
-    "Trust-busting",
-    "Conservation",
     "The Panama Canal",
+    "Conservation",
+    "Trust-busting",
     "Naval expansion"
    ],
    "answer": 1,
@@ -96,44 +138,53 @@
    "image": "assets/img/conservation/glacier-point-scenery.jpg",
    "imageAlt": "President Roosevelt amid Yosemite scenery",
    "credit": "Amidst America's noblest scenery — President Roosevelt on Glacier Point. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency/conservation", "label": "Conservation" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
   },
   {
    "prompt": "How did Roosevelt himself explain what made his career possible?",
    "options": [
-    "His Harvard education",
-    "His years in the North Dakota Badlands",
-    "His war service in Cuba",
-    "His father's connections"
+    "His war service with the Rough Riders in Cuba",
+    "His father's standing in New York society",
+    "His Harvard education and reading",
+    "His years in the North Dakota Badlands"
    ],
-   "answer": 1,
-   "explanation": "He credited North Dakota. He told his biographer Hermann Hagedorn that it was there the romance of his life began — and the Library now standing in Medora exists because he said so.",
+   "answer": 3,
+   "explanation": "He credited North Dakota. He told his biographer Hermann Hagedorn that it was there the romance of his life began, and at Sioux Falls in September 1910 he called his Dakota years the most important educational asset of all his life. He went west in 1884 as a grieving twenty-five-year-old assemblyman with a reputation as a dude and came back three years later able to hold his own with men who did not care what his name was. The Library now standing in Medora exists because he said so.",
    "image": "assets/img/badlands/tr-roundup-1885.jpg",
    "imageAlt": "Theodore Roosevelt on the round-up, 1885",
    "credit": "Theodore Roosevelt on the round-up, 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
   },
   {
    "prompt": "What did Vice President Thomas Marshall say when Roosevelt died in his sleep?",
    "options": [
     "That the country had lost its conscience",
-    "That death had to take him sleeping, or there would have been a fight",
-    "That an era had ended",
-    "Nothing publicly"
+    "That the Republic had lost its most useful citizen",
+    "That death had to take him sleeping",
+    "That an era had ended with the century's first great man"
    ],
-   "answer": 1,
-   "explanation": "Marshall remarked that death had to take Roosevelt sleeping, because if he had been awake there would have been a fight. It is the most quoted line about him and it captures the public image exactly.",
+   "answer": 2,
+   "explanation": "Marshall's remark was that death had to take Roosevelt sleeping, because if he had been awake there would have been a fight. He died at Sagamore Hill in the early hours of 6 January 1919, aged sixty, of a blood clot that reached his lungs, having worked on an article the evening before. It is the most quoted line about him and it captures the public image exactly — which is part of why it is worth remembering that the man it describes had been broken by the Amazon, was carrying a bullet in his chest, and had buried his youngest son six months earlier.",
    "image": "assets/img/family/sagamore-parlor.jpg",
    "imageAlt": "The parlor at Sagamore Hill",
    "credit": "The Parlor, Sagamore Hill. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Which political tradition claims descent from Roosevelt's later programme?",
    "options": [
     "The Progressive movement in both major parties",
-    "Only the modern Republican Party",
     "Only the modern Democratic Party",
+    "Only the modern Republican Party",
     "Neither; his ideas died with him"
    ],
    "answer": 0,
@@ -141,102 +192,136 @@
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
    "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
    "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
-   "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "T.R.'s legacy" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
   },
   {
    "prompt": "Roosevelt's Medal of Honor was awarded when?",
    "options": [
-    "1898, immediately after Cuba",
     "1919, on his death",
     "2001, posthumously",
+    "1898, immediately after Cuba",
     "It was never awarded"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "In 2001, more than a century after the fact. He was recommended for it in 1898 and the award was blocked, largely because he had publicly criticised the War Department's handling of the campaign.",
    "image": "assets/img/rough-riders/san-juan-monument.jpg",
    "imageAlt": "The monument on San Juan Hill",
    "credit": "The monument on San Juan Hill. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rough Riders" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rough Riders"
+   }
   },
   {
    "prompt": "The Roosevelts produced a second president. Who, and what was the relation?",
    "options": [
-    "Franklin Roosevelt, a distant cousin who married Theodore's niece",
-    "Franklin Roosevelt, his son",
-    "Theodore Roosevelt Jr., his son",
-    "Kermit Roosevelt, his son"
+    "Franklin Roosevelt, his younger brother",
+    "Kermit Roosevelt, his son and fellow explorer",
+    "Theodore Roosevelt Jr., his eldest son",
+    "Franklin Roosevelt, a distant cousin"
    ],
-   "answer": 0,
-   "explanation": "Franklin Delano Roosevelt was a distant cousin from the Hyde Park branch, and married Theodore's niece Eleanor in 1905 — with Theodore giving the bride away. The two branches were of different parties and did not always get along.",
+   "answer": 3,
+   "explanation": "Franklin Delano Roosevelt was a fifth cousin from the Hyde Park branch of the family — the Democratic branch — and he married Theodore's niece Eleanor in 1905, which made the connection close as well as distant. Theodore gave the bride away, on St Patrick's Day, and the guests were said to have followed him out of the room afterwards. Franklin took Theodore's old job at the Navy Department and copied a good deal else besides. The two branches were of different parties, and the Oyster Bay Roosevelts campaigned against Franklin more than once.",
    "image": "assets/img/family/family-portrait.jpg",
    "imageAlt": "Roosevelt family portrait",
    "credit": "Roosevelt family portrait. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/family", "label": "The Roosevelt family" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
   },
   {
    "prompt": "What distinction does Theodore Roosevelt National Park hold?",
    "options": [
-    "The largest national park",
+    "The first national park created by Congress",
+    "The most visited park in the national system",
     "The only national park named for a single person",
-    "The first national park",
-    "The most visited national park"
+    "The largest national park in the lower forty-eight"
    ],
-   "answer": 1,
-   "explanation": "It is the only one named for an individual. It covers three units in the North Dakota Badlands, including the Elkhorn Ranch site where his cabin stood.",
+   "answer": 2,
+   "explanation": "It is the only one of the more than sixty national parks named for an individual. It covers three separate units strung along the Little Missouri in the North Dakota Badlands — the South Unit at Medora, the North Unit near Watford City, and the Elkhorn Ranch site in between, where his cabin stood and where today there is little to see but foundation stones and the river. It was made a national memorial park in 1947 and a national park in 1978. Yellowstone was the first park, Great Smoky Mountains is the most visited, and Death Valley is the largest in the lower forty-eight.",
    "image": "assets/img/badlands/little-missouri.jpg",
    "imageAlt": "The Little Missouri River in the Badlands",
    "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan a visit" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
   },
   {
    "prompt": "Roosevelt was the first American to win a Nobel Prize in any category. Which one?",
-   "options": ["Literature", "Peace", "Physics", "Medicine"],
-   "answer": 1,
+   "options": [
+    "Peace",
+    "Physics",
+    "Medicine",
+    "Literature"
+   ],
+   "answer": 0,
    "explanation": "The Peace Prize, in 1906, for mediating an end to the Russo-Japanese War. He gave the money away. Two later presidents — Wilson and Carter — also won it, and Obama received it in office.",
    "image": "assets/img/presidency/nobel-certificate.jpg",
    "imageAlt": "The Nobel Peace Prize certificate awarded to Theodore Roosevelt",
    "credit": "Certificate of the Nobel Prize. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/presidency", "label": "The presidency" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
   },
   {
    "prompt": "How do historians today treat the harder parts of Roosevelt's record?",
    "options": [
-    "They are generally omitted",
-    "They are examined alongside his achievements — his views on race, Native nations and empire caused lasting harm",
-    "They have been disproved",
-    "They are considered irrelevant to his presidency"
+    "They are examined alongside his achievements",
+    "They have largely been disproved by newer scholarship",
+    "They are considered irrelevant to his presidency",
+    "They are generally left out of museum interpretation"
    ],
-   "answer": 1,
-   "explanation": "An honest account includes both. His beliefs about race and his conduct toward Native nations and in the Philippines did real and lasting damage, and the Library presents that plainly rather than around it.",
+   "answer": 0,
+   "explanation": "An honest account includes both, and nothing in the record has been disproved. His beliefs about racial hierarchy were conventional for his class and generation and were no less damaging for that; he dishonourably discharged 167 Black soldiers of the 25th Infantry after Brownsville in 1906 without trial or hearing, a decision reversed by the Army only in 1972. His conduct toward Native nations, whose land the conservation record was often carved from, and the war in the Philippines belong in the same accounting. The Library presents that plainly rather than around it — a presidential library that only flatters its subject is not a library.",
    "image": "assets/img/shared/fraser-statue-memorial.jpg",
    "imageAlt": "The Fraser equestrian statue in front of the Roosevelt Memorial",
    "credit": "Fraser statue of T.R. in front of Roosevelt Memorial, New York City. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/complex-legacy", "label": "An honest accounting" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
   },
   {
    "prompt": "What happened to the equestrian statue that stood outside the American Museum of Natural History?",
    "options": [
     "It was destroyed",
-    "It was removed in 2022 and relocated",
     "It remains in place",
+    "It was removed in 2022 and relocated",
     "It was never built"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "James Earle Fraser's statue showed Roosevelt mounted with a Native American man and an African man on foot beside him — a composition widely read as a hierarchy. It was removed in 2022 and sent on long-term loan to the Theodore Roosevelt Presidential Library in Medora.",
    "image": "assets/img/shared/fraser-statue-memorial.jpg",
    "imageAlt": "The Fraser equestrian statue in front of the Roosevelt Memorial, New York City",
    "credit": "Fraser statue of T.R. in front of Roosevelt Memorial, New York City. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/tr/complex-legacy", "label": "An honest accounting" }
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
   },
   {
    "prompt": "When did the Theodore Roosevelt Presidential Library open?",
-   "options": ["1919", "1958", "July 4, 2026", "2019"],
-   "answer": 2,
+   "options": [
+    "1919",
+    "2019",
+    "1958",
+    "July 4, 2026"
+   ],
+   "answer": 3,
    "explanation": "July 4, 2026, in Medora — 107 years after his death, in the Badlands he credited with making him. It is a working presidential library built where the story turned rather than where he governed.",
    "image": "assets/img/badlands/medora-1883.jpg",
    "imageAlt": "Medora, Dakota Territory, in 1883",
    "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": { "url": "https://www.trlibrary.com/visit", "label": "Plan your visit" }
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan your visit"
+   }
   }
  ]
 }

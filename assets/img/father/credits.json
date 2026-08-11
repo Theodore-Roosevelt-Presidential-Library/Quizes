@@ -1,0 +1,109 @@
+{
+ "tr-sr-portrait": {
+  "source": "loc",
+  "ref": "2018733677",
+  "source_file": "loc_pictures_2018733677",
+  "description": "Sagamore Hill, Theodore Roosevelt House. Portrait of Theodore Roosevelt's father",
+  "rights": "No known restrictions on publication. For information, see: \"Gottscho-Schleisner Collection\"  https://hdl.loc.gov/loc.pnp/res.104.gott",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "339x420",
+  "note": "Gottscho-Schleisner photograph (1966) of the oil portrait of Theodore Roosevelt Sr. hanging at Sagamore Hill: gilt frame on patterned wallpaper, bookcase below, a mounted specimen along the shelf. It is a photograph of the painting in situ, not the painting itself, and captions must say so. SIZE LIMITATION: 339x420 is all that exists. LOC record 2018733677 offers no larger derivative and the storage-services master TIFF (5a29283u.tif) is the same 339x420; the DAM has nothing for Theodore Roosevelt Sr. Every other hero in the repo is 1400 wide. Until a better scan is found, use this file sparingly - hero plus at most one question - and never at full-bleed width."
+ },
+ "newsboys-washing-up": {
+  "source": "loc",
+  "ref": "2002710258",
+  "source_file": "loc_pictures_2002710258",
+  "description": "\"Washing up\" in the newsboys' lodging house",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1119",
+  "note": "Illustrative: photographed about 1890, a decade after Theodore Roosevelt Sr.'s death, but of the same Children's Aid Society lodging houses he funded and visited."
+ },
+ "childrens-aid-society": {
+  "source": "loc",
+  "ref": "2002710265",
+  "source_file": "loc_pictures_2002710265",
+  "description": "Children's Aid Society",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1225x1536",
+  "note": "Illustrative: Children's Aid Society, about 1890. Not the boys Theodore Roosevelt Sr. knew, but the same institution."
+ },
+ "broadway-1870": {
+  "source": "loc",
+  "ref": "91793479",
+  "source_file": "loc_pictures_91793479",
+  "description": "[Broadway near Grand St., New York City]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1669",
+  "note": "Stereograph card; cropped to the left frame, publisher mount removed."
+ },
+ "moosehead-lake": {
+  "source": "loc",
+  "ref": "2002711537",
+  "source_file": "loc_pictures_2002711537",
+  "description": "[Lake Steamer Twilight docked at Moosehead Lake, Maine]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1110",
+  "note": "Illustrative: Moosehead Lake in the 1880s, roughly a decade after the stagecoach ride."
+ },
+ "on-the-nile": {
+  "source": "dam",
+  "ref": "033c7e03-d3d1-4cdf-a4b5-bab410e039f0",
+  "source_file": "har_2309451_On_the_Nile_winter_of_1872_1873.jpg",
+  "description": "On the Nile, winter of 1872-1873 \u2014 Back row, standing, on the far right: Mr. Clift Smith; middle row, seated from left to right: Edith Clift Smith, Martha Bulloch Roosevelt, Theodore Roosevelt, Sr., Mrs. Clift Smith, Elizabeth Clift Sm \u2014 Date: 1872-1873",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1111",
+  "note": "Group portrait; per the Houghton catalogue Theodore Roosevelt Sr. and Martha Bulloch Roosevelt are seated in the middle row."
+ },
+ "57th-street-library": {
+  "source": "dam",
+  "ref": "7e65d2c7-4b10-400f-909d-973e24ca27e0",
+  "source_file": "har_2092274_Library_The_home_of_TR_s_father_W_57th_S.jpg",
+  "description": "Library. The home of TR's father, W 57th St. NY City \u2014 6 West 57th Street, New York (N.Y.).",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1016"
+ },
+ "57th-street-entrance-hall": {
+  "source": "dam",
+  "ref": "70832d88-247f-4990-9a3b-58ef7fe8e91b",
+  "source_file": "har_2092273_Entrance_Hall_The_home_of_TR_s_father_W_.jpg",
+  "description": "Entrance Hall. The home of TR's father, W 57th St. NY City \u2014 6 West 57th Street, New York (N.Y.).",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1034"
+ },
+ "57th-street-dining-room": {
+  "source": "dam",
+  "ref": "d225cff1-b7c2-4ceb-970c-25365ef833fc",
+  "source_file": "har_2092275_Dining_Room_The_home_of_TR_s_father_W_57.jpg",
+  "description": "Dining Room. The home of TR's father, W 57th St. NY City \u2014 6 West 57th Street, New York (N.Y.).",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1014"
+ },
+ "army-camp-1862": {
+  "source": "loc",
+  "ref": "2004661308",
+  "source_file": "loc_pictures_2004661308",
+  "description": "8th N.J.V. Camp near Matawoman [sic] Creek on the Potomac Charles Co. Md. = Gen Hooker's division",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x929",
+  "note": "Illustrative: wartime field sketch of a Union winter camp of the kind he visited as an allotment commissioner."
+ },
+ "ny-infantry-winter-camp": {
+  "source": "loc",
+  "ref": "2010650891",
+  "source_file": "loc_pictures_2010650891",
+  "description": "[Company H, 124th New York Infantry Regiment in winter camp in Virginia, possibly Brandy Station, posed in Union uniforms in front of a building]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1125",
+  "note": "Illustrative: a New York volunteer company in winter camp, the service Theodore Roosevelt Sr. did not perform."
+ }
+}
