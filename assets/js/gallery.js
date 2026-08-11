@@ -203,14 +203,36 @@
     var clearBtn = null;
     controls.appendChild(search);
 
-    var facetWrap = el('div', 'facets');
+    // Disclosure for the facets. Only visible under 640px (see gallery.css);
+    // on desktop the button is display:none and the collapse class is ignored,
+    // so there is nothing to keep in sync when a window is resized.
+    var toggle = el('button', 'facets__toggle');
+    toggle.type = 'button';
+    var toggleLabel = el('span', null, 'Filter by difficulty or topic');
+    var toggleCount = el('span', 'facets__n', '');
+    toggle.appendChild(toggleLabel);
+    toggle.appendChild(toggleCount);
+    var caret = document.createElement('span');
+    caret.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+      'stroke-width="3" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>';
+    toggleCount.appendChild(caret);
+    toggle.setAttribute('aria-expanded', 'false');
+    controls.appendChild(toggle);
+
+    var facetWrap = el('div', 'facets is-collapsed');
+    toggle.setAttribute('aria-controls', 'trplq-facets');
+    facetWrap.id = 'trplq-facets';
+    toggle.addEventListener('click', function () {
+      var open = facetWrap.classList.toggle('is-collapsed') === false;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
     controls.appendChild(facetWrap);
 
     var chipEls = [];
 
     function addFacet(label, values, kind) {
       if (!values || !values.length) return;
-      var f = el('div', 'facet');
+      var f = el('div', 'facet facet--' + kind);
       f.appendChild(el('p', 'facet__label', label));
       var ul = el('ul', 'chips');
       f.setAttribute('role', 'group');
@@ -241,7 +263,7 @@
     addFacet('Topic', facets.topics, 'topic');
 
     var status = el('div', 'status');
-    var count = el('span', null, '');
+    var count = el('span', 'status__count', '');
     status.appendChild(count);
     var reset = el('button', null, 'Clear filters');
     reset.type = 'button';
@@ -370,11 +392,21 @@
         void probe;
       });
 
+      // The status row only exists once the visitor has narrowed something.
+      // Announcing "29 quizzes, in a new order each day" to someone who has
+      // done nothing is the widget talking about itself.
       var filtered = state.q || state.difficulty || Object.keys(state.topics).length;
-      count.textContent = filtered
-        ? shown.length + ' of ' + all.length + ' quizzes'
-        : all.length + ' quizzes, in a new order each day';
-      reset.hidden = !filtered;
+      count.textContent = shown.length === all.length
+        ? 'All ' + all.length + ' quizzes'
+        : shown.length + ' of ' + all.length + ' quizzes';
+      status.hidden = !filtered;
+
+      // On a phone the facets are collapsed, so say how many are active —
+      // otherwise a filtered list looks like a broken one.
+      var active = (state.difficulty ? 1 : 0) + Object.keys(state.topics).length;
+      toggleLabel.textContent = active
+        ? (active === 1 ? '1 filter' : active + ' filters') + ' applied'
+        : 'Filter by difficulty or topic';
 
       // The clear-search button exists only while there is text to clear.
       if (state.q && !clearBtn) {

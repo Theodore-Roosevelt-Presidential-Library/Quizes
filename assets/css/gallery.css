@@ -49,19 +49,36 @@
 img{max-width:100%;display:block;height:auto}
 button,input{font:inherit;color:inherit}
 
-/* ---------- controls ------------------------------------------------- */
+/* ---------- controls -------------------------------------------------
+   The first build put fourteen loose pills straight onto the page under two
+   tiny all-caps labels. On a white Drupal page that reads as debris between
+   the breadcrumb and the cards — nothing tells you it is one control, and the
+   topic row wrapped so that "Holidays & Occasions" sat alone on a second line
+   looking broken.
 
-.controls{margin:0 0 1.5rem}
+   So: one contained band, and the labels sit INLINE with their rows rather
+   than stacked above them. Inline labels buy back two lines of height, which
+   is what stops the topic row wrapping badly at common widths.
+   -------------------------------------------------------------------- */
 
-.search{position:relative;max-width:26rem;margin:0 0 1rem}
+.controls{
+  margin:0 0 1.75rem;
+  background:var(--sand-wash);
+  border:1px solid var(--hairline);
+  border-radius:.375rem;
+  padding:1rem 1.15rem .95rem;
+}
+
+.search{position:relative;margin:0 0 .85rem;max-width:32rem}
 .search input{
-  width:100%;padding:.6rem .75rem .6rem 2.25rem;
+  width:100%;padding:.62rem .75rem .62rem 2.3rem;
   font-family:var(--font-caption);font-size:.95rem;
   border:1px solid var(--hairline);border-radius:var(--radius);
   background:var(--white);color:var(--dark-gray);
 }
+.search input::placeholder{color:var(--dark-gray);opacity:.5}
 .search input:focus{outline:2px solid var(--dark-forest);outline-offset:1px;border-color:transparent}
-.search svg{position:absolute;left:.65rem;top:50%;transform:translateY(-50%);
+.search svg{position:absolute;left:.7rem;top:50%;transform:translateY(-50%);
   width:1rem;height:1rem;opacity:.45;pointer-events:none}
 /* The clear button only exists while there is something to clear, so it is
    never an empty tap target for a screen reader to announce. */
@@ -69,30 +86,44 @@ button,input{font:inherit;color:inherit}
   border:0;background:none;cursor:pointer;padding:.35rem;line-height:0;opacity:.55}
 .search button:hover{opacity:1}
 
-.facets{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:flex-start}
-.facet{min-width:0}
-.facet__label{font-family:var(--font-caption);font-size:.7rem;font-weight:700;
-  letter-spacing:.09em;text-transform:uppercase;color:var(--dark-forest);
-  opacity:.75;margin:0 0 .45rem}
-.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none}
+.facets{display:flex;flex-direction:column;gap:.55rem}
+
+/* Label and chips on one line; the chips wrap under themselves, not under
+   the label, because the label is a flex item of fixed width. */
+.facet{display:flex;align-items:flex-start;gap:.75rem;min-width:0}
+.facet__label{
+  flex:0 0 4.6rem;
+  font-family:var(--font-caption);font-size:.68rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--dark-forest);
+  opacity:.7;margin:0;padding-top:.5rem;
+}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:0;padding:0;list-style:none;
+  min-width:0}
 
 .chip{
   font-family:var(--font-caption);font-size:.8rem;line-height:1;
-  padding:.42rem .7rem;border-radius:999px;cursor:pointer;
+  padding:.42rem .72rem;border-radius:999px;cursor:pointer;
   border:1px solid var(--hairline);background:var(--white);
   color:var(--dark-gray);white-space:nowrap;
   transition:background .12s,border-color .12s,color .12s;
 }
-.chip:hover{border-color:var(--dark-forest)}
+.chip:hover{border-color:var(--dark-forest);background:var(--white)}
 .chip[aria-pressed="true"]{background:var(--dark-forest);border-color:var(--dark-forest);
   color:var(--white)}
 .chip:focus-visible{outline:2px solid var(--dark-forest);outline-offset:2px}
 /* A facet value nothing currently matches stays visible but goes quiet, so the
    set of topics doesn't jump around as you filter. */
-.chip[data-empty="1"]{opacity:.38}
+.chip[data-empty="1"]{opacity:.35}
 
-.status{display:flex;flex-wrap:wrap;gap:.75rem;align-items:baseline;
-  margin:1rem 0 0;font-family:var(--font-caption);font-size:.82rem;opacity:.75}
+/* Difficulty is a ladder, not a tag set, so it gets a slightly firmer edge —
+   enough to read as a different KIND of control without shouting. */
+.facet--difficulty .chip{border-color:rgba(27,69,50,.28)}
+
+.status{display:flex;flex-wrap:wrap;gap:.9rem;align-items:baseline;
+  margin:.85rem 0 0;padding-top:.75rem;border-top:1px solid var(--hairline);
+  font-family:var(--font-caption);font-size:.82rem}
+.status[hidden]{display:none}
+.status__count{opacity:.75}
 .status button{border:0;background:none;padding:0;cursor:pointer;
   text-decoration:underline;color:var(--dark-forest);font-size:inherit}
 
@@ -124,12 +155,21 @@ button,input{font:inherit;color:inherit}
 
 .card__blurb{font-size:.9rem;line-height:1.45;margin:0 0 .8rem;flex:1 1 auto}
 
-.card__meta{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;
-  font-family:var(--font-caption);font-size:.72rem;margin-top:auto}
-.tag{padding:.25rem .5rem;border-radius:999px;background:var(--sand-wash);
-  color:var(--dark-gray);white-space:nowrap}
-.tag--diff{background:var(--dark-forest);color:var(--white)}
-.tag--count{background:none;padding-left:0;opacity:.6}
+/* Card metadata is INFORMATION, not controls. In the first build it used the
+   same pill shape as the filter chips above, so every card looked like it had
+   four buttons on it. Only the difficulty keeps a pill — it is the one signal
+   worth a glance — and the rest is plain text on a dotted rule. */
+.card__meta{display:flex;flex-wrap:wrap;gap:.3rem .35rem;align-items:center;
+  font-family:var(--font-caption);font-size:.72rem;margin-top:auto;
+  padding-top:.7rem;border-top:1px dotted var(--hairline)}
+/* Filled, borderless, no hover — reads as a label, not a button. Deliberately
+   NOT separated by "·": these wrap, and a wrapped separator ends up leading
+   the second line, which looks like a typo. */
+.tag{padding:.22rem .48rem;border-radius:999px;white-space:nowrap;
+  background:rgba(37,40,42,.055);color:var(--dark-gray);opacity:.8}
+.tag--diff{background:var(--dark-forest);color:var(--white);opacity:1;
+  font-weight:700;letter-spacing:.02em}
+.tag--count{background:none;padding:.22rem 0 .22rem .15rem;opacity:.5}
 
 mark{background:var(--sunset-yellow);color:inherit;padding:0 .1em;border-radius:2px}
 
@@ -140,7 +180,46 @@ mark{background:var(--sunset-yellow);color:inherit;padding:0 .1em;border-radius:
   padding:.5rem .9rem;border-radius:var(--radius);cursor:pointer;
   border:1px solid var(--dark-forest);background:var(--dark-forest);color:var(--white)}
 
+/* ---------- small screens --------------------------------------------
+   Fourteen chips stacked cost 461px on a 390px-wide phone — the visitor
+   scrolled a full screen of controls before reaching a single quiz. Below
+   640px the facets collapse behind a disclosure and the search box stays,
+   because searching is the thing people actually do on a phone.
+
+   The collapse is a class, not the `hidden` attribute, and it is only
+   honoured inside this media query — so a phone that rotates to landscape
+   or a resized desktop window always shows the facets, with no JS listening
+   for viewport changes.
+   -------------------------------------------------------------------- */
+
+.facets__toggle{display:none}
+
+@media (max-width:640px){
+  .controls{padding:.85rem .9rem}
+  .search{margin-bottom:.7rem}
+
+  .facets__toggle{
+    display:flex;align-items:center;justify-content:space-between;gap:.5rem;
+    width:100%;padding:.55rem .75rem;cursor:pointer;
+    font-family:var(--font-caption);font-size:.82rem;font-weight:700;
+    border:1px solid var(--hairline);border-radius:var(--radius);
+    background:var(--white);color:var(--dark-forest);
+  }
+  .facets__toggle svg{width:.85rem;height:.85rem;transition:transform .15s}
+  .facets__toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+  .facets__toggle .facets__n{
+    font-weight:400;opacity:.7;font-size:.78rem}
+
+  .facets.is-collapsed{display:none}
+  .facets{margin-top:.7rem}
+
+  /* Stack the label above its chips — 4.6rem of label beside a wrapping
+     chip list wastes a third of a phone's width. */
+  .facet{flex-direction:column;gap:.35rem}
+  .facet__label{flex:none;padding-top:0}
+}
+
 @media (prefers-reduced-motion:reduce){
-  .card,.chip{transition:none}
+  .card,.chip,.facets__toggle svg{transition:none}
   .card:hover{transform:none}
 }

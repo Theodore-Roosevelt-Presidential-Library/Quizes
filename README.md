@@ -390,6 +390,32 @@ The trick is telling a name from a sentence-initial capital. A word is kept
 only if it appears mid-sentence at least once somewhere, which sorts "Rondon"
 from "Born" without needing a dictionary.
 
+### The filter bar
+
+Three things the first build got wrong, for anyone tempted to undo them:
+
+**The controls live in a band.** Fourteen loose pills straight on a white
+Drupal page read as debris between the breadcrumb and the cards. A sand-wash
+panel with a hairline border makes them one object.
+
+**Labels sit inline with their rows,** not stacked above. That buys back two
+lines of height, which is what stops the topic row wrapping so that "Holidays
+& Occasions" sits alone on a second line looking broken.
+
+**Card metadata is not shaped like the filter chips.** It used to be, so every
+card looked like it had four buttons on it. Now only the difficulty keeps a
+solid pill; topics are quiet filled labels with no border and no hover.
+
+Below 640px the facets collapse behind a disclosure — stacked, they cost 461px
+on a 390px phone, a full screen of controls before the first quiz. The search
+box stays visible, because searching is what people do on a phone. The collapse
+is a class honoured only inside the media query, so a rotation or a resized
+window always reveals the facets and no JS watches the viewport.
+
+The status line only appears once something is narrowed. Telling a visitor who
+has done nothing that there are "29 quizzes, in a new order each day" is the
+widget talking about itself.
+
 ### Facets
 
 `difficulty` and `topics` live on each entry in `quizzes/index.json`, and the
