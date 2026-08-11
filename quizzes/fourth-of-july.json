@@ -1,0 +1,187 @@
+{
+ "id": "fourth-of-july",
+ "title": "The Dickinson Oration",
+ "subtitle": "Independence Day, 1886",
+ "intro": "In the summer of 1886 a twenty-seven-year-old New York ranchman rode a freight train thirty-five miles to give a Fourth of July speech in a Dakota town six years old. Seven hundred people heard it. One of them told him afterwards he would be president. Eleven questions on the best Independence Day in North Dakota history.",
+ "heroImage": "assets/img/badlands/dickinson-1883.jpg",
+ "heroAlt": "Dickinson, Dakota Territory, in 1883",
+ "heroCredit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": { "questions": true, "options": true },
+ "live": { "seconds": 20, "revealSeconds": 4 },
+ "badge": {
+  "title": "The Dickinson Oration",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Fourth of July quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  { "min": 11, "name": "Orator of the Day", "line": "Perfect. The crowd is yours." },
+  { "min": 9,  "name": "On the Platform", "line": "Very well done." },
+  { "min": 7,  "name": "In the Parade", "line": "A strong showing." },
+  { "min": 5,  "name": "At the Dinner", "line": "Solid work." },
+  { "min": 3,  "name": "Watching from the Boardwalk", "line": "You caught some of it." },
+  { "min": 0,  "name": "Missed the Train", "line": "It only ran the once." }
+ ],
+ "questions": [
+  {
+   "prompt": "Where did Roosevelt give his Fourth of July oration in 1886?",
+   "options": ["Dickinson, Dakota Territory", "Medora", "Bismarck", "Fargo"],
+   "answer": 0,
+   "explanation": "Dickinson — thirty-five miles east of Medora and six years old at the time. It was the town's first Independence Day celebration, and about seven hundred people turned out, the largest crowd Dickinson had ever assembled. The country was a hundred and ten years old; the town was younger than the ranch Roosevelt was running.",
+   "image": "assets/img/badlands/dickinson-1883.jpg",
+   "imageAlt": "Dickinson, Dakota Territory, in 1883",
+   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "How did he travel there that morning?",
+   "options": [
+    "On a freight train up the Northern Pacific line",
+    "On horseback across the buttes",
+    "By stagecoach from Medora",
+    "In the Marquis de Mores's private carriage"
+   ],
+   "answer": 0,
+   "explanation": "A freight train, thirty-five miles from Medora, in company with Arthur Packard — twenty-four years old and editor of the Bad Lands Cow Boy. Neither man knew it, but both were near the end of their time in Dakota, and both would make their reputations in the East.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "Medora in 1883, showing the office and company store of the Marquis de Mores",
+   "credit": "Medora in 1883: the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Who invited him to speak?",
+   "options": [
+    "Dr. Victor Hugo Stickney, the town physician",
+    "The Marquis de Mores",
+    "Joe Ferris",
+    "The Northern Pacific Railroad"
+   ],
+   "answer": 0,
+   "explanation": "Stickney — the doctor who had patched up Roosevelt's feet that April after a long ride in wet boots, and who vouched for the young New Yorker in front of the crowd. He was among those who remembered the earnestness of the speech for the rest of his life.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt photographed in 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "Who read the Declaration of Independence aloud that day?",
+   "options": [
+    "The justice of the peace, whose name was Western Starr",
+    "Roosevelt himself",
+    "A schoolteacher",
+    "Nobody — it was not read"
+   ],
+   "answer": 0,
+   "explanation": "Western Starr, justice of the peace, who read it \"in a clear, forcible tone.\" That was his real name. The programme also included the Dickinson Silver Cornet Band, a wagon of little girls in white dresses representing the states, a display of the newest farm machinery, and a troupe called the Invincibles in masks and grotesque costume.",
+   "image": "assets/img/badlands/dickinson-1883.jpg",
+   "imageAlt": "The town of Dickinson, Dakota Territory",
+   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "According to a witness, what did Roosevelt sound like?",
+   "options": [
+    "His voice was pitched somewhere between a squeak and a shriek",
+    "A booming baritone that carried to the back",
+    "So quiet that nobody could hear him",
+    "He read flatly from a prepared text"
+   ],
+   "answer": 0,
+   "explanation": "A witness said he was plainly embarrassed and spoke in a high key, reckoning it somewhere between a \"squeak and a shriek.\" The voice was a lifelong problem and he never entirely solved it. What carried was the earnestness — that, everyone agreed on.",
+   "image": "assets/img/badlands/tr-ranch-costume.jpg",
+   "imageAlt": "Theodore Roosevelt mounted in ranch clothes",
+   "credit": "Theodore Roosevelt in ranch costume. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "How did he place himself in relation to his audience?",
+   "options": [
+    "As one of them — a Westerner as much as an Easterner",
+    "As a visiting dignitary from New York",
+    "As a future candidate for territorial office",
+    "He avoided the question entirely"
+   ],
+   "answer": 0,
+   "explanation": "Twice. \"We, grangers and cowboys alike, have opened a new land; and we are the pioneers,\" he told them — and later, more soberly, \"I am, myself, at heart as much a Westerner as an Easterner; I am proud, indeed, to be considered one of yourselves.\" Whether the permanent residents of Dakota Territory agreed is another matter. He had been there three years.",
+   "image": "assets/img/badlands/roundup-herd.jpg",
+   "imageAlt": "A roundup herd in the Dakota Badlands",
+   "credit": "Roundup herd, Dakota Badlands. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "What was the theme of the speech?",
+   "options": [
+    "Duty",
+    "The blessings and gifts of America",
+    "The cattle business",
+    "The closing of the frontier"
+   ],
+   "answer": 0,
+   "explanation": "Not celebration — duty. The orator before him had offered patriotic boilerplate about a country bounded on the north by the Aurora Borealis and on the west by the Day of Judgment. Roosevelt got up and told the crowd that being a citizen was work. One listener called it more a sermon than a Fourth of July oration.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt in 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "In his own words" }
+  },
+  {
+   "prompt": "What did he tell the people of Dickinson they were?",
+   "options": [
+    "Sovereigns, not subjects",
+    "Pioneers first and citizens second",
+    "Subjects of a young republic",
+    "Guests on the land"
+   ],
+   "answer": 0,
+   "explanation": "Sovereigns, not subjects — and then, having flattered them, he turned it round: sovereigns carry the responsibility of governing themselves with wisdom and integrity. It is the argument he would still be making thirty years later, in almost the same words.",
+   "image": "assets/img/badlands/little-missouri.jpg",
+   "imageAlt": "The Little Missouri River near Medora",
+   "credit": "The Little Missouri River, probably near Medora, N.D. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/speeches", "label": "In his own words" }
+  },
+  {
+   "prompt": "What did he say about immigration?",
+   "options": [
+    "Every honest immigrant was welcome, provided he left off his former nationality",
+    "Immigration to the territory should be halted",
+    "The subject had no place in a Fourth of July speech",
+    "Only immigrants with capital should be admitted"
+   ],
+   "answer": 0,
+   "explanation": "The full sentence matters more than the fragment: \"All American citizens, whether born here or elsewhere, whether of one creed or another, stand on the same footing; we welcome every honest immigrant no matter from what country he comes, provided only that he leaves off his former nationality, and remains neither Celt nor Saxon, neither Frenchman nor German, but becomes an American.\" This is the earliest form of an argument he pressed for the rest of his life, against what he later called hyphenated Americans. It drew both admiration and objection in his own time, and still does.",
+   "image": "assets/img/badlands/dickinson-1883.jpg",
+   "imageAlt": "Dickinson, Dakota Territory",
+   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/complex-legacy", "label": "A complicated record" }
+  },
+  {
+   "prompt": "Who rode back to Medora with him that afternoon?",
+   "options": [
+    "Arthur Packard, editor of the Bad Lands Cow Boy",
+    "Sylvane Ferris",
+    "Bill Sewall",
+    "He travelled back alone"
+   ],
+   "answer": 0,
+   "explanation": "Packard, who ran the Badlands' only newspaper out of a one-room office in Medora. He used the train ride to ask Roosevelt what he meant to do with himself, and got a straight answer: better work in a public and political way than in any other.",
+   "image": "assets/img/badlands/bad-lands-cowboy.jpg",
+   "imageAlt": "The office of the Bad Lands Cow Boy newspaper in Medora",
+   "credit": "Office of the Bad Lands Cow Boy, probably showing Arthur T. Packard and his wife. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+  },
+  {
+   "prompt": "What did Packard say next?",
+   "options": [
+    "\"Then you will become President of the United States\"",
+    "\"You will never leave Dakota\"",
+    "\"New York will eat you alive\"",
+    "\"You should stand for Congress from this territory\""
+   ],
+   "answer": 0,
+   "explanation": "By Packard's own account, told years afterwards: he said it outright, and Roosevelt was not in the least surprised — he had clearly reached the same conclusion himself. The only reply Packard remembered was \"If your prophecy comes true, I will do my part to make a good one.\" Fifteen years later, a bullet in Buffalo made it true.",
+   "image": "assets/img/badlands/bad-lands-cowboy.jpg",
+   "imageAlt": "The Bad Lands Cow Boy newspaper office",
+   "credit": "Office of the Bad Lands Cow Boy, probably showing Arthur T. Packard and his wife. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The climb" }
+  }
+ ]
+}

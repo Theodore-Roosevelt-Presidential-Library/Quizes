@@ -215,6 +215,16 @@
       "questions": 10,
       "learnMore": "https://www.trlibrary.com/tr/presidency",
       "placement": "/tr/presidency"
+    },
+    {
+      "id": "fourth-of-july",
+      "title": "The Dickinson Oration",
+      "blurb": "In 1886 a twenty-seven-year-old New York ranchman rode a freight train thirty-five miles to give a Fourth of July speech in a Dakota town six years old. One listener told him afterwards he would be president. Eleven questions on the best Independence Day in North Dakota history.",
+      "image": "assets/img/badlands/dickinson-1883.jpg",
+      "imageAlt": "Dickinson, Dakota Territory, in 1883",
+      "questions": 11,
+      "learnMore": "https://www.trlibrary.com/tr/badlands",
+      "placement": "/tr/badlands"
     }
   ]
 }
