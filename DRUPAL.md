@@ -237,3 +237,47 @@ better and it was in Drupal all along. Worth pulling into
 toggle was understood, then corrected. Drupal may be holding the old alias as
 an automatic redirect. Harmless, but worth a look while the redirects are
 being added.
+
+---
+
+## LIVE — 11 August 2026
+
+All 29 quizzes that were deployed to GitHub Pages are **published and live**,
+the 18 old URLs **301-redirect** to their successors, and `/quiz` serves the
+gallery widget. Verified anonymously with cache-busted requests: 29/29 return
+200, 18/18 land on the intended destination, and no Typeform markup remains
+anywhere on `/quiz`.
+
+The old nodes (142–159) are **archived, not deleted** — recoverable from the
+content list, with their URL aliases removed so the redirects can own those
+paths.
+
+### Four things Drupal did that the plan did not anticipate
+
+**Bulk "Publish content" does not work under content moderation.** It reports
+"Quiz content items were skipped as they are under moderation" and publishes
+nothing. Each node's moderation state has to be changed on its own edit form.
+
+**Redirect refuses a source path that still resolves.** The first three
+redirects silently failed because the old nodes still owned their aliases.
+The order has to be: clear the alias, *then* create the redirect. This is a
+sharper version of the sequencing note above — it is not enough to unpublish.
+
+**An alias can only be changed on the published revision.** Trying to clear
+the alias and unpublish in the same save fails with "You can only change the
+URL alias for the published version of this content." Two saves: clear the
+alias while published, then archive.
+
+**Saving as Draft does not unpublish.** It creates a pending revision and
+leaves the published version live. Archived is the state that takes a page
+down. Worse, once a node has a pending draft, the edit form stops offering
+Archived at all — it has to be set back to Published first to untangle the
+revision, then archived.
+
+### And one that cost the most time
+
+**Anonymous responses are cached.** Five nodes appeared to still be live long
+after they had been archived correctly; they were serving a stale anonymous
+page cache. Any check of what the public sees must append a cache-busting
+query string. Three rounds of re-archiving were spent on a problem that did
+not exist.
