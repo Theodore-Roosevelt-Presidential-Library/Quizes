@@ -1,0 +1,19 @@
+from_path,to_path,status_code,note
+/quiz/tr-and-animals-quiz,/quiz/pets,301,Same subject
+/quiz/white-house-pets-quiz,/quiz/pets,301,Same subject
+/quiz/early-life-quiz,/quiz/early-life,301,Same subject
+/quiz/conservation-quiz,/quiz/conservation,301,Same subject
+/quiz/outdoors-quiz,/quiz/conservation,301,Nearest
+/quiz/rough-rider-quiz,/quiz/rough-riders,301,Same subject
+/quiz/veterans-quiz,/quiz/roosevelts-at-war,301,Nearest
+/quiz/presidential-quiz,/quiz/presidency,301,Same subject
+/quiz/progressive-reforms-quiz,/quiz/presidency,301,The Square Deal
+/quiz/diplomacy-quiz,/quiz/nobel-peace-prize,301,Portsmouth
+/quiz/trs-adventures-quiz,/quiz/river-of-doubt,301,Nearest
+/quiz/trs-travels-quiz,/quiz/post-presidency,301,Africa and the Amazon
+/quiz/political-impact-quiz,/quiz/legacy,301,Nearest
+/quiz/campaigns-and-elections-quiz,/quiz/rise-to-power,301,Nearest
+/quiz/women-in-trs-life-quiz,/quiz/people,301,"Edith, Alice, Bamie"
+/quiz/adversity-quiz,/quiz/health,301,"Asthma, the bullet, the fevers"
+/quiz/quotes-quiz,/quiz,301,Deliberately not rebuilt
+/quiz/leadership-quiz,/quiz,301,No successor
