@@ -191,6 +191,14 @@
     var controls = el('div', 'controls');
     wrap.appendChild(controls);
 
+    // Three columns on desktop: search | difficulty | topic. The search column
+    // and the facets are separate DOM subtrees rather than three siblings,
+    // because the mobile disclosure has to hide difficulty and topic together
+    // while leaving the search box out in the open.
+    var grid = el('div', 'controls__grid');
+    var searchCol = el('div', 'col col--search');
+    searchCol.appendChild(el('p', 'facet__label', 'Search'));
+
     var search = el('div', 'search');
     search.innerHTML =
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
@@ -201,7 +209,7 @@
     input.setAttribute('aria-label', 'Search quizzes');
     search.appendChild(input);
     var clearBtn = null;
-    controls.appendChild(search);
+    searchCol.appendChild(search);
 
     // Disclosure for the facets. Only visible under 640px (see gallery.css);
     // on desktop the button is display:none and the collapse class is ignored,
@@ -217,7 +225,8 @@
       'stroke-width="3" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>';
     toggleCount.appendChild(caret);
     toggle.setAttribute('aria-expanded', 'false');
-    controls.appendChild(toggle);
+    searchCol.appendChild(toggle);
+    grid.appendChild(searchCol);
 
     var facetWrap = el('div', 'facets is-collapsed');
     toggle.setAttribute('aria-controls', 'trplq-facets');
@@ -226,7 +235,8 @@
       var open = facetWrap.classList.toggle('is-collapsed') === false;
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-    controls.appendChild(facetWrap);
+    grid.appendChild(facetWrap);
+    controls.appendChild(grid);
 
     var chipEls = [];
 

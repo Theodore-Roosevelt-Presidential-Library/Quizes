@@ -398,9 +398,15 @@ Three things the first build got wrong, for anyone tempted to undo them:
 Drupal page read as debris between the breadcrumb and the cards. A sand-wash
 panel with a hairline border makes them one object.
 
-**Labels sit inline with their rows,** not stacked above. That buys back two
-lines of height, which is what stops the topic row wrapping so that "Holidays
-& Occasions" sits alone on a second line looking broken.
+**Three columns on desktop** — search | difficulty | topic — with the labels
+as column headings and hairline rules between. The tracks are weighted, not
+equal: topic carries eleven chips against difficulty's three, so equal thirds
+would leave difficulty two-thirds empty and force topic to wrap five times.
+
+**Difficulty stacks vertically.** It is a ladder, not a tag set, and stacked
+it reads as a scale running easy to hard. It also fills a column that
+otherwise sat three-quarters empty. On a phone it goes back to a wrapping
+row — a full-width stack of three would push topic another 60px down.
 
 **Card metadata is not shaped like the filter chips.** It used to be, so every
 card looked like it had four buttons on it. Now only the difficulty keeps a

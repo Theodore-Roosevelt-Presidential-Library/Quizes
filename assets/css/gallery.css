@@ -66,13 +66,33 @@ button,input{font:inherit;color:inherit}
   background:var(--sand-wash);
   border:1px solid var(--hairline);
   border-radius:.375rem;
-  padding:1rem 1.15rem .95rem;
+  padding:1.05rem 1.25rem 1rem;
 }
 
-.search{position:relative;margin:0 0 .85rem;max-width:32rem}
+/* Three columns: search | difficulty | topic.
+   Topic carries eleven chips against difficulty's three, so the tracks are
+   weighted rather than equal — equal thirds would leave the difficulty column
+   two-thirds empty and force topic to wrap five times. */
+.controls__grid{
+  display:grid;
+  grid-template-columns:minmax(12rem,0.85fr) minmax(0,2.6fr);
+  align-items:start;
+}
+.facets{
+  display:grid;
+  grid-template-columns:minmax(8rem,auto) minmax(0,1fr);
+}
+/* Hairline rules between the columns. Padding sits on both sides of each rule
+   so the gutters stay even; grid `gap` is left at 0 for the same reason. */
+.col--search{padding-right:1.5rem}
+.facets{border-left:1px solid var(--hairline);padding-left:1.5rem}
+.facet--topic{border-left:1px solid var(--hairline);padding-left:1.5rem}
+.facet--difficulty{padding-right:1.5rem}
+
+.search{position:relative;margin:0}
 .search input{
-  width:100%;padding:.62rem .75rem .62rem 2.3rem;
-  font-family:var(--font-caption);font-size:.95rem;
+  width:100%;padding:.5rem .7rem .5rem 2.1rem;
+  font-family:var(--font-caption);font-size:.88rem;
   border:1px solid var(--hairline);border-radius:var(--radius);
   background:var(--white);color:var(--dark-gray);
 }
@@ -86,17 +106,15 @@ button,input{font:inherit;color:inherit}
   border:0;background:none;cursor:pointer;padding:.35rem;line-height:0;opacity:.55}
 .search button:hover{opacity:1}
 
-.facets{display:flex;flex-direction:column;gap:.55rem}
-
-/* Label and chips on one line; the chips wrap under themselves, not under
-   the label, because the label is a flex item of fixed width. */
-.facet{display:flex;align-items:flex-start;gap:.75rem;min-width:0}
+/* Each column is a heading over its own control, so the three labels line up
+   across the top of the bar and read as column headings. */
+.facet{display:flex;flex-direction:column;gap:.45rem;min-width:0}
 .facet__label{
-  flex:0 0 4.6rem;
   font-family:var(--font-caption);font-size:.68rem;font-weight:700;
   letter-spacing:.1em;text-transform:uppercase;color:var(--dark-forest);
-  opacity:.7;margin:0;padding-top:.5rem;
+  opacity:.7;margin:0 0 .45rem;
 }
+.facet .facet__label{margin-bottom:0}
 .chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:0;padding:0;list-style:none;
   min-width:0}
 
@@ -115,9 +133,13 @@ button,input{font:inherit;color:inherit}
    set of topics doesn't jump around as you filter. */
 .chip[data-empty="1"]{opacity:.35}
 
-/* Difficulty is a ladder, not a tag set, so it gets a slightly firmer edge —
-   enough to read as a different KIND of control without shouting. */
+/* Difficulty is a ladder, not a tag set. Stacked, it reads as a scale running
+   easy to hard, and it fills a column that otherwise sat three-quarters empty
+   next to topic's four rows of chips. Firmer border edge for the same reason —
+   it should read as a different KIND of control without shouting. */
 .facet--difficulty .chip{border-color:rgba(27,69,50,.28)}
+.facet--difficulty .chips{flex-direction:column;align-items:flex-start;gap:.3rem}
+.facet--difficulty .chip{width:100%;text-align:left}
 
 .status{display:flex;flex-wrap:wrap;gap:.9rem;align-items:baseline;
   margin:.85rem 0 0;padding-top:.75rem;border-top:1px solid var(--hairline);
@@ -194,13 +216,25 @@ mark{background:var(--sunset-yellow);color:inherit;padding:0 .1em;border-radius:
 
 .facets__toggle{display:none}
 
+/* Between about 640 and 1000px there is not enough width for three columns —
+   the topic track drops to two chips per row. Search goes full width on its
+   own line and difficulty | topic keep their two columns beneath it. */
+@media (max-width:1000px){
+  .controls__grid{grid-template-columns:1fr}
+  .col--search{padding-right:0;padding-bottom:1rem}
+  .facets{border-left:0;padding-left:0;border-top:1px solid var(--hairline);
+    padding-top:1rem}
+  .search{max-width:26rem}
+}
+
 @media (max-width:640px){
   .controls{padding:.85rem .9rem}
-  .search{margin-bottom:.7rem}
+  .search{max-width:none}
+  .facets{border-top:0;padding-top:0}
 
   .facets__toggle{
     display:flex;align-items:center;justify-content:space-between;gap:.5rem;
-    width:100%;padding:.55rem .75rem;cursor:pointer;
+    width:100%;margin-top:.7rem;padding:.55rem .75rem;cursor:pointer;
     font-family:var(--font-caption);font-size:.82rem;font-weight:700;
     border:1px solid var(--hairline);border-radius:var(--radius);
     background:var(--white);color:var(--dark-forest);
@@ -211,12 +245,14 @@ mark{background:var(--sunset-yellow);color:inherit;padding:0 .1em;border-radius:
     font-weight:400;opacity:.7;font-size:.78rem}
 
   .facets.is-collapsed{display:none}
-  .facets{margin-top:.7rem}
-
-  /* Stack the label above its chips — 4.6rem of label beside a wrapping
-     chip list wastes a third of a phone's width. */
-  .facet{flex-direction:column;gap:.35rem}
-  .facet__label{flex:none;padding-top:0}
+  .facets{grid-template-columns:1fr;gap:.9rem;margin-top:.75rem}
+  .facet--topic{border-left:0;padding-left:0}
+  .facet--difficulty{padding-right:0}
+  .col--search{padding-bottom:0}
+  /* Back to a wrapping row on a phone — a full-width stack of three would
+     push topic another 60px down the screen for no gain. */
+  .facet--difficulty .chips{flex-direction:row;gap:.35rem}
+  .facet--difficulty .chip{width:auto}
 }
 
 @media (prefers-reduced-motion:reduce){
