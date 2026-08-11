@@ -331,4 +331,72 @@ sooner. Both are configurable per quiz:
   completions, scores, and shares, that's a small addition to `quiz.js`.
 - **Fact-check.** The Badlands content is drafted from the TRPL knowledge base but has
   **not yet completed** the independent two-source verification pass. Run that before
-  this goes public. 
+  this goes public.
+
+---
+
+## The listing widget
+
+`/quiz` on trlibrary.com used to be a Drupal view block. It is now this:
+
+```html
+<div data-trpl-quiz-gallery></div>
+<script src="https://quiz.labs.trlibrary.com/assets/js/gallery.js" async></script>
+```
+
+Every quiz, in an order that is **the same for everyone today and different
+tomorrow**, with a search box and difficulty and topic filters. Cards link to
+the Drupal node for each quiz at `/quiz/<id>`.
+
+Preview it at [`/gallery.html`](gallery.html).
+
+### Optional attributes
+
+| Attribute | Default | What it does |
+|---|---|---|
+| `data-limit` | all | Show only the first N after shuffling — for a "more quizzes" block elsewhere |
+| `data-topic` | none | Preset a topic filter, e.g. `data-topic="Conservation"` |
+| `data-node-base` | `nodeBase` in index.json | Where cards link |
+| `data-base` | wherever `gallery.js` loaded from | Override the asset origin |
+
+### The daily order
+
+Seeded with the visitor's **local** calendar date, so "today" turns over at
+their midnight rather than at 6pm Mountain. Same seed for every visitor, so a
+link someone sends you shows what they saw and a screenshot in a meeting
+matches what is live. No server involved.
+
+The PRNG is mulberry32 rather than a bare hash — successive values from a hash
+correlate, and with 29 items you can see it: the same few quizzes keep landing
+near the top.
+
+### Search
+
+Searching only titles and blurbs is useless — nobody types "Fifteen questions
+on the country that made him", they type **Rondon**, **Gorgas**, **Sagamore**,
+**1912**. Those words live inside the questions, and the widget cannot load 29
+quiz files to find them.
+
+So they are baked in. `tools/reindex.py` reads every quiz, pulls the
+distinctive proper nouns and years out of the questions, and writes them to a
+`keywords` array on each index entry:
+
+```bash
+python3 tools/reindex.py            # rewrite after adding or editing a quiz
+python3 tools/reindex.py --check    # exit 1 if stale
+```
+
+The trick is telling a name from a sentence-initial capital. A word is kept
+only if it appears mid-sentence at least once somewhere, which sorts "Rondon"
+from "Born" without needing a dictionary.
+
+### Facets
+
+`difficulty` and `topics` live on each entry in `quizzes/index.json`, and the
+facet lists themselves are in `index.json` under `facets` — the widget renders
+chips in that order rather than alphabetically, because Introductory /
+Standard / Challenging is a ladder and sorting it alphabetically puts
+Challenging first, which reads as the default.
+
+Topic filters are **OR** within the facet: picking Conservation and Family
+shows both. AND would return almost nothing and read as broken.

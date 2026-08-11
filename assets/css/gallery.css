@@ -1,0 +1,146 @@
+/* ==========================================================================
+   gallery.css — the quiz listing widget.
+
+   Loaded INSIDE a shadow root by gallery.js, same as quiz-embed.css, so
+   nothing here leaks out to Drupal and nothing in Drupal reaches in. The
+   @font-face rules live in gallery.js because font faces declared inside a
+   shadow root are ignored — they have to be registered on the host document.
+
+   This replaces a Drupal view block on /quiz. It has to look like it belongs
+   on the page it is pasted into, so the outer container has no border, no
+   background and no padding of its own — the host section supplies those.
+   ========================================================================== */
+
+:host{
+  /* Primary */
+  --dark-gray:#25282A;
+  --white:#FFFFFF;
+  --dark-forest:#1B4532;
+  /* Grounding */
+  --sand:#D1CCBD;
+  --deep-orange:#E7805D;
+  /* Accent */
+  --sunset-pink:#F36079;
+  --sunset-yellow:#F9D635;
+  /* Web extensions */
+  --darker-forest:#163728;
+  --sand-wash:#F5F2EB;
+  --hairline:rgba(37,40,42,.14);
+
+  --font-display:"Dharma Gothic E","Oswald","Archivo Narrow",Impact,sans-serif;
+  --font-body:"Clearface","Source Serif 4","Noto Serif",Georgia,serif;
+  --font-caption:"Frutiger","Inter",system-ui,-apple-system,sans-serif;
+
+  --radius:.25rem;
+  --gap:1.25rem;
+  --min-card:16rem;      /* cards reflow on their own; no breakpoint list */
+
+  display:block;
+  contain:layout style;
+  font-family:var(--font-body);
+  font-size:1rem;
+  line-height:1.5;
+  color:var(--dark-gray);
+  text-align:left;
+  -webkit-text-size-adjust:100%;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%;display:block;height:auto}
+button,input{font:inherit;color:inherit}
+
+/* ---------- controls ------------------------------------------------- */
+
+.controls{margin:0 0 1.5rem}
+
+.search{position:relative;max-width:26rem;margin:0 0 1rem}
+.search input{
+  width:100%;padding:.6rem .75rem .6rem 2.25rem;
+  font-family:var(--font-caption);font-size:.95rem;
+  border:1px solid var(--hairline);border-radius:var(--radius);
+  background:var(--white);color:var(--dark-gray);
+}
+.search input:focus{outline:2px solid var(--dark-forest);outline-offset:1px;border-color:transparent}
+.search svg{position:absolute;left:.65rem;top:50%;transform:translateY(-50%);
+  width:1rem;height:1rem;opacity:.45;pointer-events:none}
+/* The clear button only exists while there is something to clear, so it is
+   never an empty tap target for a screen reader to announce. */
+.search button{position:absolute;right:.35rem;top:50%;transform:translateY(-50%);
+  border:0;background:none;cursor:pointer;padding:.35rem;line-height:0;opacity:.55}
+.search button:hover{opacity:1}
+
+.facets{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:flex-start}
+.facet{min-width:0}
+.facet__label{font-family:var(--font-caption);font-size:.7rem;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--dark-forest);
+  opacity:.75;margin:0 0 .45rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none}
+
+.chip{
+  font-family:var(--font-caption);font-size:.8rem;line-height:1;
+  padding:.42rem .7rem;border-radius:999px;cursor:pointer;
+  border:1px solid var(--hairline);background:var(--white);
+  color:var(--dark-gray);white-space:nowrap;
+  transition:background .12s,border-color .12s,color .12s;
+}
+.chip:hover{border-color:var(--dark-forest)}
+.chip[aria-pressed="true"]{background:var(--dark-forest);border-color:var(--dark-forest);
+  color:var(--white)}
+.chip:focus-visible{outline:2px solid var(--dark-forest);outline-offset:2px}
+/* A facet value nothing currently matches stays visible but goes quiet, so the
+   set of topics doesn't jump around as you filter. */
+.chip[data-empty="1"]{opacity:.38}
+
+.status{display:flex;flex-wrap:wrap;gap:.75rem;align-items:baseline;
+  margin:1rem 0 0;font-family:var(--font-caption);font-size:.82rem;opacity:.75}
+.status button{border:0;background:none;padding:0;cursor:pointer;
+  text-decoration:underline;color:var(--dark-forest);font-size:inherit}
+
+/* ---------- grid ------------------------------------------------------ */
+
+.grid{display:grid;gap:var(--gap);margin:0;padding:0;list-style:none;
+  grid-template-columns:repeat(auto-fill,minmax(var(--min-card),1fr))}
+
+.card{display:flex;flex-direction:column;height:100%;
+  border:1px solid var(--hairline);border-radius:var(--radius);
+  background:var(--white);overflow:hidden;
+  transition:box-shadow .15s,transform .15s,border-color .15s}
+.card:hover{border-color:rgba(27,69,50,.4);box-shadow:0 6px 20px rgba(37,40,42,.10);
+  transform:translateY(-2px)}
+.card:focus-within{outline:2px solid var(--dark-forest);outline-offset:2px}
+
+.card__media{aspect-ratio:3/2;background:var(--sand-wash);overflow:hidden}
+.card__media img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+
+.card__body{display:flex;flex-direction:column;flex:1 1 auto;padding:.9rem 1rem 1rem}
+
+.card__title{font-family:var(--font-display);font-size:1.45rem;line-height:1.03;
+  font-weight:700;color:var(--dark-forest);margin:0 0 .4rem}
+/* The whole card is clickable, but only the title is the actual link — that
+   keeps one tab stop per card and gives the link a sensible accessible name. */
+.card__title a{color:inherit;text-decoration:none}
+.card__title a::after{content:"";position:absolute;inset:0}
+.card{position:relative}
+
+.card__blurb{font-size:.9rem;line-height:1.45;margin:0 0 .8rem;flex:1 1 auto}
+
+.card__meta{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;
+  font-family:var(--font-caption);font-size:.72rem;margin-top:auto}
+.tag{padding:.25rem .5rem;border-radius:999px;background:var(--sand-wash);
+  color:var(--dark-gray);white-space:nowrap}
+.tag--diff{background:var(--dark-forest);color:var(--white)}
+.tag--count{background:none;padding-left:0;opacity:.6}
+
+mark{background:var(--sunset-yellow);color:inherit;padding:0 .1em;border-radius:2px}
+
+.empty{padding:2.5rem 1rem;text-align:center;border:1px dashed var(--hairline);
+  border-radius:var(--radius);background:var(--sand-wash)}
+.empty p{margin:0 0 .75rem}
+.empty button{font-family:var(--font-caption);font-size:.85rem;
+  padding:.5rem .9rem;border-radius:var(--radius);cursor:pointer;
+  border:1px solid var(--dark-forest);background:var(--dark-forest);color:var(--white)}
+
+@media (prefers-reduced-motion:reduce){
+  .card,.chip{transition:none}
+  .card:hover{transform:none}
+}

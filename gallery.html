@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz gallery widget — preview</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/css/trpl.css">
+<style>
+  /* Preview chrome only. None of this ships — the widget brings its own
+     styling inside a shadow root and the Drupal section supplies the frame. */
+  body{margin:0;background:#fff;color:#25282A;
+       font-family:"Clearface","Source Serif 4",Georgia,serif}
+  .page{max-width:74rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  h1{font-family:"Dharma Gothic E","Oswald",Impact,sans-serif;font-weight:700;
+     font-size:clamp(2.5rem,6vw,4rem);line-height:.95;color:#1B4532;margin:0 0 .3em}
+  .lede{max-width:44rem;font-size:1.05rem;margin:0 0 2.5rem}
+  .snippet{margin:3rem 0 0;padding:1.25rem;background:#F5F2EB;border-radius:.25rem}
+  .snippet h2{font-family:"Frutiger","Inter",system-ui,sans-serif;font-size:.75rem;
+     letter-spacing:.09em;text-transform:uppercase;color:#1B4532;margin:0 0 .6rem}
+  pre{margin:0;overflow-x:auto;font-size:.82rem;line-height:1.6;
+      font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .note{font-size:.85rem;opacity:.7;margin:.75rem 0 0}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>Quizzes</h1>
+  <p class="lede">This is the widget that replaces the view block on
+    <a href="https://www.trlibrary.com/quiz">trlibrary.com/quiz</a>. Every quiz,
+    in an order that is the same for everyone today and different tomorrow, with
+    search and filters. Cards link to the Drupal node for each quiz.</p>
+
+  <!-- the widget -->
+  <div data-trpl-quiz-gallery data-node-base="https://www.trlibrary.com/quiz"></div>
+
+  <div class="snippet">
+    <h2>Embed code</h2>
+<pre>&lt;div data-trpl-quiz-gallery&gt;&lt;/div&gt;
+&lt;script src="https://quiz.labs.trlibrary.com/assets/js/gallery.js" async&gt;&lt;/script&gt;</pre>
+    <p class="note">Paste into a Custom Block or any field using the
+      <strong>Full HTML</strong> format. Optional attributes:
+      <code>data-limit="3"</code> to show a few,
+      <code>data-topic="Conservation"</code> to preset a filter,
+      <code>data-node-base</code> to point the links somewhere else.</p>
+  </div>
+
+</div>
+
+<script src="assets/js/gallery.js" async></script>
+</body>
+</html>
