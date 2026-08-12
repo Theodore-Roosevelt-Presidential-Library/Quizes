@@ -1,0 +1,309 @@
+{
+ "id": "progressive-era",
+ "title": "The Progressive Era",
+ "subtitle": "What the reformers wanted, and how little they agreed",
+ "intro": "For about twenty years around the turn of the century, Americans of every political stripe decided that something had to be done — and then spent two decades arguing about what. Progressives sat in both parties, fought each other as often as anyone else, and produced a run of changes that are still in the furniture of American life. Fourteen questions on city commissions, primary ballots, factory inspectors, and the reforms that split the reformers.",
+ "heroImage": "assets/img/progressive-era/suffrage-parade.jpg",
+ "heroAlt": "A vast crowd filling a wide avenue, with a banner reading We Demand an Amendment to the Constitution",
+ "heroCredit": "Woman suffrage parade, Washington, D.C., 1913. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Progressive Era",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Progressive Era quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "The Whole Platform",
+   "line": "Perfect — and you would still have argued with half of them."
+  },
+  {
+   "min": 12,
+   "name": "Expert on Loan",
+   "line": "The state legislature would have sent for you."
+  },
+  {
+   "min": 9,
+   "name": "Committee of Fifty",
+   "line": "You read the report and the minority report."
+  },
+  {
+   "min": 6,
+   "name": "Signed the Petition",
+   "line": "You knew what you were signing, which was more than most."
+  },
+  {
+   "min": 3,
+   "name": "In the Back of the Hall",
+   "line": "You heard most of the speech."
+  },
+  {
+   "min": 0,
+   "name": "Not Yet Registered",
+   "line": "Come back and try the ballot again."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which of these is true of the people called progressives?",
+   "options": [
+    "They belonged to both major parties and disagreed among themselves",
+    "They were a faction inside the Republican Party and nowhere else",
+    "They organised only as a third party and never held major-party office",
+    "They worked from a single agreed programme adopted in 1901"
+   ],
+   "answer": 0,
+   "explanation": "Robert La Follette of Wisconsin and Theodore Roosevelt were Republicans. Woodrow Wilson and William Jennings Bryan were Democrats. Arthur Ekirch writes plainly of the demands of the progressives in both parties, and the fights between them were fierce — La Follette thought Roosevelt a compromiser who would sell the movement out. The era also carried things that look very different now: eugenics, immigration restriction, and segregation imposed in federal departments under a progressive president. Those belong in the account too.",
+   "image": "assets/img/progressive-era/lafollette.jpg",
+   "imageAlt": "A man in a dark suit seated at a roll-top desk, one hand on the arm of his chair, facing the camera",
+   "credit": "Senator Robert M. La Follette of Wisconsin, photographed about 1906. One frame of a stereograph negative. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "Under the initiative and referendum, voters could do what?",
+   "options": [
+    "Vote in the primary of a party they had not joined",
+    "Elect the judges of their state supreme court directly",
+    "Propose a law themselves, and vote laws up or down at the polls",
+    "Require a public hearing before any state contract could be awarded"
+   ],
+   "answer": 2,
+   "explanation": "South Dakota adopted both in 1898, the first state to do so, and nineteen others followed over the next thirty years. Oregon took them up in 1902 and made them famous — the campaigner behind that was William S. U'Ren, a former newspaper editor who had studied direct government in Switzerland and never held major office in his life. The recall of officials came along with them, and stalled when reformers proposed extending it to judges. Not every progressive wanted any of it: George Mowry notes that in at least one state the initiative and referendum were beaten in part by progressives.",
+   "image": "assets/img/progressive-era/bosses-of-the-senate.jpg",
+   "imageAlt": "Colour cartoon of huge money bags labelled with trust names standing behind seated senators",
+   "credit": "The Bosses of the Senate, by Joseph Keppler. Puck, 1889 — the case for direct democracy, put by a cartoonist. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Before 1913, who chose United States senators?",
+   "options": [
+    "The governor of each state",
+    "The state legislatures",
+    "The state's delegation in the House of Representatives",
+    "A convention of county sheriffs and judges"
+   ],
+   "answer": 1,
+   "explanation": "The Constitution had given the choice to the legislatures, and by the 1900s the arrangement had a bad name: a Senate seat could be bought by buying a statehouse. States found ways round it first, pledging legislative candidates to whichever senatorial name the voters preferred, and by 1912 more than half were doing something of the kind. The Seventeenth Amendment ratified the practice in 1913. Not everyone cheered. George Mowry records the Senate fight of 1911, in which Elihu Root argued that the amendment would destroy states' rights and the federal system, and Henry Cabot Lodge that it would multiply corruption rather than end it, since the bribers would simply move from a few legislators to the whole electorate. The argument about whether they were right has never entirely stopped.",
+   "image": "assets/img/progressive-era/bryan.jpg",
+   "imageAlt": "Head-and-shoulders studio portrait of William Jennings Bryan in a dark coat and bow tie",
+   "credit": "William Jennings Bryan, photographed about 1907 — a Democratic progressive who campaigned for direct election of senators. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "A hurricane destroyed Galveston, Texas in September 1900. What form of city government came out of the wreckage?",
+   "options": [
+    "Direct rule by the state legislature until rebuilding was finished",
+    "An elected mayor with a veto over a council of forty ward members",
+    "Government by a small commission of five",
+    "A council chosen by lot from the registered voters"
+   ],
+   "answer": 2,
+   "explanation": "Ekirch records that the flood drowned a sixth of Galveston's people and destroyed a third of its property in a night, and the citizens asked the state for leave to scrap the old council and hand the city to five commissioners, each running a department. It worked well enough that Texas made it permanent in 1901, Iowa built a more elaborate version for Des Moines, and by 1917 more than five hundred American cities had commission government. The idea itself was borrowed from an emergency board Memphis had set up after yellow fever in 1878. The city-manager plan grew out of the same impulse a few years later.",
+   "image": "assets/img/progressive-era/henry-street-playground.jpg",
+   "imageAlt": "Children crowded into a fenced back-yard playground with swings and a hammock, tenement windows above",
+   "credit": "Backyard playground at the nurses' settlement, Henry Street, New York, about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who spent more than a decade pressing for a federal food and drug law before one finally passed in 1906?",
+   "options": [
+    "Gifford Pinchot, chief of the United States Forest Service",
+    "Samuel Gompers, president of the A.F. of L.",
+    "Elihu Root, Secretary of War and later Secretary of State",
+    "Harvey Wiley, the government's chief chemist"
+   ],
+   "answer": 3,
+   "explanation": "Wiley had been at it since the 1880s. Without a labelling law, a bottle could contain anything and say anything, and the patent-medicine trade was built on exactly that latitude — many preparations were largely alcohol, some contained opiates, and none had to admit it. Conservatives lampooned him for years. The Pure Food and Drug Act was signed on 30 June 1906, in the same session as the Meat Inspection Act and the Hepburn railroad bill.",
+   "image": "assets/img/progressive-era/patent-medicine.jpg",
+   "imageAlt": "An ornate printed label reading The Great American Stomach Regulator around the words Dew-Drop Bitters",
+   "credit": "A patent-medicine label of the late 1860s — a generation before federal labelling law. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Congress passed a federal child-labour law in 1916. What happened to it?",
+   "options": [
+    "The Supreme Court struck it down two years later",
+    "The president vetoed it and the veto held",
+    "It stood unchallenged right through the Second World War",
+    "The next Congress repealed it within a year"
+   ],
+   "answer": 0,
+   "explanation": "The Keating-Owen Act barred goods made by child labour from interstate commerce, and the Court found that unconstitutional in 1918. The politics are worth the detour, because they cut across parties. Albert Beveridge, a Republican progressive from Indiana, introduced the first federal bill in 1906. Woodrow Wilson, a Democratic progressive, argued in 1908 that stretching the commerce power that far would let Congress reach into every corner of industry — and then signed the 1916 act as president. Most states had set minimum ages of their own by then; the constitutional amendment progressives wanted never came.",
+   "image": "assets/img/progressive-era/breaker-boys-hine.jpg",
+   "imageAlt": "Seven boys in caps and work clothes lined up in a muddy yard beside a wooden building",
+   "credit": "Breaker boys photographed for the National Child Labor Committee, Pennsylvania, January 1911. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Jane Addams and Ellen Gates Starr opened the country's best-known settlement house in 1889. Where?",
+   "options": [
+    "In a converted brewery beside the docks in Boston",
+    "In a rented parish hall on Philadelphia's south side",
+    "In a run-down mansion on Chicago's near West Side",
+    "In a former school building on the Lower East Side of New York"
+   ],
+   "answer": 2,
+   "explanation": "The house had belonged to a real-estate man named Charles Hull, and Addams put her inheritance into it. A settlement house was not a charity handing out relief; the point was that educated people moved into a poor neighbourhood and lived there. Hull House grew to thirteen buildings with a kindergarten, night school, gymnasium, coffee house, art gallery and summer camp, serving thousands a week. Lillian Wald founded Henry Street on the same model in New York four years later, and Vida Scudder and a group of Smith graduates had opened College Settlement in the same autumn as Hull House.",
+   "image": "assets/img/progressive-era/addams.jpg",
+   "imageAlt": "Profile portrait of Jane Addams in a high lace collar, looking to the left",
+   "credit": "The co-founder of Hull House, photographed in Chicago about 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Prohibition is usually counted a progressive cause. Which progressives pushed back against it?",
+   "options": [
+    "Those with urban, immigrant and labour constituencies",
+    "The Anti-Saloon League and the temperance organisations",
+    "Progressives in the rural Middle West and the South",
+    "Progressives in the small towns of Kansas and Nebraska"
+   ],
+   "answer": 0,
+   "explanation": "The dry campaign drew its strength from the old-stock rural Protestant middle class of the Middle West and South, and one of its arguments was political rather than moral: saloons were licensed, taxed, and thoroughly entangled with machine politics, so shutting them looked like a way at the machine. Progressives rooted in the eastern cities, among immigrants and organised labour, wanted nothing to do with it. Brand Whitlock, the reform mayor of Toledo, thought the saloon an effect of poverty rather than a cause, and objected that reformers reluctant to disturb property rights were happy to legislate private conduct.",
+   "image": "assets/img/progressive-era/sweatshop.jpg",
+   "imageAlt": "A family sewing garments in a cramped tenement room lit by two windows, cloth piled on the floor",
+   "credit": "A sweatshop in a Ludlow Street tenement, New York, photographed by Jacob Riis about 1889. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Before the Nineteenth Amendment, where could American women already vote in state elections?",
+   "options": [
+    "Only in a handful of New England towns",
+    "Nowhere at all, in any state",
+    "Only where a husband or father registered on their behalf",
+    "In eleven states, beginning in the Rocky Mountain West"
+   ],
+   "answer": 3,
+   "explanation": "Four Rocky Mountain states had full woman suffrage by the turn of the century and seven more western and midwestern states followed before 1914, so the amendment ratified in 1920 completed something already well under way. Ekirch adds a hard sentence next to that progress: the gains were offset in large part by the tightening restrictions being placed on Black voters in the South over exactly the same years, by legislatures that often called themselves progressive. Both things happened, and an account that gives you only one of them is not an account.",
+   "image": "assets/img/progressive-era/suffrage-parade.jpg",
+   "imageAlt": "A dense crowd packing a city avenue beside a banner demanding a constitutional amendment enfranchising women",
+   "credit": "Woman suffrage parade, Washington, D.C., 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "In Muller v. Oregon in 1908, the state's lawyers won by doing something new. What?",
+   "options": [
+    "Calling factory workers to testify in person before the Supreme Court",
+    "Filling the brief with social and medical evidence rather than case law",
+    "Asking the Court to look at the constitutions of European states",
+    "Submitting a petition signed by two hundred thousand voters"
+   ],
+   "answer": 1,
+   "explanation": "Louis Brandeis put barely a page of legal argument in front of the Court and something over a hundred pages of factory reports, medical findings and statistics. It worked, the format took his name, and it changed how American constitutional cases are argued. The case itself divides people still. Florence Kelley backed laws limiting women's hours as an entering wedge that would eventually protect every worker; others then and since argued that singling women out for protection was a way of fencing them out of jobs. Roosevelt found the reasoning persuasive; that is not the same as it being settled.",
+   "image": "assets/img/progressive-era/stockyards-p.jpg",
+   "imageAlt": "Workers standing among carcasses hanging on hooks in a dim packing-house room",
+   "credit": "The sheep department, Armour's packing house, Union Stock Yards, Chicago, copyrighted 1893 by Strohmeyer & Wyman. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "What did the direct primary change?",
+   "options": [
+    "It let voters, rather than party conventions, pick the nominees",
+    "It moved every state election to the same day in November",
+    "It abolished the electoral college in states that adopted it",
+    "It allowed absentee voting by post for the first time"
+   ],
+   "answer": 0,
+   "explanation": "Under the old system a party convention, often run by whoever ran the party, decided whose name went on the ballot. Mississippi adopted a compulsory statewide primary in 1902 and the idea spread fast: Ekirch records that by 1916 only Rhode Island, Connecticut and New Mexico lacked some form of one. Wisconsin's version made La Follette a national figure, and Lincoln Steffens wrote after visiting him that the long hard fight had developed citizenship in Wisconsin. Whether primaries weakened the parties or rescued them from the bosses is still argued about in exactly the same terms.",
+   "image": "assets/img/progressive-era/steffens-p.jpg",
+   "imageAlt": "A slender man in a light check suit leaning over a speakers' platform in a city square, seen in profile, wearing wire spectacles",
+   "credit": "Lincoln Steffens speaking in Union Square, New York, April 1914 — he wrote admiringly of the Wisconsin primary fight. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "A factory fire in New York in 1911 pushed which reform hardest?",
+   "options": [
+    "A national system of health insurance",
+    "The eight-hour day for every industrial worker in the country",
+    "State factory inspection and stricter building codes",
+    "A federal minimum wage"
+   ],
+   "answer": 2,
+   "explanation": "The Triangle Shirtwaist fire of 25 March 1911 killed 146 garment workers in a loft building off Washington Square in Greenwich Village, most of them young Jewish and Italian women and girls who lived over on the Lower East Side; Susan Ware notes that the doors and emergency exits had been locked, and that many of the dead had struck that same shop two years earlier in the Uprising of the Twenty Thousand. What followed was a state investigating commission and a rewritten building code, and after that a wider push for workmen's compensation, which most states adopted in some form over the next decade. Ekirch's verdict is mixed: benefits were set far too low, and the United States stayed well behind Europe, New Zealand and Australia until the New Deal.",
+   "image": "assets/img/progressive-era/sweatshop.jpg",
+   "imageAlt": "Men and women sewing in a crowded tenement workroom, finished garments heaped on chairs",
+   "credit": "A sweatshop in a Ludlow Street tenement, New York, photographed by Jacob Riis about 1889 — more than twenty years before the fire. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What was the Wisconsin Idea?",
+   "options": [
+    "A plan to divide the state's electoral votes by congressional district",
+    "State ownership of the railroads running through Wisconsin",
+    "A rule that no legislator could accept a railroad pass",
+    "Using university experts to draft and administer state legislation"
+   ],
+   "answer": 3,
+   "explanation": "The University of Wisconsin functioned, Ekirch writes, almost as a fourth branch of the state government, its professors writing and running the laws the legislature passed. It is the clearest example of a habit that ran through the whole movement: the belief that public problems were technical problems and that trained people could solve them. That confidence is also the movement's most criticised feature — it assumed the expert would be right, and it assumed everybody would agree who counted as an expert.",
+   "image": "assets/img/progressive-era/wiley.jpg",
+   "imageAlt": "A heavy-set man in a dark suit at a paper-strewn desk in an office hung with framed charts",
+   "credit": "Harvey W. Wiley at his desk in the Department of Agriculture, photographed in 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Progressives split down the middle over what to do about big business. What were the two answers?",
+   "options": [
+    "Sell them to their employees, or tax them out of existence",
+    "Break the combinations up, or let them stay big and regulate them",
+    "Nationalise them, or exempt them from state law entirely",
+    "Subsidise them, or leave the question to the individual states"
+   ],
+   "answer": 1,
+   "explanation": "Roosevelt's answer, which he called the New Nationalism, was that concentration was a fact of modern industry and the job of government was to police it. Woodrow Wilson, working from arguments Louis Brandeis gave him, called his answer the New Freedom: restore competition by breaking the combinations up. Sidney Milkis notes the split ran straight through the progressives rather than between the parties. The Clayton Act of 1914 came out of the Wilson side and is still the backbone of American antitrust law; the regulatory commission came out of the other side and is still how most industries are supervised. Both won.",
+   "image": "assets/img/progressive-era/bosses-of-the-senate.jpg",
+   "imageAlt": "Colour cartoon of huge money bags labelled with the names of trusts standing over senators at their desks",
+   "credit": "The Bosses of the Senate, by Joseph Keppler. Puck, 1889. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  }
+ ]
+}

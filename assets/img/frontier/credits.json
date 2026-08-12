@@ -1,0 +1,128 @@
+{
+ "rawding-sod-house": {
+  "source": "loc",
+  "ref": "2005693378",
+  "source_file": "loc_pictures_2005693378",
+  "description": "[Sylvester Rawding family in front of sod house, north of Sargent, Custer County, Nebraska]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1046"
+ },
+ "cram-sod-house": {
+  "source": "loc",
+  "ref": "2005693389",
+  "source_file": "loc_pictures_2005693389",
+  "description": "[J.C. Cram sod house, Loup County, Nebraska]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1054"
+ },
+ "haumont-sod-house": {
+  "source": "loc",
+  "ref": "2005693385",
+  "source_file": "loc_pictures_2005693385",
+  "description": "[Isadore Haumont and family in front of two-story sod house on French Table north of Broken Bow, Custer County, Nebraska]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1046"
+ },
+ "land-rush": {
+  "source": "loc",
+  "ref": "2014682281",
+  "source_file": "loc_pictures_2014682281",
+  "description": "Land rush, Okla. [Oklahoma]",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1023"
+ },
+ "day-herds-xit": {
+  "source": "loc",
+  "ref": "2003663770",
+  "source_file": "loc_pictures_2003663770",
+  "description": "Day herds, XIT outfit",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1100"
+ },
+ "census-standing-rock": {
+  "source": "loc",
+  "ref": "97500332",
+  "source_file": "loc_pictures_97500332",
+  "description": "Taking the census at Standing Rock Agency - South Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1130"
+ },
+ "election-standing-rock": {
+  "source": "loc",
+  "ref": "2024693287",
+  "source_file": "loc_pictures_2024693287",
+  "description": "[First presidential election on Standing Rock Indian Reservation]",
+  "rights": "Rights status not evaluated. For general information see: \"Copyright and Other Restrictions...\" https://hdl.loc.gov/loc.pnp/res.195.copr",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x903"
+ },
+ "sioux-delegation-1891": {
+  "source": "loc",
+  "ref": "96514611",
+  "source_file": "loc_pictures_96514611",
+  "description": "Full delegation of Sioux Indians, 1891",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1123"
+ },
+ "buffalo-montana": {
+  "source": "loc",
+  "ref": "96513773",
+  "source_file": "loc_pictures_96513773",
+  "description": "Buffalo in Montana",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x910"
+ },
+ "kansas-pacific-buffalo": {
+  "source": "loc",
+  "ref": "2004669992",
+  "source_file": "loc_pictures_2004669992",
+  "description": "The far west - shooting buffalo on the line of the Kansas-Pacific Railroad",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1129"
+ },
+ "wheat-harvest-dakota": {
+  "source": "loc",
+  "ref": "2021651494",
+  "source_file": "loc_pictures_2021651494",
+  "description": "[Wheat-Harvesting in Dakota]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x919"
+ },
+ "emigrants-crossing": {
+  "source": "loc",
+  "ref": "93506240",
+  "source_file": "loc_pictures_93506240",
+  "description": "Emigrants crossing the plains",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1120"
+ },
+ "homestead-interior": {
+  "source": "loc",
+  "ref": "2012646766",
+  "source_file": "loc_pictures_2012646766",
+  "description": "Interior view of homestead dwelling, Jan. 23, 1904",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1005"
+ },
+ "columbian-expo": {
+  "source": "loc",
+  "ref": "2021636192",
+  "source_file": "loc_pictures_2021636192",
+  "description": "World's Columbian Exposition 1893",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1114"
+ }
+}

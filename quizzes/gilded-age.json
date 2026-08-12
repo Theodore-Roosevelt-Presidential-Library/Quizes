@@ -1,0 +1,309 @@
+{
+ "id": "gilded-age",
+ "title": "The Gilded Age",
+ "subtitle": "America between the Civil War and the century's turn",
+ "intro": "A novelist gave the era its name, and he did not mean it kindly. Between 1865 and 1900 the United States laid more track, poured more steel, took in more people and built bigger houses than any country ever had — and argued the whole time about who was paying for it. Fourteen questions on the fortunes, the trusts, the tenements and the crash, and on a fight over inequality that historians have still not finished having.",
+ "heroImage": "assets/img/gilded-age/bosses-of-the-senate.jpg",
+ "heroAlt": "Colour cartoon of enormous money bags labelled with the names of trusts looming over the seated United States Senate",
+ "heroCredit": "The Bosses of the Senate, by Joseph Keppler. Puck, 1889. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Gilded Age",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Gilded Age quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/early-life"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Solid Gold",
+   "line": "Perfect. Not a flake of gilt on you."
+  },
+  {
+   "min": 12,
+   "name": "Trustee",
+   "line": "You could have run the whole combination from one lunch table."
+  },
+  {
+   "min": 9,
+   "name": "Bench in the Gallery",
+   "line": "You watched the hearings and took notes."
+  },
+  {
+   "min": 6,
+   "name": "Ten-Cent Magazine",
+   "line": "You read the exposé and remembered most of it."
+  },
+  {
+   "min": 3,
+   "name": "Standing on the Pier",
+   "line": "You have just landed. Plenty still to see."
+  },
+  {
+   "min": 0,
+   "name": "Steerage",
+   "line": "Everybody starts somewhere. Begin again."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The era takes its name from a novel published in 1873. Who wrote it?",
+   "options": [
+    "Henry James, working alone",
+    "Edith Wharton and her architect Ogden Codman",
+    "Mark Twain and Charles Dudley Warner",
+    "William Dean Howells, working alone"
+   ],
+   "answer": 2,
+   "explanation": "Twain and his Hartford neighbour Charles Dudley Warner wrote The Gilded Age: A Tale of To-Day together, alternating chapters, and it sold well and reviewed badly. Twain accepted that the plot showed the two hands that wrote it but not the charge of exaggeration: “In America, nearly every man has his dream, his pet scheme, whereby he is to advance himself socially or pecuniarily,” he wrote in the preface to the British edition. Historians borrowed the phrase for the whole period afterwards, which is not what a satirist usually gets.",
+   "image": "assets/img/gilded-age/twain.jpg",
+   "imageAlt": "Mark Twain in a white suit, seated on stone steps in a garden with an open book on his lap and a cigar in his mouth",
+   "credit": "Mark Twain, photographed about 1903 — thirty years after the novel that named the era. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The world he grew up in"
+   }
+  },
+  {
+   "prompt": "Why is gilded a harder word than golden?",
+   "options": [
+    "It refers to the gold strikes of the 1870s",
+    "Gilding is a thin skin of gold over something cheaper",
+    "It comes from the gilt edges of government bonds",
+    "It was the printers' term for an expensive binding"
+   ],
+   "answer": 1,
+   "explanation": "Gilding covers base metal with a film of gold. Naming a whole era after the process says the shine is real and the thing underneath is not. Twain took the phrase from Shakespeare — King John is talked out of a second coronation with the line that to gild refined gold is wasteful and ridiculous excess — and readers heard the pun on guilt as well. Sean Dennis Cashman argues the pun ran to a third meaning, guilds, in the sense of the interest groups and combinations that ran the economy.",
+   "image": "assets/img/gilded-age/vanderbilt-mansion.jpg",
+   "imageAlt": "A turreted stone chateau on a city corner, with carriages passing and a church spire behind",
+   "credit": "The Vanderbilt mansion on Fifth Avenue, New York, photographed for a stereograph copyrighted 1903 by William H. Rau. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The world he grew up in"
+   }
+  },
+  {
+   "prompt": "The word trust came from an old legal device. What did the device actually do?",
+   "options": [
+    "It let a company sell shares to the public for the first time",
+    "It let one firm buy up the physical plant of another outright",
+    "It exempted a company from state taxes provided it stayed inside one state",
+    "Stockholders signed their shares over to a board of trustees"
+   ],
+   "answer": 3,
+   "explanation": "A trust was originally the arrangement by which a court put a child's estate in the hands of a trustee. Standard Oil's counsel Samuel C. T. Dodd borrowed it: on 2 January 1882 the stockholders of Standard Oil and forty other companies signed over their shares and irrevocable power of attorney to nine trustees, who ran the lot as a single business and split the profits. Ron Chernow reckons it controlled ninety per cent of American refining, and the public knew nothing about it for six years. The word outlived the device — by the 1900s people called any large combination a trust whether it used the mechanism or not.",
+   "image": "assets/img/gilded-age/rockefeller.jpg",
+   "imageAlt": "Half-length studio portrait of an elderly John D. Rockefeller seated in a wooden chair",
+   "credit": "John D. Rockefeller, photographed about 1909 — some thirty years after the events described. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Rockefeller's decisive early advantage over rival refiners came from a deal with which industry?",
+   "options": [
+    "The railroads",
+    "The New York investment banks",
+    "The telegraph companies",
+    "The steel mills"
+   ],
+   "answer": 0,
+   "explanation": "In 1871 a shell company with the bland name of the South Improvement Company was chartered to bind three trunk railroads to a handful of favoured refiners: everyone's freight rates would double, and the insiders would get most of it back. The scheme collapsed within weeks under public fury — the Oil City Derrick ran a daily blacklist of the men behind it — and not a barrel ever shipped under it. But in the six weeks it was alive Rockefeller bought out twenty-two of his twenty-six Cleveland competitors. One of the households it frightened belonged to a fourteen-year-old girl in the oil region named Ida Tarbell.",
+   "image": "assets/img/gilded-age/bosses-of-the-senate.jpg",
+   "imageAlt": "Cartoon money bags labelled Standard Oil Trust, Steel Beam Trust, Copper Trust and others standing over senators at their desks",
+   "credit": "The Bosses of the Senate, by Joseph Keppler. Puck, 1889. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Andrew Carnegie sold his steel company in 1901 and it was folded into a new corporation. What was that corporation the first of?",
+   "options": [
+    "The first company listed on the New York Stock Exchange",
+    "The first American company with a majority of foreign shareholders",
+    "The first company anywhere capitalised at more than a billion dollars",
+    "The first company broken up under the Sherman Antitrust Act"
+   ],
+   "answer": 2,
+   "explanation": "Carnegie wrote his price on a slip of paper in pencil — $480 million — and J. P. Morgan read it and accepted it without argument. The result was the United States Steel Corporation, and both H. W. Brands and Doris Kearns Goodwin record the moment Morgan shook Carnegie's hand and congratulated him on being the richest man in the world. Nobody had ever assembled a billion dollars of capital in one company before. Nine years earlier the same works had been the scene of the Homestead lockout, in which Carnegie's manager barged three hundred armed private detectives up the Monongahela and men died on both sides.",
+   "image": "assets/img/gilded-age/homestead-fort-frick.jpg",
+   "imageAlt": "A file of militiamen with rifles on a dirt road beside a high plank fence, with a mill town behind",
+   "credit": "State militia on guard around the Carnegie mills at Homestead, Pennsylvania, 1892, published by Underwood & Underwood. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Carnegie published a much-argued-over essay in 1889. What did it say a rich man should do?",
+   "options": [
+    "Pay his workers a share of profits instead of wages",
+    "Leave the whole fortune to his children and let them decide",
+    "Ask Congress to cap the size of private fortunes by law",
+    "Give the money away himself, before he died"
+   ],
+   "answer": 3,
+   "explanation": "The essay ran in the North American Review under the title Wealth and is remembered as the Gospel of Wealth. Carnegie's argument was that capitalism was in danger from the gap between industrial fortunes and industrial wages, and that the cure was for the rich to spend their money on the public in their own lifetime rather than let idle heirs fritter it. “The man who dies thus rich dies disgraced,” he wrote. He then paid for public libraries by the thousand, in America and beyond. Rockefeller read it, wrote to congratulate him, and told the moguls of Chicago to do likewise.",
+   "image": "assets/img/gilded-age/carnegie.jpg",
+   "imageAlt": "Half-length studio portrait of Andrew Carnegie with a full white beard, in a dark coat and bow tie",
+   "credit": "Andrew Carnegie, photographed about 1896. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "J. Pierpont Morgan was the third of the era's great names. What was his actual business?",
+   "options": [
+    "Banking",
+    "Steel",
+    "Meat packing",
+    "Oil refining"
+   ],
+   "answer": 0,
+   "explanation": "Rockefeller and Carnegie made things. Morgan moved money, and by the turn of the century he was arranging the mergers that decided who made what. Chernow notes that it was one of Rockefeller's proudest boasts that Standard Oil had never needed a Morgan to build its combine. Morgan's power was partly personal: Edmund Morris records that a nod of the head was security for fifty million dollars. In 1895 he assembled a syndicate to sell the United States Treasury enough gold to keep it solvent, which is a striking thing for a private citizen to have been able to do.",
+   "image": "assets/img/gilded-age/morgan.jpg",
+   "imageAlt": "Half-length studio portrait of J. Pierpont Morgan, balding, with a heavy moustache and pince-nez on a cord",
+   "credit": "John Pierpont Morgan, photographed about 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "In 1883 the railroads imposed something on the whole country without asking Congress. What?",
+   "options": [
+    "Daylight saving time",
+    "The five-day working week",
+    "Standard time zones",
+    "The metric system for freight weights"
+   ],
+   "answer": 2,
+   "explanation": "Until then a railroad kept time by the clock at its principal station, so the depot at Buffalo carried three clocks and the one at Pittsburgh six, each showing something different. William F. Allen of the General Time Convention proposed four zones — Eastern, Central, Mountain, Pacific — and the railroads simply adopted them at noon on Sunday, 18 November 1883. Richard White files it alongside the standard gauge as part of the same drive to make a continent behave like one machine. No law made anybody do it; the timetable did.",
+   "image": "assets/img/gilded-age/columbian-expo.jpg",
+   "imageAlt": "The galleried interior of a great exhibition hall, pictures on the walls and statuary on the floor",
+   "credit": "An interior at the World's Columbian Exposition, Chicago, 1893 — the fair's clocks were wired to the Naval Observatory and gave many visitors their first sight of standard time. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Panic of 1893 opened with the collapse of what?",
+   "options": [
+    "A failed wheat harvest across the plains states",
+    "A major railroad",
+    "The closing of the New York Stock Exchange for a week",
+    "A run on the largest bank in Chicago"
+   ],
+   "answer": 1,
+   "explanation": "The Philadelphia and Reading went down in February 1893, ten days before Grover Cleveland took office for the second time. The rope trust, National Cordage, followed in May, the Erie in July, then the Northern Pacific, the Union Pacific and the Santa Fe. Cashman reckons a quarter of the country's railroad mileage ended in receivership; Brands counts more than six hundred banks shut. Henry Adams woke one morning to find his inherited savings all but gone and wrote that the more he saw of the panic the less he understood it, and that he was quite sure nobody understood it much better.",
+   "image": "assets/img/gilded-age/sweatshop-ludlow.jpg",
+   "imageAlt": "A family sewing garments in a cramped tenement room, finished coats heaped on chairs and the floor",
+   "credit": "A sweatshop in a Ludlow Street tenement, New York, photographed by Jacob Riis about 1889 — a few years before the crash. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In 1894 an Ohio businessman led a march of unemployed men to Washington. What was he asking for?",
+   "options": [
+    "A federal road-building programme paid for with newly issued money",
+    "An immediate halt to all immigration",
+    "The nationalisation of the coal mines",
+    "A constitutional amendment authorising a federal graduated income tax"
+   ],
+   "answer": 0,
+   "explanation": "Jacob Coxey was a quarry owner and racehorse man who wanted Congress to spend half a billion dollars improving the country's genuinely appalling roads, financed by non-interest-bearing local bonds and fiat money. He and his lieutenant Carl Browne called the march a petition in boots. Coxey was arrested on Capitol Hill for the offence of walking where he should not have, his men were dispersed, and the American Federation of Labor had endorsed the idea. Seventeen such industrial armies set out for Washington that year; Richard White notes that by later standards the proposal was unremarkable.",
+   "image": "assets/img/gilded-age/coxey-army.jpg",
+   "imageAlt": "Men crowded on the decks of two canal barges under flags, one barge lettered Consolidation Coal Co.",
+   "credit": "Coxey's Army on the canal, April 1894 — the second barge belonged to the Consolidation Coal Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Between the 1880s and the 1900s the sources of American immigration shifted. In which direction?",
+   "options": [
+    "From Asia to Europe",
+    "From the countryside to the cities within Europe itself",
+    "From southern and eastern Europe back to northern and western Europe",
+    "From northern and western Europe to southern and eastern Europe"
+   ],
+   "answer": 3,
+   "explanation": "In 1882, a record year for the century, roughly seven arrivals in eight came from Britain, Ireland, Germany and Scandinavia. By 1907, when the annual figure passed a million and a quarter, the proportions had almost exactly reversed and most newcomers came from Italy, Greece, Austria-Hungary, Russia and the Balkans. Contemporaries called this the new immigration and much of the political argument of the next thirty years grew out of it — including the restriction laws and the racial theorising that came with them, which are part of this history and not a footnote to it.",
+   "image": "assets/img/gilded-age/immigrants-arrived.jpg",
+   "imageAlt": "A crowded railed hall seen from above, hundreds of people with tags on their coats moving between barriers",
+   "credit": "Immigrants just arrived, the Immigrant Building, Ellis Island, New York Harbor, copyrighted 1904 by Underwood & Underwood. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "The federal immigration station at Ellis Island opened in which year?",
+   "options": [
+    "1917",
+    "1892",
+    "1866",
+    "1903"
+   ],
+   "answer": 1,
+   "explanation": "Before that, New York had processed arrivals at Castle Garden on the Battery, and states rather than Washington had run the business. Richard White puts about eighty per cent of all later immigrants through the new station; the first ashore was Annie Moore of County Cork, travelling with two younger brothers on a ship whose other passengers were mostly Russian Jews. One thing the station is famous for it never did. The National Archives calls the story that inspectors Americanised immigrants' surnames one of the biggest myths in American immigration history: the clerks worked from passenger lists written by the shipping company before the ship left Europe, they had interpreters, and they had no authority to change anybody's name. Families did change their own names, but later, in the neighbourhood, to get work. The myth is durable enough that careful histories of this period still print it as fact.",
+   "image": "assets/img/gilded-age/ellis-island-landing.jpg",
+   "imageAlt": "A group of women in headscarves and children carrying bundles walking up a wooden gangway, a large brick building behind",
+   "credit": "Landing at Ellis Island, about 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact or fiction"
+   }
+  },
+  {
+   "prompt": "Which economist gave the language the phrase conspicuous consumption?",
+   "options": [
+    "Herbert Spencer",
+    "Richard T. Ely of Wisconsin",
+    "Henry George",
+    "Thorstein Veblen"
+   ],
+   "answer": 3,
+   "explanation": "Veblen published The Theory of the Leisure Class in 1899. His argument was that a great deal of spending exists to be seen rather than used, and he coined pecuniary emulation in the same book for the way everybody below copies it. George Mowry judged his popular audience neither wide nor significant — he is hard going — but says that once the phrases existed the old economic forms could never command quite the same reverence. Veblen turned the same eye on college football and called it a one-sided return to barbarism, which suggests he was not aiming to be liked.",
+   "image": "assets/img/gilded-age/vanderbilt-mansion.jpg",
+   "imageAlt": "A limestone chateau with turrets and steep roofs on a Fifth Avenue corner, carriages in the street",
+   "credit": "The Vanderbilt mansion on Fifth Avenue, New York, copyrighted 1903 by William H. Rau. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The world he grew up in"
+   }
+  },
+  {
+   "prompt": "Historians still disagree about one basic question from these years. Which?",
+   "options": [
+    "Whether the transcontinental railroads were ever actually completed",
+    "Whether industrial growth left most Americans better or worse off",
+    "Whether Standard Oil existed before 1900",
+    "Whether the United States had a functioning stock market before 1890"
+   ],
+   "answer": 1,
+   "explanation": "Richard White calls it one of the lasting and often fruitless arguments of the period, and both sides have real evidence. Economists have generally found real wages rising through most of the Gilded Age. But White also points out that by the measures that are hardest to fake — life span, infant death rates, and how tall people grew — Americans went backwards over the nineteenth century and did not begin recovering until the 1890s. A country can get richer on average while the people in it get shorter, and this one did.",
+   "image": "assets/img/gilded-age/five-cents-a-spot.jpg",
+   "imageAlt": "A crowded tenement room at night, men lying in bunks and on the floor under blankets beside a stove",
+   "credit": "Five cents a spot: unauthorised lodgings in a Bayard Street tenement, New York, photographed by Jacob Riis about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  }
+ ]
+}

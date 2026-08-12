@@ -1,0 +1,122 @@
+{
+ "mcclures-cover": {
+  "source": "loc",
+  "ref": "2002697702",
+  "source_file": "loc_pictures_2002697702",
+  "description": "[Cover of McClure's Magazine, Nov. 1903, listing \"muckraking\" articles by Ray Stannard Baker, Lincoln Steffens, and Cleveland Moffett; no illus]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "996x1536"
+ },
+ "tarbell": {
+  "source": "loc",
+  "ref": "97509168",
+  "source_file": "loc_pictures_97509168",
+  "description": "Ida M. Tarbell, No. 1",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1735"
+ },
+ "steffens": {
+  "source": "loc",
+  "ref": "2014695906",
+  "source_file": "loc_pictures_2014695906",
+  "description": "Linc. Steffens - Lincoln Steffens (1866-1936) in Union Square, New York City, April 1914. LOC summary identifies the sitter (Flickr Commons project, 2011).",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2177",
+  "note": "REPLACES a file fetched as LOC 2014685703, titled 'Lincoln Steffens' in the Bain catalogue but showing Theodore Roosevelt - pince-nez on a cord, brush moustache, Pach Bros. blind stamp. That record carries the note 'Title from unverified data provided by the Bain News Service on the negatives or caption cards'; the title is wrong. Cropped from the master negative to remove the plate lettering."
+ },
+ "riis": {
+  "source": "loc",
+  "ref": "2004672789",
+  "source_file": "loc_pictures_2004672789",
+  "description": "Jacob Riis",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1005x1536"
+ },
+ "jungle-poster": {
+  "source": "loc",
+  "ref": "95521425",
+  "source_file": "loc_pictures_95521425",
+  "description": "The jungle by Upton Sinclair",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1946"
+ },
+ "riis-five-cents": {
+  "source": "loc",
+  "ref": "2002710259",
+  "source_file": "loc_pictures_2002710259",
+  "description": "Five cents a spot - unauthorized immigration lodgings in a Bayard Street tenement [New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ },
+ "tr-riis": {
+  "source": "loc",
+  "ref": "2015647828",
+  "source_file": "loc_pictures_2015647828",
+  "description": "Three old friends. The President, Bishop Vincent and Jacob Riis taken at Chautauqua NY, August 11th 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1260x1592",
+  "note": "Trimmed at the foot to remove the printed line 'Copyright 1905 by Underwood & Underwood, N.Y. U83229' and the ink caption below the print. Pre-trim file kept at build/rejected-images/originals/tr-riis.pre-trim.jpg. Underwood & Underwood is named in the quiz credit line."
+ },
+ "crusaders": {
+  "source": "loc",
+  "ref": "2011645818",
+  "source_file": "loc_pictures_2011645818",
+  "description": "The crusaders",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x917"
+ },
+ "mcclure": {
+  "source": "loc",
+  "ref": "2014685446",
+  "source_file": "loc_pictures_2014685446",
+  "description": "S.S. McClure",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1935"
+ },
+ "phillips": {
+  "source": "loc",
+  "ref": "2002695540",
+  "source_file": "loc_pictures_2002695540",
+  "description": "[David Graham Phillips, half-length portrait, seated, facing front, left elbow resting on back of chair, head on hand]",
+  "rights": "Rights status not evaluated. For general information see \"Copyright and Other Restrictions...\" (http://lcweb.loc.gov/rr/print/195_copr.html)",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1700"
+ },
+ "stockyards": {
+  "source": "loc",
+  "ref": "2002714685",
+  "source_file": "loc_pictures_2002714685",
+  "description": "In the Sheep Department, Armour's great packing house, Union Stock Yards, Chicago Departamento de carneros. Gran carniceria de Armour, Corrales Union, Chicago, E.U. de A.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x710"
+ },
+ "patent-medicine": {
+  "source": "loc",
+  "ref": "2004671460",
+  "source_file": "loc_pictures_2004671460",
+  "description": "Dewdrop bitters - the great American stomach regulator",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1113"
+ },
+ "riis-necktie-workshop": {
+  "source": "loc",
+  "ref": "2002710291",
+  "source_file": "loc_pictures_2002710291",
+  "description": "Necktie workshop in a Division Street tenement",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115",
+  "note": "Renamed from riis-bandits-roost. The file is the Division Street necktie workshop, not Bandits' Roost; the catalogue description and credit line were always right and only the filename was wrong. Identical file to immigration/riis-necktie-workshop.jpg."
+ }
+}

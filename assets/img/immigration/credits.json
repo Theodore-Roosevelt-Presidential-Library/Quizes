@@ -1,0 +1,119 @@
+{
+ "welcome-land-freedom": {
+  "source": "loc",
+  "ref": "97502086",
+  "source_file": "loc_pictures_97502086",
+  "description": "New York - Welcome to the land of freedom - An ocean steamer passing the Statue of Liberty: Scene on the steerage deck",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1037"
+ },
+ "hester-street": {
+  "source": "loc",
+  "ref": "2025672601",
+  "source_file": "loc_pictures_2025672601",
+  "description": "Hester Street, New York",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2161"
+ },
+ "ellis-inspection": {
+  "source": "loc",
+  "ref": "96506921",
+  "source_file": "loc_pictures_96506921",
+  "description": "Doctor's inspection of suspects for skin diseases, etc.",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1108"
+ },
+ "chinese-custom-house": {
+  "source": "loc",
+  "ref": "93510092",
+  "source_file": "loc_pictures_93510092",
+  "description": "Chinese immigrants at the San Francisco custom-house",
+  "rights": "No known restrictions on publication.\nReference copy in LOT 7010.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1004x1536"
+ },
+ "castle-garden-1880": {
+  "source": "loc",
+  "ref": "90707732",
+  "source_file": "loc_pictures_90707732",
+  "description": "Immigrants landing at Castle Garden",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x942"
+ },
+ "immigrant-landing-1905": {
+  "source": "loc",
+  "ref": "97502077",
+  "source_file": "loc_pictures_97502077",
+  "description": "Immigrant Landing Station, N.Y.",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1112"
+ },
+ "mulberry-street": {
+  "source": "loc",
+  "ref": "2016794146",
+  "source_file": "loc_pictures_2016794146",
+  "description": "Mulberry Street, New York City",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1036"
+ },
+ "italian-family-1911": {
+  "source": "loc",
+  "ref": "2018676925",
+  "source_file": "loc_pictures_2018676925",
+  "description": "Italian family living 428 E. 116th St., 2 floor back. They were so illiterate I couldn't get their names. Have been in U.S. only one month. Mother is learning to make lace for factory near by.  Location: New York, New York (State)",
+  "rights": "No known restrictions on publication. For information see: \"National Child Labor Committee (Lewis Hine photographs),\" https://hdl.loc.gov/loc.pnp/res.097.hine",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1012"
+ },
+ "ellis-island-landing": {
+  "source": "loc",
+  "ref": "97501086",
+  "source_file": "loc_pictures_97501086",
+  "description": "Landing at Ellis Island",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1280x1024"
+ },
+ "immigrants-arrived": {
+  "source": "loc",
+  "ref": "97501095",
+  "source_file": "loc_pictures_97501095",
+  "description": "Immigrants just arrived from foreign countries - Immigrant Building, Ellis Island, New York Harbor",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x725"
+ },
+ "five-cents-a-spot": {
+  "source": "loc",
+  "ref": "2002710259",
+  "source_file": "loc_pictures_2002710259",
+  "description": "Five cents a spot - unauthorized immigration lodgings in a Bayard Street tenement [New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ },
+ "sweatshop-ludlow": {
+  "source": "loc",
+  "ref": "2002710271",
+  "source_file": "loc_pictures_2002710271",
+  "description": "Sweatshop in Ludlow Street Tenement, New York",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1109"
+ },
+ "riis-necktie-workshop": {
+  "source": "loc",
+  "ref": "2002710291",
+  "source_file": "loc_pictures_2002710291",
+  "description": "Necktie workshop in a Division Street tenement",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ }
+}

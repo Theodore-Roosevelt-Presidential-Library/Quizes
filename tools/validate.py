@@ -9,7 +9,7 @@ Cheap to run, so run it after every edit.
     python3 tools/validate.py                  # everything in quizzes/
     python3 tools/validate.py quizzes/myths.json
 """
-import json, os, sys, glob
+import json, os, re, sys, glob
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MIN_Q, MAX_Q = 8, 15
@@ -28,7 +28,14 @@ MIN_Q, MAX_Q = 8, 15
 COLLECTIONS = ("Houghton", "Library of Congress", "New York Public",
                "Smithsonian", "National Archives", "Theodore Roosevelt Center",
                "Theodore Roosevelt Presidential Library")
+# Matched as whole words. "DAM" as a naive substring also matches Jane ADDAMS,
+# which is exactly the sort of thing that gets a check quietly worked around —
+# a writer who cannot credit a photograph of Addams without failing validation
+# will edit her name out of the credit, and the tool will have made the file
+# worse. Found in the Progressive Era quiz, where the author had to write "the
+# co-founder of Hull House" to get past it.
 BANNED_CREDIT = ("Digital Asset", "DAM", "Widen")
+_BANNED_RE = re.compile(r"\b(%s)\b" % "|".join(BANNED_CREDIT), re.I)
 
 REQUIRED_Q = ("prompt", "options", "answer", "explanation",
               "image", "imageAlt", "credit", "link")
@@ -159,6 +166,55 @@ def uncropped_stereographs(quiz):
     return out
 
 
+# Some Library of Congress records download as a valid JPEG containing nothing
+# but white. Everything downstream succeeds — the file exists, it opens, it
+# serves 200 — so it passed every check we had and rendered as an empty box.
+# One shipped in the Presidency quiz and sat on the live site.
+#
+# This is worth automating because it is unambiguous. An image with no variance
+# is not a photograph, and there is nothing for a reviewer to argue about.
+#
+# I also tried to catch the OTHER thing found in the same sweep: a picture
+# editor's red crayon mark across a portrait of Jane Addams. The idea was that a
+# sepia scan has red, green and blue running close together and a crayon stroke
+# does not. It flagged forty-seven of sixty-two files — every sepia photograph,
+# every colour poster, every modern colour frame — because sepia runs red ahead
+# of the other channels everywhere, which is what sepia IS. Same lesson as the
+# mount detector two batches ago, and the same conclusion: a check that cries
+# wolf gets switched off, so it does not go in. The crayon was caught by opening
+# the file, and that remains the only thing that catches it.
+BLANK_STD = 6.0        # below this the image has essentially no content
+
+
+def image_defects(quiz):
+    """Flag images that downloaded as blank."""
+    try:
+        from PIL import Image
+        import numpy as np
+    except ImportError:
+        return []
+    out, seen = [], set()
+    paths = [quiz.get("heroImage", "")]
+    paths += [x.get("image", "") for x in quiz.get("questions", [])]
+    for rel in paths:
+        if not rel or rel in seen:
+            continue
+        seen.add(rel)
+        full = os.path.join(BASE, rel)
+        if not os.path.exists(full):
+            continue
+        try:
+            with Image.open(full) as im:
+                grey = np.asarray(im.convert("L"), dtype=float)
+        except Exception:
+            continue
+        if float(grey.std()) < BLANK_STD:
+            out.append("%s is blank — it opens and serves fine but contains no "
+                       "picture. Some Library of Congress records download this "
+                       "way. Re-fetch it." % rel)
+    return out
+
+
 def check(path):
     problems = []
     try:
@@ -209,7 +265,7 @@ def check(path):
         if img and not os.path.exists(os.path.join(BASE, img)):
             problems.append("q%d image missing on disk: %s" % (i, img))
         cred = x.get("credit", "")
-        if any(b.lower() in cred.lower() for b in BANNED_CREDIT):
+        if _BANNED_RE.search(cred):
             problems.append("q%d credits the DAM rather than the holding "
                             "institution" % i)
         elif cred and not any(c in cred for c in COLLECTIONS):
@@ -225,6 +281,7 @@ def check(path):
     problems.extend(length_tell(qs))
     problems.extend(answer_spread(qs))
     problems.extend(uncropped_stereographs(q))
+    problems.extend(image_defects(q))
 
     return problems
 

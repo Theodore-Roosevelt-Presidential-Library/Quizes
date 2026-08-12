@@ -1,0 +1,327 @@
+{
+ "id": "immigration-era",
+ "title": "Coming to America, 1880-1920",
+ "subtitle": "Where people came from, how they got here, and what Americans argued about",
+ "intro": "In forty years something like twenty-five million people arrived in the United States. They came for wages, for land, for a synagogue nobody would burn, and a great many came meaning to go home again - and did. Americans argued about all of it, in Congress, in the unions, in the pulpits and in the immigrant press, and the arguments were not simple ones. Fifteen questions on the ships, the stations, the tenements, the laws and the language people used about each other.",
+ "heroImage": "assets/img/immigration/welcome-land-freedom.jpg",
+ "heroAlt": "Wood engraving of steerage passengers crowding the deck of an ocean steamer as it passes the Statue of Liberty",
+ "heroCredit": "New York - Welcome to the Land of Freedom: an ocean steamer passing the Statue of Liberty, scene on the steerage deck. Frank Leslie's Illustrated Newspaper, 2 July 1887. Library of Congress, Prints and Photographs Division. Cropped from the bound page.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Coming to America, 1880-1920",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on immigration in the age of the great migrations - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Ship's Manifest",
+   "line": "Nothing on the passenger list got past you."
+  },
+  {
+   "min": 12,
+   "name": "Inspector",
+   "line": "You know the law, the ledger and the argument behind both."
+  },
+  {
+   "min": 9,
+   "name": "Interpreter",
+   "line": "Solid. You can follow this in more than one language."
+  },
+  {
+   "min": 6,
+   "name": "Second Cabin",
+   "line": "A start. There is a great deal more below deck."
+  },
+  {
+   "min": 3,
+   "name": "Steerage",
+   "line": "Worth the crossing again."
+  },
+  {
+   "min": 0,
+   "name": "Still on the Pier",
+   "line": "Everyone starts somewhere. Go back and read the manifest."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In 1907, the peak year for arrivals, roughly what share of immigrants came from southern and eastern Europe?",
+   "options": [
+    "About four in five",
+    "About one in five",
+    "About half",
+    "Almost none, because the ports were closed to them"
+   ],
+   "answer": 0,
+   "explanation": "Sean Cashman sets the two peaks side by side. In 1882, a record year for the century, 788,992 people arrived and 87 per cent of them came from northern and western Europe - Germany alone sent 250,630. In 1907, 1,285,349 arrived and the proportions had almost exactly reversed: 80.7 per cent from southern and eastern Europe, 19.3 per cent from the north and west. Nothing had closed in the old countries of emigration; birth rates in north-western Europe were falling and industry there was absorbing people who would once have left.",
+   "image": "assets/img/immigration/immigrants-arrived.jpg",
+   "imageAlt": "A crowd of newly arrived immigrants with bundles and baskets standing in the Ellis Island immigrant building",
+   "credit": "Immigrants just arrived from foreign countries, Immigrant Building, Ellis Island, New York Harbor. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Emigration from the Russian Empire rose sharply after 1881. Which group made up the largest single share of it?",
+   "options": [
+    "Ethnic Russians leaving the central provinces",
+    "Finns from the Grand Duchy",
+    "Germans from the Volga colonies",
+    "Jews"
+   ],
+   "answer": 3,
+   "explanation": "Jews were 43.8 per cent of the exodus from the Russian Empire, and Cashman's flat summary of the rest is worth reading twice: less than five per cent of immigrants from Russia were Russian in anything but birth. Poles made up about a quarter and Finns, Germans and Lithuanians nearly another quarter. The trigger was the assassination of Alexander II in 1881 and the riots and legal restrictions that followed, which pinned Jewish families inside the Pale of Settlement. Arrivals from Russia went from about 5,000 in 1880 to about 90,000 in 1900; by 1914 New York held 1.4 million Jews, the largest Jewish community in the world.",
+   "image": "assets/img/immigration/hester-street.jpg",
+   "imageAlt": "A crowded market street on the Lower East Side, pushcarts and awnings along the kerb, tenement fire escapes above",
+   "credit": "Hester Street, New York, on a souvenir postcard posted in September 1906. Library of Congress, Prints and Photographs Division. Cropped from the card, which carries a message in the sender's hand.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "What, more than anything else, made mass migration across the Atlantic practical after the 1860s?",
+   "options": [
+    "The opening of the Suez Canal",
+    "The steamship",
+    "Federal grants toward the cost of passage",
+    "The transatlantic telegraph cable"
+   ],
+   "answer": 1,
+   "explanation": "Sail took one to three months. Steam took about a fortnight in 1867 and about five and a half days forty years later, on ships big enough to carry three hundred passengers in first class and more than a thousand in steerage. That changed who could go: a crossing you could survive twice was a crossing you could make for a season's wages. By 1882 forty-eight steamship companies were competing on the Atlantic, and the five largest lines had some 3,600 agents in the British Isles alone. Money moved the other way too - nearly a third of arrivals in 1890 travelled on tickets prepaid by relatives already in America, and almost two-thirds by 1900.",
+   "image": "assets/img/immigration/steerage-1907.jpg",
+   "imageAlt": "Passengers crowded on the upper and lower decks of a steamer, separated by a gangway and chain railings",
+   "credit": "The Steerage, photographed by Alfred Stieglitz in 1907. Library of Congress, Prints and Photographs Division. Cropped from a mount carrying colour bars and an accession number.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Which of these was true of a substantial share of the people arriving in these years?",
+   "options": [
+    "Nearly all were naturalised as citizens within twelve months of landing",
+    "The federal government paid their passage to encourage settlement",
+    "Almost none ever went back to Europe once they had landed",
+    "Many came for seasonal work and went home again, sometimes year after year"
+   ],
+   "answer": 3,
+   "explanation": "Contemporaries called them swallows: British and German workers, and later Italians and Slavs, who crossed each spring for high wages in mines and mills and went back in the autumn. Steam made it possible, and after the depression of 1873 there were stretches when eastbound traffic on the Atlantic exceeded westbound. Historians estimate that a very large minority of arrivals in these decades eventually returned home for good. The Statue of Liberty, unveiled in October 1886, was not built as a monument to any of this - it was a gift from France celebrating republican liberty. Emma Lazarus wrote the sonnet in 1883 for an auction to raise money for the pedestal, and it was not fixed to the pedestal on a bronze plaque until 1903.",
+   "image": "assets/img/immigration/welcome-land-freedom.jpg",
+   "imageAlt": "Wood engraving of steerage passengers crowding the deck of an ocean steamer as it passes the Statue of Liberty",
+   "credit": "New York - Welcome to the Land of Freedom: an ocean steamer passing the Statue of Liberty, scene on the steerage deck. Frank Leslie's Illustrated Newspaper, 2 July 1887. Library of Congress, Prints and Photographs Division. Cropped from the bound page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "From 1855 to 1890, arrivals at the port of New York were received at a station that was not Ellis Island. Where, and by whom?",
+   "options": [
+    "The Roman Catholic archdiocese of New York",
+    "The steamship companies, at their own piers along the North River",
+    "New York State, at Castle Garden in the Battery",
+    "The United States Army, at Governors Island"
+   ],
+   "answer": 2,
+   "explanation": "Castle Garden - built as a fort for the War of 1812, later a concert hall, later still an aquarium - was New York State's immigrant station from 1855 to 1890. Arrivals were quarantined off Staten Island, cleared customs at a river pier, and were registered at Castle Garden, which even ran its own labour bureau where immigrants could meet employers. Ellis Island opened as the first federal station on 1 January 1892; the National Park Service records that the first person processed was Annie Moore, seventeen, from County Cork. Over the next sixty-two years some twelve million people followed her through it.",
+   "image": "assets/img/immigration/castle-garden-1880.jpg",
+   "imageAlt": "Wood engraving of a crowd of immigrants with bundles under a pier shed, an official directing them",
+   "credit": "Immigrants Landing at Castle Garden, drawn by A. B. Shults for Harper's Weekly, 29 May 1880. Library of Congress, Prints and Photographs Division. Cropped from the page.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "A famous family story says an inspector at Ellis Island shortened or changed the family surname. What do the records actually show?",
+   "options": [
+    "Inspectors worked from lists written before the ship left Europe",
+    "Inspectors were required by law to render every name into English spelling",
+    "The changes were made afterwards by census enumerators",
+    "The story is accurate and the station ledgers record each change"
+   ],
+   "answer": 0,
+   "explanation": "The National Archives calls this one of the biggest myths in American immigration history. Federal inspectors were never authorised to change anybody's name, and most of the passenger arrival lists they worked from were filled out by the vessel master or the shipping company before the ship left Europe - so a misspelling almost always happened at the port of departure. Immigration officials also employed interpreters. Plenty of families did change their own names, but usually later, in the neighbourhood, to get work. The myth is durable enough that careful histories repeat it, and the Statue of Liberty and Ellis Island Foundation has made a short film purely to knock it down.",
+   "image": "assets/img/immigration/ellis-island-landing.jpg",
+   "imageAlt": "Immigrants with trunks and bundles coming ashore at the Ellis Island landing stage",
+   "credit": "Landing at Ellis Island. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact or fiction"
+   }
+  },
+  {
+   "prompt": "The immigration station that opened in San Francisco Bay in 1910 is remembered for something written on its walls. What?",
+   "options": [
+    "A painted mural of the Golden Gate by a detained artist",
+    "The names of every ship that had docked there",
+    "The full text of the immigration laws in four languages",
+    "Poems carved into the wood of the detention barracks"
+   ],
+   "answer": 3,
+   "explanation": "Angel Island opened on 21 January 1910, and the Bureau of Immigration chose the island for its isolation. Where Ellis Island was a place most people passed through in a day, Angel Island was built to hold and question, and Chinese arrivals in particular were detained for weeks or months while officials tested their answers against relatives' testimony. Men in the barracks cut poems into the soft wooden walls with the ends of ink brushes. The building was slated for demolition until a state park ranger, Alexander Weiss, found the carvings in 1970; more than 150 poems and inscriptions have since been recorded and translated.",
+   "image": "assets/img/immigration/chinese-custom-house.jpg",
+   "imageAlt": "Wood engraving of Chinese arrivals waiting behind railings in a customs shed while an officer checks papers",
+   "credit": "Chinese Immigrants at the San Francisco Custom-House, drawn by Paul Frenzeny for Harper's Weekly, 3 February 1877. Library of Congress, Prints and Photographs Division. Cropped from the cover page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "In 1898 the Supreme Court decided a case brought by a man born in San Francisco to Chinese parents. What did it hold?",
+   "options": [
+    "That the exclusion laws were unconstitutional and void",
+    "That anyone born in the United States is a citizen at birth",
+    "That citizenship followed the nationality of the father",
+    "That only Congress could decide who counted as a citizen of the United States"
+   ],
+   "answer": 1,
+   "explanation": "United States v. Wong Kim Ark. Wong was born in San Francisco in 1873, went to China to visit family, and in August 1895 was refused re-entry on the ground that he was not a citizen. The Court held in March 1898 that the citizenship clause of the Fourteenth Amendment made him one at birth and that nothing since had taken it away. The ruling left the exclusion laws themselves standing - those were not before the Court - but it settled birthright citizenship for the American-born children of immigrants, and it is still one of the most cited decisions in the United States Reports.",
+   "image": "assets/img/immigration/immigrant-landing-1905.jpg",
+   "imageAlt": "The Ellis Island immigration station seen from the water, ferries tied up along its front",
+   "credit": "Immigrant Landing Station, New York, photographed by A. Loeffler in 1905. Library of Congress, Prints and Photographs Division. Cropped above the photographer's title and copyright line.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "New York's standard tenement plan of the 1880s and 1890s pinched the building in at the middle to make an air shaft. What was the plan called?",
+   "options": [
+    "The barracks block",
+    "The railroad flat",
+    "The dumbbell",
+    "The lodging tier"
+   ],
+   "answer": 2,
+   "explanation": "City lots ran about ninety feet by twenty. Pinching the building in at the middle so that it looked like a dumbbell left an air shaft roughly five feet wide between neighbours, and let the builder fit four four-room flats on every floor - of which only two got daylight from anywhere except that shaft. It was extremely efficient use of land and a miserable way to live, and everyone knew it. Roosevelt, who as a young assemblyman had been taken through the cigar-making tenements by the labour leader Samuel Gompers, appointed the state tenement house commission as governor in 1900. Its report produced the Tenement House Act, which outlawed the design and required outside windows, private bathrooms and better fire protection - and which passed in April 1901, a few weeks after he had left Albany for the vice presidency.",
+   "image": "assets/img/immigration/five-cents-a-spot.jpg",
+   "imageAlt": "Men and women sleeping in bunks and on the floor of a crowded tenement room",
+   "credit": "Five Cents a Spot - unauthorized immigration lodgings in a Bayard Street tenement, New York. Photograph by Jacob Riis. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "Roosevelt in New York politics"
+   }
+  },
+  {
+   "prompt": "Italian labourers arriving without English often came under contract to a middleman who found them work and lodging. What was he called?",
+   "options": [
+    "A padrone",
+    "A sponsor",
+    "A ward captain",
+    "A steerage master"
+   ],
+   "answer": 0,
+   "explanation": "The padroni recruited in Italy, advanced the fare, boarded the men in America and took repayment at interest. A House committee investigating immigration in 1888 found labourers carrying debts of seventy dollars against passages originally worth twenty. By 1899 there were about eighty Italian banks in New York, most of them running labour bureaus, and roughly two-thirds of the Italian workforce in the city owed its livelihood to them. Congress had already banned contract labour in the Foran Act of 1885 at the urging of the craft unions - who then complained, with justice, that the law hit unskilled workers while skilled contract labour kept coming.",
+   "image": "assets/img/immigration/italian-family-1911.jpg",
+   "imageAlt": "A woman sewing by hand in a tenement room with a small boy beside her and another woman holding a baby",
+   "credit": "An Italian family doing homework in their rooms on East 116th Street, New York, December 1911. Photograph by Lewis Hine for the National Child Labor Committee. Library of Congress, Prints and Photographs Division. Cropped from the mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Senator Henry Cabot Lodge's answer to the restriction question was a literacy test. What would it have required of an adult immigrant?",
+   "options": [
+    "The ability to read and write English to an inspector's satisfaction",
+    "The ability to read a short passage in any language at all",
+    "A certificate of schooling from his own government",
+    "An examination on the Constitution of the United States"
+   ],
+   "answer": 1,
+   "explanation": "Lodge introduced his bill in 1895; it would have excluded any adult who could not read forty words in any language. Supporters made three different cases for it - organised labour feared wage competition, urban reformers thought the cities could not absorb more people, and a third group frankly wanted fewer southern and eastern Europeans. Opponents pointed out that, in Cashman's phrase, a literacy test examined not natural intelligence but social opportunity, and that it was a poor sorting device anyway: Armenians, one of the groups it was aimed at, had a literacy rate of 76 per cent. Cleveland vetoed it in 1897, Taft vetoed a later version, Wilson vetoed it twice, and in 1917 Congress passed it over Wilson's veto.",
+   "image": "assets/img/immigration/ellis-inspection.jpg",
+   "imageAlt": "A magazine plate showing men in a bare room opening their shirts for a uniformed medical officer",
+   "credit": "Doctor's inspection of suspects for skin diseases, about 1902 - a periodical plate reproducing the shipboard and station medical examination. Library of Congress, Prints and Photographs Division. Cropped above the printed caption.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "The Immigration Restriction League, founded in 1894, was set up by three young men from which city?",
+   "options": [
+    "San Francisco",
+    "New Orleans",
+    "Chicago",
+    "Boston"
+   ],
+   "answer": 3,
+   "explanation": "Charles Warren, Robert DeCourcy Ward and Prescott F. Hall founded it in Boston, and it became the most effective lobby for restriction in the country - it was the League that settled on the literacy test as a workable instrument. Restriction was never a single movement. The historian John Higham called nativism a defensive type of nationalism, and Cashman sorts the agitation into three streams that did not much like one another: unions worried about wages, social reformers worried about the cities, and Protestant conservatives worried about Catholicism. On the other side stood the steamship lines, employers who wanted labour, immigrant aid societies, and a foreign-language press so organised that representatives of 350 papers called on President Taft in February 1910 to argue against the pending bill.",
+   "image": "assets/img/immigration/sweatshop-ludlow.jpg",
+   "imageAlt": "Men and women bent over sewing work in a cramped tenement room lit by a single window",
+   "credit": "Sweatshop in a Ludlow Street tenement, New York. Photograph by Jacob Riis. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "The federal immigration commission that reported in 1911 organised its whole enquiry around one distinction. What was it?",
+   "options": [
+    "Between arrivals by sea and arrivals across the land borders",
+    "Between Catholic and Protestant immigrants",
+    "Between old immigration and new immigration",
+    "Between skilled tradesmen and unskilled labourers"
+   ],
+   "answer": 2,
+   "explanation": "The Dillingham Commission, named for Senator William P. Dillingham of Vermont, worked from 1907 to 1911 and produced forty-one volumes - the largest study of immigration any government had attempted. Its organising idea was that the old immigration from northern and western Europe and the new immigration from the south and east were different in kind. That distinction did not originate with the commission; Cashman traces it to New England academics of the 1890s. The commission's own evidence did not always support it. One of its volumes, on changes in the bodily form of the descendants of immigrants, found that the physical differences the theory relied on faded within a generation in America.",
+   "image": "assets/img/immigration/riis-necktie-workshop.jpg",
+   "imageAlt": "A family at work making neckties around a table in a small tenement room",
+   "credit": "Necktie workshop in a Division Street tenement, New York. Photograph by Jacob Riis. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "The phrase the melting pot entered American English from a play first staged in 1908. Who wrote it?",
+   "options": [
+    "Israel Zangwill",
+    "Abraham Cahan of the Forward",
+    "Emma Lazarus",
+    "Jacob Riis"
+   ],
+   "answer": 0,
+   "explanation": "Zangwill was an English Jewish novelist, and his play about a Russian Jewish immigrant family was the most influential statement about assimilation of its day. Roosevelt saw it, suggested a change to one of the lines, and agreed to let Zangwill dedicate the printed edition to him; the letter survives in the Theodore Roosevelt Center's digital library, dated 15 October 1908. Roosevelt endorsed the play as an advertisement for democracy. He had also, ten years earlier, written some things about which nationalities would and would not mix that read very strangely now, which is a fair sample of how tangled the subject was even for its enthusiasts.",
+   "image": "assets/img/immigration/mulberry-street.jpg",
+   "imageAlt": "A colour view of Mulberry Street packed with pushcarts, awnings, shoppers and tenement fronts",
+   "credit": "Mulberry Street, New York City, photochrom published by the Detroit Photographic Company, copyright 1900. Library of Congress, Prints and Photographs Division. Cropped from the mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Horace Kallen and Randolph Bourne both attacked the melting-pot idea in print. What did they want instead?",
+   "options": [
+    "An immediate halt to all immigration until the cities emptied",
+    "Immigrants settled on western farms rather than in the cities",
+    "Assimilation made compulsory by federal law",
+    "A country of many cultures, with immigrants keeping what they brought"
+   ],
+   "answer": 3,
+   "explanation": "Kallen's much-discussed essay of 1915 argued for pluralist democracy against the melting pot, offering instead a “symphony of civilization” in which each group kept its own line. Bourne, a young critic writing the following year, called the result a transnational America. Alan Dawley traces the same instinct in Jane Addams, who thought a crowded American city forced a South Italian Catholic and an Austrian Jew into friendship neither would have sought at home. Note where the objection came from: not from restrictionists, who thought the pot would fail to melt, but from people who welcomed immigration and did not want the melting.",
+   "image": "assets/img/immigration/welcome-land-freedom.jpg",
+   "imageAlt": "Wood engraving of steerage passengers crowding the deck of an ocean steamer as it passes the Statue of Liberty",
+   "credit": "New York - Welcome to the Land of Freedom: an ocean steamer passing the Statue of Liberty, scene on the steerage deck. Frank Leslie's Illustrated Newspaper, 2 July 1887. Library of Congress, Prints and Photographs Division. Cropped from the bound page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  }
+ ]
+}

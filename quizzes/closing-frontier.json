@@ -1,0 +1,327 @@
+{
+ "id": "closing-frontier",
+ "title": "The Frontier That Closed",
+ "subtitle": "A census paragraph, a famous lecture, and the country it was written about",
+ "intro": "In 1890 the Census Bureau printed a housekeeping note saying it could no longer draw a line between settled and unsettled America. Three years later a young historian built a theory of the whole national character on it, and Americans have been arguing about that theory ever since. Underneath the argument lay real ground - land that was homesteaded, fenced, grazed, mortgaged, advertised across Europe, and lived on by nations who had been there for centuries and did not think of it as a frontier at all. Fifteen questions on the closing of the American frontier and what the phrase left out.",
+ "heroImage": "assets/img/frontier/rawding-sod-house.jpg",
+ "heroAlt": "A homesteading family standing in front of a low sod house on the Nebraska plains, with a cow grazing on the roof",
+ "heroCredit": "The Sylvester Rawding family in front of their sod house north of Sargent, Custer County, Nebraska, 1886. Photograph by Solomon D. Butcher. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Frontier That Closed",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the closing of the frontier - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Section Corner",
+   "line": "You know exactly where the lines were drawn, and who drew them."
+  },
+  {
+   "min": 12,
+   "name": "Surveyor",
+   "line": "You can read the map and the argument behind it."
+  },
+  {
+   "min": 9,
+   "name": "Homesteader",
+   "line": "Solid. You have proved up on most of this."
+  },
+  {
+   "min": 6,
+   "name": "Land Seeker",
+   "line": "A start. There is more here than a moving line."
+  },
+  {
+   "min": 3,
+   "name": "New Arrival",
+   "line": "Worth another look at the country."
+  },
+  {
+   "min": 0,
+   "name": "Just Off the Train",
+   "line": "Everyone starts somewhere. Go back and read the ground."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In 1890 the Census Bureau printed a short paragraph that historians have argued about ever since. What did it say?",
+   "options": [
+    "That the West now held more people than the states east of the Mississippi",
+    "That no unclaimed public land was left anywhere west of the Missouri River",
+    "That the unsettled area was now so broken up that no frontier line could be drawn",
+    "That the Homestead Act had given away the last of the surveyed public domain in the West"
+   ],
+   "answer": 2,
+   "explanation": "The wording is dry and administrative, which is part of why it startled people: “Up to and including 1880 the country had a frontier of settlement, but at present the unsettled area has been so broken into by isolated bodies of settlement that there can hardly be said to be a frontier line.” Because of that, the bulletin went on, the frontier could no longer have a place in the census reports. It was a note about a table the Bureau intended to stop printing. It became one of the most quoted sentences in American history.",
+   "image": "assets/img/frontier/rawding-sod-house.jpg",
+   "imageAlt": "A homesteading family standing in front of a low sod house on the Nebraska plains, with a cow grazing on the roof",
+   "credit": "The Sylvester Rawding family in front of their sod house north of Sargent, Custer County, Nebraska, 1886. Photograph by Solomon D. Butcher. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Census Bureau had a working definition of frontier. What was it?",
+   "options": [
+    "Any county with no railroad within fifty miles of the county seat",
+    "Land carrying fewer than two people to the square mile",
+    "Any territory that had not yet applied to Congress for statehood",
+    "Land lying more than a hundred miles from a federal post office"
+   ],
+   "answer": 1,
+   "explanation": "Two persons per square mile was the threshold, and the Census Bureau still describes it that way in its own history of the frontier line. The measure counted the general population and left out the people the census classed as Indians not taxed. So the northern plains could be printed as unsettled in the same years that the Lakota, the Mandan, Hidatsa and Arikara, the Crow, the Cheyenne and the Assiniboine were living, farming, trading and governing themselves there. The line on the map was a statistical convention, not a description of who was on the ground.",
+   "image": "assets/img/frontier/census-standing-rock.jpg",
+   "imageAlt": "A large crowd of people gathered in the open at an agency, with a clerk at a table in the middle and agency buildings behind",
+   "credit": "Taking the census at Standing Rock Agency. Photograph made between 1880 and 1900. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Frederick Jackson Turner first read The Significance of the Frontier in American History at a meeting in which city?",
+   "options": [
+    "Boston",
+    "Washington",
+    "St. Louis",
+    "Chicago"
+   ],
+   "answer": 3,
+   "explanation": "He read it to the American Historical Association, which met in Chicago in 1893 while the World's Columbian Exposition was running; Douglas Brinkley dates the reading to July 12. Turner was thirty-two and taught at the University of Wisconsin. The paper appeared in the association's annual report the following year, and the association still publishes the text. Sean Cashman calls it brief and seminal, which about covers it: a short essay read to a room of tired academics that reorganised the way a country told its own story.",
+   "image": "assets/img/frontier/columbian-expo.jpg",
+   "imageAlt": "The galleried interior of a great exhibition hall at the World's Columbian Exposition, pictures on the walls and statuary on the floor",
+   "credit": "World's Columbian Exposition, Chicago, 1893. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "Turner's paper offered a single explanation of American development. Which one?",
+   "options": [
+    "Free land, its continuous recession, and the advance of settlement westward",
+    "The inheritance of English common law and Germanic habits of self-government",
+    "The abundance of coal and iron in the Appalachian valleys and the Great Lakes",
+    "A steady supply of cheap immigrant labour in the eastern manufacturing cities"
+   ],
+   "answer": 0,
+   "explanation": "Turner's formula was “the existence of an area of free land, its continuous recession, and the advance of American settlement westward.” Out of that, he argued, came American democracy, self-reliance and impatience with inherited authority. He was deliberately attacking his own teacher, Herbert Baxter Adams at Johns Hopkins, who held that American institutions had evolved from English and Germanic precursors, so that to understand America you studied Europe. Turner ended by declaring that the frontier had gone, “and with its going has closed the first period of American history.”",
+   "image": "assets/img/frontier/wheat-harvest-dakota.jpg",
+   "imageAlt": "Wood engraving of a wheat harvest in Dakota, with a mounted foreman watching gangs of men binding sheaves",
+   "credit": "Wheat-Harvesting in Dakota, drawn by R. F. Zogbaum for Harper's Weekly, 1887. Library of Congress, Prints and Photographs Division. Cropped from the page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "Historians have contested the frontier thesis ever since. What does Richard White say about the census finding it rested on?",
+   "options": [
+    "The 1890 count was never finished, so the paragraph was an estimate",
+    "The Bureau took its figures from railroad companies rather than enumerators",
+    "The paragraph was drafted by Turner himself and slipped in by a friend",
+    "The underlying data showed no vanishing line, and the frontier returned in 1900"
+   ],
+   "answer": 3,
+   "explanation": "White is blunt about it: “The underlying census data showed no such thing as a vanishing frontier line, and the ‘frontier’ would reappear in the 1900 census.” He calls the announcement a piece of ideological mapping - real anxiety about a changing country, loaded onto a statistic that would not carry it. As he puts it, real worry rode an imaginary horse. The larger objection came later, and it belongs to a generation of western historians rather than to any one of them: the land was neither free nor empty, and calling it a frontier described the point of view of the people arriving rather than the country they arrived in.",
+   "image": "assets/img/frontier/emigrants-crossing.jpg",
+   "imageAlt": "Hand-coloured engraving of an emigrant family with ox teams and covered wagons crossing open plains",
+   "credit": "Emigrants Crossing the Plains, engraved by H. B. Hall Jr. after F. O. C. Darley, published 1869. Library of Congress, Prints and Photographs Division. Cropped from a copy print with colour calibration bars.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Five and a half months before Turner read his paper, another writer told the State Historical Society of Wisconsin much the same thing about the West. Who was it?",
+   "options": [
+    "Theodore Roosevelt",
+    "John Muir",
+    "Mark Twain",
+    "Frederic Remington, the illustrator"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt gave the society's biennial address in Madison on 24 January 1893, calling the Old Northwest the heart of the country, with Turner in the audience taking notes. He was then part-way through The Winning of the West, published in four volumes between 1889 and 1896, and some historians treat him as a progenitor of the frontier thesis. Roosevelt said generously that Turner had put into definite shape a good deal of thought that had been floating around rather loosely. The Winning of the West is also the part of his writing hardest to read today, because of how it describes the nations the settlers displaced.",
+   "image": "assets/img/frontier/land-rush.jpg",
+   "imageAlt": "Wagons, tents, horses and crowds of people packed together at a land rush camp in Oklahoma",
+   "credit": "Land rush, Oklahoma. Bain News Service glass negative, undated. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Under the Homestead Act of 1862, what did a claimant have to do to get title to the land?",
+   "options": [
+    "Buy the quarter section outright at the government price before moving onto it",
+    "Serve two years in the territorial militia before the patent would issue",
+    "Live on the land and improve it for five years, then pay a small filing fee",
+    "Plant forty acres of trees and keep them alive for ten years"
+   ],
+   "answer": 2,
+   "explanation": "Signed on 20 May 1862, the act offered 160 acres - a quarter section - to a claimant who lived on it, cultivated it and stayed five years, after which the patent cost only a small registration fee. There was a shortcut: after six months and some improvement a claimant could commute the claim and buy the land at $1.25 an acre, and a great deal of land moved that way. Planting trees was a different law, the Timber Culture Act of 1873, passed to supplement a homestead system that worked badly beyond the hundredth meridian.",
+   "image": "assets/img/frontier/cram-sod-house.jpg",
+   "imageAlt": "A family standing outside a sod house behind a picket fence, with strings of drying corn hung by the door",
+   "credit": "The J. C. Cram sod house, Loup County, Nebraska, 1886. Photograph by Solomon D. Butcher. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Who was allowed to file a homestead claim?",
+   "options": [
+    "Only married men who were citizens by birth",
+    "Only Union veterans of the Civil War and their widows",
+    "Only heads of households already farming in the state where the claim was filed",
+    "Any adult, man or woman, who was a citizen or had declared for citizenship"
+   ],
+   "answer": 3,
+   "explanation": "The statute says any person who is the head of a family, or who has arrived at the age of twenty-one, and is a citizen or has filed a declaration of intention to become one. In practice that meant single and widowed women filed claims in their own right, and immigrants could file before naturalisation was complete - which is one reason the northern plains filled with Norwegian, Swedish, German and Czech names. It also carried two exclusions. The 1862 act barred anyone who had borne arms against the United States, and tying eligibility to the naturalisation laws meant that after 1882 Chinese immigrants, who were forbidden to naturalise, could not qualify.",
+   "image": "assets/img/frontier/haumont-sod-house.jpg",
+   "imageAlt": "A family and two dogs in front of a large two-storey sod house with a shingled roof",
+   "credit": "Isadore Haumont and family in front of their two-storey sod house north of Broken Bow, Custer County, Nebraska, 1886. Photograph by Solomon D. Butcher. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "The General Land Office disposed of roughly 500 million acres between 1862 and 1904. How much of that reached homesteaders?",
+   "options": [
+    "About 250 million acres",
+    "About 80 million acres",
+    "Nearly all of it",
+    "About 400 million acres"
+   ],
+   "answer": 1,
+   "explanation": "The National Archives puts it at about 80 million acres of some 500 million, with most of the rest going to speculators, cattle owners, miners, loggers and railroads. The families who did file had a hard road as well. Richard White counts Kansas, where 40 per cent of the claims filed between 1863 and 1890 eventually yielded a patent, as close to the national average; Minnesota, better watered and settled earlier, ran to about two-thirds. The claims that did not prove up were abandoned, sold on to somebody else, or commuted into a straight purchase. Success was much likelier east of the hundredth meridian than west of it, which is the part of the story the sod-house photographs do not show.",
+   "image": "assets/img/frontier/homestead-interior.jpg",
+   "imageAlt": "The inside of a plain board homestead cabin with a stove, a bed, a table and buckets",
+   "credit": "Interior view of a homestead dwelling, 23 January 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Congress paid for the western railroads in land. How were those grants laid out along the line?",
+   "options": [
+    "A continuous strip fifty miles wide on the south side of the track",
+    "One block of land at each end of the line and nothing in between",
+    "Whatever the company could survey in its first year of operation",
+    "Alternate square sections on both sides, in a checkerboard"
+   ],
+   "answer": 3,
+   "explanation": "The alternate sections went to the company and the sections between stayed public, which is why land ownership maps of the West still look like a chessboard. Richard White does the arithmetic: of a public domain of about 1.145 billion acres in 1867, railroad grants took roughly 125 million, grants to the states about 140 million, and Indian reservations about 175 million. Congress reasoned that western land was worth little without a railroad to carry the crop out. White's objection is that where the grants were not actually necessary to get a line built, their main effect was to push homesteaders onto worse land further from the track.",
+   "image": "assets/img/frontier/kansas-pacific-buffalo.jpg",
+   "imageAlt": "Wood engraving of passengers shooting buffalo from the windows and platforms of a train on the plains",
+   "credit": "The Far West - Shooting Buffalo on the Line of the Kansas-Pacific Railroad, Frank Leslie's Illustrated Newspaper, 3 June 1871. Library of Congress, Prints and Photographs Division. Cropped from the bound page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Railroads advertised for settlers in Europe. What did the Northern Pacific offer readers of an English county newspaper in 1872?",
+   "options": [
+    "Free passage across the Atlantic for any family of five or more",
+    "A Minnesota freehold for the price of one year's English rent",
+    "Guaranteed prices for the first ten wheat harvests",
+    "A share in the railroad company for every acre bought"
+   ],
+   "answer": 1,
+   "explanation": "The advertisement in a Dorset paper promised that for the amount of a single year's rental in Great Britain, “a British tenant-farmer can obtain in Minnesota the freehold of a large and productive farm.” Railroads were among the most effective immigration agencies in the country. The Burlington published a monthly newspaper to sell its three million acres in Iowa and Nebraska, with annual editions in German, Czech, Norwegian and Swedish. They also settled newcomers in blocks by nationality on purpose, which is a large part of why the ethnic map of the northern plains looks the way it does.",
+   "image": "assets/img/frontier/wheat-harvest-dakota.jpg",
+   "imageAlt": "Wood engraving of a wheat harvest in Dakota, with a mounted foreman watching gangs of men binding sheaves",
+   "credit": "Wheat-Harvesting in Dakota, drawn by R. F. Zogbaum for Harper's Weekly, 1887. Library of Congress, Prints and Photographs Division. Cropped from the page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In 1867 Joseph McCoy laid out a route to bring Texas cattle to a railhead. Which town did he pick?",
+   "options": [
+    "Denver, Colorado",
+    "Bismarck, Dakota Territory",
+    "St. Louis, Missouri",
+    "Abilene, Kansas"
+   ],
+   "answer": 3,
+   "explanation": "McCoy's route ran north out of southern Texas along the Chisholm Trail, west of any settlement, to the Kansas Pacific at Abilene; from there the cars went to the Chicago packing houses. Between 1866 and 1885 some 5.71 million cattle went north that way. The trade did not stay a drive for long. Ranchers found the northern grass better than they expected and the long drive less profitable than it looked, so by the early 1870s the open range had displaced it in Kansas, Nebraska and Wyoming, and by the end of the decade it had reached Montana and Dakota - which is how Theodore Roosevelt came to be buying cattle on the Little Missouri in 1883.",
+   "image": "assets/img/frontier/day-herds-xit.jpg",
+   "imageAlt": "Cowboys and saddle horses with a herd spread across open sagebrush country",
+   "credit": "Day herds, XIT outfit. Photograph copyright 1904 by C. A. Kendrick, Denver. Library of Congress, Prints and Photographs Division. Cropped from a mounted copy print.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The plains had almost no timber for fencing. Which invention of the 1870s made it cheap to fence a quarter section there?",
+   "options": [
+    "The steel windmill",
+    "Barbed wire",
+    "The sulky plough",
+    "The grain elevator"
+   ],
+   "answer": 1,
+   "explanation": "Joseph Glidden and several rivals patented barbed wire in the 1870s, and by 1876 Glidden alone was selling three million pounds of it a year. The Texas historian Walter Prescott Webb argued in The Great Plains in 1931 that settlement of the grasslands had waited on three inventions: the six-shooter, barbed wire and the windmill. Wire also turned open country into property, and not always lawfully - cattlemen fenced public land they did not own, the federal government moved against the illegal enclosures in the late 1880s, and the disputes that started with wire cutters did not always end there.",
+   "image": "assets/img/frontier/buffalo-montana.jpg",
+   "imageAlt": "Bison grazing across an open grass hillside in Montana",
+   "credit": "Buffalo in Montana, about 1909 - a remnant herd photographed a generation after the great slaughter. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Pekka Hämäläinen's history of the Lakota argues something the standard account of the West leaves out. What?",
+   "options": [
+    "They had lived in one river valley for a thousand years without moving",
+    "They were formed into a single nation by treaty with the United States",
+    "They left the plains for Canada before 1800 and never returned",
+    "They expanded, building an Indigenous power that dominated the northern plains"
+   ],
+   "answer": 3,
+   "explanation": "Lakota America (2019) traces a people who were an obscure group of hunters at the edge of the Eastern Woodlands in the mid-seventeenth century, moved west, remade themselves as horse people, and became what Hämäläinen calls “the most powerful Indigenous nation in the Americas.” His framing is deliberate: “Just as there was Spanish, French, British, and the United States of America, there was Lakota America.” They never numbered more than about fifteen thousand people, and they managed it mostly by diplomacy. That is a different story from a wilderness waiting to be entered - two expanding powers meeting, not one.",
+   "image": "assets/img/frontier/sioux-delegation-1891.jpg",
+   "imageAlt": "A formal group portrait of more than forty Lakota delegates and federal officials arranged in rows in a studio",
+   "credit": "Full delegation of Sioux Indians, Washington, D.C., February 1891. Photograph by C. M. Bell. Library of Congress, Prints and Photographs Division. Cropped from a mounted print that carried a printed key naming all forty-one men and a copyright line along the foot.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "In 1911 a group of Native professionals founded the first national organisation run by and for American Indians. What was it called?",
+   "options": [
+    "The Indian Rights Association",
+    "The United States Bureau of Indian Affairs",
+    "The Society of American Indians",
+    "The Boone and Crockett Club"
+   ],
+   "answer": 2,
+   "explanation": "The founders were a formidable generation: the physicians Carlos Montezuma and Charles Eastman, the lawyer Thomas Sloan, the writer Laura Cornelius, the performer Henry Standing Bear and Charles Dagenett, then the highest-ranking Native American in the Indian Office. Frederick Hoxie sets them alongside the other bodies Americans were founding at the time - the NAACP, the Chamber of Commerce, the Farm Bureau - people organising to argue their case in public. The Indian Rights Association, founded in 1882, was run by non-Native reformers; the Society of American Indians was not. Its members disagreed sharply among themselves, particularly about allotment, which by then had cut deeply into tribal land.",
+   "image": "assets/img/frontier/election-standing-rock.jpg",
+   "imageAlt": "A group of men standing outside a small white frame building used as a polling place, with an early motor car alongside",
+   "credit": "The first presidential election held on the Standing Rock Indian Reservation, 1913. Photographer's inscription on the print. Library of Congress, Prints and Photographs Division. Cropped from the postcard border.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "id": "women-of-the-era",
+ "title": "The Women Who Ran the Era",
+ "subtitle": "Reporters, organisers, strikers and lobbyists, 1880-1920",
+ "intro": "They could not vote in most of the country, and they reorganised it anyway. A reporter had herself committed to an asylum to see what happened inside. A settlement-house founder took a job following garbage wagons at dawn. A teacher sued a railroad, was run out of Memphis, and forty years later was still refusing to march at the back. A temperance leader built the largest women's organisation in America and pointed it at everything. Fourteen questions on the women of Theodore Roosevelt's America - and not the ones who lived at Sagamore Hill.",
+ "heroImage": "assets/img/women/suffrage-parade-1913.jpg",
+ "heroAlt": "An enormous crowd filling Pennsylvania Avenue in Washington, the Capitol dome visible in the distance",
+ "heroCredit": "The woman suffrage parade on Pennsylvania Avenue, Washington, March 1913. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Women Who Ran the Era",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the women of the Progressive era - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Front Door Lobby",
+   "line": "You could have counted the votes yourself."
+  },
+  {
+   "min": 11,
+   "name": "State Chairman",
+   "line": "You know the organisation and the argument inside it."
+  },
+  {
+   "min": 8,
+   "name": "Precinct Canvasser",
+   "line": "Solid. You have walked most of these blocks."
+  },
+  {
+   "min": 5,
+   "name": "New Member",
+   "line": "A start. There is a great deal more to this."
+  },
+  {
+   "min": 2,
+   "name": "Curious Bystander",
+   "line": "Worth another turn through."
+  },
+  {
+   "min": 0,
+   "name": "On the Sidewalk",
+   "line": "Everyone starts somewhere. Step off the kerb and join in."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In 1905 Illinois sent a marble statue of Frances Willard to the National Statuary Hall Collection in the Capitol. Why was that a first?",
+   "options": [
+    "It was the first statue in the collection paid for by the federal government",
+    "She was the first woman in the collection",
+    "It was the first statue there of a person still living",
+    "It was the first in the collection carved in marble rather than bronze"
+   ],
+   "answer": 1,
+   "explanation": "Willard had been dead seven years by then. She was elected president of the national Woman's Christian Temperance Union in 1879 and held the post until she died in 1898, and under her the WCTU became the largest women's organisation in the country by pointing itself at almost everything - prisons, kindergartens, labour, and above all the vote, which she argued women needed in order to protect their own homes. It was an argument that reached hundreds of thousands of women who would never have described themselves as radicals. In 1895 she handed President Cleveland a temperance petition carrying seven million signatures from around the world.",
+   "image": "assets/img/women/willard-portrait.jpg",
+   "imageAlt": "A woman in dark clothes and wire spectacles seated with her chin on her hand, surrounded by foliage",
+   "credit": "Frances Willard, photographed between 1880 and 1898. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Organisers of the 1913 suffrage parade in Washington asked the Illinois delegation to leave Ida B. Wells-Barnett out of its ranks. What did she do?",
+   "options": [
+    "She went home to Chicago and wrote about it in the press",
+    "She marched at the rear with the other Black delegates as instructed",
+    "She waited on the pavement and stepped out to join the Illinois women as they passed",
+    "She organised a separate parade of her own for the following morning"
+   ],
+   "answer": 2,
+   "explanation": "The march was set for the eve of Woodrow Wilson's inauguration, and the national leadership had advised the state delegations to keep their ranks white so that southern women would take part. Wells-Barnett refused the compromise in front of the whole Illinois delegation: “Either I go with you or not at all.” She added that she was not doing it for herself - “I am not taking this stand because I personally wish for recognition.” When the Illinois women came down Pennsylvania Avenue she stepped out of the crowd and took her place beside her white ally Belle Squire, and nobody stopped her. Susan Ware works the episode from the Chicago Tribune's own report.",
+   "image": "assets/img/women/wells-portrait.jpg",
+   "imageAlt": "An engraved portrait of Ida B. Wells in a high-necked dress with a lace collar",
+   "credit": "Ida B. Wells, engraved portrait published in 1891. Library of Congress, Prints and Photographs Division. Cropped from a copy negative carrying the printed name.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "In January 1913 Ida B. Wells-Barnett founded an organisation in Chicago. What was it?",
+   "options": [
+    "The Alpha Suffrage Club",
+    "The National American Woman Suffrage Association",
+    "The Woman's Christian Temperance Union",
+    "The League of Women Voters"
+   ],
+   "answer": 0,
+   "explanation": "It was the first Black women's suffrage club in Chicago, founded weeks before the Illinois legislature gave women the presidential and municipal vote. Its canvassers went block by block through the Second Ward and added 7,290 women to a register that held 16,327 men - enough that in 1915 the machine had to deal with them, and Oscar DePriest became Chicago's first Black alderman with women casting more than a third of his vote. Wells-Barnett had been arguing with the movement's leaders for twenty years; in 1894 she publicly attacked Frances Willard over remarks about Black men and demanded, without success, that the WCTU take up anti-lynching work.",
+   "image": "assets/img/women/milholland-parade.jpg",
+   "imageAlt": "A woman in a white cloak on a white horse at the head of a suffrage parade, spectators pressing in behind",
+   "credit": "Inez Milholland at the head of the suffrage parade, Washington, 3 March 1913. Bain News Service. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "In 1895 the mayor of Chicago appointed Jane Addams to a paid city post in the Nineteenth Ward. What was the job?",
+   "options": [
+    "Garbage inspector",
+    "Truant officer",
+    "Member of the school board",
+    "Assistant health commissioner"
+   ],
+   "answer": 0,
+   "explanation": "Addams had spent years petitioning the city council about the ward's refuse and getting nowhere, so she bid for the collection contract herself. The bid failed, the publicity did not, and Mayor Carter Harrison appointed her inspector at a thousand dollars a year - which meant following the wagons at dawn to see that they actually went where they were supposed to. It is the whole settlement-house method in one job: live in the neighbourhood, learn what is wrong with it in detail, then make the machinery work. In 1912 she seconded Theodore Roosevelt's nomination at the Progressive Party convention, whose platform was the first of a national party to call for votes for women; she then had to defend that choice to Black readers of The Crisis, because the same convention had seated no southern Black delegates. In 1931 she became the first American woman to be awarded the Nobel Peace Prize.",
+   "image": "assets/img/women/addams.jpg",
+   "imageAlt": "Jane Addams in profile, reading from a paper in her hand",
+   "credit": "Jane Addams, about 1900. Bain News Service. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Ida Tarbell, the most famous woman journalist in America, took a position on woman suffrage that startled her readers. What was it?",
+   "options": [
+    "She would not support it, and wrote that women's real work lay in the home",
+    "She was jailed twice for picketing the White House with the militants",
+    "She led the National American Woman Suffrage Association for a decade",
+    "She drafted the woman suffrage plank of the 1912 Progressive platform"
+   ],
+   "answer": 0,
+   "explanation": "Tarbell had taken Standard Oil apart in McClure's and was as formidable a reporter as the country had. She was also, as her biographer Kathleen Brady puts it, against suffrage but totally for social reform. Brady records that she joined the New York State Association Opposed to the Extension of Suffrage to Woman in 1903 and its executive board in 1908, and that in 1911 she was named an executive of the national body, a title Brady calls largely honorary. She was the author, too, of a series in the American Magazine collected in 1912 as The Business of Being a Woman. Suffragists were furious: they called a rally at the Metropolitan Temple in New York on 15 April 1912 specifically to answer her. Tarbell herself always insisted she was sitting on the fence.",
+   "image": "assets/img/women/tarbell.jpg",
+   "imageAlt": "Ida Tarbell in a high-collared dark dress, seated and facing the camera",
+   "credit": "Ida M. Tarbell, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Writers and writing"
+   }
+  },
+  {
+   "prompt": "In 1887 a young reporter had herself committed to the asylum on Blackwell's Island to find out what went on there. Who was she?",
+   "options": [
+    "Ida Tarbell",
+    "Rheta Childe Dorr",
+    "Nellie Bly",
+    "Ida B. Wells"
+   ],
+   "answer": 2,
+   "explanation": "She was born Elizabeth Cochran and wrote for Joseph Pulitzer's New York World. Her six-part series ran under the name Nellie Bly and came out as a book, Ten Days in a Mad-House, the same year; the city's charities and corrections budget went up sharply afterwards. Two years later the World sent her round the world to see whether Jules Verne's eighty days could be beaten, and on 25 January 1890 she stepped off the train at Jersey City, across the river from the paper that sent her, having done it in 72 days, 6 hours and change. The Library of Congress keeps a research guide to her; almost none of this reaches us through the books on our own shelves, which is its own comment on how reporters get remembered.",
+   "image": "assets/img/women/nellie-bly.jpg",
+   "imageAlt": "A young woman in a checked travelling coat raising her cap, a small leather bag in her other hand",
+   "credit": "Nellie Bly in the coat and cap she wore round the world, copyrighted February 1890. Library of Congress, Prints and Photographs Division. Cropped from the cabinet-card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Writers and writing"
+   }
+  },
+  {
+   "prompt": "The New York garment strike of 1909 and 1910 is remembered by a name that counts the strikers. What is it?",
+   "options": [
+    "The Bread and Roses strike",
+    "The Uprising of the Twenty Thousand",
+    "The Great Shirtwaist Lockout",
+    "The Ladies' Mile walkout"
+   ],
+   "answer": 1,
+   "explanation": "It began at the Triangle Shirtwaist Company after union organisers were sacked, and it became a general strike of the whole shirtwaist trade when the young worker Clara Lemlich stood up at a mass meeting and called for one. Most of the strikers were immigrant women in their teens and twenties. The Women's Trade Union League ran the support operation, and it drew in allies from a long way up the social scale - Alva Belmont paid for lawyers, and members of the Colony Club turned out for the pickets. Most shops eventually settled. Triangle's owners refused to sign.",
+   "image": "assets/img/women/picket-ladies-tailors.jpg",
+   "imageAlt": "Two young women in large hats wearing sashes lettered Picket Ladies Tailors Strikers on a city street",
+   "credit": "Picket girls on duty, ladies' tailors' strike, New York, February 1910. Library of Congress, Prints and Photographs Division. Cropped from the mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "New York's answer to the Triangle fire of March 1911 was a state commission that spent years touring workplaces. What came of it?",
+   "options": [
+    "A federal minimum wage for women and children",
+    "The first state pension scheme for industrial workers",
+    "A run of new state factory and labour laws",
+    "An order closing the garment trade inside the New York city limits"
+   ],
+   "answer": 2,
+   "explanation": "The fire killed 146 workers, most of them young immigrant women, many of them the same shirtwaist makers who had struck the year before. The Factory Investigating Commission that followed produced a flood of reform bills - thirty-two of them from one commission, on fire exits, machine guards, hours and inspection - and New York's code became the model other states copied. Historians of the period treat it as the moment when the argument stopped being about charity and started being about law. The Library's page on Roosevelt's complicated legacy is a fair place to think about how slowly that argument moved.",
+   "image": "assets/img/women/triangle-crowds.jpg",
+   "imageAlt": "A dense crowd of people filling a street beside a row of brick houses",
+   "credit": "Crowds in the street near the scene of the Triangle Waist Company fire, New York, 26 March 1911. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "In January 1917 the National Woman's Party began doing something at the White House gates that nobody had done before. What?",
+   "options": [
+    "Chaining themselves to the iron railings",
+    "Refusing as a body to pay federal income tax",
+    "Holding an open-air hunger strike on the north lawn",
+    "Standing silently with banners, day after day"
+   ],
+   "answer": 3,
+   "explanation": "The first Silent Sentinels took their places on 10 January 1917 with banners reading “Mr. President! How Long Will Women Have to Wait for Their Freedom?” Picketing the White House is such a fixture of American life now that it is easy to forget somebody had to do it first. Alice Paul ran it like a campaign, with state days, college days, days for nurses and days for teachers, and only women on the line. For six months the police left them alone. That changed in June, after banners linking Wilson's war aims to the Russian Revolution, and the arrests began.",
+   "image": "assets/img/women/picket-line-college-day.jpg",
+   "imageAlt": "Women in coats and sashes holding lettered banners along the White House railings",
+   "credit": "College Day in the picket line, February 1917 - the sashes name Vassar, Bryn Mawr, Swarthmore, Leland Stanford, Washington College of Law and the University of Missouri. Library of Congress, Prints and Photographs Division. Cropped from a mount with a handwritten caption.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "In December 1917 the National Woman's Party filled the Belasco Theater in Washington to honour the picketers who had been sent to prison. What did it give each of them?",
+   "options": [
+    "A life membership in the party",
+    "A small brooch shaped like the locked door of a prison cell",
+    "A framed copy of the banner she had carried",
+    "A gold star sewn onto the party's ratification banner"
+   ],
+   "answer": 1,
+   "explanation": "Eighty-nine women were honoured that night, and the pin became the party's own decoration for service - the nearest thing the American suffrage movement ever had to a campaign medal. Many wore theirs for the rest of their lives; one was handed on in the 1960s to the civil rights lawyer Pauli Murray. Susan Ware supplies the setting: close to five hundred arrests on the picket lines between 1917 and 1919 and about 170 women imprisoned, on charges of disorderly conduct and obstructing traffic for doing exactly what they had been doing unmolested for six months. They were among the first Americans jailed under the wartime clampdown on dissent.",
+   "image": "assets/img/women/picket-all-weather.jpg",
+   "imageAlt": "Three women in oilskin capes holding suffrage banners at the White House fence in the rain",
+   "credit": "Picketing in all sorts of weather - New York Day picket, January 1917. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  },
+  {
+   "prompt": "Carrie Chapman Catt set out a strategy at the suffrage convention of September 1916 that is still known by its name. What was it called?",
+   "options": [
+    "The Home Protection Ballot",
+    "The Declaration of Sentiments",
+    "The Winning Plan",
+    "The Seneca Falls Resolution"
+   ],
+   "answer": 2,
+   "explanation": "Catt laid it out at the National American Woman Suffrage Association convention in Atlantic City: press the federal amendment in Congress while going on winning states, so that every new state added senators and representatives who owed their seats partly to women. She and Alice Paul could not stand each other's methods - Catt thought the militants were handing ammunition to the opposition, Paul thought respectability had been tried for fifty years - and both, in the end, were pushing on the same door. Maud Wood Park ran the lobbying operation in Washington that turned the plan into votes.",
+   "image": "assets/img/women/catt-portrait.jpg",
+   "imageAlt": "Carrie Chapman Catt in an embroidered dark jacket and lace blouse, facing the camera",
+   "credit": "Carrie Chapman Catt, photographed about 1914. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Which was the first state east of the Mississippi to let women vote for president?",
+   "options": [
+    "Illinois",
+    "New York",
+    "Massachusetts",
+    "Ohio"
+   ],
+   "answer": 0,
+   "explanation": "Illinois, in June 1913. It was a piece of legislative jujitsu, mostly the work of Grace Wilbur Trout: rather than put the question to male voters again - they had beaten it in a referendum only the year before - the suffragists went to the legislature and asked for presidential and municipal suffrage alone, which sounded like a small thing and was not. It mattered most in Chicago, where a large number of Black women became voters at a stroke. The earlier suffrage victories had all been in western states, where they enfranchised an almost entirely white electorate.",
+   "image": "assets/img/women/suffrage-parade-1913.jpg",
+   "imageAlt": "An enormous crowd filling Pennsylvania Avenue in Washington, the Capitol dome visible in the distance",
+   "credit": "The woman suffrage parade on Pennsylvania Avenue, Washington, March 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "In August 1920 ratification of the Nineteenth Amendment came down to one state. Which?",
+   "options": [
+    "Vermont",
+    "Tennessee",
+    "Ohio",
+    "North Carolina"
+   ],
+   "answer": 1,
+   "explanation": "Thirty-five states had ratified and progress had stopped; Catt's slogan for the last push was to put the RAT in ratification. The story everybody tells is of Harry Burn, a young Tennessee legislator wearing an antisuffrage red rose, changing his vote after a letter from his mother - and it is true. Susan Ware's warning is that reducing a fortnight of hard manoeuvring in Nashville to one filial gesture flattens the work of people like Sue Shelton White, a self-supporting Jackson stenographer who had been organising the state for eight years. The amendment was certified on 26 August 1920.",
+   "image": "assets/img/women/women-vote-1920.jpg",
+   "imageAlt": "A woman on a balcony unfurling a long ratification banner sewn with stars while others watch from the pavement",
+   "credit": "The ratification banner unfurled at National Woman's Party headquarters, Washington, 1920. Underwood and Underwood. Library of Congress, Prints and Photographs Division. Cropped above the copyright line.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "What did Carrie Chapman Catt's suffrage association turn itself into once the amendment was ratified?",
+   "options": [
+    "The National Woman's Party",
+    "The Women's Trade Union League",
+    "The League of Women Voters",
+    "The General Federation of Women's Clubs"
+   ],
+   "answer": 2,
+   "explanation": "The association renamed itself, renamed its journal The Woman Citizen, and went straight at social legislation - a new child labour law, federal money for maternal and infant health, protections for working women. Alice Paul's National Woman's Party went a different way and began drafting what became the Equal Rights Amendment. Susan Ware's charge against both is that neither pressed the case of the women the amendment had not actually enfranchised: poll taxes, literacy tests and worse kept most Black women in the South from the polls for another forty-five years, and Ware argues that for them the real culmination was the Voting Rights Act of 1965, not 1920.",
+   "image": "assets/img/women/paul-lewis-conference.jpg",
+   "imageAlt": "Three women in conference around a small table with tea things and a notebook",
+   "credit": "Alice Paul, right, in conference at National Woman's Party headquarters, 14 Jackson Place, Washington. Library of Congress, Prints and Photographs Division. Cropped from the negative carrier.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complicated legacy"
+   }
+  }
+ ]
+}

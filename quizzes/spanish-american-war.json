@@ -1,0 +1,327 @@
+{
+ "id": "spanish-american-war",
+ "title": "The War of 1898",
+ "subtitle": "Cuba, the Maine, Manila Bay and the peace that followed",
+ "intro": "Cubans had been fighting Spain, on and off, for thirty years before an American battleship blew up in Havana harbour. Fifteen questions on the war that followed — what set it off, what the inquiries actually found, what killed most of the Americans who died, and what the peace did with Cuba.",
+ "heroImage": "assets/img/spanamwar/maine-wreck.jpg",
+ "heroAlt": "The twisted wreck of a battleship lying in a city harbour, only a mast and a mass of buckled plating above the water",
+ "heroCredit": "The wreck of the Maine in Havana harbour. Photograph by J. C. Hemment. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The War of 1898",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the Spanish-American War — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/rise-to-power"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "War Correspondent",
+   "line": "Perfect. You filed every story straight."
+  },
+  {
+   "min": 13,
+   "name": "Board of Inquiry",
+   "line": "You would have got the report right."
+  },
+  {
+   "min": 10,
+   "name": "Ship's Officer",
+   "line": "Steady, informed, hard to fool."
+  },
+  {
+   "min": 7,
+   "name": "Volunteer",
+   "line": "Mustered in and learning fast."
+  },
+  {
+   "min": 4,
+   "name": "Reader of Headlines",
+   "line": "You got the gist. The details are where it lives."
+  },
+  {
+   "min": 0,
+   "name": "On the Quayside",
+   "line": "Come aboard next time. There is a lot here worth knowing."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "By the time American troops landed in Cuba in June 1898, how long had Cubans been fighting Spain for independence, on and off?",
+   "options": [
+    "About three years, since the rising of 1895",
+    "About thirty years, since the rising of 1868",
+    "Since the end of the American Civil War in 1865",
+    "Only since the Maine blew up in February 1898"
+   ],
+   "answer": 1,
+   "explanation": "The Ten Years' War began in 1868 and ended in 1878 with the Pact of Zanjón, a negotiated settlement that promised Cuba a constitution and an elected assembly and delivered neither; a short second revolt followed at the end of the 1870s; the last and largest rising began in February 1895. So Americans arriving in 1898 were joining a war already three years old, in a struggle a generation old. That is the piece most often left out of the story.",
+   "image": "assets/img/spanamwar/el-caney-refugees.jpg",
+   "imageAlt": "A large crowd of Cuban men, women and children in straw hats and light clothing standing under a spreading tree beside tile-roofed buildings",
+   "credit": "Cuban civilians at El Caney, Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "José Martí founded the Cuban Revolutionary Party in exile and returned to the island in 1895. What happened to him there?",
+   "options": [
+    "He was captured and deported to Spain",
+    "He became the first president of the republic",
+    "He was killed in one of the first engagements",
+    "He negotiated the settlement that ended the war"
+   ],
+   "answer": 2,
+   "explanation": "Martí was a poet and journalist who had spent years in New York organising and raising money among Cuban exiles. He landed in April 1895 with a small party that included the Dominican-born general Máximo Gómez, and in May he rode to the head of his troops on a white horse and was shot almost at once. He became the revolution's martyr rather than its statesman, and the movement he built carried on without him for three more years.",
+   "image": "assets/img/spanamwar/el-caney-refugees.jpg",
+   "imageAlt": "Cuban townspeople gathered in an open square beside low tile-roofed houses, a rope strung across the foreground",
+   "credit": "Cuban civilians at El Caney, Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "In 1896 Spain's commander in Cuba ordered country people into fortified towns to cut the rebels off from food and shelter. What was that policy called?",
+   "options": [
+    "The trocha",
+    "Reconcentración",
+    "The Pact of Zanjón",
+    "Autonomía"
+   ],
+   "answer": 1,
+   "explanation": "General Valeriano Weyler's reconcentración emptied the countryside into garrison towns that had no way to feed the people arriving, and they died there in very large numbers of hunger and disease. No count was kept and none is now possible; contemporaries claimed as many as half a million, and even the most sceptical modern estimates allow at least a hundred thousand. American newspapers filled columns with it, and the Red Cross went in under Clara Barton. The trocha was something else entirely — a fortified ditch and blockhouse line cut clear across the island in the earlier war to stop the rebels moving east and west. Weyler was recalled to Spain in 1897 and the policy was loosened but never really lifted.",
+   "image": "assets/img/spanamwar/havana-cabanas.jpg",
+   "imageAlt": "A long fortress wall on a low headland above a waterfront of sheds and jetties, seen from across the harbour",
+   "credit": "The Cabaña fortress above Havana harbour, Cuba, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "The United States naval court of inquiry reported on the loss of the Maine in March 1898. What did it actually conclude?",
+   "options": [
+    "That a fire in a coal bunker had set the forward magazines off from inside the hull",
+    "That an explosion outside the hull set off the forward magazines, with blame fixed on nobody",
+    "That the Spanish government in Madrid had ordered the ship destroyed",
+    "That there was no way at all to tell what had destroyed the ship"
+   ],
+   "answer": 1,
+   "explanation": "The court found that a mine outside the ship had touched off her forward magazines — and then said, in as many words, that it had been unable to obtain evidence fixing the responsibility on any person or persons. No American inquiry ever blamed Spain. A second board, under Rear Admiral Charles Vreeland, examined the raised hull in 1911 and confirmed an external explosion; Admiral Hyman Rickover argued in 1976 that a coal-bunker fire was the likelier cause, and later studies have not settled it. What the country heard in 1898, though, was the word mine.",
+   "image": "assets/img/spanamwar/maine-wreck-mast.jpg",
+   "imageAlt": "The buckled hull and leaning mast of a sunken warship rising out of calm harbour water, a city skyline behind",
+   "credit": "The wreck of the Maine in the harbour of Havana, Cuba, 1898 — a lantern slide. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "In 1911 the wreck of the Maine was uncovered for a second inquiry. How did the engineers get at it?",
+   "options": [
+    "They slung steel cables underneath and lifted the hull with winches",
+    "They worked entirely from diving boats moored over the wreck",
+    "They built a watertight dam around it and pumped the harbour out",
+    "They blasted the hull apart and recovered the pieces separately"
+   ],
+   "answer": 2,
+   "explanation": "Lifting the ship bodily would have shifted every plate and destroyed the evidence, so President Taft approved the slower method: twenty linked steel cylinders sunk into the harbour bottom, packed with earth, and the water pumped out. It took the best part of a year. The wreck stood exposed in a dry pit in November 1911, and the court crawled under her for a month. The hull was then refloated and sunk at sea; the foremast went to Annapolis and the mainmast to Arlington, where they still stand.",
+   "image": "assets/img/spanamwar/maine-wreck.jpg",
+   "imageAlt": "A sunken warship's mast and torn plating above the water in a busy harbour, small boats and a waterfront beyond",
+   "credit": "The wreck of the Maine in Havana harbour, photographed in 1898 — thirteen years before the wreck was raised. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "The best-known line in American journalism is a cable William Randolph Hearst is said to have sent his artist in Cuba. What do historians say about it?",
+   "options": [
+    "It was read into the Congressional Record during the war debate",
+    "It survives in Hearst's own files at his California ranch",
+    "No record of the telegram exists, and Hearst denied it",
+    "The artist printed it himself in a magazine article that autumn"
+   ],
+   "answer": 2,
+   "explanation": "Frederic Remington, sent to Cuba for the New York Journal, wired that there was no war and asked to come home; Hearst supposedly answered, “Please remain. You furnish the pictures and I’ll furnish the war.” No copy of the cable has ever been produced. The story reaches us secondhand in a 1901 memoir by the correspondent James Creelman, and Hearst called it “clotted nonsense.” His papers did run the intercepted de Lôme letter in February 1898, which was real and which did real damage — but historians now think it far too simple to lay the war at the door of two New York editors.",
+   "image": "assets/img/spanamwar/mckinley.jpg",
+   "imageAlt": "Studio portrait of a clean-shaven, heavy-browed man in a black coat and wing collar against a dark ground",
+   "credit": "President William McKinley, photographed in 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact or fiction"
+   }
+  },
+  {
+   "prompt": "On 17 March 1898 a Vermont senator who had just toured Cuba described what he had seen to the Senate. Why did that speech move opinion so much?",
+   "options": [
+    "He was a business Republican with no appetite for a war",
+    "He read the whole Maine report aloud from the Senate floor",
+    "He was the first American allowed into Cuba since 1895",
+    "He spoke as a paid representative of the Cuban rebel junta"
+   ],
+   "answer": 0,
+   "explanation": "Redfield Proctor had made a fortune in Vermont marble, sided with business in Congress, and gone to Cuba a sceptic. He came back and told the Senate flatly, “It is not peace, nor is it war,” and then: “It is desolation and distress, misery and starvation.” Because he was nobody's jingo, people who distrusted the newspapers believed him. The Wall Street Journal reported that the speech converted a great many people in Wall Street who had thought the United States had no business interfering at all.",
+   "image": "assets/img/spanamwar/el-caney-refugees.jpg",
+   "imageAlt": "Cuban families crowded together in a village square, many in straw hats, with tiled roofs and a large tree behind",
+   "credit": "Cuban civilians at El Caney, Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Congress attached an amendment to its April 1898 war resolution. What did that amendment promise?",
+   "options": [
+    "That every territory taken from Spain would be given a vote",
+    "That the war would be paid for entirely out of customs duties",
+    "That no American troops would be sent outside the Caribbean",
+    "That the United States would not take sovereignty over Cuba"
+   ],
+   "answer": 3,
+   "explanation": "Senator Henry Teller of Colorado took the expansionists at their word and wrote it down: the United States disclaimed any disposition or intention to exercise “sovereignty, jurisdiction, or control over said island except for the pacification thereof.” It passed on a voice vote in the small hours of 19 April. Note what it does not cover — the Philippines, Puerto Rico and Guam are nowhere in it, and within a year all three were American. Cuba did become a republic, in 1902, but on conditions written in Washington.",
+   "image": "assets/img/spanamwar/mckinley.jpg",
+   "imageAlt": "Head-and-shoulders studio portrait of President McKinley in a dark frock coat and bow tie",
+   "credit": "President William McKinley, photographed in 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "The first battle of the war was fought on 1 May 1898, seven thousand miles from Cuba. Where?",
+   "options": [
+    "Manila Bay, in the Philippines",
+    "Guantánamo Bay, in eastern Cuba",
+    "San Juan, in Puerto Rico",
+    "Apra Harbour, on Guam"
+   ],
+   "answer": 0,
+   "explanation": "Commodore George Dewey took the Asiatic Squadron out of Hong Kong, felt his way past the batteries at the harbour mouth in the dark, and found Admiral Montojo's ships off Cavite at first light. Dewey leaned over the rail and told his flag captain, “You may fire when you are ready, Gridley.” By late morning the Spanish squadron was destroyed and not one American ship was lost. Dewey was a national hero by breakfast, and the United States suddenly had a claim on an archipelago most Americans could not have found on a map.",
+   "image": "assets/img/spanamwar/vizcaya.jpg",
+   "imageAlt": "A burnt-out armoured cruiser lying low in the water off a wooded shore, her hull scorched and her upperworks stripped",
+   "credit": "The wreck of a Spanish cruiser off the Cuban coast, 1898. Photograph by J. C. Hemment. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "Dewey's squadron was concentrated at Hong Kong and kept full of coal on an order cabled from Washington on 25 February 1898. Who sent it?",
+   "options": [
+    "Secretary of the Navy John D. Long",
+    "Assistant Secretary Theodore Roosevelt",
+    "Commodore Dewey himself, by request",
+    "Senator Henry Cabot Lodge, chairing a Senate committee"
+   ],
+   "answer": 1,
+   "explanation": "Long went home for a half-day and told his deputy not to take any step affecting policy without consulting him or the president. Roosevelt spent the afternoon cabling squadron commanders around the world, buying coal, ordering ammunition and asking Congress for authority to recruit seamen. To Dewey he wrote: keep full of coal, and in the event of war see that the Spanish squadron does not leave the Asiatic coast, then begin offensive operations in the Philippines. Long was appalled when he got back — and did not cancel a single order.",
+   "image": "assets/img/spanamwar/hay.jpg",
+   "imageAlt": "A seated man with a neat white beard in a dark suit, a rolled newspaper across his knee",
+   "credit": "John Hay, ambassador in London in 1898 and Secretary of State from that September. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "On the morning of 3 July 1898 the Spanish squadron bottled up in Santiago harbour came out and ran for it. How did that end?",
+   "options": [
+    "Two Spanish ships escaped west and reached Cienfuegos",
+    "The Spanish broke through and the blockade was abandoned",
+    "Every Spanish ship was sunk or driven ashore within hours",
+    "The squadron surrendered before a shot was fired"
+   ],
+   "answer": 2,
+   "explanation": "Admiral Cervera had said from the first that the sortie was hopeless and went anyway, on orders from Havana, for the honour of the flag. His ships built up steam inside the harbour, and the smoke gave them away. Within a few hours they were burning hulks along the coast. The victory produced one of the ugliest quarrels in American naval history: Admiral Sampson had left to confer with the army, so Commodore Schley was the senior officer present, and the two sides argued over the credit for years, all the way to a court of inquiry.",
+   "image": "assets/img/spanamwar/cristobal-colon.jpg",
+   "imageAlt": "A capsized warship half submerged close inshore below a steep wooded hillside, her propeller clear of the water",
+   "credit": "The wreck of the Spanish cruiser Cristóbal Colón on the Cuban coast, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "Far more American soldiers died of disease in 1898 than in battle. Where did most of that sickness happen?",
+   "options": [
+    "In the mobilisation camps in the United States",
+    "On the transports crossing to Cuba",
+    "In the trenches outside Santiago",
+    "In the garrisons left behind in Puerto Rico"
+   ],
+   "answer": 0,
+   "explanation": "Everyone expected yellow fever in Cuba, and it came. What killed more men was typhoid in the great volunteer camps at home — Camp Thomas at Chickamauga, Camp Alger in Virginia, Jacksonville in Florida — where the army had gathered tens of thousands of men faster than it could dig latrines for them. Almost every regiment brought a few infected men with it; surgeons wrote the first cases down as malaria; and by August the division hospitals had collapsed. Surgeon General Sternberg took the unprecedented step of hiring more than a thousand trained women nurses, which is how female nurses entered the United States Army for good.",
+   "image": "assets/img/spanamwar/civil-hospital.jpg",
+   "imageAlt": "A long single-storey colonnaded hospital building behind trees, with a man sitting alone on a bench and chickens on the grass",
+   "credit": "Entrance to the civil hospital, about 1901 — the record gives it as probably Santiago de Cuba, possibly Havana. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "A presidential commission spent the winter of 1898 examining how the War Department had run the war. Which phrase from those hearings entered the language?",
+   "options": [
+    "A message to Garcia",
+    "Remember the Maine",
+    "Embalmed beef",
+    "A crowded hour"
+   ],
+   "answer": 2,
+   "explanation": "The commanding general of the army, Nelson Miles, told the Dodge Commission that troops in Cuba had been issued tinned beef treated with chemicals. Commissary General Charles Eagan demanded the right to reply and, on 12 January 1899, delivered a performance so intemperate that the inquiry went from the back pages to the front. Secretary of War Russell Alger was gone by summer. The commission's real legacy was the report itself, which Elihu Root turned into the army reforms of 1901 — a general staff, a war college, real professional schooling. A Message to Garcia came out of this war too, but from Elbert Hubbard's essay of 1899 rather than from any hearing room.",
+   "image": "assets/img/spanamwar/transport-tampa.jpg",
+   "imageAlt": "Two soldiers in slouch hats and shirtsleeves on the crowded deck of a transport ship, one seated on a crate with his legs crossed",
+   "credit": "Soldiers of the 71st Regiment on a transport sailing from Tampa to Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "The Treaty of Paris was signed on 10 December 1898. What did it do about Cuba?",
+   "options": [
+    "It made Cuba a self-governing territory of the United States",
+    "It divided the island between American and Cuban administration",
+    "It handed Cuba to the rebel government the same day",
+    "Spain gave up all claim, and Cuba passed to American occupation"
+   ],
+   "answer": 3,
+   "explanation": "Spain relinquished Cuba rather than ceding it, which was the diplomats' way of honouring the Teller Amendment; the island then spent more than three years under an American military government before it became a republic in May 1902. Puerto Rico and Guam were ceded outright, and Spain gave up the Philippines in exchange for twenty million dollars. Cuban commanders who had fought Spain for years were not at the table in Paris, and were not consulted about the terms.",
+   "image": "assets/img/spanamwar/maria-teresa.jpg",
+   "imageAlt": "The blackened hull of a large warship aground beneath a steep green hill, her two funnels still standing",
+   "credit": "The wreck of the Spanish cruiser Infanta María Teresa on the Cuban coast, 1898. Photograph by J. C. Hemment. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Somebody called it “a splendid little war” in the summer of 1898, and the phrase has stuck to it ever since. Who?",
+   "options": [
+    "John Hay, writing privately to Roosevelt",
+    "Hearst, in a New York Journal editorial",
+    "McKinley, in his annual message to Congress",
+    "Roosevelt, in the last chapter of The Rough Riders"
+   ],
+   "answer": 0,
+   "explanation": "Hay was the American ambassador in London that summer and became Secretary of State in September. He meant it as a friend's congratulation in a private letter, not as a verdict on the whole business, and he would probably be startled to find it is the only sentence of his most people know. It is quoted now mostly by writers pointing out how little it fits: a war that ran four months for the United States, three years more in the Philippines, and something over thirty years for the Cubans who started it.",
+   "image": "assets/img/spanamwar/el-poso-battery.jpg",
+   "imageAlt": "American soldiers in slouch hats resting among scrub and pack mules on a hillside track in Cuba",
+   "credit": "American troops and a battery position outside Santiago de Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "id": "muckrakers",
+ "title": "The Muckrakers",
+ "subtitle": "The magazine writers who took the era apart",
+ "intro": "For about a decade, the biggest thing in American publishing was the investigative exposé — a monthly magazine you could buy for a dime, with fifty pages of documented evidence about a company, a city hall or a union. The word for the people who wrote it was coined by a president who meant it as an insult, and they kept it anyway. Fourteen questions on Tarbell, Steffens, Sinclair, Riis, and a magazine issue that started it all.",
+ "heroImage": "assets/img/muckrakers/crusaders.jpg",
+ "heroAlt": "Colour cartoon of journalists drawn as medieval knights on horseback, their shields and banners lettered with magazine titles",
+ "heroCredit": "The Crusaders: Marching Embattled 'Gainst the Saracens of Graft. Puck, February 1906. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Muckrakers",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Muckrakers quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Front of the Book",
+   "line": "Perfect. Every fact checked twice, like Tarbell."
+  },
+  {
+   "min": 12,
+   "name": "Managing Editor",
+   "line": "You would have run the January issue yourself."
+  },
+  {
+   "min": 9,
+   "name": "Staff Writer",
+   "line": "Good copy, filed on time."
+  },
+  {
+   "min": 6,
+   "name": "On Assignment",
+   "line": "You have the story. Go back for the documents."
+  },
+  {
+   "min": 3,
+   "name": "Newsstand Reader",
+   "line": "You saw the cover and got the gist."
+  },
+  {
+   "min": 0,
+   "name": "Waiting for the Reprint",
+   "line": "Start with the January number and work forward."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt tried the muck-rake material out in private nearly a month before he said it in public. Where?",
+   "options": [
+    "At a Gridiron Club dinner in Washington, off the record",
+    "In a signed article he wrote for The Outlook",
+    "In his annual message to Congress that winter",
+    "At a Harvard commencement address in Cambridge"
+   ],
+   "answer": 0,
+   "explanation": "The Gridiron Club dinner of 17 March 1906 was white tie, off the record, and packed with the reporters and editors he was about to describe. Edmund Morris records that he spoke for the better part of an hour over a white twelve-foot model of the Capitol lit from inside, and that the club's confidentiality rule kept the sharpest passage out of the papers — so it turned into rumour instead, and Washington spent weeks guessing whom he had meant. Ray Stannard Baker wrote to say the label would tar the careful reporters along with the reckless ones. Roosevelt's answer was to give the thing again in the open, at the laying of the cornerstone of the House Office Building on 14 April: “People so persistently misunderstand what I said that I want to have it reported in full.”",
+   "image": "assets/img/muckrakers/tr-riis.jpg",
+   "imageAlt": "Three men in dark coats on the steps of a brick building under a round arch, two of them in top hats",
+   "credit": "President Roosevelt with Bishop John Heyl Vincent and Jacob Riis at Chautauqua, New York, 11 August 1905. Photograph published by Underwood & Underwood. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "From the bully pulpit"
+   }
+  },
+  {
+   "prompt": "Which magazine series is usually credited with provoking Roosevelt's muck-rake speech of 1906?",
+   "options": [
+    "The Treason of the Senate, in Cosmopolitan",
+    "The Shame of the Cities, in McClure's",
+    "The History of the Standard Oil Company, in McClure's",
+    "The Great American Fraud, in Collier's"
+   ],
+   "answer": 0,
+   "explanation": "David Graham Phillips wrote it for William Randolph Hearst's Cosmopolitan, and the first instalment appeared early in 1906, naming senators and their corporate connections one after another. William Harbaugh's judgement is that a hard stratum of truth ran under most of it, and that Phillips's exaggerations and character assassination obscured the real argument, which was about a political philosophy rather than personal corruption. Roosevelt knew the men Phillips attacked and had his own low opinion of them. He also detested Hearst, and there is a good case that Hearst was the real target of the speech.",
+   "image": "assets/img/muckrakers/phillips.jpg",
+   "imageAlt": "Studio portrait of a young man in a heavy tweed jacket, resting his head on his hand",
+   "credit": "David Graham Phillips, photographed by G. C. Cox. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "From the bully pulpit"
+   }
+  },
+  {
+   "prompt": "Ida Tarbell had a personal reason for writing about Standard Oil. What was it?",
+   "options": [
+    "Her husband had been a refiner driven out of business",
+    "She had worked as a clerk in the company's Cleveland office",
+    "Her father was an independent producer in the Pennsylvania oil region",
+    "Her brother had lost his savings in a bank the company controlled"
+   ],
+   "answer": 2,
+   "explanation": "Franklin Tarbell made wooden oil tanks and then oil at Titusville, a short ride from the first American oil well. Ida was fourteen when word of the South Improvement scheme broke over the oil country, and she remembered her father coming home grim-faced to say he had signed a pledge with scores of other producers not to sell to Cleveland. None of which made her a wrecker. She devoted a section of the series to what she titled the legitimate greatness of the company: “Something besides illegal advantage has gone into the making of the Standard Oil Trust.”",
+   "image": "assets/img/muckrakers/tarbell.jpg",
+   "imageAlt": "Studio portrait of Ida Tarbell in a dark high-necked dress, facing the camera",
+   "credit": "Ida M. Tarbell, photographed by J. E. Purdy of Boston, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Where did Tarbell get most of her evidence?",
+   "options": [
+    "Her own three years working inside the company",
+    "Interviews granted to her by John D. Rockefeller",
+    "Private letters supplied to her by the Rockefeller family",
+    "Sworn testimony from decades of state and congressional hearings"
+   ],
+   "answer": 3,
+   "explanation": "Earlier critics had written with passion and picked their facts. Tarbell went at the hearing records instead — charters, agreements, railroad contracts, and testimony that she said contained “the experiences in business from 1872 to 1900 of multitudes of individuals,” experiences with “exactly the quality of the personal reminiscences of actors in great events, with the additional value that they were given on the witness stand.” Some of the sworn testimony was Rockefeller's own. The series ran in McClure's from November 1902 and came out as a book in 1904.",
+   "image": "assets/img/muckrakers/tarbell.jpg",
+   "imageAlt": "Studio portrait of Ida Tarbell in a dark high-necked dress, facing the camera",
+   "credit": "Ida M. Tarbell, photographed by J. E. Purdy of Boston, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "One issue of McClure's, in January 1903, is usually called the moment muckraking began. What made it so?",
+   "options": [
+    "It carried the first photographs ever printed of a tenement interior",
+    "It ran three exposés at once — of a corporation, a city hall and a union",
+    "It printed a signed article by President Roosevelt attacking the trusts",
+    "It gave sixty unbroken pages to a single attack on Standard Oil"
+   ],
+   "answer": 1,
+   "explanation": "The issue carried Tarbell's third Standard Oil instalment, Lincoln Steffens on the looting of Minneapolis, and Ray Stannard Baker's account of miners beaten and killed for refusing to join a strike. It sold out in days. S. S. McClure wrote a short editorial pointing out that he had not planned it and that all three pieces told the same story: capitalists, workingmen, politicians and citizens all breaking the law or letting it be broken. That the flagship issue of American muckraking included an exposé of union violence is worth remembering about the movement.",
+   "image": "assets/img/muckrakers/mcclure.jpg",
+   "imageAlt": "Half-length portrait of a moustached man with swept-back hair in a three-piece suit",
+   "credit": "S. S. McClure, founder and editor of McClure's Magazine. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "What was Lincoln Steffens investigating?",
+   "options": [
+    "State prisons and asylums",
+    "The federal civil service",
+    "City government",
+    "Life insurance companies"
+   ],
+   "answer": 2,
+   "explanation": "The series began in October 1902 with Tweed Days in St. Louis, written with a local newspaperman named Claude Wetmore, and went on to Minneapolis, Pittsburgh, Philadelphia, Chicago and New York. Collected in 1904 as The Shame of the Cities, it is still the best-known American book about municipal corruption. Kathleen Brady records that the assignment started as Tarbell's suggestion that he go and write up a city that was being governed well — he went, and found what he found.",
+   "image": "assets/img/muckrakers/steffens.jpg",
+   "imageAlt": "A slender man in a light check suit and a dark hat, seated in profile on a stool in a city square, wearing round wire spectacles",
+   "credit": "Lincoln Steffens in Union Square, New York, April 1914. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "Lincoln Steffens's conclusion about municipal corruption caught his readers off guard. Whom did he mainly blame?",
+   "options": [
+    "The immigrant voters of the tenement wards",
+    "The newspapers, for taking the bosses' advertising",
+    "The state legislatures, for writing weak city charters",
+    "The respectable citizen who let it happen"
+   ],
+   "answer": 3,
+   "explanation": "The bosses and the boodlers are all in his pages, but he insisted on putting the blame in the title: it was the shame of Minneapolis, not the shame of the mayor's office. In his own account of the St. Louis article he complains that reformers who read it took it as a story about somebody else. The argument is a hard one and it is why the book still gets assigned — a corrupt city, on Steffens's reading, is a city getting the government its citizens have consented to.",
+   "image": "assets/img/muckrakers/crusaders.jpg",
+   "imageAlt": "Cartoon knights on horseback carrying shields and banners lettered with the names of magazines and writers",
+   "credit": "The Crusaders: Marching Embattled 'Gainst the Saracens of Graft. Puck, February 1906 — Steffens rides at the right, Baker behind the shield. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "How did The Jungle first reach readers?",
+   "options": [
+    "Serialised in a socialist newspaper",
+    "As a government inspection report leaked to the press",
+    "As a series of articles in McClure's",
+    "As a play staged in Chicago before it was ever printed"
+   ],
+   "answer": 0,
+   "explanation": "It ran through 1905 in Appeal to Reason, a socialist weekly out of Kansas, and appeared as a book from Doubleday, Page in 1906. Upton Sinclair had gone to Chicago and worked undercover among the immigrant labourers of Packingtown to get it. The novel follows a Lithuanian family, Jurgis Rudkus and his kin, being ground down by the industry and the politics around it; the meat is scenery. Sinclair's book and Edith Wharton's The House of Mirth competed for first place on the New York best-seller lists in 1906 — Wharton's had been running in Scribner's through 1905, the same months Sinclair's was running in the Appeal.",
+   "image": "assets/img/muckrakers/jungle-poster.jpg",
+   "imageAlt": "Orange and black publisher's poster showing a lion standing on a horned skull above the title The Jungle",
+   "credit": "Publisher's poster for The Jungle, Doubleday, Page & Co., 1906. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What had Sinclair meant The Jungle to be about?",
+   "options": [
+    "Railroad freight rates",
+    "The lives of immigrant workers",
+    "Municipal corruption in Chicago",
+    "Contaminated food"
+   ],
+   "answer": 1,
+   "explanation": "He wanted readers to care about the men and women in the killing rooms, and what they took away instead was that they did not know what was in their sausage. He put it best himself, years later: “I aimed at the public's heart, and by accident I hit it in the stomach.” Roosevelt did not simply take the novel's word for it — he sent his own inspectors to Chicago first, and used their report rather than Sinclair's fiction to push a meat inspection bill through Congress.",
+   "image": "assets/img/muckrakers/stockyards.jpg",
+   "imageAlt": "Workers among sheep carcasses hanging from overhead rails in a dim packing-house room",
+   "credit": "The sheep department, Armour's packing house, Union Stock Yards, Chicago, copyrighted 1893 by Strohmeyer & Wyman — a decade before the novel. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Jacob Riis did something for How the Other Half Lives that no reformer had done before. What?",
+   "options": [
+    "He drew the tenements from memory and had the drawings engraved",
+    "He lived in a single tenement room for a year and kept a journal",
+    "He bought a block of tenements and rebuilt them at his own cost",
+    "He photographed the tenements at night, using flash powder"
+   ],
+   "answer": 3,
+   "explanation": "Riis was a Danish immigrant working as a police reporter, and the new magnesium flash let him photograph rooms that no lens had ever reached. He was not good at it at first: on one early attempt in a tenement off Blind Man's Alley he set the wall on fire and very nearly panicked. The book appeared in 1890, but half-tone printing was not yet up to it, so the first edition carried line drawings copied from thirty-eight of his photographs — which, as Cashman notes, softened everything they showed.",
+   "image": "assets/img/muckrakers/riis-five-cents.jpg",
+   "imageAlt": "A crowded tenement room at night, men lying in bunks and on the floor beside an iron stove",
+   "credit": "Five cents a spot: unauthorised lodgings in a Bayard Street tenement, New York, photographed by Jacob Riis about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "Rise to power"
+   }
+  },
+  {
+   "prompt": "Riis's book is also a period document in a less comfortable way. What?",
+   "options": [
+    "It was published anonymously, and he put his name to it only years later",
+    "Its text sorts the poor by nationality and assigns each group a character",
+    "He never actually visited most of the buildings he described",
+    "The publisher rewrote his manuscript without telling him"
+   ],
+   "answer": 1,
+   "explanation": "Riis wrote chapter by chapter about the Italian, the Jew, the Bohemian and the Chinese of the tenement districts, and dealt out the ethnic generalisations of his day with complete confidence. He also did more than almost anyone alive to make comfortable Americans look at how the poor lived, and the reforms that followed were real. Both of those things are true of the same book, which is roughly the condition of the whole era. Roosevelt read it as a young man and, as police commissioner, closed the police lodging houses Riis had described as breeders of vice and crime.",
+   "image": "assets/img/muckrakers/riis.jpg",
+   "imageAlt": "Seated studio portrait of Jacob Riis in a light suit, chin resting on his fist, wearing spectacles",
+   "credit": "Jacob Riis, photographed about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "What made magazines like McClure's, Everybody's and Cosmopolitan a mass medium?",
+   "options": [
+    "Free delivery to every rural post office",
+    "They were the first to print photographs",
+    "They sold for ten cents",
+    "They were sold only by subscription, a year in advance"
+   ],
+   "answer": 2,
+   "explanation": "The new ten-cent magazines — McClure's, Everybody's, Cosmopolitan — ran on advertising rather than on the cover price, and went out to hundreds of thousands of households rather than to a particular sort of parlour. It was that circulation, not the writing, that made an exposé something a senator had to answer. It also set the trap. When advertisers and owners turned cool and readers tired of exposure — Doris Kearns Goodwin dates the fatigue to before Roosevelt's speech of April 1906 — the whole business faded within a few years.",
+   "image": "assets/img/muckrakers/mcclures-cover.jpg",
+   "imageAlt": "The printed cover of a magazine listing articles by Ray Stannard Baker and Lincoln Steffens",
+   "credit": "Cover of McClure's Magazine, November 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "Ray Stannard Baker wrote the third piece in the famous January 1903 issue. What was it about?",
+   "options": [
+    "The breaker boys of the Pennsylvania anthracite fields",
+    "Miners who refused to join the strike",
+    "The life insurance companies of Hartford",
+    "The Chicago meat packers"
+   ],
+   "answer": 1,
+   "explanation": "Baker had gone into the anthracite country during the 1902 coal strike and come back with the story of men harassed, beaten and in some cases killed for continuing to work. He supported trade unions and said so, and insisted that the magazine print an editor's note saying so before his article. Roosevelt, who backed the miners' union through the strike, read the piece and wrote to Baker approving it: a union man who committed violence should answer for it like anybody else.",
+   "image": "assets/img/coalstrike/miners-wives-dump.jpg",
+   "imageAlt": "Two women in headscarves searching a slope of waste rock for pieces of coal",
+   "credit": "Miners' wives searching for coal on a waste dump during the anthracite coal strike, Hazleton, Pennsylvania, 1902. One half of a stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Which subject did Samuel Hopkins Adams take on for Collier's in 1905?",
+   "options": [
+    "The insurance industry",
+    "The Standard Oil pipelines",
+    "Patent medicines",
+    "The United States Senate"
+   ],
+   "answer": 2,
+   "explanation": "The series was called The Great American Fraud and it went through the bottled remedies one by one — what was actually in them, what the advertising claimed, and how much of the newspaper trade depended on carrying the advertisements. The manufacturers were among the largest advertisers in America, which made the choice of target an expensive one for the magazine. Adams's work and Sinclair's ran into the same legislative session, and the Pure Food and Drug Act was signed on 30 June 1906.",
+   "image": "assets/img/muckrakers/patent-medicine.jpg",
+   "imageAlt": "An ornate colour label reading The Great American Stomach Regulator around the words Dew-Drop Bitters",
+   "credit": "A patent-medicine label of the late 1860s. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "id": "other-roosevelts",
+ "title": "The Other Roosevelts",
+ "subtitle": "Two branches, one surname, and the relationship everybody gets wrong",
+ "intro": "Eleanor Roosevelt was Theodore's niece. Franklin Roosevelt was his fifth cousin. They married each other, Theodore gave the bride away, and within twenty years the two halves of the family were campaigning against each other in earnest. Fourteen questions on Oyster Bay and Hyde Park — who was related to whom, and how the split happened.",
+ "heroImage": "assets/img/other-roosevelts/roosevelt-children-tintype.jpg",
+ "heroAlt": "A tintype of four young people outdoors by a picket fence, two young women in white seated on the grass and two young men standing behind",
+ "heroCredit": "Theodore Roosevelt, Corinne Roosevelt, Edith Carow and Elliott Roosevelt at Oyster Bay, 1875 — a tintype. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Other Roosevelts",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the Roosevelt family — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Keeper of the Tree",
+   "line": "Perfect. Every branch in its right place."
+  },
+  {
+   "min": 12,
+   "name": "Family Historian",
+   "line": "You could settle an argument at Thanksgiving."
+  },
+  {
+   "min": 9,
+   "name": "Cousin, Once Removed",
+   "line": "You know who is who, and mostly why."
+  },
+  {
+   "min": 6,
+   "name": "At the Wedding",
+   "line": "You recognise the faces. Now for the names."
+  },
+  {
+   "min": 3,
+   "name": "New to the Family",
+   "line": "There are a lot of them. Try again."
+  },
+  {
+   "min": 0,
+   "name": "Reading the Place Cards",
+   "line": "Start with the branches and the rest follows."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which of these statements about the Roosevelt family is correct?",
+   "options": [
+    "Eleanor was Theodore's niece; Franklin was his fifth cousin",
+    "Franklin was Theodore's nephew; Eleanor was his fifth cousin",
+    "Franklin was Theodore's son-in-law and Eleanor was his niece",
+    "Eleanor and Franklin were both grandchildren of Theodore"
+   ],
+   "answer": 0,
+   "explanation": "This is the single most muddled fact about the family, so it is worth being exact. Eleanor was the daughter of Elliott Roosevelt, Theodore's younger brother — a niece, close kin, in and out of his houses all her life. Franklin came from the other branch of the family altogether and was a fifth cousin, a much thinner blood tie than most people assume. He became Theodore's nephew only by marrying Eleanor, and he never once claimed otherwise.",
+   "image": "assets/img/other-roosevelts/roosevelt-family-portrait.jpg",
+   "imageAlt": "A studio group portrait of a bespectacled man and a seated woman with five children of different ages, the youngest a baby in white",
+   "credit": "Theodore and Edith Roosevelt with their children, photographed by C. M. Gilbert in Washington. Theodore Roosevelt Collection, Houghton Library, Harvard University. Cropped from the card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Franklin Roosevelt took the stand as a witness for Theodore in a libel trial in 1915. How did he describe the relationship?",
+   "options": [
+    "As Theodore's nephew, and left it at that",
+    "As a cousin on Theodore's mother's side",
+    "As no relation, so as to avoid a charge of bias",
+    "As a fifth cousin by blood and a nephew by law"
+   ],
+   "answer": 3,
+   "explanation": "Roosevelt had called the New York Republican boss William Barnes corrupt, Barnes sued, and the case was tried at Syracuse in the spring of 1915. Franklin — then Assistant Secretary of the Navy — came up to testify about the state senate deadlock of 1911, and introduced himself to the court in almost exactly those words. He liked the formula and used it again. It is the tidiest one-line summary of the family anybody ever produced, and it came from the man himself, under oath.",
+   "image": "assets/img/other-roosevelts/roosevelt-family-portrait.jpg",
+   "imageAlt": "Studio portrait of the Roosevelt family, parents and five children grouped closely together",
+   "credit": "Theodore and Edith Roosevelt with their children, photographed by C. M. Gilbert. Theodore Roosevelt Collection, Houghton Library, Harvard University. Cropped from the card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "The American Roosevelts divide into two branches descended from two brothers born at the end of the seventeenth century. What are the branches usually called?",
+   "options": [
+    "Manhattan and Albany",
+    "Sagamore and Springwood",
+    "Oyster Bay and Hyde Park",
+    "Long Island and New Jersey"
+   ],
+   "answer": 2,
+   "explanation": "Two brothers, Johannes, born in 1689, and Jacobus, born in 1692, both sons of Nicholas Roosevelt of New York. Johannes's descendants ended up at Oyster Bay on the north shore of Long Island, and produced Theodore. Jacobus's went up the Hudson to Hyde Park, and produced Franklin. Less than a hundred miles apart, and by the 1920s they were in different parties and barely speaking. Sagamore Hill and Springwood are the two houses, not the two branches — a distinction the families themselves would have insisted on.",
+   "image": "assets/img/other-roosevelts/roosevelt-sons-tintype.jpg",
+   "imageAlt": "A tintype of three young men in a garden, two seated and one standing between them beside a picket fence",
+   "credit": "Theodore and Elliott Roosevelt, seated, with a cousin standing, at Oyster Bay about 1877 — a tintype. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt gave the bride away when Eleanor married Franklin on 17 March 1905. What made that his place to take?",
+   "options": [
+    "He was standing in for her father, his younger brother",
+    "The bride's family asked the president as a matter of form",
+    "He was the groom's guardian and closest surviving relative",
+    "The rector had refused to proceed without a public figure"
+   ],
+   "answer": 0,
+   "explanation": "Eleanor's father Elliott had died in 1894, and Theodore stepped into his brother's place. It was St Patrick's Day and the president was in New York to lead the parade up Fifth Avenue, which is partly why the couple chose the date. When Endicott Peabody asked who giveth this woman in marriage, Theodore shouted back, “I do!” He then slapped the groom on the back — “Well, Franklin, there's nothing like keeping the name in the family” — and disappeared into the refreshments, where he held forth for an hour and a half while the wedding party stood about. Alice's verdict on her father was that he “always wanted to be the bride at every wedding, the corpse at every funeral, and the baby at every christening.”",
+   "image": "assets/img/other-roosevelts/alice-portrait.jpg",
+   "imageAlt": "Oval studio portrait of a young woman in a pale ruffled evening dress with flowers in her upswept hair",
+   "credit": "Alice Roosevelt, photographed by Frances Benjamin Johnston in 1902. Library of Congress, Prints and Photographs Division. Cropped to the oval print.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Where were Franklin and Eleanor Roosevelt actually married?",
+   "options": [
+    "In the East Room of the White House",
+    "At St Patrick's Cathedral on Fifth Avenue",
+    "In the parlour of Sagamore Hill at Oyster Bay",
+    "In two adjoining private houses on East Seventy-sixth Street"
+   ],
+   "answer": 3,
+   "explanation": "The houses belonged to Eleanor's cousin Susie Parish and her aunt, and the doors between them were thrown open to make one long room. Edith Roosevelt had offered the White House — she wrote to Eleanor that she wanted “to do for you as we should for Alice” — and Eleanor said no, preferring somewhere less grand. St Patrick's Cathedral is the answer people reach for, because of the date; the ceremony was never in a church at all.",
+   "image": "assets/img/other-roosevelts/alice-longworth.jpg",
+   "imageAlt": "A young woman in a white coat and feathered hat seated in a wicker chair on a terrace with a parasol behind her",
+   "credit": "Alice Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "How were Alice Roosevelt Longworth and Eleanor Roosevelt related to each other?",
+   "options": [
+    "First cousins",
+    "Sisters",
+    "Aunt and niece",
+    "Not related by blood at all"
+   ],
+   "answer": 0,
+   "explanation": "Alice was Theodore's daughter; Eleanor was Theodore's niece; so the two of them were first cousins. They were born eight months apart in 1884 — Alice in February, Eleanor in October — and both grew up without their mothers. Alice's died two days after she was born; Eleanor's died when she was eight. They were temperamentally opposite, they were rivals for most of their adult lives, and each was the other's most reliable audience.",
+   "image": "assets/img/other-roosevelts/alice-portrait.jpg",
+   "imageAlt": "Half-length oval portrait of a young woman in a pale ruffled gown, facing the camera",
+   "credit": "Alice Roosevelt, photographed by Frances Benjamin Johnston in 1902. Library of Congress, Prints and Photographs Division. Cropped to the oval print.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Eleanor Roosevelt was orphaned before she was ten. Into whose household did she go?",
+   "options": [
+    "Theodore and Edith Roosevelt, at Sagamore Hill",
+    "Her grandmother, Mary Hall",
+    "Sara Delano Roosevelt, at Hyde Park",
+    "The family of her mother's second husband"
+   ],
+   "answer": 1,
+   "explanation": "Her mother Anna died in 1892 and her father Elliott in August 1894, when Eleanor was nine. She went to her grandmother's household — a house on the Hudson at Tivoli and a townhouse in New York — where her Hall uncles were a difficulty of their own. Theodore was her godfather and her Oyster Bay aunts stayed in touch; Bamie in particular thought about going to court over her. At fifteen Eleanor was sent to school in England, and came back a different person.",
+   "image": "assets/img/other-roosevelts/elliott-and-theodore.jpg",
+   "imageAlt": "Two bearded young men in shooting clothes posed with rifles against a painted studio landscape, one with a pipe in his mouth",
+   "credit": "Elliott and Theodore Roosevelt in hunting outfits, photographed by H. Rocher in Chicago, summer 1880. Theodore Roosevelt Collection, Houghton Library, Harvard University. Cropped from the cabinet-card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Eleanor's father Elliott was Theodore's younger brother. What had he been to Theodore in childhood?",
+   "options": [
+    "A rival who barely spoke to him",
+    "A half-brother from their father's first marriage",
+    "His closest companion and the stronger of the two boys",
+    "A cousin who only joined the household in his teens"
+   ],
+   "answer": 2,
+   "explanation": "Elliott was the athletic one while Theodore was the asthmatic one, and for years he was the brother everybody expected things from. In his early twenties he hunted tigers in India and elephants in Ceylon and came home with a rug for the parlour floor; his daughter Eleanor later gathered his letters from that journey into a book. Drink and illness took him apart through his thirties, and he died in New York in August 1894, aged thirty-four. Theodore, who had lost his mother and his first wife on the same day ten years before, wept at the coffin and then did what had to be done for the family, as he always did.",
+   "image": "assets/img/other-roosevelts/elliott-and-theodore.jpg",
+   "imageAlt": "Two young men in hunting clothes with rifles, posed in a photographer's studio against a painted backdrop",
+   "credit": "Elliott and Theodore Roosevelt in hunting outfits, Chicago, summer 1880. Theodore Roosevelt Collection, Houghton Library, Harvard University. Cropped from the cabinet-card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The early years"
+   }
+  },
+  {
+   "prompt": "Franklin Roosevelt took a job in 1913 that Theodore had held sixteen years earlier. Which one?",
+   "options": [
+    "Police Commissioner of New York City",
+    "Governor of New York",
+    "Civil Service Commissioner",
+    "Assistant Secretary of the Navy"
+   ],
+   "answer": 3,
+   "explanation": "He got it in a corridor. On the morning of Wilson's inauguration he ran into Josephus Daniels, the North Carolina editor about to become Secretary of the Navy, congratulated him, and was asked on the spot whether he would like to come to Washington as assistant secretary. He said he would like it bully well. At thirty-one he was the youngest man ever to hold the post, seven years younger than Theodore had been at the same desk — and it was another rung of a ladder he was quite openly climbing behind his cousin.",
+   "image": "assets/img/other-roosevelts/roosevelt-sons-tintype.jpg",
+   "imageAlt": "Tintype of three young men outdoors, two seated in chairs and one standing between them",
+   "credit": "Theodore and Elliott Roosevelt with a cousin at Oyster Bay, about 1877. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "What did the Oyster Bay cousins call Franklin behind his back?",
+   "options": [
+    "Feather Duster",
+    "The Deacon",
+    "Little Ted",
+    "Poor Cousin Frank"
+   ],
+   "answer": 0,
+   "explanation": "From his initials, F. D., and from what they thought of him: a lightweight, decorative, no good at games, with friends they did not admire. Alice was firm all her life that nobody on her side of the family had ever taken him seriously in those years, and Edith later described him as nine-tenths mush and one-tenth Eleanor. It is one of the great misjudgements in American political history, and they had thirty more years to sit with it.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "A painted portrait of a woman in a plumed hat seated on a stone bench in a garden",
+   "credit": "Edith Kermit Roosevelt, painted by Théobald Chartran. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "In 1920 the Democrats nominated Franklin Roosevelt for vice president. What did the Oyster Bay Roosevelts do about it?",
+   "options": [
+    "Kept out of the campaign for the sake of the family",
+    "Endorsed him quietly while campaigning for the Republicans",
+    "Sent Theodore Roosevelt Jr. to follow him around the country",
+    "Issued a joint public letter denying any relationship"
+   ],
+   "answer": 2,
+   "explanation": "The Republican managers were afraid that voters out west would take the Democratic Roosevelt for the Colonel's son, and the Democrats did nothing to clear it up. So Ted Jr. abandoned his own re-election campaign for the New York assembly — leaving his wife to run it — and shadowed Franklin from stop to stop. At Sheridan, Wyoming, in front of a crowd of his father's old Rough Riders, he said of Franklin: “He does not have the brand of our family.” It may be the first time a national campaign was run almost entirely against a vice-presidential nominee.",
+   "image": "assets/img/other-roosevelts/roosevelt-family-portrait.jpg",
+   "imageAlt": "The Roosevelt family in a studio group, the eldest boy standing at his father's shoulder",
+   "credit": "Theodore and Edith Roosevelt with their children, photographed by C. M. Gilbert. Theodore Roosevelt Collection, Houghton Library, Harvard University. Cropped from the card mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt Jr. ran for governor of New York in 1924. What did Eleanor Roosevelt send after him?",
+   "options": [
+    "A weekly open letter printed in the New York papers",
+    "A car fitted with a giant teapot that gave off steam",
+    "A troupe of former Rough Riders speaking against him",
+    "A pamphlet posted to every registered voter in the state"
+   ],
+   "answer": 1,
+   "explanation": "The Teapot Dome scandal took its name from a naval oil reserve in Wyoming, and Ted Jr. had been Assistant Secretary of the Navy while the reserves were being transferred. Nothing was ever shown against him. Eleanor built her singing teapot on an ordinary Buick touring car anyway, rigged so it gave off steam, and worked it round the state behind his campaign train. Al Smith won, and Ted Jr.'s career in elective politics never recovered. Eleanor called it a rough stunt afterwards and said she was sorry she had done it.",
+   "image": "assets/img/other-roosevelts/alice-longworth.jpg",
+   "imageAlt": "A young woman in a pale coat and hat seated in a wicker chair outdoors on a terrace",
+   "credit": "Alice Roosevelt Longworth, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Edith Roosevelt kept out of politics for most of her long widowhood. What brought her onto the platform at Madison Square Garden on Halloween night, 1932?",
+   "options": [
+    "She introduced Herbert Hoover at a Republican rally",
+    "She was accepting an award for her late husband",
+    "She was opening a memorial exhibition of his papers",
+    "She was speaking for a wartime relief fund appeal"
+   ],
+   "answer": 0,
+   "explanation": "She had spent the autumn being congratulated by strangers on her distinguished son the Democratic nominee, which was not a thing she found funny. “These are trying times for us,” she told a friend, “and the confusion of names does not help.” She then set the record straight in one line: “His line parted six generations ago from my husband’s.” Alice made her first national radio broadcast five days before the vote. Franklin carried forty-two states.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Painted portrait of a seated woman in a plumed hat in a garden setting",
+   "credit": "Edith Kermit Roosevelt, painted by Théobald Chartran during her husband's presidency. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt Jr. governed two American overseas possessions between 1929 and 1933. Which?",
+   "options": [
+    "Hawaii, and then Alaska",
+    "Guam, and then American Samoa",
+    "Puerto Rico, and then the Philippines",
+    "The Panama Canal Zone, and then Cuba"
+   ],
+   "answer": 2,
+   "explanation": "Hoover appointed him governor of Puerto Rico in May 1929, and he took office that October, in the worst years of the Depression. He spent his evenings learning Spanish so he could get out of San Juan and talk to people, with mixed results — his biographer records the night he meant to introduce a visiting American general as a bachelor and used the word for tapeworm. In 1932 Hoover moved him to Manila as governor-general. When Franklin took office in March 1933 Ted sent in his resignation, and Franklin accepted it at once.",
+   "image": "assets/img/world-power/tr-puerto-rico-arecibo.jpg",
+   "imageAlt": "A man in a white linen suit standing bare-headed in the open air, blurred figures behind him",
+   "credit": "President Theodore Roosevelt in Puerto Rico, November 1906 — twenty-three years before his eldest son went out as governor. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  }
+ ]
+}

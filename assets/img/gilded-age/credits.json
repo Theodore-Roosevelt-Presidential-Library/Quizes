@@ -1,0 +1,119 @@
+{
+ "bosses-of-the-senate": {
+  "source": "loc",
+  "ref": "2002718861",
+  "source_file": "loc_pictures_2002718861",
+  "description": "The Bosses of the Senate",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1104"
+ },
+ "rockefeller": {
+  "source": "loc",
+  "ref": "99471533",
+  "source_file": "loc_pictures_99471533",
+  "description": "[John D. Rockefeller, three-quarter length portrait, seated, facing front]",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1706"
+ },
+ "carnegie": {
+  "source": "loc",
+  "ref": "98507118",
+  "source_file": "loc_pictures_98507118",
+  "description": "[Andrew Carnegie, half-length portrait, facing slightly left]",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1748"
+ },
+ "twain": {
+  "source": "loc",
+  "ref": "97501813",
+  "source_file": "loc_pictures_97501813",
+  "description": "[Mark Twain, full-length portrait, facing left, seated on step, outdoors, holding cigar]",
+  "rights": "No known restrictions on publication; no copyright renewal.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1113"
+ },
+ "morgan": {
+  "source": "loc",
+  "ref": "92517707",
+  "source_file": "loc_pictures_92517707",
+  "description": "[John Pierpont Morgan, half-length portrait, facing front]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1022x1536"
+ },
+ "coxey-army": {
+  "source": "loc",
+  "ref": "96503307",
+  "source_file": "loc_pictures_96503307",
+  "description": "Coxey's Army on the canal--Second barge belongs to the Consolidation Coal Company",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x821"
+ },
+ "homestead-fort-frick": {
+  "source": "loc",
+  "ref": "2002706403",
+  "source_file": "loc_pictures_2002706403",
+  "description": "On guard duty around \"Fort Frick\" (Carnegie Mills), Homestead, Pa.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x723"
+ },
+ "ellis-island-landing": {
+  "source": "loc",
+  "ref": "97501086",
+  "source_file": "loc_pictures_97501086",
+  "description": "Landing at Ellis Island",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1280x1024"
+ },
+ "immigrants-arrived": {
+  "source": "loc",
+  "ref": "97501095",
+  "source_file": "loc_pictures_97501095",
+  "description": "Immigrants just arrived from foreign countries - Immigrant Building, Ellis Island, New York Harbor",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x725"
+ },
+ "columbian-expo": {
+  "source": "loc",
+  "ref": "2021636192",
+  "source_file": "loc_pictures_2021636192",
+  "description": "World's Columbian Exposition 1893",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1114"
+ },
+ "five-cents-a-spot": {
+  "source": "loc",
+  "ref": "2002710259",
+  "source_file": "loc_pictures_2002710259",
+  "description": "Five cents a spot - unauthorized immigration lodgings in a Bayard Street tenement [New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ },
+ "sweatshop-ludlow": {
+  "source": "loc",
+  "ref": "2002710271",
+  "source_file": "loc_pictures_2002710271",
+  "description": "Sweatshop in Ludlow Street Tenement, New York",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1109"
+ },
+ "vanderbilt-mansion": {
+  "source": "loc",
+  "ref": "2004679664",
+  "source_file": "loc_pictures_2004679664",
+  "description": "Vanderbilt Mansion on 5th Ave., New York City",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x725"
+ }
+}

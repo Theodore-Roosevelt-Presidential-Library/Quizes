@@ -1,0 +1,128 @@
+{
+ "wells-portrait": {
+  "source": "loc",
+  "ref": "93505758",
+  "source_file": "loc_pictures_93505758",
+  "description": "[Ida B. Wells, head-and-shoulders portrait, facing slightly right]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1743"
+ },
+ "willard-portrait": {
+  "source": "loc",
+  "ref": "97510769",
+  "source_file": "loc_pictures_97510769",
+  "description": "[Frances Willard, half-length portrait, seated, facing left]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1334x1852"
+ },
+ "catt-portrait": {
+  "source": "loc",
+  "ref": "97500090",
+  "source_file": "loc_pictures_97500090",
+  "description": "[Carrie Chapman Catt, head-and-shoulders portrait, facing front]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1028x1280"
+ },
+ "nellie-bly": {
+  "source": "loc",
+  "ref": "2004671937",
+  "source_file": "loc_pictures_2004671937",
+  "description": "Nellie Bly",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2290"
+ },
+ "suffrage-parade-1913": {
+  "source": "loc",
+  "ref": "2002736824",
+  "source_file": "loc_pictures_2002736824",
+  "description": "Woman's suffrage parade, Wash., D.C. Mar., 1913",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x970"
+ },
+ "picket-ladies-tailors": {
+  "source": "loc",
+  "ref": "2002709190",
+  "source_file": "loc_pictures_2002709190",
+  "description": "Strikes, ladies tailors, N.Y., Feb. 1910, picket girls on duty",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x938"
+ },
+ "paul-lewis-conference": {
+  "source": "loc",
+  "ref": "95502384",
+  "source_file": "loc_pictures_95502384",
+  "description": "[Alice Paul and Mrs. Lawrence Lewis holding a conference, Pauline Floyd, sec., at 14 Jackson Place]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1123"
+ },
+ "addams": {
+  "source": "loc",
+  "ref": "2014691661",
+  "source_file": "loc_pictures_2014691661",
+  "description": "Jane Addams",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1949"
+ },
+ "women-vote-1920": {
+  "source": "loc",
+  "ref": "2002706398",
+  "source_file": "loc_pictures_2002706398",
+  "description": "27,000,000 women have right to vote",
+  "rights": "No known restrictions on publication. For information see \"Underwood & Underwood\" https://hdl.loc.gov/loc.pnp/res.468.unde",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1165"
+ },
+ "picket-line-college-day": {
+  "source": "loc",
+  "ref": "97500299",
+  "source_file": "loc_pictures_97500299",
+  "description": "The first picket line - College day in the picket line",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1121"
+ },
+ "picket-all-weather": {
+  "source": "loc",
+  "ref": "2002723433",
+  "source_file": "loc_pictures_2002723433",
+  "description": "[Picketing in all sorts of weather. N.Y. Day Picket]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1157"
+ },
+ "milholland-parade": {
+  "source": "loc",
+  "ref": "2014691461",
+  "source_file": "loc_pictures_2014691461",
+  "description": "Suffrage parade, Inez Milholland",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1025"
+ },
+ "triangle-crowds": {
+  "source": "loc",
+  "ref": "96513968",
+  "source_file": "loc_pictures_96513968",
+  "description": "Triangle Waist Co. fire, N.Y.C.--Crowds at sence [i.e. scene] of Washington St. fire, N.Y.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x946"
+ },
+ "tarbell": {
+  "source": "loc",
+  "ref": "97509168",
+  "source_file": "loc_pictures_97509168",
+  "description": "Ida M. Tarbell, No. 1",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1735"
+ }
+}

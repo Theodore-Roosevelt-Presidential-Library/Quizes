@@ -1,0 +1,62 @@
+{
+ "hay": {
+  "source": "dam",
+  "ref": "cd12ba32-b323-4213-908f-05c2a6136585",
+  "source_file": "har_1255283_John_Hay_Secretary_of_State.jpg",
+  "description": "John Hay, Secretary of State \u2014 John Hay. \u2014 Date: ca. 1902",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1855",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ },
+ "root": {
+  "source": "dam",
+  "ref": "b06650a9-ec3d-4b31-b3ce-af6af31df28d",
+  "source_file": "har_1255285_Elihu_Root_Secretary_of_War.jpg",
+  "description": "Elihu Root, Secretary of War \u2014 Elihu Root. Copyright 1902. \u2014 Date: 1902",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1827",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ },
+ "mckinley": {
+  "source": "dam",
+  "ref": "0a30faee-29b4-4ea6-80a4-2436f7637087",
+  "source_file": "har_1255281_William_McKinley.jpg",
+  "description": "William McKinley \u2014 Copyright 1901. \u2014 Date: 1901",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1855",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ },
+ "tr-puerto-rico-arecibo": {
+  "source": "dam",
+  "ref": "33dc8f73-cb37-4971-ad9c-1d4a59ef7dad",
+  "source_file": "loc_2013647434_Pres_Roosevelt_at_R_R_Station_Arecibo_Pu.tif",
+  "description": "[Pres. Roosevelt at R. R. Station, Arecibo, Puerto Rico] \u2014 1 photographic print. \u2014 Date: 1906",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1727",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ },
+ "el-caney-refugees": {
+  "source": "dam",
+  "ref": "325ea83c-8670-471c-81dd-5dfc1e5c3699",
+  "source_file": "har_1386164_Cuba_l_bre_refugees_at_El_Caney.jpg",
+  "description": "Cuba l\u00edbre, refugees at El Caney \u2014 Cuban refugees, El Caney (Cuba). \u2014 Date: 1898",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1034",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ },
+ "tr-cabinet-message": {
+  "source": "dam",
+  "ref": "8f8acc9e-1221-47de-b66c-98585e39c475",
+  "source_file": "loc_89706548_The_President_reading_his_message_to_the.tif",
+  "description": "The President reading his message to the cabinet before sending it to Congress \u2014 1 photographic print. | Group with, left to right: George B. Cortelyou, Philander C. Knox, Henry C. Payne, William Henry Moody, John Hay, president Theodore Roosevelt, Ethan Allen Hitchcock, Elihu Roo \u2014 Date: 1903",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1110",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ }
+}

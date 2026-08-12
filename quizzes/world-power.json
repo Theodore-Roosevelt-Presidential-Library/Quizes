@@ -1,0 +1,327 @@
+{
+ "id": "world-power",
+ "title": "A World Power",
+ "subtitle": "What the United States acquired in 1898, and the argument about what to do with it",
+ "intro": "In the space of eighteen months the United States acquired Hawaii, Puerto Rico, Guam and the Philippines, and Americans began arguing about whether a republic could hold colonies without ceasing to be one. Serious people took both sides, and the argument was closer than the outcome makes it look. Fifteen questions on the empire debate, the Open Door, the Platt Amendment and the Roosevelt Corollary.",
+ "heroImage": "assets/img/world-power/tr-cabinet-message.jpg",
+ "heroAlt": "Eleven men in dark suits standing and sitting around a cabinet room, one of them reading aloud from a paper",
+ "heroCredit": "The president reading his message to the cabinet before sending it to Congress, 1903. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "A World Power",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on America and the world after 1898 — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Secretary of State",
+   "line": "Perfect. You could have drafted the notes yourself."
+  },
+  {
+   "min": 13,
+   "name": "Senate Floor Leader",
+   "line": "You had the votes and the arguments."
+  },
+  {
+   "min": 10,
+   "name": "Committee Member",
+   "line": "You have read the record properly."
+  },
+  {
+   "min": 7,
+   "name": "Delegate",
+   "line": "Well briefed, and asking the right questions."
+  },
+  {
+   "min": 4,
+   "name": "In the Gallery",
+   "line": "You caught the shape of the debate."
+  },
+  {
+   "min": 0,
+   "name": "Outside the Chamber",
+   "line": "This one rewards a second run. Come back in."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The United States took Puerto Rico, Guam and the Philippines from Spain in 1898. It also acquired Hawaii that year. How?",
+   "options": [
+    "Spain ceded the islands under the same treaty",
+    "By joint resolution of Congress, during the war",
+    "By purchase from a British syndicate in Honolulu",
+    "Under a treaty ratified by the Senate that summer"
+   ],
+   "answer": 1,
+   "explanation": "Hawaii had nothing to do with Spain. An annexation treaty could not get the two-thirds it needed in the Senate, so Congress did it by joint resolution instead, which needs only a simple majority in each house. It passed in July 1898, while the army was still outside Santiago. Wake Island was occupied in January 1899 and eastern Samoa followed. Within two years a navy that had spent a decade arguing for coaling stations had them from the Caribbean to the western Pacific.",
+   "image": "assets/img/spanamwar/vizcaya.jpg",
+   "imageAlt": "A wrecked armoured cruiser aground off a wooded shore, her hull burnt out and her guns askew",
+   "credit": "The wreck of a Spanish cruiser on the Cuban coast, 1898. Photograph by J. C. Hemment. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The Senate voted on the Treaty of Paris on 6 February 1899. How close was it?",
+   "options": [
+    "By one vote more than the two-thirds required",
+    "It carried unanimously after a short formal debate",
+    "It failed on the first attempt and had to be sent back",
+    "It carried comfortably, by better than two votes to one"
+   ],
+   "answer": 0,
+   "explanation": "Fifty-seven to twenty-seven, with fifty-six needed. The oddest part is who saved it. William Jennings Bryan, the Democratic leader and a convinced anti-imperialist, came to Washington and urged Democratic senators to vote for the treaty — his argument being that the islands should be taken out of Spanish hands first and freed afterwards. His own allies never forgave him. Andrew Carnegie wrote that one word from Bryan would have saved the country from disaster.",
+   "image": "assets/img/world-power/mckinley.jpg",
+   "imageAlt": "Studio portrait of a clean-shaven man with heavy brows in a dark coat and wing collar",
+   "credit": "President William McKinley, photographed in 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The Anti-Imperialist League, founded in Boston in November 1898, drew in people who agreed on almost nothing else. Which of these served as one of its vice presidents?",
+   "options": [
+    "Alfred Thayer Mahan",
+    "Andrew Carnegie",
+    "Henry Cabot Lodge",
+    "Albert Beveridge"
+   ],
+   "answer": 1,
+   "explanation": "The league's first president was George Boutwell, a founder of the Republican party and Grant's Treasury secretary. Among the eighteen vice presidents were Carnegie, the former president Grover Cleveland, the German-born reformer Carl Schurz and the labour leader Samuel Gompers. Carnegie backed it with a cheque for ten thousand dollars and then offered McKinley twenty million of his own money to buy the Philippines and set them free: “I would gladly pay twenty millions today to restore our Republic to its first principles.” Jane Addams and Clarence Darrow were among the officers of the Chicago branch.",
+   "image": "assets/img/gilded-age/carnegie.jpg",
+   "imageAlt": "Half-length studio portrait of a short, white-bearded man in a dark coat",
+   "credit": "Andrew Carnegie, photographed about 1896. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In 1901 Mark Twain proposed a special flag for the Philippines. What did he want on it?",
+   "options": [
+    "A field of black with a single white star in the corner",
+    "The Spanish colours with an American eagle added",
+    "The Stars and Stripes with the stripes black and a skull",
+    "A plain white flag, to be flown above the Stars and Stripes"
+   ],
+   "answer": 2,
+   "explanation": "Twain's essay “To the Person Sitting in Darkness” ran in the North American Review in February 1901 and it is the most savage thing in the whole quarrel. The flag was his closing joke: keep the usual one, but with “the white stripes painted black and the stars replaced by the skull and cross-bones.” He and Roosevelt were courteous in public and could not stand each other in private. Twain thought Roosevelt was clearly insane; Roosevelt said he would like to skin Mark Twain alive.",
+   "image": "assets/img/gilded-age/twain.jpg",
+   "imageAlt": "An elderly man with untidy white hair sitting on a step outdoors, an open book on his lap and a cigar in his mouth",
+   "credit": "Mark Twain, photographed about 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Albert Beveridge won an Indiana Senate seat in 1899 on the strength of one speech, printed and posted out by the hundreds of thousands. What was it called?",
+   "options": [
+    "The Strenuous Life",
+    "The March of the Flag",
+    "The Cross of Gold",
+    "The Winning of the West"
+   ],
+   "answer": 1,
+   "explanation": "Beveridge gave it in Indianapolis in September 1898, and three hundred thousand copies went out across the country. The expansionist case had three legs and he used all of them: American factories and farms were outproducing the home market and needed Asia; a modern navy could not operate without bases, which was Alfred Thayer Mahan's argument and had been for a decade; and its advocates sincerely believed they were undertaking a duty toward people they thought unready to govern themselves. Beveridge then went to the Philippines himself to see what he had been talking about.",
+   "image": "assets/img/world-power/root.jpg",
+   "imageAlt": "Studio portrait of a moustached man in a dark three-piece suit against a dark ground",
+   "credit": "Elihu Root, Secretary of War from 1899, photographed in 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "McKinley later told a visiting group of Methodist churchmen how he had decided to keep all of the Philippines. What did he say had happened?",
+   "options": [
+    "The cabinet had voted on it and he had accepted the result",
+    "Dewey had cabled him that the islands could not be defended",
+    "He had prayed for guidance and the answer came to him at night",
+    "He had put the question to a poll of newspaper editors"
+   ],
+   "answer": 2,
+   "explanation": "By the account one of the visitors gave after McKinley's death, the president said he had paced the White House at night and gone down on his knees, and that the answer came in four parts: the islands could not go back to Spain, could not be handed to France or Germany, could not be left to themselves — and so nothing was left but to take them all, and “educate the Filipinos, and uplift and civilize and Christianize them.” Filipinos who had been fighting Spain since 1896 and had a republic and a written constitution of their own read that rather differently.",
+   "image": "assets/img/world-power/mckinley.jpg",
+   "imageAlt": "Head-and-shoulders portrait of President McKinley in a dark frock coat and bow tie",
+   "credit": "President William McKinley, photographed in 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "John Hay's first Open Door note, circulated in 1899, asked the great powers to do what in China?",
+   "options": [
+    "To withdraw their troops from the treaty ports within a year",
+    "To keep their spheres open to other nations' trade",
+    "To submit all disputes over China to arbitration at The Hague",
+    "To join a formal alliance guaranteeing the Chinese throne"
+   ],
+   "answer": 1,
+   "explanation": "It was a narrow, practical request: inside your sphere, charge everyone the same tariffs, harbour dues and railway rates. The words “open door” appear nowhere in it. The substance came from a memorandum by Alfred Hippisley, a British official in the Chinese customs service, worked up by Hay's China adviser William Rockhill — who apologised to Hippisley for leaving his name off it. The replies were evasive and hedged with conditions. Hay simply announced that everyone had accepted and that the assent was “final and definitive.”",
+   "image": "assets/img/world-power/hay.jpg",
+   "imageAlt": "A seated man with a trimmed white beard in a dark suit, a rolled newspaper in his hands",
+   "credit": "John Hay, Secretary of State, photographed about 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "One government was never asked about the Open Door at all. Which?",
+   "options": [
+    "Japan",
+    "China",
+    "Russia",
+    "Britain"
+   ],
+   "answer": 1,
+   "explanation": "The note went to London, Berlin, St Petersburg, Paris, Rome and Tokyo. The Chinese minister in Washington, Wu Ting-fang, learned of it from the newspapers, and the letter Hay eventually sent him offered no apology and asked for token cooperation. A second note, issued in July 1900 during the Boxer rising, went further and said the United States wanted China preserved as a territorial and administrative entity — which is the sentence American diplomats leaned on for the next forty years.",
+   "image": "assets/img/world-power/hay.jpg",
+   "imageAlt": "Seated portrait of a bearded man in a dark suit holding a rolled newspaper across his knee",
+   "credit": "John Hay, Secretary of State, photographed about 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Cuba became a republic in 1902 with a set of conditions written into its own constitution at American insistence. What are those conditions called?",
+   "options": [
+    "The Teller Amendment",
+    "The Foraker Act",
+    "The Platt Amendment",
+    "The Roosevelt Corollary"
+   ],
+   "answer": 2,
+   "explanation": "Named for Senator Orville Platt, who introduced it, and drafted largely by Elihu Root with Lodge and Roosevelt. Cuba was to make no treaty impairing its independence, was to sell or lease sites for coaling and naval stations — which is how the United States came to hold Guantánamo Bay — and, in the text's own words, “The government of Cuba consents that the United States may exercise the right to intervene for the preservation of Cuban independence.” It was attached to an army appropriations bill and became law in March 1901. Cuba's constitutional convention voted on 28 May by fifteen to fourteen for a version with qualifying language of its own attached; Richard Collin describes that as a substantially modified draft, and Root refused it, saying the occupation would not end until the text was adopted exactly as written. The convention gave way on 12 June 1901. It was annulled by treaty in 1934.",
+   "image": "assets/img/world-power/el-caney-refugees.jpg",
+   "imageAlt": "A crowd of Cuban men, women and children standing in a village square under a large tree",
+   "credit": "Cuban civilians at El Caney, Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Roosevelt added something of his own to the Monroe Doctrine in his annual message of December 1904. What was it?",
+   "options": [
+    "A promise to defend any American republic against invasion",
+    "A pledge to buy out every remaining European colony in the hemisphere",
+    "A claim that misgovernment might oblige the United States to act as a police power",
+    "A demand that European powers close their Caribbean naval bases"
+   ],
+   "answer": 2,
+   "explanation": "Monroe had told Europe to stay out. Roosevelt added that if a country in the hemisphere could not keep order or pay its debts, the United States might have to step in so that Europe would not. His words: “Chronic wrongdoing, or an impotence which results in a general loosening of the ties of civilized society” might force the United States, however reluctantly, to “the exercise of an international police power.” He applied it within months, taking over the customs houses of the Dominican Republic to pay its European creditors. Latin American governments have been quoting the sentence back at Washington ever since.",
+   "image": "assets/img/world-power/tr-cabinet-message.jpg",
+   "imageAlt": "A group of men in dark suits in a curtained room, one standing at the centre reading from a sheet of paper",
+   "credit": "The president reading his message to the cabinet before sending it to Congress, 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Fighting broke out between American and Filipino troops on the edge of Manila on the evening of 4 February 1899. Where was the Treaty of Paris at that moment?",
+   "options": [
+    "Already ratified, six weeks earlier",
+    "Still being negotiated in Paris",
+    "Still before the Senate, and voted on two days later",
+    "Withdrawn by McKinley and never put to a vote"
+   ],
+   "answer": 2,
+   "explanation": "The timing is the whole point of the argument that followed. Told at midnight that shooting had started, McKinley is said to have remarked that this meant the ratification of the treaty; Senator Ben Tillman said openly that time alone would tell whether the battle had been provoked by one side or the other to swing the vote. Nobody has ever proved anything either way. The war that began that night ran for more than three years and it was very costly. Neil Cogan's figures are twenty thousand Filipino soldiers and 4,200 Americans killed in combat, and about two hundred thousand more Filipinos dead of other violence, famine and disease; Howard Jones and Kathleen Dalton give the same two hundred thousand and differ on the American total. None of the counts is firm and some run higher. It also produced conduct on both sides that the Senate would be examining in public within three years.",
+   "image": "assets/img/world-power/root.jpg",
+   "imageAlt": "Portrait of a moustached man in a dark suit, seated against a plain dark background",
+   "credit": "Elihu Root, Secretary of War, photographed in 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Emilio Aguinaldo, president of the Philippine republic, was taken at Palanan in March 1901. How?",
+   "options": [
+    "He surrendered under a flag of truce after a long siege of his camp",
+    "He was betrayed by his own cabinet and handed over",
+    "He was intercepted at sea trying to reach Hong Kong",
+    "Americans walked in posing as prisoners of Filipino allies"
+   ],
+   "answer": 3,
+   "explanation": "General Frederick Funston had captured a courier carrying letters that gave away Aguinaldo's hiding place in north-eastern Luzon. He then landed with a company of Macabebe scouts, who wore Filipino uniforms and marched Funston and four other American officers in as captured prisoners; the deception held long enough to seize the guard. Aguinaldo took an oath of allegiance and called on his followers to stop fighting. Many did. Others did not, and in the Muslim south the fighting outlasted Roosevelt's presidency.",
+   "image": "assets/img/spanamwar/transport-tampa.jpg",
+   "imageAlt": "Two American soldiers in slouch hats and shirtsleeves on the deck of a crowded troop transport",
+   "credit": "American soldiers on a transport bound for Cuba, 1898 — the same volunteer army that garrisoned the new possessions. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "In 1902 the Senate held public hearings on how the war in the Philippines was being conducted. Who chaired the committee?",
+   "options": [
+    "George Frisbie Hoar",
+    "Henry Cabot Lodge",
+    "Albert Beveridge",
+    "William Jennings Bryan"
+   ],
+   "answer": 1,
+   "explanation": "Lodge was Roosevelt's closest political friend and one of expansion's chief architects, and the Committee on the Philippines was his. The hearings were political theatre and also a genuine record: soldiers testified under oath about the water cure, and about the campaign on Samar that followed the killing of American soldiers at Balangiga in September 1901. Beveridge sat on the committee. Hoar, the Massachusetts Republican who had led the fight against the treaty, was the administration's fiercest critic in the chamber. Bryan was never a senator at all.",
+   "image": "assets/img/world-power/root.jpg",
+   "imageAlt": "Studio portrait of a moustached man in a dark three-piece suit",
+   "credit": "Elihu Root, Secretary of War, who directed the army's response to the Philippine hearings. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "The senior American commander on Samar was ordered before a general court-martial in 1902. How did the case end?",
+   "options": [
+    "The charges were dropped before the court convened",
+    "He was acquitted and given a larger command",
+    "He was convicted, and Roosevelt retired him from the army",
+    "He was convicted and served a term in a military prison"
+   ],
+   "answer": 2,
+   "explanation": "Brigadier General Jacob Smith was found guilty of conduct prejudicial to good order and military discipline. The charge came out of the orders he had given Major Tony Waller for the Samar campaign — to kill and burn, to take no prisoners, to kill everyone capable of bearing arms and, asked to fix a lower limit, to set it at ten years of age. Smith admitted in court that he had said all of it. His fellow officers then recommended nothing beyond an admonition, so Roosevelt retired him. By the time the administration closed the affair in April 1903, three officers had been punished: Smith retired, and Major Edwin Glenn and Lieutenant Julien Gaujot briefly suspended and fined. That is not the whole tally — Elihu Root had told Lodge's committee of forty-four documented cases of cruelty, thirty-nine of them already ending in conviction, and Gregg Jones adds that Root had cut the punishment in many of those and that trials were still running in the islands. Anti-imperialists called it a whitewash of a promise to investigate everything; the administration said the offences were the work of a few men under intolerable strain. Both halves of that argument are still being had.",
+   "image": "assets/img/world-power/root.jpg",
+   "imageAlt": "Portrait of Elihu Root, moustached, in a dark suit against a dark ground",
+   "credit": "Elihu Root, Secretary of War 1899–1904. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Colombia never accepted what happened on the Panama isthmus in 1903. How was that quarrel finally settled?",
+   "options": [
+    "The United States paid Colombia twenty-five million",
+    "An arbitration at The Hague found for Colombia in 1912",
+    "Colombia was given a permanent seat on the canal commission",
+    "It was never settled, and no payment was ever made"
+   ],
+   "answer": 0,
+   "explanation": "The proposal came out of the Wilson administration, and Roosevelt spent his last years denouncing it. He called it blackmail in print and told the Union League Club that the country's motto had become twenty-five millions for tribute but not a cent for defence. The treaty was blocked in the Senate while he lived, and ratified in 1921, two years after his death. Roosevelt never saw the canal he built; the Pacific fleet went through the locks seven months after he died.",
+   "image": "assets/img/world-power/tr-puerto-rico-arecibo.jpg",
+   "imageAlt": "A stout man in a white linen suit standing in the open with his hat in his hand, figures blurred behind him",
+   "credit": "President Roosevelt in Puerto Rico, November 1906 — the trip on which he also inspected the Panama Canal works. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  }
+ ]
+}
