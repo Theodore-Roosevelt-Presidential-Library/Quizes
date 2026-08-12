@@ -2,14 +2,16 @@
  "assembly-composite-1882": {
   "dam_id": "05e256d2-c0de-48db-9ef1-c7f9dce6fe13",
   "source_file": "har_3942424_N_Y_Assembly_1882_1884.jpg",
-  "description": "N. Y. Assembly (1882-1884) \u2014 Composite photograph of New York State Assembly members, 1882-1884. Theodore Roosevelt is on the far left, third up from the bottom. Probably compiled by the Notman Photograph Co., Albany (N.Y.). \u2014 Creator: William Notman & Son$$QWilliam Notman & Son \u2014 Date: 1882-1884",
+  "description": "N. Y. Assembly (1882-1884) — Composite photograph of New York State Assembly members, 1882-1884. Theodore Roosevelt is on the far left, third up from the bottom. Probably compiled by the Notman Photograph Co., Albany (N.Y.). — Creator: William Notman & Son$$QWilliam Notman & Son — Date: 1882-1884",
   "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-  "px": "1400x1766"
+  "px": "1400x1658",
+  "crop_note": "Cropped below the manuscript caption band written across the top of the mount (\"names in nearly alphabetical order running from left to right beginning at the top\") and inside the card border.",
+  "credit_line": "New York State Assembly, 1882-1884 — a composite made up of individual portraits, probably by the Notman Photographic Company of Albany. Theodore Roosevelt Collection, Houghton Library, Harvard University."
  },
  "assembly-notman": {
   "dam_id": "7b3cb7a0-2da4-44ec-8a5c-f3d0efdb04ac",
   "source_file": "har_3942587_New_York_State_Assembly.jpg",
-  "description": "New York State Assembly \u2014 Composite photograph by Notman Photo Company, Albany (N.Y.).Theodore Roosevelt is placed standing about a third in from the left. \u2014 Creator: William Notman & Son$$QWilliam Notman & Son \u2014 Date: 1884",
+  "description": "New York State Assembly — Composite photograph by Notman Photo Company, Albany (N.Y.).Theodore Roosevelt is placed standing about a third in from the left. — Creator: William Notman & Son$$QWilliam Notman & Son — Date: 1884",
   "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
   "px": "1400x996"
  }

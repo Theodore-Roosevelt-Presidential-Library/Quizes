@@ -1,0 +1,68 @@
+{
+ "christ-church": {
+  "source": "loc",
+  "ref": "2010649491",
+  "source_file": "loc_pictures_2010649491",
+  "description": "Christ Church - the old country church of Sagamore Hill where Col. Roosevelt attended services and where the last simple rites were spoken",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x723",
+  "credit_line": "Christ Church, Oyster Bay, on the day of Roosevelt's funeral, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Keystone View Company stereograph; cropped to the left frame, publisher's mount and caption removed."
+ },
+ "casket-borne": {
+  "source": "loc",
+  "ref": "2010649492",
+  "source_file": "loc_pictures_2010649492",
+  "description": "The casket, draped in the flag Theodore Roosevelt loved, being carried into Christ Church, Oyster Bay, N.Y.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x719",
+  "credit_line": "Roosevelt's flag-draped coffin carried into Christ Church, Oyster Bay, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Keystone View Company stereograph; cropped to the left frame, publisher's mount and caption removed."
+ },
+ "grave-1919": {
+  "source": "loc",
+  "ref": "2010649494",
+  "source_file": "loc_pictures_2010649494",
+  "description": "Grave of Theodore Roosevelt who answered the final call of taps Jan. 6, 1919. U.S. officer standing at guard",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x722",
+  "credit_line": "Roosevelt's grave at Youngs Memorial Cemetery, Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Keystone View Company stereograph; cropped to the left frame, publisher's mount and caption removed."
+ },
+ "funeral-a": {
+  "source": "loc",
+  "ref": "2013651369",
+  "source_file": "loc_pictures_2013651369",
+  "description": "Theo Roosevelt funeral",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1129",
+  "credit_line": "Mounted police leading the funeral cortege through the snow at Oyster Bay, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Print borders trimmed."
+ },
+ "funeral-b": {
+  "source": "loc",
+  "ref": "2013651370",
+  "source_file": "loc_pictures_2013651370",
+  "description": "Col. Theodore Roosevelt's funeral",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1125",
+  "credit_line": "The crowd outside Christ Church, Oyster Bay, at Roosevelt's funeral, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Print borders trimmed."
+ },
+ "tr-grandchild": {
+  "source": "dam",
+  "ref": "a89f517f-01fe-4c6b-81ea-7653679f4d6d",
+  "source_file": "har_4893061_T_R_with_granchild_at_Oyster_Bay.jpg",
+  "description": "T. R. with granchild at Oyster Bay — Theodore Roosevelt with Archibald Roosevelt, Jr., Oyster Bay (N.Y.). Photograph by Underwood & Underwood. — Creator: Underwood & Underwood$$QUnderwood & Underwood — Date: 1918",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1652",
+  "credit_line": "Theodore Roosevelt with his grandson Archibald Roosevelt Jr. at Oyster Bay, 1918. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "crop_note": "Cropped above the studio copyright line printed across the bottom of the print (\"(C) UNDERWOOD & UNDERWOOD STUDIOS, N.Y.\"). Checked against the file, not asserted: the earlier note claimed this trim had been done when it had not."
+ }
+}

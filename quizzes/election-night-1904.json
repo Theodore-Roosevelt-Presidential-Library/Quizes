@@ -1,0 +1,291 @@
+{
+ "id": "election-night-1904",
+ "title": "Election Night, 1904",
+ "subtitle": "The landslide, and the promise he wished he had never made",
+ "intro": "On 8 November 1904 Theodore Roosevelt won the presidency in his own right by the biggest popular margin anyone had yet managed. Then, without warning anybody, he walked downstairs and told the reporters he would never accept another nomination — a sentence he spent the rest of his career wishing he could take back. Thirteen questions on one night at the White House.",
+ "heroImage": "assets/img/election1904/puck-congratulations.jpg",
+ "heroAlt": "Colour cartoon of a giant Theodore Roosevelt leaning over the roof of the White House with the Capitol behind",
+ "heroCredit": "“Puck: Congratulations, Mr. President; they wanted you,” cartoon by Udo J. Keppler, Puck, 1904 — right-hand page of the centrefold. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Election Night, 1904",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library’s Election Night 1904 quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "No Longer an Accident",
+   "line": "Perfect. Every state, every word."
+  },
+  {
+   "min": 11,
+   "name": "At the Telegraph Key",
+   "line": "You had the returns before anyone."
+  },
+  {
+   "min": 9,
+   "name": "In the Red Room",
+   "line": "Close to the news all evening."
+  },
+  {
+   "min": 7,
+   "name": "At the Dinner Table",
+   "line": "You caught most of it."
+  },
+  {
+   "min": 4,
+   "name": "Waiting on the Wire",
+   "line": "The later editions will help."
+  },
+  {
+   "min": 0,
+   "name": "Reading Tomorrow’s Paper",
+   "line": "Everybody starts somewhere."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Whom did Roosevelt beat in the presidential election of 1904?",
+   "options": [
+    "Champ Clark",
+    "Judson Harmon",
+    "Alton B. Parker",
+    "William Jennings Bryan"
+   ],
+   "answer": 2,
+   "explanation": "Parker was chief judge of the New York Court of Appeals and a gold Democrat, picked to offer Wall Street a calm alternative to Roosevelt’s suddenness. It did not take. Several New York papers that had backed McKinley and Roosevelt in 1900 endorsed the Democrat; the New York Sun stayed loyal with an endorsement that read, in full, “Theodore! with all thy faults—”",
+   "image": "assets/img/election1904/alton-parker.jpg",
+   "imageAlt": "Pen-and-ink portrait of Alton B. Parker, moustached and balding, in a dark coat",
+   "credit": "Alton B. Parker, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Where did Roosevelt cast his own ballot on 8 November 1904?",
+   "options": [
+    "Albany, New York",
+    "Medora, North Dakota",
+    "Oyster Bay, New York",
+    "Washington, D.C."
+   ],
+   "answer": 2,
+   "explanation": "He took a train up from Washington, voted at Oyster Bay and was back at the White House by about half past six, where Edith met him at the door. His secretary William Loeb set up a telephone in the Red Room to keep track of the returns; the telegraph instrument was over in the executive wing. By seven the first returns had settled it, and he kept saying, to nobody in particular, “How they are voting for me!”",
+   "image": "assets/img/election1904/roosevelt-fairbanks-poster.jpg",
+   "imageAlt": "Colour campaign poster with oval portraits of Theodore Roosevelt and Charles W. Fairbanks beneath an eagle",
+   "credit": "Theodore Roosevelt and Charles W. Fairbanks campaign poster, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Which of the Roosevelt children spent election night running between the White House telegraph room and the family dining room, plastered with campaign buttons?",
+   "options": [
+    "Quentin",
+    "Ted",
+    "Archie",
+    "Kermit"
+   ],
+   "answer": 2,
+   "explanation": "Archie was ten and covered chest to waist in Roosevelt buttons and badges. He carried each fresh return to the table and his father read them out with a toothy “Dee‑lighted!” Cabinet members began arriving as the evening went on, and a dinner for a few friends turned into a party. Edith had described it beforehand as a little feast that could be turned into a festival or a wake as circumstances warranted.",
+   "image": "assets/img/christmas/archie-and-quentin-1904.jpg",
+   "imageAlt": "President Roosevelt with Archie and Quentin",
+   "credit": "President Roosevelt, Archie Roosevelt right side, Quentin Roosevelt left side, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "How did the electoral college divide in 1904?",
+   "options": [
+    "292 to 155",
+    "233 to 168",
+    "336 to 140",
+    "271 to 176"
+   ],
+   "answer": 2,
+   "explanation": "It was a record: no president had yet scored so heavily in the electoral college. Missouri broke the Solid South for the first time since the Civil War, and the same election returned Republican majorities of 57 to 33 in the Senate and 250 to 136 in the House. Alice wrote in her diary that night: “VICTORY. TRIUMPH. My Father is elected.”",
+   "image": "assets/img/election1904/parker-davis-ticket.jpg",
+   "imageAlt": "Democratic campaign poster with portraits of Alton B. Parker and Henry G. Davis flanked by flags",
+   "credit": "Democratic candidates: for president, Alton B. Parker; for vice-president, Henry G. Davis, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt’s popular vote in 1904 achieve?",
+   "options": [
+    "The first majority ever won in the Solid South",
+    "The first time a candidate passed ten million votes",
+    "The first majority won without carrying New York",
+    "The largest majority any president had yet won"
+   ],
+   "answer": 3,
+   "explanation": "He took about 7.6 million votes to Parker’s 5.1 million — a margin of nearly two and a half million out of some thirteen and a half million cast, and about 56 per cent of the total. Writing later, he called it by far the largest popular majority ever given to a presidential candidate up to that point. Joseph Pulitzer’s New York World, no friend of his, called it the greatest personal triumph ever won by any president.",
+   "image": "assets/img/election1904/no-change-of-pilots.jpg",
+   "imageAlt": "Cartoon of Roosevelt at the ship’s wheel marked Ship of State while Uncle Sam waves away a pilot labelled Parker",
+   "credit": "“There will be no change of pilots,” Republican National Committee cartoon by Leon Barritt, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt say to Edith once the result was beyond doubt?",
+   "options": [
+    "That he would never have to ask the country for anything again",
+    "That he was no longer a political accident",
+    "That they now had four years in which to spend it all",
+    "That the country had forgiven him Panama"
+   ],
+   "answer": 1,
+   "explanation": "“My dear, I am no longer a political accident,” he told her. He had come to the office through an assassination and had spent three years hearing about it — the accidental president, His Accidency, Theodore the First. The size of the win settled the question for him. He wired Cabot Lodge that he had swept the country by majorities that astounded him.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Seated portrait of Theodore Roosevelt",
+   "credit": "Theodore Roosevelt, seated portrait. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "At half past ten on election night Roosevelt called the reporters in and dictated the statement renouncing any further nomination. Whom had he squared it with beforehand?",
+   "options": [
+    "Edith, and nobody else",
+    "Nobody at all",
+    "Henry Cabot Lodge and Elihu Root",
+    "His campaign chairman, George Cortelyou"
+   ],
+   "answer": 1,
+   "explanation": "Not his wife, not his closest friend, not the man who had run his campaign. The reporters stood in a semicircle while he leaned back and dictated it to his secretary, and Alice, close enough to hear, could hardly believe what she was listening to. She watched the same sentences used against her father through the whole of 1912.",
+   "image": "assets/img/election1904/tr-behind-desk.jpg",
+   "imageAlt": "Theodore Roosevelt standing behind a desk with his secretary William Loeb, papers and lamps on the desk",
+   "credit": "Theodore Roosevelt with Presidential Secretary William Loeb, photographed by Barnett McFee Clinedinst, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt said the two‑term custom “regards the substance and not the form.” What was he ruling out by putting it that way?",
+   "options": [
+    "The argument that only Congress could set a limit at all",
+    "The argument that the custom bound the party and not the man",
+    "The argument that Washington’s example had lapsed",
+    "The argument that his first three and a half years did not count"
+   ],
+   "answer": 3,
+   "explanation": "Supporters had been telling him that because he came in from the vice‑presidency when McKinley was killed, he had really had only one elective term and the custom did not touch him. He wanted that repudiated. He also avoided naming 1908 as the year, on the reasoning that specifying a year would invite the argument that any other year was fair game.",
+   "image": "assets/img/newyear/white-house-1905.jpg",
+   "imageAlt": "The White House, 1905",
+   "credit": "The White House, Washington, D.C., 1905. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt came to regret the pledge deeply. What did he tell the Chicago publisher H. H. Kohlsaat?",
+   "options": [
+    "That Elihu Root had talked him into it that afternoon",
+    "That he would cut his hand off to take the statement back",
+    "That he had written it only to please Edith and Lodge",
+    "That he had meant it as a joke and the papers spoiled it"
+   ],
+   "answer": 1,
+   "explanation": "Kohlsaat published the exchange in 1923: Roosevelt laid a finger on his wrist and said, “I would cut my hand off right there,” if he could recall that written statement. He would not go back on it, though. “The people think that my word is good,” he told his old Maine guide Bill Sewall, “and I should be mighty sorry to have them think anything else.”",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his private office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Having promised not to run in 1908, whose nomination did Roosevelt work to secure instead?",
+   "options": [
+    "Philander Knox",
+    "William Howard Taft",
+    "Elihu Root",
+    "Charles Evans Hughes"
+   ],
+   "answer": 1,
+   "explanation": "Taft was his Secretary of War, and did not much want it; his wife and his brother wanted it for him. The remorse arrived at the convention itself, where the least sign from Roosevelt would have stampeded the delegates to him. He gave no sign. Four years later he was running against the man he had installed, and the party split in two.",
+   "image": "assets/img/election1904/puck-congratulations.jpg",
+   "imageAlt": "Colour cartoon of a giant Theodore Roosevelt leaning over the roof of the White House with the Capitol behind",
+   "credit": "“Puck: Congratulations, Mr. President; they wanted you,” cartoon by Udo J. Keppler, Puck, 1904 — right-hand page of the centrefold. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt ran for president again in 1912. How did he square that with what he had said on election night in 1904?",
+   "options": [
+    "The convention had drafted him against his will",
+    "The custom barred only a third consecutive term",
+    "The pledge had covered only the election of 1908",
+    "A new party released him from an old promise"
+   ],
+   "answer": 1,
+   "explanation": "That was what he had always meant by it, he said, and he argued that writing even that limit into the Constitution would be a mistake: a crisis might arrive at the end of a second term in which the country needed the one man it already knew could carry it through. His opponents did not accept the distinction, and one of them was so fixed on the third‑term question that he shot him for it in Milwaukee.",
+   "image": "assets/img/election1912/tr-campaign-1912.jpg",
+   "imageAlt": "Theodore Roosevelt seated in the back of an open touring car, an aide in a bowler hat in front of him",
+   "credit": "Ex-President Roosevelt in the campaign of 1912. One frame of a Keystone stereograph. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt said nothing about a third term during the campaign itself. Why not, by his own account?",
+   "options": [
+    "He thought the question beneath the dignity of the office",
+    "He did not want it read as a promise traded for votes",
+    "He had not made up his mind until the returns came in",
+    "His campaign chairman had forbidden him to raise it"
+   ],
+   "answer": 1,
+   "explanation": "His opponents had spent the autumn saying he meant to use the presidency to keep himself in power, and it stung. But anything he said before the polls closed could have been construed as a consideration offered in order to secure votes — so he sat on it until the count was in, and then said it anyway, without consulting a soul.",
+   "image": "assets/img/election1904/nineteen-hundred-and-1904.jpg",
+   "imageAlt": "Berryman cartoon in two halves labelled 1900 and 1904, showing a lasso marked Vice-Presidency thrown at a running figure",
+   "credit": "“1900 [and] 1904,” cartoon by Clifford K. Berryman. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "One Republican was widely expected to challenge Roosevelt for the 1904 nomination, and New York money was being raised for him. Who was he?",
+   "options": [
+    "Senator Mark Hanna of Ohio",
+    "Senator Joseph Foraker of Ohio",
+    "Speaker Joseph Cannon of Illinois",
+    "Governor Benjamin Odell of New York"
+   ],
+   "answer": 0,
+   "explanation": "Backers had a hundred thousand dollars in hand and a pledge of a quarter of a million more. Roosevelt broke it in May 1903. Senator Foraker had manoeuvred Ohio Republicans into endorsing the President a year early, Hanna balked, and Roosevelt wired that he had asked no man for his support — but that “those who favor my administration and my nomination will favor endorsing both and those who do not will oppose.” Then he released the telegram to the press. Hanna gave way inside a day, was dead of typhoid by February, and Roosevelt was nominated unanimously on the first ballot in June.",
+   "image": "assets/img/election1904/no-change-of-pilots.jpg",
+   "imageAlt": "Cartoon of Roosevelt at the ship’s wheel marked Ship of State while Uncle Sam waves away a pilot labelled Parker",
+   "credit": "“There will be no change of pilots,” Republican National Committee cartoon by Leon Barritt, 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  }
+ ]
+}

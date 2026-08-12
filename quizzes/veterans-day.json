@@ -1,0 +1,237 @@
+{
+  "id": "veterans-day",
+  "title": "After the Charge",
+  "subtitle": "The Rough Riders, and the Roosevelts Who Served",
+  "intro": "The regiment lasted four months. The men who filled it lasted another seventy-seven years, and Roosevelt's own sons carried the thing forward into two more wars. Fourteen questions for Veterans Day on what happened after the fighting stopped.",
+  "heroImage": "assets/img/veterans/montauk-officers.jpg",
+  "heroAlt": "Officers of the Rough Riders photographed at the camp at Montauk Point, New York, in 1898",
+  "heroCredit": "Officers of the Rough Riders at the military camp at Montauk Point, New York, 1898 — a cyanotype print. Library of Congress, Prints and Photographs Division.",
+  "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+  "shuffle": { "questions": true, "options": true },
+  "live": { "seconds": 20, "revealSeconds": 4 },
+  "badge": {
+    "title": "After the Charge",
+    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Veterans Day quiz — {tier}. Try it:",
+    "url": "https://www.trlibrary.com/tr/rise-to-power"
+  },
+  "tiers": [
+    { "min": 14, "name": "Colonel of the Regiment", "line": "Perfect. Every man accounted for." },
+    { "min": 12, "name": "Troop Commander", "line": "You know where they all went." },
+    { "min": 9, "name": "Sergeant", "line": "Steady and well informed." },
+    { "min": 6, "name": "Trooper", "line": "Good service." },
+    { "min": 3, "name": "Recruit", "line": "Worth another muster." },
+    { "min": 0, "name": "New Enlistment", "line": "Start at Montauk and work forward." }
+  ],
+  "questions": [
+    {
+      "prompt": "The Rough Riders did not go home when they left Cuba in August 1898. Where did the returning army land instead?",
+      "options": [
+        "The docks at Tampa, Florida",
+        "A quarantine camp at Montauk",
+        "Fort Monroe, Virginia",
+        "Governors Island, New York Harbor"
+      ],
+      "answer": 1,
+      "explanation": "Camp Wikoff was thrown up in weeks on the empty eastern tip of Long Island, and some 29,000 men passed through it in two months. The point was isolation: fever had done far more damage to the army than Spanish bullets, and nobody wanted a sick transport tied up at a city pier. The camp took its name from Colonel Charles Wikoff of the 22nd Infantry, killed in the fighting of 1 July.",
+      "image": "assets/img/veterans/montauk-starting.jpg",
+      "imageAlt": "Troops marching through the tents and sheds of Camp Wikoff at Montauk, 1898",
+      "credit": "Rough Riders starting for Camp Wikoff, Montauk, Long Island, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rise to Power" }
+    },
+    {
+      "prompt": "Before the army left Cuba, Roosevelt drafted a letter for the senior officers to sign and handed a copy to the reporters. What did it say?",
+      "options": [
+        "That the Cuban rebels should be disarmed",
+        "That the regiment had earned a Broadway parade",
+        "That the army must come home at once or die of fever",
+        "That Santiago should be annexed outright"
+      ],
+      "answer": 2,
+      "explanation": "It is known as the round robin. The surgeons, it said, expected more than half the army to die if it stayed through the sickly season. It was in the newspapers within days and it humiliated the Secretary of War, Russell Alger. Roosevelt had told the correspondents that as a volunteer officer he was willing to be the scapegoat, and he was: recommendations for his Medal of Honor were moving through the War Department, and Alger would not endorse them.",
+      "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
+      "imageAlt": "Roosevelt and the Rough Riders on the captured hill in Cuba",
+      "credit": "Colonel Roosevelt and his Rough Riders at the top of the hill which they captured, 1898. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rise to Power" }
+    },
+    {
+      "prompt": "The men gave Roosevelt a parting present when the regiment mustered out. Fifteen years later he still called it one of his most cherished possessions. What was it?",
+      "options": [
+        "A silver-mounted parade saddle",
+        "A captured Spanish battle flag",
+        "An engraved Colt revolver",
+        "A Remington bronze of a bronco buster"
+      ],
+      "answer": 3,
+      "explanation": "The men filed past one at a time to shake his hand and left him the Remington bronze, which stood at Sagamore Hill for the rest of his life. In his Autobiography he listed among the family's most cherished possessions \"a Remington bronze, 'The Bronco Buster,' given me by my men when the regiment was mustered out.\"",
+      "image": "assets/img/veterans/montauk-conference.jpg",
+      "imageAlt": "Roosevelt in uniform talking with troopers among the tents at Montauk",
+      "credit": "Theodore Roosevelt in conference, Rough Riders military camp, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/books-and-writings", "label": "The Author President" }
+    },
+    {
+      "prompt": "About three dozen Rough Riders went straight from the army into the same line of work. What was it?",
+      "options": [
+        "Riding in Buffalo Bill's Wild West show",
+        "Guarding the survey lines in Panama",
+        "Policing the Oklahoma Territory",
+        "Driving cattle north out of Texas"
+      ],
+      "answer": 0,
+      "explanation": "Billy McGinty and Tom Isbell were among the best known of them, and the show had them charge the hill again hundreds of times for tens of thousands of onlookers — by then billed, as it usually is, as San Juan rather than Kettle. The circle closes neatly: the phrase \"rough rider\" had come from Cody's show in the first place.",
+      "image": "assets/img/veterans/reunion-horseback.jpg",
+      "imageAlt": "A long line of men in uniform on horseback along a dirt road",
+      "credit": "Men in uniform on horseback, probably Rough Riders at the San Antonio reunion, April 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/myths", "label": "Fact or Fiction" }
+    },
+    {
+      "prompt": "One Rough Rider ran for vice president against Franklin Roosevelt in 1936 and then joined his cabinet. Who?",
+      "options": [
+        "Billy McGinty",
+        "Frank Knox",
+        "David Goodrich",
+        "John Greenway"
+      ],
+      "answer": 1,
+      "explanation": "Knox became a newspaper publisher, first in Michigan and then in Chicago. Alf Landon picked him as his running mate in 1936 and Franklin Roosevelt buried them; four years later the same Franklin Roosevelt asked him to be Secretary of the Navy — the post Theodore Roosevelt had resigned in 1898 to raise the regiment Knox served in.",
+      "image": "assets/img/veterans/greeting-the-boys.jpg",
+      "imageAlt": "President Roosevelt in a top hat shaking hands with veterans in uniform",
+      "credit": "Theodore Roosevelt greeting \"the boys\" who fought in Cuba at the Rough Rider reunion, San Antonio, Texas, about 1905. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rise to Power" }
+    },
+    {
+      "prompt": "The men formed a veterans association at the Montauk camp before they scattered. Where did it hold its first reunion, in June 1899?",
+      "options": [
+        "Oyster Bay, New York",
+        "Prescott, Arizona Territory",
+        "Las Vegas, New Mexico Territory",
+        "San Antonio, Texas, where they trained"
+      ],
+      "answer": 2,
+      "explanation": "It was timed to the first anniversary of Las Guásimas. Around a hundred Rough Riders came and about ten thousand onlookers came to watch them. Governor Roosevelt travelled out by rail and was mobbed at every whistle-stop between Indiana and New Mexico — \"exactly as if I had been a presidential candidate,\" he wrote to Henry Cabot Lodge, a little too pleased. The reunion later settled into Las Vegas every other year.",
+      "image": "assets/img/veterans/las-vegas-reunion.jpg",
+      "imageAlt": "Roosevelt on horseback in a crowd of mounted men at a Rough Riders reunion",
+      "credit": "Vice-President Roosevelt on horseback at a Rough Riders' reunion, 1901 — two years after the first one, and catalogued to Las Vegas, New Mexico. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/rise-to-power", "label": "The Rise to Power" }
+    },
+    {
+      "prompt": "The last surviving Rough Rider died in 1975. Where had he first laid eyes on Roosevelt?",
+      "options": [
+        "On the beach at Daiquirí in Cuba",
+        "At Harvard, where his father taught",
+        "In Medora, Dakota Territory, as a small boy",
+        "In the New York Assembly chamber"
+      ],
+      "answer": 2,
+      "explanation": "Jesse Langdon was about five when he met the young ranchman at Medora, where his father — chief state veterinarian for the Dakotas — had been called in to Roosevelt's dying cattle. In 1898, aged sixteen, he tramped east and talked his way into the regiment under age. He performed in a travelling Wild West show, fought in the Philippines, and worked two decades as a veterinarian before turning inventor: he claimed 189 United States patents and told an interviewer he had commercialised sixty-two of them. He died on 29 June 1975, aged ninety-four, less than two months after the fall of Saigon.",
+      "image": "assets/img/badlands/medora-1883.jpg",
+      "imageAlt": "The office and company store at Medora, Dakota Territory, in 1883",
+      "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/badlands", "label": "T.R. in the Badlands" }
+    },
+    {
+      "prompt": "In 1919 Theodore Roosevelt Jr. helped call together an organisation for the men coming home from France — then refused to lead it. What was it?",
+      "options": [
+        "The Veterans of Foreign Wars",
+        "The Grand Army of the Republic",
+        "Disabled American Veterans",
+        "The American Legion"
+      ],
+      "answer": 3,
+      "explanation": "The founding caucus met in Paris in March 1919, and Ted turned down the chairmanship so that nobody could call the Legion a ladder for his politics. Delegate after delegate rose to ask him to reconsider and he never wavered. The first national convention opened in Minneapolis on 11 November 1919, the first anniversary of the Armistice — the date the United States now keeps as Veterans Day.",
+      "image": "assets/img/veterans/ted-visits-montauk.jpg",
+      "imageAlt": "A boy on horseback among the tents at the Rough Riders' camp at Montauk",
+      "credit": "\"Ted visits the Rough Rider camp at Montauk Pt. after the war with Spain\" — Theodore Roosevelt Jr., aged ten, at Camp Wikoff, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "Brigadier General Theodore Roosevelt Jr. went ashore with the first wave at Utah Beach on 6 June 1944 carrying something no other general needed. What?",
+      "options": [
+        "A walking cane",
+        "His father's Rough Rider hat",
+        "A folding stretcher",
+        "A shotgun"
+      ],
+      "answer": 0,
+      "explanation": "A leg wound from 1918, worsened by years of squash on hard courts, had left him arthritic. He asked to land with the assault wave, was refused, and asked again in writing. His division commander worried what troops would think of an officer with a stick; Roosevelt answered that they would reckon it could not be that rough if a general was walking along with them. At fifty-six he was the oldest man and the only general in the first wave.",
+      "image": "assets/img/war/ted-jr-chasseurs.jpg",
+      "imageAlt": "Theodore Roosevelt Jr. in uniform training with French troops",
+      "credit": "Theodore Roosevelt Jr. in training with the Chasseurs Alpins, 1917 — a quarter of a century before Normandy. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "Ted Jr. died in Normandy on 12 July 1944, five weeks after the landing. What killed him?",
+      "options": [
+        "A sniper's bullet",
+        "A German mine",
+        "A heart attack",
+        "An infected wound"
+      ],
+      "answer": 2,
+      "explanation": "He had been hiding chest pains from the army, from his doctors and from his wife, terrified that a heart condition would take him out of uniform. Two papers were sitting on Eisenhower's desk when he died: orders giving him a division, and a recommendation for the Medal of Honor. The medal was awarded, and Franklin Roosevelt presented it to his widow, Eleanor. He was buried at Sainte-Mère-Église on 14 July — by coincidence the anniversary of his brother Quentin's death.",
+      "image": "assets/img/war/tr-and-boys.jpg",
+      "imageAlt": "President Roosevelt with his four sons at the White House",
+      "credit": "President Roosevelt and his sons Ted, Archie, Quentin and Kermit, White House, 1904. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "German troops buried Quentin Roosevelt where his aircraft came down in 1918, and his parents asked that he be left there. Where does he lie today?",
+      "options": [
+        "Beside his brother Ted, in Normandy",
+        "In the family plot at Oyster Bay",
+        "In Arlington National Cemetery",
+        "Still at the crash site near Chamery"
+      ],
+      "answer": 0,
+      "explanation": "He was moved after the Second World War to the Normandy American Cemetery at Colleville-sur-Mer and laid beside his brother Ted, who had died in the Cotentin twenty-six years after him. He is the only casualty of the First World War buried there, and he remains the only child of an American president killed in combat.",
+      "image": "assets/img/war/quentin-grave.jpg",
+      "imageAlt": "The wooden cross the Germans put over Quentin Roosevelt's grave in France",
+      "credit": "Grave of Lieutenant Quentin Roosevelt, buried by German troops where he fell, 1918. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "Archibald Roosevelt was discharged as totally disabled after being shattered by shrapnel in France in 1918. What did he do in the next war?",
+      "options": [
+        "Served out the war at a desk in Washington",
+        "Went back in, and was hit in the same leg",
+        "Was turned down as too old to enlist",
+        "Trained anti-aircraft gunners in Texas"
+      ],
+      "answer": 1,
+      "explanation": "He was back in uniform as a lieutenant colonel within weeks of Pearl Harbor, and ended up commanding a battalion of the 162nd Infantry in the jungles of New Guinea. American troops fighting their way up a ridge above Tambu Bay in the summer of 1943 named the place Roosevelt Ridge — for the battalion commander, Archie, not for his father. He was wounded again in the same arm and leg that had been broken a quarter of a century earlier, and invalided home a second time. On the day Japan surrendered he was the last of Roosevelt's sons still alive.",
+      "image": "assets/img/war/archie-wounded.jpg",
+      "imageAlt": "Archie Roosevelt with a nurse while recovering from his wounds",
+      "credit": "Archie Roosevelt with a nurse, probably in France, 1918. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "Kermit Roosevelt joined the British army in 1917 rather than wait for the Americans. Whose uniform did he put on first in the next war?",
+      "options": [
+        "The Canadian army's",
+        "The U.S. Navy's",
+        "The British army's again",
+        "The Free French forces'"
+      ],
+      "answer": 2,
+      "explanation": "He took a commission in the Middlesex Regiment in 1939 and served in Norway and in Egypt until illness ended it. His wife Belle then asked Franklin Roosevelt for a commission for him, and he was posted to Fort Richardson in Alaska, where he had no real duties and talked airmen into taking him along on bombing runs over the Aleutians. He died there on 4 June 1943, by his own hand, and is buried in the post cemetery.",
+      "image": "assets/img/war/derby-archie-eleanor-kermit.jpg",
+      "imageAlt": "Richard Derby, Archie, Eleanor and Kermit Roosevelt, the men in uniform",
+      "credit": "Richard Derby, Eleanor and Kermit Roosevelt, with Archie Roosevelt in front, 1918. Library of Congress, Prints and Photographs Division.",
+      "link": { "url": "https://www.trlibrary.com/tr/family", "label": "Life at Sagamore Hill" }
+    },
+    {
+      "prompt": "Roosevelt's Medal of Honor, awarded at last in 2001, left the Roosevelts one of only two American families with a father and a son who both hold it. Who is the other pair?",
+      "options": [
+        "Ulysses S. and Frederick Grant",
+        "William and John Sherman",
+        "Robert and Edward Peary",
+        "Arthur and Douglas MacArthur"
+      ],
+      "answer": 3,
+      "explanation": "Arthur MacArthur earned his as a teenager charging Confederate lines in 1863; his son Douglas earned his in the Philippines in 1942. Roosevelt's was presented by President Clinton in the Roosevelt Room of the White House on 16 January 2001, and his great-grandson Tweed Roosevelt accepted it. Roosevelt is the only president to hold the Medal of Honor, and the only person to hold both it and the Nobel Peace Prize.",
+      "image": "assets/img/rough-riders/san-juan-monument.jpg",
+      "imageAlt": "The monument on San Juan Hill to the men who fell there",
+      "credit": "The monument on San Juan Hill, Santiago de Cuba, photographed in 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": { "url": "https://www.trlibrary.com/tr/legacy", "label": "The Measure of the Man" }
+    }
+  ]
+}

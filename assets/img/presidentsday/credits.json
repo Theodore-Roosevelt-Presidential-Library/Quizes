@@ -1,0 +1,62 @@
+{
+ "wilcox-oath": {
+  "source": "dam",
+  "ref": "e863648b-9921-4d11-8403-c077b46dc700",
+  "source_file": "loc_89708594_The_new_president_takes_the_oath_of_offi.tif",
+  "description": "The new president takes the oath of office. The Wilcox home in which President Roosevelt was sworn in — 1 photomechanical print : halftone. | Group of people around front of porch draped with U.S. flag. — Creator: Dunn, Robert Lee — Date: 1901",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1034",
+  "note": "Cropped from the original: caption strips and the second stereograph frame removed."
+ },
+ "oath-spot": {
+  "source": "dam",
+  "ref": "0dba02cd-0a2f-491f-8416-cf709dd37d88",
+  "source_file": "loc_2010646557_The_place_where_Roosevelt_stood_while_ta.tif",
+  "description": "The place where Roosevelt stood while taking the President's oath of office - library, Wilcox residence, Buffalo, N.Y. — 1 photographic print on stereo card : stereograph. | Stereograph showing a room with bookshelves and furniture. — Creator: Underwood & Underwood — Date: 1902",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x715",
+  "note": "Cropped from the original: caption strips and the second stereograph frame removed."
+ },
+ "canton-mckinley-memorial": {
+  "source": "dam",
+  "ref": "4eb2a888-039f-4d6a-8174-e9b99e2266cc",
+  "source_file": "loc_2010649483_President_Roosevelt_with_the_Mayor_of_Ca.tif",
+  "description": "President Roosevelt, with the Mayor of Canton and the Governor of Ohio, reviewing parade on McKinley Memorial Day, Canton, O., Sept. 30, 1907 — 1 photographic print on stereo card : stereograph. — Creator: Standard Scenic Company — Date: 1907",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x718",
+  "note": "Cropped from the original: caption strips and the second stereograph frame removed."
+ },
+ "vp-roosevelt-yates": {
+  "source": "dam",
+  "ref": "d948a30c-777a-4c3b-911c-1ffcd7c2a6d4",
+  "source_file": "loc_2010646546_Vice_President_Roosevelt_and_Governor_Ya.tif",
+  "description": "Vice President Roosevelt and Governor Yates, Springfield, Ill. — 1 photographic print on stereo card : stereograph. | Stereograph showing Roosevelt and Richard Yates seated on bench. — Date: 1901",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x716",
+  "note": "Cropped from the original: caption strips and the second stereograph frame removed."
+ },
+ "expo-ambulance": {
+  "source": "dam",
+  "ref": "1b4eddd1-eabe-4733-81f9-26b38c1c401e",
+  "source_file": "loc_2019635232_The_Death_of_President_McKinley.tif",
+  "description": "The Pan-American Exposition ambulance in which President McKinley was taken from the Temple of Music to the emergency hospital, and thence to the Milburn residence — one panel cropped from a Leslie's Weekly page, 1901.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "458x684"
+ },
+ "rushmore-highsmith": {
+  "source": "loc",
+  "ref": "2011632454",
+  "source_file": "loc_pictures_2011632454",
+  "description": "Mount Rushmore, South Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1094",
+  "credit_line": "Mount Rushmore National Memorial, South Dakota. Photograph by Carol M. Highsmith. Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+  "note": "A modern photograph, deliberately: the only Rushmore images in the DAM are of the Library's own construction, and the LOC's period carving photographs are either undigitised or of uncertain rights. Highsmith dedicated her archive to the public domain."
+ }
+}

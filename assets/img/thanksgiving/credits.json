@@ -1,0 +1,51 @@
+{
+ "sagamore-hill-house": {
+  "source": "dam",
+  "ref": "fe9eb36a-c0af-45f8-96e4-332f00146e10",
+  "source_file": "loc_2013651058_Exterior_view_of_Sagamore_Hill_house_The.tif",
+  "description": "[Exterior view of Sagamore Hill house, Theodore Roosevelt's summer home] \u2014 1 photographic print. \u2014 Date: 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1097",
+  "crop": "mount trimmed"
+ },
+ "sagamore-drive": {
+  "source": "loc",
+  "ref": "2009633169",
+  "source_file": "loc_pictures_2009633169",
+  "description": "Sagamore Hill, President Roosevelt's country home \"The driveway.\"",
+  "rights": "No known restrictions on publication. No renewal in Copyright office.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1106"
+ },
+ "state-dining-room": {
+  "source": "loc",
+  "ref": "2022651425",
+  "source_file": "loc_pictures_2022651425",
+  "description": "[State dining room, White House]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1020",
+  "crop": "mount trimmed"
+ },
+ "white-house-turkey-cartoon": {
+  "source": "loc",
+  "ref": "2013651589",
+  "source_file": "loc_pictures_2013651589",
+  "description": "The proper way to kill the White House turkey Now that the president's attention has been called to it by the humane officer he will doubtless have his Thanksgiving bird executed in this manner /",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1752",
+  "crop": "mount trimmed"
+ },
+ "roosevelts-riding": {
+  "source": "dam",
+  "ref": "5076be6d-ef9e-4b9a-82e9-34a7891c4041",
+  "source_file": "har_1190384_Col_and_Mrs_Roosevelt_out_riding_near_Sa.jpg",
+  "description": "Col. and Mrs. Roosevelt out riding near Sagamore. Taken in 90s \u2014 Roosevelt and Edith on horseback, Oyster Bay (N.Y.). \u2014 Date: 1890s",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1164",
+  "crop": "mount trimmed"
+ }
+}

@@ -1,0 +1,304 @@
+{
+ "id": "last-days",
+ "title": "The Sixth of January",
+ "subtitle": "Sagamore Hill, 1919",
+ "intro": "Theodore Roosevelt died in his sleep at his own house at Oyster Bay in the early morning of 6 January 1919, aged sixty. His youngest son had been killed in France six months before. He had spent most of November and December in hospital, and he was the favourite for his party's presidential nomination the following year. Fourteen questions on his last year, the day itself, and what the country did when it heard.",
+ "heroImage": "assets/img/lastdays/funeral-a.jpg",
+ "heroAlt": "Mounted police riding ahead of a motor hearse along a snow-covered road",
+ "heroCredit": "Mounted police leading the funeral cortege through the snow at Oyster Bay, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/legacy",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Sixth of January",
+  "shareText": "{score}/{total} on the Theodore Roosevelt Presidential Library's questions about Roosevelt's last days — {tier}.",
+  "url": "https://www.trlibrary.com/tr/legacy"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "You know this story well",
+   "line": "Very little of it was new to you."
+  },
+  {
+   "min": 10,
+   "name": "Closely read",
+   "line": "You have spent time with the last chapter."
+  },
+  {
+   "min": 7,
+   "name": "Familiar with the ground",
+   "line": "Much of this was already known to you."
+  },
+  {
+   "min": 4,
+   "name": "Partly known",
+   "line": "The outline is there."
+  },
+  {
+   "min": 0,
+   "name": "New to this",
+   "line": "There is more to read."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Theodore Roosevelt died in the early hours of 6 January 1919. Where was he?",
+   "options": [
+    "At Roosevelt Hospital in New York",
+    "At his sister's house in Washington",
+    "In his own bed at Sagamore Hill",
+    "On a train between Chicago and New York"
+   ],
+   "answer": 2,
+   "explanation": "He had been home from hospital less than a fortnight. The death certificate, signed by his physician Dr. George Faller, gave the time as a quarter past four in the morning and the cause as an embolism of the lung, with multiple arthritis as a contributing factor. He was sixty years and a little over two months old. Edith was woken by the nurse, went through and called to him, and there was no answer.",
+   "image": "assets/img/health/sagamore-veranda.jpg",
+   "imageAlt": "The Roosevelt house at Oyster Bay seen from the lawn through bare winter trees, the veranda running along the left",
+   "credit": "Sagamore Hill from the lawn, the veranda at left, April 1919. One frame of a Keystone stereograph card, publisher's mount removed; the mount captions it as a view across the veranda towards the harbor, which is not what the frame shows. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill"
+   }
+  },
+  {
+   "prompt": "On 11 November 1918, the day the Armistice was signed, what did Roosevelt do?",
+   "options": [
+    "Went into hospital in New York",
+    "Addressed a crowd in Madison Square",
+    "Sailed for France to visit his sons",
+    "Announced he would run in 1920"
+   ],
+   "answer": 0,
+   "explanation": "He was taken to Roosevelt Hospital that afternoon with what the doctors publicly called an attack of lumbago. Writing to Kermit earlier in the year he had put the trouble down to the “old Brazilian trouble, both the fever and the abscesses” he brought back from the River of Doubt in 1914 and never entirely shook off. He stayed until Christmas. Edith arranged to bring him home early on the holiday itself, before any photographers were about.",
+   "image": "assets/img/war/tr-1918-b.jpg",
+   "imageAlt": "Theodore Roosevelt speaking from a porch to a seated crowd on a lawn, April 1918",
+   "credit": "Theodore Roosevelt speaking from a porch to a seated crowd, 3 April 1918 — the date is written on the negative. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "On the evening of 5 January 1919 Edith sat playing solitaire beside him while he read. He looked up and said one thing — about the house. What was it?",
+   "options": [
+    "That the boys should have the place after him",
+    "That he wondered if she knew how much he loved Sagamore Hill",
+    "That he had never been able to sleep properly anywhere else",
+    "That he wanted the house shut up before the spring came"
+   ],
+   "answer": 1,
+   "explanation": "“I wonder if you will ever know how I love Sagamore Hill.” He closed his book a little afterwards and went up to bed, and at about four the next morning the nurse could not wake him. He had lived in the house since 1885 and written most of his books in it. Edith stayed on there for nearly thirty more years. It is a National Historic Site today, furnished much as the family left it.",
+   "image": "assets/img/lastdays/tr-grandchild.jpg",
+   "imageAlt": "Theodore Roosevelt in riding boots on the porch at Oyster Bay, carrying a baby in his arms",
+   "credit": "Theodore Roosevelt with his grandson Archibald Roosevelt Jr. at Oyster Bay, 1918. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill"
+   }
+  },
+  {
+   "prompt": "Roosevelt's youngest son Quentin was killed in France in July 1918. Three weeks later Roosevelt wrote to the novelist Edith Wharton about him. What did he say?",
+   "options": [
+    "That the boy had died exactly as he would have wished to die",
+    "That he intended to publish a memoir of his son",
+    "That there was no use his writing about Quentin",
+    "That he had put the loss behind him and gone back to work"
+   ],
+   "answer": 2,
+   "explanation": "“There is no use of my writing about Quentin; for I should break down if I tried.” Quentin was twenty, shot down well behind the German lines and buried by the Germans where he fell. Roosevelt gave the press a short written statement about half an hour after the news reached the house and said very little more in public. Hermann Hagedorn, who worked alongside him, put the change plainly: the old exuberance had gone, and the boy in him had died.",
+   "image": "assets/img/war/quentin-nieuport.jpg",
+   "imageAlt": "Quentin Roosevelt standing beside his aircraft in France",
+   "credit": "Quentin Roosevelt beside his aircraft in France, 1918. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelts at war"
+   }
+  },
+  {
+   "prompt": "On the last full day of his life Roosevelt was at work on a review of a newly published book. What was the book about?",
+   "options": [
+    "Naval strategy in the war just ended",
+    "The Lewis and Clark expedition",
+    "Abraham Lincoln",
+    "Pheasants"
+   ],
+   "answer": 3,
+   "explanation": "The first volume of William Beebe's monograph on the pheasants of the world. Roosevelt had read it through and wrote to Beebe that Sunday with a query about a sentence in the front matter which he thought muddled the relationship between the grouse of the Old World and the New, asking whether he might note in his review that the slip would be put right in a later edition. He was sixty, in serious pain, and arguing about the classification of game birds.",
+   "image": "assets/img/shared/tr-reading-tent.jpg",
+   "imageAlt": "Theodore Roosevelt reading in a camp chair in front of a tent",
+   "credit": "Theodore Roosevelt reading in front of his tent in hunting camp, 1910. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "Roosevelt the naturalist"
+   }
+  },
+  {
+   "prompt": "On Friday 3 January 1919 Roosevelt dictated an editorial for the Kansas City Star. What was its subject?",
+   "options": [
+    "The Republican convention of 1920",
+    "The proposed League of Nations",
+    "The price of wheat",
+    "Prohibition"
+   ],
+   "answer": 1,
+   "explanation": "It was his thirteenth piece for the paper since the Armistice and his last word on the question before the Paris Peace Conference opened later that month. Americans wanted such a league, he wrote, but wanted to be certain it would help rather than hinder the cause of world peace and justice, and did not wish to send any more of their sons to die in obscure foreign quarrels. Writing it wore him out; he told Edith he felt as bad as at any point in hospital.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated in a carved chair holding a book",
+   "credit": "Theodore Roosevelt, three-quarter length portrait, seated, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "A scribbled memorandum was found on Roosevelt's bedside table after his death. What was on it?",
+   "options": [
+    "A list of the books he still meant to read",
+    "The names and ages of all his grandchildren",
+    "A note about holding the Republican party together",
+    "A message to be cabled to Ted and Kermit in Germany"
+   ],
+   "answer": 2,
+   "explanation": "It names Will Hays, the new Republican national chairman, and goes on: “he must go to Washington for 10 days; see Senate & House; prevent split on domestic policies.” It is about the platform the party would run on in 1920. Biographers who print it differ only over when it was written.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt at his desk in his private office",
+   "credit": "Theodore Roosevelt in his private office. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "President Wilson was in Europe when the news came. Whom did he appoint to represent him at the funeral?",
+   "options": [
+    "Secretary of State Robert Lansing",
+    "General John J. Pershing",
+    "Colonel Edward M. House",
+    "Vice President Thomas Marshall"
+   ],
+   "answer": 3,
+   "explanation": "Wilson issued the proclamation from Paris, named Marshall, and directed government offices to fly their flags at half-mast for a month. Marshall's own remark on the death is the one that lasted. “Death had to take him sleeping,” he said, “for if Roosevelt had been awake, there would have been a fight.”",
+   "image": "assets/img/lastdays/funeral-b.jpg",
+   "imageAlt": "A large crowd standing in the snow outside a shingled church, with a motor hearse at the door",
+   "credit": "The crowd outside Christ Church, Oyster Bay, at Roosevelt's funeral, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  },
+  {
+   "prompt": "The Supreme Court did something on the day Roosevelt died that it had never done before. What?",
+   "options": [
+    "Issued a signed statement from all nine justices",
+    "Adjourned without doing any legal business",
+    "Moved its sitting out of Washington for a day",
+    "Sat into the evening to finish an argument"
+   ],
+   "answer": 1,
+   "explanation": "Both houses of Congress adjourned as well. Army, marine and naval posts around the world were ordered to fire salutes at sunrise on the day of the funeral. The news had come too late for the morning papers, so most of the country learned it from the afternoon editions.",
+   "image": "assets/img/lastdays/funeral-a.jpg",
+   "imageAlt": "Mounted police riding ahead of a motor hearse along a snow-covered road",
+   "credit": "Mounted police leading the funeral cortege through the snow at Oyster Bay, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  },
+  {
+   "prompt": "For two days after his death, aircraft flew low over Sagamore Hill. What were they doing?",
+   "options": [
+    "Photographing the house for the newspapers",
+    "Escorting the coffin to the cemetery",
+    "Searching the grounds for reporters",
+    "Dropping laurel wreaths on the lawn"
+   ],
+   "answer": 3,
+   "explanation": "Army aviators kept a vigil over the house of Quentin Roosevelt's father, flying in relays out of a Long Island field through the night and all the next day. They came low enough that the wind from the propellers shook the bare trees around the house. The noise stopped only in the small hours of Wednesday, as snow began to fall.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "The library at Sagamore Hill, photographed by a member of the family",
+   "credit": "The library at Sagamore Hill, taken by one of the family. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill"
+   }
+  },
+  {
+   "prompt": "One thing was deliberately left out of the funeral service at Christ Church, Oyster Bay, on 8 January 1919. What?",
+   "options": [
+    "Any music",
+    "Any flag on the coffin",
+    "Any member of his own family",
+    "Any clergyman"
+   ],
+   "answer": 0,
+   "explanation": "There was no music and no eulogy. His favourite hymn, “How Firm a Foundation, Ye Saints of the Lord,” was recited rather than sung by the Reverend George F. Talmage, who did not speak the dead man's name until the benediction. Accounts differ over whose wish the silence was: some say Roosevelt's own, some Edith's. There were no official pallbearers either; undertakers carried the coffin, which was covered with the Stars and Stripes with a pair of Rough Rider flags crossed at the foot.",
+   "image": "assets/img/lastdays/casket-borne.jpg",
+   "imageAlt": "Men carrying a flag-draped coffin from a motor hearse towards a church porch in the snow",
+   "credit": "Roosevelt's flag-draped coffin carried into Christ Church, Oyster Bay, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  },
+  {
+   "prompt": "Some five hundred people filled Christ Church at Oyster Bay on 8 January 1919. One person very close to him was not among them. Who?",
+   "options": [
+    "His daughter Alice",
+    "His sister Corinne",
+    "His son Archie",
+    "His widow, Edith"
+   ],
+   "answer": 3,
+   "explanation": "Following the custom for widows, Edith stayed at Sagamore Hill and read the funeral service through at home. A single pull of the church bell across the bay told her the cortege had started for the cemetery. Two days later she closed the house for the winter and went to stay with Bamie in Connecticut.",
+   "image": "assets/img/lastdays/christ-church.jpg",
+   "imageAlt": "A shingled country church behind bare trees with a crowd gathered in the snow outside",
+   "credit": "Christ Church, Oyster Bay, on the day of Roosevelt's funeral, 8 January 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "Edith Roosevelt"
+   }
+  },
+  {
+   "prompt": "The grave is at the top of a steep knoll above the cove. Who stayed there long after the rest of the party had gone back down?",
+   "options": [
+    "Henry Cabot Lodge",
+    "Vice President Marshall",
+    "William Howard Taft",
+    "General Leonard Wood"
+   ],
+   "answer": 2,
+   "explanation": "Taft arrived alone and sat down near the back of the church; Archie Roosevelt went and fetched him up to sit with the family. The two men had been friends, then rivals who barely spoke, and had been reconciled by chance in Chicago only months before. At the graveside Taft stood by himself for a long time, crying.",
+   "image": "assets/img/lastdays/grave-1919.jpg",
+   "imageAlt": "A mound of wreaths and greenery among bare trees, with a soldier standing beside it",
+   "credit": "Roosevelt's grave at Youngs Memorial Cemetery, Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "T.R.'s legacy"
+   }
+  },
+  {
+   "prompt": "What were Republicans widely expecting Roosevelt to do in 1920?",
+   "options": [
+    "Retire from public life for good",
+    "Run for governor of New York again",
+    "Take the presidential nomination",
+    "Lead a volunteer division to Europe"
+   ],
+   "answer": 2,
+   "explanation": "After the party's success in the 1918 midterms he was the odds-on favourite, and his death took the front-runner out of the race; the convention eventually turned to Warren Harding. Roosevelt himself was less certain than the party was. He told Corinne that his health might prevent him ever entering public life again.",
+   "image": "assets/img/war/tr-portrait-1916.jpg",
+   "imageAlt": "Theodore Roosevelt seated, holding one small grandson with another beside him",
+   "credit": "Theodore Roosevelt with his grandsons Richard Derby Jr. and Kermit Roosevelt Jr., about 1916. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  }
+ ]
+}

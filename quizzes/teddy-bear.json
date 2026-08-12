@@ -182,10 +182,10 @@
   {
    "prompt": "What was the cartoon's caption?",
    "options": [
-    "\"The President's Mercy\"",
-    "\"Teddy's Bear\"",
-    "\"A Square Deal for the Bear\"",
-    "\"Drawing the Line in Mississippi\""
+    "The President's Mercy",
+    "Teddy's Bear",
+    "A Square Deal for the Bear",
+    "Drawing the Line in Mississippi"
    ],
    "answer": 3,
    "explanation": "\"Drawing the Line in Mississippi.\" Many scholars read the caption as a double meaning — the line Roosevelt drew at shooting a tied bear, and a second line being drawn in Mississippi over race. The cartoon is funnier and sharper than the toy it produced.",

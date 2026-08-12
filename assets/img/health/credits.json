@@ -38,9 +38,10 @@
   "description": "View across the veranda towards the harbor, Roosevelt home at Oyster Bay, L.I. — 1 photographic print on stereo card : stereograph. — Creator: Keystone View Company — Date: 1919",
   "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
   "collection": "Library of Congress, Prints and Photographs Division.",
-  "px": "540x575",
-  "credit_line": "View across the veranda towards the harbor, Roosevelt home at Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
-  "crop_note": "Stereograph card; cropped to the left frame only."
+  "px": "1400x1521",
+  "credit_line": "Sagamore Hill from the lawn, the veranda at left, April 1919. One frame of a Keystone stereograph card, publisher's mount removed. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Keystone stereograph card; cropped to the LEFT FRAME ONLY, publisher's mount and printed caption strip removed, re-derived from the LOC master TIFF (the earlier file was 540px wide).",
+  "note": "The publisher's caption on the mount reads \"View Across the Veranda Towards the Harbor\" and the LOC record repeats it, but that is not what the frame shows: it is the house seen from the lawn, with the veranda along the left. Do not caption it as a view from the veranda."
  },
  "tr-full-length": {
   "source": "dam",

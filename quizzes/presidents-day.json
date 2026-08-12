@@ -1,0 +1,291 @@
+{
+ "id": "presidents-day",
+ "title": "The Twenty-Sixth",
+ "subtitle": "Roosevelt Among the Presidents",
+ "intro": "He was born under Buchanan, worked for three presidents before he was one, arrived in the office because a man was murdered in Buffalo, and ended up carved into a mountain in South Dakota alongside Washington, Jefferson and Lincoln. Thirteen questions for Presidents' Day on where Roosevelt sits in the line.",
+ "heroImage": "assets/img/presidentsday/oath-spot.jpg",
+ "heroAlt": "The library of the Wilcox house in Buffalo, where Roosevelt took the presidential oath",
+ "heroCredit": "The place where Roosevelt stood while taking the President's oath of office — the library of the Wilcox residence, Buffalo, New York. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Twenty-Sixth",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Presidents' Day quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Presidential Historian",
+   "line": "Perfect. You could referee the rankings."
+  },
+  {
+   "min": 11,
+   "name": "Cabinet Officer",
+   "line": "You know the line and where he stands in it."
+  },
+  {
+   "min": 8,
+   "name": "Private Secretary",
+   "line": "Well briefed."
+  },
+  {
+   "min": 5,
+   "name": "Correspondent",
+   "line": "Filing solid copy."
+  },
+  {
+   "min": 2,
+   "name": "Gallery Visitor",
+   "line": "Come back for the second term."
+  },
+  {
+   "min": 0,
+   "name": "New to the Beat",
+   "line": "Start in Buffalo and work outwards."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Who was president of the United States on the day Theodore Roosevelt was born, 27 October 1858?",
+   "options": [
+    "Abraham Lincoln",
+    "James Buchanan",
+    "Millard Fillmore",
+    "Franklin Pierce"
+   ],
+   "answer": 1,
+   "explanation": "Buchanan had two and a half years left and the Union was coming apart around him. Roosevelt was two when Lincoln was elected, six when he watched Lincoln's funeral procession pass his grandfather's house on Union Square, and he died in 1919 under Woodrow Wilson. Count the numbered presidencies from the fifteenth to the twenty-eighth and one lifetime spans fourteen of them — but only thirteen men, because Grover Cleveland is counted twice. Seven and a half of those years were Roosevelt's own.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a small boy of about two, standing on a chair",
+   "credit": "Theodore Roosevelt, about two years old — a carte-de-visite portrait of \"Teedie.\" Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The Making of a Boy"
+   }
+  },
+  {
+   "prompt": "Roosevelt took the oath at forty-two, the youngest man ever to hold the office. Who had held that record before him?",
+   "options": [
+    "Franklin Pierce, of New Hampshire",
+    "James K. Polk",
+    "Ulysses S. Grant",
+    "Abraham Lincoln"
+   ],
+   "answer": 2,
+   "explanation": "Grant was in his forties at his first inauguration and every other president but a handful had been fifty or over. Roosevelt was forty-two years and nearly eleven months, and no one has been younger since. Keep the two records apart, because they are constantly confused: Roosevelt is the youngest ever to hold the office, having reached it by succession, while John F. Kennedy, at forty-three, is the youngest ever elected to it.",
+   "image": "assets/img/shared/young-head-old-shoulders.jpg",
+   "imageAlt": "A Puck cover cartoon, \"A young head on old shoulders,\" with Puck tugging at Roosevelt's coat",
+   "credit": "\"A young head on old shoulders\" — Puck, 1 November 1899, addressed to Roosevelt while he was governor of New York. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "Roosevelt was not the first vice president to inherit the job when a president died. How many had done it before him?",
+   "options": [
+    "Four",
+    "One",
+    "Seven",
+    "None"
+   ],
+   "answer": 0,
+   "explanation": "John Tyler after Harrison, Millard Fillmore after Taylor, Andrew Johnson after Lincoln, and Chester Arthur after Garfield. Roosevelt was the fifth, and the third to arrive because a president had been murdered. Every one of the four before him had been treated by Washington as a caretaker; none had been nominated by his own party for a term of his own. Roosevelt broke that in 1904.",
+   "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
+   "imageAlt": "Vice President Roosevelt on the platform at McKinley's second inauguration",
+   "credit": "Vice-President Roosevelt at the swearing in of President McKinley, 4 March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "McKinley was shot in the Temple of Music at the Pan-American Exposition on 6 September 1901. How was he carried to the fair's emergency hospital?",
+   "options": [
+    "In the presidential carriage",
+    "On a stretcher, by exposition guards",
+    "In the fair's own electric ambulance",
+    "By the exposition's electric railway"
+   ],
+   "answer": 2,
+   "explanation": "The Pan-American Exposition was an advertisement for electricity, lit at night from Niagara Falls, and it kept an electric ambulance on the grounds. It carried the president to the emergency hospital where the surgeons operated, and later out to the Milburn house where he died on 14 September. He was moved by a machine that had barely existed a decade before.",
+   "image": "assets/img/presidentsday/expo-ambulance.jpg",
+   "imageAlt": "An electric ambulance lettered Pan-American Exposition outside the fair's emergency hospital",
+   "credit": "The Pan-American Exposition ambulance in which President McKinley was taken from the Temple of Music, 1901. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rise to Power"
+   }
+  },
+  {
+   "prompt": "Roosevelt was sworn in that afternoon in a friend's library on Delaware Avenue in Buffalo. Who administered the oath?",
+   "options": [
+    "A local federal judge",
+    "Chief Justice Melville Fuller",
+    "Secretary of War Elihu Root",
+    "The mayor of Buffalo"
+   ],
+   "answer": 0,
+   "explanation": "John R. Hazel, a district judge, stood in the middle of Ansley Wilcox's green-lit library at half past three on 14 September 1901 and read the oath out for Roosevelt to repeat. Roosevelt raised his arm rigidly, said every word with what one witness called terrible earnestness, and then added a flourish of his own that is not in the Constitution: \"And thus I swear.\" He bowed his head and the room stayed silent for three full minutes.",
+   "image": "assets/img/presidentsday/oath-spot.jpg",
+   "imageAlt": "The bookshelves and furniture of the Wilcox library in Buffalo",
+   "credit": "The place where Roosevelt stood while taking the President's oath of office — the library of the Wilcox residence, Buffalo. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where History Happened"
+   }
+  },
+  {
+   "prompt": "Before the oath, Roosevelt made a short statement that steadied the markets and the country. Where did the words come from?",
+   "options": [
+    "A line from Lincoln's second inaugural",
+    "Elihu Root, who had whispered them",
+    "A draft he had written on the train",
+    "His father's favourite passage"
+   ],
+   "answer": 1,
+   "explanation": "He said it would be his aim to \"continue absolutely unbroken the policy of President McKinley\" for the peace, prosperity and honour of the country — the sources that print the sentence vary in the tail, but not in that clause. Roosevelt was praised around the world for it. Root, the Secretary of War, had suggested the wording under his breath while the library clock was striking, and Roosevelt's parrot memory held it intact. Wall Street had spent that weekend in something close to terror at the thought of him.",
+   "image": "assets/img/presidentsday/wilcox-oath.jpg",
+   "imageAlt": "The Wilcox house in Buffalo hung with black drapery on the day of the swearing-in",
+   "credit": "The Wilcox home in Buffalo in which President Roosevelt was sworn in, September 1901, photographed for Leslie's Weekly. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "Roosevelt was vice president for barely six months. What did that job actually consist of?",
+   "options": [
+    "Chairing the cabinet for McKinley",
+    "Touring the Philippines for McKinley",
+    "Presiding over the Senate for a few days",
+    "Nothing at all — the Senate never sat"
+   ],
+   "answer": 2,
+   "explanation": "The special session of the Senate that followed the 1901 inauguration lasted less than a week and then adjourned until December, and that was the whole of his official duty. McKinley did not want his advice and did not ask for it. Roosevelt, going quietly out of his mind, looked into studying for the bar so he would have something to do — and then spent the best family summer of his life at Sagamore Hill.",
+   "image": "assets/img/presidentsday/vp-roosevelt-yates.jpg",
+   "imageAlt": "Vice President Roosevelt seated beside Governor Yates of Illinois",
+   "credit": "Vice President Roosevelt and Governor Yates, Springfield, Illinois, 30 August 1901 — one week before McKinley was shot. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rise to Power"
+   }
+  },
+  {
+   "prompt": "Benjamin Harrison made Roosevelt a federal Civil Service Commissioner in 1889. Who kept him in the job after the 1892 election, across the party line?",
+   "options": [
+    "Rutherford B. Hayes",
+    "William McKinley",
+    "Chester Arthur",
+    "Grover Cleveland"
+   ],
+   "answer": 3,
+   "explanation": "Cleveland was a Democrat Roosevelt had campaigned hard against, and he asked him to stay anyway — there was not another man in the country, he was reported as saying, who could do it as well. So Roosevelt worked for three presidents before he was one: Harrison, Cleveland, and McKinley, who made him Assistant Secretary of the Navy in 1897.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Roosevelt at work in his private office at the White House",
+   "credit": "Theodore Roosevelt in his private office, the White House, Washington, D.C. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The Rise to Power"
+   }
+  },
+  {
+   "prompt": "Roosevelt is the newest face on Mount Rushmore by half a century. Who decided he belonged there?",
+   "options": [
+    "President Coolidge, at the dedication",
+    "The Congress that funded it in 1925",
+    "Gutzon Borglum, a Bull Moose delegate",
+    "The state of South Dakota"
+   ],
+   "answer": 2,
+   "explanation": "The sculptor chose the four himself, and he was not a neutral party: Borglum had sat among the Progressive delegates who nominated Roosevelt for president in 1912, and Roosevelt had kept a Borglum bust of Lincoln in the White House. Not everyone was sure a man only a few years dead belonged on a mountain with Washington, Jefferson and Lincoln. Carving ran from October 1927 to October 1941 and employed about four hundred people, none of whom died on the job.",
+   "image": "assets/img/presidentsday/rushmore-highsmith.jpg",
+   "imageAlt": "The four carved heads of Mount Rushmore — Washington, Jefferson, Roosevelt and Lincoln — against a clear sky",
+   "credit": "Mount Rushmore National Memorial, South Dakota. Photograph by Carol M. Highsmith. Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "The Measure of the Man"
+   }
+  },
+  {
+   "prompt": "Roosevelt's admirers wanted a memorial to him on the Tidal Basin in Washington, in line with the Washington Monument and the Lincoln Memorial. Who ended up with the site?",
+   "options": [
+    "Ulysses S. Grant",
+    "Franklin Roosevelt",
+    "Woodrow Wilson",
+    "Thomas Jefferson"
+   ],
+   "answer": 3,
+   "explanation": "Southern supporters of a Jefferson memorial held the Roosevelt Memorial Association off, and President Coolidge himself wondered whether more time should not pass before Roosevelt was given his place in history. The Jefferson Memorial is what stands there today. Roosevelt eventually got a wooded island in the Potomac instead, which is a great deal more like him than a rotunda would have been. Borglum's answer to the same problem was to carve him into a mountain where nobody could move him.",
+   "image": "assets/img/lastdays/grave-1919.jpg",
+   "imageAlt": "Roosevelt's grave at Oyster Bay in 1919 with an officer standing guard",
+   "credit": "Roosevelt's grave at Youngs Memorial Cemetery, Oyster Bay, 1919. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "The Measure of the Man"
+   }
+  },
+  {
+   "prompt": "For the whole of the term he inherited, Roosevelt had no vice president at all. Why was the office left standing empty?",
+   "options": [
+    "Nothing in the Constitution allowed it to be filled",
+    "The Senate rejected every name Roosevelt sent up",
+    "Roosevelt asked Congress to leave the post empty",
+    "The cabinet took the vice president's duties on"
+   ],
+   "answer": 0,
+   "explanation": "There was simply no machinery for it. The Constitution said nothing about replacing a vice president who had moved up, and would not until the Twenty-fifth Amendment in 1967, so from September 1901 to March 1905 the office stood vacant. Roosevelt was in no hurry about it. He took what one account calls a malicious delight in watching hopefuls angle for the 1904 ticket, and settled in the end on Charles W. Fairbanks of Indiana.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "A 1904 campaign poster with portraits of Theodore Roosevelt and Charles W. Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks, 1904. Lithograph by Louis Roesch Co., San Francisco. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "Roosevelt hand-picked William Howard Taft as his successor and then ran against him in 1912, finishing ahead of him. How many states did the sitting president carry?",
+   "options": [
+    "Two",
+    "Eleven",
+    "None at all",
+    "Nineteen"
+   ],
+   "answer": 0,
+   "explanation": "Utah and Vermont, and eight electoral votes against Roosevelt's eighty-eight and Wilson's 435. No sitting president seeking re-election has done worse since. Roosevelt got more votes than Taft, which had never happened to a third party before and has not happened since — and the split handed the White House to Woodrow Wilson on about forty-two per cent of the popular vote.",
+   "image": "assets/img/election1912/presidential-map.jpg",
+   "imageAlt": "A 1912 campaign poster showing Roosevelt, Wilson and Taft over a map",
+   "credit": "Presidential map, 1912 — a campaign poster with Theodore Roosevelt, Woodrow Wilson and William Howard Taft. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "The White House has a room named for Roosevelt. What hangs over its mantel?",
+   "options": [
+    "A portrait that changes by party",
+    "Theodore Roosevelt's portrait, always",
+    "Franklin Roosevelt's portrait, always",
+    "The Rough Riders' regimental colours"
+   ],
+   "answer": 0,
+   "explanation": "By tradition Franklin Roosevelt hangs there under Democratic presidents and Theodore under Republicans, and the swap is one of the first small jobs of a new administration. Bill Clinton left Theodore up for all eight of his years, on the practical ground that the Tade Styka portrait of him as a Rough Rider is painted the wide way and fits the mantel. The room itself is Theodore's old office — it sits in the West Wing he had built in 1902 to get the clerks and the reporters out of the family's living quarters, and it was named for him by Richard Nixon in 1969.",
+   "image": "assets/img/presidentsday/canton-mckinley-memorial.jpg",
+   "imageAlt": "President Roosevelt raising his hat while reviewing a parade in Canton, Ohio",
+   "credit": "President Roosevelt reviewing the parade on McKinley Memorial Day, Canton, Ohio, 30 September 1907 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/legacy",
+    "label": "The Measure of the Man"
+   }
+  }
+ ]
+}

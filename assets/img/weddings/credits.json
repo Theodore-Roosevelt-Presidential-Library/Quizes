@@ -1,0 +1,38 @@
+{
+ "spring-rice": {
+  "source": "loc",
+  "ref": "2014691863",
+  "source_file": "loc_pictures_2014691863",
+  "description": "Sir Cecil Spring-Rice",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1946"
+ },
+ "edith-carow-young": {
+  "source": "dam",
+  "ref": "468cc9a8-412b-411c-b040-85afeb486d98",
+  "source_file": "har_4893153_Edith_K_Carow.jpg",
+  "description": "Edith K. Carow \u2014 Edith Kermit Carow Roosevelt. Photograph by William Notman. \u2014 Creator: William Notman & Son$$QWilliam Notman & Son \u2014 Date: 1885",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1921"
+ },
+ "edith-carow-portrait": {
+  "source": "dam",
+  "ref": "2d318386-6425-49e8-bb9a-da9302e7fdfc",
+  "source_file": "har_4893151_Edith_Kermit_Carow.jpg",
+  "description": "Edith Kermit Carow \u2014 Edith Kermit Carow Roosevelt. Photograph by J. Ludovici. \u2014 Creator: Ludovici, Julius$$QLudovici, Julius \u2014 Date: 1885",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1941"
+ },
+ "tr-1885": {
+  "source": "loc",
+  "ref": "2009633128",
+  "source_file": "loc_pictures_2009633128",
+  "description": "Theodore Roosevelt in 1885",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2006"
+ }
+}

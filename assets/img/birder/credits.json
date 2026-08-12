@@ -1,0 +1,38 @@
+{
+ "warbler-plate": {
+  "source": "loc",
+  "ref": "2003664034",
+  "source_file": "loc_pictures_2003664034",
+  "description": "1. & 2. Chestnut-sided warbler. (1. Male, 2. Female). 3. Yellow warbler",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ },
+ "spitfire-lake": {
+  "source": "loc",
+  "ref": "2008679672",
+  "source_file": "loc_pictures_2008679672",
+  "description": "The Inlet, Spit-Fire Lake, Adirondack Mountains",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1776"
+ },
+ "smithsonian-castle": {
+  "source": "loc",
+  "ref": "2024723288",
+  "source_file": "loc_pictures_2024723288",
+  "description": "Smithsonian Institute, south side",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x698"
+ },
+ "new-forest-rufus-stone": {
+  "source": "loc",
+  "ref": "2002708271",
+  "source_file": "loc_pictures_2002708271",
+  "description": "[Rufus Stone, New Forest, Winchester, England]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1041"
+ }
+}

@@ -100,28 +100,86 @@ CORPUS_ALIASES = {
 _ALIAS_KEY = {k: v.split(" [")[0] for k, v in CORPUS_ALIASES.items()}
 
 
+# ---------------------------------------------------------------------------
+# The corpus contains NOVELS. Their invented dialogue greps exactly like a real
+# quotation, so a writer searching for a line and finding it "in the corpus"
+# can be looking at something an author made up in 2019. Nobody catches that by
+# eye at thirty-five quizzes, let alone a hundred.
+#
+# The sharpest example is Helen Topping Miller's "Christmas at Sagamore Hill"
+# (1960), whose own jacket calls it a series of "fictional Christmas vignettes."
+# It is the single most greppable book in the corpus for holiday material — the
+# exact subject we keep writing quizzes about — and it reads as a warm domestic
+# account of a real family at a real house in a real year (1898). Nothing about
+# the prose announces itself as invented.
+#
+# So: a quotation found ONLY in these is not verified, it is a red flag. Every
+# title below was confirmed by opening the file, not by guessing from the name.
+FICTION = {
+    "Helen Topping Miller - Christmas at Sagamore Hill (1960).md":
+        "fiction — jacket copy calls it 'fictional Christmas vignettes'",
+    "Jeff Shaara - The Old Lion (2023).md":
+        "fiction — the author's note says 'This is a novel'",
+    "Jerome Charyn - The Perilous Adventures of the Cowboy King (2019).md":
+        "fiction — title page reads 'A NOVEL'",
+    "Gilbert Morris - The Rough Rider (2012).md":
+        "fiction — Bethany House historical novel",
+    "Burt Solomon - The Attempted Murder of Teddy Roosevelt (2019).md":
+        "fiction — Tor/Forge mystery novel",
+    "Dorothy Clarke Wilson - Alice and Edith - the two wives of Teddy "
+    "Roosevelt - a biographical novel (2011).md":
+        "fiction — 'a biographical novel', and it says so in the title",
+    "Stephanie Marie Thornton - American Princess (2019).md":
+        "fiction — novel about Alice Roosevelt Longworth",
+    "Mary Calvi - If a Poem Could Live and Breathe (2023).md":
+        "fiction — 'A Novel of Teddy Roosevelt's First Love'",
+    "James Ross - Hunting Teddy Roosevelt (2019).md":
+        "fiction — Regal House novel",
+    "Mark Paul Jacobs - How Teddy Roosevelt Slew the Last Mighty T-Rex "
+    "(2013).md":
+        "fiction — the copyright page says 'is a work of fiction'",
+}
+
+# Not fiction, but not citable either: illustrated children's books that
+# compress and dramatise. Fine to read, wrong to source a claim to.
+NOT_CITABLE = {
+    "Leslie Kimmelman - Mind your manners, Alice Roosevelt! (2020).md":
+        "children's picture book — dramatised, not a source",
+    "Don Brown - Teedie - the story of young Teddy Roosevelt (2019).md":
+        "children's picture book — dramatised, not a source",
+}
+
+SUSPECT = dict(FICTION, **NOT_CITABLE)
+
+
 def corpus_hits(needle, limit=3):
-    """Grep the corpus. Returns the titles that contain the string.
+    """Grep the corpus. Returns (real_hits, suspect_hits).
 
     Duplicate editions of the same book are collapsed to one entry, so the
-    count of hits is a count of BOOKS rather than a count of files.
+    count of hits is a count of BOOKS rather than a count of files. Novels and
+    picture books are separated out rather than dropped — a writer needs to
+    SEE that the only place a line appears is a novel, because that is the
+    finding, not a null result.
     """
     if not os.path.isdir(CORPUS):
-        return None
+        return None, []
     try:
         r = subprocess.run(["grep", "-rl", "-F", needle, CORPUS],
                            capture_output=True, text=True, timeout=120)
         files = [os.path.basename(f) for f in r.stdout.strip().split("\n") if f]
-        seen, out = set(), []
+        seen, real, bad = set(), [], []
         for f in files:
             key = _ALIAS_KEY.get(f, f)
             if key in seen:
                 continue
             seen.add(key)
-            out.append(CORPUS_ALIASES.get(f, f))
-        return out[:limit]
+            if f in SUSPECT:
+                bad.append("%s [%s]" % (f.rsplit(" (", 1)[0], SUSPECT[f]))
+            else:
+                real.append(CORPUS_ALIASES.get(f, f))
+        return real[:limit], bad[:limit]
     except Exception:
-        return []
+        return [], []
 
 
 def check(path, quiet=False):
@@ -136,10 +194,24 @@ def check(path, quiet=False):
         problems.append("%d questions — 15 is the ceiling" % n)
 
     for i, x in enumerate(q.get("questions", []), 1):
-        # Scan prompt and explanation separately. Concatenating them can leave an
-        # odd number of straight quote characters across the join, which makes the
+        # Scan each field separately. Concatenating them can leave an odd number
+        # of straight quote characters across the join, which makes the
         # pair-matcher grab the prose between two unrelated quotations.
+        #
+        # OPTIONS ARE SCANNED TOO, and that is not an afterthought. For the
+        # first thirty-five quizzes this tool read only the prompt and the
+        # explanation, so a quotation sitting in a wrong-answer slot was never
+        # checked by anything. An audit then found six fabricated sentences
+        # inside quotation marks in the options of a quiz about two deaths —
+        # invented words in a dead man's mouth, on the one subject where that
+        # is least forgivable — and this tool had reported the file CLEAN.
+        #
+        # A distractor in quotation marks is a quotation. Screenshot it, or let
+        # a search engine index it, and nothing distinguishes it from a real
+        # one. So they get the same treatment as any other quoted passage: find
+        # it in a real book or do not print it inside quotation marks.
         fields = [x.get("explanation", ""), x.get("prompt", "")]
+        fields += [o for o in x.get("options", []) if isinstance(o, str)]
         text = " ".join(fields)
 
         for phrase, why in KNOWN_BAD.items():
@@ -151,10 +223,16 @@ def check(path, quiet=False):
                                "Confirm it is being corrected, not repeated. %s"
                                % (i, phrase, why))
 
+        # Keep track of WHERE each quotation came from. A missing quotation in
+        # an explanation is usually a sourcing slip; a missing quotation in a
+        # wrong-answer option is usually something somebody made up, and the
+        # writer needs to be told which of those they are looking at.
+        n_body = 2
         found = []
-        for f in fields:
-            found.extend(quotations(f))
-        for m in found:
+        for k, f in enumerate(fields):
+            for m in quotations(f):
+                found.append((m, "option" if k >= n_body else "text"))
+        for m, where in found:
             if len(m.split()) < 3:
                 continue
             # Trailing punctuation usually sits inside our quotation marks but not
@@ -168,17 +246,33 @@ def check(path, quiet=False):
             fragment = max(re.split(r"[\"'\u2018\u2019\u201c\u201d]", trimmed),
                            key=len).strip() if any(c in trimmed for c in "\"'\u2018\u2019") else ""
             candidates = [m, trimmed] + ([fragment] if len(fragment.split()) >= 4 else [])
-            hits = None
+            hits, fake = None, []
             for c in dict.fromkeys(candidates):
-                hits = corpus_hits(c)
+                hits, bad = corpus_hits(c)
                 if hits is None:
                     break
+                fake = fake or bad
                 if hits:
                     break
             if hits is None:
                 notes.append("corpus not reachable — quotations unchecked")
                 break
-            if not hits:
+            if not hits and fake:
+                # The worst case, and the reason this check exists: the line is
+                # in the corpus, so a plain grep "finds" it, but the only book
+                # it is in is one somebody invented.
+                problems.append('q%d QUOTATION APPEARS ONLY IN FICTION: "%s" '
+                                '— found in %s. This is not a source. Do not '
+                                'use the line unless a real one carries it.'
+                                % (i, m[:70], "; ".join(fake)))
+            elif not hits and where == "option":
+                problems.append('q%d FABRICATED QUOTATION IN AN ANSWER OPTION: '
+                                '"%s" — not in any book. A wrong answer in '
+                                'quotation marks is still a quotation: '
+                                'screenshotted, nothing marks it as invented. '
+                                'Source it or drop the quotation marks.'
+                                % (i, m[:70]))
+            elif not hits:
                 problems.append('q%d QUOTATION NOT FOUND: "%s"' % (i, m[:90]))
             elif not quiet:
                 notes.append('q%d ok: "%s" (%s)' % (i, m[:52], hits[0][:34]))

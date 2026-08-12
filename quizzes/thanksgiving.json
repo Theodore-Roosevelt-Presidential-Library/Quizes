@@ -1,0 +1,273 @@
+{
+ "id": "thanksgiving",
+ "title": "Thanksgiving with the Roosevelts",
+ "subtitle": "Chestnut Hill, Sagamore Hill and the White House",
+ "intro": "Roosevelt ranked Thanksgiving a distant second to Christmas, which did not stop the day from carrying a good deal of his life: the vow he made at twenty in a house outside Boston, his father’s standing appointment with the newsboys, a possum, a turkey and a newspaper war. Twelve questions on the fourth Thursday in November.",
+ "heroImage": "assets/img/thanksgiving/state-dining-room.jpg",
+ "heroAlt": "The White House State Dining Room with mounted game heads on the panelled walls",
+ "heroCredit": "The State Dining Room, White House. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Thanksgiving with the Roosevelts",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library’s Thanksgiving quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 12,
+   "name": "Head of the Table",
+   "line": "Perfect. Carve away."
+  },
+  {
+   "min": 10,
+   "name": "Second Helping",
+   "line": "Very close to the whole bird."
+  },
+  {
+   "min": 8,
+   "name": "Family Historian",
+   "line": "You know this household."
+  },
+  {
+   "min": 6,
+   "name": "Welcome Guest",
+   "line": "Solid. Pass the plate."
+  },
+  {
+   "min": 3,
+   "name": "Late Arrival",
+   "line": "There is still pie."
+  },
+  {
+   "min": 0,
+   "name": "Waiting in the Hall",
+   "line": "Everyone starts at the children’s table."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In his Autobiography Roosevelt called Thanksgiving “an appreciated festival.” Which holiday did he say it came nowhere near?",
+   "options": [
+    "New Year’s Day",
+    "The Fourth of July",
+    "His own birthday",
+    "Christmas"
+   ],
+   "answer": 3,
+   "explanation": "Christmas at the Roosevelt house was, he wrote, “an occasion of literally delirious joy.” The children hung up the biggest stockings they could borrow from the grown‑ups and opened them before dawn sitting on their parents’ bed, with the larger presents laid out on a table for each child. He said he had tried to reproduce those Christmases exactly for his own children.",
+   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
+   "imageAlt": "Tintype of the four Roosevelt children",
+   "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.’s early life"
+   }
+  },
+  {
+   "prompt": "Theodore Roosevelt Sr. spent part of every Thanksgiving Day away from his own table. Where did he go?",
+   "options": [
+    "To the dinner at the Newsboys’ Lodging‑House",
+    "To a Union veterans’ hospital in Virginia",
+    "To the family’s country place on Long Island",
+    "To the natural history museum he helped found"
+   ],
+   "answer": 0,
+   "explanation": "His son remembered the pattern exactly: on Thanksgiving and Christmas his father would drive his mother and a couple of friends up to the racing park for lunch, and was always back in time for the newsboys. The children were taken along from a very early age and required to help. One of those boys, sent out West as a child by the Children’s Aid Society, was Governor of Alaska by the time Roosevelt reached the White House.",
+   "image": "assets/img/father/newsboys-washing-up.jpg",
+   "imageAlt": "Boys washing at a long trough of taps in the washroom of a New York newsboys’ lodging house",
+   "credit": "Washing up at a New York newsboys’ lodging house, about 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/father",
+    "label": "The father he measured himself against"
+   }
+  },
+  {
+   "prompt": "Thanksgiving 1878 found the Harvard junior Roosevelt at the Saltonstall house in Chestnut Hill, outside Boston. What did he privately resolve there?",
+   "options": [
+    "To spend the following year in Germany",
+    "To give up shooting and collecting birds",
+    "To win and marry Alice Hathaway Lee",
+    "To leave Harvard and read for the bar"
+   ],
+   "answer": 2,
+   "explanation": "He had written to his sister that his Harvard workload would keep him from coming home for the holiday; his diary shows him driving out to Chestnut Hill with Dick Saltonstall instead. The vow survives only as a backward glance — more than a year later he wrote that “a year ago last Thanksgiving I made a vow that win her I would if it were possible.” In a black mood he had torn the pages covering that Thanksgiving out of the diary.",
+   "image": "assets/img/early-life/alice-hathaway-lee.jpg",
+   "imageAlt": "Alice Hathaway Lee, the first Mrs. Theodore Roosevelt",
+   "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "Roosevelt’s eldest daughter Alice spent most of her childhood Thanksgivings somewhere other than with her father and stepmother. Where?",
+   "options": [
+    "With her aunt Corinne in New Jersey",
+    "With her Lee grandparents in Boston",
+    "With the Longworths in Cincinnati",
+    "At a boarding school in Connecticut"
+   ],
+   "answer": 1,
+   "explanation": "Her mother died two days after the birth and the Lees kept their claim on the child: three weeks each spring, taking in Decoration Day, and three each autumn, taking in the holiday. Alice thought it worth the journey. A New England Thanksgiving, she wrote, is “a feast of plenty and a gathering of the clan” — scores of relatives of every age putting away an unbelievable quantity of very solid food.",
+   "image": "assets/img/early-life/alice-corinne-anna.jpg",
+   "imageAlt": "Alice, Corinne and Anna Roosevelt photographed together",
+   "credit": "Alice, Corinne, and Anna. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Roosevelt issued his first Thanksgiving proclamation in November 1901. Whose death did it open by mourning?",
+   "options": [
+    "Benjamin Harrison",
+    "Queen Victoria",
+    "Senator Mark Hanna",
+    "President William McKinley"
+   ],
+   "answer": 3,
+   "explanation": "“This Thanksgiving finds the people still bowed with sorrow for the death of a great and good President,” he wrote, seven weeks after taking the oath at Buffalo, and he named Thursday the 28th as the day. The holiday itself was quiet enough that the New York Journal headlined its account “Simplicity Marks the White House Thanksgiving.”",
+   "image": "assets/img/newyear/white-house-1905.jpg",
+   "imageAlt": "The White House, 1905",
+   "credit": "The White House, Washington, D.C., 1905. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "By his sister Corinne’s account, what closed Thanksgiving dinner at the Roosevelt White House, exactly as it closed Christmas?",
+   "options": [
+    "A Virginia reel",
+    "A reading from Scripture",
+    "A round of boxing",
+    "A brass band on the portico"
+   ],
+   "answer": 0,
+   "explanation": "Corinne Roosevelt Robinson and her husband came down for Thanksgiving through the early years of the presidency, and she remembered the two holidays as near twins — all the family connections at one long table, then dancing in the East Room, with the reel always last.",
+   "image": "assets/img/newyear/east-room-1903.jpg",
+   "imageAlt": "The East Room of the White House, 1903",
+   "credit": "The East Room, the grand reception room of the White House, 1903. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Thanksgiving Day 1902 at the White House. How did the President spend the afternoon?",
+   "options": [
+    "Out on a three‑hour ride with family and friends",
+    "Reviewing the Marine band on the South Lawn",
+    "At a football game between Harvard and Yale",
+    "Sailing down the Potomac on the Sylph"
+   ],
+   "answer": 0,
+   "explanation": "He wrote to Kermit the next morning that the party had set out “looking as we started a good deal like the Cumberbach family”: Archie on his beloved pony, Ethel on Yagenka, Edith on Jocko Root, Ted on a first‑class cavalry horse and their father on Renown, with Senator Lodge and General Wood among the riders. He called it a three hours’ scamper and thought it great fun.",
+   "image": "assets/img/thanksgiving/roosevelts-riding.jpg",
+   "imageAlt": "Theodore and Edith Roosevelt riding at a walk along a track, photographed from the side",
+   "credit": "Col. and Mrs. Roosevelt out riding near Sagamore Hill, photographed in the 1890s — not on the ride described here. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "A Boston Herald correspondent reported that at the White House Thanksgiving of 1904 the Roosevelt children had chased a frightened turkey about the grounds while their father laughed. How did Roosevelt answer?",
+   "options": [
+    "He invited the correspondent to the next year’s Thanksgiving dinner",
+    "He published a signed rebuttal in a rival Boston newspaper",
+    "He asked the Attorney General to prosecute the Herald’s owners",
+    "He barred the paper from federal news and demanded a retraction"
+   ],
+   "answer": 3,
+   "explanation": "The dispatch alleged cruelty, and it was about his children, which he treated as a wholly different order of offence from anything said about himself. He called it not merely false but wilfully false, demanded an apology, and then tried to stop the Weather Bureau wiring storm bulletins to the whole city of Boston — which he could not make stick. The Herald retracted; the embargo came off.",
+   "image": "assets/img/thanksgiving/white-house-turkey-cartoon.jpg",
+   "imageAlt": "Newspaper cartoon of a turkey lying in a reclining chair being given chloroform by a Red Cross doctor while a bespectacled man weeps",
+   "credit": "“The proper way to kill the White House turkey,” newspaper cartoon signed “Bart,” published between 1901 and 1909. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "One clear, cold Thanksgiving at Sagamore Hill the family’s big yellow dog treed a possum on the walk home. What was odd about that dog?",
+   "options": [
+    "He was deaf, and worked entirely to hand signals",
+    "He had come home with Roosevelt from Cuba",
+    "He was the only dog allowed indoors at night",
+    "He was male, and the children had named him Susan"
+   ],
+   "answer": 3,
+   "explanation": "They had walked five miles that morning to chop out a bridle path choked with fallen timber, and the sun was long down before they turned for home. Roosevelt had once let a possum go for being such an absurd creature and regretted it; this time he shot. The five‑year‑old then explained to the seven‑year‑old that “it was the first time he had ever seen a fellow killed.”",
+   "image": "assets/img/thanksgiving/sagamore-hill-house.jpg",
+   "imageAlt": "Sagamore Hill seen from the lawn, with a large weeping tree beside the veranda",
+   "credit": "Sagamore Hill, Oyster Bay, 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill and other Roosevelt places"
+   }
+  },
+  {
+   "prompt": "Writing to his son Archie about Thanksgiving Day 1908, Roosevelt listed how Archie’s younger brother Quentin had filled it. Besides roller‑skating and football, what errand had Quentin run?",
+   "options": [
+    "He fetched a pig from the slaughterhouse for dinner",
+    "He carried the proclamation to the Government Printer",
+    "He walked the Shetland pony down to the blacksmith",
+    "He rowed guests across the Potomac to the Virginia shore"
+   ],
+   "answer": 0,
+   "explanation": "Quentin was eleven, just out of a plaster cast and — his father reported with some relief — thoroughly devoted to Episcopal High School. There was engineering work, electrical work, a tour all round the city, and, in his father’s words, “he romped all over the White House.” It was the family’s last Thanksgiving there.",
+   "image": "assets/img/christmas/archie-and-quentin-1904.jpg",
+   "imageAlt": "President Roosevelt with Archie and Quentin",
+   "credit": "President Roosevelt, Archie Roosevelt right side, Quentin Roosevelt left side, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "In November 1903 J. P. Morgan had Senator Mark Hanna to Thanksgiving dinner at his Madison Avenue house. What did Morgan spend the meal urging?",
+   "options": [
+    "That Hanna settle the anthracite coal strike",
+    "That Hanna block the canal treaty in the Senate",
+    "That Hanna take over the Treasury Department",
+    "That Hanna run against Roosevelt in 1904"
+   ],
+   "answer": 3,
+   "explanation": "Wall Street was still shaken by that summer’s panic and wanted a businessman in the White House. Morgan called it Hanna’s duty to the country; when the Senator would not answer, he turned to Mrs. Hanna and said a nomination would be easy “if he would only give the word.” She replied that nothing would induce her husband to run. Hanna was dead of typhoid by the middle of February.",
+   "image": "assets/img/presidency/campaign-1904-poster.jpg",
+   "imageAlt": "A 1904 campaign poster with portraits of Theodore Roosevelt and Charles W. Fairbanks",
+   "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks, 1904. Lithograph by Louis Roesch Co., San Francisco. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Thanksgiving dinner at the Roosevelt White House was eaten in a room rebuilt in 1902. What looked down on the table?",
+   "options": [
+    "A gallery built for the Marine band",
+    "Mounted heads of North American game",
+    "A ceiling painted with the seals of the states",
+    "Portraits of every previous president"
+   ],
+   "answer": 1,
+   "explanation": "The McKim, Mead & White rebuilding left the State Dining Room two‑thirds larger than the old one, oak‑panelled and seating more than a hundred. Then the heads went up: a distinctly disgruntled moose, an elk, a bison and a dozen more North American animals staring glassily out over the guests. It was the least historically faithful room in the rebuilt house and the most like the man who lived there.",
+   "image": "assets/img/thanksgiving/state-dining-room.jpg",
+   "imageAlt": "The White House State Dining Room with a long polished table, chandelier and mounted moose and elk heads on the panelled walls",
+   "credit": "The State Dining Room, White House. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Sagamore Hill and other Roosevelt places"
+   }
+  }
+ ]
+}

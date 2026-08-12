@@ -1,0 +1,273 @@
+{
+ "id": "inauguration-1905",
+ "title": "Inauguration Day, 1905",
+ "subtitle": "4 March 1905 — the one he won himself",
+ "intro": "He had taken the oath once already, in a friend’s parlour in Buffalo, in a borrowed suit, hours after McKinley died across town. This one was his: a Lincoln relic on his finger, Rough Riders at his elbow, thirty‑five thousand people coming up Pennsylvania Avenue, six Native leaders on horseback somewhere in the column. Twelve questions on Roosevelt’s only inauguration.",
+ "heroImage": "assets/img/inauguration1905/oath-of-office.jpg",
+ "heroAlt": "The east front of the Capitol on 4 March 1905, flags hung between the columns and a dense crowd on the steps",
+ "heroCredit": "President Roosevelt taking the oath of office, 4 March 1905. One frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Inauguration Day, 1905",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library’s 1905 Inauguration quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 12,
+   "name": "On the Platform",
+   "line": "Perfect. Hand on the Bible."
+  },
+  {
+   "min": 10,
+   "name": "In the Front Row",
+   "line": "You heard every word over the wind."
+  },
+  {
+   "min": 8,
+   "name": "Rough Rider Escort",
+   "line": "Close beside him all day."
+  },
+  {
+   "min": 6,
+   "name": "On the Avenue",
+   "line": "A good view of the parade."
+  },
+  {
+   "min": 3,
+   "name": "Up a Lamp‑Post",
+   "line": "You caught some of it."
+  },
+  {
+   "min": 0,
+   "name": "Reading It in the Paper",
+   "line": "Next time, come to Washington."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Who administered the oath of office to Roosevelt on 4 March 1905?",
+   "options": [
+    "Chief Justice Melville Fuller",
+    "Chief Justice William Howard Taft",
+    "Justice Oliver Wendell Holmes",
+    "Justice John Marshall Harlan"
+   ],
+   "answer": 0,
+   "explanation": "Fuller had been Chief Justice since 1888. He was a notably small man who used a stool in court so that his feet would not dangle, and it was his idea that the nine justices shake hands before every session. Four years later he fumbled Taft’s oath, telling the new president to swear he would “execute the Constitution,” and Taft dutifully repeated the mistake.",
+   "image": "assets/img/inauguration1905/oath-of-office.jpg",
+   "imageAlt": "The east front of the Capitol on inauguration day, flags hung between the columns and a dense crowd on the steps",
+   "credit": "President Roosevelt taking the oath of office, Chief Justice Fuller administering it, Capitol steps, 4 March 1905. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "On the night before the inauguration, Secretary of State John Hay sent Roosevelt a present. What was it?",
+   "options": [
+    "A gold ring holding a lock of Lincoln’s hair",
+    "A pen Lincoln used to sign the Emancipation Proclamation",
+    "Lincoln’s own manuscript of the Second Inaugural",
+    "The watch Lincoln carried on the night he was shot"
+   ],
+   "answer": 0,
+   "explanation": "Hay’s note asked him to wear it the next day, because he was “one of the men who most thoroughly understand and appreciate Lincoln.” Roosevelt wore it through the oath and told Hay it would remind him to put human rights above property rights. His sister Corinne said she had never known her brother to receive a gift he cared for so deeply. Hay was already ill; he was dead by July.",
+   "image": "assets/img/inauguration1905/john-hay.jpg",
+   "imageAlt": "Seated three-quarter portrait of John Hay, white-bearded, holding a rolled paper",
+   "credit": "John Hay, Secretary of State, about 1902. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around Roosevelt"
+   }
+  },
+  {
+   "prompt": "What had John Hay been to Abraham Lincoln?",
+   "options": [
+    "His law partner in Springfield",
+    "His Secretary of the Navy",
+    "His campaign manager in 1860",
+    "One of his White House secretaries"
+   ],
+   "answer": 3,
+   "explanation": "Hay went into the Lincoln White House as a very young man and later wrote, with John Nicolay, the ten‑volume life of Lincoln that Roosevelt read one summer as president. “If I ever envied any man, it was John Hay,” Roosevelt said, for having known Lincoln so intimately. Most Sundays he stopped at Hay’s house on Lafayette Square on the way home from church to get him talking about it.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt in his private office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around Roosevelt"
+   }
+  },
+  {
+   "prompt": "Roosevelt asked for one particular escort on Inauguration Day and got it. Who rode and marched with him?",
+   "options": [
+    "A troop of New York City police",
+    "The crew of the battleship Maine",
+    "A guard of his old Rough Riders",
+    "The Harvard varsity football team"
+   ],
+   "answer": 2,
+   "explanation": "About thirty of them, collected from wherever seven years had scattered them, stayed beside him through the day and stood around him as he came down the east steps of the Capitol. Later the regiment trotted past the reviewing stand letting out rebel yells. Seth Bullock came east for it as well, bringing broncos and cayuse ponies; Roosevelt made him United States marshal for South Dakota soon afterwards.",
+   "image": "assets/img/inauguration1905/descending-capitol-steps.jpg",
+   "imageAlt": "Mounted escort and troops drawn up below the east front of the Capitol",
+   "credit": "Theodore Roosevelt descending the east steps of the Capitol to take the oath, 4 March 1905. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "From Albany to the White House"
+   }
+  },
+  {
+   "prompt": "Roughly how many people marched in the inaugural parade down Pennsylvania Avenue?",
+   "options": [
+    "About 350,000",
+    "About 1,200",
+    "About 35,000",
+    "About 3,500"
+   ],
+   "answer": 2,
+   "explanation": "They massed at the eastern end of the avenue while the President gave lunch to two hundred guests, then took some three and a half hours to pass him: anthracite miners, cowboys, Grand Army veterans, Filipino scouts, ward heelers, Oyster Bay neighbours, Harvard men in cap and gown, and an outsized Big Stick riding above the banners.",
+   "image": "assets/img/inauguration1905/pennsylvania-avenue-parade.jpg",
+   "imageAlt": "A band and mounted officers passing between packed crowds on Pennsylvania Avenue",
+   "credit": "Inaugural parade on Pennsylvania Avenue, Washington, D.C., 4 March 1905. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Six Native leaders rode in the 1905 inaugural parade at Roosevelt’s request. Which Apache leader was among them?",
+   "options": [
+    "Mangas Coloradas",
+    "Geronimo",
+    "Cochise",
+    "Victorio"
+   ],
+   "answer": 1,
+   "explanation": "He rode with Quanah Parker of the Comanche, American Horse and Hollow Horn Bear of the Sioux, Buckskin Charley of the Ute and Little Plume of the Blackfoot. Edward S. Curtis photographed the six on horseback in the White House grounds immediately after the parade. Geronimo was at that moment a prisoner of war of the United States, and he was still one when he died at Fort Sill in 1909.",
+   "image": "assets/img/inauguration1905/indians-in-the-parade.jpg",
+   "imageAlt": "Six Native leaders on horseback in feathered headdresses, photographed among bare trees",
+   "credit": "Little Plume, Buckskin Charley, Geronimo, Quanah Parker, Hollow Horn Bear and American Horse, photographed in the White House grounds immediately after the inaugural parade, 4 March 1905, by Edward S. Curtis. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "Roosevelt’s complex legacy"
+   }
+  },
+  {
+   "prompt": "One contingent in the parade carried a banner honouring the man who had settled their strike. Who were they?",
+   "options": [
+    "Chicago stockyard workers",
+    "New York garment workers",
+    "Pennsylvania anthracite coal miners",
+    "Pullman railway car workers"
+   ],
+   "answer": 2,
+   "explanation": "Their placard read WE HONOR THE MAN WHO SETTLED OUR STRIKE. In October 1902, with 147,000 men out since May and the cities facing a winter with no fuel, Roosevelt had summoned operators and the United Mine Workers to the White House and pushed them into arbitration. No president had ever stepped into a labour dispute that way.",
+   "image": "assets/img/inauguration1905/avenue-treasury-to-capitol.jpg",
+   "imageAlt": "A marching column filling Pennsylvania Avenue seen over the heads of a dense crowd of spectators",
+   "credit": "Pennsylvania Avenue from the Treasury to the Capitol during the inaugural parade, 4 March 1905. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Which sentence comes from Roosevelt’s 1905 inaugural address?",
+   "options": [
+    "“Much has been given us, and much will rightfully be expected from us.”",
+    "“Speak softly and carry a big stick; you will go far.”",
+    "“The only thing we have to fear is fear itself.”",
+    "“It is not the critic who counts; not the man who points out how the strong man stumbles.”"
+   ],
+   "answer": 0,
+   "explanation": "He spoke for about six minutes and named no bill and no programme — deliberately, with a new Senate about to convene and foreign ministries watching to see whether he would try to mediate the Russo‑Japanese war. A hard wind snatched at his cards and at the flags behind him, and whole sections of the crowd heard nothing at all.",
+   "image": "assets/img/inauguration1905/speaking-at-inauguration.jpg",
+   "imageAlt": "Roosevelt standing at a draped platform speaking, with ranks of cadets massed below him",
+   "credit": "Theodore Roosevelt speaking at his inauguration, March 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "Roosevelt’s speeches"
+   }
+  },
+  {
+   "prompt": "A newly engaged young couple sat a few rows behind the President at the swearing‑in. Who were they?",
+   "options": [
+    "Ethel Roosevelt and Richard Derby",
+    "Alice Roosevelt and Nicholas Longworth",
+    "Kermit Roosevelt and Belle Willard",
+    "Franklin and Eleanor Roosevelt"
+   ],
+   "answer": 3,
+   "explanation": "They came down from New York, rode to the Capitol in Bamie’s carriage, lunched with the family, watched the parade from the stand and went on to the ball. Eleanor remembered the force of her uncle’s delivery and not one word of what he said. Later that month he stood in her dead father’s place and gave her away at her wedding, telling the groom there was nothing like keeping the name in the family.",
+   "image": "assets/img/inauguration1905/west-point-cadets.jpg",
+   "imageAlt": "Cadets marching past the Capitol with mounted officers and spectators in the foreground",
+   "credit": "West Point cadets in the parade, inauguration of President Roosevelt, 4 March 1905. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around Roosevelt"
+   }
+  },
+  {
+   "prompt": "Roosevelt had already stood on the inaugural platform at the Capitol once before, on 4 March 1901. In what capacity?",
+   "options": [
+    "As Vice President, at McKinley’s second inauguration",
+    "As Governor of New York, leading his state’s delegation",
+    "As a colonel of volunteers, at the head of his regiment",
+    "As Assistant Secretary of the Navy"
+   ],
+   "answer": 0,
+   "explanation": "He had been sworn in as Vice President on 4 March 1901, in heavy rain, behind a phalanx of Old Guard Republicans, into an office with nothing in it for him to do. Six months later McKinley was shot at Buffalo. Roosevelt spent the term that followed being reminded that he had reached the presidency by an assassin’s bullet rather than a ballot.",
+   "image": "assets/img/rise-to-power/vp-at-mckinley-swearing.jpg",
+   "imageAlt": "Vice President Roosevelt at the swearing in of President McKinley, March 1901",
+   "credit": "Vice-President Roosevelt at the swearing in of President McKinley, March 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "From Albany to the White House"
+   }
+  },
+  {
+   "prompt": "A glass‑enclosed reviewing stand had been built for the President to watch the parade from. What did he do with it?",
+   "options": [
+    "Ignored it and stood out in the open",
+    "Watched from it with Edith and the children",
+    "Gave it over to the diplomatic corps",
+    "Had it taken down the night before"
+   ],
+   "answer": 0,
+   "explanation": "He stood for three and a half hours in a cold wind, waving his tall hat, clapping, bowing and laughing at the marchers. He was forty‑six that day — the age at which his own father had died, a coincidence his sisters noticed even if he did not. The previous October Roosevelt’s horse had put a foot through a rotten plank on a bridge and thrown him on his head; John Hay went to see him the next day and wrote in his diary that the President would of course outlive him, but would not live to be old. Roosevelt died at sixty.",
+   "image": "assets/img/inauguration1905/reviewing-the-parade.jpg",
+   "imageAlt": "The flag-draped presidential reviewing stand with figures inside and policemen at the steps",
+   "credit": "President Roosevelt reviewing the inaugural parade, 4 March 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "Alice Roosevelt waved to friends from the reviewing stand and her father told her off for making a spectacle of herself. How did she answer?",
+   "options": [
+    "She offered to go and explain herself to her friends",
+    "She said the crowd had not come to look at her",
+    "She reminded him that he was the one who had put her there",
+    "She pointed out that he was doing exactly the same thing"
+   ],
+   "answer": 3,
+   "explanation": "“Well, you do it,” she said. “Why shouldn’t I?” By her own account he answered that this was his inauguration, not hers — and the two of them went on upstaging one another for the rest of his life. She had turned twenty‑one three weeks earlier and was already the most photographed young woman in America. That day she wore white toile and a white hat edged in black satin, with ostrich feathers the wind would not leave alone.",
+   "image": "assets/img/inauguration1905/inaugural-stand.jpg",
+   "imageAlt": "Ranks of marching men filling Pennsylvania Avenue below crowded pavements and decorated buildings",
+   "credit": "Inauguration of President Roosevelt, 4 March 1905 — the inaugural parade, U.S. Naval Academy corps. One frame of a stereograph card, publisher’s mount removed. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around Roosevelt"
+   }
+  }
+ ]
+}

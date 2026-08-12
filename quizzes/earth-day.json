@@ -1,0 +1,309 @@
+{
+ "id": "earth-day",
+ "title": "Five Ways to Save a Place",
+ "subtitle": "What Roosevelt Actually Protected",
+ "intro": "The famous number is 230 million acres, and the number tells you nothing. Roosevelt had five separate legal tools and he used every one of them differently — on a five-acre rookery in Florida, on eight hundred thousand acres of Arizona canyon, on a hill in North Dakota. Fourteen questions for Earth Day on the specifics.",
+ "heroImage": "assets/img/earthday/governors-conference.jpg",
+ "heroAlt": "The governors of the states and territories assembled on the White House portico in May 1908",
+ "heroCredit": "Conference of Governors on the conservation of natural resources, the White House, 13 May 1908. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Five Ways to Save a Place",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Earth Day quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency/conservation"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Chief of the Bureau",
+   "line": "Perfect. Pinchot would have given you a desk."
+  },
+  {
+   "min": 12,
+   "name": "Forest Supervisor",
+   "line": "You know the difference between a park and a preserve."
+  },
+  {
+   "min": 9,
+   "name": "Warden",
+   "line": "Sound on the ground."
+  },
+  {
+   "min": 6,
+   "name": "Field Naturalist",
+   "line": "Good notes. Keep walking."
+  },
+  {
+   "min": 3,
+   "name": "Day Visitor",
+   "line": "Come back and stay longer."
+  },
+  {
+   "min": 0,
+   "name": "First Time Out",
+   "line": "It is all still there. Go and look."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt protected land in five distinct legal forms. Four were national parks, national forests, national monuments and federal bird reservations. What was the fifth?",
+   "options": [
+    "National recreation areas",
+    "National scenic trails",
+    "National seashores",
+    "National game preserves"
+   ],
+   "answer": 3,
+   "explanation": "Each tool did a different job. A park needed an act of Congress. A forest could be proclaimed and then logged and grazed under management. A monument could be proclaimed outright. A bird reservation shut people off a rookery altogether. A game preserve fenced ground for large mammals. The other three names on this list all belong to the 1930s and later.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Roosevelt and Chief Forester Gifford Pinchot aboard a river steamer",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot on the steamer Mississippi, 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Congress passed the Antiquities Act in June 1906. What did Roosevelt use it on first, that September?",
+   "options": [
+    "Devils Tower, Wyoming",
+    "Muir Woods, California",
+    "Mesa Verde, Colorado",
+    "The Grand Canyon, Arizona"
+   ],
+   "answer": 0,
+   "explanation": "A column of grey rock 867 feet from base to summit, standing 1,267 feet above the Belle Fourche River — the two figures people quote at each other, and both are right, because one measures the rock and the other measures the drop to the water. It is sacred to more than twenty Plains nations, who call it Bear Lodge, and at about two square miles it was too small for anyone to argue it should be a park. A clerk dropped the apostrophe out of Devil's Tower on the paperwork and it has never been put back. Mesa Verde was made a national park that same summer, by act of Congress rather than proclamation; Muir Woods and the Grand Canyon were both proclaimed in January 1908.",
+   "image": "assets/img/earthday/yellowstone-liberty-cap.jpg",
+   "imageAlt": "Roosevelt on horseback before Liberty Cap, a rock cone in Yellowstone",
+   "credit": "President Roosevelt and Major Pitcher before Liberty Cap, Yellowstone Park, 1903 — one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "The Antiquities Act told the president to keep a monument to “the smallest area compatible with the proper care and management of the objects to be protected.” How big did Roosevelt make Grand Canyon National Monument in 1908?",
+   "options": [
+    "About eight hundred acres",
+    "About eight thousand acres",
+    "About eighty thousand acres",
+    "More than eight hundred thousand"
+   ],
+   "answer": 3,
+   "explanation": "808,120 acres, on a law written with cliff dwellings and pot-hunters in mind. Congress had refused for years to make the canyon a park, so Roosevelt took the tool he had and stretched it over a chasm more than a mile deep. Every later president who has proclaimed a very large monument has been walking through the door he forced.",
+   "image": "assets/img/earthday/grand-canyon-brodie.jpg",
+   "imageAlt": "Roosevelt with Governor Brodie of Arizona beside a railway car at the Grand Canyon",
+   "credit": "T.R., Governor Brodie of Arizona and William Loeb at the Grand Canyon, 1903. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Standing on the rim of the Grand Canyon in 1903, Roosevelt asked the people of Arizona for one thing. What?",
+   "options": [
+    "To build nothing at all on the rim",
+    "To fund a road down to the river",
+    "To petition Congress for a park",
+    "To stop the mining claims themselves"
+   ],
+   "answer": 0,
+   "explanation": "“Leave it as it is. You can not improve on it. The ages have been at work on it, and man can only mar it.” He had just been told the Santa Fe railroad had decided against putting its hotel on the brink, and he pressed the point: not a hotel, not a summer cottage, nothing. Locals who saw the canyon as a living heard it as an insult, and the argument he opened that morning has never entirely closed.",
+   "image": "assets/img/earthday/grand-canyon-rim.jpg",
+   "imageAlt": "A pinnacle of rock standing in the Grand Canyon, with terraces and side canyons receding behind it",
+   "credit": "The Grand Canyon of Arizona from the rim in front of the Hotel El Tovar, 1905. Detroit Publishing Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "A mining man with claims on the Bright Angel Trail fought the Grand Canyon monument through the courts for years. How did it end?",
+   "options": [
+    "Congress revoked the proclamation",
+    "The monument was cut to a tenth of its size",
+    "His claims stood and the monument lapsed",
+    "The Supreme Court upheld it in 1920"
+   ],
+   "answer": 3,
+   "explanation": "Ralph Cameron had built a hotel at the head of the Bright Angel Trail and charged a toll on it, and he was not going to be bullied. His case reached the Supreme Court as Cameron v. United States, decided in April 1920. He argued the monument should be disregarded because there had been no authority to create it; the Court refused, ruling that the Grand Canyon plainly was an object of scientific interest within the meaning of the 1906 act, and Cameron lost his claim on the trail. It is the decision the Antiquities Act has rested on ever since.",
+   "image": "assets/img/earthday/bright-angel-descent.jpg",
+   "imageAlt": "A long file of riders on horses and mules picking their way down a steep switchback trail into the Grand Canyon",
+   "credit": "Colonel Roosevelt's party descending the Bright Angel Trail, Grand Canyon, 1911 — the trail Ralph Cameron charged a toll on. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Before Roosevelt could make Pelican Island a bird reservation in March 1903, one question had to be answered. What was it?",
+   "options": [
+    "Whether the pelicans counted as game",
+    "Whether any law forbade him doing it",
+    "Whether Congress would find the money",
+    "Whether Florida would cede the island"
+   ],
+   "answer": 1,
+   "explanation": "The island was already federal property, and when Roosevelt asked whether anything in law stopped him from declaring it a reservation, nobody could think of anything. “Very well, then I so declare it,” he is always reported to have said, and the executive order went out on 14 March 1903. Frank Chapman and the Florida Audubon Society had pressed him to act; plume hunters supplying the millinery trade were shooting the rookeries out.",
+   "image": "assets/img/wildlife/deer-heart-river.jpg",
+   "imageAlt": "Deer wading in the shallows of a prairie river",
+   "credit": "Deer wading the shallows of the upper Heart River, North Dakota, 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "A proclamation is only paper without somebody on the water. The first warden of Pelican Island was a boat-builder who lived within sight of it. Who paid his wages?",
+   "options": [
+    "The Audubon Society",
+    "The Biological Survey",
+    "The state of Florida",
+    "The Navy Department"
+   ],
+   "answer": 0,
+   "explanation": "Paul Kroegel was born in Chemnitz and settled at Sebastian on the Indian River, and he had been guarding the pelicans on his own account for years before the government made it official. Congress appropriated nothing for wardens, so Audubon hired him and paid him a token wage. It was dangerous work and badly outmatched: another Audubon warden, Guy Bradley, was shot dead by feather hunters in the Everglades a couple of years later.",
+   "image": "assets/img/wildlife/roped-coyote.jpg",
+   "imageAlt": "Roosevelt in the field looking down at a roped coyote",
+   "credit": "Theodore Roosevelt looking at a roped coyote, near Frederick, Oklahoma, April 1905. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The Naturalist"
+   }
+  },
+  {
+   "prompt": "Two of Roosevelt's fifty-one federal bird reservations were in North Dakota. Which pair?",
+   "options": [
+    "Long Lake and Arrowwood",
+    "Stump Lake and Chase Lake",
+    "Devils Lake and Lostwood",
+    "Audubon and Tewaukon"
+   ],
+   "answer": 1,
+   "explanation": "Stump Lake was proclaimed on 9 March 1905 — the third federal bird reservation in the country, after Pelican Island and Breton Island — and Chase Lake followed on 28 August 1908, twentieth on the list. Chase Lake still holds one of the largest American white pelican colonies on the continent, which is a tidy piece of symmetry for a system that began with pelicans in Florida. The other North Dakota refuges named here are all real, and all of them came decades later.",
+   "image": "assets/img/park/prairie-edge-badlands.jpg",
+   "imageAlt": "Open prairie running to the edge of the North Dakota badlands",
+   "credit": "Prairie at the edge of the Badlands, North Dakota. Photograph by Frithjof Holmboe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt made a national park in North Dakota in 1904. What happened to it?",
+   "options": [
+    "It grew into Theodore Roosevelt National Park",
+    "It was flooded by a reservoir in the 1950s",
+    "It was turned into a game preserve in 1914",
+    "It is still a national park today"
+   ],
+   "answer": 2,
+   "explanation": "Sullys Hill, on the south shore of Devils Lake, was one of the five national parks Roosevelt signed and is the only one that stopped being a park. Congress converted it to a big-game preserve in 1914, and it is now the White Horse Hill National Game Preserve, with bison and elk. Theodore Roosevelt National Park is a separate place entirely, three hundred miles west: Congress created it in 1947 as Theodore Roosevelt National Memorial Park, and the word Memorial did not come out of the title until 1978.",
+   "image": "assets/img/park/little-missouri-medora.jpg",
+   "imageAlt": "The Little Missouri river seen from a butte above Medora",
+   "credit": "The Little Missouri at Medora from the top of the butte, 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt signed five national parks into existence, doubling the number that had ever been made. Which of these is one of the five?",
+   "options": [
+    "Glacier, Montana",
+    "Crater Lake, Oregon",
+    "Yosemite, California",
+    "Yellowstone, Wyoming"
+   ],
+   "answer": 1,
+   "explanation": "Crater Lake in 1902, Wind Cave in 1903, Sullys Hill in 1904, and Platt and Mesa Verde in 1906. Roosevelt listed the five himself in his Autobiography. Yellowstone had been a park since 1872 and Yosemite since 1890; Glacier came in 1910, after he had left office.",
+   "image": "assets/img/earthday/crater-lake.jpg",
+   "imageAlt": "Crater Lake with Wizard Island rising from the water",
+   "credit": "Crater Lake, Oregon. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "In 1905 the first national game preserve was set aside in the Wichita Mountains of Oklahoma. Two years later fifteen bison arrived by railroad. Who sent them?",
+   "options": [
+    "The herd inside Yellowstone Park",
+    "The New York Zoological Society",
+    "A rancher in the Texas Panhandle",
+    "The government of Canada"
+   ],
+   "answer": 1,
+   "explanation": "The society ran the Bronx Zoo, where William Temple Hornaday had spent years hand-feeding a captive herd against the day it could go home. Twelve thousand acres of the preserve were fenced with woven wire to receive them. Roosevelt had ridden through that country in 1905 chasing wolves and had come back determined to put buffalo on it; he set the whole sequence out in the appendix to his Autobiography.",
+   "image": "assets/img/wildlife/badlands-buttes.jpg",
+   "imageAlt": "Eroded buttes above dry grassland",
+   "credit": "“Buttes in Bad Lands,” North Dakota, about 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "In 1905 the forest reserves were moved out of the Interior Department. Which department got them, and still has them?",
+   "options": [
+    "War",
+    "Agriculture",
+    "Commerce and Labor",
+    "The Treasury"
+   ],
+   "answer": 1,
+   "explanation": "Roosevelt signed the transfer on 1 February 1905 and Gifford Pinchot's bureau, renamed the Forest Service, took charge of them. That is why national forests are run by the Department of Agriculture to this day while national parks are run by Interior — a split that still shapes what may be cut, grazed and drilled on which side of a boundary line. The reserves themselves were renamed national forests in 1907.",
+   "image": "assets/img/conservation/inland-waterways.jpg",
+   "imageAlt": "Roosevelt and Gifford Pinchot aboard a Mississippi river steamer",
+   "credit": "Theodore Roosevelt and Gifford Pinchot on the Mississippi with the Inland Waterways Commission, 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "When the governors of every state and territory met at the White House in May 1908, another whole institution came with them, which had never attended such a meeting before. Which?",
+   "options": [
+    "The ambassadors of Canada and Mexico",
+    "The presidents of the western railroads",
+    "The nine justices of the Supreme Court",
+    "The whole of the United States Senate"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt got all nine justices into the East Room for a conference about soil, timber, coal and water. Andrew Carnegie came and talked about iron ore; William Jennings Bryan came; each governor was asked to bring three advisers on natural resources. “We have to, as a nation, exercise foresight for this nation in the future,” Roosevelt told them, “and if we do not exercise that foresight, dark will be the future.”",
+   "image": "assets/img/earthday/governors-conference.jpg",
+   "imageAlt": "Rows of men in formal dress posed on the White House portico in 1908",
+   "credit": "Conference of Governors on the conservation of natural resources, the White House, 13 May 1908. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Muir Woods became a national monument in January 1908 because a Californian bought the redwoods and handed them to the government. Roosevelt wrote to thank him — and to ask him for one thing. What?",
+   "options": [
+    "That it be named the Kent Monument, not Muir Woods",
+    "That he write the wording of the proclamation himself",
+    "That he take charge of the new Forest Service",
+    "That he say nothing about the gift until the autumn"
+   ],
+   "answer": 0,
+   "explanation": "\"I have a very great admiration for John Muir; but after all, my dear sir, this is your gift,\" Roosevelt wrote to William Kent, and asked to name the monument for him instead. Kent would not have it: so many millions of better people, he replied, have died forgotten that to stencil one's own name on a benefaction seems to carry an implication of purchased immortality. He had five good husky boys to carry the family name, and if they made nothing of themselves he was willing it should be forgotten. Muir Woods is the first national monument made out of land a private citizen gave to the nation.",
+   "image": "assets/img/conservation/muir-yosemite-standing.jpg",
+   "imageAlt": "Theodore Roosevelt and John Muir standing together on a rock ledge above Yosemite Valley",
+   "credit": "Theodore Roosevelt and John Muir on Glacier Point, Yosemite, 17 May 1903. Photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  }
+ ]
+}

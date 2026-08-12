@@ -146,16 +146,16 @@
   {
    "prompt": "Roosevelt published his first natural history work at what stage of life?",
    "options": [
-    "As a teenager, before college",
+    "As a Harvard undergraduate",
     "He never published on natural history",
     "In retirement",
     "During his presidency"
    ],
    "answer": 0,
-   "explanation": "He was eighteen. His first ornithological work, The Summer Birds of the Adirondacks in Franklin County, N.Y., appeared in 1877 — a catalogue compiled in the mountains with his cousin. He was a published naturalist before he was a published historian.",
-   "image": "assets/img/early-life/dresden-club.jpg",
-   "imageAlt": "Roosevelt children and companions in Dresden",
-   "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "explanation": "He was eighteen, with one year of college behind him. The Summer Birds of the Adirondacks in Franklin County, N.Y. appeared in 1877 — a four-page catalogue written in the mountains with a Harvard friend, Henry Davis Minot, and printed at their own expense. Roosevelt had gone up to Harvard the previous autumn, so it is an undergraduate's pamphlet, and it made him a published naturalist four years before he was a published historian.",
+   "image": "assets/img/backtoschool/harvard-holworthy.jpg",
+   "imageAlt": "Holworthy Hall in Harvard Yard, photographed in the nineteenth century",
+   "credit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
    "link": {
     "url": "https://www.trlibrary.com/tr/books-and-writings",
     "label": "The author president"
@@ -281,7 +281,7 @@
    "explanation": "He arrived in 1883 just months after commercial hunters had destroyed the last great herd on the Little Missouri. He hunted the survivors and wrote about the bones scattered across the prairie. It is the single clearest source of his later conviction that unrestricted use was theft from the future.",
    "image": "assets/img/badlands/roundup-herd.jpg",
    "imageAlt": "Cattle on the northern plains",
-   "credit": "Cattle on the range. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "credit": "Cattle on the range. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University. Publisher's mount and caption strip removed.",
    "link": {
     "url": "https://www.trlibrary.com/tr/badlands",
     "label": "T.R. in the Badlands"

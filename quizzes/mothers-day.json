@@ -1,0 +1,291 @@
+{
+ "id": "mothers-day",
+ "title": "Mittie, Bamie and Edith",
+ "subtitle": "The women who made Theodore Roosevelt",
+ "intro": "A Georgia girl who never reconciled herself to the outcome of the Civil War. An eldest sister with a crooked spine who ran households, raised a motherless niece, and lent her brother a house to be president in. A wife who kept the books, hired the first social secretary the White House ever had, and brought up six children in it. Thirteen questions on Martha Bulloch Roosevelt, Anna \"Bamie\" Roosevelt, and Edith Kermit Roosevelt.",
+ "heroImage": "assets/img/mothersday/nile-1872.jpg",
+ "heroAlt": "A large group of Victorian travellers posed together for a photograph on the Nile",
+ "heroCredit": "Roosevelts and friends on the Nile, winter of 1872-73; Martha Bulloch Roosevelt is seated at the centre. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Mittie, Bamie and Edith",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on the women who raised and shaped T.R. — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Head of the Household",
+   "line": "Nothing gets past you."
+  },
+  {
+   "min": 11,
+   "name": "Keeper of the Accounts",
+   "line": "Every column adds up."
+  },
+  {
+   "min": 8,
+   "name": "In the Front Parlour",
+   "line": "You know this family."
+  },
+  {
+   "min": 5,
+   "name": "At the Nursery Door",
+   "line": "Coming along nicely."
+  },
+  {
+   "min": 2,
+   "name": "Just Arrived",
+   "line": "Take your coat off and stay a while."
+  },
+  {
+   "min": 0,
+   "name": "On the Doorstep",
+   "line": "Come in and start at the beginning."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Theodore Roosevelt's mother was born Martha Bulloch. Where did she grow up?",
+   "options": [
+    "Roswell, Georgia",
+    "Charleston, South Carolina",
+    "Richmond, Virginia",
+    "Oyster Bay, New York"
+   ],
+   "answer": 0,
+   "explanation": "She was born on 8 July 1835 in Hartford, Connecticut, into an old Georgia family, and was raised at Bulloch Hall — a white clapboard house with four Doric columns standing on the highest ground in Roswell, north of Atlanta. She married Theodore Roosevelt Sr. there on 22 December 1853, three days before Christmas. Their son did not set eyes on the house until he was a man in his forties.",
+   "image": "assets/img/mothersday/bulloch-hall.jpg",
+   "imageAlt": "A white clapboard house with four tall columns, seen from the lawn",
+   "credit": "Bulloch Hall, Roswell, Georgia, the house Roosevelt's mother grew up in, photographed during his visit in 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "What did the family call Martha Bulloch Roosevelt?",
+   "options": [
+    "Bamie",
+    "Conie",
+    "Mittie",
+    "Bye"
+   ],
+   "answer": 2,
+   "explanation": "Mittie, all her life. The house was full of shortenings: Bamie and Bye both belonged to her eldest daughter Anna, Conie to her youngest daughter Corinne, and Teedie to the small asthmatic boy in between. Mittie's own mother lived with the family too, and so did her sister.",
+   "image": "assets/img/mothersday/nile-1872.jpg",
+   "imageAlt": "A large group of Victorian travellers posed together for a photograph on the Nile",
+   "credit": "Roosevelts and friends on the Nile, winter of 1872-73; Martha Bulloch Roosevelt is seated at the centre, beside Theodore Roosevelt Sr. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Roosevelt used one word, in quotation marks, to describe his mother's view of the Civil War. Which?",
+   "options": [
+    "\"unrepentant\"",
+    "\"unbowed\"",
+    "\"unreconciled\"",
+    "\"unreconstructed\""
+   ],
+   "answer": 3,
+   "explanation": "“My mother, Martha Bulloch, was a sweet, gracious, beautiful Southern woman, a delightful companion and beloved by everybody,” he wrote in his Autobiography. “She was entirely 'unreconstructed' to the day of her death.” Her husband was a Lincoln Republican; two of her brothers were in the Confederate naval service. The argument lived in the parlour for four years and was never quite settled.",
+   "image": "assets/img/mothersday/bulloch-hall-stair.jpg",
+   "imageAlt": "A panelled hall and carpeted staircase inside an old house",
+   "credit": "The hall and staircase at Bulloch Hall, Roswell, Georgia. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/civil-war",
+    "label": "A family divided"
+   }
+  },
+  {
+   "prompt": "In his Autobiography Roosevelt describes getting his own back on his mother after a punishment. How did he do it?",
+   "options": [
+    "He hid her sewing box in the attic for a week",
+    "He prayed loudly for the success of the Union arms",
+    "He refused to speak to her for three whole days",
+    "He let his pet snakes loose in her bedroom"
+   ],
+   "answer": 1,
+   "explanation": "The children said their prayers in front of their mother in the evening, and one night, feeling he had been wronged by maternal discipline during the day, he prayed with what he called loud fervour for a Union victory. She had a strong sense of humour and was too amused to punish him — but he was warned not to do it again, on pain of his father being told, and his father was the one who dispensed serious punishment.",
+   "image": "assets/img/early-life/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a small boy, standing on a chair for a studio portrait",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/civil-war",
+    "label": "A family divided"
+   }
+  },
+  {
+   "prompt": "Mittie Roosevelt dressed almost entirely in one colour. Which?",
+   "options": [
+    "White",
+    "Grey",
+    "Black",
+    "Dark green"
+   ],
+   "answer": 0,
+   "explanation": "White muslin in summer and white silk in winter, and she was reckoned one of the most beautiful women in New York. She was also formidably particular about dirt. Corinne's daughter, repeating what her mother had told her, remembered a white chenille net worn to keep dust out of her hair and two baths every time — one to take the soap, then the water run again by the maid so she could get back in and rinse it off.",
+   "image": "assets/img/mothersday/nile-1872.jpg",
+   "imageAlt": "A group of Victorian travellers posed for a photograph, several of the women in pale dresses",
+   "credit": "Roosevelts and friends on the Nile, winter of 1872-73; Martha Bulloch Roosevelt is seated at the centre. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Another Bulloch lived in the house and taught the Roosevelt children their lessons. Who?",
+   "options": [
+    "A tutor engaged from Harvard",
+    "His elder sister, Bamie",
+    "His grandfather, Cornelius Roosevelt",
+    "His mother's sister, Anna Bulloch"
+   ],
+   "answer": 3,
+   "explanation": "“My aunt Anna, my mother's sister, lived with us,” Roosevelt wrote. “She taught us our lessons while we were little.” The little class included the girl from round the corner, Edith Carow, who would one day marry him. Aunt Annie also told them the Br'er Rabbit stories she had grown up with in Georgia, years before Joel Chandler Harris made them famous.",
+   "image": "assets/img/early-life/dresden-club.jpg",
+   "imageAlt": "Five children posed in a photographer's studio, Theodore Roosevelt seated at the left",
+   "credit": "The Dresden Literary American Club — Theodore Roosevelt with his brother Elliott, his sister Corinne and their cousins, Dresden, 1873. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "Roosevelt's eldest sister Anna was always called Bamie. What is the name short for?",
+   "options": [
+    "The Italian bambina, meaning little girl",
+    "A baby brother's attempt at \"Anna\"",
+    "The pony she rode as a child",
+    "Her mother's maiden name"
+   ],
+   "answer": 0,
+   "explanation": "Bambina, pronounced in the family to rhyme with \"Sammy\". She was born on 18 January 1855, the eldest of the four, and a childhood disease of the spine left her stooped and in pain for the rest of her life. She was also called Bye, and to the next generation Auntie Bye.",
+   "image": "assets/img/mothersday/alice-corinne-anna.jpg",
+   "imageAlt": "Three young women posed together in a studio photograph",
+   "credit": "Alice Hathaway Lee Roosevelt with Corinne Roosevelt Robinson and Anna \"Bamie\" Roosevelt, about 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/siblings",
+    "label": "Bamie, Elliott and Corinne"
+   }
+  },
+  {
+   "prompt": "Roosevelt spent his first eight days as president in a house that was not the White House. Whose was it?",
+   "options": [
+    "Elihu Root's",
+    "His sister Bamie's",
+    "Henry Cabot Lodge's",
+    "His brother-in-law Douglas Robinson's"
+   ],
+   "answer": 1,
+   "explanation": "Bamie had a house on N Street, a ten-minute walk from the White House, and he stayed there in September 1901 while McKinley's widow packed up and left. His first cabinet meetings were held there. The press started calling it the Little White House and the name stuck for the next seven and a half years, because he kept walking over to talk things through with her.",
+   "image": "assets/img/mothersday/tr-and-bamie.jpg",
+   "imageAlt": "Theodore Roosevelt in a top hat in a crowd at a football game, with his sister behind him",
+   "credit": "Theodore Roosevelt at the Army-Navy game, Princeton, 2 December 1905, with his sister Anna Roosevelt Cowles behind him. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "What did Alice Roosevelt Longworth say about her aunt Bamie in a later interview?",
+   "options": [
+    "That she had written most of his speeches",
+    "That she had been the real head of the family",
+    "That she would have been president had she been a man",
+    "That she was the only person he was ever afraid of"
+   ],
+   "answer": 2,
+   "explanation": "Alice said it because she had a determination that outlasted everybody's. Asked about the remark years afterwards, Eleanor Roosevelt agreed that it might easily have been so. Bamie ran a household that doubled as a political salon in New York, London and Washington, and she brought up Alice herself from 1884.",
+   "image": "assets/img/mothersday/alice-corinne-anna.jpg",
+   "imageAlt": "Three young women of the Roosevelt family posed together in a studio photograph",
+   "credit": "Alice Hathaway Lee Roosevelt with Corinne Roosevelt Robinson and Anna \"Bamie\" Roosevelt, about 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Edith Roosevelt ran the family's money. What did that mean for her husband?",
+   "options": [
+    "He was put on a daily allowance",
+    "He was not told what anything cost",
+    "He handed her the household bills only",
+    "He kept a separate account for books"
+   ],
+   "answer": 0,
+   "explanation": "She kept meticulous accounts, paid out on the first of the month, and gave Theodore money by the day. He never really knew where it went. She scrimped on everything, down to making the family's own tooth powder, because two houses and six children on a public salary did not otherwise add up.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Théobald Chartran's painted portrait of Edith Kermit Roosevelt in a plumed hat, seated on a stone bench in a garden",
+   "credit": "Théobald Chartran's 1902 portrait of Edith Kermit Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "Edith Roosevelt"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt say about the times he overruled his wife's judgement?",
+   "options": [
+    "That she never once mentioned it afterwards",
+    "That he regretted it",
+    "That it happened perhaps twice in thirty years",
+    "That the children always sided with her"
+   ],
+   "answer": 1,
+   "explanation": "“Whenever I go against her judgment, I regret it.” He said it more than once and he meant it as a working rule rather than a compliment. Edith read the newspapers before he did, marked what he needed to see, and was one of the very few people who could tell him to sit down and be quiet.",
+   "image": "assets/img/family/edith-and-quentin.jpg",
+   "imageAlt": "Edith Roosevelt seated with her youngest son Quentin",
+   "credit": "Mrs. Roosevelt with Quentin. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "Edith Roosevelt"
+   }
+  },
+  {
+   "prompt": "Edith created a White House post in 1901 that every First Lady since has kept. What was it?",
+   "options": [
+    "A chief usher",
+    "A press officer",
+    "A social secretary",
+    "A curator of the collection"
+   ],
+   "answer": 2,
+   "explanation": "She appointed a young Washingtonian, Isabella \"Belle\" Hagner, at fourteen hundred dollars a year, and Belle became the first social secretary in the history of the house. It was a practical answer to an impossible postbag, and it turned out to be one of the most durable things she did — one historian of the office calls it her most important early decision.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Theodore and Edith Roosevelt seated with five children in a studio group portrait, the youngest a baby",
+   "credit": "Theodore and Edith Roosevelt with Alice, Ted, Kermit, Ethel and the infant Archie, photographed by C. M. Gilbert, January 1895 — five children; Quentin, the sixth, was born two years later. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Edith brought up six children. How many of them were her own?",
+   "options": [
+    "Three",
+    "Four",
+    "Six",
+    "Five"
+   ],
+   "answer": 3,
+   "explanation": "Ted, Kermit, Ethel, Archie and Quentin were hers, born between 1887 and 1897. Alice was Alice Hathaway Lee's daughter, and had been brought up by Bamie since 1884. She was three when Edith married her father in London in December 1886, and it was Edith who insisted the child come and live with them. Alice spent a lifetime being asked how that had worked out and a lifetime declining to settle the question.",
+   "image": "assets/img/family/family-portrait.jpg",
+   "imageAlt": "Theodore and Edith Roosevelt seated with five children in a studio group portrait, the youngest a baby",
+   "credit": "Theodore and Edith Roosevelt with Alice, Ted, Kermit, Ethel and the infant Archie, photographed by C. M. Gilbert, January 1895 — five children; Quentin, the sixth, was born two years later. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "nile-1872": {
+  "source": "dam",
+  "ref": "033c7e03-d3d1-4cdf-a4b5-bab410e039f0",
+  "source_file": "har_2309451_On_the_Nile_winter_of_1872_1873.jpg",
+  "description": "On the Nile, winter of 1872-1873 \u2014 Back row, standing, on the far right: Mr. Clift Smith; middle row, seated from left to right: Edith Clift Smith, Martha Bulloch Roosevelt, Theodore Roosevelt, Sr., Mrs. Clift Smith, Elizabeth Clift Sm \u2014 Date: 1872-1873",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1111",
+  "credit_line": "Roosevelts and friends on the Nile, winter of 1872-73; Martha Bulloch Roosevelt is seated at the centre, beside Theodore Roosevelt Sr. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "crop_note": "Mount edges trimmed."
+ },
+ "bulloch-hall": {
+  "source": "dam",
+  "ref": "7b9f7a3b-8afa-4d97-9eb6-33207d5a6195",
+  "source_file": "loc_2010649019_Bulloch_mansion_the_house_of_his_mother_.tif",
+  "description": "Bulloch mansion, the house of his mother, visited by President Roosevelt, Roswell, Ga. \u2014 1 photographic print on stereo card : stereograph. \u2014 Creator: Underwood & Underwood \u2014 Date: 1905",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x721",
+  "credit_line": "Bulloch Hall, Roswell, Georgia, the house Roosevelt's mother grew up in, photographed during his visit in 1905. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Underwood & Underwood stereograph; cropped to the left frame, publisher's mount removed."
+ },
+ "bulloch-hall-stair": {
+  "source": "loc",
+  "ref": "2012648195",
+  "source_file": "loc_pictures_2012648195",
+  "description": "[Hallway and staircase of Bulloch Hall, Roswell, Georgia]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1015",
+  "credit_line": "The hall and staircase at Bulloch Hall, Roswell, Georgia. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Archival annotation trimmed."
+ },
+ "alice-corinne-anna": {
+  "source": "dam",
+  "ref": "cebbfc78-b1fd-45e8-80df-1d093c7a89cc",
+  "source_file": "har_4893114_Alice_Corinne_and_Anna.jpg",
+  "description": "Alice, Corinne, and Anna \u2014 From left to right: Alice Lee Roosevelt, Corinne Roosevelt Robinson, and Anna Roosevelt Cowles, New York (N.Y.). Photograph by Julius Ludovici. Manuscript hand in image is that of Corinne Alsop Cole. \u2014 Creator: Ludovici, Julius$$QLudovici, Julius \u2014 Date: 1883?",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1862",
+  "credit_line": "Alice Hathaway Lee Roosevelt with Corinne Roosevelt Robinson and Anna \"Bamie\" Roosevelt, about 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "tr-and-bamie": {
+  "source": "dam",
+  "ref": "d2d5434f-bb09-4600-b1d0-c9f6869ad702",
+  "source_file": "har_4419584_Army_Navy_game_Princeton.jpg",
+  "description": "Army-Navy game, Princeton \u2014 Theodore Roosevelt, Anna Roosevelt Cowles (behind Roosevelt), Edith Kermit Carow Roosevelt (to his right), William Loeb (to her right), and other watching the Army-Navy Football Game at Princeton Univ \u2014 Creator: Underwood & Underwood$$QUnderwood & Underwood \u2014 Date: 1905 December 2",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1148",
+  "credit_line": "Theodore Roosevelt at the Army-Navy game, Princeton, 2 December 1905, with his sister Anna Roosevelt Cowles behind him. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "crop_note": "Print borders trimmed."
+ }
+}

@@ -77,6 +77,52 @@ def answer_spread(qs):
     return []
 
 
+# A stereograph card is two nearly identical frames printed side by side on a
+# publisher's mount. Cropped to one frame it is a good photograph; uncropped it
+# is a picture of a piece of card with the same view on it twice, usually with
+# the publisher's name down the edges and a copyright line along the bottom.
+#
+# Two separate audits caught these AFTER they had shipped, and the second only
+# because a human opened the files. Nothing in the pipeline looked, because the
+# credit line said "one frame of a stereograph card, publisher's mount removed"
+# — a caption asserting the crop had happened when it had not.
+#
+# The shape gives it away without opening anything. Every correctly cropped
+# frame in this repo sits near 0.92:1. A whole card is about 1.9:1. Nothing we
+# legitimately use is that wide, so the ratio alone is a reliable tell.
+STEREO_LO, STEREO_HI = 1.80, 2.10
+
+
+def uncropped_stereographs(quiz):
+    """Flag images shaped like a whole stereograph card."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return []
+    out, seen = [], set()
+    paths = [quiz.get("heroImage", "")]
+    paths += [x.get("image", "") for x in quiz.get("questions", [])]
+    for rel in paths:
+        if not rel or rel in seen:
+            continue
+        seen.add(rel)
+        full = os.path.join(BASE, rel)
+        if not os.path.exists(full):
+            continue
+        try:
+            with Image.open(full) as im:
+                w, h = im.size
+        except Exception:
+            continue
+        if h and STEREO_LO <= w / h <= STEREO_HI:
+            out.append("%s is %dx%d (%.2f:1) — that is the shape of a WHOLE "
+                       "stereograph card, i.e. the same frame twice on the "
+                       "publisher's mount. Open it. If it is a stereo card, "
+                       "crop to the left frame and cut the mount and caption "
+                       "strip off." % (rel, w, h, w / h))
+    return out
+
+
 def check(path):
     problems = []
     try:
@@ -142,6 +188,7 @@ def check(path):
 
     problems.extend(length_tell(qs))
     problems.extend(answer_spread(qs))
+    problems.extend(uncropped_stereographs(q))
 
     return problems
 

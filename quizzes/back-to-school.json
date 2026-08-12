@@ -1,0 +1,286 @@
+{
+ "id": "back-to-school",
+ "title": "A Very Irregular Education",
+ "subtitle": "How Theodore Roosevelt Was Schooled",
+ "intro": "He never sat in a classroom until he was seventeen, was hopeless at Latin and unbeatable at natural history, worked drearily through an essay on the Gracchi, and walked out of law school after a year. Thirteen questions for the start of term.",
+ "heroImage": "assets/img/backtoschool/harvard-holworthy.jpg",
+ "heroAlt": "Holworthy Hall in Harvard Yard, photographed in the nineteenth century",
+ "heroCredit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life/harvard",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "A Very Irregular Education",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about T.R.'s schooling — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/early-life/harvard"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Summa",
+   "line": "Perfect. Not one mark dropped."
+  },
+  {
+   "min": 11,
+   "name": "First Tenth",
+   "line": "Where Roosevelt placed himself."
+  },
+  {
+   "min": 8,
+   "name": "Passed the Entrance",
+   "line": "Cutler would be satisfied."
+  },
+  {
+   "min": 5,
+   "name": "Strong in Some Subjects",
+   "line": "Weak in others, like the boy himself."
+  },
+  {
+   "min": 0,
+   "name": "Dragged Through the Gracchi",
+   "line": "By main strength. He knew the feeling."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt never spent a day in an ordinary school before college. By his own account, why not?",
+   "options": [
+    "Ahead in some subjects, far behind in others",
+    "His father distrusted the schoolmasters",
+    "The family travelled abroad too much for it",
+    "No school in New York would take an asthmatic boy"
+   ],
+   "answer": 0,
+   "explanation": "\"I could not go to school because I knew so much less than most boys of my age in some subjects and so much more in others,\" he wrote. Illness had kept him home and long family journeys had kept him abroad, and the result was a boy who could hold a serious conversation about bird taxonomy and could not construe a page of Livy. His aunt Anna had taught the children their lessons at home; after that came tutors.",
+   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
+   "imageAlt": "Tintype of the four Roosevelt children",
+   "credit": "Roosevelt children, tintype. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The making of a boy"
+   }
+  },
+  {
+   "prompt": "Which subjects did Roosevelt call himself lamentably weak in?",
+   "options": [
+    "History and geography",
+    "German and French",
+    "Latin, Greek and mathematics",
+    "Natural science and drawing"
+   ],
+   "answer": 2,
+   "explanation": "His own word, lamentably. The strong side of the ledger was science, history, geography, and unexpected patches of German and French. Two years of hard drilling by a young Harvard graduate named Arthur Cutler closed the gap enough to get him through the entrance examinations, and Cutler is one of only two teachers Roosevelt bothers to thank by name in his memoirs.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt photographed as a college student",
+   "credit": "\"Theo. Roosevelt at college,\" 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "In the summer of 1873 the three younger Roosevelt children were left with a family in Dresden. What for?",
+   "options": [
+    "To be treated for asthma",
+    "To sit for family portraits",
+    "To attend a German gymnasium",
+    "To learn German"
+   ],
+   "answer": 3,
+   "explanation": "They boarded with the Minckwitz family, in the hope, as Roosevelt put it, that they would acquire some knowledge of the German language and literature. He came away with the language and a lasting passion for the Nibelungenlied, and repaid his hosts by filling the flat with hedgehogs and small reptiles that kept escaping from half-closed bureau drawers. The two Minckwitz sons were duelling-corps students from Leipzig; one had had the tip of his nose sliced off and sewn back on, and went by Sir Rhinoceros.",
+   "image": "assets/img/early-life/dresden-club.jpg",
+   "imageAlt": "The Roosevelt children and their cousins photographed in Dresden",
+   "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The making of a boy"
+   }
+  },
+  {
+   "prompt": "Roosevelt loaded his Harvard course list with two fields. Which?",
+   "options": [
+    "Political economy and constitutional history",
+    "Natural history and languages",
+    "Mathematics and philosophy",
+    "Rhetoric and the classics"
+   ],
+   "answer": 1,
+   "explanation": "Where the elective system let him choose, he chose natural history and languages — German, Italian, French, Latin and Greek. In his sophomore year he took elementary botany and the comparative anatomy and physiology of vertebrates, the second of them taught by William James, alongside two courses of German and one of French. He had gone up to Cambridge meaning to be a working field naturalist, and he chose accordingly.",
+   "image": "assets/img/backtoschool/harvard-memorial-hall.jpg",
+   "imageAlt": "Nineteenth-century view over Harvard Yard and Cambridge",
+   "credit": "Southern view from Memorial Hall, Harvard Yard. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "Roosevelt names one Harvard professor in his Autobiography as a man he owed a great deal to. What did he teach?",
+   "options": [
+    "Constitutional history",
+    "Political economy",
+    "English",
+    "Comparative anatomy"
+   ],
+   "answer": 2,
+   "explanation": "A. S. Hill, the professor of English. Roosevelt thought he ought to have got far more out of writing his themes and forensics than he did, and put the failure down to his own lack of interest in the topics he was set. He saw almost nothing of President Eliot and very little of the rest of the faculty. Out of four years at Harvard, the two teachers who mattered to him were a private tutor and a professor of composition.",
+   "image": "assets/img/early-life/harvard-advocate-1880.jpg",
+   "imageAlt": "The board of the Harvard Advocate in 1880, with Roosevelt among them",
+   "credit": "Harvard Advocate board, 1880. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "One Harvard assignment defeated Roosevelt completely. What was its subject?",
+   "options": [
+    "The Corn Laws",
+    "The poetry of Dante",
+    "The character of the Gracchi",
+    "The law of the sea"
+   ],
+   "answer": 2,
+   "explanation": "He was not, he admitted later, sufficiently developed to take an intelligent interest in the Gracchi. \"I worked drearily at the Gracchi because I had to; my conscientious and much-to-be-pitied professor dragging me through the theme by main strength, with my feet firmly planted in dull and totally idea-proof resistance.\" In the same term, for no marks at all, he was drafting the opening chapters of a technical history of the naval war of 1812.",
+   "image": "assets/img/backtoschool/harvard-holworthy.jpg",
+   "imageAlt": "Holworthy Hall, Harvard Yard",
+   "credit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "How did Roosevelt describe his own standing in his Harvard class?",
+   "options": [
+    "First in his class outright",
+    "Somewhere in the bottom half",
+    "He never troubled to find out",
+    "Just within the first tenth"
+   ],
+   "answer": 3,
+   "explanation": "That is his own phrase, and he immediately hedged it: he was not sure whether he meant a tenth of the men who entered or a tenth of those who graduated. Modern accounts give the size of that class two different ways, so his hedge is still the safest description available. He was given a Phi Beta Kappa key and disposed of it in half a sentence.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt as a Harvard undergraduate",
+   "credit": "\"Theo. Roosevelt at college,\" 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt's senior thesis at Harvard argue for?",
+   "options": [
+    "Equal legal standing for women",
+    "A larger United States Navy",
+    "Free trade with Great Britain",
+    "Civil service examinations"
+   ],
+   "answer": 0,
+   "explanation": "\"The Practicability of Equalizing Men and Women Before the Law.\" He wanted equal rights of inheritance, the vote, and admission to law school, and thought a woman should be free to keep her own name on marrying. He was twenty-one, and he started writing it two months after Alice Lee agreed to marry him — a coincidence of timing that his biographers have not been able to resist.",
+   "image": "assets/img/early-life/harvard-advocate-1880.jpg",
+   "imageAlt": "The Harvard Advocate editorial board, 1880",
+   "credit": "Harvard Advocate board, 1880. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "Roosevelt never took part in one common college activity, and spent a page of his memoirs defending that. What was it?",
+   "options": [
+    "Rowing on the Charles for the college crew",
+    "Compulsory chapel",
+    "Fraternity initiations",
+    "Debating on assigned sides"
+   ],
+   "answer": 3,
+   "explanation": "He had, he wrote, \"not the slightest sympathy with debating contests in which each side is arbitrarily assigned a given proposition and told to maintain it without the least reference to whether those maintaining it believe in it or not.\" Colleges ought to turn out \"young men with ardent convictions on the side of the right; not young men who can make a good argument for either right or wrong as their interest bids them.\" He did regret never studying elocution, which he was careful to treat as a separate complaint.",
+   "image": "assets/img/backtoschool/harvard-memorial-hall.jpg",
+   "imageAlt": "View across Harvard Yard in the nineteenth century",
+   "credit": "Southern view from Memorial Hall, Harvard Yard. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "Speeches and ideas"
+   }
+  },
+  {
+   "prompt": "Roosevelt began studying law in the autumn of 1880. At which law school?",
+   "options": [
+    "The University of Virginia",
+    "Columbia Law School",
+    "Harvard Law School",
+    "Yale Law School"
+   ],
+   "answer": 1,
+   "explanation": "Columbia Law School, then down in lower Manhattan on Great Jones Street. He walked to it from the family house on West 57th Street with Blackstone's Commentaries under his arm, read law in his uncle Robert's office as well, and lasted a year. Cross-examined in a New York courtroom thirty-five years later, he described himself with some precision as a man who had studied a year at Columbia and had never been admitted to the bar.",
+   "image": "assets/img/father/57th-street-library.jpg",
+   "imageAlt": "The library of the Roosevelt house at 6 West 57th Street, New York",
+   "credit": "Library, 6 West 57th Street, New York. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "Which idea in the law repelled Roosevelt most?",
+   "options": [
+    "Trial by jury",
+    "The doctrine of caveat emptor",
+    "The rule against perpetuities in land",
+    "The insanity defence"
+   ],
+   "answer": 1,
+   "explanation": "\"The caveat emptor side of the law, like the caveat emptor side of business, seemed to me repellent; it did not make for social fair dealing.\" Let the buyer beware, he thought, came down in practice to the seller profiting at the buyer's expense rather than by a bargain good for both. He kept springing to his feet in Professor Dwight's lecture room to say so. Writing it up decades later he was fair to himself: \"I was young; there was much in the judgment which I then formed on this matter which I should now revise.\"",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated with a book",
+   "credit": "Theodore Roosevelt, seated portrait. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "Roosevelt's legal studies stopped after a single year. What was he doing instead by the end of 1881?",
+   "options": [
+    "Running a ranch in Dakota Territory",
+    "Sitting in the New York State Assembly",
+    "Serving as a police commissioner",
+    "Reporting for a New York newspaper"
+   ],
+   "answer": 1,
+   "explanation": "He was elected to the Assembly in November 1881, at twenty-three, and never went back to Columbia. He had joined his local Republican district association almost as soon as he left Harvard, and the men he had grown up among told him politics were low and better left to saloon-keepers and horsecar conductors. He decided that was an argument for going rather than staying away.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt as a young man",
+   "credit": "\"Theo. Roosevelt at college,\" 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "Looking back, what did Roosevelt say Harvard had actually done for him?",
+   "options": [
+    "Made a scientist of him",
+    "Given him his politics",
+    "Nothing at all — he called it four wasted years",
+    "Good in general, little in the studies"
+   ],
+   "answer": 3,
+   "explanation": "\"I thoroughly enjoyed Harvard, and I am sure it did me good, but only in the general effect, for there was very little in my actual studies which helped me in after life.\" What he credited was people, not curriculum — a tutor and a professor of English. What he wanted colleges to produce was young men with convictions rather than young men who could argue anything. It is a hard verdict from a man who left with a Phi Beta Kappa key and went on writing books for the next forty years.",
+   "image": "assets/img/backtoschool/harvard-holworthy.jpg",
+   "imageAlt": "Holworthy Hall in Harvard Yard",
+   "credit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  }
+ ]
+}

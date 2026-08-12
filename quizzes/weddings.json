@@ -1,0 +1,304 @@
+{
+ "id": "weddings",
+ "title": "Two Weddings",
+ "subtitle": "Brookline, 1880 — and a London Fog, 1886",
+ "intro": "The first was at noon on his own birthday, in bright New England sunshine, with his brother holding the ring. The second was six years later in a fog so thick nobody could see the altar, with a best man he had met on the boat over. Fourteen questions on Theodore Roosevelt's two marriages.",
+ "heroImage": "assets/img/early-life/alice-hathaway-lee.jpg",
+ "heroAlt": "Portrait of Alice Hathaway Lee as a young woman",
+ "heroCredit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Two Weddings",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on T.R.'s two weddings — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Signed the Register",
+   "line": "Perfect. Every detail in its place."
+  },
+  {
+   "min": 12,
+   "name": "Best Man",
+   "line": "You would have got him to the church."
+  },
+  {
+   "min": 9,
+   "name": "In the Front Pew",
+   "line": "A good view of the proceedings."
+  },
+  {
+   "min": 5,
+   "name": "Somewhere in the Fog",
+   "line": "You could hear it, at least."
+  },
+  {
+   "min": 0,
+   "name": "Reading the Bad Lands Cow Boy",
+   "line": "Which got almost everything wrong."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt set down the whole arc of his first marriage in four dates. Which one did he give as the day he and Alice Lee were betrothed?",
+   "options": [
+    "18 October 1878",
+    "25 January 1880",
+    "27 October 1880",
+    "29 July 1861"
+   ],
+   "answer": 1,
+   "explanation": "\"She was born at Chestnut Hill, Massachusetts, on July 29, 1861; I first saw her on October 18, 1878, and loved her as soon as I saw her sweet, fair young face; we were betrothed on January 25, 1880, and married on October 27th, of the same year.\" That is his own summary, written for the memorial he had privately printed after her death — all four of these dates are his. Biographers often give a fifth: Valentine's Day 1880, when Alice's father made the engagement official and Roosevelt began firing off announcement notes to his friends. The public announcement followed on 16 February. Roosevelt's own date is the private one, three weeks earlier.",
+   "image": "assets/img/early-life/alice-hathaway-lee.jpg",
+   "imageAlt": "Alice Hathaway Lee",
+   "credit": "The first Mrs. Theodore Roosevelt (Alice Hathaway Lee). Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Who stood up with Roosevelt as best man in 1880?",
+   "options": [
+    "His brother Elliott",
+    "Henry Cabot Lodge",
+    "His cousin West Roosevelt",
+    "Richard Saltonstall"
+   ],
+   "answer": 0,
+   "explanation": "Elliott — and months earlier Roosevelt had told the family that if Elliott could not be there, because of a shooting trip he was planning to India, then he would have no best man at all. Their sister Corinne was a bridesmaid. His diary for the day runs to four lines, beginning \"on my 22d birthday, Alice and I were married. She made an ideally beautiful bride\".",
+   "image": "assets/img/early-life/elliott-and-theodore-hunting.jpg",
+   "imageAlt": "Elliott and Theodore Roosevelt in hunting outfits",
+   "credit": "Elliott and Theodore Roosevelt in hunting outfits. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/siblings",
+    "label": "His brother and sisters"
+   }
+  },
+  {
+   "prompt": "Where did the newly married Roosevelts spend their wedding night?",
+   "options": [
+    "In a hotel at Springfield",
+    "At the Lee house in Chestnut Hill",
+    "On the night train to New York",
+    "At Sagamore Hill"
+   ],
+   "answer": 0,
+   "explanation": "The Massasoit House at Springfield, Massachusetts, where he had taken a suite of rooms for the night. The next day they went on to Oyster Bay for a fortnight in the family house, alone in it apart from two servants and a groom. Then his diary closes the door on everything else: \"Our intense happiness is too sacred to be written about.\"",
+   "image": "assets/img/early-life/alice-corinne-anna.jpg",
+   "imageAlt": "Alice Lee Roosevelt with Corinne and Anna Roosevelt",
+   "credit": "Alice, Corinne, and Anna. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Homes and places"
+   }
+  },
+  {
+   "prompt": "One guest at the 1880 reception is remembered for what she did there. Who, and what?",
+   "options": [
+    "Corinne Roosevelt, who read out a poem",
+    "Bamie Roosevelt, who fainted in the heat",
+    "Edith Carow, who danced her shoes to bits",
+    "Fanny Smith, who caught the bouquet"
+   ],
+   "answer": 2,
+   "explanation": "It was Indian summer, the drive from Brookline to the Lee house at Chestnut Hill was made with coats and hats off, and there was a great deal of champagne. Of all the guests, Edith Kermit Carow had the least reason to celebrate; she danced the soles off her shoes. Fanny Smith, who was there too, wrote in her diary that it was the dearest little wedding, and that \"Alice looked perfectly lovely and Theodore so happy and responded in the most determined and Theodorelike tones\".",
+   "image": "assets/img/weddings/edith-carow-portrait.jpg",
+   "imageAlt": "Studio portrait of Edith Kermit Carow as a young woman",
+   "credit": "Edith Kermit Carow. Photograph by J. Ludovici. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Roosevelt's two weddings were held in churches of which two traditions?",
+   "options": [
+    "Presbyterian, then Roman Catholic",
+    "Dutch Reformed at both ceremonies",
+    "Unitarian, then Anglican",
+    "Episcopal, then Lutheran"
+   ],
+   "answer": 2,
+   "explanation": "The Unitarian church at Brookline, Massachusetts in 1880, close to the Lees' house at Chestnut Hill, and St George's, Hanover Square in 1886 — the fashionable parish church of Mayfair, where an Anglican canon took the service. Roosevelt himself was brought up Dutch Reformed and stayed Dutch Reformed all his life, so neither wedding was in his own communion.",
+   "image": "assets/img/weddings/edith-carow-young.jpg",
+   "imageAlt": "Edith Kermit Carow standing, holding a furled umbrella",
+   "credit": "Edith K. Carow. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Homes and places"
+   }
+  },
+  {
+   "prompt": "Roosevelt became engaged to Edith Carow in November 1885. What did he do about telling people?",
+   "options": [
+    "Announced it at once in the New York papers",
+    "Kept it secret for the better part of a year",
+    "Told his sisters and nobody else",
+    "Had it read out at Sagamore Hill at Christmas"
+   ],
+   "answer": 1,
+   "explanation": "They agreed on 17 November 1885, less than two years after Alice's death, and told no one. Roosevelt believed second marriages showed weakness of character and expected to be judged for exactly that. The secret held until September 1886, when the newspapers got hold of it while he was out in Dakota, and he had to write to his sister Bamie to confirm it — flogging himself in the same letter: \"I utterly disbelieve in and disapprove of second marriages; I have always considered that they argued weakness in a man's character.\"",
+   "image": "assets/img/weddings/edith-carow-young.jpg",
+   "imageAlt": "Edith Kermit Carow, standing portrait",
+   "credit": "Edith K. Carow. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Roosevelt crossed the Atlantic in November 1886 to be married. Whom did he acquire on the voyage?",
+   "options": [
+    "A Cunard purser who gave the bride away",
+    "The clergyman who married him",
+    "A reporter who broke the story",
+    "His best man"
+   ],
+   "answer": 3,
+   "explanation": "Cecil Arthur Spring Rice — Springy — a young British Foreign Office man aboard the Cunard liner Etruria, who worked out that the Mr. and Miss Merrifield on the passenger list were Theodore and Bamie Roosevelt travelling incognito, and introduced himself on the second day out. By the time the ship reached Liverpool on 13 November, Roosevelt had asked him to be best man. They stayed friends for thirty years, and Spring Rice ended up British ambassador in Washington.",
+   "image": "assets/img/weddings/spring-rice.jpg",
+   "imageAlt": "Portrait of Sir Cecil Spring Rice",
+   "credit": "Sir Cecil Spring-Rice, photographed about 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "What was the weather in London on the morning of 2 December 1886?",
+   "options": [
+    "A hard clear frost",
+    "Heavy snow across the city",
+    "A fog thick enough to fill the church",
+    "Gales blowing in off the Channel"
+   ],
+   "answer": 2,
+   "explanation": "An archetypal London pea-souper. Bamie had to be led to the bride's hotel by link bearers carrying torches, and when she reached St George's she could not see her brother at the far end of the nave, let alone the altar. Edith walked up through the haze in a Valenciennes lace gown and an orange-blossom veil, towards a groom she could barely make out.",
+   "image": "assets/img/weddings/spring-rice.jpg",
+   "imageAlt": "Cecil Spring Rice, Roosevelt's best man in 1886",
+   "credit": "Sir Cecil Spring-Rice, photographed about 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "On the way to the church the best man stopped the cab to buy the bridegroom something. What?",
+   "options": [
+    "A silk hat",
+    "A pair of bright orange gloves",
+    "A buttonhole of white roses",
+    "A ring he had forgotten to bring"
+   ],
+   "answer": 1,
+   "explanation": "Nobody has satisfactorily explained the gloves. They made Roosevelt the most luminous object in London that morning — Bamie picked out the orange fists from the back of the church before she could make out anything else about him. One curious footnote: the wedding corsage Edith carried survives at Sagamore Hill, and it is orange too.",
+   "image": "assets/img/weddings/edith-carow-portrait.jpg",
+   "imageAlt": "Edith Kermit Carow in a patterned gown",
+   "credit": "Edith Kermit Carow. Photograph by J. Ludovici. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Who conducted the 1886 ceremony at St George's, Hanover Square?",
+   "options": [
+    "The Archbishop of Canterbury",
+    "The American ambassador",
+    "A Unitarian minister brought from Boston",
+    "A Canon of York"
+   ],
+   "answer": 3,
+   "explanation": "Charles E. Camidge, Canon of York, in a service that was private and short. Edith's sister Emily and Spring Rice signed the parish register as witnesses. Hardly anyone else was there — this was a wedding arranged in secret, on the far side of an ocean from almost everyone who would have expected an invitation.",
+   "image": "assets/img/weddings/edith-carow-young.jpg",
+   "imageAlt": "Edith Kermit Carow before her marriage",
+   "credit": "Edith K. Carow. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "The register asked each signatory for a profession. What did Roosevelt write?",
+   "options": [
+    "Ranchman",
+    "Author",
+    "Lawyer",
+    "Gentleman"
+   ],
+   "answer": 0,
+   "explanation": "Ranchman — and on the same line he called himself a widower of twenty-eight. Edith wrote that she was twenty-five, a spinster with no profession. He did have a cattle outfit on the Little Missouri when he signed it, and he was about to stop having one: the blizzards that wiped out the northern herds were only weeks away.",
+   "image": "assets/img/weddings/tr-1885.jpg",
+   "imageAlt": "Theodore Roosevelt in buckskins with a rifle, photographed in 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "A North Dakota newspaper carried the news of the marriage. How did it do?",
+   "options": [
+    "It ran a photograph of the bride",
+    "It refused to print the news at all",
+    "It got almost every detail wrong",
+    "It printed the wedding sermon in full"
+   ],
+   "answer": 2,
+   "explanation": "The Bad Lands Cow Boy told its readers that the bride was nineteen, the youngest daughter of a Governor Carroll of Maryland, that her sister had lately married an English nobleman, and that Mr. Roosevelt was about thirty and very wealthy. Edith Kermit Carow was twenty-five, a New Yorker, and had been in and out of the Roosevelt house since she was a small child. Roosevelt's cattlemen on the Little Missouri read the whole thing and boggled.",
+   "image": "assets/img/badlands/bad-lands-cowboy.jpg",
+   "imageAlt": "The office of the Bad Lands Cow Boy newspaper at Medora",
+   "credit": "Office of the Bad Lands Cow Boy, Medora. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Where did the Roosevelts spend the honeymoon after the 1886 wedding?",
+   "options": [
+    "A fortnight in the Scottish Highlands",
+    "Europe, until the following March",
+    "Dakota Territory, at his own ranch",
+    "Nowhere — he sailed straight home"
+   ],
+   "answer": 1,
+   "explanation": "Dover the same afternoon, then Paris, Lyons and Marseilles, and by 13 December the palms and rose hedges of Hyères in Provence. After that the Italian Riviera, Spezia, Florence and Rome. They did not reach New York until March 1887. \"It is delightful to idle one's days here with a clear conscience,\" he wrote to Bamie from Hyères, \"for the time is all our own this winter.\"",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Théobald Chartran's painted portrait of Edith Kermit Roosevelt in a plumed hat, seated on a stone bench in a garden",
+   "credit": "Théobald Chartran's 1902 portrait of Edith Kermit Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "News from home caught up with Roosevelt abroad in the winter of 1886–87, weeks after his second wedding. What was it?",
+   "options": [
+    "That his cattle were dying in Dakota",
+    "That he had won the mayoralty after all",
+    "That his first book was out of print",
+    "That his sister had married"
+   ],
+   "answer": 0,
+   "explanation": "The blizzards of 1886–87 on the northern plains — the Great Die-Up. Reading the early reports in Italy, he told Bamie he might have to shut Sagamore Hill and go west for a year or two, and set to work on six long magazine articles about ranching to bring some money in. Having written that, he bought a carved Florentine sideboard, a dining table and chairs for the house he had just talked about closing.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt in buckskin, 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

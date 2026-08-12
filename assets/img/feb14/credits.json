@@ -1,0 +1,25 @@
+{
+ "greenwood": {
+  "source": "loc",
+  "ref": "2017656251",
+  "source_file": "loc_pictures_2017656251",
+  "description": "Greenwood Cemetery, Brooklyn, N.Y., U.S.A.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x738",
+  "credit_line": "Green-Wood Cemetery, Brooklyn, photographed in 1899. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Keystone View Company stereograph; cropped to the left frame, publisher's mount and caption removed. Fifteen years later than the events described."
+ },
+ "fifth-ave-church": {
+  "source": "loc",
+  "ref": "2018654109",
+  "source_file": "loc_pictures_2018654109",
+  "description": "[56th Street and 5th Avenue, New York City, showing the Fifth Avenue Presbyterian Church on the right]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1080",
+  "credit_line": "Fifth Avenue at 56th Street, New York, looking south — the spire of the Fifth Avenue Presbyterian Church on the right. Photograph by A. Loeffler, about 1907. Library of Congress, Prints and Photographs Division.",
+  "crop_note": "Photographer's caption strip trimmed. Photographed about twenty-three years after 1884.",
+  "note": "The view looks SOUTH, not north. The LOC record puts the church 'on the right' (it stood at 55th Street on the west side of Fifth Avenue) and the street sign at frame left reads E 56 ST — east on the left means the camera faces south. An earlier caption here said 'looking north ... spire at centre'; both halves were wrong."
+ }
+}

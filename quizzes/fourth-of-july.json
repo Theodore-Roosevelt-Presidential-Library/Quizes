@@ -155,7 +155,7 @@
    "explanation": "Twice. \"We, grangers and cowboys alike, have opened a new land; and we are the pioneers,\" he told them — and later, more soberly, \"I am, myself, at heart as much a Westerner as an Easterner; I am proud, indeed, to be considered one of yourselves.\" Whether the permanent residents of Dakota Territory agreed is another matter. He had been there three years.",
    "image": "assets/img/badlands/roundup-herd.jpg",
    "imageAlt": "A roundup herd in the Dakota Badlands",
-   "credit": "Roundup herd, Dakota Badlands. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "credit": "Roundup herd, Dakota Badlands. Theodore Roosevelt Collection, Houghton Library, Harvard University. Publisher's mount and caption strip removed.",
    "link": {
     "url": "https://www.trlibrary.com/tr/badlands",
     "label": "T.R. in the Badlands"
@@ -236,10 +236,10 @@
   {
    "prompt": "What did Packard say next?",
    "options": [
-    "\"Then you will become President of the United States\"",
-    "\"You should stand for Congress from this territory\"",
-    "\"New York will eat you alive\"",
-    "\"You will never leave Dakota\""
+    "That Roosevelt would become President of the United States",
+    "That he should stand for Congress from the territory",
+    "That New York would eat him alive",
+    "That he would never leave Dakota"
    ],
    "answer": 0,
    "explanation": "By Packard's own account, told years afterwards: he said it outright, and Roosevelt was not in the least surprised — he had clearly reached the same conclusion himself. The only reply Packard remembered was \"If your prophecy comes true, I will do my part to make a good one.\" Fifteen years later, a bullet in Buffalo made it true.",

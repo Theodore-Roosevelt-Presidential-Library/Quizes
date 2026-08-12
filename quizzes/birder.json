@@ -1,0 +1,286 @@
+{
+ "id": "birder",
+ "title": "The President Who Birded",
+ "subtitle": "Roosevelt, Birds, and a Lifetime of Lists",
+ "intro": "He shot his first bird on the Nile at fourteen, published a bird list before he could vote, and named a fox sparrow from a scrap of down he picked off a White House path. Thirteen questions for the spring migration, on the one enthusiasm that never left him.",
+ "heroImage": "assets/img/birder/warbler-plate.jpg",
+ "heroAlt": "Chromolithograph of two chestnut-sided warblers and a yellow warbler on a birch branch",
+ "heroCredit": "\"Singing Birds. Family — Wood-Warblers.\" Chromolithograph, 1875. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The President Who Birded",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's birding quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/early-life/young-naturalist"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Better Ear Than Grey",
+   "line": "Perfect. Every singer named."
+  },
+  {
+   "min": 11,
+   "name": "Life Lister",
+   "line": "You could have kept up on the Itchen."
+  },
+  {
+   "min": 8,
+   "name": "Field Glasses Ready",
+   "line": "A good morning's work."
+  },
+  {
+   "min": 5,
+   "name": "Backyard Feeder",
+   "line": "The list is growing."
+  },
+  {
+   "min": 0,
+   "name": "First Warbler",
+   "line": "Everyone starts with one bird."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt's first published work was a bird list. Who was named on it with him?",
+   "options": [
+    "John Burroughs, the nature essayist",
+    "Henry Davis Minot, a Harvard friend",
+    "Frank Chapman of the American Museum",
+    "C. Hart Merriam of the Biological Survey"
+   ],
+   "answer": 1,
+   "explanation": "The Summer Birds of the Adirondacks in Franklin County, N.Y. — a four-page pamphlet two undergraduates paid to have printed in 1877 after tramping the shores of the St Regis and Spitfire lakes. Roosevelt's own introductory note dates the observations to August 1874, August 1875 and 22 June to 9 July 1877, and says plainly that Minot was with him only for the last week of June. Minot, known in the family as Hal, already had a bird book of his own.",
+   "image": "assets/img/birder/spitfire-lake.jpg",
+   "imageAlt": "Birches along the shore of Spitfire Lake in the Adirondack Mountains",
+   "credit": "The Inlet, Spit-Fire Lake, Adirondack Mountains. Detroit Photographic Co. photochrom, early 1900s. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "The Summer Birds of the Adirondacks, the 1877 pamphlet Roosevelt printed with Henry Minot, was a catalogue of species. How many did it describe?",
+   "options": [
+    "24",
+    "51",
+    "97",
+    "212"
+   ],
+   "answer": 2,
+   "explanation": "Ninety-seven — and every one of them a bird the two authors had seen there themselves, rather than a name copied out of somebody else's list. That principle of exclusion is exactly what the reviewers praised. Bird lists for particular places mattered enormously in the 1870s, because nobody yet had a national picture to check them against.",
+   "image": "assets/img/birder/spitfire-lake.jpg",
+   "imageAlt": "The shore of Spitfire Lake in the Adirondacks",
+   "credit": "The Inlet, Spit-Fire Lake, Adirondack Mountains. Detroit Photographic Co. photochrom, early 1900s. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "A working ornithologist reviewed the pamphlet in 1878 and called it the best recent list of its kind. Who?",
+   "options": [
+    "Spencer Fullerton Baird",
+    "C. Hart Merriam",
+    "Elliott Coues",
+    "John James Audubon"
+   ],
+   "answer": 1,
+   "explanation": "Clinton Hart Merriam, writing in the Bulletin of the Nuttall Ornithological Club: \"By far the best of these recent lists which I have seen\" was the Adirondacks catalogue of Theodore Roosevelt and H. D. Minot, and it bore, he added, prima facie evidence of reliability. Merriam went on to run the U.S. Biological Survey, and Roosevelt never got over the compliment — as president he was still writing to him for advice about birds.",
+   "image": "assets/img/birder/warbler-plate.jpg",
+   "imageAlt": "Chromolithograph of chestnut-sided and yellow warblers",
+   "credit": "\"Singing Birds. Family — Wood-Warblers.\" Chromolithograph, 1875. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "Roosevelt joined the Nuttall Ornithological Club at Harvard and read it a paper. On what?",
+   "options": [
+    "Warbler migration",
+    "The owls of New England",
+    "Colour in game birds",
+    "The English sparrow"
+   ],
+   "answer": 3,
+   "explanation": "On the evening of 28 January 1878 he stood up in front of the club and argued for exterminating the English sparrow, an import that was pushing bluebirds and wrens out of American towns. The older members thought the sophomore rather sure of himself. He had not moved an inch a quarter of a century later, when he wrote from the White House to ask Merriam what kind of air gun would deal with the sparrows at Sagamore Hill quietly enough not to disturb anything else.",
+   "image": "assets/img/backtoschool/harvard-holworthy.jpg",
+   "imageAlt": "Holworthy Hall in Harvard Yard, photographed in the nineteenth century",
+   "credit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/harvard",
+    "label": "Roosevelt at Harvard"
+   }
+  },
+  {
+   "prompt": "What was the first bird Roosevelt ever shot?",
+   "options": [
+    "A snowy owl at Oyster Bay",
+    "A hedge sparrow in Dresden",
+    "A warbler on the Nile",
+    "A fish crow on Long Island"
+   ],
+   "answer": 2,
+   "explanation": "13 December 1872, a few miles above Cairo, on the first morning of the family's houseboat journey up the river. He was fourteen, using a French pin-fire shotgun his father had bought him in Egypt — no springs to break, and it could be prised open with a brick if it rusted. It was, he wrote, \"the first bird I ever shot and I was proportionately delighted.\" He always dated his real work as a collector from that winter.",
+   "image": "assets/img/father/on-the-nile.jpg",
+   "imageAlt": "The Roosevelt family party on the Nile in the winter of 1872-73",
+   "credit": "On the Nile, winter of 1872-1873. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The making of a boy"
+   }
+  },
+  {
+   "prompt": "Roosevelt's second publication, in 1879, listed birds around which place?",
+   "options": [
+    "Oyster Bay",
+    "Medora",
+    "Cambridge",
+    "Washington"
+   ],
+   "answer": 0,
+   "explanation": "Notes on Some of the Birds of Oyster Bay, Long Island — seventeen species he thought rare or otherwise worth recording on the north shore, printed privately while he was off walking in Maine. Thirty-five years later, in his Autobiography, he was still quietly pleased about it: to this day, he wrote, certain \"obscure ornithological publications\" may be found recording that a fish-crow, and on another occasion an Ipswich sparrow, were obtained by one Theodore Roosevelt, Jr., at Oyster Bay.",
+   "image": "assets/img/birder/warbler-plate.jpg",
+   "imageAlt": "Nineteenth-century colour plate of North American warblers",
+   "credit": "\"Singing Birds. Family — Wood-Warblers.\" Chromolithograph, 1875. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "In 1882 Roosevelt broke up his boyhood collection. Which institution catalogued the 622 bird skins?",
+   "options": [
+    "Harvard's Museum of Comparative Zoology",
+    "The Nuttall Ornithological Club",
+    "The Smithsonian",
+    "The Boone and Crockett Club"
+   ],
+   "answer": 2,
+   "explanation": "The Smithsonian, whose accession clerks worked through the lot and gave every skin a Latin name and a description across twenty-five pages. Fifty-three of the birds had come from abroad, thirty-one of those from Egypt. He kept back a number of specimens for the American Museum of Natural History in New York, which his father had helped to found. He was newly married, a year out of law school and newly seated in the New York Assembly, and making a deliberate public break with science; giving away ten years of work was how he marked it.",
+   "image": "assets/img/birder/smithsonian-castle.jpg",
+   "imageAlt": "The Smithsonian Institution Building in Washington in the nineteenth century",
+   "credit": "Smithsonian Institution, south side. Stereograph, 1870s (one half of a stereo pair). Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "Roosevelt spent his last day in Europe in June 1910 walking English woods to hear birds sing. Who took him?",
+   "options": [
+    "Sir Edward Grey",
+    "Arthur Balfour",
+    "Lord Bryce",
+    "Rudyard Kipling"
+   ],
+   "answer": 0,
+   "explanation": "The British Foreign Secretary, who happened to be one of the best field ornithologists in the country. They left London on the morning of 9 June, tramped the valley of the Itchen for three or four hours, took tea at an inn, and walked on through the New Forest to Brockenhurst. Roosevelt knew English birds from Shakespeare, Milton, Keats and the old ballads and had never heard one; he needed someone who could match every song to its singer. He sailed from Southampton the next day.",
+   "image": "assets/img/birder/new-forest-rufus-stone.jpg",
+   "imageAlt": "Beech trees and open ground in the New Forest, Hampshire",
+   "credit": "New Forest, Hampshire. Photochrom, about 1890-1900. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "On his last day in England, 9 June 1910, Roosevelt spent the day walking the valley of the Itchen and the New Forest listening to birds. How many species did the day's list run to?",
+   "options": [
+    "11",
+    "41",
+    "79",
+    "126"
+   ],
+   "answer": 1,
+   "explanation": "Forty-one, with an asterisk against the twenty-three they had actually heard sing. Roosevelt thought so much of the list that he printed the whole thing in his Autobiography, species by species. Back at Sagamore Hill a few weeks later he ran his own twenty-four-hour count on home ground and reached forty-two — one better than England, which pleased him a good deal.",
+   "image": "assets/img/birder/new-forest-rufus-stone.jpg",
+   "imageAlt": "Old beeches and open lawn in the New Forest",
+   "credit": "New Forest, Hampshire. Photochrom, about 1890-1900. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Which English bird impressed Roosevelt most on his day of birdsong in Hampshire in June 1910?",
+   "options": [
+    "The nightingale",
+    "The skylark",
+    "The blackbird",
+    "The cuckoo"
+   ],
+   "answer": 2,
+   "explanation": "\"The bird that most impressed me on my walk was the blackbird,\" he wrote. He had already heard nightingales in abundance near Lake Como and larks elsewhere, so those were no surprise; the blackbird was new to him and he decided the books had never done it justice. What caught him was how exactly it behaved like an American robin — hopping over the lawns, nesting in the gardens — while singing something far closer to a wood thrush.",
+   "image": "assets/img/shared/tr-reading-tent.jpg",
+   "imageAlt": "Roosevelt reading in front of his tent in a hunting camp",
+   "credit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "An author asked the president in 1908 for the birds he had seen around Washington. How many species did he send back?",
+   "options": [
+    "12",
+    "48",
+    "93",
+    "306"
+   ],
+   "answer": 2,
+   "explanation": "Ninety-three, a good many with notes attached, and Lucy W. Maynard printed the whole thing in the 1909 edition of her Birds of Washington and Vicinity. He walked the grounds after breakfast most mornings. The list runs from the crows and grackles nesting on the lawn to a pair of saw-whet owls that spent hot June evenings taking insects on the wing while he and Edith sat out on the south portico.",
+   "image": "assets/img/shared/tr-seated-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated, holding a book",
+   "credit": "Theodore Roosevelt, seated portrait. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt once interrupted a cabinet meeting with what he announced as news. What was it?",
+   "options": [
+    "A chestnut-sided warbler in February",
+    "An owl in the Blue Room chimney",
+    "A bald eagle over the Potomac",
+    "The first robin of the spring"
+   ],
+   "answer": 0,
+   "explanation": "\"Gentlemen, do you know what has happened this morning?\" The room braced for a war or a bank failure. \"Just now I saw a chestnut-sided warbler—and this is only February!\" The story has come down through several independent hands, which is usually a sign that a good many people in Washington enjoyed telling it. Identifying warblers by sight genuinely frustrated him — the dull females were, he complained, close to impossible without a specimen in the hand.",
+   "image": "assets/img/birder/warbler-plate.jpg",
+   "imageAlt": "Colour plate showing a male and female chestnut-sided warbler",
+   "credit": "\"1. & 2. Chestnut-sided warbler. 3. Yellow warbler.\" Chromolithograph, 1875. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Walking the White House grounds with his sister Corinne, Roosevelt stooped and picked a scrap of down off the path. What did he do with it?",
+   "options": [
+    "Sent it to the Smithsonian to be identified",
+    "Put it in his pocketbook to keep",
+    "Set the grounds staff to find the nest",
+    "Named the bird it came from, then dropped it"
+   ],
+   "answer": 3,
+   "explanation": "\"Very early for a fox-sparrow,\" he said, and threw the fluff back down. Corinne wanted to know how anyone could tell a fox sparrow's feather from any other sparrow's, and he answered almost apologetically that he had really made a great study of sparrows. She put the whole exchange into the memoir of her brother that she published in 1921. His eyesight was poor and his ear was extraordinary, and between them he missed very little.",
+   "image": "assets/img/mothersday/alice-corinne-anna.jpg",
+   "imageAlt": "Alice Lee Roosevelt, Corinne Roosevelt Robinson and Anna Roosevelt",
+   "credit": "Alice, Corinne, and Anna. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  }
+ ]
+}

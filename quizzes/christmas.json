@@ -92,10 +92,10 @@
   {
    "prompt": "What did Archie announce when he set out to do it?",
    "options": [
-    "“I’m going to fix up a tree”",
-    "“Father will never know”",
-    "“One tree cannot hurt a forest”",
-    "“We shall have Christmas properly”"
+    "That he was going to fix up a tree",
+    "That their father would never know",
+    "That one tree could not hurt a forest",
+    "That they would have Christmas properly"
    ],
    "answer": 0,
    "explanation": "“I’m going to fix up a tree,” he said — and did. On Christmas morning, once the presents had been handed out, he and Quentin asked their father to come and look at the closet. “What is up now?” he asked. “Come and see!” they shouted. The door came open on a tree blazing with lights, and by every account he enjoyed it as much as anyone in the room.",
@@ -218,10 +218,10 @@
   {
    "prompt": "Leaving the hospital that Christmas morning, dizziness hit him in the lift. What did he tell his doctor?",
    "options": [
-    "“Not a word of this to the newspaper men outside”",
-    "“Say nothing of this to anyone in the corridor”",
-    "“I shall be perfectly well again by the first of the year”",
-    "“I am not sick and it will give the wrong impression”"
+    "That the newspapermen outside were not to be told",
+    "That nobody in the corridor should hear of it",
+    "That he would be perfectly well again by the new year",
+    "That he was not sick and it would give the wrong impression"
    ],
    "answer": 3,
    "explanation": "Dr. Richards reached out to steady him and he flinched: “Don’t do that, doctor. I am not sick and it will give the wrong impression.” Then he braced himself, walked the corridor unaided and got into his car. He died at Sagamore Hill twelve days later, on 6 January 1919.",

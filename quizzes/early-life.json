@@ -110,10 +110,10 @@
   {
    "prompt": "Roosevelt's father gave him an instruction that shaped the rest of his life. What was it?",
    "options": [
-    "\"You must make your name\"",
-    "\"You must make your fortune\"",
-    "\"You must make your peace\"",
-    "\"You must make your body\""
+    "That he must make his name",
+    "That he must make his fortune",
+    "That he must make his peace",
+    "That he must make his body"
    ],
    "answer": 3,
    "explanation": "Theodore Roosevelt Sr. told his frail son that he had the mind but not the body, and that without the help of the body the mind could not go as far as it should. \"You must make your body.\" The boy set to work in a gymnasium his father fitted out on the second-floor piazza.",

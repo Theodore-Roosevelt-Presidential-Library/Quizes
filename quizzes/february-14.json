@@ -1,0 +1,268 @@
+{
+ "id": "february-14",
+ "title": "The Fourteenth of February",
+ "subtitle": "New York, 1884",
+ "intro": "On 14 February 1884 Theodore Roosevelt's mother and his wife died in the same house on West 57th Street, eleven hours apart. His daughter had been born there two days earlier. He was twenty-five. Twelve questions on the day, the people in the house, and what he did afterwards.",
+ "heroImage": "assets/img/early-life/alice-hathaway-lee.jpg",
+ "heroAlt": "Studio portrait of Alice Hathaway Lee Roosevelt",
+ "heroCredit": "Alice Hathaway Lee Roosevelt, about 1883. Photograph by Allen & Rowell. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Fourteenth of February",
+  "shareText": "{score}/{total} on the Theodore Roosevelt Presidential Library's questions about 14 February 1884 — {tier}.",
+  "url": "https://www.trlibrary.com/tr/early-life"
+ },
+ "tiers": [
+  {
+   "min": 11,
+   "name": "You know this day",
+   "line": "Very little of it was new to you."
+  },
+  {
+   "min": 9,
+   "name": "Closely read",
+   "line": "You have spent time with this."
+  },
+  {
+   "min": 6,
+   "name": "Familiar with it",
+   "line": "Much of this was already known to you."
+  },
+  {
+   "min": 3,
+   "name": "Partly known",
+   "line": "The outline is there."
+  },
+  {
+   "min": 0,
+   "name": "New to this",
+   "line": "It is not a day most people are taught."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "On 14 February 1884 two members of Theodore Roosevelt's family died in the same house, hours apart. Who were they?",
+   "options": [
+    "His father and his wife",
+    "His mother and his wife",
+    "His mother and his sister",
+    "His wife and his newborn daughter"
+   ],
+   "answer": 1,
+   "explanation": "Martha Bulloch Roosevelt — Mittie — died at three in the morning with her four grown children at the bedside; she had typhoid fever, which had looked at first like a heavy cold. Alice Hathaway Lee Roosevelt died at two that afternoon in her husband's arms, of a kidney disease that had gone undetected through her pregnancy. The house was 6 West 57th Street in New York. Mittie was forty-eight, Alice was twenty-two, and Roosevelt was twenty-five.",
+   "image": "assets/img/early-life/alice-hathaway-lee.jpg",
+   "imageAlt": "Studio portrait of a young woman in a high-collared dress, Alice Hathaway Lee Roosevelt",
+   "credit": "Alice Hathaway Lee Roosevelt, about 1883. Photograph by Allen & Rowell. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "Something else had happened at 6 West 57th Street two days before those two deaths, on 12 February 1884. What?",
+   "options": [
+    "Roosevelt's daughter was born",
+    "The house was put up for sale",
+    "Roosevelt was elected Speaker",
+    "Roosevelt's brother Elliott sailed for India"
+   ],
+   "answer": 0,
+   "explanation": "Alice gave birth to a girl late on the Tuesday night, and telegrams went out the next morning saying that mother and child were doing well. The baby was christened Alice Lee Roosevelt on Sunday 17 February, the day after the funeral. Her father recorded the christening in his diary in one line and made no other comment on it.",
+   "image": "assets/img/early-life/alice-corinne-anna.jpg",
+   "imageAlt": "Three young women posed together in a studio photograph",
+   "credit": "Alice Hathaway Lee Roosevelt with Corinne Roosevelt Robinson and Anna \"Bamie\" Roosevelt, about 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Where was Roosevelt on 13 February 1884, when the telegram came telling him his wife and his mother were both dangerously ill?",
+   "options": [
+    "At his club in New York",
+    "On the family place at Oyster Bay",
+    "In Albany, at the State Assembly",
+    "In Boston with the Lees"
+   ],
+   "answer": 2,
+   "explanation": "He had gone up to Albany on 12 February to push a reform bill through the House. On the Wednesday morning a telegram said a daughter had been born and members crowded round to shake his hand; a few hours later a second telegram came and he left on the next train. New York was under a fog so thick that river traffic was cancelled and the trains were crawling. The journey normally took five hours. He did not reach the house until about half past ten at night.",
+   "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
+   "imageAlt": "A composite portrait of the members of the New York State Assembly, 1882-1884, made up of separate head-and-shoulders photographs",
+   "credit": "New York State Assembly, 1882-1884 — a composite made up of individual portraits, probably by the Notman Photographic Company of Albany. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "Roosevelt in the Assembly"
+   }
+  },
+  {
+   "prompt": "On the night of 13 February 1884 Roosevelt's brother Elliott met their sister Corinne at the door of the house on West 57th Street with a single sentence. What did he tell her?",
+   "options": [
+    "That she was too late and should go home",
+    "That there was a curse on the house",
+    "That she must not go upstairs on any account",
+    "That Theodore had already arrived from Albany"
+   ],
+   "answer": 1,
+   "explanation": "“There is a curse on this house. Mother is dying, and Alice is dying too.” Corinne had come up from Baltimore by ferry and elevated train through the fog and had seen one light burning in a third-floor window as she walked from the station. Her brother stood in the doorway with the hall light behind him. Theodore arrived about an hour later, and repeated Elliott's words to himself when their mother died.",
+   "image": "assets/img/feb14/fifth-ave-church.jpg",
+   "imageAlt": "Fifth Avenue in New York looking south from 56th Street, lined with mansions, a church spire on the right",
+   "credit": "Fifth Avenue at 56th Street, New York, looking south — the spire of the Fifth Avenue Presbyterian Church on the right. Photograph by A. Loeffler, about 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/siblings",
+    "label": "Bamie, Elliott and Corinne"
+   }
+  },
+  {
+   "prompt": "Roosevelt kept a diary. What is on the page for 14 February 1884?",
+   "options": [
+    "Nothing at all — the page was torn out",
+    "A full account of the day",
+    "A list of the people who called",
+    "A large X and one sentence"
+   ],
+   "answer": 3,
+   "explanation": "A large cross drawn across the page, and beneath it: “The light has gone out of my life.” Nothing else is written for that day. The page survives among his papers at the Library of Congress and has been reproduced many times since.",
+   "image": "assets/img/early-life/tr-at-college.jpg",
+   "imageAlt": "Head-and-shoulders portrait of Theodore Roosevelt as a young man with side whiskers",
+   "credit": "Theodore Roosevelt at college, 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "In the days after the double funeral Roosevelt filled a diary page with the plain dates of his courtship and marriage, then closed it with one more line. What did that line say?",
+   "options": [
+    "That he would never write of the matter again",
+    "That God would have to help him bear what had been laid upon him",
+    "That, for joy or for sorrow, his life had now been lived out",
+    "That nothing was left to him now except his work"
+   ],
+   "answer": 2,
+   "explanation": "He set down the plain facts first — where Alice was born, when he first saw her, when they were betrothed and married, when the baby came — and then wrote: “For joy or for sorrow my life has now been lived out.” He was twenty-five. He had another thirty-five years to live, and would be President of the United States within eighteen.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt photographed in buckskin hunting clothes",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The funeral was held on 16 February at the Fifth Avenue Presbyterian Church. What did the congregation see at the altar?",
+   "options": [
+    "An empty chancel, at the family's request",
+    "Two rosewood coffins side by side",
+    "A single coffin, closed",
+    "The Roosevelt family pew draped in black"
+   ],
+   "answer": 1,
+   "explanation": "Two hearses stood outside and two coffins stood at the altar. More than two thousand people came, Astors and Vanderbilts among them and the Speaker of the Assembly as well. Dr. John Hall took the service and wept openly as he prayed for the four-day-old baby. Roosevelt sat in the front pew with Elliott, Bamie, Corinne and Alice's father, and showed nothing at all; his old tutor wrote that day that he did not know what he did or said.",
+   "image": "assets/img/feb14/fifth-ave-church.jpg",
+   "imageAlt": "The spire of the Fifth Avenue Presbyterian Church rising over Fifth Avenue, seen looking south from 56th Street",
+   "credit": "Fifth Avenue at 56th Street, New York, looking south — the spire of the Fifth Avenue Presbyterian Church on the right. Photograph by A. Loeffler, about 1907, twenty-three years after the funeral. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Roosevelt's New York"
+   }
+  },
+  {
+   "prompt": "Where were the two women buried?",
+   "options": [
+    "Youngs Memorial Cemetery, Oyster Bay",
+    "Mount Auburn Cemetery, Cambridge",
+    "The churchyard on Fifth Avenue",
+    "Green-Wood Cemetery, Brooklyn"
+   ],
+   "answer": 3,
+   "explanation": "Green-Wood, in Brooklyn, beside Roosevelt's father, who had died six years earlier almost to the week, and beside his grandmother Bulloch. Roosevelt himself is not buried there. He lies at Oyster Bay, where he was taken in January 1919.",
+   "image": "assets/img/feb14/greenwood.jpg",
+   "imageAlt": "Marble angels and gravestones among trees at Green-Wood Cemetery, Brooklyn",
+   "credit": "Green-Wood Cemetery, Brooklyn, photographed in 1899, fifteen years after the burials described. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Roosevelt's New York"
+   }
+  },
+  {
+   "prompt": "What did the New York State Assembly do when it met the next day?",
+   "options": [
+    "Passed his reform bill in his absence",
+    "Adjourned in sympathy",
+    "Sent a delegation to the funeral",
+    "Voted to hold his committee seat open"
+   ],
+   "answer": 1,
+   "explanation": "Seven members spoke, some in tears, three of them among his most persistent opponents, and the House adjourned until the following Monday. One old Republican who had fought him repeatedly prayed that he be given strength to work bravely in the darkness. Roosevelt was back in Albany three days after the funeral, in his seat by ten the next morning, and arguing for his bill again that afternoon.",
+   "image": "assets/img/new-york-politics/assembly-composite-1882.jpg",
+   "imageAlt": "A composite portrait of the members of the New York State Assembly, 1882-1884, made up of separate head-and-shoulders photographs",
+   "credit": "New York State Assembly, 1882-1884 — a composite made up of individual portraits, probably by the Notman Photographic Company of Albany. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "Roosevelt in the Assembly"
+   }
+  },
+  {
+   "prompt": "Later that year, in a cabin in Dakota, Roosevelt wrote a memorial for private printing. Its long title records one fact about the two women. Which?",
+   "options": [
+    "That they were buried in a single grave",
+    "That they died in the same house on the same day",
+    "That neither of them had reached fifty",
+    "That both had been born in the South"
+   ],
+   "answer": 1,
+   "explanation": "In Memory of My Darling Wife Alice Hathaway Roosevelt and of My Beloved Mother Martha Bulloch Roosevelt Who Died in the Same House and on the Same Day on February 14, 1884. It is a few pages long and was printed for the family only. His own contribution ends: “And when my heart's dearest died, the light went out from my life for ever.”",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt photographed in buckskin hunting clothes in 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What became of 6 West 57th Street?",
+   "options": [
+    "It stayed in the family until 1919",
+    "It was sold within weeks",
+    "It became a museum",
+    "Roosevelt lived on there alone"
+   ],
+   "answer": 1,
+   "explanation": "It went on the market almost at once and was snapped up by a wealthy banker who had been a friend of Roosevelt's father. The family had until May to be out. Bamie took a house on Madison Avenue and the baby with her; Roosevelt used it as his New York address for the next three years, and spent most of that time in Dakota Territory.",
+   "image": "assets/img/feb14/fifth-ave-church.jpg",
+   "imageAlt": "Mansions along Fifth Avenue in New York, looking south from 56th Street",
+   "credit": "Fifth Avenue at 56th Street, New York, looking south. Photograph by A. Loeffler, about 1907. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Roosevelt's New York"
+   }
+  },
+  {
+   "prompt": "Roosevelt published his Autobiography in 1913, nearly thirty years later. How often does Alice appear in it?",
+   "options": [
+    "In a single sentence near the start",
+    "In a chapter of her own",
+    "Only in a footnote about his marriage",
+    "Not once"
+   ],
+   "answer": 3,
+   "explanation": "Her name is not in the more than two hundred thousand words of the book. Her daughter said later that her father did not simply avoid the subject with her — he never mentioned her name to anyone. The silence held for the rest of his life, and whether it was coldness or the only way he could carry it is a question the family argued over for the next century.",
+   "image": "assets/img/shared/sagamore-library-family.jpg",
+   "imageAlt": "The book-lined library at Sagamore Hill",
+   "credit": "The library at Sagamore Hill, taken by one of the family. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  }
+ ]
+}

@@ -2,42 +2,48 @@
  "family-portrait": {
   "dam_id": "1c5d8a48-bd45-4613-96e8-41cc63e991be",
   "source_file": "har_4893088_Roosevelt_family_portrait.jpg",
-  "description": "Roosevelt family portrait \u2014 From left to right: Theodore Roosevelt, Archibald Roosevelt, Theodore Roosevelt, Jr., Alice Roosevelt Longworth, Kermit Roosevelt, Edith Kermit Carow Roosevelt, and Ethel Roosevelt Derby, Washington ( \u2014 Creator: Gilbert, C. M. American$$QGilbert, C. M. American \u2014 Date: 1895 January 12",
+  "description": "Roosevelt family portrait — From left to right: Theodore Roosevelt, Archibald Roosevelt, Theodore Roosevelt, Jr., Alice Roosevelt Longworth, Kermit Roosevelt, Edith Kermit Carow Roosevelt, and Ethel Roosevelt Derby, Washington ( — Creator: Gilbert, C. M. American$$QGilbert, C. M. American — Date: 1895 January 12",
   "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-  "px": "1400x968"
+  "px": "1400x895",
+  "crop_note": "Cropped to the photograph: the cabinet-card mount, with C. M. Gilbert's signature on it, has been cut off.",
+  "credit_line": "Theodore and Edith Roosevelt with Alice, Ted, Kermit, Ethel and the infant Archie, photographed by C. M. Gilbert, January 1895. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "note": "FIVE children, not six. Quentin was born in 1897, two years after this sitting. An alt text reading 'six children' has been corrected once already."
  },
  "edith-portrait": {
   "dam_id": "2af88972-356e-4c11-b51e-35317dfe2bb4",
   "source_file": "loc_91480347_Edith_Kermit_Carow_Roosevelt_three_quart.tif",
-  "description": "[Edith Kermit Carow Roosevelt, three-quarter length portrait, seated on bench, facing right] \u2014 1 photographic print. \u2014 Creator: Johnston, Frances Benjamin \u2014 Date: 1902",
+  "description": "[Edith Kermit Carow Roosevelt, three-quarter length portrait, seated on bench, facing right] — 1 photographic print. — Creator: Johnston, Frances Benjamin — Date: 1902",
   "collection": "Library of Congress, Prints and Photographs Division.",
-  "px": "1400x1750"
+  "px": "1400x1739",
+  "crop_note": "Cropped to the picture: the black negative-carrier border and the white margin carrying the pencilled reproduction number 104524 have been cut off.",
+  "credit_line": "Théobald Chartran's 1902 portrait of Edith Kermit Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
+  "note": "NOT a photographic portrait. LOC records this as a photoprint by Frances Benjamin Johnston OF A PAINTING by Théobald Chartran; the LOC catalogue title, which reads as a description of a sitter, has misled captions before. Credit it as a painting."
  },
  "edith-and-quentin": {
   "dam_id": "034fecb4-5fa3-46c0-ab73-848fdb7dcc88",
   "source_file": "loc_2011646501_Mrs_Roosevelt_Quentin.tif",
-  "description": "Mrs. Roosevelt, Quentin \u2014 1 negative : glass. | Photograph shows portrait of President Theodore Roosevelt's second wife, Edith Kermit Carow Roosevelt, standing next to their son, Quentin. \u2014 Creator: Johnston, Frances Benjamin \u2014 Date: 1902",
+  "description": "Mrs. Roosevelt, Quentin — 1 negative : glass. | Photograph shows portrait of President Theodore Roosevelt's second wife, Edith Kermit Carow Roosevelt, standing next to their son, Quentin. — Creator: Johnston, Frances Benjamin — Date: 1902",
   "collection": "Library of Congress, Prints and Photographs Division.",
   "px": "1400x1748"
  },
  "ted-archie-ethel": {
   "dam_id": "712cedd4-3878-4831-b169-e69d481db277",
   "source_file": "har_4893075_Ted_Archie_Ethel_Roosevelt_one_windy_day.jpg",
-  "description": "Ted, Archie, & Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay, Long Island, N.Y \u2014 Theodore Roosevelt, Jr., Archibald Roosevelt, and Ethel Roosevelt Derby, Sagamore Hill, Oyster Bay (N.Y.). \u2014 Creator: Roosevelt, Edith Kermit Carow 1861-1948$$QRoosevelt, Edith Kermit Carow 1861-1948 \u2014 Date: ca. 1895",
+  "description": "Ted, Archie, & Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay, Long Island, N.Y — Theodore Roosevelt, Jr., Archibald Roosevelt, and Ethel Roosevelt Derby, Sagamore Hill, Oyster Bay (N.Y.). — Creator: Roosevelt, Edith Kermit Carow 1861-1948$$QRoosevelt, Edith Kermit Carow 1861-1948 — Date: ca. 1895",
   "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
   "px": "1234x1991"
  },
  "sagamore-library": {
   "dam_id": "c9e82b3c-f9c8-4da9-9783-a097067390f2",
   "source_file": "loc_92520598_Library_at_Sagamore_Hill.tif",
-  "description": "[Library at Sagamore Hill] \u2014 1 photographic print. \u2014 Date: 1870",
+  "description": "[Library at Sagamore Hill] — 1 photographic print. — Date: 1870",
   "collection": "Library of Congress, Prints and Photographs Division.",
   "px": "1400x986"
  },
  "sagamore-parlor": {
   "dam_id": "86bc0476-83fe-47a4-a378-5e642a5b071b",
   "source_file": "loc_93507906_The_Parlor_is_the_only_room_in_which_the.tif",
-  "description": "The Parlor is the only room in which there is any suggestion of formality \u2014 1 photomechanical print : halftone. | Interior view of Sagamore Hill, Oyster Bay, Long Island. \u2014 Date: 1902",
+  "description": "The Parlor is the only room in which there is any suggestion of formality — 1 photomechanical print : halftone. | Interior view of Sagamore Hill, Oyster Bay, Long Island. — Date: 1902",
   "collection": "Library of Congress, Prints and Photographs Division.",
   "px": "1400x1081"
  }

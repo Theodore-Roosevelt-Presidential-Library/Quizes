@@ -1,0 +1,20 @@
+{
+ "harvard-memorial-hall": {
+  "source": "dam",
+  "ref": "8d208b3f-8649-429b-a801-dd5bd9877f94",
+  "source_file": "har_2254056_Southern_view_from_Memorial_Hall.jpg",
+  "description": "Southern view from Memorial Hall \u2014 The eastern portion of Harvard Yard with Gore Hall and other buildings, with Cambridge residences, the Charles River and Allston in the background. Photograph by William Notman & Son. \u2014 Creator: William Notman & Son$$QWilliam Notman & Son \u2014 Date: 1874",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1144"
+ },
+ "harvard-holworthy": {
+  "source": "dam",
+  "ref": "f6b1bb38-bbfe-4dce-8a3a-3b0de736fcfb",
+  "source_file": "har_2254029_Holworthy_Hall.jpg",
+  "description": "Holworthy Hall \u2014 Harvard Yard, Harvard University, Cambridge (Mass.). Photograph by William Notman & Son. \u2014 Creator: William Notman & Son$$QWilliam Notman & Son \u2014 Date: 1874",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x995"
+ }
+}
