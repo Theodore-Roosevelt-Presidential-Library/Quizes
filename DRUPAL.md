@@ -332,3 +332,51 @@ that way.
   nodes want checking into it
 - The image review noted above (Square Deal's doubled stereograph frame, the
   single portrait on The People Around Him, `07_father.jpg`)
+
+
+---
+
+## ALL 53 LIVE — 12 August 2026
+
+The calendar group and the North Dakota group are both finished. Verified
+anonymously with cache-busted requests: **53/53 quiz pages return 200**,
+**18/18 old URLs** still land on the intended successor, and `/quiz` serves the
+gallery with no Typeform markup left.
+
+The Fourteenth of February and The Sixth of January were built as drafts while
+Matt decided whether the Library wanted to mark those days at all. It did, and
+both are now published.
+
+### The Save button that does nothing
+
+**This form has two Save buttons and only one of them works.** The Save in the
+top toolbar submits. The Save inside the form body does not — clicked
+programmatically it returns without error, without a validation message, and
+without saving. Five nodes were filled in, verified field by field, and lost
+that way before anyone checked the content list and found them missing.
+
+Locate the toolbar Save each time and click that. Do not trust a Save button
+found by position in the DOM.
+
+**The Add media button toggles.** Clicking it twice to be sure opens the dialog
+and closes it again, which looks exactly like it never opened. Click once,
+confirm the dialog is up, then search.
+
+Neither of these can corrupt anything: the Image field is required, so a node
+missing its image refuses to save rather than going in half-built. The failure
+mode is silent loss, not bad data — which is worse to diagnose and cheaper to
+recover from.
+
+### Listing a quiz whose node is not live
+
+`index.json` supports `"unlisted": true`, honoured by `gallery.js`. A quiz can
+be finished, verified and deployed to GitHub Pages while its Drupal node is
+still a draft — that is the normal state for anything waiting on a decision.
+Every gallery card links to `/quiz/<id>` on trlibrary.com, so listing one whose
+node is unpublished walks the visitor into a 403. Flag it, and clear the flag
+when the node goes live. Two steps, neither of which happens by accident.
+
+### Still open
+
+- The sitemap is missing all of `/tr` and all of `/visit`, and the 53 quiz
+  nodes want checking into it.
