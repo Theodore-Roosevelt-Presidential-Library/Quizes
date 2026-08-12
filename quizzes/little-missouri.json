@@ -1,0 +1,291 @@
+{
+ "id": "little-missouri",
+ "title": "The Spine of the Badlands",
+ "subtitle": "The Little Missouri River",
+ "intro": "It is shallow enough to walk across in August and it carved a hundred miles of canyon country doing it. Everything in this story happens along one river — the town that died, the army post that started it, the hotel with fourteen beds in one room, the hunt that kept a young New Yorker out here for a fortnight in the rain, and the ranch houses on both banks. Thirteen questions on the Little Missouri, then and now.",
+ "heroImage": "assets/img/little-mo/plains-river.jpg",
+ "heroAlt": "A wide bend of the Little Missouri with a low cut bank and a line of cottonwoods along the far shore",
+ "heroCredit": "\"A plains river\" — the Little Missouri, about 1886. Photograph by Theodore Roosevelt. Cabinet-card mount and gilt rules cropped. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Spine of the Badlands",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about the Little Missouri River — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Source to Mouth",
+   "line": "Perfect. You have run the whole river."
+  },
+  {
+   "min": 11,
+   "name": "River Rat",
+   "line": "You know this water better than most."
+  },
+  {
+   "min": 8,
+   "name": "Ford Finder",
+   "line": "Good crossing. Barely got your boots wet."
+  },
+  {
+   "min": 5,
+   "name": "Cottonwood Camper",
+   "line": "A decent stretch. Keep going downstream."
+  },
+  {
+   "min": 2,
+   "name": "Stuck in the Quicksand",
+   "line": "Happens to everyone out here."
+  },
+  {
+   "min": 0,
+   "name": "Still on the Bank",
+   "line": "The water is shallower than it looks. Try again."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Where does the Little Missouri rise?",
+   "options": [
+    "In the Black Hills of South Dakota",
+    "On the Missouri Coteau in central North Dakota",
+    "In northeastern Wyoming, near Devils Tower",
+    "In the Bighorn Mountains of Montana"
+   ],
+   "answer": 2,
+   "explanation": "It starts among the Flatiron Hills and the Missouri Buttes of northeastern Wyoming, close enough to Devils Tower that the buttes at its head are geologic cousins of the tower itself. From there it crosses the southeastern corner of Montana, clips the northwestern corner of South Dakota, and swings north into North Dakota — about 560 miles altogether. Clay Jenkinson, who has camped a good deal of it, says it is a fairly miserable little plains river until it gets past Marmarth, and that it only starts to feel like the Little Missouri a few miles south of Medora.",
+   "image": "assets/img/little-mo/up-river-from-elkhorn.jpg",
+   "imageAlt": "A wide sandy river flat with a distant line of cottonwoods and low bluffs",
+   "credit": "Up river from Elkhorn — the Little Missouri above the ranch, about 1886. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which way does the Little Missouri run through the North Dakota Badlands?",
+   "options": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "answer": 0,
+   "explanation": "North, and it bites deeper into the land the farther north it goes — which is why the country around the Elkhorn feels bigger than the country at Medora. The direction of flow explains a piece of Roosevelt's own vocabulary that otherwise reads backwards: he called the Elkhorn his lower ranch, meaning downstream, even though it lies well north of Chimney Butte. In its last stretch it turns east and empties into the Missouri.",
+   "image": "assets/img/little-mo/river-at-elkhorn.jpg",
+   "imageAlt": "The Little Missouri running shallow past a wooded bank below the Elkhorn ranch site",
+   "credit": "The river at Elkhorn — photographed for Hermann Hagedorn about 1919, some thirty years after Roosevelt left. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Where the Little Missouri joins the Missouri today, you cannot see the confluence. Why not?",
+   "options": [
+    "The lower channel silted up and shifted",
+    "The mouth lies under a reservoir",
+    "It goes underground through porous rock",
+    "It was diverted for irrigation canals"
+   ],
+   "answer": 1,
+   "explanation": "Garrison Dam, finished in the 1950s, backed the Missouri up into Lake Sakakawea and drowned the lower Little Missouri, which now ends in a long arm called Little Missouri Bay on the Fort Berthold Reservation. The reservoir took the best farmland of the Mandan, Hidatsa and Arikara Nation with it — 152,360 acres of it — and Clay Jenkinson, who is a North Dakotan, does not soften what that cost them. The bay is now one of the most remote and least visited places in the state.",
+   "image": "assets/img/little-mo/little-mo-at-elkhorn.jpg",
+   "imageAlt": "A broad shallow reach of the Little Missouri with sandbars and a low bluff beyond",
+   "credit": "Little Missouri at Elkhorn — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "Roosevelt warned that even a few inches of water in the Little Missouri could be hard to get across. What was the trouble?",
+   "options": [
+    "The current ran faster than it looked",
+    "Cattle refused to enter the alkali water",
+    "The channel moved between one week and the next",
+    "The bottom held quicksand and mud-holes"
+   ],
+   "answer": 3,
+   "explanation": "This, like most other plains rivers, has a broad, shallow bed, he wrote, and at low water it spreads out into pools with a trickle between them — even then, however, it is not always easy to cross, for the bottom is filled with quicksands and mud-holes. In flood it was worse: a muddy current that neither man nor beast can pass. Clay Jenkinson, who has walked a good deal of that bed, thinks Roosevelt exaggerated the quicksand. The river runs on average about five hundred cubic feet a second, against something like eighty-seven thousand for the Missouri.",
+   "image": "assets/img/little-mo/plains-river.jpg",
+   "imageAlt": "A wide, still, shallow reach of river with a sandy bank in the foreground and cottonwoods opposite",
+   "credit": "\"A plains river\" — the Little Missouri, about 1886. Photograph by Theodore Roosevelt. Cabinet-card mount and gilt rules cropped. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "One butte is so big that the Little Missouri loops right around it. Which?",
+   "options": [
+    "Bullion Butte",
+    "Sentinel Butte",
+    "Square Butte",
+    "Chimney Butte"
+   ],
+   "answer": 0,
+   "explanation": "Bullion Butte is massive enough to force the Little Missouri into a huge oxbow around its east and north sides. Clay Jenkinson's account of the river has Roosevelt normally taking the cutoff over the west shoulder instead, saving more than forty miles of river riding. The other three are real Badlands landmarks that do nothing of the kind: Chimney Butte gave the Maltese Cross its other name, and Sentinel Butte has a town named after it.",
+   "image": "assets/img/little-mo/bullion-butte-west.jpg",
+   "imageAlt": "A long view over broken badlands country from the western slope of a large flat-topped butte",
+   "credit": "View from the west slope of Bullion Butte — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In 1890 a cowboy drove a wagonload of Roosevelt women the forty miles from Medora out to the Elkhorn. Roosevelt's sister Corinne counted something on the way. What?",
+   "options": [
+    "Deer seen from the wagon: nine",
+    "Fordings of the river: twenty-three",
+    "Rattlesnakes killed on the road: four",
+    "Hours the drive took: eleven"
+   ],
+   "answer": 1,
+   "explanation": "Twenty-three crossings of the same river between town and the ranch house, and Corinne Roosevelt Robinson remembered every one of them, because the banks were so steep that it was always a question whether they could go fast enough down one side to carry them up the other. The party had come off the train at four in the morning into a downpour; the two horses had never been hitched together before, and Corinne wrote that the cowboy driver managed eventually to get them started. Edith Roosevelt never made the drive again. Hagedorn calls 1890 Roosevelt's farewell visit to the Elkhorn, and Corinne calls it a farewell too — three weeks at the ranch house, then Medora again and on to Yellowstone.",
+   "image": "assets/img/little-mo/ford-maltese-cross.jpg",
+   "imageAlt": "A shallow braided crossing of the Little Missouri with sandbars, a cut bank and cottonwoods",
+   "credit": "The ford of the Little Missouri near the Maltese Cross — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "A town called Little Missouri stood on the west bank of the river, and the people who lived in it had another name for the place. What was it?",
+   "options": [
+    "Little Misery",
+    "Gumbo Flats",
+    "Alkali",
+    "The Crossing"
+   ],
+   "answer": 0,
+   "explanation": "Little Misery — a joke old enough that it turns up in Hagedorn, Morris, Brinkley and half a dozen other books. There were maybe two dozen permanent residents and a good many more at night, seven saloons for them, no law for hundreds of miles, and a reputation as the worst town on the Northern Pacific. It was sometimes also called Comba. Roosevelt got off the train there at three in the morning on September 8, 1883, and it does not exist today.",
+   "image": "assets/img/little-mo/bill-williams-saloon.jpg",
+   "imageAlt": "A two-storey frame building standing at the end of a dirt street with badlands bluffs behind",
+   "credit": "The building identified as Bill Williams' saloon, Medora — photographed for Hermann Hagedorn in 1919; a garage sign is visible down the street. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt's first night in Dakota was spent at the Pyramid Park Hotel. What were the sleeping arrangements?",
+   "options": [
+    "A cot on the porch, because the rooms were full",
+    "A private room over the bar",
+    "Fourteen beds in one upstairs room",
+    "A bunk in the stable loft"
+   ],
+   "answer": 2,
+   "explanation": "He hammered on the door until the frowsy proprietor appeared, muttering oaths, and was given one of the fourteen beds in the room which by itself constituted the entire upper floor. The men who slept there called it the bull-pen, and Edmund Morris says thirteen of the fourteen already had bodies in them. The proprietor was Captain Frank Moore, a former Missouri River steamboat purser who had been the settlement's first storekeeper. In the morning the whole room stampeded downstairs for breakfast and the wash basin was foul by the time the New Yorker reached it.",
+   "image": "assets/img/little-mo/medora-from-station.jpg",
+   "imageAlt": "A small town on a river flat with striped buttes rising behind it, seen from the railway station",
+   "credit": "Medora and buttes from the station, September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "By his own account, what did Roosevelt do on his first morning in the Badlands?",
+   "options": [
+    "Rode out with the Marquis de Morès",
+    "Walked over to the abandoned army post",
+    "Bought a rifle and a horse from the livery",
+    "Went straight up the nearest butte to look"
+   ],
+   "answer": 1,
+   "explanation": "Next day I walked over to the abandoned army post, he wrote, and, after some hours among the gray log shacks, a ranchman who had driven into the station agreed to take him out to his ranch — the Chimney Butte ranch, seven miles south, where Sylvane and Joe Ferris and Bill Merrifield were living in one room with three bunks and a stove. That evening they played old sledge until a bobcat got into the chicken house. All three men later held commissions from President Roosevelt, and all four of the men at that table were delegates to the first Progressive convention in 1912.",
+   "image": "assets/img/little-mo/joe-ferris-store.jpg",
+   "imageAlt": "Six men standing on the plank porch of a frame store building",
+   "credit": "The store of Joe Ferris at Medora, N.D. — photographed for Hermann Hagedorn about 1920, more than thirty-five years after Roosevelt's first visit. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands-timeline",
+    "label": "Timeline of T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt's 1883 buffalo hunt ran a fortnight in the September rain. Whose cabin did he and Joe Ferris shelter in most nights?",
+   "options": [
+    "Gregor Lang's, on the Little Cannonball",
+    "Howard Eaton's, at Custer Trail Ranch",
+    "The Marquis de Morès's, above Medora",
+    "Bill Merrifield's, at Chimney Butte"
+   ],
+   "answer": 0,
+   "explanation": "Gregor Lang was a Scot running cattle for an absent English backer, and his shack near the mouth of the Little Cannonball became the base for the hunt. It rained for days. Ferris was worn out; Roosevelt was not, and sat up talking cattle and politics with Lang until one and two in the morning while Lang's teenage son Lincoln lay in his bunk listening. It was in that shack that Roosevelt first asked whether he ought to go into the cattle business himself. He shot his buffalo on September 20 and had bought a ranch within days.",
+   "image": "assets/img/little-mo/lang-cabin-site.jpg",
+   "imageAlt": "A shallow stream running over sand between low banks, with a butte in the distance",
+   "credit": "Site of Gregor Lang's cabin — photographed for Hermann Hagedorn about 1919, some thirty-five years after the hunt. The Harvard record gives the Cannonball; Hagedorn, Canfield and Lincoln Lang all place the camp on Little Cannonball Creek. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The town of Little Missouri lost to Medora across the river. What finished it?",
+   "options": [
+    "A flood took out the west-bank buildings",
+    "Fire destroyed most of the west bank",
+    "The trains stopped stopping there",
+    "The county seat was moved to Medora"
+   ],
+   "answer": 2,
+   "explanation": "The Marquis de Morès talked the Northern Pacific into shifting the express stop to his side of the water, and once the trains stopped on the east bank there was no reason for anyone to be on the west bank at all. The railroad went on calling at Little Missouri only until 1884. By early that year Medora had eighty-four buildings, five saloons, three hotels, a newspaper, a laundry, a barber, a blacksmith and a photographer, and the Marquis was telling reporters it would be the Omaha of the northern plains. It was not. After the killing winter of 1886–87 the town was down to a saloon, a boarding house and a store.",
+   "image": "assets/img/little-mo/medora-from-butte.jpg",
+   "imageAlt": "The Little Missouri valley at Medora seen from a butte top, buildings small on the flat below",
+   "credit": "The Little Missouri at Medora from the top of the butte, September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Little Missouri swings hard from side to side down its own valley. Roosevelt had a name for the flat of good ground held inside a single bend. What was it?",
+   "options": [
+    "A coulee",
+    "A bottom",
+    "A divide",
+    "A cut bank"
+   ],
+   "answer": 1,
+   "explanation": "The amount of this alluvial land enclosed by a single bend is called a bottom, Roosevelt wrote, which may be either covered with cotton-wood trees or else be simply a great grass meadow. A bottom was the one place on this river that had grass, shelter, timber and water all together, which is why almost everything anyone built out here stood on one. Roosevelt's two ranch houses did: the Elkhorn on one bank, the Maltese Cross on the other, forty miles of river apart. The other three answers are real Badlands words for something else: a coulee is a dry ravine running down to the river, a divide is the high ground between two drainages, and a cut bank is the steep raw edge a bend chews out of the outside of its own curve.",
+   "image": "assets/img/little-mo/opposite-ranch-house.jpg",
+   "imageAlt": "A striped butte rising directly across the river from a ranch site",
+   "credit": "Opposite the ranch house — the butte across the Little Missouri from Elkhorn. Photograph attributed to Theodore Roosevelt; the Harvard record carries no date, but he was photographing here in the mid-1880s. Mount cropped. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Most of the land along the river today is federal, in a unit that holds a national record. What is it?",
+   "options": [
+    "The largest national grassland in the country",
+    "The oldest national forest west of the Missouri",
+    "The largest wilderness study area in the plains",
+    "The first national monument in the Dakotas"
+   ],
+   "answer": 0,
+   "explanation": "The Little Missouri National Grassland, run by the Forest Service out of Medora and Watford City, covers about a million acres of western North Dakota and is the largest national grassland in the United States. The three units of Theodore Roosevelt National Park are enclaves within it. Much of the grassland is grazed under lease, so the cattle never really left. The state passed a Little Missouri Scenic River Act in 1975; Clay Jenkinson's judgment on it is that the law is toothless and largely ignored, and that this is the only truly public river North Dakota has.",
+   "image": "assets/img/little-mo/badlands-near-langs.jpg",
+   "imageAlt": "Broken badlands country falling away into a wide grassy coulee",
+   "credit": "The Badlands near Gregor Lang's ranch — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit to Medora"
+   }
+  }
+ ]
+}

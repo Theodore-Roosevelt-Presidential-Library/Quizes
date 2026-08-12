@@ -17,8 +17,17 @@ MIN_Q, MAX_Q = 8, 15
 # The DAM is our access system, not a source. Credits name the institution that
 # holds the original — a caption reading "TRPL Digital Asset Library" tells a
 # researcher nothing and takes credit that belongs elsewhere.
+# "Theodore Roosevelt Presidential Library" is on this list for one narrow case:
+# photographs the Library itself commissioned of its own building, grounds and
+# Boardwalk after it opened on 4 July 2026. Nothing in Houghton or the Library of
+# Congress shows a place that did not exist until 2026, and a quiz about what a
+# visitor finds in Medora today needs modern pictures. That is still crediting the
+# holding institution rather than the DAM — the DAM is how we reach the file, the
+# Library is who owns it. Do NOT use this line for a historical photograph that
+# actually belongs to Houghton or the Library of Congress.
 COLLECTIONS = ("Houghton", "Library of Congress", "New York Public",
-               "Smithsonian", "National Archives", "Theodore Roosevelt Center")
+               "Smithsonian", "National Archives", "Theodore Roosevelt Center",
+               "Theodore Roosevelt Presidential Library")
 BANNED_CREDIT = ("Digital Asset", "DAM", "Widen")
 
 REQUIRED_Q = ("prompt", "options", "answer", "explanation",
@@ -77,19 +86,46 @@ def answer_spread(qs):
     return []
 
 
-# A stereograph card is two nearly identical frames printed side by side on a
-# publisher's mount. Cropped to one frame it is a good photograph; uncropped it
-# is a picture of a piece of card with the same view on it twice, usually with
-# the publisher's name down the edges and a copyright line along the bottom.
+# Archival scans arrive on their mounts: a stereograph card is two frames on a
+# printed card, a cabinet card is a print on board with the studio's name and
+# copyright under it, an album page has the print's deckled edges and the album
+# board around it. Cropped to the photograph these are all good images.
+# Uncropped, we publish a picture of a piece of card — and sometimes a
+# copyright line, or, in one case that shipped, a picture editor's pencilled
+# "Crop" with an arrow.
 #
-# Two separate audits caught these AFTER they had shipped, and the second only
-# because a human opened the files. Nothing in the pipeline looked, because the
-# credit line said "one frame of a stereograph card, publisher's mount removed"
-# — a caption asserting the crop had happened when it had not.
+# WHAT THIS CHECK CAN AND CANNOT DO — read before trusting it.
 #
-# The shape gives it away without opening anything. Every correctly cropped
-# frame in this repo sits near 0.92:1. A whole card is about 1.9:1. Nothing we
-# legitimately use is that wide, so the ratio alone is a reliable tell.
+# It catches ONE thing, exactly: a stereograph card that has not been cropped.
+# It does that by the defining property rather than by shape — the two frames
+# on a stereo card are the same view, so the left half and the right half of an
+# uncropped scan are nearly identical images. Nothing else in this repo is.
+#
+# It does NOT catch cabinet cards, album pages, or any other mounted print.
+# I tried. A ring-uniformity detector missed all six mounted prints in the
+# batch it was written for — their mounts have gilt rules, texture and a
+# photographed backdrop, so the border is not flat — and flagged twenty-four
+# perfectly good posters, cartoons and documents that happen to sit on pale
+# paper. A check that cries wolf twenty-four times gets ignored, and one that
+# misses the real cases while looking authoritative is worse than no check.
+#
+# So: mounted prints are caught by a person opening the file. That is not a
+# gap waiting to be closed by a cleverer heuristic; it is the job. Two audits
+# found mounts this tool could never have seen, including a cabinet card with
+# "Copyright by C M Bell 1888" legible under the portrait and an advertisement
+# carrying a picture editor's pencilled "Crop" in the margin.
+# I also tried detecting the duplicated frame directly, by splitting the scan
+# down the middle and comparing halves. It found nothing: the frames sit inset
+# in the card with unequal margins and the publisher's imprints run down the
+# outer edges, so a 50% split never lines the two views up. A shift search
+# would work, but at that point the check is doing more work than a person
+# glancing at the file.
+#
+# What is left is the crude thing that actually worked. Every correctly
+# cropped frame in this repo sits near 0.92:1; a whole card is about 1.9:1;
+# nothing we legitimately publish is that wide. It caught nine cards across
+# seventeen quizzes with no false positives, which is the only evidence that
+# matters.
 STEREO_LO, STEREO_HI = 1.80, 2.10
 
 

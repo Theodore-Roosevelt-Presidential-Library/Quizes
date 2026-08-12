@@ -1,0 +1,309 @@
+{
+ "id": "nd-statehood",
+ "title": "Twins, and Nobody Knows Which Was Born First",
+ "subtitle": "Dakota Territory to statehood, 1861-1889",
+ "intro": "A territory that once stretched into Montana, a capital carried off by a railroad before dawn, a division fight that ran for a decade, and a signing arranged so that neither Dakota could claim to be older than the other. Fourteen questions on how North Dakota became a state.",
+ "heroImage": "assets/img/statehood/bismarck-1883.jpg",
+ "heroAlt": "An 1883 bird's-eye lithograph of Bismarck, Dakota Territory, showing the gridded streets, the Missouri River and steamboats",
+ "heroCredit": "\"View of the city of Bismarck, Dak., capital of Dakota and county seat of Burleigh County,\" 1883. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Dakota Territory to Statehood",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about North Dakota statehood — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Constitutional Delegate",
+   "line": "Perfect. Forty-five days of debate and you missed nothing."
+  },
+  {
+   "min": 12,
+   "name": "Territorial Governor",
+   "line": "You have the whole file in your head."
+  },
+  {
+   "min": 9,
+   "name": "County Commissioner",
+   "line": "Solid on the ground that matters."
+  },
+  {
+   "min": 6,
+   "name": "Homesteader",
+   "line": "You know why the line is where it is."
+  },
+  {
+   "min": 3,
+   "name": "New Arrival",
+   "line": "Off the train and looking around."
+  },
+  {
+   "min": 0,
+   "name": "Still East of the Red River",
+   "line": "Come west. It is a better story than it sounds."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In what year did Congress create Dakota Territory?",
+   "options": [
+    "1849",
+    "1861",
+    "1876",
+    "1883"
+   ],
+   "answer": 1,
+   "explanation": "The act was signed on 2 March 1861, two days before Lincoln took the oath and a month before Fort Sumter. Before that, the country that became North Dakota had been shuffled between Michigan, Wisconsin, Iowa, Minnesota and Nebraska, usually split down the Missouri River, and the settlers around Pembina had been governed at a distance of five hundred miles. Statehood was still twenty-eight years off, and Roosevelt would not get off a train in the Territory for another twenty-two.",
+   "image": "assets/img/before-tr/prairie-edge.jpg",
+   "imageAlt": "Rolling grassland breaking away into eroded badlands country",
+   "credit": "Prairie at the edge of the Badlands — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Besides the two Dakotas, what else was inside the original boundaries of Dakota Territory?",
+   "options": [
+    "Parts of Minnesota and Iowa",
+    "The whole of Nebraska",
+    "Parts of Montana and Wyoming",
+    "A strip of what is now Manitoba"
+   ],
+   "answer": 2,
+   "explanation": "As drawn in 1861 the Territory ran a long way west, taking in country that is now Montana and Wyoming. What trimmed it back was the creation of Idaho Territory in March 1863, which took Dakota's whole western portion; Montana Territory was carved out of Idaho the next year, and Wyoming Territory did not exist until 1868. Dakota got a slice of ground back from Idaho in 1864 and kept that outline until 1889. A useful landmark for the modern western boundary of North Dakota: it runs just west of the point where the Yellowstone joins the Missouri.",
+   "image": "assets/img/before-tr/badlands-view.jpg",
+   "imageAlt": "A wide view over eroded badlands ridges toward a river valley",
+   "credit": "View of the Badlands, most likely with the Little Missouri River beyond — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Where was the capital of Dakota Territory for the first twenty-two years?",
+   "options": [
+    "Fargo",
+    "Deadwood",
+    "Pembina",
+    "Yankton"
+   ],
+   "answer": 3,
+   "explanation": "Yankton sits in the far south-eastern corner of what is now South Dakota, and it had been a town for barely two years when the legislature first met there. The capitol was a small wooden building holding two chambers and the territorial offices. It served well enough while the settled part of Dakota was the south-east corner — and became a grievance the moment settlement spread north and west, because Yankton was a very long way from Fargo, a very long way from Deadwood, and not on a transcontinental railroad at all.",
+   "image": "assets/img/statehood/bismarck-1883.jpg",
+   "imageAlt": "An 1883 bird's-eye lithograph of Bismarck showing gridded streets and steamboats on the Missouri",
+   "credit": "\"View of the city of Bismarck, Dak., capital of Dakota and county seat of Burleigh County,\" 1883. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Bismarck took the capital in 1883. Who wanted it moved there, and why?",
+   "options": [
+    "Missouri River steamboat companies, to keep the freight trade",
+    "The Northern Pacific Railroad, to put the capital on its own line",
+    "The Army, which wanted the government next to a fort",
+    "Gold interests in the Black Hills, who wanted a closer land office"
+   ],
+   "answer": 1,
+   "explanation": "The mover was Alexander McKenzie, then a sheriff in his early thirties, working hand in glove with the Northern Pacific. The relocation law required the winning town to put up a hundred thousand dollars and a hundred and sixty acres, and McKenzie had quietly bought a hundred and sixty acres on the edge of Bismarck beforehand. Territorial governor Nehemiah Ordway, who had railroad interests of his own, appointed him to the commission and bought votes for the bill with promises of colleges and a prison; the university went to Grand Forks that way. A grand jury at Yankton indicted Ordway for corrupt practices in the spring of 1884, but the case never reached a verdict: his lawyers argued that a federal grand jury had no jurisdiction over a territorial governor, since only the president could remove one, and the judge threw the indictment out on that ground. President Arthur did not reappoint him — when Ordway's four-year term ran out that June the office went to Gilbert A. Pierce. McKenzie ran North Dakota politics for the next forty years.",
+   "image": "assets/img/statehood/bismarck-1883.jpg",
+   "imageAlt": "Bird's-eye view of Bismarck in 1883 with the new capitol on the hill above the town",
+   "credit": "\"View of the city of Bismarck, Dak., capital of Dakota and county seat of Burleigh County,\" 1883. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The law said the relocation commission had to hold its first meeting in Yankton, and Yankton planned to arrest the commissioners the moment they arrived. How did they get round it?",
+   "options": [
+    "On a steamboat anchored out in the river",
+    "In a church, where the sheriff would not follow",
+    "On a train that did not stop",
+    "By sending deputies and staying away themselves"
+   ],
+   "answer": 2,
+   "explanation": "The commissioners gathered in Sioux City, Iowa, and boarded a train for Yankton. It came in around dawn; the meeting was called to order aboard, a president elected, another time and place fixed for the next session, and the train went out again without a commissioner setting foot in the town. The guards posted on the edge of town heard the whistle and knew they had been outsmarted. Accounts differ on the hour and even the day. The commission then spent three months touring the towns that had bid, cast its ballots at Fargo, and on the thirteenth ballot chose Bismarck.",
+   "image": "assets/img/little-mo/medora-from-station.jpg",
+   "imageAlt": "Medora and the buttes behind it seen from the railway station",
+   "credit": "Medora and buttes from the station, September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Losing the capital hardened opinion in the southern half of the Territory. What did the south do about it?",
+   "options": [
+    "Petitioned to be annexed to Nebraska",
+    "Held its own convention and wrote a constitution",
+    "Refused to pay territorial taxes",
+    "Moved the courts to Deadwood"
+   ],
+   "answer": 1,
+   "explanation": "Delegates met at Sioux Falls in September 1883 and produced a constitution for a state made out of the southern half of Dakota. The voters approved it that November by 12,336 to 6,814 — and the Democratic majority in the United States House refused to act on it, reckoning correctly that the new state would send Republicans to Washington. A second convention met at Sioux Falls in 1885 and got no further. Splitting the Territory had been talked about since the early 1870s; what nobody could arrange was the date.",
+   "image": "assets/img/medora/medora-from-butte.jpg",
+   "imageAlt": "The town of Medora and the Little Missouri valley seen from a butte top",
+   "credit": "The Little Missouri at Medora from the top of the butte, photographed in September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Dakota had the population for statehood years before it got it. What kept Congress from acting?",
+   "options": [
+    "A long-running boundary dispute with Canada",
+    "Objections from the Army over the reservations",
+    "A shortage of qualified lawyers to draft a constitution",
+    "Arithmetic: Dakota's voters were Republicans"
+   ],
+   "answer": 3,
+   "explanation": "Admitting Dakota meant admitting Republican senators and representatives, and through the middle and late 1880s the Democrats held the House while the Republicans held the Senate. Grover Cleveland took the oath in March 1885 and gave the Democrats the White House as well. So the bills came and the bills died. The railroads were no help either: the Northern Pacific had more influence and less regulation to worry about in a territory than it would have in a state, and it was in no hurry. Dakota did send a delegate to Congress the whole time, but a territorial delegate could speak on the floor and not vote on it.",
+   "image": "assets/img/statehood/cleveland-1888.jpg",
+   "imageAlt": "A cabinet-card portrait of President Grover Cleveland in profile, 1888",
+   "credit": "President Grover Cleveland, 1888. Photograph by C. M. Bell. Cropped to the photograph from the studio mount, which carried the copyright line and the sitter's signature. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The bill that finally broke the deadlock is known as the Omnibus Bill. How many states did it provide for?",
+   "options": [
+    "Two",
+    "Three",
+    "Four",
+    "Six"
+   ],
+   "answer": 2,
+   "explanation": "North Dakota, South Dakota, Montana and Washington, all four of them expected to vote Republican. It passed on 22 February 1889 and Grover Cleveland — a Democrat, in the last fortnight of his first term, having spent four years resisting exactly this — signed it. Idaho and Wyoming came in the following year under separate acts, which is why they are sometimes miscounted as part of the same bill. The Omnibus Bill is also called the Enabling Act, because it did not admit anybody; it set out what the four would have to do first.",
+   "image": "assets/img/statehood/cleveland-1888.jpg",
+   "imageAlt": "Portrait photograph of Grover Cleveland, twenty-second president of the United States",
+   "credit": "President Grover Cleveland, 1888. Photograph by C. M. Bell. Cropped to the photograph from the studio mount, which carried the copyright line and the sitter's signature. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Omnibus Bill set a date for the constitutional conventions. Which day did it pick?",
+   "options": [
+    "New Year's Day",
+    "Washington's birthday",
+    "Election day in November",
+    "The Fourth of July"
+   ],
+   "answer": 3,
+   "explanation": "North Dakota's delegates met at Bismarck on 4 July 1889 and a town of two thousand put on a parade to welcome them — cavalry from Fort Yates and Fort Abraham Lincoln, two bands, the Civil War veterans, and forty-two young women on horseback for the thirty-eight states and the four hoping to join them. The delegates then sat for forty-five days and finished on 17 August. Riding in that procession was a delegation from Standing Rock that included Sitting Bull, Gall, John Grass, Running Antelope and Rain-in-the-Face. Sitting Bull carried the American flag; a man behind him carried a sign reading March of Civilization. What the Lakota men meant by taking part is genuinely contested — resignation, or reconciliation offered on their own terms — and the organisers who put them in the parade and the men who rode in it need not have meant the same thing by it at all.",
+   "image": "assets/img/badlands/medora-1883.jpg",
+   "imageAlt": "Bare frame buildings standing on the open flat at Medora in 1883",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "One clause was put to North Dakota's voters separately from the rest of the constitution. What was it about?",
+   "options": [
+    "Prohibition",
+    "Woman suffrage",
+    "Where to put the capital",
+    "Railroad rates"
+   ],
+   "answer": 0,
+   "explanation": "The delegates split it off deliberately: it was contentious enough that attaching it to the constitution risked sinking the whole document and delaying statehood. Both passed on 1 October 1889, but not by similar margins. The constitution went through 27,441 to 8,107; prohibition scraped in 18,552 to 17,393. North Dakota entered the Union dry and the clause sat in its constitution for forty-three years, until voters struck it out by initiated amendment on 8 November 1932 — a year ahead of the federal repeal, and a rule that western sheriffs had treated with a good deal of flexibility throughout.",
+   "image": "assets/img/badlands/bad-lands-cowboy.jpg",
+   "imageAlt": "The small frame office of the Bad Lands Cow Boy newspaper with two people standing outside",
+   "credit": "Office of the Bad Lands Cow Boy, probably showing Arthur T. Packard and his wife. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Congress had meant to divide Dakota along the 46th parallel of latitude. Why did it use a different line?",
+   "options": [
+    "It would have put Bismarck in the southern state",
+    "The Missouri River made it impossible to survey",
+    "Farms in five counties would be cut in two",
+    "South Dakota refused to accept a straight border"
+   ],
+   "answer": 2,
+   "explanation": "Dakotans meeting at Fargo in December 1880 worked out that the 46th parallel would drop most of the bottom tier of townships in Emmons, Logan, LaMoure, Ransom and Richland counties into the southern state, and would leave homesteads and improved farms straddling a state line. So the enabling act used the seventh standard parallel instead — a survey line that township and county boundaries already followed. It also did something the bill never mentioned: it runs straight through the Standing Rock Reservation, which has been divided between Sioux County, North Dakota, and Corson County, South Dakota, ever since — one nation living under two state governments, two sets of courts and two sets of laws, a burden the drafters were not weighing when they picked a line to save white homesteads. Even the line itself went wrong at first: two different seventh standard parallels were on file, one of them a Minnesota surveyor's error, and neither new state would decide which was correct. A fresh federal survey ran from 1891, and the boundary is marked to this day by seven-foot quartzite posts lettered N.D. on one face and S.D. on the other.",
+   "image": "assets/img/before-tr/prairie-edge.jpg",
+   "imageAlt": "Open grassland running to the horizon at the edge of the badlands",
+   "credit": "Prairie at the edge of the Badlands — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "North Dakota is listed as the thirty-ninth state and South Dakota as the fortieth. What is that ordering actually based on?",
+   "options": [
+    "The alphabet — the signing order was never recorded",
+    "The order the two conventions finished their constitutions",
+    "Population at the 1890 census",
+    "The order the two territories were first settled"
+   ],
+   "answer": 0,
+   "explanation": "President Benjamin Harrison signed both proclamations on the afternoon of 2 November 1889 and the order was deliberately kept off the record, so nobody can say which Dakota was a state first. The numbering that follows is a filing convention and not a fact about that afternoon. How he did it comes down as tradition rather than as record: the story told ever since is that Secretary of State James G. Blaine covered both documents with a sheet of paper, that Harrison signed blind, and that the papers were shuffled afterwards so no clerk and no reporter could tell. Every careful account hedges the mechanics; none of them can produce the order. Montana followed on 8 November and Washington on 11 November.",
+   "image": "assets/img/statehood/harrison-1888.jpg",
+   "imageAlt": "A photographic portrait of Benjamin Harrison, bearded, in a dark coat",
+   "credit": "Benjamin Harrison, photographed by W. H. Potter, 1888. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt's neighbours on the Little Missouri had an idea about his future in Dakota. What did some of them want him to be?",
+   "options": [
+    "Sheriff of Billings County",
+    "Territorial governor",
+    "Dakota's representative in Congress",
+    "The first mayor of Medora"
+   ],
+   "answer": 2,
+   "explanation": "Hagedorn records that voices up and down the river wanted Roosevelt as Dakota's first representative in Congress, and the newspapers took it up: the Bismarck Weekly Tribune ran an editorial on it in August 1884, and the Mandan Pioneer called him a vigorous young Republican of the new school. Clay Jenkinson notes that as statehood actually approached there was talk of him as one of the new state's first senators. Nothing came of any of it. He had no intention of entering Dakota politics, his career was in New York, and by 1889 he was a federal civil service commissioner in Washington.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt photographed in 1885 in fringed buckskin",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What did the two new Dakotas still have to settle between them after admission?",
+   "options": [
+    "Which of them could go on calling itself Dakota",
+    "How to divide the territory's property and debts",
+    "Which would keep the territorial militia",
+    "Whether to share a single senator"
+   ],
+   "answer": 1,
+   "explanation": "The Omnibus Bill had given careful instructions for splitting up a going concern — the buildings, the paperwork and the money owed. It was the unglamorous part and it mattered: a state that cannot find its own land records cannot settle a title dispute. Arthur Mellette, the last governor of Dakota Territory, addressed North Dakota's convention in July and then went home to become the first governor of South Dakota. North Dakota elected John Miller, a Dryden-born wheat farmer who had sat in the convention himself.",
+   "image": "assets/img/before-tr/medora-station-1900.jpg",
+   "imageAlt": "A crowd gathered at the Medora railway depot",
+   "credit": "Crowd at the Medora depot, September 16, 1900 — eleven years after statehood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

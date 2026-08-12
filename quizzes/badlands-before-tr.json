@@ -1,0 +1,309 @@
+{
+ "id": "badlands-before-tr",
+ "title": "The Country Before Roosevelt",
+ "subtitle": "The Little Missouri Badlands before September 1883",
+ "intro": "A twenty-four-year-old New Yorker got off a train at three in the morning and thought he had reached the edge of the world. He had not. The Mandan had a name for this country and a story about who made it, the Lakota had wintered on the upper river, French trappers had cursed it in their own language, the Army had built a post here, the railroad had already renamed it for the tourist trade, and a French marquis had founded a town across the water five months earlier. Fourteen questions on the Badlands before Theodore Roosevelt.",
+ "heroImage": "assets/img/before-tr/badlands-bullion-slopes.jpg",
+ "heroAlt": "A wide view of eroded badlands ridges and bare hillocks falling away toward a distant river valley",
+ "heroCredit": "The Bad Lands from the slopes of Middle (or Bullion) Butte — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Country Before Roosevelt",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about the Badlands before Roosevelt ever saw them — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Keeper of the Winter Count",
+   "line": "Perfect. You know this country older than the railroad."
+  },
+  {
+   "min": 12,
+   "name": "Heart of the World",
+   "line": "Very few people can do that. Well done."
+  },
+  {
+   "min": 9,
+   "name": "River Trader",
+   "line": "Strong work on genuinely hard ground."
+  },
+  {
+   "min": 6,
+   "name": "Voyageur",
+   "line": "You have the shape of it. Keep going."
+  },
+  {
+   "min": 3,
+   "name": "Section Hand",
+   "line": "A start. There is a lot of history out here."
+  },
+  {
+   "min": 0,
+   "name": "Off the Three A.M. Train",
+   "line": "Same as Roosevelt, then. Have a look around."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "In the Mandan account of how the country was made, two beings set out from the Heart River to improve the world. Going south and west, what did First Creator make?",
+   "options": [
+    "Flat grassland, lakes and spots of timber",
+    "The Missouri River and its bottoms",
+    "The first earth lodge and the first corn",
+    "Rugged badlands, hills and herds of bison"
+   ],
+   "answer": 3,
+   "explanation": "Lone Man took the north and east and made the level prairie with its lakes and timber; First Creator took the south and west and made the broken country, the streams and the buffalo. Elizabeth Fenn's history of the Mandan people opens with this story, and the geography in it is exact — the badlands really do lie southwest of the Heart River confluence, and the smooth drift prairie really does lie to the northeast. The Mandan called their homeland the heart of the world. Their descendants, together with the Hidatsa and the Arikara, are the Mandan, Hidatsa and Arikara Nation on the Fort Berthold Reservation, where the Little Missouri meets the Missouri today.",
+   "image": "assets/img/before-tr/badlands-bullion-slopes.jpg",
+   "imageAlt": "Eroded badlands ridges and bare clay hillocks falling away toward a distant valley",
+   "credit": "The Bad Lands from the slopes of Middle (or Bullion) Butte — photographed for Hermann Hagedorn about 1919, long after the events described. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "A Mandan earth lodge was a domed house of posts, willow and turf, thirty to forty feet across. Who owned it?",
+   "options": [
+    "The head of the men's society that raised it",
+    "The village as common property",
+    "The women of the maternal clan",
+    "Whichever family had paid for the timber"
+   ],
+   "answer": 2,
+   "explanation": "Women built the lodges, women maintained them, and the lodge belonged to the mother's clan. A man moved into his wife's household when he married, and children belonged to their mother's people. Fenn is blunt about it: the earth lodge was in every way the dominion of women. The same women grew the corn, beans, squash and sunflowers that made the Missouri River towns the great marketplace of the northern plains — Mandan, Hidatsa and Arikara alike were famous traders long before any European arrived to write it down.",
+   "image": "assets/img/before-tr/prairie-edge.jpg",
+   "imageAlt": "A man standing on a grassy bluff above a broad open plain, with a bare clay pinnacle to his left",
+   "credit": "Prairie at the edge of the Badlands — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Lakota historians kept records called winter counts. What is one?",
+   "options": [
+    "A tally of horses owned by each family",
+    "A calendar with one picture per year",
+    "A song listing every chief in order",
+    "A count of days between two moons"
+   ],
+   "answer": 1,
+   "explanation": "Each passing year got a single image standing for the thing everyone would remember about it, the whole run of years painted in a spiral or a line, often on a bison hide, and kept by a man whose job was to know the story behind every mark. They are real documents and historians use them as such: Pekka Hamalainen reads them for the rise and fall of alliances, and Elizabeth Fenn reads them alongside Mandan and Arikara evidence for the epidemics of the 1780s. A winter count is why we can date events on these plains that no European wrote down.",
+   "image": "assets/img/before-tr/sagebrush-buttes.jpg",
+   "imageAlt": "A sagebrush plain running back to a line of flat-topped buttes",
+   "credit": "Sagebrush plain with buttes rising in the background — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "English-speakers lump seven related nations together as the Sioux. What do those nations call the confederacy themselves?",
+   "options": [
+    "Oceti Sakowin, the Seven Council Fires",
+    "Paha Sapa, the Black Hills",
+    "Mnisose, the Missouri River",
+    "Hunkpapa, one of the Lakota bands"
+   ],
+   "answer": 0,
+   "explanation": "Oceti Sakowin — written Očhéthi Šakówiŋ — means the Seven Council Fires, and covers the Lakota, the Yankton and Yanktonai, and the Mdewakanton, Sisseton, Wahpeton and Wahpekute. Pekka Hamalainen uses the term throughout Lakota America; Nick Estes, who is Lower Brule Sioux, calls it the Nation of the Seven Council Fires. The other three answers are all real names, for the Black Hills, for the Missouri River, and for one of the Lakota bands. Lakota country reached this river too — Clay Jenkinson notes that the Hunkpapa leader Sitting Bull liked to winter his people on the upper Little Missouri.",
+   "image": "assets/img/before-tr/badlands-view.jpg",
+   "imageAlt": "A wide badlands view with the wooded line of a river valley beyond",
+   "credit": "View of the Badlands, most likely with the Little Missouri River beyond — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "The Corps of Discovery spent the winter of 1804–05 among the Mandan and Hidatsa towns, and needed to buy corn to survive it. Once they had run through their trade goods, what paid for the corn?",
+   "options": [
+    "Blacksmith work at their own forge",
+    "Whiskey from the keelboat's stores",
+    "Gunpowder and lead",
+    "Beaver pelts trapped over the winter"
+   ],
+   "answer": 0,
+   "explanation": "The carpenter Patrick Gass finished a smithy beside Fort Mandan on December 27, 1804, and John Shields fired up the forge. The villagers, who had been getting metal tools from Cree and Assiniboine traders for generations and had a great many of them broken, arrived with axes, hoes and bridles to be mended — and with corn. Clark wrote that they were much surprised at the Bellos & method of makeing Sundery articles of Iron. Within a month Shields had moved on to making war hatchets, which the Mandan and Hidatsa wanted far more than mended hoes. The captains reached the villages in late October 1804 and left on April 7, 1805.",
+   "image": "assets/img/before-tr/river-bottom-noon.jpg",
+   "imageAlt": "A broad shallow river at midday with a sandy bar and cottonwoods along the far bank",
+   "credit": "\"A river bottom at noon\" — the Little Missouri, about 1886, some eighty years after the winter described. Photograph by Theodore Roosevelt. Burgundy mount and gilt rules cropped. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Lewis and Clark hired the trader Toussaint Charbonneau at the Knife River villages. He spoke Hidatsa — but something else about his household decided it. What?",
+   "options": [
+    "He owned the only spare horses for sale",
+    "He had already crossed the Rocky Mountains",
+    "His wives were Shoshone",
+    "He could read and write French and English"
+   ],
+   "answer": 2,
+   "explanation": "The captains expected to meet the Shoshone in the mountains, and to need horses, food and directions from them. Charbonneau had two Shoshone wives living with him among the Hidatsa — Sakakawea and Otter Woman — and that, not his own Hidatsa, is what made him worth hiring. Both women were in the Knife River towns because of a slave trade that ran along the same routes as the corn and the horses, and that is the part of the story the schoolbooks usually leave out. Fenn does not.",
+   "image": "assets/img/before-tr/little-cannonball-bank.jpg",
+   "imageAlt": "A cut bank and shallow water on a small badlands creek",
+   "credit": "West bank of the Little Cannonball — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "The English name Bad Lands is a translation. What did the French-Canadian voyageurs actually say?",
+   "options": [
+    "Lands without water",
+    "Bad lands to travel through",
+    "Lands the fire has spoiled",
+    "Lands of no good pasture"
+   ],
+   "answer": 1,
+   "explanation": "Les mauvaises terres à traverser — bad country to get across. It is a teamster's complaint, not a judgment on the scenery, and anyone who has tried to drive a wagon through wet Badlands gumbo will sympathise. Roosevelt himself wrote that in very wet weather the Badlands are absolutely impassable. Hermann Hagedorn, Edmund Morris and David McCullough all give the phrase; the voyageurs had been through here a century before the cattle came.",
+   "image": "assets/img/before-tr/water-course.jpg",
+   "imageAlt": "A sagebrush-choked gully cut deep between pale clay walls, with striped buttes beyond",
+   "credit": "Typical water course in the Badlands — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt described bands of black and brick red running across the Badlands hillsides. What makes the red?",
+   "options": [
+    "Iron-rich sand blown from the west",
+    "Volcanic ash from the Yellowstone country",
+    "Clay baked by a burning coal seam",
+    "Lichen growing on the exposed clay"
+   ],
+   "answer": 2,
+   "explanation": "When a coal vein gets on fire it makes what is called a burning mine, Roosevelt wrote, and the clay above it is turned into brick. Some of those fires burned for years. The result is the hard red rock North Dakotans call scoria — not true volcanic scoria at all, but baked clay — and it is spread on half the gravel roads in the western part of the state. The black stripes are the lignite seams themselves, unburned. Roosevelt was seeing the same geology that gives the buttes their stripes today.",
+   "image": "assets/img/before-tr/badlands-near-langs.jpg",
+   "imageAlt": "Broken badlands country falling away into a wide grassy coulee",
+   "credit": "The Badlands near Gregor Lang's ranch — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Before there was a town on the Little Missouri there was an Army post beside the crossing. What was it there to do?",
+   "options": [
+    "Cover the Northern Pacific's crews",
+    "Collect a toll at the river ford",
+    "Run the agency for a nearby reservation",
+    "Guard the stage road to the Black Hills"
+   ],
+   "answer": 0,
+   "explanation": "It was called the Bad Lands Cantonment — a company of about fifty soldiers with log barracks and officers' quarters, sent to cover the Northern Pacific's construction crews after the track reached this point in 1879. Donald Dresden's judgment is that the cantonment is what started the town: a sutler set up shop to sell to the soldiers, a hotel followed, and a settlement grew around them. The Army had long since moved on when, in May 1883, the naval officer Henry Gorringe — the man who had brought the obelisk called Cleopatra's Needle from Alexandria to New York — bought the old post with two partners, meaning to run cattle out of it and take in hunting parties. It was Gorringe who told Roosevelt to go to Little Missouri in the first place.",
+   "image": "assets/img/before-tr/medora-1883.jpg",
+   "imageAlt": "Three plain frame buildings standing in snow on an open flat",
+   "credit": "Medora in 1883 — the office and company store of the Marquis de Mores. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Northern Pacific wanted tourists, decided Bad Lands was bad marketing, and printed a prettier name in its guidebooks. What was it?",
+   "options": [
+    "The Dakota Alps",
+    "Cathedral Country",
+    "Pyramid Park",
+    "Cottonwood Park"
+   ],
+   "answer": 2,
+   "explanation": "Pyramid Park — the railroad's own coinage, though there is nothing pyramidal and nothing parklike about the place. The name stuck to exactly one building: the Pyramid Park Hotel at Little Missouri, where Roosevelt spent his first night in Dakota, and which the railroad's own guidebook talked up as a jumping-off place for sportsmen. Donald Dresden notes that the Northern Pacific finally gave up and went back to calling them the Bad Lands in the 1930s.",
+   "image": "assets/img/before-tr/medora-station-1900.jpg",
+   "imageAlt": "A crowd under a railway depot sign reading MEDORA, with a smaller board giving the mileage to St. Paul",
+   "credit": "Crowd at the Medora depot, September 16, 1900 — seventeen years after Roosevelt first stepped off a train here. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Hagedorn described the end of the northern buffalo herd in a single sentence of arithmetic. Three hundred thousand animals died in roughly how much country?",
+   "options": [
+    "Two thousand square miles",
+    "The whole of western Dakota Territory",
+    "Twelve square miles",
+    "A hundred and fifty square miles"
+   ],
+   "answer": 3,
+   "explanation": "Driven north out of the settled Nebraska plains and crowded into a patch of ground not much bigger than a large county, they perished like cattle in a stockyard, almost overnight. Hides fetched about three dollars. Hunters swarmed out of Little Missouri and fifty towns like it, passengers shot from the train windows for sport, and the hides piled up at every shipping point while the carcasses rotted where they fell. By the time Roosevelt came looking for a bull in September 1883 the great herd had been gone about six months and he had to hunt for days to find a straggler. None of this was only a hide business. The herds fed and clothed the Lakota, the Cheyenne and the other nations who had been living on and around this river, and killing them off was understood at the time as the fastest way to end their independence. Roosevelt said so himself in print a few years later: that the extermination of the buffalo was the only way of solving the Indian question, that as long as it existed those nations could not be kept on reservations, and that from the standpoint of humanity at large its extermination had been a blessing. He was describing a policy, and endorsing it.",
+   "image": "assets/img/before-tr/badlands-near-elkhorn.jpg",
+   "imageAlt": "Open badlands country looking down toward the wooded line of the Little Missouri",
+   "credit": "View of the Badlands near Elkhorn, looking down on the Little Missouri — photographed for Hermann Hagedorn about 1919, decades after the events described. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "Buffalo hides went east by the trainload. Once the hides were gone, one last trade picked up what the herd had left lying on the prairie and sold it by the ton to the fertilizer works. What was gathered and shipped?",
+   "options": [
+    "Wolf pelts",
+    "Buffalo bones",
+    "Petrified wood",
+    "Lignite coal"
+   ],
+   "answer": 1,
+   "explanation": "Bone pickers working for fertilizer companies drove wagons out onto the grass and brought back the skeletons, which were piled in long white ranks beside the railroad and shipped off to be ground into fertilizer or burned for the pigment trade. Douglas Brinkley and Kathleen Dalton both describe the bleached piles; a rider crossing this country in 1883 would have passed mounds of them. It was the last money anyone made out of the northern herd.",
+   "image": "assets/img/before-tr/medicine-buttes.jpg",
+   "imageAlt": "A field of weathered sandstone hoodoos standing on open short-grass prairie",
+   "credit": "Medicine Buttes — the Medicine Rocks near Ekalaka and Baker, Montana, photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt reached the Little Missouri on September 8, 1883. How old was the town of Medora across the river?",
+   "options": [
+    "It would not be founded for another year",
+    "Fourteen years — it predated the railroad",
+    "About five months",
+    "Three years, laid out with the rails"
+   ],
+   "answer": 2,
+   "explanation": "The Marquis de Morès reached the Little Missouri in the spring of 1883, was rebuffed when he tried to buy into the settlement already standing on the west bank, bought the empty flat on the opposite side instead, and christened it Medora on April 1, for his wife, Medora von Hoffman — five months and a week before Roosevelt's train pulled in. He was a French cavalry officer born the same year as Roosevelt, and almost everything in the new town belonged to him or was there because of him. For a while the two settlements glared at each other across the water. Roosevelt, who used the place as his railhead for the whole of his ranching years, called Medora an excessively unattractive little hamlet.",
+   "image": "assets/img/before-tr/buttes-in-badlands.jpg",
+   "imageAlt": "Striped badlands buttes rising above a broad shallow river",
+   "credit": "Buttes in the Bad Lands, photographed September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Long before there was a town anywhere on the Little Missouri, a lone French-Canadian trapper followed it from near its source to its mouth. In what year?",
+   "options": [
+    "1804",
+    "1743",
+    "1851",
+    "1876"
+   ],
+   "answer": 0,
+   "explanation": "Jean-Baptiste Lepage, a French-Canadian trapper, came down out of the Black Hills country along the Little Missouri in the autumn of 1804 and walked into a camp of nearly fifty strangers bedding down for the winter at the Knife River — the Lewis and Clark expedition. They hired him on the spot, on November 2, to fill the place of a soldier who had been court-martialled and expelled. Lepage kept no journal and wrote no memoir, and Lewis's final report on him ran to four words: entitled to no peculiar merit. So far as anyone knows he was the first non-Native traveller to go down the Little Missouri from near its head to its mouth, and Clay Jenkinson reckons him one of only two who ever did it in the era before settlement.",
+   "image": "assets/img/before-tr/badlands-view.jpg",
+   "imageAlt": "Badlands ridges with the timbered course of a river winding beyond them",
+   "credit": "View of the Badlands, most likely with the Little Missouri River beyond — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

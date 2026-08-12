@@ -1,0 +1,327 @@
+{
+ "id": "badlands-geology",
+ "title": "How the Badlands Were Made",
+ "subtitle": "Sixty million years of mud, coal, fire and water",
+ "intro": "A swamp full of crocodiles, a mountain range shedding sand eastward, coal seams that catch fire and bake the clay above them into brick, and a river shoved off course by a wall of ice. Fifteen questions on how the Little Missouri Badlands came to look like that.",
+ "heroImage": "assets/img/geology/badlands-layers.jpg",
+ "heroAlt": "Badlands buttes near Medora with pale layered clay slopes and a band of red rock running along the ridge",
+ "heroCredit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "How the Badlands Were Made",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about Badlands geology — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "State Geologist",
+   "line": "Perfect. Every layer, in order."
+  },
+  {
+   "min": 13,
+   "name": "Field Geologist",
+   "line": "You could map this ground."
+  },
+  {
+   "min": 10,
+   "name": "Rockhound",
+   "line": "You read a butte the way other people read a page."
+  },
+  {
+   "min": 7,
+   "name": "Curious Hiker",
+   "line": "You have been looking at the stripes and wondering."
+  },
+  {
+   "min": 4,
+   "name": "Overlook Visitor",
+   "line": "A good start. Go back and look lower down."
+  },
+  {
+   "min": 0,
+   "name": "Just Arrived",
+   "line": "Begin at any road cut. The whole story is in it."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "When were the rock layers exposed in the Badlands laid down?",
+   "options": [
+    "During the last ice age, about twelve thousand years ago",
+    "In the Paleocene, beginning about 65 million years ago",
+    "In the Jurassic, about 160 million years ago",
+    "In the Cambrian, about 520 million years ago"
+   ],
+   "answer": 1,
+   "explanation": "The dinosaurs had just gone. Out west the Rocky Mountains were buckling upward, and water, wind and frost were taking them apart again as fast as they rose. Rivers carried the sand, silt and mud eastward and dropped it here, layer on layer, across a flat and swampy lowland. The two formations that make up nearly all of what a visitor sees are Paleocene, and the North Dakota Geological Survey dates them to roughly 60 to 55 million years ago; a few exposures at the northern end of the badlands are eroded from beds as young as Eocene. Everything a visitor looks at is that debris, turned to soft stone and then cut open by a river.",
+   "image": "assets/img/geology/badlands-banded.jpg",
+   "imageAlt": "A long wall of pale layered badlands cliffs above a flat bottomland fringed with bare trees",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Two rock formations make up nearly everything you can see in the park. What are they called?",
+   "options": [
+    "Bullion Creek and Sentinel Butte",
+    "Hell Creek and Fox Hills",
+    "Arikaree and Golden Valley",
+    "Fox Hills and the Pierre Shale"
+   ],
+   "answer": 0,
+   "explanation": "Bullion Creek is the lower one and the brighter — yellows and tans — and it only comes to the surface in the South Unit. Sentinel Butte lies on top of it in sombre grey and brown, and it is the only one of the two you see in the North Unit, where it can run more than seven hundred feet thick. The join between them is easy to spot: it usually sits at the base of a pink baked-clay bed that geologists call the HT Butte clinker. Both formations were laid down in the same way, by rivers and lakes on a flat plain.",
+   "image": "assets/img/geology/badlands-scoria-caps.jpg",
+   "imageAlt": "A long flat-topped butte with deeply fluted pale slopes rising above a bare field",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What did this country look like when those layers were being deposited?",
+   "options": [
+    "A desert of moving sand dunes",
+    "A cold tundra along the edge of a continental ice sheet",
+    "A hot, swampy lowland of rivers and dense forest",
+    "A deep salt sea with coral reefs"
+   ],
+   "answer": 2,
+   "explanation": "Subtropical, closer to the Gulf coast than to the northern plains. Crocodiles and alligators lived in the ponds along with turtles, gar and bowfin, and a lemur-like mammal moved through forests of dawn redwood, bald cypress, magnolia and ginkgo. Freshwater clams and snails are so thick in some beds that they cement together into solid rock. When the North Dakota Geological Survey walked ten square miles of the park it mapped four hundred fossil sites, which works out at forty to the square mile.",
+   "image": "assets/img/before-tr/water-course.jpg",
+   "imageAlt": "A dry water course winding between low eroded clay banks in the Badlands",
+   "credit": "Typical water course in the Badlands — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The soft brown coal in the Badlands is called lignite. What does the name mean?",
+   "options": [
+    "Light",
+    "Wood",
+    "Black",
+    "Smoke"
+   ],
+   "answer": 1,
+   "explanation": "From the Latin for wood, and it earns the name: cut a lump open and the grain of the plants it came from is still there. Leaves and branches fell into still swamp water, built up as peat, and were pressed and cooked by everything piled on top until they turned to coal. Roosevelt burned it, and got it out of the ground himself. If there is a good coal vein, as on my ranch, he wrote, the coal must be dug out and hauled in — and elsewhere, that in winter we cut our fire-wood and quarry our coal, both on the ranch. A coal seam on your own ground was a fuel supply nobody had to buy or freight in, which counted for a great deal in a country with almost no timber and a genuinely dangerous winter.",
+   "image": "assets/img/park/badlands-gumbo-strata.jpg",
+   "imageAlt": "A hard-capped column of pale badlands clay standing above a scatter of loose slabs",
+   "credit": "\"Grotesque stone strata and gumbo formation, North Dakota Bad Lands,\" 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt counted them among the most interesting features of the winter Badlands, and wrote that one appeared half a mile from his ranch house without anybody noticing. What were they?",
+   "options": [
+    "Ice caves under the frozen river",
+    "Hot springs",
+    "Frozen waterfalls",
+    "Coal seams on fire underground"
+   ],
+   "answer": 3,
+   "explanation": "\"Among the most interesting features are the burning mines,\" he wrote. \"These are formed by the coal seams that get on fire.\" They are not mines at all — nobody dug them — but a seam alight below the surface behaves like one. He came round a ravine on a cold moonlit night to find a white column of smoke standing in his own trail, over ground he crossed every week, and was for a moment as startled as if he had seen a ghost. Up close they were uncanny places: \"A strong smell of sulphur hangs round them, the heated earth crumbles and cracks,\" and through the long clefts you could see the glow of the fire underneath.",
+   "image": "assets/img/geology/badlands-cut.jpg",
+   "imageAlt": "A two-lane road curving between badlands buttes capped with bands of dull red rock",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "A seam at Buck Hill in the South Unit caught fire in 1951. How long did it burn?",
+   "options": [
+    "About three weeks",
+    "About twenty-six years",
+    "About two years",
+    "It is burning still"
+   ],
+   "answer": 1,
+   "explanation": "It went out in 1977, and the Coal Vein Trail now runs through what it left behind. While it was alight visitors could see flame and glowing embers down in the cracks; rangers led car caravans out to look, and people roasted marshmallows over it. Nothing is burning in the park today, but seams elsewhere in western North Dakota catch regularly — lightning, a range fire, even a juniper root burning down into the coal will do it, and lignite with sulphur in it can heat up and light itself with no help at all.",
+   "image": "assets/img/geology/badlands-1908-formation.jpg",
+   "imageAlt": "A horse and buggy crossing sagebrush flats below layered badlands cliffs in a 1908 photograph",
+   "credit": "\"General formation of Bad Lands, Billings Co., N.D.,\" 1908, photographed by R. E. McKibbin. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "What happens to the ground above a coal seam once the seam has burned away?",
+   "options": [
+    "It sinks into the space the coal used to fill",
+    "It is lifted into a low dome",
+    "It is fused into a sheet of glass",
+    "Nothing at all — the coal is too thin to matter"
+   ],
+   "answer": 0,
+   "explanation": "Burnt lignite turns to ash and ash takes up a fraction of the room the coal did, so everything above settles into the gap. By then the heat has baked those overlying clays and sands into a hard natural brick — geologists say clinker, North Dakotans say scoria — so the collapse arrives in slabs rather than as a slump of mud. The result is a rock riddled with voids, up to about three-quarters air, which rattlesnakes find extremely convenient. Along the Coal Vein Trail there are depressions where the land used to be level with the top step, and cracks around their rims that show it is still sinking.",
+   "image": "assets/img/geology/badlands-layers.jpg",
+   "imageAlt": "Badlands ridges with a band of dull red baked rock running along the slopes below a grassy top",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The park's petrified stumps still stand upright where the trees grew. What were the trees?",
+   "options": [
+    "Bur oak from the river bottoms",
+    "Cottonwood, like the ranch-house logs",
+    "Relatives of the modern sequoia",
+    "Ponderosa pine"
+   ],
+   "answer": 2,
+   "explanation": "Conifers of the redwood family, and some of them were enormous: the North Dakota Geological Survey records stumps up to twelve feet across, and reckons seven or eight feet was ordinary. They grew about 55 million years ago on a coastal floodplain, and there are stumps from two separate forests one above the other. Floods buried the bases while the trunks and branches, left standing in the air, simply rotted away — which is why the park has stumps and almost no standing trees. Most of them are fluted and have no roots, a sign the trees were growing in water.",
+   "image": "assets/img/before-tr/badlands-view.jpg",
+   "imageAlt": "A wide view over eroded Badlands ridges toward the Little Missouri valley",
+   "credit": "View of the Badlands, most likely with the Little Missouri River beyond — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "What turned that wood to stone?",
+   "options": [
+    "Iron carried down by the river",
+    "Salt left behind by a drying sea",
+    "Heat from the burning coal seams below",
+    "Silica carried in by groundwater"
+   ],
+   "answer": 3,
+   "explanation": "Water moving slowly through buried sediment carries dissolved silica, and where it reaches wood it leaves that silica behind as quartz crystals fine enough that growth rings, bark and even knots survive. Where the crystals are finest the cell structure is still readable under a lens. The colours come from whatever else was in the water: iron gives the yellows, browns and reds, carbon or manganese the blacks and purples. Preservation in the North Dakota badlands is patchy — the North Dakota Geological Survey rates it commonly poor, and some pieces are half petrified and half turned to coal, which is a good reminder that these are two endings for the same log.",
+   "image": "assets/img/before-tr/sagebrush-buttes.jpg",
+   "imageAlt": "A sagebrush plain with pale eroded buttes standing along the far horizon",
+   "credit": "Sagebrush plain with buttes rising in the background — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "A slippery blue-grey clay called bentonite shows up over and over in the Badlands. Where did it come from?",
+   "options": [
+    "Volcanic ash blown east off the mountains",
+    "Silt settled at the bottom of a glacial lake",
+    "Ash from burning coal seams",
+    "Dust blown off the prairie in dry years"
+   ],
+   "answer": 0,
+   "explanation": "Volcanoes were erupting across Montana, Idaho, South Dakota and the West while the Rockies rose, and the ash travelled. It fell into standing water here, settled out, and time and pressure turned it into clay. The bed in the North Unit is about twenty-five feet thick in places. Bentonite swells when it gets wet and turns to grease, which is why a hillside in the park can let go and flow downhill after heavy rain, and why the local word for the sticky stuff underfoot is gumbo.",
+   "image": "assets/img/geology/badlands-banded.jpg",
+   "imageAlt": "Layered pale badlands cliffs with darker bands running horizontally through them",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Little Missouri once flowed north to Hudson Bay. What turned it east and set it carving the Badlands?",
+   "options": [
+    "An earthquake tilted the plains eastward",
+    "Beaver dams backed it up",
+    "An ice sheet blocked its way north",
+    "A landslide dammed the valley"
+   ],
+   "answer": 2,
+   "explanation": "In the ice ages the glaciers came down out of Canada and reached about as far as the upper boundary of what is now the North Unit. The north-flowing rivers ran into a wall of ice and had to find new ways out, east and south, and by the time the ice pulled back they were locked into the new channels. The Little Missouri's new route was steeper, so the whole river ran faster and began to cut hard into soft rock. That is the difference between this valley and the rolling grassland on either side of it: same rock, different river.",
+   "image": "assets/img/little-mo/plains-river.jpg",
+   "imageAlt": "A shallow bend of the Little Missouri River between low banks and scattered trees",
+   "credit": "\"A plains river\" — the Little Missouri, about 1886. Photograph by Theodore Roosevelt. Cabinet-card mount and gilt rules cropped. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The badlands get about fifteen inches of rain a year. Why does so little water do so much damage?",
+   "options": [
+    "The rain is unusually acidic",
+    "Melting snow does most of the carving instead",
+    "The rock is frozen for half the year and shatters",
+    "It comes in hard downpours onto bare clay"
+   ],
+   "answer": 3,
+   "explanation": "Clay-rich ground takes water slowly at the best of times, and a heavy shower seals the surface almost at once. What cannot soak in runs off, and it runs off fast, cutting gullies and carrying the loose stuff away with it. Where water does soak in, the extra weight can be enough to send a whole hillside sliding. Fifteen inches spread evenly would grow grass; fifteen inches delivered in a handful of afternoons carves a canyon. This is also why so little grows on the steep south-facing slopes, and why the plants that do hold on matter more here than almost anywhere.",
+   "image": "assets/img/park/cedar-canon-little-missouri.jpg",
+   "imageAlt": "A long banded butte standing above the cut bank of the Little Missouri",
+   "credit": "\"Cedar Canon, Little Missouri River, Bad Lands,\" 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Many Badlands columns and pillars wear a flat slab of harder rock on top. What is that slab doing?",
+   "options": [
+    "Sheltering the soft clay under it from rain",
+    "Weighing the column down so it does not topple",
+    "Marking where a glacier stopped",
+    "Sealing in groundwater below"
+   ],
+   "answer": 0,
+   "explanation": "It is an umbrella. Where a bed of harder sandstone or baked clinker survives, the clay directly beneath it is protected while everything around washes away, and the ground drops steadily lower on all sides until the protected part is left standing on a stalk. Cap and column go together: lose the cap and the pillar is gone within a few seasons. Whole buttes work the same way at a larger scale, which is why so many of them are flat on top rather than pointed.",
+   "image": "assets/img/before-tr/little-cannonball-bank.jpg",
+   "imageAlt": "An eroded clay bank in the Badlands with harder ledges standing out along the top",
+   "credit": "West bank of the Little Cannonball — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "The Killdeer Mountains stand about seven hundred feet above the plains north-east of the Badlands. What are they?",
+   "options": [
+    "A pair of extinct volcanic cones",
+    "Hills shoved up by the edge of a glacier",
+    "Old sand dunes held in place by grass",
+    "A leftover, preserved by a hard caprock"
+   ],
+   "answer": 3,
+   "explanation": "Two big flat-topped buttes in Dunn County covering something like a hundred and fifteen square miles between them. Sandy and limy sediment collected in lakes here in the Miocene, stiffened by yet more volcanic ash off the mountains, and the resulting three hundred feet of rock turned out to be far tougher than the Golden Valley and Sentinel Butte beds around it. Everything softer went to Hudson Bay; this did not. The high point is 3,314 feet — a hundred and ninety-two feet short of White Butte, which is the highest ground in North Dakota. Geologically they are buttes, whatever the map calls them.",
+   "image": "assets/img/before-tr/badlands-bullion-slopes.jpg",
+   "imageAlt": "A broad view from a high butte slope out across the eroded Badlands country",
+   "credit": "The Bad Lands from the slopes of Middle (or Bullion) Butte — photographed for Hermann Hagedorn about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which animal turns up more often than any other backboned creature in the park's fossil record?",
+   "options": [
+    "The champsosaur",
+    "The woolly mammoth",
+    "Duck-billed dinosaurs",
+    "The sabre-toothed cat"
+   ],
+   "answer": 0,
+   "explanation": "A champsosaur was not a crocodile, though it looked and lived like one — long snout, powerful back legs, about ten feet of it lying on the bottom of a pond waiting for a fish to pass. Its backbones are heavy and preserve well, so they weather out of the rock more readily than anything else. The survey turned up vertebrate fossils at fifty-one sites in the park; two fairly complete skeletons came out of the South Unit, one of them flown out under a helicopter in a plaster jacket, and one was mounted for the park's own exhibit at Medora. Dinosaurs are not on the list: they had been gone a few million years before these rocks were laid down.",
+   "image": "assets/img/geology/badlands-scoria-caps.jpg",
+   "imageAlt": "A flat-topped badlands butte with fluted slopes under a heavy grey sky",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  }
+ ]
+}

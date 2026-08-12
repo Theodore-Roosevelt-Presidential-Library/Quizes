@@ -1,0 +1,291 @@
+{
+ "id": "medora-today",
+ "title": "Medora Now",
+ "subtitle": "What a visitor actually finds in the Badlands today",
+ "intro": "A town of a hundred and twenty-one people, a national park in three pieces, a French nobleman's house still standing on its bluff, a musical under the stars, and a presidential library with a prairie growing on the roof. Thirteen questions on what is there now.",
+ "heroImage": "assets/img/medora-today/little-mo-overlook.jpg",
+ "heroAlt": "The Little Missouri River winding through banded badlands ridges seen from a high overlook",
+ "heroCredit": "The Little Missouri River in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/visit",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Medora Now",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about Medora today — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/visit"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Local",
+   "line": "Perfect. You could give the directions yourself."
+  },
+  {
+   "min": 11,
+   "name": "Summer Resident",
+   "line": "You have worn out a pair of boots out here."
+  },
+  {
+   "min": 8,
+   "name": "Repeat Visitor",
+   "line": "You know where the gravel starts."
+  },
+  {
+   "min": 5,
+   "name": "Weekender",
+   "line": "A good trip. Stay longer next time."
+  },
+  {
+   "min": 3,
+   "name": "First Time",
+   "line": "Plenty left to find."
+  },
+  {
+   "min": 0,
+   "name": "Planning Stage",
+   "line": "Start at Painted Canyon and keep driving west."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Of the three units of Theodore Roosevelt National Park, the Elkhorn Ranch Unit is the hardest to reach. Why?",
+   "options": [
+    "It is closed to the public",
+    "It can only be reached by boat",
+    "Gravel roads, then a walk",
+    "It lies inside a working cattle ranch"
+   ],
+   "answer": 2,
+   "explanation": "It is 218 acres on the river about thirty-five miles north of Medora, and the last stretch is dirt and gravel that a rainstorm can make impassable. There is no visitor center, no scenic drive and no water; from the parking area a mowed path of about seven-tenths of a mile takes you the rest of the way. Almost nobody goes. That is much of the point — of the three units this is the one that still feels the way the country felt to the man who chose to build here.",
+   "image": "assets/img/medora-today/little-mo-overlook.jpg",
+   "imageAlt": "The Little Missouri River winding through badlands ridges seen from a high overlook",
+   "credit": "The Little Missouri River in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Roosevelt's Maltese Cross Cabin spent decades away from the Badlands. Where does it stand today?",
+   "options": [
+    "Behind the South Unit Visitor Center in Medora",
+    "On the state capitol grounds in Bismarck",
+    "At the Elkhorn Ranch Unit",
+    "In the grounds of the Chateau de Mores"
+   ],
+   "answer": 0,
+   "explanation": "It went first to the St. Louis World's Fair in 1904, then to Portland, then Fargo, then the capitol grounds at Bismarck, where the Daughters of the American Revolution looked after it and photographs from the 1920s show the roof caved in. It came home in 1959, twelve years after the ground around it was set aside in 1947 as Theodore Roosevelt National Memorial Park — it did not become a national park in name until 1978. The scratched-in graffiti on the door and outside walls is a souvenir of all that travelling. It now sits a short walk from the visitor center desk at the Medora entrance, which makes it the easiest thing on this list to see.",
+   "image": "assets/img/medora-today/capitol-cabin.jpg",
+   "imageAlt": "The Maltese Cross cabin standing among trees on the North Dakota capitol grounds, two women beside it",
+   "credit": "The Roosevelt cabin as it stood on the state capitol grounds at Bismarck, before its return to the Badlands. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The Chateau de Mores still stands on its bluff above Medora. Who looks after it now?",
+   "options": [
+    "The National Park Service, as part of the park",
+    "The de Mores family, who still own it",
+    "Billings County",
+    "The State Historical Society of North Dakota"
+   ],
+   "answer": 3,
+   "explanation": "It is a state historic site, and the twenty-six-room frame house the Marquis put up in 1883 is furnished largely with the family's own things — their furniture, their belongings, left where a house museum can show them. An interpretive centre nearby covers his packing plant and his other schemes. On the flat below the bluff stands the brick chimney of the abattoir, which is all that survived of the enterprise that made the town. The Park Service runs the park; the Historical Society runs this.",
+   "image": "assets/img/medora-today/demores-smokestack.jpg",
+   "imageAlt": "The tall brick chimney of the de Mores packing plant standing alone on a flat below badlands cliffs",
+   "credit": "The surviving chimney of the de Mores packing plant at Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/medora",
+    "label": "Explore Medora"
+   }
+  },
+  {
+   "prompt": "Where is the Medora Musical staged?",
+   "options": [
+    "In a converted railway roundhouse",
+    "In an amphitheatre cut into a hillside",
+    "On a barge moored in the Little Missouri",
+    "In the ballroom of the Rough Riders Hotel"
+   ],
+   "answer": 1,
+   "explanation": "The Burning Hills Amphitheatre sits in the slope above town with the badlands behind the stage, so the scenery changes colour through the show and the last act plays out at dusk. The seating was carved into the hillside in 1958 for an earlier production about Roosevelt; the Medora Musical itself has been playing there since 1965 and is put on by the Theodore Roosevelt Medora Foundation. Live horses come on stage, there is a Roosevelt impersonator, and it ends with fireworks.",
+   "image": "assets/img/medora-today/badlands-evening.jpg",
+   "imageAlt": "A wide badlands vista of pale ridges and coulees under a heavy sky, a dead tree in the foreground",
+   "credit": "Badlands in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/medora",
+    "label": "Explore Medora"
+   }
+  },
+  {
+   "prompt": "Medora had been fading for decades when one man began buying and restoring it in the 1960s. What was his business?",
+   "options": [
+    "Wheat and small grains",
+    "Cattle",
+    "Household products",
+    "Oil"
+   ],
+   "answer": 2,
+   "explanation": "Harold Schafer ran the Gold Seal Company of Bismarck, whose products included Glass Wax and a bubble bath called Mr. Bubble. He fell for Medora, bought the Rough Riders Hotel and a good deal else, and put the profits into rebuilding the town. The Theodore Roosevelt Medora Foundation grew out of that work and now runs more than thirty businesses and attractions in and around the town, the Rough Riders Hotel and the Musical among them. It is a genuinely odd chain of causation: a soap fortune is a large part of why there is still a town here at all.",
+   "image": "assets/img/medora-today/peaceful-valley.jpg",
+   "imageAlt": "A white ranch house standing below a line of badlands bluffs on a broad open flat",
+   "credit": "Peaceful Valley Ranch in Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/medora",
+    "label": "Explore Medora"
+   }
+  },
+  {
+   "prompt": "Painted Canyon is the first badlands view most travellers ever get. What are they travelling on when they see it?",
+   "options": [
+    "Interstate 94",
+    "The Northern Pacific main line",
+    "The Maah Daah Hey Trail",
+    "The park's scenic loop drive"
+   ],
+   "answer": 0,
+   "explanation": "The overlook sits directly off the interstate about seven miles east of Medora, so the country opens up under the windscreen with no planning and no detour required. There is a visitor center, a rest area, a picnic shelter and a walkway along the rim. It is worth knowing before you pull in that this is not a way into the park — the scenic drive starts back west in Medora — and that bison wander through the car park often enough that rangers ask people to give them room.",
+   "image": "assets/img/medora-today/painted-canyon-overlook.jpg",
+   "imageAlt": "A family walking a narrow dirt footpath along a grassy badlands rim with green ridges stretching away behind them",
+   "credit": "A family on a footpath along the badlands rim near Medora. Photograph by Threefold. Theodore Roosevelt Presidential Library.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "Which unit of the park should you drive if you want a chance of seeing the free-roaming horses?",
+   "options": [
+    "The North Unit",
+    "The Elkhorn Ranch Unit",
+    "The South Unit",
+    "Any of the three, equally"
+   ],
+   "answer": 2,
+   "explanation": "The bands live in the South Unit, and the stretch of the loop drive between Boicourt Overlook and Buck Hill is as good a place as any to watch for them. They are the descendants of ranch horses that were on this ground before it was a park, and the Park Service manages them as a herd kept for the historic scene rather than as wildlife. The North Unit has its own equivalent: a small herd of Texas longhorn steers, kept to stand for the trail-drive era, usually within the first couple of miles of that unit's scenic drive.",
+   "image": "assets/img/medora-today/park-horses.jpg",
+   "imageAlt": "A band of horses grazing on a grassy slope below juniper-covered badlands hills",
+   "credit": "Horses near Medora and Theodore Roosevelt National Park, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "The walking loop around the Theodore Roosevelt Presidential Library has a name. What is it?",
+   "options": [
+    "The Prairie Ring",
+    "The Butte Walk",
+    "The Elkhorn Circuit",
+    "The Boardwalk"
+   ],
+   "answer": 3,
+   "explanation": "One mile of raised timber path circling the building through restored native grassland, with overlooks and benches where the view is worth stopping for. Most people spend around an hour on it, on top of the time they spend indoors. It connects to further walking trails on the Library's grounds and to the wider country beyond, so it works equally well as a short stroll after the galleries or as the start of a longer walk into the Badlands.",
+   "image": "assets/img/medora-today/boardwalk-loop.jpg",
+   "imageAlt": "Two people standing on a broad timber boardwalk that curves away through grassland toward low badlands hills",
+   "credit": "The Boardwalk at the Theodore Roosevelt Presidential Library, Medora, 2026. Photograph by Chad Ziemendorf. Theodore Roosevelt Presidential Library.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit",
+    "label": "Plan a visit"
+   }
+  },
+  {
+   "prompt": "What is on the roof of the Theodore Roosevelt Presidential Library?",
+   "options": [
+    "Prairie, and a path across it",
+    "Solar panels covering the whole span",
+    "A radio mast for the park service",
+    "A glass dome over the atrium"
+   ],
+   "answer": 0,
+   "explanation": "The roof is planted and you are meant to walk on it. It rises out of the ground on one side so that the building reads as another fold in the hills rather than as an object placed on them, and from the top the prairie runs away in every direction. The planting is native grassland, part of the same restoration work that surrounds the building, so the roof is doing ecological duty as well as architectural. Come back in a different month and it is a different colour.",
+   "image": "assets/img/medora-today/library-roof.jpg",
+   "imageAlt": "The long planted roof of the Library rising out of grassland, with people walking along its ridge",
+   "credit": "The planted roof of the Theodore Roosevelt Presidential Library, Medora, 2026. Photograph by Chad Ziemendorf. Theodore Roosevelt Presidential Library.",
+   "link": {
+    "url": "https://www.trlibrary.com/project/design",
+    "label": "The design"
+   }
+  },
+  {
+   "prompt": "Which architecture practice designed the Library?",
+   "options": [
+    "Snøhetta",
+    "McKim, Mead and White",
+    "Frank Lloyd Wright's Taliesin",
+    "The Office of the Supervising Architect"
+   ],
+   "answer": 0,
+   "explanation": "The Norwegian-American practice Snøhetta, which took on the building, the interiors and the landscape as one commission rather than three. The materials were chosen to belong here: rammed earth and mass timber, much of it sourced locally. The environmental target is unusually severe even by museum standards, and the building was designed to chase full Living Building certification. Whether it manages that will take years of measured performance to establish, which is the honest position on any such claim.",
+   "image": "assets/img/medora-today/boardwalk-2.jpg",
+   "imageAlt": "Two people on a timber deck looking across grassland toward the long low roofline of the Library",
+   "credit": "The Library seen from the Boardwalk, Medora, 2026. Photograph by Chad Ziemendorf. Theodore Roosevelt Presidential Library.",
+   "link": {
+    "url": "https://www.trlibrary.com/project/design",
+    "label": "The design"
+   }
+  },
+  {
+   "prompt": "The Maah Daah Hey Trail runs through this country. What is the claim usually made for it?",
+   "options": [
+    "The oldest continuously marked trail in the United States",
+    "The longest continuous single-track mountain-biking trail in America",
+    "The highest maintained trail on the Great Plains",
+    "The most river crossings of any trail in the United States"
+   ],
+   "answer": 1,
+   "explanation": "A hundred and forty-four miles of single track threading the Little Missouri National Grassland and linking the units of the park, open to walkers, riders and mountain bikers. Take the superlative for what it is — a tourism claim rather than an audited record, since nobody keeps an official register of continuous single track — but the mileage is real and the International Mountain Bicycling Association has the trail on its Epic list. The name comes from the Mandan language and is usually given as grandfather, or a place that will be here a long time. The Library's grounds connect to it, so it is possible to walk out of the galleries and onto the trail the same afternoon.",
+   "image": "assets/img/medora-today/park-road.jpg",
+   "imageAlt": "An empty two-lane road running straight into badlands country under a wide sky",
+   "credit": "Road through Theodore Roosevelt National Park near Medora, 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/outdoors",
+    "label": "Outdoor activities"
+   }
+  },
+  {
+   "prompt": "How many people live in Medora year-round?",
+   "options": [
+    "About 120",
+    "About 900",
+    "About 4,000",
+    "About 12,000"
+   ],
+   "answer": 0,
+   "explanation": "A hundred and twenty-one at the 2020 census, which makes it one of the smallest county seats in the United States — it runs Billings County from a courthouse a couple of streets from the interstate exit. In summer the population of the valley multiplies many times over and then drains away again in September. If the town seems improbably well supplied with hotel rooms and theatre seats for its size, that is why.",
+   "image": "assets/img/medora-today/billings-courthouse.jpg",
+   "imageAlt": "The low brick Billings County Courthouse in Medora, a flag beside the entrance and a seasonal holiday display on the walk",
+   "credit": "The Billings County Courthouse at Medora in December 2021. Photograph by Carol M. Highsmith. Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/medora",
+    "label": "Explore Medora"
+   }
+  },
+  {
+   "prompt": "How is the Library's permanent exhibition arranged?",
+   "options": [
+    "By theme, with conservation first",
+    "By the objects, in a single long gallery",
+    "In the order he lived it, in eight chapters",
+    "Backwards, from his death to his birth"
+   ],
+   "answer": 2,
+   "explanation": "It begins with a sickly boy at a bedroom window in New York and ends with a former president back at Oyster Bay, and the Badlands, Cuba, the White House and the Amazon come in between in the order they happened to him. The chapters alternate between galleries that carry the story and interactive rooms that hand a problem of his over to you. Most people give the exhibition about three and a half hours, and then another hour outside.",
+   "image": "assets/img/medora-today/painted-canyon-2.jpg",
+   "imageAlt": "A family walking away along a grassy badlands rim in low evening sunlight",
+   "credit": "A family walking the badlands rim near Medora. Photograph by Threefold. Theodore Roosevelt Presidential Library.",
+   "link": {
+    "url": "https://www.trlibrary.com/visit/exhibits",
+    "label": "Exhibits"
+   }
+  }
+ ]
+}

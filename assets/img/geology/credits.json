@@ -1,0 +1,47 @@
+{
+ "badlands-layers": {
+  "source": "loc",
+  "ref": "2021757643",
+  "source_file": "loc_pictures_2021757643",
+  "description": "Part of the vast and rugged landscape of Theodore Roosevelt National Park, near Medora, in far-southwestern North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "badlands-banded": {
+  "source": "loc",
+  "ref": "2021757218",
+  "source_file": "loc_pictures_2021757218",
+  "description": "Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "badlands-scoria-caps": {
+  "source": "loc",
+  "ref": "2021757224",
+  "source_file": "loc_pictures_2021757224",
+  "description": "Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "badlands-1908-formation": {
+  "source": "loc",
+  "ref": "2024691560",
+  "source_file": "loc_pictures_2024691560",
+  "description": "General formation of Bad Lands, Billings Co., N.D.",
+  "rights": "Rights status not evaluated. For general information see: \"Copyright and Other Restrictions...\" https://hdl.loc.gov/loc.pnp/res.195.copr",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x890"
+ },
+ "badlands-cut": {
+  "source": "loc",
+  "ref": "2021757646",
+  "source_file": "loc_pictures_2021757646",
+  "description": "Part of the vast and rugged landscape of Theodore Roosevelt National Park, near Medora, in far-southwestern North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ }
+}

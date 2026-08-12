@@ -1,0 +1,309 @@
+{
+ "id": "open-range",
+ "title": "How the Open Range Worked",
+ "subtitle": "Cattle on the Little Missouri, 1883–1886",
+ "intro": "No fences, no deeds, no sheriff worth the name — and somehow tens of thousands of cattle belonging to dozens of outfits grazed the same hundred thousand square miles and got sorted out again every spring. It worked because the men who ran it built the machinery themselves: the round-up, the registered brand, the inspector at the shipping pen, the stockmen's association. Roosevelt chaired one of those associations at twenty-six. Fourteen questions on how the system actually ran.",
+ "heroImage": "assets/img/open-range/cowpunchers-roundup.jpg",
+ "heroAlt": "Three cowhands holding a band of saddle horses inside a rope stretched from a wagon, badlands buttes behind",
+ "heroCredit": "Sylvane Ferris and two other cowpunchers at round-up, Blacktail Creek, 1883. Photograph by Theodore Roosevelt. Cropped from an album page with deckled edges and a chipped corner. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "How the Open Range Worked",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz about ranching on the open range — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Captain of the Round-Up",
+   "line": "Perfect. You could run the whole district."
+  },
+  {
+   "min": 12,
+   "name": "Wagon Foreman",
+   "line": "You know this work from the inside."
+  },
+  {
+   "min": 9,
+   "name": "Top Hand",
+   "line": "Solid riding. Not a bad day's work."
+  },
+  {
+   "min": 6,
+   "name": "Calf Wrestler",
+   "line": "Dusty, but you stayed with it."
+  },
+  {
+   "min": 3,
+   "name": "Horse Wrangler",
+   "line": "Everybody starts on the night herd."
+  },
+  {
+   "min": 0,
+   "name": "Tenderfoot",
+   "line": "Draw a bunk and watch how it is done."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Every morning of a round-up, two bands of riders rode out and came back in on curving lines meeting at one point. Roosevelt had a name for that morning's work. What was it?",
+   "options": [
+    "Line riding",
+    "Milling",
+    "Circle riding",
+    "Cutting out"
+   ],
+   "answer": 2,
+   "explanation": "The leader of each band spread his men so that between them they combed everything for fifteen miles back, detaching riders to take the short inside circles while he kept the toughest horses for the long outside circle to the divide and back. Roosevelt loved it: these long, swift rides in the glorious spring mornings are not soon to be forgotten, he wrote. The other three answers are all real range terms and all mean something else — line riding is winter work, milling is what a running herd does when it balls up and turns on itself, and cutting out is the afternoon job of separating one brand from a held herd.",
+   "image": "assets/img/open-range/ranch-roundup.jpg",
+   "imageAlt": "Two mounted cowhands moving a scattered bunch of cattle across open grass",
+   "credit": "A Roosevelt ranch round-up, about 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "A round-up outfit carried a hundred-odd loose horses and no fence. How were they penned each morning so the men could rope their mounts?",
+   "options": [
+    "Hobbled overnight, one foreleg to the other",
+    "A rope stretched from the wagon wheels",
+    "Driven into a pen of cut brush",
+    "Held in a pole corral built at each camp"
+   ],
+   "answer": 1,
+   "explanation": "A rope corral is rigged up by stretching a rope from each wheel of one side of the wagon, making a V-shaped space, Roosevelt wrote — men stood around the open side to keep the horses in while the roping was done. It packed flat, it went up in a minute, and it moved with the wagon. Each rider kept a string of eight or ten ponies and used a given horse only about every fourth day, so the saddle band ran to a hundred head per wagon and needed two herders, called horse-wranglers, one for the day and one for the night.",
+   "image": "assets/img/open-range/cowpunchers-roundup.jpg",
+   "imageAlt": "Cowhands standing along a single rope run out from a wagon, holding a line of saddle horses behind it",
+   "credit": "Sylvane Ferris and two other cowpunchers at round-up, Blacktail Creek, 1883. Photograph by Theodore Roosevelt. Cropped from an album page with deckled edges and a chipped corner. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Who cooked for a round-up wagon?",
+   "options": [
+    "The youngest hand in the outfit",
+    "The man who drove the wagon",
+    "A cook sent out from the ranch house",
+    "Whoever came in last off the circle"
+   ],
+   "answer": 1,
+   "explanation": "The teamster is also cook, Roosevelt wrote, and a man who was genuinely good at both jobs could always command his price. He started breakfast long before dawn and hollered at about three in the morning; men rolled out, corded their bedding, and ate standing up over a fire in a hole in the ground — biscuits from a Dutch oven, fat pork out of the pan, beans, coffee without milk. Roosevelt's own teamster and cook at the Maltese Cross was Walter Watterson.",
+   "image": "assets/img/open-range/chuck-wagon.jpg",
+   "imageAlt": "Men and horses around a loaded chuck wagon on open ground, cooking pots standing in the grass",
+   "credit": "The Maltese Cross chuck wagon, about 1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt did most round-up jobs and made a point of asking for no favours. Which one did he leave to other men?",
+   "options": [
+    "Wrestling calves at the branding fire",
+    "Standing night guard on the herd",
+    "Cutting his own cattle out of the herd",
+    "Riding the long outside circle"
+   ],
+   "answer": 2,
+   "explanation": "Cutting out means walking your horse into a packed, shifting mass of animals, reading brands, and then running one beast out of it at full speed — and Roosevelt's eyesight simply would not do it. He reported to the round-up captain, a man named Osterhaut, said he expected to be treated as a common cowhand, and was taken at his word. He wrestled calves, rode the long circle, and stood both day and night herd. A foreman called Three-Seven Bill Jones summed him up to a bystander: that four-eyed maverick, he said, has sand in his craw a-plenty.",
+   "image": "assets/img/open-range/tr-roundup-1885b.jpg",
+   "imageAlt": "Theodore Roosevelt standing beside a saddled horse on open range",
+   "credit": "T.R. on the round-up in 1885. Photograph by T. W. Ingersoll. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "A calf came onto the range unmarked. How did the men at the branding fire know whose iron to use?",
+   "options": [
+    "It took the brand of the cow it followed",
+    "It went to the owner of the range it stood on",
+    "It took the brand of the man who roped it",
+    "The captain assigned calves by lot"
+   ],
+   "answer": 0,
+   "explanation": "The herd was worked into bands, each made up of all the cows of one brand and all the calves following them, and the calf simply got its mother's iron. It was noisy, filthy work: two ropers dragging calves up by the hind feet, a dozen men throwing and holding, two more running the irons, and one man with a tally book shouting the number and sex of every animal. Roosevelt reckoned the ropers brought them in faster than a dozen men could hold them.",
+   "image": "assets/img/open-range/roosevelts-outfit.jpg",
+   "imageAlt": "Mounted cowhands drawn up around a round-up wagon on open ground",
+   "credit": "Roosevelt's Maltese Cross outfit out on a round-up near Medora. Photograph taken by or for Theodore Roosevelt; the Harvard record carries no date, but he was ranching here from 1883 to 1886. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "In the language of the range, what was a maverick?",
+   "options": [
+    "A brand that has been altered",
+    "An animal too wild to drive",
+    "A cow that had lost her calf",
+    "An unbranded animal"
+   ],
+   "answer": 3,
+   "explanation": "Unbranded animals are called mavericks, Roosevelt wrote — and when the round-up turned one up it was either branded for the owner of the range it was found on, or sold and the money paid to the stock association. That was the rule precisely because a loose unmarked animal is an invitation, and the whole open-range system rested on nobody being able to pick one up quietly. The word did not stay on the range, either. It had already begun to mean a person running loose with nobody's mark on him, and in that sense it is still in the language.",
+   "image": "assets/img/open-range/men-at-corral.jpg",
+   "imageAlt": "A group of ranchmen at a pole corral, one mounted and holding a flag, badlands buttes behind",
+   "credit": "Merrifield, Sylvane Ferris and Joe Ferris among a group at a corral near Medora — photographed about 1919, more than thirty years after the open-range days. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Brands were registered, and the associations posted paid inspectors to read them. Where did the inspectors work?",
+   "options": [
+    "At the shipping points",
+    "At the river crossings",
+    "At the territorial line",
+    "At each ranch's home corral"
+   ],
+   "answer": 0,
+   "explanation": "Where the cattle went onto the trains and where the beef was received, inspectors went over every brand on the live animals and on the hides of the slaughtered ones, and anything irregular was reported to the association. Cattle carried the iron on hip, shoulder or side, and the dewlap and ears might be cut or notched as well, so there was a lot to read. Roosevelt lists the outfits near him by their brands rather than their owners — the Three Sevens, the Thistle, the Bellows, the OX, the Seventy-Six Bar, the Quarter Circle Diamond. It becomes second nature with a cowboy, he wrote, to inspect and note the brands of every bunch of animals he comes across.",
+   "image": "assets/img/open-range/tr-brands.jpg",
+   "imageAlt": "A newspaper advertisement for two ranches, with four cattle engravings showing a maltese cross, a triangle and an elkhorn marked on their sides",
+   "credit": "Theodore Roosevelt's brands, copied from the Stockgrower's Journal of Miles City, Montana; the Harvard record dates the advertisement no earlier than 1884. Theodore Roosevelt Collection, Houghton Library, Harvard University. Mount, caption strip and adjacent column type cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt used the maltese cross at Chimney Butte. What did he brand at the Elkhorn?",
+   "options": [
+    "A maltese cross and a triangle",
+    "An elkhorn and a triangle",
+    "An elkhorn alone",
+    "A triangle and a chimney"
+   ],
+   "answer": 1,
+   "explanation": "My brands for the lower ranch were the elkhorn and triangle, he wrote — either mark on either side, or the reverse, plus an elkhorn on the shoulder for horses. Lower means downstream, which on the Little Missouri means north, and the Elkhorn stood about thirty-five miles down from Medora with Sewall and Dow running it — although Roosevelt's own advertisement in the Stockgrower's Journal put it at twenty-five miles north of the railroad. The maltese cross went on the left hip and right side of Chimney Butte cattle, with a down cut in the dewlap. Roosevelt noted that nobody on the river said maltese — the general impression along the Little Missouri was that it must be a plural, so it came out maltee cross.",
+   "image": "assets/img/open-range/tr-brands.jpg",
+   "imageAlt": "Advertisement giving the Chimney Butte and Elkhorn brands, with Theodore Roosevelt named as proprietor of both",
+   "credit": "Theodore Roosevelt's brands, copied from the Stockgrower's Journal of Miles City, Montana; the Harvard record dates the advertisement no earlier than 1884. Theodore Roosevelt Collection, Houghton Library, Harvard University. Mount, caption strip and adjacent column type cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "What did an ordinary cowboy earn?",
+   "options": [
+    "Roughly forty dollars a month",
+    "Roughly ten dollars a month",
+    "Roughly a hundred a month",
+    "A share of the calf crop, not wages"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt sets the figure himself, describing the range country's great gatherings as drawing everyone from the stock-owner worth his millions to the ordinary cowboy who works for forty dollars a month. H. W. Brands puts the usual band at twenty-five to forty depending on experience, with a trail boss well over a hundred. Board came with the job. So did sixteen-hour days, a horse that might kill you, and no prospect whatever of owning cattle of your own on wages like that.",
+   "image": "assets/img/open-range/cattle-ranch-huffman.jpg",
+   "imageAlt": "A low log ranch cabin among cottonwoods with a pole corral beside it",
+   "credit": "A cattle ranch. Photograph by L. A. Huffman, about the 1880s. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Hagedorn called line riding the hardest and bitterest work on the winter range. What were the line riders trying to do?",
+   "options": [
+    "Cut firewood and haul it to the ranches",
+    "Break a trail through drifts for the wagons",
+    "Keep the cattle from drifting off the range",
+    "Carry the mail between outfits"
+   ],
+   "answer": 2,
+   "explanation": "A line of camps was strung along the eastern edge of the Badlands where the broken country met the open prairie, and from each one two men rode out in opposite directions every day, each patrolling halfway to the next camp and turning back any cattle heading for the bare plains beyond, where there was neither feed nor shelter and a good many people willing to help themselves to a stray. Nobody wanted the job. Bill Sewall, who was raised in the Maine woods, said he had never known cold like a Badlands blizzard.",
+   "image": "assets/img/open-range/cattle-ranch-huffman.jpg",
+   "imageAlt": "A log ranch cabin and pole corral standing among bare cottonwoods",
+   "credit": "A cattle ranch. Photograph by L. A. Huffman, about the 1880s. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The Little Missouri River Stockmen's Association held its first meeting with Roosevelt in the chair. When and where?",
+   "options": [
+    "May 1886, at the Elkhorn Ranch",
+    "December 1884, in Medora",
+    "April 1885, in Miles City",
+    "July 1883, at Little Missouri"
+   ],
+   "answer": 1,
+   "explanation": "Eleven o'clock in the morning on Friday, December 19, 1884, at Roberts Hall in Medora, with the thermometer around twenty below outside. Eleven outfits sent men and eight more sent word that they were in. Roosevelt was twenty-six, one of the youngest men in the room and among the least experienced with cattle, and they elected him chairman anyway — he was a good talker, he was sure of his ground, and, in the phrase of the Badlands, he didn't take backwater from any one. He kept the minutes in his own hand. The Bad Lands Cow Boy reported that the utmost harmony and unanimity prevailed.",
+   "image": "assets/img/open-range/men-at-corral.jpg",
+   "imageAlt": "Ranchmen gathered at a corral fence with badlands buttes behind them",
+   "credit": "Merrifield, Sylvane Ferris and Joe Ferris among a group at a corral near Medora — photographed about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands-timeline",
+    "label": "Timeline of T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "At its first meeting the Little Missouri River Stockmen's Association made the Marquis de Morès a committee of one. To do what?",
+   "options": [
+    "Buy the association a herd bull",
+    "Negotiate freight rates with the railroad",
+    "Set the date of the spring round-up",
+    "Lobby the territorial legislature"
+   ],
+   "answer": 3,
+   "explanation": "He was to work with the committee already appointed by the Eastern Montana Live Stock Association and get laws favourable to the cattlemen out of the Dakota territorial legislature. Two men who would be exchanging letters about a duel within a year were sitting in the same small hall agreeing on committee assignments, and so was Gregor Lang, the Marquis's most unforgiving critic. The by-laws Roosevelt was told to draft bound the members together against frauds and swindlers, and to prevent the stealing, taking, and driving away of horned cattle, sheep, horses, and other stock from the rightful owners thereof. In a county with no organised government, that was the government.",
+   "image": "assets/img/open-range/corrals-elkhorn.jpg",
+   "imageAlt": "Log sheds and a rail corral standing among cottonwoods on a river bottom",
+   "credit": "Corrals at Elkhorn Ranch, about 1886. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Who decided when and where each spring round-up would begin?",
+   "options": [
+    "The spring meeting of the stock-growers",
+    "The Northern Pacific's stock agent",
+    "The territorial governor's office",
+    "The largest outfit in each valley"
+   ],
+   "answer": 0,
+   "explanation": "The Montana Stock-growers' Association took in ranchmen from Montana, western Dakota and northern Wyoming — perhaps a hundred thousand square miles of grass — and at its spring meeting it carved the whole basin into round-up districts and fixed the start dates so that neighbouring districts meshed. One year the Little Missouri round-up started on May 25 and worked downstream to reach the mouth of the Big Beaver on June 1, exactly when the Yellowstone round-up began there; the two then worked up the Beaver together and swapped back each other's strays. Roosevelt joined that association's executive committee in April 1885 and was president of its Dakota branch.",
+   "image": "assets/img/open-range/chuck-wagon.jpg",
+   "imageAlt": "A loaded round-up wagon on open ground with men and horses standing around it and cooking pots in the grass",
+   "credit": "The Maltese Cross chuck wagon, about 1884. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "How long was a working day on the round-up?",
+   "options": [
+    "Sunrise to sunset, about twelve hours",
+    "Eight hours, by agreement of the outfits",
+    "Often sixteen hours or more",
+    "Six hours on, six off, in two shifts"
+   ],
+   "answer": 2,
+   "explanation": "There is no eight-hour law in cowboy land, Roosevelt wrote: during round-up time we often count ourselves lucky if we get off with much less than sixteen hours. The cook shouted at about three in the morning and the day-herd men were on from four until eight at night. What is strange is that the cowboys looked forward to it. After a winter in a line camp the round-up was five weeks of company, horse races, foot races, wrestling matches and somebody else's bad horse to laugh at — Hagedorn said it had more than a little of the character of a county fair.",
+   "image": "assets/img/open-range/ranch-roundup.jpg",
+   "imageAlt": "Cattle strung out on open grass with two riders working the flanks",
+   "credit": "A Roosevelt ranch round-up, about 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
+  }
+ ]
+}

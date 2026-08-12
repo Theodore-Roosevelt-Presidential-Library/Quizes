@@ -1,0 +1,29 @@
+{
+ "bismarck-1883": {
+  "source": "loc",
+  "ref": "2003654982",
+  "source_file": "loc_pictures_2003654982",
+  "description": "View of the city of Bismarck, Dak., capital of Dakota and county seat of Burleigh County. 1883",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x846"
+ },
+ "harrison-1888": {
+  "source": "loc",
+  "ref": "96521670",
+  "source_file": "loc_pictures_96521670",
+  "description": "[Benjamin Harrison, head-and-shoulders portrait, facing right]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "910x1280"
+ },
+ "cleveland-1888": {
+  "source": "loc",
+  "ref": "96511406",
+  "source_file": "loc_pictures_96511406",
+  "description": "[President Grover Cleveland, half-length portrait, facing right]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "822x1024"
+ }
+}

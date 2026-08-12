@@ -1,0 +1,128 @@
+{
+ "boardwalk-loop": {
+  "source": "dam",
+  "ref": "1a2bb3e4-6653-41ad-9a15-88339ee0f679",
+  "source_file": "20260629 TRPL GO 02322 sRGB.jpg",
+  "description": "",
+  "rights": "\u00a9 Chad Ziemendorf, Chad Ziemendorf",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x933"
+ },
+ "painted-canyon-overlook": {
+  "source": "dam",
+  "ref": "56d4eb19-fa51-4aaf-a2bd-d56097f33da9",
+  "source_file": "TRPL-PaintedCanyonOverlook_Threefold-044.jpg",
+  "description": "",
+  "rights": "",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2102"
+ },
+ "painted-canyon-2": {
+  "source": "dam",
+  "ref": "07ad1a23-92ce-4cd4-b9bd-a4604aa443eb",
+  "source_file": "TRPL-PaintedCanyonOverlook_Threefold-042.jpg",
+  "description": "",
+  "rights": "",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2100"
+ },
+ "library-roof": {
+  "source": "dam",
+  "ref": "a905a695-7885-4f3b-afd4-b8b6b7b2e029",
+  "source_file": "20260702 TRPL GO 01398 sRGB.jpg",
+  "description": "",
+  "rights": "\u00a9 Chad Ziemendorf",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x933"
+ },
+ "boardwalk-2": {
+  "source": "dam",
+  "ref": "98f905c2-3827-48ee-9f55-cbec507f25a8",
+  "source_file": "20260629 TRPL GO 02311 sRGB.jpg",
+  "description": "",
+  "rights": "\u00a9 Chad Ziemendorf, Chad Ziemendorf",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x933"
+ },
+ "capitol-cabin": {
+  "source": "dam",
+  "ref": "186e664a-7677-4b80-b6a6-a7d7a1199b55",
+  "source_file": "har_3912889_The_Roosevelt_Cabin_as_it_stands_on_the_.jpg",
+  "description": "The Roosevelt Cabin, as it stands on the State capitol grounds of N.D. at Bismarck, N.D \u2014 Caption continues: \"Note the hole thru the window, where the roof has caved in. Note the unkept lawn of the state capitol. Indian grave in the foreground marked Indian fashion with stones. Mrs. Bakesy \u2014 Creator: Maltese Cross Ranch Cabin$$QMaltese Cross Ranch Cabin \u2014 Date: ca. 1920",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x993"
+ },
+ "park-horses": {
+  "source": "loc",
+  "ref": "2021757214",
+  "source_file": "loc_pictures_2021757214",
+  "description": "Horses near Medora and the Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1211"
+ },
+ "peaceful-valley": {
+  "source": "loc",
+  "ref": "2021757221",
+  "source_file": "loc_pictures_2021757221",
+  "description": "A distant view of the Peaceful Valley Ranch within the Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "billings-courthouse": {
+  "source": "loc",
+  "ref": "2021757315",
+  "source_file": "loc_pictures_2021757315",
+  "description": "Whimsical Christmas display outside the Billings County Courthouse in Medora, North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x988"
+ },
+ "demores-smokestack": {
+  "source": "loc",
+  "ref": "2021757227",
+  "source_file": "loc_pictures_2021757227",
+  "description": "A giant smokestack, the last remaining piece of the old (1893) De Mores Packing Plant, built by the Marquis de Mores, a French frontier rancher in the badlands in the southwest corner of the new state North Dakota, to furnish dressed beef to the growing area",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "park-road": {
+  "source": "loc",
+  "ref": "2021757216",
+  "source_file": "loc_pictures_2021757216",
+  "description": "View down the winding road through Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "little-mo-overlook": {
+  "source": "loc",
+  "ref": "2021757316",
+  "source_file": "loc_pictures_2021757316",
+  "description": "Overlook view of the Little Missouri River within Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "badlands-evening": {
+  "source": "loc",
+  "ref": "2021757225",
+  "source_file": "loc_pictures_2021757225",
+  "description": "Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ },
+ "badlands-buttes-modern": {
+  "source": "loc",
+  "ref": "2021757213",
+  "source_file": "loc_pictures_2021757213",
+  "description": "Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x933"
+ }
+}

@@ -1,0 +1,83 @@
+{
+  "tr-brands": {
+    "source": "dam",
+    "ref": "1f738e3d-9b3a-4f5f-beea-9b56cc59974d",
+    "source_file": "har_3013558_Theodore_Roosevelt_s_brands.jpg",
+    "description": "Theodore Roosevelt's brands — Copied from Stockgrower's Journal (Miles City, MT). — Date: not before 1884",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x2302"
+  },
+  "chuck-wagon": {
+    "source": "dam",
+    "ref": "6a372c05-6019-4848-b0f7-ecec2a62862a",
+    "source_file": "har_3013509_Maltese_Cross_chuck_wagon.jpg",
+    "description": "Maltese Cross \"chuck wagon\" — An unidentified Native American and two other men at the chuck wagon for Theodore Roosevelt's Maltese Cross Ranch, probably near Medora (N.D.). — Date: ca. 1884",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x1120"
+  },
+  "cowpunchers-roundup": {
+    "source": "dam",
+    "ref": "2fdeae6a-3250-45ef-bcc9-7ae4c0f0b029",
+    "source_file": "har_3013552_Sylvane_Ferris_and_two_other_cowpunchers.jpg",
+    "description": "Sylvane Ferris and two other cowpunchers at round-up, Blacktail Creek, 1883 — Near Medora (N.D.). Photograph by Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: 1883",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x925"
+  },
+  "corrals-elkhorn": {
+    "source": "dam",
+    "ref": "404ce85e-8ea5-4d2c-9de5-0fed47962ac1",
+    "source_file": "har_3013514_Corrals_at_Elkhorn.jpg",
+    "description": "Corrals at Elkhorn — Elkhorn Ranch, near Medora (N.D.). Photograph by Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1886",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x1005"
+  },
+  "tr-roundup-1885b": {
+    "source": "dam",
+    "ref": "61ba68af-6239-4a70-9f92-c0b63551066a",
+    "source_file": "har_3013651_T_R_on_the_round_up_in_1885.jpg",
+    "description": "T. R. on the round-up in 1885 — Theodore Roosevelt standing next to a horse, near Medora (N.D.). Taken by T. W. Ingersoll. — Creator: Ingersoll, T. W. (Truman Ward) 1862-1922$$QIngersoll, T. W. (Truman Ward) 1862-1922 — Date: 1885",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x971"
+  },
+  "ranch-roundup": {
+    "source": "dam",
+    "ref": "0b03009a-726d-4f71-935c-998da395b861",
+    "source_file": "har_3013555_A_Roosevelt_ranch_round_up.jpg",
+    "description": "A Roosevelt ranch round-up — Two unidentified men on horses driving cattle, presumably that of Theodore Roosevelt, probably near Medora (N.D.). — Date: ca. 1885",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x1020"
+  },
+  "roosevelts-outfit": {
+    "source": "dam",
+    "ref": "1edc4509-61e5-4fb0-98f9-c32e70276246",
+    "source_file": "har_3013670_Roosevelt_s_outfit_in_the_round_up.jpg",
+    "description": "Roosevelt's outfit in the round-up — Theodore Roosevelt's Maltese Cross \"outfit\" out on a cattle round-up, near Medora (N.D.). Photography taken by or at the behest of Theodore Roosevelt. — Creator: Roosevelt, Theodore 1858-1919$$QRoosevelt, Theodore 1858-1919 — Date: ca. 1885",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x1115"
+  },
+  "cattle-ranch-huffman": {
+    "source": "dam",
+    "ref": "53e3fd53-167f-43e7-9abe-4f00d7cffc47",
+    "source_file": "har_3013453_A_cattle_ranch.jpg",
+    "description": "A cattle ranch — Cabin with a corral in the background. Photograph by L. A. Huffman. — Creator: Huffman, L. A. (Laton Alton) 1854-1931$$QHuffman, L. A. (Laton Alton) 1854-1931 — Date: ca. 1880s",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x1126"
+  },
+  "men-at-corral": {
+    "source": "dam",
+    "ref": "3d80235f-ca23-4ec2-b32d-2567f86a5414",
+    "source_file": "har_3013573_Several_men_standing_near_a_corral.jpg",
+    "description": "Several men standing near a corral — Arthur W. Merrifield and Sylvane Ferris are second and third from right, respectively, and Joseph A. Ferris is standing second to the left from the man with the flag on horseback, probably near Medora — Creator: Hagedorn, Hermann 1882-1964$$QHagedorn, Hermann 1882-1964 — Date: ca. 1919",
+    "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+    "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+    "px": "1400x893"
+  }
+}
