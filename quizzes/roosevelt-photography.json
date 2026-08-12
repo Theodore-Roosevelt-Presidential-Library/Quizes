@@ -1,0 +1,291 @@
+{
+ "id": "roosevelt-photography",
+ "title": "Roosevelt and the Camera",
+ "subtitle": "Staged, filmed, faked and catalogued",
+ "intro": "He understood before almost anyone in public life what a picture could do, and he was careful about which pictures existed. Some of the most famous images of him were re-created after the fact, one of the most famous films about him was shot in Chicago with an actor, and the young man doing the real photographic work was his son. Thirteen questions on the making of the images.",
+ "heroImage": "assets/img/photography/tr-1885-studio.jpg",
+ "heroAlt": "Theodore Roosevelt in a fringed buckskin suit and fur cap, seated with a rifle across his knees before a painted backdrop",
+ "heroCredit": "Theodore Roosevelt in his deerskin hunting suit, photographed in a New York studio, 1885. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Roosevelt and the Camera",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Roosevelt and the Camera quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Official Photographer",
+   "line": "Perfect. Every plate, every stage."
+  },
+  {
+   "min": 11,
+   "name": "Expedition Photographer",
+   "line": "You developed them in camp and made the mail."
+  },
+  {
+   "min": 8,
+   "name": "Stereograph Publisher",
+   "line": "You know a good frame when you see one."
+  },
+  {
+   "min": 5,
+   "name": "Kodak in the Kit",
+   "line": "One in ten turned out. That was the plan."
+  },
+  {
+   "min": 2,
+   "name": "In the Crowd",
+   "line": "You got some of the picture."
+  },
+  {
+   "min": 0,
+   "name": "Blank Plate",
+   "line": "Reload and go again."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt's celebrated buckskin hunting portrait of 1885 was made where?",
+   "options": [
+    "At the Elkhorn Ranch on the Little Missouri",
+    "In Medora, outside Joe Ferris's store",
+    "In a New York photographic studio",
+    "On the lawn at Sagamore Hill"
+   ],
+   "answer": 2,
+   "explanation": "The suit was real and had been made for him in Dakota. Everything behind it was scenery: a painted backdrop of trees, a scatter of ferns and flowers, and a carpet of artificial grass, in a studio some fifteen hundred miles from the Badlands. Biographers have called it a cross between Buffalo Bill and Audubon and noted the Broadway hokeyness of the fittings. It is also the single image that taught the country to picture him as a westerner, which is a fair measure of how well the trick worked.",
+   "image": "assets/img/photography/tr-1885-studio.jpg",
+   "imageAlt": "Roosevelt seated in fringed buckskin with a rifle, before a painted studio backdrop",
+   "credit": "Theodore Roosevelt in his deerskin hunting suit, photographed in a New York studio, 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt restaged the capture of the Little Missouri boat thieves for the camera. Who stood in as the prisoners?",
+   "options": [
+    "Three cowhands hired for the afternoon in Medora",
+    "Deputies borrowed from the sheriff at Dickinson",
+    "Bill Sewall and Wilmot Dow, who had made the capture",
+    "His ranch partners Bill Merrifield and Sylvane Ferris"
+   ],
+   "answer": 2,
+   "explanation": "The Houghton catalogue record names them: Sewall, Dow and an unidentified man, sitting for the camera as the men they had helped arrest. Roosevelt did carry a camera on the river and did photograph the real thing, but the tableau that fixed the story in the public mind was set up afterwards, for the magazine article. He is the one in the fur cap with the rifle across his knees. He was twenty-seven and already thinking about how the story would look on a page.",
+   "image": "assets/img/photography/boat-thieves-staged.jpg",
+   "imageAlt": "Four men beside a river in the Badlands: one in a fur cap seated on a bench with a rifle across his knees, one standing in a long coat, two sitting on the ground beside a bison skull",
+   "credit": "\"T. R. guarding the boat thieves\" - a re-creation staged after the 1886 capture, with Sewall, Dow and an unidentified man posing as the prisoners. The print carries an Underwood & Underwood, New York imprint, cropped off here with the mount damage. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Underwood & Underwood photographed Roosevelt constantly. What business were they in?",
+   "options": [
+    "Newspaper engraving and half-tone plate making",
+    "Portrait miniatures painted from life",
+    "Magic-lantern slides sold to churches and lecture halls",
+    "Stereographs — paired photographs viewed in relief"
+   ],
+   "answer": 3,
+   "explanation": "A stereograph is two nearly identical frames on one card; put the card in a hand viewer and the scene stands up in three dimensions. Underwood & Underwood of New York turned out cards of the 1903 western tour by the thousand, and a photographer of theirs was waiting at Glacier Point in Yosemite by prior arrangement. Their reach is why so many Roosevelt images survive in pairs, and why so many published reproductions are actually one half of something. The picture of him at the controls of a steam shovel at Panama is one of theirs.",
+   "image": "assets/img/photography/tr-steam-shovel.jpg",
+   "imageAlt": "Roosevelt in a pale suit seated at the controls of a large steam shovel, men standing around it",
+   "credit": "President Roosevelt running an American steam shovel at Culebra Cut, 1906. One half of a stereograph by Underwood & Underwood. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In November 1906 Roosevelt climbed into the driver's seat of a ninety-five-ton Bucyrus steam shovel in the Canal Zone. What made the picture unusual?",
+   "options": [
+    "It was the first photograph ever taken in the Canal Zone",
+    "No president had been photographed on a machine",
+    "Roosevelt took it himself with a delayed shutter",
+    "It was painted afterwards and passed off as a photograph"
+   ],
+   "answer": 1,
+   "explanation": "David McCullough's line is that presidents had been photographed at their desks and on the rear platforms of Pullman cars, and Chester Arthur had once consented to pose in a canoe, but not in 117 years had a president posed on a steam shovel. Roosevelt was in a white suit and a Panama hat, the rain was coming down in sheets, and he stayed at the controls about twenty minutes, insisting the machine be run back and forth so he could see how it worked. The photographers were extremely busy.",
+   "image": "assets/img/photography/tr-steam-shovel-climbing.jpg",
+   "imageAlt": "Roosevelt climbing onto a steam shovel while canal workers stand around the machine",
+   "credit": "\"Upon the big steam shovel\" - Theodore Roosevelt climbing into a steam shovel at Culebra Cut, now Gaillard Cut, Panama, 16 November 1906. Photograph by J. L. Wright. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt's special message to Congress on the canal, released on 17 December 1906, was a first in one respect. Which?",
+   "options": [
+    "It was the first printed in colour",
+    "It was the first delivered in person since Jefferson",
+    "It was the first illustrated with photographs",
+    "It was the first written by a cabinet officer"
+   ],
+   "answer": 2,
+   "explanation": "He had gone to the Isthmus in the rainy season on purpose, walked the railroad ties in Culebra Cut, poked about in kitchens and meat lockers, and told the men at work: \"You are doing the biggest thing of the kind that has ever been done.\" He came home with pictures and put them in the message. It is an argument made in images as much as in sentences, and it is the ancestor of every illustrated government report since.",
+   "image": "assets/img/photography/culebra-cut.jpg",
+   "imageAlt": "A deep excavated cut through hillsides with railway tracks running along terraced benches",
+   "credit": "Culebra Cut, now Gaillard Cut, during construction. The Houghton record dates this print 1904, so the photograph is earlier than the events described here - cropped from the black album mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The canal works had a photographer on the payroll. What was the job?",
+   "options": [
+    "To photograph the same sites again as the work advanced",
+    "To take portraits of the workforce to send to their families",
+    "To photograph Panama's scenery for the tourist trade",
+    "To make copies of the engineering drawings"
+   ],
+   "answer": 0,
+   "explanation": "Ulrich Keller's study of the archive records that Ernest Hallen, Official Photographer to the Isthmian Canal Commission, reached the Isthmus in August 1907 and stayed more than twenty years, building up over ten thousand negatives made with an eight-by-ten view camera. He visited every site on a fixed round and set up on the same spot each time, so the sequences read as visual progress reports. Keller calls the approach bland and unimaginative and then says it does not matter: the subject was great and Hallen kept showing up.",
+   "image": "assets/img/photography/culebra-cut.jpg",
+   "imageAlt": "Excavation terraces and construction railways in the Culebra Cut",
+   "credit": "Culebra Cut, now Gaillard Cut, during construction. The Houghton record dates this print 1904, so the photograph is earlier than the events described here - cropped from the black album mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Who was the photographer of the Smithsonian African expedition of 1909-10?",
+   "options": [
+    "Carl Akeley",
+    "A. Radclyffe Dugmore",
+    "Kermit Roosevelt",
+    "Edward S. Curtis"
+   ],
+   "answer": 2,
+   "explanation": "He was nineteen and had never done the work. His father appointed him, then arranged the training: Frank Chapman of the American Museum of Natural History gave him tutorials, lent him a camera, spent a day with him at the Bronx Zoo learning to catch an animal in motion at a distance, and showed him how naturalists wanted dead specimens recorded. Roosevelt bought him a Kodak of his own and wrote, \"I must leave all the photographic work to you.\" His advice on method was blunt: \"take a great number of pictures and hope that one in ten will turn out well.\"",
+   "image": "assets/img/photography/kermit-camp.jpg",
+   "imageAlt": "Two men in broad hats standing in open grassland beside a survey pole",
+   "credit": "Kermit Roosevelt in camp near Heatley's ranch, British East Africa, May 1909. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Preparing his son Kermit for Africa, Roosevelt gave one firm instruction about equipment. What was it?",
+   "options": [
+    "To carry glass plates rather than roll film",
+    "To hire a professional and then keep out of the way",
+    "To photograph only the animals that had been shot",
+    "To take a good Kodak as well as the borrowed rig"
+   ],
+   "answer": 3,
+   "explanation": "He wrote that in addition to the elaborate Chapman apparatus his son should \"take a good Kodak with you,\" because when the showdown came almost everything worth having would be taken with the Kodak. It is a professional's instinct in an amateur: the fancy rig will be in the wrong bag at the wrong moment. He carried the same rule to South America four years later, where he specified one small camera always to hand and a duplicate soldered into a tin in the baggage.",
+   "image": "assets/img/photography/tr-in-boat.jpg",
+   "imageAlt": "Theodore Roosevelt in a broad hat sitting in a small boat on a jungle river, another man behind him",
+   "credit": "Theodore Roosevelt seated in a boat during the Roosevelt-Rondon expedition to Brazil, 1913. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "A Chicago film producer asked to come along on the 1909 African safari and was turned down. What did he do instead?",
+   "options": [
+    "Sued the Smithsonian for the rights",
+    "Sent a cameraman out secretly among the porters",
+    "Filmed a fake version in Chicago with an actor",
+    "Bought the newspaper rights and printed still pictures"
+   ],
+   "answer": 2,
+   "explanation": "William Selig of the Selig Polyscope Company had come to the White House with a projector and some films, hoping for an invitation. Refused, he borrowed animals and wranglers from a Wisconsin circus through his friend John Ringling, bought an old lion for three hundred dollars, hired a vaudeville actor for the lead and shot ten scenes in a day. He held the release until reports of Roosevelt's first lions reached America, then put Hunting Big Game in Africa into the theatres, to crowds and good notices. Roosevelt came across it in a Berlin theatre a year later and left furious.",
+   "image": "assets/img/photography/safari-lion.jpg",
+   "imageAlt": "Men in wide hats and pith helmets standing over a dead lion lying in long grass with spears across it; at the left, Maasai men with spears and a painted hide shield, and cattle behind them",
+   "credit": "\"Round the lion\" - Theodore Roosevelt at the far right, others of the safari party, and Maasai men around a dead lion, British East Africa, 1909-10, as the Houghton record names them - cropped from the album mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "One filmmaker did get genuine footage of Roosevelt in Africa. What became of his film?",
+   "options": [
+    "It outsold every other picture of the year",
+    "It burned in a vault before it could be released",
+    "It was released, failed and was pulled",
+    "It was shown only in Britain"
+   ],
+   "answer": 2,
+   "explanation": "Cherry Kearton, who with his brother Richard had produced the first book-length portfolio of wild-animal photography, met the party at Mombasa and again at Nyeri, where Roosevelt agreed to pose and Kearton got 450 feet. Roosevelt in Africa opened in America in April 1910 — genuine footage, small audiences, out of the theatres inside a month. Selig's invention had already taken the market. Kearton stayed an admirer and later dedicated a book to Roosevelt for his conservation work.",
+   "image": "assets/img/photography/tr-reading-tent.jpg",
+   "imageAlt": "Roosevelt seated reading in front of a canvas tent in a hunting camp",
+   "credit": "Roosevelt reading in front of his tent in camp, 1910. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
+  },
+  {
+   "prompt": "Roosevelt let photographers follow him almost everywhere. What did he keep them away from?",
+   "options": [
+    "The tennis court",
+    "His desk",
+    "His horse",
+    "His youngest children"
+   ],
+   "answer": 0,
+   "explanation": "He had a court built at the White House and played on it regularly, and he refused access to reporters and photographers who might picture him playing. Speeches and parades fitted the character he wanted on record; a middle-aged man in his shirtsleeves chasing a ball did not. He gave Taft the same counsel in the 1908 campaign, telling him the prominence given to his golf had not been wise, because voters took an election seriously and wanted a candidate who did. The group nicknamed his Tennis Cabinet was photographed once, standing still in overcoats.",
+   "image": "assets/img/photography/tennis-cabinet.jpg",
+   "imageAlt": "Roosevelt seated on a chair on the lawn below the columns of the White House south portico, about thirty men in overcoats standing in a line behind him",
+   "credit": "President Roosevelt and his Tennis Cabinet on the White House lawn at a farewell luncheon, 1 March 1909. Photograph by Barnett McFee Clinedinst - cropped to remove a picture editor’s pencil marks at the top right. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
+  },
+  {
+   "prompt": "Kermit Roosevelt was the photographer on the River of Doubt expedition of 1913-14. What did the job mean in the field?",
+   "options": [
+    "Sketching whatever could not be photographed",
+    "Carrying glass plates by canoe to be printed in Rio",
+    "Shipping the undeveloped rolls to New York each week",
+    "Developing the film in camp so it could go with the mail"
+   ],
+   "answer": 3,
+   "explanation": "On Christmas Eve 1913 at Corumbá, with the riverboat loading and his father pacing the dock, Kermit was still developing the last plates to go into the mail with an article on a jaguar hunt. His father's own book sets out the practical rules learned the hard way: one small camera always within reach and a duplicate soldered into a tin, film bought in rolls of six sealed in tubes, and no roll left in a camera more than twenty-four hours in that air. \"We carried the 3A special Kodak,\" he wrote, and found it light, strong and effective.",
+   "image": "assets/img/photography/tr-writing-amazon.jpg",
+   "imageAlt": "A man in a mosquito head-net and gloves seated at a folding camp table, writing",
+   "credit": "Theodore Roosevelt writing during the Roosevelt-Rondon expedition to Brazil, 1913. Photograph by Kermit Roosevelt. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt wanted photographs from Africa for two quite different reasons. What were they?",
+   "options": [
+    "Scientific record, and material to sell to publishers",
+    "Family keepsakes, and evidence for a lawsuit",
+    "Museum decoration, and a gift to the British authorities",
+    "Proof of his marksmanship, and a school textbook"
+   ],
+   "answer": 0,
+   "explanation": "Pictures of animals in their own country would tell future researchers things a mounted skin could not, and he had admired that use of a camera for years — he wrote a foreword to Edward Curtis's photographic study of Native nations and said of the German naturalist Carl Schillings that \"no mere hunter can ever do work even remotely approaching in value that which he has done.\" The other reason was money. The expedition was expensive and he would not let public funds pay for his own travel, so Scribner's took twelve articles for fifty thousand dollars, illustrated.",
+   "image": "assets/img/photography/safari-rhino.jpg",
+   "imageAlt": "Two men crouching to put a tape on the horn of a dead rhinoceros on open plain; Theodore Roosevelt stands at the right in a sun helmet and cartridge belt, a gun-bearer beside him",
+   "credit": "\"Putting the tape on the rhino's horn\" - Theodore Roosevelt and others next to a dead rhinoceros, British East Africa, 1909-10, as the Houghton record names them - cropped from the album mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "tr-1885-buckskin": {
+  "source": "dam",
+  "ref": "169cbd67-2801-4ad9-a815-eb35c4c0f76b",
+  "source_file": "loc_2009633128_Theodore_Roosevelt_in_1885.tif",
+  "description": "Theodore Roosevelt in 1885 — 1 photographic print. | Photograph showing full-length portrait of Theodore Roosevelt, seated, in deer skin hunting suit, holding rifle] — Creator: Bain, George Grantham — Date: 1885",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1342x1942",
+  "credit_line": "Theodore Roosevelt in 1885, in the buckskin suit made for him in Dakota. Library of Congress, Prints and Photographs Division."
+ },
+ "tr-rough-rider-uniform": {
+  "source": "loc",
+  "ref": "2012648249",
+  "source_file": "loc_pictures_2012648249",
+  "description": "[Theodore Roosevelt in Rough Riders uniform] - Title from item. Created/published c1900 August 1.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1350x2000",
+  "credit_line": "Theodore Roosevelt in the uniform of the 1st United States Volunteer Cavalry. Studio portrait copyright 1900 by Rockwood, New York - two years after Cuba, cropped from the press-file mount. Library of Congress, Prints and Photographs Division."
+ },
+ "gun-bearers": {
+  "source": "loc",
+  "ref": "2013651261",
+  "source_file": "loc_pictures_2013651261",
+  "description": "[Roosevelt's and Kermit's, four gun bearers] - LOC summary: Photograph showing four African men standing with guns. Kermit Roosevelt is standing in the background. Theodore Roosevelt doesn't appear in the picture. Created/published c1910 Apr.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1250x964",
+  "credit_line": "Roosevelt's and Kermit's four gun-bearers, British East Africa, 1910; the Library of Congress record notes that the figure at the back is Kermit Roosevelt and that Theodore Roosevelt is not in the picture - cropped from the album mount. Library of Congress, Prints and Photographs Division."
+ },
+ "tr-saddle-ride-1903": {
+  "source": "loc",
+  "ref": "2010647513",
+  "source_file": "loc_pictures_2010647513",
+  "description": "At home in the saddle - Pres. Roosevelt on a 60 mile ride, Laramie to Cheyenne, Wyo.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1346x1227",
+  "credit_line": "President Roosevelt on a sixty-mile ride, 1903 - left frame cropped from a stereograph card. Library of Congress, Prints and Photographs Division."
+ },
+ "sagamore-exterior": {
+  "source": "loc",
+  "ref": "2013651058",
+  "source_file": "loc_pictures_2013651058",
+  "description": "[Exterior view of Sagamore Hill house, Theodore Roosevelt's summer home]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1304x1024",
+  "credit_line": "Sagamore Hill, about 1905 - cropped from the album mount. Library of Congress, Prints and Photographs Division."
+ },
+ "tr-caravan-1909": {
+  "source": "loc",
+  "ref": "2013651197",
+  "source_file": "loc_pictures_2013651197",
+  "description": "T. R. and some members of his caravan - Title from item. H127198 U.S. Copyright Office. Created/published c 1909 Jun. 11.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "970x770",
+  "credit_line": "T. R. and some members of his caravan, British East Africa, 11 June 1909 - cropped from the grey album mount. Library of Congress, Prints and Photographs Division.",
+  "note": "Fetched in the 2026 audit so that the two African-kit questions in Guns and Gear stop borrowing the 1898 Rough Rider studio portrait. Roosevelt is in the field rig the questions describe: sun helmet, khaki jacket, khaki trousers buttoned below the knee, hobnailed boots. The record names none of the porters, so the caption names none."
+ }
+}

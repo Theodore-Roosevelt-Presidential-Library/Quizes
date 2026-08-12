@@ -1,0 +1,309 @@
+{
+ "id": "sagamore-table",
+ "title": "The Sagamore Table",
+ "subtitle": "Food and Drink in the Roosevelt Houses",
+ "intro": "A coffee cup his son compared to a bathtub, a wife who ran the White House off a written list, a caterer paid out of the President's own pocket, and a pantry that had to be kept locked against the boys. Fourteen questions on what the Roosevelts actually ate and drank.",
+ "heroImage": "assets/img/table/sagamore-exterior.jpg",
+ "heroAlt": "Sagamore Hill seen from the lawn, a large shingled house with a wide porch behind a weeping tree",
+ "heroCredit": "Sagamore Hill, Theodore Roosevelt's home at Oyster Bay, about 1905. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/family",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Sagamore Table",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on food and drink in the Roosevelt houses - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/family"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Mistress of the Household Book",
+   "line": "Perfect. Edith would have approved of the arithmetic."
+  },
+  {
+   "min": 12,
+   "name": "White House Steward",
+   "line": "You shop from the list and you do not improvise."
+  },
+  {
+   "min": 9,
+   "name": "Cook from Sagamore Hill",
+   "line": "Dining-room dinner, half past seven, and no nonsense."
+  },
+  {
+   "min": 6,
+   "name": "Guest at the Table",
+   "line": "Well done. Eat before you come."
+  },
+  {
+   "min": 3,
+   "name": "Still in the Nursery",
+   "line": "Come down when you can manage the manners."
+  },
+  {
+   "min": 0,
+   "name": "Locked Out of the Pantry",
+   "line": "There was a reason for that key."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Edith Roosevelt had a coffee service made up for her husband alone because he was fussy about his coffee. What did his eldest son say the cup was more in the nature of?",
+   "options": [
+    "A soup tureen",
+    "A bathtub",
+    "A fire bucket",
+    "A christening font"
+   ],
+   "answer": 1,
+   "explanation": "Theodore Roosevelt Jr. said his father's special cup was “more in the nature of a bathtub.” It is one of those details that sounds like a tall story and is not: he drank coffee and tea in quantity all day, and the household simply gave up and provided vessels to match.",
+   "image": "assets/img/table/cowboy-breakfast.jpg",
+   "imageAlt": "Men in hats and overcoats standing round cooking pots and coffee kettles over an open fire on the plains",
+   "credit": "President Roosevelt's cowboy breakfast at Hugo, Colorado, 1903 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Richard Henry Dana III, who often had Roosevelt to the house in Cambridge in the 1890s, kept count of what went into that coffee. How much sugar?",
+   "options": [
+    "None at all",
+    "A single lump",
+    "Between five and seven lumps",
+    "A spoonful of honey instead"
+   ],
+   "answer": 2,
+   "explanation": "Dana put it between five and seven lumps every time, and said it made him think of the hummingbird, which lives on sweets and is one of the most strenuously active of vertebrates. Roosevelt's sweet tooth was not a private eccentricity - it turns up in almost every account of him at a table.",
+   "image": "assets/img/table/state-dining-table-1902.jpg",
+   "imageAlt": "A White House dining table laid with glassware, candelabra and banked greenery",
+   "credit": "The State Dining Room table decorated for President Roosevelt's dinner to his Cabinet, 2 January 1902 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "By 1911 Roosevelt said he had for years been sweetening his coffee with something other than sugar. What?",
+   "options": [
+    "Honey",
+    "Molasses",
+    "Condensed milk",
+    "Saccharin"
+   ],
+   "answer": 3,
+   "explanation": "He had switched to saccharin years before and stayed with it; contemporaries who watched him at breakfast describe coffee sweetened with saccharin rather than sugar. It was not a neutral choice. He had signed the Pure Food and Drug Act in 1906, and when his own government's chemists moved against the artificial sweetener he was, by at least one account, on the other side of the argument from them.",
+   "image": "assets/img/table/cowboy-breakfast.jpg",
+   "imageAlt": "Coffee kettles and cooking pots over an open fire, with men standing round",
+   "credit": "President Roosevelt's cowboy breakfast at Hugo, Colorado, 1903 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "Roosevelt's valet James Amos had a standing trick he used at banquets so that his employer could appear to drink champagne without drinking any. What was it?",
+   "options": [
+    "He filled the glass with cracked ice first",
+    "He substituted ginger ale poured from a matching decanter",
+    "He had the glass made with a false bottom",
+    "He sat behind the President's chair and drank it himself"
+   ],
+   "answer": 0,
+   "explanation": "Amos would go to the table before the guests, pack the President's glass with cracked ice, and leave barely a teaspoonful of room. Roosevelt would sip at it. He was close to a total abstainer but hated making a parade of it, and this let him get through a banquet without embarrassing a host. Amos said the heaviest drinking he ever saw was a spoonful of brandy stirred into a milk shake.",
+   "image": "assets/img/table/state-dining-table-1902.jpg",
+   "imageAlt": "A White House dinner table laid with glasses, decanters and candelabra",
+   "credit": "The State Dining Room table decorated for President Roosevelt's dinner to his Cabinet, 2 January 1902 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact or fiction"
+   }
+  },
+  {
+   "prompt": "Asked about his drinking, Roosevelt wrote that he doubted he got through a dozen teaspoons a year of one thing. What?",
+   "options": [
+    "Gin",
+    "Rum",
+    "Brandy",
+    "Sherry"
+   ],
+   "answer": 2,
+   "explanation": "The letter is blunt: he described himself as an exceedingly temperate man, said “I never touch whisky at all and I have never drunk a highball or cocktail in my life,” and put brandy at perhaps a dozen teaspoons a year. The surgeons who examined him after he was shot in 1912 independently recorded his habitual abstinence from tobacco and liquor. The story that he was a heavy drinker was invented; he sued over it and the editor withdrew it.",
+   "image": "assets/img/table/tennis-cabinet.jpg",
+   "imageAlt": "President Roosevelt with the men of his Tennis Cabinet on the White House lawn",
+   "credit": "President Roosevelt and his Tennis Cabinet at a farewell luncheon on the White House lawn, 1 March 1909. Photograph by Barnett McFee Clinedinst. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact or fiction"
+   }
+  },
+  {
+   "prompt": "There was one alcoholic drink Roosevelt admitted to taking now and then at the White House, made partly with something grown on the grounds. What?",
+   "options": [
+    "Beer brewed in the basement",
+    "Cider from the White House orchard",
+    "Wine from a vine on the south portico",
+    "Mint juleps"
+   ],
+   "answer": 3,
+   "explanation": "“There was a fine bed of mint at the White House,” he said, and he thought he might have drunk half a dozen juleps in a year. The steward Henry Pinckney mixed them and they went out to the tennis court after a few sets. Archie Butt watched an order for four juleps grow to eight as guests arrived, the President calling for one more each time and laughing with glee at it.",
+   "image": "assets/img/table/tennis-cabinet.jpg",
+   "imageAlt": "Roosevelt and the members of his Tennis Cabinet posed together on the White House lawn",
+   "credit": "President Roosevelt and his Tennis Cabinet on the White House lawn, 1 March 1909. Photograph by Barnett McFee Clinedinst. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The strenuous life"
+   }
+  },
+  {
+   "prompt": "Formal dinners at the Roosevelt White House were cooked by an outside caterer. Who cooked the family's own meals?",
+   "options": [
+    "The Irish cook brought down from Sagamore Hill",
+    "A French chef lent to them by the caterer",
+    "The White House steward, who also did the marketing",
+    "Edith Roosevelt herself, most evenings"
+   ],
+   "answer": 0,
+   "explanation": "French caterers might do the state banquets, but the family ate what the Sagamore Hill cook made. And though the steward did the marketing, he shopped from a list written out by Mrs Roosevelt. Edith believed in simple food as firmly as she believed in fresh air, and she was not going to let the Executive Mansion take over her household.",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill, a large shingled house with a wide porch, seen across the lawn",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "The White House kitchens could not cope with a state banquet, so Edith Roosevelt brought in Washington's leading caterer. Who paid?",
+   "options": [
+    "Congress, from an entertainment appropriation",
+    "The State Department, for diplomatic dinners only",
+    "The President, out of his own pocket",
+    "The guests, by subscription"
+   ],
+   "answer": 2,
+   "explanation": "Rauscher charged $7.50 a plate, rising to ten dollars with the wines, and the whole bill came out of the President's own money. Roosevelt insisted on the best champagne and cigars anyway and spent more on entertaining than any predecessor, explaining cheerfully that he had “a horror of trying to save any money out of his pay.” The salary was $50,000 a year.",
+   "image": "assets/img/table/state-dining-table-1902.jpg",
+   "imageAlt": "A White House dining table dressed with greenery, candelabra and glassware for a formal dinner",
+   "credit": "The State Dining Room table decorated for President Roosevelt's dinner to his Cabinet, 2 January 1902 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Square Deal"
+   }
+  },
+  {
+   "prompt": "Edith Roosevelt kept the entertaining bills down partly by giving one of her staff an unglamorous standing job. What was it?",
+   "options": [
+    "Buying the wine at auction rather than from a merchant",
+    "Chasing every reply, so no plate went unclaimed",
+    "Reusing the flowers from one dinner at the next",
+    "Having the vegetables sent down from Oyster Bay"
+   ],
+   "answer": 1,
+   "explanation": "Belle Hagner ran the acceptances to the last name, because at $7.50 a head an unclaimed plate was money out of the family's pocket. Edith held her own clothing budget to $300 a year while doing it. One Washington wife wondered aloud how she managed; another, less kindly, said she dressed on $300 a year and looked like it.",
+   "image": "assets/img/table/state-dining-table-1902.jpg",
+   "imageAlt": "A formal White House table laid for dinner",
+   "credit": "The State Dining Room table decorated for President Roosevelt's dinner to his Cabinet, 2 January 1902 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Sagamore Hill was a working farm as well as a house. What became of the hogs each autumn?",
+   "options": [
+    "They were driven to Oyster Bay and sold at market",
+    "They were shipped to the Chicago packers",
+    "They were butchered on the place and smoked",
+    "They were kept only as pets for the children"
+   ],
+   "answer": 2,
+   "explanation": "There was a shed for the job and a smokehouse to hang them in. The place also carried horses, dairy cows and about a hundred chickens, with wheat and rye fields, an apple orchard and a three-acre vegetable and fruit garden. Edith's ledgers have a page headed for what the farm brought in: $881.11 in the record year of 1891, and $57.48 in 1899.",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill seen from the lawn",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Edith wrote out a daily timetable for the Sagamore Hill cook. What time was dinner served in the dining room?",
+   "options": [
+    "Noon",
+    "Five o'clock in the afternoon",
+    "Half past seven",
+    "Nine o'clock"
+   ],
+   "answer": 2,
+   "explanation": "The full list runs kitchen breakfast at 7.30, dining-room breakfast at 8.30, kitchen dinner at 12.30, dining-room lunch at 1.30, kitchen tea at 5.00 and dining-room dinner at 7.30 - the staff eating an hour ahead of the family at every meal. The same sheet tells the cook which stairs to dust on which day.",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "The house at Sagamore Hill behind its lawn and trees",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Small Roosevelt children did not sit down with the rest of the family. Where did they eat until they were old enough to behave at the table?",
+   "options": [
+    "In the nursery",
+    "In the kitchen with the cook",
+    "At a side table in the dining room",
+    "On the piazza, whatever the weather"
+   ],
+   "answer": 0,
+   "explanation": "Meals were loud, with their father running the conversation and their mother trying to hold the line on manners, but the rules were real. Children ate upstairs in the nursery until they could be trusted at the table; then they came down to the dining room, the eldest next to their father and the youngest next to Edith. Promotion out of the nursery was the household’s own small rite of passage, and the seating order kept the smallest child within reach of her mother.",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill, the Roosevelt family home at Oyster Bay",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "Ted Roosevelt Jr. remembered one door at Sagamore Hill that had to be kept locked. Which?",
+   "options": [
+    "The wine cellar",
+    "The gun room",
+    "The pantry",
+    "His father's study"
+   ],
+   "answer": 2,
+   "explanation": "The boys ate breakfast at seven at their cousins' house half a mile away and again at eight at home - cereal, waffles, corned-beef hash, beefsteak, potatoes - and reckoned the walk in between was all the appetite they needed. “The pantry at Sagamore, of course, had to be kept locked, or we would have gorged there continually.”",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "The house at Sagamore Hill",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "James Amos, who waited on Roosevelt for years, named the dish the family liked best when they dined alone. What was it?",
+   "options": [
+    "Terrapin",
+    "Roast beef",
+    "Oysters",
+    "Irish stew"
+   ],
+   "answer": 3,
+   "explanation": "Amos said Roosevelt could do a wonderful job on an Irish stew. He ate a light breakfast, a light lunch and then arrived at dinner with the appetite of a healthy boy; the correspondent O. K. Davis called him an eager and valiant trencherman and once watched him “eat a whole chicken and drink four large glasses” of milk at a sitting. Mints and gingersnaps finished the day.",
+   "image": "assets/img/table/cowboy-breakfast.jpg",
+   "imageAlt": "Cooking pots and coffee kettles over a camp fire with men standing round",
+   "credit": "President Roosevelt's cowboy breakfast at Hugo, Colorado, 1903 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  }
+ ]
+}

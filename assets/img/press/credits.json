@@ -1,0 +1,118 @@
+{
+ "riis": {
+  "source": "loc",
+  "ref": "2004672789",
+  "source_file": "loc_pictures_2004672789",
+  "description": "Jacob Riis",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1005x1536"
+ },
+ "tr-reporters-two": {
+  "source": "dam",
+  "ref": "d0519b6d-842c-4c0a-a328-e03f6d76afa9",
+  "source_file": "loc_2009633794_Theodore_Roosevelt_speaking_with_two_men.tif",
+  "description": "[Theodore Roosevelt speaking with two men, probably reporters] — 1 photographic print. — Creator: American Press Association — Date: 1910",
+  "rights": "No known restrictions on publication. No renewal in Copyright office.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1032"
+ },
+ "tr-reporters-three": {
+  "source": "dam",
+  "ref": "e5ef0ea4-12ba-46a9-b6e1-69ee264da087",
+  "source_file": "loc_2009633793_Theodore_Roosevelt_speaking_with_three_m.tif",
+  "description": "[Theodore Roosevelt speaking with three men, probably reporters] — 1 photographic print. — Creator: American Press Association — Date: 1910",
+  "rights": "No known restrictions on publication. No renewal in Copyright office.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x969"
+ },
+ "buffalo-interview": {
+  "source": "dam",
+  "ref": "9653672c-5620-4611-8164-822c4c1167a6",
+  "source_file": "har_1186236_Vice_President_Roosevelt_being_interview.jpg",
+  "description": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's fatal illness, 1901 — Roosevelt and several unidentified reporters. — Date: 1901 September",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1073"
+ },
+ "marquette-jury": {
+  "source": "loc",
+  "ref": "2013650865",
+  "source_file": "loc_pictures_2013650865",
+  "description": "Roosevelt facing his jury first actual photographs of Col. Roosevelt in court /",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1141"
+ },
+ "executive-office-1903": {
+  "source": "loc",
+  "ref": "2007678179",
+  "source_file": "loc_pictures_2007678179",
+  "description": "The President's office in the Executive Office Annex to the White House, Washington, D.C.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x739"
+ },
+ "world-building": {
+  "source": "loc",
+  "ref": "2017649893",
+  "source_file": "loc_pictures_2017649893",
+  "description": "The \"World\" and \"Tribune\" Buildings, Newspaper Row, eastward from City Hall Park, New York City",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x733"
+ },
+ "press-corps": {
+  "source": "loc",
+  "ref": "2005683151",
+  "source_file": "loc_pictures_2005683151",
+  "description": "Newspaper correspondents at Portsmouth Peace Conference 1905 - Title from item. Written on verso: At extreme left front is Edmund Noble of the Boston Herald.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1290x875",
+  "credit_line": "Newspaper correspondents at the Portsmouth peace conference, 1905. Library of Congress, Prints and Photographs Division.",
+  "note": "Cropped from the album mount and photo corners visible in the LOC scan (ppmsca.08821). Identification confirmed against the LOC item record, not from the caption alone."
+ },
+ "tr-riis": {
+  "source": "loc",
+  "ref": "2015647828",
+  "source_file": "loc_pictures_2015647828",
+  "description": "Three old friends. The President, Bishop Vincent and Jacob Riis taken at Chautauqua NY, August 11th 1905 - Photo shows President Roosevelt, Bishop Vincent, and Jacob Riis, full-length portrait, facing front, standing at the entrance to a brick building at Chautauqua. Creator: Underwood & Underwood. Date: 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1260x1592",
+  "credit_line": "\"Three old friends\" - Jacob Riis, President Roosevelt and Bishop John H. Vincent at the entrance to Higgins Memorial Hall, Chautauqua, New York, 11 August 1905. Photograph by Underwood & Underwood. Library of Congress, Prints and Photographs Division.",
+  "note": "Identification corroborated by a second record: Houghton/DAM asset 961d02bf-9567-4451-a745-264f92db90d2, har_4419540_T_R_with_Bishop_Vincent_and_Jacob_Riis.jpg, which gives the sitters left to right as Jacob Riis, Theodore Roosevelt and John H. Vincent at Higgins Memorial Hall, Chautauqua, photographed by Underwood & Underwood, dated 1905 August 11. Both records name the same three men, the same photographer and the same date. The men are STANDING in long dark coats and top hats, not seated in summer suits - an earlier alt text said otherwise and was wrong."
+ },
+ "tr-private-office": {
+  "source": "dam",
+  "ref": "fa66cf30-0c8d-4afd-b258-2d4a8ba87735",
+  "source_file": "loc_2010646568_Theodore_Roosevelt_26th_President_of_the.tif",
+  "description": "Theodore Roosevelt, 26th President of the United States in his private office, White House, Washington, D.C. - 1 photographic print on stereo card : stereograph. Creator: Rau, William Herman. Date: 1904. The card's manuscript caption reads 'Copyrighted 1903 by William H. Rau'.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "490x530",
+  "credit_line": "Theodore Roosevelt in his private office, the White House. One half of a stereograph by William H. Rau, copyright 1903 - cropped from the card. Library of Congress, Prints and Photographs Division.",
+  "note": "Left frame of LOC stereograph 2010646568, matched frame by frame against the LOC scan. Re-cropped to remove the arched top corner of the stereo frame and the strip of salmon mount down the left edge. The same file is used by the Trust-Busting quiz as assets/img/trustbusting/tr-private-office.jpg."
+ },
+ "steffens": {
+  "source": "loc",
+  "ref": "2014695906",
+  "source_file": "loc_pictures_2014695906",
+  "description": "Linc. Steffens - Lincoln Steffens (1866-1936) in Union Square, New York City, April 1914. LOC summary identifies the sitter (Flickr Commons project, 2011).",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2177",
+  "note": "Byte-identical duplicate of assets/img/muckrakers/steffens.jpg, which is where it is used; no question in the Roosevelt and the Press quiz uses this file. Record duplicated here so the folder's audit trail is complete. This file REPLACES an earlier one fetched as LOC 2014685703, titled 'Lincoln Steffens' in the Bain catalogue but showing Theodore Roosevelt - pince-nez on a cord, brush moustache, Pach Bros. blind stamp. The sitter here has a pointed van dyke and round wire spectacles and is Steffens."
+ },
+ "mcclures-cover": {
+  "source": "loc",
+  "ref": "2002697702",
+  "source_file": "loc_pictures_2002697702",
+  "description": "[Cover of McClure's Magazine, Nov. 1903, listing \"muckraking\" articles by Ray Stannard Baker, Lincoln Steffens, and Cleveland Moffett; no illus]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "952x1513",
+  "note": "Byte-identical duplicate of assets/img/muckrakers/mcclures-cover.jpg, which is where it is used; no question in this quiz uses this file. Record duplicated here so the folder's audit trail is complete."
+ }
+}

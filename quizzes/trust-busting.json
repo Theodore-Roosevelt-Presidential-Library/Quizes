@@ -1,0 +1,327 @@
+{
+ "id": "trust-busting",
+ "title": "Trust-Busting",
+ "subtitle": "The law, the lawsuits and the argument behind them",
+ "intro": "A trust began life as a piece of legal furniture — a way round a rule about who could own shares in what. Within twenty years it was the word Americans used for everything they feared about big business, and Congress had passed a law against it that almost nobody used. Fifteen questions on the device, the statute, the cases, and the distinction Roosevelt spent his career arguing for.",
+ "heroImage": "assets/img/trustbusting/nursery-rhymes.jpg",
+ "heroAlt": "Newspaper cartoon of a swaggering bully labelled Standard Oil Trust with a sleepy policeman behind him",
+ "heroCredit": "\"Nursery Rhymes for Infant Industries: An Alphabet of Joyous Trusts, No. 15,\" by Frederick Opper, 1902. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Trust-Busting",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Trust-Busting quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 15,
+   "name": "Counsel for the Government",
+   "line": "Perfect. Argue it before the Nine."
+  },
+  {
+   "min": 13,
+   "name": "Chief Justice",
+   "line": "You wrote the rule and you can apply it."
+  },
+  {
+   "min": 10,
+   "name": "Commissioner of Corporations",
+   "line": "You know where the books are kept."
+  },
+  {
+   "min": 7,
+   "name": "Assistant Attorney General",
+   "line": "You could draft the bill of complaint."
+  },
+  {
+   "min": 4,
+   "name": "In the Courtroom",
+   "line": "You caught most of the argument."
+  },
+  {
+   "min": 0,
+   "name": "Reading the Headlines",
+   "line": "Start at the beginning: 2 January 1882."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Standard Oil's lawyer drew up a trust agreement in January 1882 to get round one particular obstacle. What was it?",
+   "options": [
+    "A corporation of one state could not own stock in a corporation of another",
+    "Federal law barred any firm from operating in more than five states",
+    "Congress required every corporation to publish audited accounts each year",
+    "The Supreme Court had already ruled that all corporate mergers were unlawful"
+   ],
+   "answer": 0,
+   "explanation": "Samuel C. T. Dodd's answer was to leave the companies legally separate and unite their owners instead. Shareholders in some forty firms handed their stock to nine trustees who met daily for lunch at 26 Broadway and issued certificates in exchange. As Dodd put it, that way \"you could have a common name, a common office, and a common management by means of a common executive committee.\" The public knew nothing about it for six years. Ron Chernow's judgement is that the 1882 agreement is what turned the old word trust into a synonym for industrial monopoly — and led fairly directly to the law passed against it eight years later.",
+   "image": "assets/img/trustbusting/rockefeller.jpg",
+   "imageAlt": "Seated three-quarter-length studio portrait of John D. Rockefeller",
+   "credit": "John D. Rockefeller. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In March 1892 the Ohio Supreme Court ordered Standard Oil of Ohio to renounce the trust agreement. What did the combination do?",
+   "options": [
+    "Sold its refineries and left the oil business",
+    "Reorganised as a holding company under New Jersey law",
+    "Moved its head office to London and re-incorporated there",
+    "Appealed to the Supreme Court and had the ruling reversed"
+   ],
+   "answer": 1,
+   "explanation": "New Jersey had changed its law in 1889 to let corporations resident in the state hold stock in other corporations — which made the elaborate trust device unnecessary. Standard's counsel had seen the ruling coming and treated it less as a threat than as an excuse for a long-overdue reorganisation. Asked by a reporter what the decision meant, he said the trust agreements had never really been necessary and the only effect would be to inconvenience the company a little. The name stuck to the thing long after the thing had changed shape.",
+   "image": "assets/img/trustbusting/alice-in-plunderland.jpg",
+   "imageAlt": "Newspaper cartoon page with figures drawn as bottles and jugs labelled with the names of businessmen",
+   "credit": "\"Alice in Plunderland, No. 15,\" by Frederick Opper, 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Congress passed the Sherman Antitrust Act in 1890. In its first years the courts applied it mostly against whom?",
+   "options": [
+    "The oil refiners",
+    "The meat packers",
+    "The railroads",
+    "Labour unions"
+   ],
+   "answer": 3,
+   "explanation": "A law written against combinations of capital turned out to be a convenient weapon against combinations of labour. Richard White counts thirteen decisions invoking antitrust law between 1890 and 1897, twelve of them involving unions; the federal injunction that broke the Pullman boycott in 1894 rested partly on the Sherman Act. Other historians of the period put it more bluntly still, saying the law was invoked not against corporations but against workers. Unions spent the next quarter century trying to get themselves written out of it, and thought they had managed it in 1914.",
+   "image": "assets/img/trustbusting/bosses-of-the-senate.jpg",
+   "imageAlt": "Cartoon of enormous money-bag figures looming over senators in a legislative chamber",
+   "credit": "\"The Bosses of the Senate,\" by Joseph Keppler, Puck, 1889. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "In 1895 the government sued the sugar combination, which refined about 98 per cent of America's sugar — and lost. On what ground?",
+   "options": [
+    "The Court found that prices had not risen",
+    "The Court held the Sherman Act unconstitutional",
+    "The Court held that manufacturing was not commerce",
+    "The government had sued in the wrong court"
+   ],
+   "answer": 2,
+   "explanation": "United States v. E. C. Knight Co. conceded that the combination held a monopoly of manufacturing and then held that a monopoly of manufacturing was not a monopoly of commerce as the Sherman Act and the Constitution used the word. Chief Justice Fuller wrote for eight justices; John Marshall Harlan dissented alone, quoting the Chief Justice he was named for to the effect that commerce is not only traffic but intercourse. After Knight the statute looked like a dead letter against anybody who made things, which is a large part of why so little was done with it for the next seven years.",
+   "image": "assets/img/trustbusting/harlan.jpg",
+   "imageAlt": "Bust portrait of an elderly clean-shaven man with a broad face, in a dark coat and bow tie",
+   "credit": "Justice John Marshall Harlan, about 1906. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "The Northern Securities Company was incorporated at Trenton, New Jersey in November 1901. What did it hold?",
+   "options": [
+    "A controlling block of the United States Steel Corporation",
+    "The anthracite coal lands of eastern Pennsylvania",
+    "The Union Pacific and the Southern Pacific systems",
+    "Great Northern, Northern Pacific and Burlington stock"
+   ],
+   "answer": 3,
+   "explanation": "It was a holding company of about four hundred million dollars, built to settle a fight rather than start one. James J. Hill, Edward Harriman and J. Pierpont Morgan had spent the spring of 1901 bidding against each other for the Northern Pacific and had touched off a stock panic doing it. Putting all three lines' shares into one company ended the contest by making the combatants co-owners. To the men who ran it that was order replacing chaos. To a farmer in Minnesota shipping wheat east it was every railroad he could reach, under one roof.",
+   "image": "assets/img/trustbusting/morgan.jpg",
+   "imageAlt": "Half-length studio portrait of John Pierpont Morgan in a dark suit with a watch chain",
+   "credit": "John Pierpont Morgan, about 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Attorney General Philander Knox announced the suit on 19 February 1902. Morgan came to the White House days later. What did he propose?",
+   "options": [
+    "That each side send a man to settle it privately",
+    "That the government buy the company outright",
+    "That the case be heard in a New Jersey court instead",
+    "That he resign from every railroad board he sat on"
+   ],
+   "answer": 0,
+   "explanation": "\"If we have done anything wrong,\" Morgan said, \"send your man to my man and they can fix it up.\" Knox answered him: \"We don't want to fix it up, we want to stop it.\" Morgan had learned of the suit from the newspapers, and the offer was not insolence so much as habit — private settlement between principals was how disputes of that size had been handled for thirty years. What made the moment matter was less the lawsuit than the answer: the government was declining to be treated as another interested party.",
+   "image": "assets/img/trustbusting/knox.jpg",
+   "imageAlt": "Seated studio portrait of a clean-shaven man in a dark suit holding a cane",
+   "credit": "Philander C. Knox, photographed by Moffett Studio, Chicago, 1908. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "The Supreme Court decided the Northern Securities case on 14 March 1904. How close was it?",
+   "options": [
+    "Unanimous for the government",
+    "Seven to two for the government",
+    "Five to four",
+    "Six to three against the government"
+   ],
+   "answer": 2,
+   "explanation": "Harlan announced the Court's opinion at noon to a chamber so full that people stood in the hallway, and it was an hour and twenty minutes before anyone listening knew how narrow the margin was. Justice Brewer added a concurrence of his own; Justice White wrote one dissent and Justice Holmes another. Holmes — Roosevelt's own appointee, seated barely a year — opened with the line everybody remembers: \"Great cases like hard cases make bad law.\" He meant that a case which excites the public gets decided by the excitement rather than by the principle. It cost the two men their easy friendship for a while.",
+   "image": "assets/img/trustbusting/supreme-court-1904.jpg",
+   "imageAlt": "Engraved sheet of nine oval portraits of Supreme Court justices with their signatures beneath",
+   "credit": "Justices of the United States Supreme Court, 1904, engraved and published by E. G. Williams & Bro. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "On the evening of 7 February 1903 Roosevelt called the press associations together to rescue his corporations bill. What did he tell them?",
+   "options": [
+    "That the Attorney General had resigned over the bill",
+    "That the Senate had passed it already without debate",
+    "That senators had been telegraphed by John D. Rockefeller",
+    "That he would summon Congress back for a special session at Christmas"
+   ],
+   "answer": 2,
+   "explanation": "He would not give the wording and would not show the telegrams, and no senator ever produced one. What he had was the story, and the story ran everywhere. Senators fell over each other to deny having received anything, and the bill went through: the Department of Commerce and Labor was created that February with a Bureau of Corporations inside it. Standard Oil's men were in fact lobbying Washington hard in those years — John D. Archbold's payments to friendly senators surfaced later — but that does not settle whether these particular telegrams existed.",
+   "image": "assets/img/trustbusting/tr-cabinet-message.jpg",
+   "imageAlt": "Theodore Roosevelt standing in a curtained room reading from a paper to a dozen seated and standing men",
+   "credit": "The President reading his message to the cabinet before sending it to Congress. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What could the new Bureau of Corporations actually do?",
+   "options": [
+    "Investigate corporations and publish what it found",
+    "Dissolve a corporation without going to court",
+    "Fix the prices any interstate corporation charged",
+    "License every company doing business across state lines"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt's preferred remedy was daylight rather than dissolution — a permanent body that could get inside the books and tell the public what was there. Its report on Standard Oil's operations in the Kansas field fed the case that ended in the Supreme Court. It also produced findings that cut against the reformers: asked why kerosene had got so much cheaper, the Bureau attributed most of the fall to cheaper crude rather than to Standard's famous efficiency. That is what an investigating agency is for, and the answer was not the one either side wanted whole.",
+   "image": "assets/img/trustbusting/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt seated at his desk in his private office at the White House",
+   "credit": "Theodore Roosevelt in his private office, the White House. One half of a stereograph by William H. Rau, copyright 1903 - cropped from the card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Defenders of the great combinations made an economic case for them at the time. What was it?",
+   "options": [
+    "That only a monopoly could be taxed effectively",
+    "That the states had already outlawed competition",
+    "That large firms paid higher wages than the law required",
+    "That consolidation ended price wars and cut costs"
+   ],
+   "answer": 3,
+   "explanation": "It was not merely self-serving, and the numbers were real. Standard Oil's average cost of processing a gallon of crude fell from 2.5 cents to 1.5 cents between 1880 and 1885, and in a rare newspaper interview in 1890 Rockefeller said the retail price of kerosene had fallen from 23.5 cents a gallon to 7.5 in twenty years. Critics answered that the drop tracked the price of crude, that low prices were also a weapon for undercutting rivals, and that a firm which could set the price low could set it high. Serious people argued this at the time and serious people argue it still.",
+   "image": "assets/img/trustbusting/nursery-rhymes.jpg",
+   "imageAlt": "Cartoon of a swaggering figure labelled Standard Oil Trust carrying a club marked railroad favours",
+   "credit": "\"Nursery Rhymes for Infant Industries: An Alphabet of Joyous Trusts, No. 15,\" by Frederick Opper, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt kept pressing a distinction the Sherman Act did not make. What was it?",
+   "options": [
+    "Between firms above and below a fixed size measured in dollars",
+    "Between combinations that behaved well and those that did not",
+    "Between manufacturers and railroads",
+    "Between American-owned and foreign-owned companies"
+   ],
+   "answer": 1,
+   "explanation": "In his annual message of 8 December 1908 he put it plainly: \"I believe that it is worse than folly to attempt to prohibit all combinations as is done by the Sherman anti-trust law.\" He wanted a law that permitted combinations in the public interest and gave the government continuous power to supervise them. The objection was practical as well as legal — the doctrine put the executive in the business of deciding which firms were respectable. He judged International Harvester a good trust and let United States Steel take over Tennessee Coal and Iron in the panic of 1907; Taft's government later sued both.",
+   "image": "assets/img/trustbusting/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt at his desk in the executive offices, papers in front of him",
+   "credit": "Theodore Roosevelt in his private office, the White House. One half of a stereograph by William H. Rau, copyright 1903 - cropped from the card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/speeches",
+    "label": "From the bully pulpit"
+   }
+  },
+  {
+   "prompt": "Roosevelt is the president remembered as the trust buster. How does his successor's record compare?",
+   "options": [
+    "Taft asked Congress to repeal the Sherman Act",
+    "Taft brought no antitrust suits at all",
+    "Taft brought about the same number over twice as long",
+    "Taft's government brought more suits in a single term"
+   ],
+   "answer": 3,
+   "explanation": "Historians disagree about the tally — one count gives Taft sixty-five suits to Roosevelt's forty-four, others say the Taft Justice Department filed nearly twice as many — but every count runs the same direction. The Standard Oil and American Tobacco decisions of 1911 were won by Taft's lawyers. The irony sharpened in 1911 when Taft's government sued United States Steel and the bill of complaint pointed at the Tennessee Coal and Iron deal Roosevelt had personally allowed. Roosevelt took it as an accusation, and it is part of what carried him into the 1912 race.",
+   "image": "assets/img/trustbusting/white.jpg",
+   "imageAlt": "Head-and-shoulders portrait of a heavy-set clean-shaven man in a dark double-breasted frock coat, seated in front of shelves of law books",
+   "credit": "Edward D. White, Associate Justice of the Supreme Court, photographed in civilian dress in his library, about 1905; he became Chief Justice in 1910 - cropped from the negative carrier. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Chief Justice Edward D. White read the Standard Oil opinion on 15 May 1911 and settled a question that had been open for twenty years. What did the rule of reason hold?",
+   "options": [
+    "That the Sherman Act reached only railroads",
+    "That the act forbade only unreasonable restraints of trade",
+    "That the federal courts could not hear antitrust cases at all",
+    "That a fixed share of a market made a firm unlawful"
+   ],
+   "answer": 1,
+   "explanation": "White had been arguing the doctrine for fifteen years and it was not obviously a victory for anybody. Harlan agreed the company had to go and attacked the reasoning, accusing his colleagues of putting \"words into the antitrust act which Congress did not put there.\" Robert La Follette, standing in the courtroom, told reporters: \"I fear that the court has done what the trusts wanted it to do, and what Congress has steadily refused to do.\" Roosevelt read the same opinion as making room for the distinction he had been urging all along. Taft, who had criticised the rule, came round to it.",
+   "image": "assets/img/trustbusting/white.jpg",
+   "imageAlt": "Edward Douglass White in a dark double-breasted frock coat, seated before shelves of law books",
+   "credit": "Edward D. White, Associate Justice of the Supreme Court, photographed in civilian dress about 1905; he read the Standard Oil opinion as Chief Justice in 1911 - cropped from the negative carrier. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "In May 1911, a fortnight after the Standard Oil ruling, the Court ordered the American Tobacco Company broken up. What was the stated ground?",
+   "options": [
+    "That tobacco was a public utility",
+    "That its stock was largely held abroad",
+    "That its founders had set out to destroy competitors",
+    "That it had refused to testify before a Senate committee"
+   ],
+   "answer": 2,
+   "explanation": "White applied the same test he had used a fortnight earlier: the offence was in the conduct and the intent, not in the size. The Court found the combination's purpose had been to monopolise the trade by driving competitors out of business, and that it had been carried out ruthlessly. Both decisions came under Taft, both dissolved a household name, and both left reformers arguing that a standard which depends on judges reading intentions is a standard that will be applied unevenly. The successor tobacco companies remained among the largest firms in the country.",
+   "image": "assets/img/trustbusting/alice-in-plunderland.jpg",
+   "imageAlt": "Cartoon page showing businessmen drawn as bottles and jugs beneath verses parodying Lewis Carroll",
+   "credit": "\"Alice in Plunderland, No. 15,\" by Frederick Opper, 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "What did the breaking up of Standard Oil do to Rockefeller's fortune?",
+   "options": [
+    "Wiped out most of it inside a year",
+    "Left it untouched, since he had already given the shares away",
+    "Placed it in a federal trust until 1920",
+    "Made him richer than he had ever been"
+   ],
+   "answer": 3,
+   "explanation": "The trust was split into Standard Oil of New Jersey and thirty-three separate companies. Rockefeller owned about a quarter of the old concern and so came out owning about a quarter of each of the new ones, whose shares had been held down for years by the litigation and were about to meet the motor car. Chernow puts his net worth near $300 million in 1911 and at a lifetime peak of about $900 million in 1913. Told the news on a golf course, Rockefeller advised the priest he was playing with to buy Standard Oil. To his old partners he wrote: \"Our splendid, happy family must scatter.\"",
+   "image": "assets/img/trustbusting/rockefeller.jpg",
+   "imageAlt": "Seated portrait of John D. Rockefeller in later life",
+   "credit": "John D. Rockefeller. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  }
+ ]
+}

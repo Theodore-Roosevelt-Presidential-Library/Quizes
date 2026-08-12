@@ -1,0 +1,309 @@
+{
+ "id": "what-he-read",
+ "title": "A Book a Day",
+ "subtitle": "What Roosevelt Actually Read",
+ "intro": "He got through a book a day and often more, in several languages, and he did it in railway lavatories, in cow camps, on the floor of a national convention, and beside the carcass of an animal he had just shot. Fourteen questions on the other Roosevelt library - the one he read rather than the one he wrote.",
+ "heroImage": "assets/img/reading/library-sagamore-dam.jpg",
+ "heroAlt": "The book-lined library at Sagamore Hill, with a portrait over the mantel and a zebra skin on the floor",
+ "heroCredit": "The library at Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/books-and-writings",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "A Book a Day",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on what T.R. read - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/books-and-writings"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Keeper of the Pigskin Library",
+   "line": "Perfect. Blood, sweat, gun oil, dust and ashes."
+  },
+  {
+   "min": 12,
+   "name": "Book-Lover in the Open",
+   "line": "You have read the appendix."
+  },
+  {
+   "min": 9,
+   "name": "Gun-Room Browser",
+   "line": "Very sound. The best shelves in the house."
+  },
+  {
+   "min": 6,
+   "name": "Rainy Afternoon Reader",
+   "line": "Rocking chair, wood fire, one book."
+  },
+  {
+   "min": 3,
+   "name": "Borrower of Dime Novels",
+   "line": "Surreptitiously, and not without guilt."
+  },
+  {
+   "min": 0,
+   "name": "Waiting in the Hall",
+   "line": "He kept a book by the front door for exactly this."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "For the 1909 African expedition Roosevelt had a travelling library of small books bound in pigskin. Why pigskin?",
+   "options": [
+    "He bound every book he owned in pigskin and wanted these to match",
+    "Ordinary bindings rotted in the field; pigskin only looked better for it",
+    "The Smithsonian required a uniform binding on everything shipped as expedition property",
+    "It was the cheapest binding a New York bookbinder could supply at short notice"
+   ],
+   "answer": 1,
+   "explanation": "He read while resting under a tree at noon, sometimes beside an animal he had just shot, and often with no water to wash in. In his own account the books ended up stained with blood, sweat, gun oil, dust and ashes: “ordinary bindings either vanished or became loathsome, whereas pigskin merely grew to look as a well-used saddle looks.” They were for use, not ornament.",
+   "image": "assets/img/reading/tr-reading-kijabe.jpg",
+   "imageAlt": "Roosevelt sitting in a camp chair at the mouth of his tent in Africa, reading, with an American flag on a pole beside him",
+   "credit": "Roosevelt reading in front of his tent in camp at Kijabe, June 1909. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "The pigskin library began as a going-away present. Whom did Roosevelt ask for it?",
+   "options": [
+    "His sister Corinne",
+    "His publisher, Charles Scribner's Sons",
+    "His son Kermit",
+    "The Smithsonian Institution"
+   ],
+   "answer": 0,
+   "explanation": "Corinne Roosevelt Robinson offered her brother a real present before he left. He asked for a pigskin library, and then had to explain what one was: he could not go anywhere, not even into the jungles of Africa, without a good many books, and ordinary bindings would not survive. He dictated the list the next day and added a few more titles in his own hand the evening after.",
+   "image": "assets/img/reading/tr-book-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated in a carved chair with a closed book resting on his knee",
+   "credit": "Theodore Roosevelt, seated, holding a book, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "How did that travelling library actually travel through East Africa?",
+   "options": [
+    "In a cedar chest that took two men to lift",
+    "Strapped in a roll behind Roosevelt's saddle",
+    "In an aluminium and oil-cloth case that made one porter's load",
+    "In a steel trunk carried on an ox wagon"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt gives the figures himself: a light aluminium and oil-cloth case which, with its contents, weighed a little under sixty pounds - one man's load in a safari of two hundred porters. A few volumes travelled loose in the bags so that he was never without one, and the full list went into an appendix of his book about the trip.",
+   "image": "assets/img/reading/tr-reading-kijabe.jpg",
+   "imageAlt": "Roosevelt reading at the mouth of his tent in camp in East Africa",
+   "credit": "Roosevelt reading in front of his tent in camp at Kijabe, June 1909. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt printed the original pigskin library list in full. Which of these was NOT on it, but was sent out to him in Africa later?",
+   "options": [
+    "The Bible",
+    "Macaulay's History",
+    "Mark Twain's Huckleberry Finn",
+    "Darwin's Origin of Species"
+   ],
+   "answer": 3,
+   "explanation": "Nobody quite agrees how many books there were, and the reason is worth knowing: Roosevelt printed a list of titles, not of volumes. The original list runs to fifty-nine entries, several of them multi-volume - he fitted the whole of Shakespeare into three pocket volumes - so Edmund Morris counts about six dozen books, and from the forty-six that survive in the Theodore Roosevelt Collection he projects seventy-three volumes in all. Roosevelt's own sixty is a weight rather than a count: the case and its contents came to a little under sixty pounds. The list ran from the Bible and the Apocrypha through Shakespeare, Spenser, Marlowe, Homer, the Chanson de Roland and the Nibelungenlied to Bret Harte, Mark Twain and Dickens, with Mahan's Sea Power for good measure. Darwin came later: he lists Origin of Species and Voyage of the Beagle among the books sent out to him afterwards, along with Alice in Wonderland and Huxley's essays.",
+   "image": "assets/img/reading/sagamore-library-1904.jpg",
+   "imageAlt": "Bookshelves, rocking chairs and a bearskin in the library at Sagamore Hill",
+   "credit": "President Roosevelt's library at Sagamore Hill, Oyster Bay, 1904 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "In print Roosevelt owned up to reading two Shakespeare plays over and over while never getting on with two others. Which pair did he keep going back to?",
+   "options": [
+    "Macbeth and Othello",
+    "Hamlet and King Lear",
+    "Romeo and Juliet and Twelfth Night",
+    "Julius Caesar and Coriolanus"
+   ],
+   "answer": 0,
+   "explanation": "He read and reread Macbeth and Othello, and admitted he did not read King Lear or Hamlet, adding that he knew perfectly well the fault was his and not the plays'. It was a habit of mind he applied to everything: he thought a reader should not pretend to like what he did not like, but should not turn his own limitation into a matter of pride either.",
+   "image": "assets/img/reading/sagamore-library-alt.jpg",
+   "imageAlt": "The Sagamore Hill library seen from the other side, with a bighorn head over the fireplace and books floor to ceiling",
+   "credit": "President Roosevelt's library, undated. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "Which novelist did Roosevelt say he finished only with the feeling that a duty had been performed?",
+   "options": [
+    "Charles Dickens",
+    "Walter Scott",
+    "Jane Austen",
+    "Mark Twain"
+   ],
+   "answer": 2,
+   "explanation": "He still reread several of Scott's novels for pleasure, “whereas if I finish anything by Miss Austen I have a feeling that duty performed is a rainbow to the soul.” He was careful to add that other book-lovers close to him, whose taste he thought better than his own, read her all the time - and were kind enough never to pity him too obviously for not doing so.",
+   "image": "assets/img/reading/tr-book-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated with a book resting on his knee",
+   "credit": "Theodore Roosevelt, seated, holding a book, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "Roosevelt admired Tolstoy as a novelist but issued a public warning about one of his books. What was the warning?",
+   "options": [
+    "That anyone who liked The Kreutzer Sonata should give up Tolstoy",
+    "That Anna Karenina should never be read by anyone under thirty",
+    "That War and Peace was far too long to be worth anyone finishing",
+    "That Tolstoy's Russian could not survive translation into English"
+   ],
+   "answer": 0,
+   "explanation": "He thought a reader who missed Anna Karenina, War and Peace, Sebastopol and The Cossacks missed a great deal. But he drew a hard line at The Kreutzer Sonata, and closed the passage by calling Tolstoy “an exceedingly unsafe moral adviser.” Roosevelt read enormously widely and judged constantly; the two went together.",
+   "image": "assets/img/reading/sagamore-library-1904.jpg",
+   "imageAlt": "The library at Sagamore Hill with shelves of books and a rocking chair",
+   "credit": "President Roosevelt's library at Sagamore Hill, Oyster Bay, 1904 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "One category of book was flatly banned in the Roosevelt nursery on East 20th Street. Which?",
+   "options": [
+    "Poetry of any kind",
+    "Dime novels",
+    "Books about the Civil War",
+    "Anything written by a woman"
+   ],
+   "answer": 1,
+   "explanation": "“I was not allowed to read dime novels,” he wrote - and then admitted he got hold of some anyway, though he did not think the enjoyment made up for the guilt. He was also forbidden the one book of Ouida's he wanted, Under Two Flags. He read that too, hunting greedily for something unhealthy, and reported that the parts that might have shocked an adult made no impression on him at all.",
+   "image": "assets/img/reading/tr-book-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated with a book on his knee",
+   "credit": "Theodore Roosevelt, seated, holding a book, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The making of a boy"
+   }
+  },
+  {
+   "prompt": "Guarding the three men who had stolen his boat on the Little Missouri in 1886, Roosevelt found something unexpected in the prisoners' own stock of reading. What?",
+   "options": [
+    "A Greek New Testament",
+    "A bound set of his own Hunting Trips of a Ranchman",
+    "A large number of drawing-room society novels",
+    "Nothing at all - they could not read"
+   ],
+   "answer": 2,
+   "explanation": "Dime novels and the inevitable History of the James Brothers he thought perfectly in place; a book which, with the Police Gazette, he said was in the hands of every professed or putative ruffian in the West. What surprised him was how greedily the prisoners devoured silly society novels by Ouida, The Duchess and Augusta J. Evans. Roosevelt, meanwhile, was working through Tolstoy.",
+   "image": "assets/img/reading/sagamore-library-alt.jpg",
+   "imageAlt": "The library at Sagamore Hill, books floor to ceiling",
+   "credit": "President Roosevelt's library, undated. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Which room at Sagamore Hill held more books than any other?",
+   "options": [
+    "The library on the ground floor",
+    "The North Room, added in 1905",
+    "The drawing room at the west end of the house",
+    "The gun room at the top of the house"
+   ],
+   "answer": 3,
+   "explanation": "Roosevelt says so himself, and adds that the gun room also had the loveliest view in the house. He liked its shelves precisely because the books on them had nothing much to do with one another - that was why they had been sent up there - which made them particularly good to browse among. The rest had overflowed into every other room.",
+   "image": "assets/img/reading/sagamore-library-1904.jpg",
+   "imageAlt": "Bookshelves and rocking chairs in the Sagamore Hill library",
+   "credit": "President Roosevelt's library at Sagamore Hill, Oyster Bay, 1904 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Roosevelt refused to draw up a list of the hundred best books. He said there was only one test a book had to pass. What was it?",
+   "options": [
+    "That it be interesting",
+    "That it be improving",
+    "That it be short enough to finish in an evening",
+    "That it be American"
+   ],
+   "answer": 0,
+   "explanation": "Granted a book was decent and healthy, “the one test to which I demand that they all submit is that of being interesting.” The books he had profited from most, he said, were the ones where the profit came as a by-product of the pleasure. He opened the same passage with a line worth keeping: “Books are almost as individual as friends.”",
+   "image": "assets/img/reading/library-sagamore-dam.jpg",
+   "imageAlt": "The Sagamore Hill library, with a wall of books beneath a portrait and hunting pictures",
+   "credit": "The library at Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "In 1910 Roosevelt missed the start of a dinner given for him on a train between Khartoum and Cairo. Where was he found?",
+   "options": [
+    "Asleep in the baggage car",
+    "On the observation platform arguing with a bishop",
+    "Braced in the corner of a white-enamelled lavatory, reading",
+    "In the guard's van skinning a bird"
+   ],
+   "answer": 2,
+   "explanation": "Lawrence Abbott searched the train and found him standing under the electric light with the door half open, wedged into the angle of two walls against the swaying, deep in Lecky's History of Rationalism in Europe. He had picked the spot for two reasons: the white enamel threw a bright light, and nobody would interrupt him there.",
+   "image": "assets/img/reading/tr-reading-kijabe.jpg",
+   "imageAlt": "Roosevelt reading in a camp chair outside his tent",
+   "credit": "Roosevelt reading in front of his tent in camp at Kijabe, June 1909. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt take with him to the Republican convention of 1912, the most bruising political fight of his life?",
+   "options": [
+    "A shorthand writer and nothing else",
+    "Ferrero and Herodotus",
+    "The complete files of the Bureau of Corporations",
+    "His own Autobiography, to correct the proofs"
+   ],
+   "answer": 1,
+   "explanation": "“I am taking Ferrero and Herodotus with me to amuse myself,” he called out while packing, and get his mind off the business in Chicago. It was habit rather than pose: he had read Thucydides and Josephus through the 1900 convention, and he wrote that in a hard campaign or an investigation the greatest relief was to pick up Tacitus or Herodotus and lose all memory of everything grimy.",
+   "image": "assets/img/reading/tr-book-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt seated with a book resting on his knee",
+   "credit": "Theodore Roosevelt, seated, holding a book, 1902. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt's lifelong appetite for Norse and Icelandic literature started with a poem he read as a small boy. Which?",
+   "options": [
+    "Coleridge's The Rime of the Ancient Mariner",
+    "Tennyson's Morte d'Arthur",
+    "Longfellow's The Saga of King Olaf",
+    "Scott's The Lady of the Lake"
+   ],
+   "answer": 2,
+   "explanation": "It absorbed him, he wrote, and introduced him to Scandinavian literature; he never lost the interest. He later told the Arctic traveller Vilhjalmur Stefansson that he placed old Norse literature next after the classical, and enjoyed it more. One guest at the White House who thought she had finally found a subject he did not know asked whether he cared for Icelandic literature; she got a bounce out of the chair and a list of books she had never heard of.",
+   "image": "assets/img/reading/sagamore-library-alt.jpg",
+   "imageAlt": "The library at Sagamore Hill",
+   "credit": "President Roosevelt's library, undated. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  }
+ ]
+}

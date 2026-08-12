@@ -1,0 +1,309 @@
+{
+ "id": "guns-and-gear",
+ "title": "The Objects He Carried",
+ "subtitle": "Roosevelt's Guns and Gear as Material History",
+ "intro": "A silver knife from Tiffany's, a buckskin suit sewn in a Dakota shack, an English double rifle subscribed for by fifty strangers, a steel spectacle case that took a bullet, and a boy's French shotgun still on show at Oyster Bay. Fourteen questions about the things themselves - who made them, who gave them, and what survives.",
+ "heroImage": "assets/img/gear/tr-1885-buckskin.jpg",
+ "heroAlt": "Theodore Roosevelt seated in a fringed buckskin suit and fur cap, a knife at his belt and an engraved rifle across his knees",
+ "heroCredit": "Theodore Roosevelt in 1885, in the buckskin suit made for him in Dakota. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Objects He Carried",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's quiz on T.R.'s guns and gear - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Keeper of the Gun Room",
+   "line": "Perfect. Every maker, every mark, every provenance."
+  },
+  {
+   "min": 12,
+   "name": "Registrar",
+   "line": "You read the accession file before the label."
+  },
+  {
+   "min": 9,
+   "name": "Curator's Assistant",
+   "line": "Strong work. You know a Fox from a Holland."
+  },
+  {
+   "min": 6,
+   "name": "Outfitter",
+   "line": "Good. Now pack the spare spectacles."
+  },
+  {
+   "min": 3,
+   "name": "Tenderfoot",
+   "line": "The Tiffany knife was a giveaway, and everyone laughed."
+  },
+  {
+   "min": 0,
+   "name": "Dude off the Train",
+   "line": "Alligator boots. In Dakota."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt arrived in Dakota with a piece of custom silver from Tiffany & Co. that the locals thought hilarious. What was it?",
+   "options": [
+    "A bowie-type hunting knife",
+    "A pair of engraved spurs",
+    "A rifle with silver furniture",
+    "A hip flask"
+   ],
+   "answer": 0,
+   "explanation": "Tiffany made him a bowie-type knife about 1884, hilt and scabbard cast in sterling silver, the blade relief-engraved with game scenes and floral scrolls and the scabbard stamped with the firm's name. It hangs at his belt in the 1885 buckskin portrait and stayed in the family. His silver-mounted spurs were fine too, but they came from H. Messing & Son of San Jose, not from Tiffany's.",
+   "image": "assets/img/gear/tr-1885-buckskin.jpg",
+   "imageAlt": "Roosevelt in fringed buckskin with a silver-hilted knife at his belt and a rifle across his knees",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "The fringed buckskin suit in Roosevelt's most famous Dakota portrait was made where, and by whom?",
+   "options": [
+    "By Brooks Brothers in New York, worked from a photograph",
+    "In Dakota, sewn by a settler's niece",
+    "By the Marquis de Morès's own tailor in Medora",
+    "Bought ready-made from an outfitter in St Paul"
+   ],
+   "answer": 1,
+   "explanation": "He ordered it from Mrs Maddox, who lived some twenty miles east and was celebrated equally for her buckskin work, her marksmanship and her vocabulary; her niece did the sewing under her supervision. Hagedorn calls her “a woman of terrible vigor” and says she inspired in Roosevelt an awe none of the local bad men managed. He paid about a hundred dollars, and the suit was still in service thirty years later.",
+   "image": "assets/img/gear/tr-1885-buckskin.jpg",
+   "imageAlt": "Roosevelt seated in a fringed buckskin coat, leggings and moccasin boots",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt's very first gun, given to him at about thirteen and now shown at Sagamore Hill, was what?",
+   "options": [
+    "A brass-framed Winchester lever-action rifle",
+    "A single-shot air rifle from Germany",
+    "A French pinfire double-barrelled shotgun",
+    "A Colt pocket revolver of his father's"
+   ],
+   "answer": 2,
+   "explanation": "He described it as a breech-loading, pin-fire double-barrel of French manufacture and called it “an excellent gun for a clumsy and often absent-minded boy.” It survives as a Lefaucheux 12-bore. The firearms historian R. L. Wilson, cataloguing it in the Sagamore Hill collection, records LEFAUCHEUX BREVETTE stamped on the water table and the maker's Paris address - Lefaucheux Inventeur, 57 rue Vivienne - hand-engraved along the barrel rib. It was while shooting with it that he realised his companions could see things he could not, which led to his first spectacles.",
+   "image": "assets/img/gear/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill, the Roosevelt house at Oyster Bay, seen from the lawn",
+   "credit": "Sagamore Hill, about 1905 - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "Roosevelt's showiest Dakota revolver was engraved in New York by L. D. Nimschke and carried a carving on the ivory grip. What was carved there?",
+   "options": [
+    "An American eagle",
+    "A buffalo head",
+    "A grizzly bear",
+    "Nothing but his initials"
+   ],
+   "answer": 1,
+   "explanation": "Colt's ledgers, worked through by the firearms historian R. L. Wilson, show the revolver shipped in the white and without grips to the New York dealers Hartley and Graham - the usual way of supplying a piece meant for special decoration. Nimschke put the Roosevelt monogram on the right grip and the recoil shield, and on the left grip a buffalo head, standing for his first Western big-game trophy. The metalwork was plated in silver and gold.",
+   "image": "assets/img/gear/tr-1885-buckskin.jpg",
+   "imageAlt": "Roosevelt in buckskin with a cartridge belt and knife",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt listed three rifles for the 1909-10 African expedition. Which of them was a gift from English admirers?",
+   "options": [
+    "The army Springfield he had stocked himself",
+    "The Winchester .405 he used on lions",
+    "The .500/450 Holland & Holland double",
+    "The Sharps buffalo rifle from his Dakota years"
+   ],
+   "answer": 2,
+   "explanation": "More than fifty British subscribers, led by the conservationist Edward North Buxton, had the royal-grade double rifle made and presented to him at the White House with a note recognising his “services on behalf of the preservation of species by means of national parks and forest reserves.” Roosevelt described it simply as “a beautiful weapon presented to me by some English friends.” The expedition was a collecting trip for the Smithsonian, and the animals taken went to museums.",
+   "image": "assets/img/gear/gun-bearers.jpg",
+   "imageAlt": "Four gun-bearers standing in a row in an African camp with rifles and cartridge bandoliers, tents behind",
+   "credit": "Roosevelt's and Kermit's four gun-bearers, British East Africa, 1910; the Library of Congress record notes that the figure at the back is Kermit Roosevelt and that Theodore Roosevelt is not in the picture - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "One American gunmaker sent Roosevelt a 12-gauge for Africa as a gift, and he wrote of it that no better gun was ever made. Which maker?",
+   "options": [
+    "Winchester",
+    "Remington",
+    "Parker Brothers",
+    "A. H. Fox"
+   ],
+   "answer": 3,
+   "explanation": "The A. H. Fox Gun Company sent it unasked. Roosevelt thought it the most beautiful gun he had ever seen, was particularly proud that it was American-made, and said he was almost ashamed to take it somewhere it would get such rough handling. In his own kit list the line is unqualified: “no better gun was ever made.”",
+   "image": "assets/img/gear/gun-bearers.jpg",
+   "imageAlt": "Gun-bearers with rifles standing outside tents in an East African camp",
+   "credit": "Roosevelt's and Kermit's four gun-bearers, British East Africa, 1910; the Library of Congress record notes that the figure at the back is Kermit Roosevelt and that Theodore Roosevelt is not in the picture - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Which rifle did Roosevelt call his medicine gun for lions?",
+   "options": [
+    "The Winchester Model 1895 in .405",
+    "The Holland & Holland double, the gift of English friends",
+    "The army Springfield, restocked to his own pattern",
+    "The Fox 12-gauge shotgun"
+   ],
+   "answer": 0,
+   "explanation": "Offered the heavy double one evening as the light went, he shook his head: for him personally the .405 Winchester was the medicine gun for lions. Kermit carried one too. The 1909-10 expedition was mounted and paid for as a scientific collecting trip for the Smithsonian, and the specimens went to national museums; the scale of the killing is part of the record, and part of why his conservation legacy is argued over.",
+   "image": "assets/img/gear/gun-bearers.jpg",
+   "imageAlt": "Roosevelt's and Kermit's four gun-bearers standing in a row in an East African camp with rifles and cartridge bandoliers, tents behind them",
+   "credit": "Roosevelt's and Kermit's four gun-bearers, British East Africa, 1910; the Library of Congress record notes that the figure at the back is Kermit Roosevelt and that Theodore Roosevelt is not in the picture - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Among the gear Roosevelt inventoried for Africa was a good-luck charm sent to him by a former world ring champion. What was it?",
+   "options": [
+    "A horseshoe",
+    "A silver dollar",
+    "A gold-mounted rabbit's foot",
+    "A boxing glove"
+   ],
+   "answer": 2,
+   "explanation": "John L. Sullivan sent it just before he sailed. The same list has a Whitman tree army saddle, army field-glasses, a telescope given him on the boat by an Irish hussar captain, a weighing beam for game designed by Ernest Thompson Seton, a slicker, an army overcoat and a waterproof match-box - the ordinary contents of a working naturalist's pockets, plus one prizefighter's talisman.",
+   "image": "assets/img/gear/tr-saddle-ride-1903.jpg",
+   "imageAlt": "Roosevelt riding at the head of a party of horsemen on a dirt road",
+   "credit": "President Roosevelt on a sixty-mile ride, 1903 - left frame cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt wore a sun helmet in East Africa only because he had been advised to. What did he say he would rather have worn?",
+   "options": [
+    "A bowler",
+    "A slouch hat",
+    "A straw boater",
+    "A fur cap"
+   ],
+   "answer": 1,
+   "explanation": "He wore the helmet in deference to local advice, but recorded the preference plainly - his beloved and far more convenient slouch hat. The rest of the field rig was equally practical: hobnailed or rubber-soled shoes, khaki trousers faced with leather at the knee and buttoning tight below the knee so that he needed no leggings, and a khaki army shirt.",
+   "image": "assets/img/gear/tr-caravan-1909.jpg",
+   "imageAlt": "Theodore Roosevelt standing in a sun helmet, spectacles, khaki jacket and khaki trousers buttoned tight below the knee over hobnailed boots, with members of his caravan lined up behind him on open ground",
+   "credit": "T. R. and some members of his caravan, British East Africa, 11 June 1909 - cropped from the grey album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Going to war in 1898, Roosevelt had Brooks Brothers make his uniform and then had one alteration made to the hat. What was it?",
+   "options": [
+    "It was fitted to take spare spectacles in the brim",
+    "It was lined against mosquitoes with fine netting",
+    "It was made a size too large to fit over a bandage",
+    "It had his name stitched inside the crown"
+   ],
+   "answer": 0,
+   "explanation": "He was helpless without his glasses and knew it, so he ordered about a dozen spare pairs and had them distributed through his kit - some sewn into the linings of his tunic, some into the hat. It was not vanity but arithmetic: when the transport sailed away from Cuba without unloading his baggage he was left with a mackintosh, a toothbrush and the spectacles he had hidden about his person.",
+   "image": "assets/img/gear/tr-rough-rider-uniform.jpg",
+   "imageAlt": "Roosevelt in volunteer cavalry uniform and a broad-brimmed campaign hat, wearing spectacles on a cord, the collar lettered U.S.V. with crossed sabres",
+   "credit": "Theodore Roosevelt in the uniform of the 1st United States Volunteer Cavalry. Studio portrait copyright 1900 by Rockwood, New York - two years after Cuba, cropped from the press-file mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power/rough-riders",
+    "label": "The Rough Riders"
+   }
+  },
+  {
+   "prompt": "Packing her husband for the year-long African expedition, Edith Roosevelt included how many spare pairs of spectacles?",
+   "options": [
+    "One",
+    "Three",
+    "Nine",
+    "Thirty"
+   ],
+   "answer": 2,
+   "explanation": "Nine, along with the medicines and the pigskin-bound library. Kermit put the working principle better than anyone: his father was so astigmatic that without glasses he could not use a rifle and could barely find his way in the woods, so he never went off without eight or ten pairs distributed through his kit to make sure no single accident could cripple him.",
+   "image": "assets/img/gear/tr-caravan-1909.jpg",
+   "imageAlt": "Theodore Roosevelt in East Africa wearing his spectacles under a sun helmet, in a khaki jacket and boots, members of his caravan standing in a line behind him",
+   "credit": "T. R. and some members of his caravan, British East Africa, 11 June 1909 - cropped from the grey album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/strenuous-life",
+    "label": "The body he made"
+   }
+  },
+  {
+   "prompt": "Two objects in Roosevelt's breast pocket slowed the bullet fired at him in Milwaukee in October 1912. What were they?",
+   "options": [
+    "A pocket Bible and his father's gold hunter watch",
+    "A cigar case and a leather wallet",
+    "A spectacle case and his folded speech",
+    "A silver flask and a pocket notebook"
+   ],
+   "answer": 2,
+   "explanation": "The speech ran to fifty pages and had been folded double to fit the pocket; the steel case sat on top of it. Between them they took enough out of the bullet that it fractured a rib and stopped there, and it stayed in him for the rest of his life. His own physician, Alexander Lambert, reckoned that had it reached the arch of the aorta or the auricles of the heart, Roosevelt would not have lived sixty seconds. He went on and spoke. The perforated manuscript and the punctured case survive as objects, and they are better evidence than any retelling.",
+   "image": "assets/img/health/xray-1912.jpg",
+   "imageAlt": "An X-ray plate of a man's chest annotated in white ink, an arrow labelled Bullet pointing to a dark spot beside the ribs",
+   "credit": "X-ray of Roosevelt showing the bullet, 1912. Lettered on the plate: taken by G. W. Hochreim M.D. Bain News Service; white tape patches cropped from the right edge. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Roosevelt hung a Rough Rider sword, hat and revolver on elk antlers in the North Room at Sagamore Hill. What made the revolver worth hanging?",
+   "options": [
+    "It was raised from the wreck of the USS Maine",
+    "It had belonged to his grandfather",
+    "It was taken from a Spanish officer at San Juan",
+    "It was a presentation piece from the Colt factory"
+   ],
+   "answer": 0,
+   "explanation": "The revolver was raised from the sunken battleship and given to him before he sailed for Cuba by his brother-in-law, Navy captain W. S. Cowles; Evan Thomas describes it as a Colt .45 service revolver. That is why it went up on the wall rather than into a drawer. Its afterlife has been eventful: it later went on show in the Old Orchard museum on the Sagamore Hill grounds - not in the house itself - and was stolen from there twice and recovered both times, the second recovery in 2006, after sixteen years missing.",
+   "image": "assets/img/gear/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill seen from the lawn, a large shingled house with a wide porch",
+   "credit": "Sagamore Hill, about 1905 - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The room at the top of Sagamore Hill where Roosevelt kept his firearms owes its name to one of his children. What is it called?",
+   "options": [
+    "The Trophy Room",
+    "The Armoury",
+    "The Gun Room",
+    "The Lookout"
+   ],
+   "answer": 2,
+   "explanation": "Ted named it, and the name stuck. The architects had drawn it as a billiard room; his father used it as a study, dictating The Rough Riders there to stenographers while the children wandered in and out without fear of being told off. It had the best view in the house, a crawlspace under the rafters that the children treated as treasure, and shelves of books along with the guns.",
+   "image": "assets/img/gear/sagamore-exterior.jpg",
+   "imageAlt": "The house at Sagamore Hill behind its lawn and trees",
+   "credit": "Sagamore Hill, about 1905 - cropped from the album mount. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  }
+ ]
+}

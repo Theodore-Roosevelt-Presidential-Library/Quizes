@@ -1,0 +1,45 @@
+{
+ "state-dining-table-1902": {
+  "source": "loc",
+  "ref": "2016653033",
+  "source_file": "loc_pictures_2016653033",
+  "description": "State dining room table decorated for President Roosevelt's dinner to his Cabinet, Jan 2, 1902, White House, Washington, U.S.A.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1334x1375",
+  "credit_line": "The State Dining Room table decorated for President Roosevelt's dinner to his Cabinet, 2 January 1902 - left frame cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+  "note": "Re-cropped to remove the rounded arch of the stereograph card frame, visible at the top left."
+ },
+ "cowboy-breakfast": {
+  "source": "loc",
+  "ref": "2010647452",
+  "source_file": "loc_pictures_2010647452",
+  "description": "\"Pot luck\" with the \"boys\" - President Roosevelt's cowboy breakfast at Hugo, Colorado",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1324x1440",
+  "credit_line": "President Roosevelt's cowboy breakfast at Hugo, Colorado, 1903 - left frame cropped from a stereograph card. Library of Congress, Prints and Photographs Division.",
+  "note": "Re-cropped to remove the rounded arch of the stereograph card frame, visible at the top left."
+ },
+ "tennis-cabinet": {
+  "source": "dam",
+  "ref": "24907799-d549-4f55-89cb-774dfa7bd83e",
+  "source_file": "loc_2013650863_President_Roosevelt_and_his_Tennis_Cabin.tif",
+  "description": "President Roosevelt and his Tennis Cabinet — 1 photographic print. | Photograph shows President Theodore Roosevelt with his \"Tennis Cabinet\" on the White House lawn on March 1, 1909, when a farewell luncheon was held for the group.  Shown from l — Creator: Clinedinst, Barnett Mcfee — Date: 1909",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1267x831",
+  "credit_line": "President Roosevelt and his Tennis Cabinet at a farewell luncheon on the White House lawn, 1 March 1909. Library of Congress, Prints and Photographs Division.",
+  "note": "Replaced with the cropped copy from assets/img/photography/; the earlier scan here showed a picture editor's grease-pencil marks at the top right and a tape patch on the left edge."
+ },
+ "sagamore-exterior": {
+  "source": "loc",
+  "ref": "2013651058",
+  "source_file": "loc_pictures_2013651058",
+  "description": "[Exterior view of Sagamore Hill house, Theodore Roosevelt's summer home]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1304x1024",
+  "credit_line": "Sagamore Hill, about 1905 - cropped from the album mount. Library of Congress, Prints and Photographs Division."
+ }
+}

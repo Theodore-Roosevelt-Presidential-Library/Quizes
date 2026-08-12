@@ -1,0 +1,113 @@
+{
+ "harlan": {
+  "source": "loc",
+  "ref": "2017656303",
+  "source_file": "loc_pictures_2017656303",
+  "description": "[Justice John Marshall Harlan, bust portrait, old age]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1253x1536"
+ },
+ "knox": {
+  "source": "loc",
+  "ref": "2018653218",
+  "source_file": "loc_pictures_2018653218",
+  "description": "[Philander Knox, half portrait; maturity]",
+  "rights": "Rights status not evaluated. For general information see \"Copyright and Other Restrictions ...,\" http://www.loc.gov/rr/print/195_copr.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1165x1536"
+ },
+ "holmes": {
+  "source": "loc",
+  "ref": "2006685361",
+  "source_file": "loc_pictures_2006685361",
+  "description": "[Oliver Wendell Holmes, three-quarter length portrait, seated in library, facing left, wearing judicial robe]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1742"
+ },
+ "white": {
+  "source": "loc",
+  "ref": "93502577",
+  "source_file": "loc_pictures_93502577",
+  "description": "[Edward D. White, Associate Justice Supreme Court, head-and-shoulders portrait, facing slightly left]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1090x1442",
+  "credit_line": "Edward D. White, Associate Justice of the Supreme Court, photographed in civilian dress about 1905. Library of Congress, Prints and Photographs Division.",
+  "note": "He is in a civilian double-breasted frock coat, NOT judicial robes - two quiz alt texts said robes and were wrong. Cropped to remove the heavy black negative-carrier border on the left, top and bottom edges."
+ },
+ "supreme-court-1904": {
+  "source": "loc",
+  "ref": "2018696887",
+  "source_file": "loc_pictures_2018696887",
+  "description": "Justices of the United States Supreme Court, 1904",
+  "rights": "No known restrictions on publication. For information see: \"Popular Graphic Arts,\" https://hdl.loc.gov/loc.pnp/res.248.pga",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1688"
+ },
+ "alice-in-plunderland": {
+  "source": "loc",
+  "ref": "2005685050",
+  "source_file": "loc_pictures_2005685050",
+  "description": "[Anti-trust cartoons]: Alice in Plunderland, No. 15",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1072x1536"
+ },
+ "nursery-rhymes": {
+  "source": "loc",
+  "ref": "2005685052",
+  "source_file": "loc_pictures_2005685052",
+  "description": "[Anti-trust cartoons]: Nursery Rhymes for Infant Industries, No. 15: 'O' is the Oil Trust, a modern Bill Sikes; he defies the police, and does just as he likes",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1054x1536"
+ },
+ "rockefeller": {
+  "source": "loc",
+  "ref": "99471533",
+  "source_file": "loc_pictures_99471533",
+  "description": "[John D. Rockefeller, three-quarter length portrait, seated, facing front]",
+  "rights": "",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1706"
+ },
+ "morgan": {
+  "source": "loc",
+  "ref": "92517707",
+  "source_file": "loc_pictures_92517707",
+  "description": "[John Pierpont Morgan, half-length portrait, facing front]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1022x1536"
+ },
+ "bosses-of-the-senate": {
+  "source": "loc",
+  "ref": "2002718861",
+  "source_file": "loc_pictures_2002718861",
+  "description": "The Bosses of the Senate",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1104"
+ },
+ "tr-private-office": {
+  "dam_id": "fa66cf30-0c8d-4afd-b258-2d4a8ba87735",
+  "source_file": "loc_2010646568_Theodore_Roosevelt_26th_President_of_the.tif",
+  "description": "Theodore Roosevelt, 26th President of the United States in his private office, White House, Washington, D.C. — 1 photographic print on stereo card : stereograph. | Stereograph showing Roosevelt sitting at his desk in his private office. — Creator: Rau, William Herman — Date: 1904",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "490x530",
+  "credit_line": "Theodore Roosevelt in his private office, the White House. One half of a stereograph by William H. Rau, copyright 1903 - cropped from the card. Library of Congress, Prints and Photographs Division.",
+  "note": "Left frame of LOC stereograph 2010646568. Re-cropped in this pass to remove the arched top corner of the stereo frame and the salmon mount strip down the left edge."
+ },
+ "tr-cabinet-message": {
+  "source": "dam",
+  "ref": "8f8acc9e-1221-47de-b66c-98585e39c475",
+  "source_file": "loc_89706548_The_President_reading_his_message_to_the.tif",
+  "description": "The President reading his message to the cabinet before sending it to Congress — 1 photographic print. | Group with, left to right: George B. Cortelyou, Philander C. Knox, Henry C. Payne, William Henry Moody, John Hay, president Theodore Roosevelt, Ethan Allen Hitchcock, Elihu Roo — Date: 1903",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1110",
+  "note": "cropped to the photograph; archival mount and any studio copyright line removed"
+ }
+}

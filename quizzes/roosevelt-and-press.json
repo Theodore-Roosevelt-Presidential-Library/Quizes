@@ -1,0 +1,309 @@
+{
+ "id": "roosevelt-and-press",
+ "title": "Roosevelt and the Press",
+ "subtitle": "The bargain, the barber's chair, and six cents",
+ "intro": "He gave reporters a room, a routine and a great deal of news, and he cut them off without warning when they broke the terms. Then, out of office and called a drunkard by a country weekly, he took the stand in a Michigan courthouse and asked for the smallest sum the law allowed. Fourteen questions on the first president who worked the press as a daily craft — and on what it cost both sides.",
+ "heroImage": "assets/img/press/tr-reporters-two.jpg",
+ "heroAlt": "Theodore Roosevelt in a hat and spectacles talking to two men, one of them writing on a folded sheet of paper",
+ "heroCredit": "Theodore Roosevelt speaking with two men, described by the Library of Congress as probably reporters, 1910. American Press Association, whose copyright notice is printed in the emulsion at the lower right; no renewal was filed. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "Roosevelt and the Press",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's Roosevelt and the Press quiz — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Boss Reporter",
+   "line": "Perfect. Mulberry Street would have you."
+  },
+  {
+   "min": 12,
+   "name": "Bureau Chief",
+   "line": "You never once missed the one o'clock."
+  },
+  {
+   "min": 9,
+   "name": "Fair-Haired Boy",
+   "line": "You had the story before the wires did."
+  },
+  {
+   "min": 6,
+   "name": "On the Beat",
+   "line": "You filed and you got most of it right."
+  },
+  {
+   "min": 3,
+   "name": "Copy Desk",
+   "line": "You caught the headline, if not the detail."
+  },
+  {
+   "min": 0,
+   "name": "The Ananias Club",
+   "line": "Cut off at the gate. Try again."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt did something for Washington reporters that no earlier president had done. What?",
+   "options": [
+    "He gave them a room of their own inside the White House",
+    "He let them sit in on meetings of the cabinet",
+    "He answered their written questions in the Congressional Record",
+    "He paid their travelling expenses from the federal budget"
+   ],
+   "answer": 0,
+   "explanation": "Before 1902 the reporters who covered the president had nowhere of their own to work. When the mansion was rebuilt that year the executive offices moved into a new wing, and the press was given a room in it, with telephones. William McKinley had already begun organising a press corps attached to the president; Roosevelt is the one who housed it, and housing it changed what the job was. Kathleen Dalton's word for the arrangement is a permanent pressroom — permanence being exactly the point.",
+   "image": "assets/img/press/press-corps.jpg",
+   "imageAlt": "About twenty men in suits and straw boaters lined up outside a plain two-storey building, a horse-drawn omnibus at the right and a fire hose lying across the dirt in front",
+   "credit": "Newspaper correspondents at the Portsmouth peace conference, 1905. Written on the back of the print: at the extreme left front is Edmund Noble of the Boston Herald. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Reporters were let in to the President most weekday afternoons at one o'clock. What was he doing while they were there?",
+   "options": [
+    "Reading the morning papers aloud",
+    "Riding out in Rock Creek Park",
+    "Being shaved",
+    "Eating lunch by himself at his desk"
+   ],
+   "answer": 2,
+   "explanation": "The barber's hour was not a press conference; it was an audience. Louis Brownlow, who watched it, described the President waving both arms, jumping out of the chair, speaking excitedly and dropping back down to grin at the barber. Lincoln Steffens noticed that the only moment of quiet came \"when the barber bent over the presidential head and began to shave the lower lip\" — which gave the reporters their few seconds to get a question in. Whether a more skilful barber ever existed was a live question in the Washington press corps.",
+   "image": "assets/img/press/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt seated at his desk in his private office at the White House",
+   "credit": "Theodore Roosevelt in his private office, the White House, Washington. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt liked to hand out important news late on a Saturday or on a Sunday. Why?",
+   "options": [
+    "Congress could not answer back while it stood adjourned for the week",
+    "Telegraph rates were cheapest at the weekend",
+    "Foreign correspondents cabled only on Mondays",
+    "Monday papers were short of news and a story then would lead"
+   ],
+   "answer": 3,
+   "explanation": "Edmund Morris puts the calculation exactly: experience had taught Roosevelt that a Saturday release was sure of front-page treatment on Sunday or Monday morning, because papers on those days were traditionally short of news, and that Monday morning was usually newsless. It is the oldest trick in political communications and he seems to have worked it out for himself. The corollary is that he could also bury something by letting it go on a busy Tuesday, and he did.",
+   "image": "assets/img/press/executive-office-1903.jpg",
+   "imageAlt": "A large desk with two lamps and stacked books in a panelled office, an empty cane-backed chair beside it",
+   "credit": "The President's office in the executive office annex to the White House, 1903 - the wing that also housed the new press room. One half of a stereograph by William H. Rau. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What was the Ananias Club?",
+   "options": [
+    "A dining club of Washington bureau chiefs",
+    "The reporters he cut off for breaking a confidence",
+    "The Sunday-supplement writers he liked best",
+    "Cabinet officers who briefed the press on his behalf"
+   ],
+   "answer": 1,
+   "explanation": "Ananias, in the Acts of the Apostles, is struck dead for lying. Roosevelt laid the rule down to reporters on his first working day as president, and the penalty was practical rather than rhetorical: once consigned to the club a reporter could no longer get White House news in person. Newspaper humorists took up the name and ran with it for years. The reporters' own complaint, several of them recorded later, was less about the banishment than about his flat denials of things they knew perfectly well he had said.",
+   "image": "assets/img/press/tr-reporters-three.jpg",
+   "imageAlt": "Theodore Roosevelt gesturing to three men outdoors, one of them writing in a notebook",
+   "credit": "Theodore Roosevelt speaking with three men, described by the Library of Congress as probably reporters, 1910. American Press Association. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The presidency"
+   }
+  },
+  {
+   "prompt": "What was the standing bargain on the information he gave reporters privately?",
+   "options": [
+    "They had to show their copy to his secretary before filing",
+    "They could print it only after Congress adjourned",
+    "They could use it, but never say where it came from",
+    "They had to pay a fee to the executive offices"
+   ],
+   "answer": 2,
+   "explanation": "He would give them the substance and then set the terms: if they so much as hinted at the source, he told them, \"I'll say you are a damned liar.\" The arrangement is the ancestor of the modern background briefing, and it worked because both sides needed it. It is also the same bargain that produced the banishments, since a rule with a penalty attached is what a confidence is. Dalton's summary of his press manner — confiding, candid, warm, friendly, and, if crossed, vengeful — covers both halves.",
+   "image": "assets/img/press/buffalo-interview.jpg",
+   "imageAlt": "A knot of men in hats and suits with notebooks pressing round a figure in the middle of the group",
+   "credit": "Vice-President Roosevelt being interviewed at Buffalo during President McKinley's fatal illness, September 1901. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/quotes",
+    "label": "What he actually said, with sources"
+   }
+  },
+  {
+   "prompt": "As police commissioner in New York in 1895, Roosevelt took two police reporters as his guides to the city. Who were they?",
+   "options": [
+    "Ida Tarbell and Ray Stannard Baker",
+    "Jacob Riis and Lincoln Steffens",
+    "Joseph Pulitzer and William Randolph Hearst",
+    "Samuel McClure and David Graham Phillips"
+   ],
+   "answer": 1,
+   "explanation": "Riis had been covering Mulberry Street for the Tribune for nearly twenty years and knew every alley in the ward; Steffens was newer and hungrier. Roosevelt pulled them both into his office on his first day and kept them there. They walked him through parts of New York he had never seen, and Steffens later claimed the two of them had effectively sat as members of the police board — a claim he afterwards admitted he might have overstated, while insisting it caught the truth of the thing. It is an arrangement no modern newsroom would permit.",
+   "image": "assets/img/press/riis.jpg",
+   "imageAlt": "Seated studio portrait of a man with wire spectacles and a heavy moustache, chin resting on his fist",
+   "credit": "Jacob Riis, about 1904. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
+   }
+  },
+  {
+   "prompt": "In 1904 Jacob Riis published a book with Roosevelt as its subject. What sort of book was it?",
+   "options": [
+    "A photographic survey of the tenements",
+    "A critical account of the police years",
+    "A collection of Roosevelt's speeches and public papers",
+    "An admiring biography, brought out in an election year"
+   ],
+   "answer": 3,
+   "explanation": "Theodore Roosevelt the Citizen is a friend's portrait published while its subject was running for a term of his own, and it makes no attempt to pretend otherwise. Riis had spent his working life on the police beat and said that being the boss reporter in Mulberry Street was \"the only renown I have ever coveted or cared to have.\" Nine years later he travelled to Michigan to testify for Roosevelt at a libel trial. The closeness that made his reporting on the tenements so good is the same closeness that makes this book a document about friendship rather than evidence about a president.",
+   "image": "assets/img/press/tr-riis.jpg",
+   "imageAlt": "Three men in long dark coats standing on stone steps in a brick archway; Jacob Riis at the left holding a bowler, Roosevelt in the middle in a top hat, the white-bearded Bishop Vincent at the right with an umbrella",
+   "credit": "\"Three old friends\" - Jacob Riis, President Roosevelt and Bishop John H. Vincent at the entrance to Higgins Memorial Hall, Chautauqua, New York, 11 August 1905. Photograph by Underwood & Underwood. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "A Boston Herald reporter printed a story about the Roosevelt children chasing a Thanksgiving turkey across the White House lawn. What did the President do?",
+   "options": [
+    "Wrote a good-humoured letter to the editor of the paper",
+    "Cut the reporter and his newspaper off from official news",
+    "Invited the reporter back to watch the next one",
+    "Asked the Post Office to hold up the newspaper's mail"
+   ],
+   "answer": 1,
+   "explanation": "The reporter was Jesse Carmichael and the story ran after the Thanksgiving of 1904. The two fullest accounts differ on how far the retaliation went. Kathleen Dalton has him banning the reporter and the paper from the White House, and then trying to stop the United States Weather Bureau sending storm bulletins to the whole city of Boston - he could not get away with punishing a city for a newspaper. H. Paul Jeffers has him calling the story a deliberate fabrication and ordering government agencies to drop the Herald from the lists that received press releases. Both end the same way: the paper apologised and the freeze was lifted. He knew the trait and had owned up to it, describing himself as \"personally of a slightly vindictive temperament\" - in extreme cases, he added.",
+   "image": "assets/img/press/tr-private-office.jpg",
+   "imageAlt": "Roosevelt working at his desk in the executive offices",
+   "credit": "Theodore Roosevelt in his private office, the White House, Washington. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/family",
+    "label": "The Roosevelt family"
+   }
+  },
+  {
+   "prompt": "In 1908 Joseph Pulitzer's New York World alleged profiteering in the purchase of the Panama Canal. How did Roosevelt answer?",
+   "options": [
+    "He barred the World from the White House press room",
+    "He asked Congress to investigate the newspaper",
+    "He had the government prosecute the paper for libel",
+    "He sued Pulitzer personally in a New York court"
+   ],
+   "answer": 2,
+   "explanation": "The World's charges touched his own brother-in-law, Douglas Robinson, and Roosevelt's response was to have the government indict its blind and elderly owner for criminal libel of the United States. The prosecution collapsed in the courts, which held that the federal government had no such case to bring. It is generally counted the worst thing he did to a newspaper, and it sits oddly beside the room, the shave and the Sunday releases — the same man, in the last months of the presidency that built the pressroom.",
+   "image": "assets/img/press/world-building.jpg",
+   "imageAlt": "A domed newspaper building and a clock-towered one seen across a city park with streetcars below",
+   "credit": "The World and Tribune buildings, Newspaper Row, New York City, 1904. One half of a stereograph by William H. Rau. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "A small Michigan weekly printed in October 1912 that Roosevelt lied, cursed and got drunk. On what day did he decide to sue?",
+   "options": [
+    "Election day",
+    "The day the Progressive convention opened",
+    "Christmas Day, 1912",
+    "The day he was shot in Milwaukee"
+   ],
+   "answer": 3,
+   "explanation": "Over lunch in Chicago on 14 October 1912 the campaign's press man, O. K. Davis, handed him a clipping two days old with a letter suggesting he act on it. Roosevelt read it through and said, \"Let's go at him.\" That evening in Milwaukee, on his way to the Auditorium, John Schrank shot him outside the Gilpatrick Hotel. He gave the speech with the bullet in him and pursued the libel suit the following spring. The rumour that he drank had followed him for years; a crowd in Duluth had recently decided he was too drunk to climb his own hotel stairs.",
+   "image": "assets/img/press/marquette-jury.jpg",
+   "imageAlt": "Theodore Roosevelt seated in a witness chair below the judge's bench in a panelled courtroom",
+   "credit": "Roosevelt on the witness stand at Marquette, Michigan, 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "Roosevelt's 1913 libel suit was brought against which newspaper?",
+   "options": [
+    "The Chicago Tribune",
+    "The Detroit Free Press",
+    "The Ishpeming Iron Ore",
+    "The Milwaukee Journal"
+   ],
+   "answer": 2,
+   "explanation": "A weekly in the iron country of Michigan's Upper Peninsula, circulation about three thousand, owned and published by George A. Newett. Its editorial had called Roosevelt a good deal more than a drunkard — paranoiac, mendacious and a sore loser were all in there — but his lawyers chose to stand on the drink. Newett was a stalwart of the county and state Republican committees who could not forgive him for bolting the party. Roosevelt had made him postmaster of Ishpeming in 1905 and had almost certainly forgotten it.",
+   "image": "assets/img/press/marquette-jury.jpg",
+   "imageAlt": "Roosevelt on the witness stand, a court officer seated on the bench behind him",
+   "credit": "Roosevelt on the witness stand at Marquette, Michigan, 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The trial opened at the county courthouse in Marquette in May 1913. What did Roosevelt bring with him?",
+   "options": [
+    "Dozens of witnesses and forty sworn depositions",
+    "A single expert on the law of libel",
+    "A petition signed by ten thousand supporters",
+    "The seating plans of every state dinner he had given"
+   ],
+   "answer": 0,
+   "explanation": "Gifford Pinchot, James R. Garfield, William Loeb, Robert Bacon, Jacob Riis and his own valet James Amos all came, along with his doctors; the depositions ran from Admiral Dewey downwards. Amos testified that in ten years he had never served his employer more than one full glass of champagne. Roosevelt took the stand first and said, \"I have never been drunk or in the slightest degree under the influence of liquor.\" Edmund Morris counts two Secret Service agents among the party he brought north, one of them detached from Woodrow Wilson's White House.",
+   "image": "assets/img/press/marquette-jury.jpg",
+   "imageAlt": "Roosevelt testifying from the witness chair in the Marquette courtroom",
+   "credit": "Roosevelt on the witness stand at Marquette, Michigan, 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "The libel trial at Marquette ended without the jury deciding anything. Why?",
+   "options": [
+    "Roosevelt withdrew for want of evidence",
+    "The judge held that the case lay outside his court's jurisdiction",
+    "Newett died before the verdict came in",
+    "Newett withdrew the charge from the stand"
+   ],
+   "answer": 3,
+   "explanation": "Newett could not produce one witness who had actually seen what his exchanges had told him, and on the Saturday morning he asked to be sworn and read a written statement conceding it: \"I am forced to conclude that I am mistaken.\" Roosevelt stood at once. \"Your honor, in view of the statement of the defendant, I ask the Court to instruct the jury that I desire only nominal damages.\" In Michigan that meant six cents. Judge Flannigan had warned defence counsel a few days earlier: \"It may be six cents, it may be sixty thousand dollars.\"",
+   "image": "assets/img/press/marquette-jury.jpg",
+   "imageAlt": "Roosevelt in the witness chair, hands on his knees, looking towards the court",
+   "credit": "Roosevelt on the witness stand at Marquette, Michigan, 1913. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  },
+  {
+   "prompt": "What did Roosevelt say the Marquette libel suit had cost him?",
+   "options": [
+    "Nothing, since the six cents covered his fees",
+    "The friendship of every reporter who had covered him",
+    "An unpleasant expense, one of three in eight months",
+    "His place as a contributing editor of the Outlook"
+   ],
+   "answer": 2,
+   "explanation": "Six cents did not go far against his lawyers and the travel of several dozen witnesses. He wrote to his son Kermit that he was very glad he had put the suit through but that of course it was an unpleasant expense, and listed the eight months' outgoings: \"the attempted assassination, Ethel's wedding, and this libel suit.\" Asked by a reporter from the New York Times whether he and Newett would meet, he looked back half surprised and said that the advances would not be coming from him. He caught the 5:30 train home.",
+   "image": "assets/img/press/press-corps.jpg",
+   "imageAlt": "A line of newspaper correspondents posed outside a building beside a waiting carriage",
+   "credit": "Newspaper correspondents at the Portsmouth peace conference, 1905 — eight years before the Marquette trial. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "Post-presidency"
+   }
+  }
+ ]
+}

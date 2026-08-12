@@ -1,0 +1,52 @@
+{
+ "sagamore-library-1904": {
+  "source": "loc",
+  "ref": "2010649030",
+  "source_file": "loc_pictures_2010649030",
+  "description": "President Roosevelt's library at Sagamore Hill, Oyster Bay, N.Y.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1362x1396",
+  "credit_line": "President Roosevelt's library at Sagamore Hill, Oyster Bay, 1904 - cropped from a stereograph card. Library of Congress, Prints and Photographs Division."
+ },
+ "sagamore-library-alt": {
+  "source": "loc",
+  "ref": "2009631488",
+  "source_file": "loc_pictures_2009631488",
+  "description": "President Roosevelt's library",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1256x953",
+  "credit_line": "President Roosevelt's library, undated - cropped from the album mount. Library of Congress, Prints and Photographs Division."
+ },
+ "library-sagamore-dam": {
+  "source": "dam",
+  "ref": "c9e82b3c-f9c8-4da9-9783-a097067390f2",
+  "source_file": "loc_92520598_Library_at_Sagamore_Hill.tif",
+  "description": "[Library at Sagamore Hill] — 1 photographic print. — Date: 1870",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1376x968",
+  "credit_line": "The library at Sagamore Hill. Library of Congress, Prints and Photographs Division."
+ },
+ "tr-book-portrait": {
+  "source": "dam",
+  "ref": "ef01eae1-5ac5-4b95-ac19-736e60560ea2",
+  "source_file": "loc_2013649585_Theodore_Roosevelt_three_quarter_length_.tif",
+  "description": "[Theodore Roosevelt, three-quarter length portrait, seated, facing left, holding book in lap] — 1 photographic print. — Date: 1902",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1262x1404",
+  "credit_line": "Theodore Roosevelt, seated, holding a book, 1902 - cropped from the mount to remove tape and a studio copyright line. Library of Congress, Prints and Photographs Division."
+ },
+ "tr-reading-kijabe": {
+  "source": "dam",
+  "ref": "b8d924fe-e9d6-4035-9907-984f65a4a4b0",
+  "source_file": "har_4881399_Roosevelt_reading_in_front_of_his_tent_i.jpg",
+  "description": "Roosevelt reading in front of his tent in camp at Kijabe — Theodore Roosevelt, Kijabe (Kenya). — Date: 1909 June ca. 3-4",
+  "rights": "Harvard University, Houghton Library — Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1304x1700",
+  "credit_line": "Roosevelt reading in front of his tent in camp at Kijabe, June 1909 - cropped from the album page. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ }
+}
