@@ -165,7 +165,14 @@
                     data.nodeBase || '/quiz').replace(/\/$/, '');
     var limit = parseInt(host.getAttribute('data-limit'), 10) || 0;
 
-    var all = shuffleForDay(data.quizzes || [], dayKey());
+    /* A quiz can be finished, verified and deployed here while its Drupal node
+       is still a draft — that is the normal state for anything waiting on an
+       editorial decision. Every card links to /quiz/<id> on trlibrary.com, so
+       listing one whose node is unpublished sends the visitor to a 403. An
+       entry marked `"unlisted": true` stays out of the gallery until somebody
+       publishes the node and clears the flag. */
+    var listed = (data.quizzes || []).filter(function (q) { return !q.unlisted; });
+    var all = shuffleForDay(listed, dayKey());
     if (limit > 0) all = all.slice(0, limit);
 
     var facets = data.facets || {};
