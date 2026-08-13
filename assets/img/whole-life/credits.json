@@ -1,0 +1,92 @@
+{
+ "mulberry-street-office": {
+  "source": "dam",
+  "ref": "d791d96e-13d6-40fa-bb55-0a44e1033d96",
+  "source_file": "nypl_25890790-c5a1-012f_Theodore_Roosevelt_in_his_Mulberry_Stree.jpg",
+  "description": "Theodore Roosevelt in his Mulberry Street office, when he was police commissioner of New York \u2014 still image",
+  "rights": "The New York Public Library Digital Collections; rights per NYPL item record",
+  "collection": "The New York Public Library.",
+  "px": "566x760"
+ },
+ "tenement-cigar-makers": {
+  "source": "loc",
+  "ref": "2002722982",
+  "source_file": "loc_pictures_2002722982",
+  "description": "New York City, The cigar maker's strike--Tenement cigar making",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1387"
+ },
+ "governors-office": {
+  "source": "dam",
+  "ref": "84dc2cfa-ced5-41e7-927f-f6c2e4c15431",
+  "source_file": "har_3942475_Governor_s_office.jpg",
+  "description": "Governor's office \u2014 Governor's office in the New York State Executive Mansion during Theodore Roosevelt's term as governor, Albany (N.Y.). Note image of Roosevelt in his Rough Rider uniform on top of desk at right. Also  \u2014 Creator: Roosevelt, Edith Kermit Carow 1861-1948$$QRoosevelt, Edith Kermit Carow 1861-1948 \u2014 Date: 1899",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1121"
+ },
+ "campaign-train-rear": {
+  "source": "dam",
+  "ref": "7485c316-fe1d-4465-89a2-5d84a26bf217",
+  "source_file": "har_1182057_Taken_from_rear_platform.jpg",
+  "description": "Taken from rear platform \u2014 View of the front of the train ahead on a curve, probably in Colorado. \u2014 Date: 1900 September ca. 25-27",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1111"
+ },
+ "governor-dewey-parade": {
+  "source": "dam",
+  "ref": "fdf30b16-cc5b-4c07-98e7-1d338d95b36b",
+  "source_file": "loc_2010646533_Cheering_Governor_Roosevelt_Dewey_Celebr.tif",
+  "description": "Cheering Governor Roosevelt, Dewey Celebration, New York \u2014 1 photographic print on stereo card : stereograph. | Stereograph showing Roosevelt riding on horseback in a parade. \u2014 Creator: Strohmeyer & Wyman \u2014 Date: 1899",
+  "rights": "<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher's obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library's collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href=\"https://www.loc.gov/rr/print/res/493_ster.html\">Stereographs - Rights and Restrictions Information</a> </p>\n\n",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x716"
+ },
+ "harvard-dining-club-1880": {
+  "source": "dam",
+  "ref": "2f38e734-221d-4d6a-ad8c-ac60226f099d",
+  "source_file": "har_3912893_Members_of_Dining_Club_at_Harvard_1880.jpg",
+  "description": "Members of Dining-Club, at Harvard, 1880 \u2014 Theodore Roosevelt and unidentified student from his Harvard dining club, Cambridge (Mass.). \u2014 Date: 1880",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1215"
+ },
+ "civil-service-commissioner": {
+  "source": "dam",
+  "ref": "f5ecc97d-da27-44e7-a9cb-066c5b463ebb",
+  "source_file": "har_1186202_Theodore_Roosevelt_as_Civil_Service_Comm.jpg",
+  "description": "Theodore Roosevelt as Civil Service Commissioner, 1889-1895 \u2014 Roosevelt as United States Civil Service Commissioner. \u2014 Date: ca. 1889-1895",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1833"
+ },
+ "freedom-of-london-1910": {
+  "source": "dam",
+  "ref": "3328cf3f-c3f3-4d28-b048-bcc225eb8225",
+  "source_file": "loc_2013650932_Freedom_of_the_City_of_London_conferred_.tif",
+  "description": "Freedom of the City of London conferred on Mr. Roosevelt scene in the Guildhall. \u2014 1 photographic print. | Photograph showing Theodore Roosevelt in Guildhall seated next to the Lord Mayor and surrounded by the Common Council, dignitaries, and other invited guests; British and Americ \u2014 Date: 1910",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1639"
+ },
+ "alabama-lithograph": {
+  "source": "loc",
+  "ref": "2015650319",
+  "source_file": "loc_pictures_2015650319",
+  "description": "Last of the Alabama Commodore Winslows grand victory march. Respectfully inscribed to the crew of the Kearsarge /",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1086"
+ },
+ "porpoise-shark-submarines": {
+  "source": "loc",
+  "ref": "2018653994",
+  "source_file": "loc_pictures_2018653994",
+  "description": "[U.S.S. Porpoise and Shark. Two submarines in drydock with crews posed on bows]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1086"
+ }
+}

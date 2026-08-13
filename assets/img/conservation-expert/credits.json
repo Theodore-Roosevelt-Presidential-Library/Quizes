@@ -1,0 +1,25 @@
+{
+ "inland-waterways-left": {
+  "source": "loc-via-repo",
+  "ref": "cropped from assets/img/conservation/inland-waterways.jpg",
+  "description": "Theodore Roosevelt and Gifford Pinchot on the deck of a steamer during the Inland Waterways Commission trip down the Mississippi, October 1907.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "credit_line": "Theodore Roosevelt and Gifford Pinchot aboard the Inland Waterways Commission steamer on the Mississippi, 1907. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; the second frame, the publisher's mount and the burned-in negative number have been cropped away.",
+  "px": "1256x1352"
+ },
+ "cascade-lumbering": {
+  "source": "loc",
+  "ref": "2004665697",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "credit_line": "Lumbering in the Cascade Mountains near Seattle, Washington - a turn of logs at the No. 2 road donkey, Davidson and Caskey camps. Photograph copyright 1899 by D. R. Kinsey. Library of Congress, Prints and Photographs Division. Decorative border and the photographer's printed copyright line cropped away.",
+  "px": "1342x996"
+ },
+ "big-trees": {
+  "source": "loc-via-dam",
+  "ref": "loc_2010647443",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "credit_line": "The nation's chief before the forest king - President Roosevelt at the Giant, Big Tree Grove, Santa Cruz, California, 1903. Photograph by Underwood & Underwood. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; the second frame, the publisher's mount and the printed caption cropped away.",
+  "px": "1140x1036"
+ }
+}

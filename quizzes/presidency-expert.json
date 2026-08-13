@@ -1,0 +1,309 @@
+{
+  "id": "presidency-expert",
+  "title": "The Instruments of Power",
+  "subtitle": "How the Roosevelt White House actually got things done, 1901-1909",
+  "intro": "The Square Deal, the trusts, the canal and the fleet are the familiar headings. Underneath them are the instruments: an amendment slipped into an appropriations bill, an intermediary carrying messages between a president and a senator who would not speak to him, a recess that existed for an instant, a treaty the Senate refused and an executive agreement that did the job anyway. Fourteen questions on the machinery, the minor figures and the arguments that are still unsettled.",
+  "heroImage": "assets/img/press/executive-office-1903.jpg",
+  "heroAlt": "A large desk with two lamps and stacked books in a panelled office, an empty cane-backed chair beside it",
+  "heroCredit": "The President's office in the executive office annex to the White House, 1903 - the wing that also housed the new press room. One half of a stereograph by William H. Rau. Library of Congress, Prints and Photographs Division.",
+  "learnMore": "https://www.trlibrary.com/tr/presidency",
+  "shuffle": {
+    "questions": true,
+    "options": true
+  },
+  "live": {
+    "seconds": 25,
+    "revealSeconds": 5
+  },
+  "badge": {
+    "title": "The Instruments of Power",
+    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's expert quiz on the Roosevelt presidency - {tier}. Try it:",
+    "url": "https://www.trlibrary.com/tr/presidency"
+  },
+  "tiers": [
+    {
+      "min": 14,
+      "name": "Read the Statute Book",
+      "line": "Amendment, agreement and proclamation alike. Remarkable."
+    },
+    {
+      "min": 12,
+      "name": "Cabinet Grade",
+      "line": "You know where the levers were and who pulled them."
+    },
+    {
+      "min": 9,
+      "name": "Bureau Chief",
+      "line": "A strong run on questions built to be genuinely hard."
+    },
+    {
+      "min": 6,
+      "name": "Committee Clerk",
+      "line": "Well past the textbook and into the working papers."
+    },
+    {
+      "min": 3,
+      "name": "New to the Hill",
+      "line": "This one was meant to be difficult. Every miss taught something."
+    },
+    {
+      "min": 0,
+      "name": "First Day in Washington",
+      "line": "Nobody walks in knowing this. The explanations are the point of it."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "The new gold coins of 1907, designed by Augustus Saint-Gaudens, went out without the motto IN GOD WE TRUST. How did the matter end?",
+      "options": [
+        "Roosevelt reversed himself and had the dies recut",
+        "Congress passed a law restoring it and Roosevelt let it stand",
+        "The Supreme Court held the omission unconstitutional",
+        "The mint quietly restored it without telling anybody"
+      ],
+      "answer": 1,
+      "explanation": "Roosevelt had checked the statutes and found no legal warrant for the motto; Saint-Gaudens thought it an inartistic intrusion on the design. The protest that followed came from granges, temperance unions and church societies rather than from Congress, but Congress obliged. When a Pennsylvania congressman came to sound him out, Roosevelt called the whole business rot, pure rot - and then said that if Congress wanted to pass a bill he would not veto it. The bill passed in 1908. He also had Saint-Gaudens put a feathered headdress on the head of Liberty, on the ground that American Liberty ought to look American, and timed the coins to appear while Congress was out of town.",
+      "image": "assets/img/presidency/tr-private-office.jpg",
+      "imageAlt": "Theodore Roosevelt in his private office",
+      "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "In August 1906 Roosevelt tried to reform English spelling by executive order. Whom did he order to do it?",
+      "options": [
+        "The Public Printer of the United States",
+        "The Commissioner of Education",
+        "The Librarian of Congress",
+        "The Secretary of the Smithsonian Institution"
+      ],
+      "answer": 0,
+      "explanation": "A private body, the Simplified Spelling Board, funded by ten thousand dollars of Andrew Carnegie's money, had proposed about three hundred changes - dropt for dropped, thru for through, fixt for fixed. Roosevelt directed the Government Printing Office to adopt them, which made them compulsory in every federal document. Congress and the Supreme Court announced flatly that they would do no such thing, the newspapers were merciless, and he backed off, telling the Public Printer that if the changes did not meet popular approval they would be dropt, and that was all there was about it. He went on using them in his own letters.",
+      "image": "assets/img/press/tr-private-office.jpg",
+      "imageAlt": "Theodore Roosevelt seated at his desk in his private office at the White House",
+      "credit": "Theodore Roosevelt in his private office, the White House, Washington. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "In May 1908 Congress barred the Justice Department from borrowing detectives from the Treasury's Secret Service. What did Attorney General Charles Bonaparte do about it?",
+      "options": [
+        "Contracted the work out to the Pinkerton agency",
+        "Went to the courts to have the restriction set aside",
+        "Created a force of special agents inside his own department",
+        "Handed all federal investigations to the Post Office inspectors"
+      ],
+      "answer": 2,
+      "explanation": "Congress had grown tired of Secret Service men turning up in land fraud and antitrust investigations, and James Tawney of House Appropriations wrote the ban into the Sundry Civil bill. Bonaparte's answer was to raise his own detectives, announced to Congress in his annual report that December, with Stanley Finch in charge. That force is the Bureau of Investigation, and it is the ancestor of the FBI. Roosevelt then told Congress in a message that the chief argument for the restriction was that congressmen did not want to be investigated themselves - and the House, after seven hours of debate, voted to lay his message on the table, a rebuke no president had received since Andrew Jackson.",
+      "image": "assets/img/trustbusting/tr-cabinet-message.jpg",
+      "imageAlt": "Theodore Roosevelt standing in a curtained room reading from a paper to a dozen seated and standing men",
+      "credit": "The President reading his message to the cabinet before sending it to Congress. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "In December 1903 Roosevelt made a batch of appointments during what he called a constructive recess of the Senate. What was a constructive recess?",
+      "options": [
+        "The August adjournment, treated as continuous",
+        "Any day on which the Senate lacked a quorum",
+        "The instant between one session of the Senate and the next",
+        "A recess declared by the Vice President in the chair"
+      ],
+      "answer": 2,
+      "explanation": "Speaker Cannon had arranged the calendar so that one session ran straight into the next, leaving no gap in which the President could make recess appointments. Elihu Root produced the answer: since a special session is by definition a different session from a regular one, there must be a moment, however infinitesimal, between them - and a moment is a recess. Roosevelt used it. The Senate was furious, the constitutional argument was never settled, and presidents have been fighting over recess appointments ever since.",
+      "image": "assets/img/presidency-expert/root.jpg",
+      "imageAlt": "Head-and-shoulders studio portrait of a grey-haired man with a heavy dark moustache in a dark coat",
+      "credit": "Elihu Root, Secretary of War, photographed by George Prince, 1902. Album mount and the studio's printed copyright line cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "Dr. William D. Crum's nomination to a federal post at Charleston, South Carolina, was blocked by the Senate for years. What was the post?",
+      "options": [
+        "United States marshal",
+        "Collector of the port",
+        "Judge of the district court",
+        "Superintendent of the mint"
+      ],
+      "answer": 1,
+      "explanation": "Crum was a Black physician and a leading Republican in the city, and his opponents argued that a doctor lacked the business experience for the customs house - though his own property and enterprises were larger than those of the white physician they preferred. The Senate committee reported against him. Roosevelt would not withdraw the name; he kept Crum in place by recess appointment after recess appointment, including one made in that disputed instant of December 1903, and the Senate did not confirm him until 1905. It is one of the episodes that has to be set beside the rest of Roosevelt's record on race.",
+      "image": "assets/img/presidency/booker-t-washington-tuskegee.jpg",
+      "imageAlt": "Theodore Roosevelt and Booker T. Washington at Tuskegee Institute",
+      "credit": "Theodore Roosevelt and Booker T. Washington at Tuskegee Normal and Industrial Institute. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/complex-legacy",
+        "label": "A complex legacy"
+      }
+    },
+    {
+      "prompt": "Minnie Cox, the Black postmistress of Indianola, Mississippi, was forced out by local threats late in 1902. What did Roosevelt do?",
+      "options": [
+        "Sent federal troops to protect the post office",
+        "Appointed her to a better post in Washington",
+        "Shut the post office and sent the town's mail elsewhere",
+        "Referred the case to the Justice Department for prosecution"
+      ],
+      "answer": 2,
+      "explanation": "He refused to accept her resignation, rejected a suggestion that he send in troops, and suspended the Indianola post office from 2 January 1903, leaving the townspeople to fetch their mail from another town. Cox kept drawing her salary. The Post Office Department was the only lever he had and he used it hard; the office stayed shut for the better part of two years and reopened in 1904, which largely ended the agitation. Historians read Indianola and the Crum fight together, and both belong in any honest account of his record on race.",
+      "image": "assets/img/trustbusting/tr-private-office.jpg",
+      "imageAlt": "Theodore Roosevelt seated at his desk in his private office at the White House",
+      "credit": "Theodore Roosevelt in his private office, the White House. One half of a stereograph by William H. Rau, copyright 1903 - cropped from the card. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/complex-legacy",
+        "label": "A complex legacy"
+      }
+    },
+    {
+      "prompt": "Senator Benjamin Tillman of South Carolina managed the Hepburn railroad rate bill on the Senate floor for Roosevelt in 1906. What made that awkward?",
+      "options": [
+        "Tillman had voted against every railroad bill before it",
+        "The two men were not on speaking terms",
+        "Tillman was not a member of the committee that reported it",
+        "He had promised the railroads he would let the bill die"
+      ],
+      "answer": 1,
+      "explanation": "Tillman had been barred from the White House in 1902 for punching a fellow senator during a debate. The ban was lifted by 1906, but the two would not speak. Roosevelt needed forty-six votes, expected none from the Old Guard, and therefore needed Democrats - so he sent a former senator, William E. Chandler, to Tillman as a go-between, carrying private expressions of the President's fury at the corporation lawyers. Tillman knew exactly what was being done to him and helped anyway, because he thought it a great legislative bill. The whole fight was really about how far the courts could review the rates the commission set.",
+      "image": "assets/img/trustbusting/bosses-of-the-senate.jpg",
+      "imageAlt": "Cartoon of enormous money-bag figures looming over senators in a legislative chamber",
+      "credit": "\"The Bosses of the Senate,\" by Joseph Keppler, Puck, 1889. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "In 1904 a bandit seized Ion Perdicaris in Tangier and the American demand became a famous slogan. What was awkward about it?",
+      "options": [
+        "Perdicaris was not an American citizen",
+        "The bandit had already released him before it was sent",
+        "The message was sent to the wrong government",
+        "Perdicaris had staged his own kidnapping for money"
+      ],
+      "answer": 0,
+      "explanation": "Perdicaris had traded his American passport for Greek papers in 1861, to keep the Confederacy from seizing property he owned in South Carolina. The State Department confirmed the lapse in a cable of 28 June - after the demand had gone out and been read to a cheering Republican convention. The wording was not even Roosevelt's: Secretary of State John Hay wrote it, and called that sort of line a concise impropriety. The ransom was paid, Perdicaris came home, and the slogan went into the campaign as a triumph.",
+      "image": "assets/img/press/press-corps.jpg",
+      "imageAlt": "About twenty men in suits and straw boaters lined up outside a plain two-storey building, a horse-drawn omnibus at the right and a fire hose lying across the dirt in front",
+      "credit": "Newspaper correspondents at the Portsmouth peace conference, 1905. Written on the back of the print: at the extreme left front is Edmund Noble of the Boston Herald. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "The 1903 treaty setting up the Alaska boundary tribunal required each side to name three impartial jurists of repute. Whom did Roosevelt name?",
+      "options": [
+        "Three sitting justices of the Supreme Court",
+        "Three federal judges from the Pacific coast",
+        "Root, Lodge and a former senator from Washington",
+        "Three Canadian-born lawyers practising in Alaska"
+      ],
+      "answer": 2,
+      "explanation": "Elihu Root was his Secretary of War, Henry Cabot Lodge his closest political friend, and George Turner a former senator from the state with the most at stake. None of them was impartial and nobody pretended otherwise. Roosevelt had already moved troops north into Alaska - he admitted it cheerfully years later - and made it plain he would not accept a finding against the American case. The award went four to two for the American case when Lord Alverstone, the Lord Chief Justice of England, sided with the Americans against the two Canadian commissioners - who refused to sign. Canadians have not forgotten it.",
+      "image": "assets/img/presidency-expert/lynn-canal.jpg",
+      "imageAlt": "Steep snow-streaked mountains rising straight out of a still saltwater inlet in southeastern Alaska",
+      "credit": "Scenery in Lynn Canal, southeastern Alaska, photographed in 1894 or 1895 - the waterway at the heart of the boundary dispute. Library of Congress, Prints and Photographs Division. Album mount and the photographer's inked inventory number cropped away.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "Roosevelt wanted the United States to take over the customs houses of the Dominican Republic and pay its European creditors. The Senate would not ratify the treaty. What did he do?",
+      "options": [
+        "Abandoned the plan and let the Europeans collect",
+        "Ran the arrangement by executive agreement instead",
+        "Put the question to an international arbitration",
+        "Had the Navy occupy the customs houses outright"
+      ],
+      "answer": 1,
+      "explanation": "This is the Roosevelt Corollary in operation - the doctrine he had set out in his annual message of December 1904, that chronic wrongdoing in the hemisphere might force the United States into an international police power. When the Senate balked he simply put American agents on the wharves under an executive agreement and let the receipts flow. Elihu Root finally got a proper treaty through in February 1907, more than two years later. It is the clearest case in the whole administration of a president doing by agreement what he could not do by treaty.",
+      "image": "assets/img/presidency/panama-steam-shovel.jpg",
+      "imageAlt": "President Roosevelt operating an American steam shovel at the Culebra Cut, Panama",
+      "credit": "President Roosevelt running an American steam-shovel at Culebra Cut, Panama. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "On the morning of 4 November 1907, at the height of the panic, Judge Elbert Gary and Henry Clay Frick came to the White House for breakfast. What did they want?",
+      "options": [
+        "A federal deposit of gold in the New York banks",
+        "The suspension of the Sherman Act for ninety days",
+        "Assurance that U.S. Steel could absorb a rival without prosecution",
+        "A public statement that the Treasury would guarantee the trust companies"
+      ],
+      "answer": 2,
+      "explanation": "A brokerage house was about to fail with a great block of Tennessee Coal and Iron stock behind its loans. Morgan's plan was for United States Steel to take the stock. Gary would not move without the President's word, and Roosevelt gave it - impressed, he said, by their willingness to do an undesirable thing to head off a general collapse. Gary telephoned New York before the exchange opened; prices rallied within hours. Four years later a House committee and then Taft's Justice Department used the same transaction against him, and the argument over whether he was played is still live.",
+      "image": "assets/img/trustbusting/morgan.jpg",
+      "imageAlt": "Half-length studio portrait of John Pierpont Morgan in a dark suit with a watch chain",
+      "credit": "John Pierpont Morgan, about 1902. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "Roosevelt set out a general theory of the office in his Autobiography, and it is the one his successor most sharply rejected. What did it hold?",
+      "options": [
+        "That a president may do whatever the law does not forbid him",
+        "That a president may act only on a power Congress has granted",
+        "That a president should defer to the Supreme Court on all doubtful powers",
+        "That a president's authority runs only as far as his party's majority"
+      ],
+      "answer": 0,
+      "explanation": "He called it the stewardship theory: every executive officer, and above all the President, is a steward of the people, bound actively and affirmatively to do all he can for them, and entitled to do whatever the needs of the people demand unless the Constitution or the laws explicitly forbid it. Taft, a judge by temperament and later Chief Justice, held the opposite - that a president must be able to point to a specific grant of power - and put it in writing. The two positions are still the poles of the argument about executive authority.",
+      "image": "assets/img/presidency/campaign-1904-poster.jpg",
+      "imageAlt": "A 1904 campaign poster with portraits of Theodore Roosevelt and Charles W. Fairbanks",
+      "credit": "For President, Theodore Roosevelt; For Vice President, Charles W. Fairbanks, 1904. Lithograph by Louis Roesch Co., San Francisco. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Roosevelt presidency"
+      }
+    },
+    {
+      "prompt": "Oscar Straus took office in 1906 as the first Jewish member of any American cabinet. Which department?",
+      "options": [
+        "State",
+        "Commerce and Labor",
+        "The Interior",
+        "The Treasury"
+      ],
+      "answer": 1,
+      "explanation": "Commerce and Labor was itself only three years old, created in 1903 with the Bureau of Corporations inside it. Straus had already served three times as minister to the Ottoman Empire. By his own account Roosevelt, first raising it with him in January 1906, gave among his reasons that he wanted to show Russia and some other countries what Americans thought of the Jews - a candid piece of foreign policy conducted through a domestic appointment. Straus wrote it all down afterwards in a memoir covering four administrations.",
+      "image": "assets/img/presidency-expert/tr-cabinet-table.jpg",
+      "imageAlt": "Roosevelt and ten cabinet officers seated around a large table in a curtained White House room",
+      "credit": "Theodore Roosevelt's cabinet in session, photographed by Underwood & Underwood, probably 2 March 1909 - Roosevelt at the left, with George B. Cortelyou, Charles Bonaparte, Truman H. Newberry, James Wilson, Oscar Straus and James R. Garfield among those at the table. Mount and studio copyright line cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/people",
+        "label": "The people around him"
+      }
+    },
+    {
+      "prompt": "The rebuilding of the White House in 1902 by McKim, Mead & White made one permanent change to how the presidency works. What was it?",
+      "options": [
+        "The cabinet room was moved upstairs to the family floor",
+        "The family moved down to live on the ground floor",
+        "The President's offices moved out of the house into a new wing",
+        "The State Dining Room became the President's working office"
+      ],
+      "answer": 2,
+      "explanation": "Until then presidents had worked on the second floor of the residence, a few doors from the bedrooms, with office-seekers tramping past the family's rooms. Charles McKim built a low wing to the west, joined to the house by a colonnade, and the old office space became bedrooms and bathrooms for six children. Every president since has worked in that wing. Roosevelt also had the State Dining Room hung with buffalo heads rather than lions, on the grounds that American rooms should carry American animals.",
+      "image": "assets/img/press/executive-office-1903.jpg",
+      "imageAlt": "A large desk with two lamps and stacked books in a panelled office, an empty cane-backed chair beside it",
+      "credit": "The President's office in the executive office annex to the White House, 1903 - the wing that also housed the new press room. One half of a stereograph by William H. Rau. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/homes-and-places",
+        "label": "Where history happened"
+      }
+    }
+  ]
+}

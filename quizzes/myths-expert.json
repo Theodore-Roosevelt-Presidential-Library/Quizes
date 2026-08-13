@@ -1,0 +1,291 @@
+{
+  "id": "myths-expert",
+  "title": "Did He Really Say That?",
+  "subtitle": "Fact or Fiction, expert: the quotations even admirers get wrong",
+  "intro": "Nobody in American history is quoted more often, or more carelessly, than Theodore Roosevelt. Some of the best-loved lines are things he said about somebody else's saying; some are half a sentence with the qualifying half cut off; some he never said at all and cannot be traced to him in any form. This quiz is built from the Library's own quotation research and from Roosevelt's collected works. Thirteen questions, and the pleasure of them is in the correction.",
+  "heroImage": "assets/img/myths-expert/tr-at-desk.jpg",
+  "heroAlt": "Theodore Roosevelt bent over a desk in shirt cuffs, writing with a pen under a hanging lamp",
+  "heroCredit": "Theodore Roosevelt writing at his desk in Washington, about 1897-98. Cropped from a mounted print. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "learnMore": "https://www.trlibrary.com/tr/fake-quotes",
+  "shuffle": {
+    "questions": true,
+    "options": true
+  },
+  "live": {
+    "seconds": 25,
+    "revealSeconds": 5
+  },
+  "badge": {
+    "title": "Did He Really Say That?",
+    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's expert quiz on misquoting T.R. - {tier}. Try it:",
+    "url": "https://www.trlibrary.com/tr/fake-quotes"
+  },
+  "tiers": [
+    {
+      "min": 13,
+      "name": "Checks the Footnote",
+      "line": "Nothing got past you. That is genuinely rare."
+    },
+    {
+      "min": 11,
+      "name": "Reads the Whole Sentence",
+      "line": "You know where the qualifiers went."
+    },
+    {
+      "min": 8,
+      "name": "Hard to Fool",
+      "line": "A strong score on questions written to be slippery."
+    },
+    {
+      "min": 5,
+      "name": "Suspicious in the Right Way",
+      "line": "You have started asking who actually said it."
+    },
+    {
+      "min": 3,
+      "name": "Onto the Trick",
+      "line": "Half of these fool specialists. That is a real start."
+    },
+    {
+      "min": 0,
+      "name": "Newly Sceptical",
+      "line": "Everyone believes some of these. Now you have somewhere to check."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Do what you can, with what you have, where you are. It is probably the most-shared sentence attributed to Roosevelt. What is wrong with it?",
+      "options": [
+        "He wrote it, but about farming rather than about life generally",
+        "He credited it to a Virginia squire, and the wording is have for got",
+        "It comes from a newspaper interview of 1913 that he later disowned",
+        "It is Abraham Lincoln's, and Roosevelt quoted it in a speech of 1905"
+      ],
+      "answer": 1,
+      "explanation": "The line is in Roosevelt's Autobiography, but he is passing it on, not coining it. He calls it a bit of homely philosophy quoted by Squire Bill Widener, of Widener's Valley, Virginia, and the words he prints are “Do what you can, with what you’ve got, where you are.” So the popular version gets both things wrong: the attribution and, slightly, the wording. Mr Widener is not famous, which is generally why the credit falls off in transit.",
+      "image": "assets/img/myths-expert/tr-desk-portrait.jpg",
+      "imageAlt": "Roosevelt seated at a large desk piled with papers and books, writing, in a panelled office",
+      "credit": "Theodore Roosevelt at his desk, 1905. Cropped from a mounted print. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "The best executive is the one who has sense enough to pick good men to do what he wants done. Where does the Library's research place the first appearance of that line?",
+      "options": [
+        "In a trade journal in 1930, eleven years after Roosevelt died",
+        "In his 1913 Autobiography, in the chapter on the presidency",
+        "In a letter of 1908 to his successor William Howard Taft",
+        "In an after-dinner speech to the Gridiron Club in Washington in 1906"
+      ],
+      "answer": 0,
+      "explanation": "There is no evidence Roosevelt ever said it. The earliest printing anyone has found is in a publication called The Credit World in 1930. What he did leave, in handwritten notes on employers and employees, is a tougher and more interesting thought: that a leader shows leadership less by what he does himself than by what he gets the people around him to do, and that in the long run they have to like him as well as admire him.",
+      "image": "assets/img/myths-expert/tr-at-desk.jpg",
+      "imageAlt": "Theodore Roosevelt bent over a desk in shirt cuffs, writing with a pen under a hanging lamp",
+      "credit": "Theodore Roosevelt writing at his desk in Washington, about 1897-98. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "The only man who never makes mistakes is the man who never does anything. Why is that one hard to pin on Roosevelt?",
+      "options": [
+        "It is Benjamin Franklin's, from Poor Richard's Almanack for 1745",
+        "It appears in the Congressional Record as a remark by a senator",
+        "It reaches us through Jacob Riis, who called it one of his maxims",
+        "It was written for him by a speechwriter and never actually delivered"
+      ],
+      "answer": 2,
+      "explanation": "The words come to us from Jacob Riis, who printed them in 1900 and again in his 1904 book on Roosevelt, calling them one of Roosevelt's maxims — and in slightly different wording from the version now circulating. So it may be his, or it may be something he had picked up and liked, which was often the case. Either way it is second-hand, and the sentence people share has been smoothed since Riis wrote it down.",
+      "image": "assets/img/myths-expert/riis-vincent-tr.jpg",
+      "imageAlt": "Three men in overcoats and top hats standing in a brick archway at the top of a flight of steps",
+      "credit": "Jacob Riis, Theodore Roosevelt and Bishop John H. Vincent at Chautauqua, New York, August 1905; photograph by Underwood & Underwood. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "Roosevelt wrote in 1918: “Patriotism means to stand by the country. It does not mean to stand by the President or any other public official” — and then kept going. What did the rest of the sentence say?",
+      "options": [
+        "That the exception is a president who has led the country into a war",
+        "That the newspapers must always be free to say so out loud",
+        "That in time of war the rule is suspended entirely",
+        "That an official is backed so far as he stands by the country"
+      ],
+      "answer": 3,
+      "explanation": "The circulating version uses Roosevelt's own words in his own order — and stops one clause early, which flips the meaning from conditional support into a flat refusal of it. He went on to say that a public official should be backed exactly to the degree that he himself stands by the country, and that it is patriotic to support him so far as he serves it. He wrote it in The Great Adventure while attacking Woodrow Wilson, so he had every reason to be blunter than he was.",
+      "image": "assets/img/myths-expert/tr-standing-portrait.jpg",
+      "imageAlt": "Roosevelt speaking with his fist raised, papers in his other hand, beside a stone column",
+      "credit": "Theodore Roosevelt speaking, 1918. The print is torn along the right edge. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "Roosevelt's version of the big-stick proverb had a clause on the end that almost nobody quotes. What was it?",
+      "options": [
+        "and God will do the rest",
+        "you will go far",
+        "and the world will make way",
+        "but never lift it in anger"
+      ],
+      "answer": 1,
+      "explanation": "The clause is “you will go far.” The earliest appearance of the proverb in his own hand is a private letter of 26 January 1900 to Henry Sprague, an old Assembly colleague — written not about foreign policy but about beating Boss Platt's machine in Albany, nearly two years before he became president. He complained for the rest of his life that only the stick half ever got quoted, when the quiet half was the one doing the work.",
+      "image": "assets/img/myths-expert/riding-big-stick.jpg",
+      "imageAlt": "Newspaper cartoon of Roosevelt and a second man carrying a bulky figure on a pole labelled The Big Stick",
+      "credit": "“Riding him on the big stick,” newspaper cartoon, 1908. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "Roosevelt is credited with the phrase weasel words. By his own account, where did he get it?",
+      "options": [
+        "From a Maine woodsman, about a shifty neighbour",
+        "From a professor of rhetoric he had heard lecture at Harvard",
+        "From the Dutch of his own grandfather, and he translated it",
+        "He said he coined it himself, in the New York Assembly in 1883"
+      ],
+      "answer": 0,
+      "explanation": "Writing in 1918 about his debt to Maine, Roosevelt credited Dave Sewall - brother of his guide and later ranch partner Bill Sewall - with the image. Speaking of a shifty local man who was adroit at using fair-sounding words that cancelled the fair-sounding words before them, Dave said his words weaselled their meaning, “just like a weasel when he sucks the meat out of an egg” and leaves the shell. Roosevelt used it for the rest of his life against political language that promised and withdrew in the same breath, most famously against the phrase universal voluntary training in 1916.",
+      "image": "assets/img/myths-expert/sewall-maine.jpg",
+      "imageAlt": "An elderly bearded man in braces standing by a big pine at a lakeshore while two other men build a cairn of stones",
+      "credit": "Bill Sewall, at left, marking the place where Roosevelt camped at Lake Munsungan, Maine; photograph by J. A. Cruikshank, undated and made long after Roosevelt's Maine years. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "Roosevelt's phrase lunatic fringe reached print in 1913 in a piece about what?",
+      "options": [
+        "The Progressive convention of the previous year",
+        "An exhibition of modern art",
+        "The nature-faker writers",
+        "Anarchist violence in American cities"
+      ],
+      "answer": 1,
+      "explanation": "It appears in his notice of the Armory Show, published in The Outlook on 29 March 1913. Praising the exhibition for having no touch of the commonplace in it, he added that “there is apt to be a lunatic fringe among the votaries of any forward movement,” and that in this show the fringe was well represented among the Cubists. He compared a Duchamp to a Navajo rug in his own bathroom. He had tried the phrase out shortly before in a letter to Henry Cabot Lodge, about politics — but it is the art review that put it into the language.",
+      "image": "assets/img/myths-expert/tr-speaking-table.jpg",
+      "imageAlt": "Roosevelt standing on a long wooden table addressing a seated outdoor audience in folding chairs",
+      "credit": "Theodore Roosevelt speaking from a table to a seated audience, 1910; photograph by the Smith Studio, whose name is painted on the table. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "“Far better it is to dare mighty things, to win glorious triumphs, even though checkered by failure.” Where is that from?",
+      "options": [
+        "The Man in the Arena passage at the Sorbonne in Paris, 1910",
+        "His Nobel lecture, delivered at Christiania in Norway, 1910",
+        "The Strenuous Life, delivered at Chicago in 1899",
+        "His first annual message to Congress, December 1901"
+      ],
+      "answer": 2,
+      "explanation": "It is from The Strenuous Life, the Chicago address of 1899, and it is constantly filed under the Arena speech instead. The confusion is understandable: the Arena passage, eleven years later, ends with almost the same image — the cold and timid souls who know neither victory nor defeat — and the two sentences have been quietly welded together on posters ever since. Roosevelt reused his own best figures, which is one reason quoting him accurately takes care.",
+      "image": "assets/img/myths-expert/tr-speaking-iowa-1910.jpg",
+      "imageAlt": "Roosevelt in a dark coat speaking from the back of a railway carriage, one hand on the rail",
+      "credit": "Ex-President Roosevelt speaking at Missouri Valley, Iowa, August 1910; the print's caption and the Library of Congress record differ by a few days on the date. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "Never throughout history has a man who lived a life of ease left a name worth remembering. This is on posters everywhere. What is the position?",
+      "options": [
+        "It is genuine, and comes from his Chicago address of 1899",
+        "It is genuine, but he was quoting Oliver Wendell Holmes",
+        "It is a garbled memory of a speech to Iowa teachers in 1910",
+        "It is from an editorial he wrote for the Kansas City Star in 1917"
+      ],
+      "answer": 2,
+      "explanation": "Roosevelt said nothing of the kind in those words. Speaking to the Iowa State Teachers' Association in November 1910 he made the same point far better and far more humanely: nothing worth having or doing comes without effort, pain and difficulty, and “I have envied a great many people who led difficult lives” and led them well — which is a compliment to the teachers in front of him, not a judgement on the idle.",
+      "image": "assets/img/myths-expert/tr-speaking-table.jpg",
+      "imageAlt": "Roosevelt standing on a long wooden table addressing a seated outdoor audience in folding chairs",
+      "credit": "Theodore Roosevelt speaking to a seated audience, 1910. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    },
+    {
+      "prompt": "I am a part of everything that I have read. It is on bookmarks and library walls under Roosevelt's name. What can be established about it?",
+      "options": [
+        "It is from his 1915 article on his own reading",
+        "It has not been traced to him in any form",
+        "It is from a letter to his son Kermit in 1908",
+        "It is from the preface to A Book-Lover's Holidays in the Open"
+      ],
+      "answer": 1,
+      "explanation": "No source for it has been found in anything Roosevelt wrote or said. He would probably have agreed with the sentiment — he read a book a day when he could — and he left plenty of real lines about books, including a letter home from the age of seventeen saying his books made him feel quite at home. The line itself echoes Tennyson's Ulysses, and it seems to have drifted onto Roosevelt because it sounds like him.",
+      "image": "assets/img/shared/tr-reading-tent.jpg",
+      "imageAlt": "Roosevelt sitting on a camp chair in front of a tent, reading a book",
+      "credit": "Roosevelt reading in front of his tent in hunting camp, 1910. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/books-and-writings",
+        "label": "The Author President"
+      }
+    },
+    {
+      "prompt": "Roosevelt was the first American president to fly in an aeroplane. What is usually left out of that?",
+      "options": [
+        "He refused to leave the ground and only taxied up and down",
+        "He had been out of office for a year and a half at the time",
+        "The machine was a balloon and not an aeroplane at all",
+        "It happened on the day he left the White House in March 1909"
+      ],
+      "answer": 1,
+      "explanation": "The flight was on 11 October 1910 at Kinloch Field outside St. Louis, with Arch Hoxsey of the Wright exhibition team, and it lasted about three and a half minutes and two circuits of the field. Roosevelt had left the presidency in March 1909, so he made the flight as a private citizen — which is why the credit is sometimes handed to Franklin Roosevelt instead. Hoxsey was killed attempting an altitude record eleven weeks later.",
+      "image": "assets/img/myths-expert/tr-hoxsey-flight.jpg",
+      "imageAlt": "Roosevelt and a younger man sitting side by side in the open frame of an early biplane, a crowd behind them",
+      "credit": "Theodore Roosevelt and Arch Hoxsey in a Wright biplane at Kinloch Field, St. Louis, 11 October 1910; the photographer's copyright line is lettered across the print. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/post-presidency",
+        "label": "After the White House"
+      }
+    },
+    {
+      "prompt": "One much-quoted Roosevelt line is nearly right and wrong by a single word: the joy in life is his who has the heart to demand it. What did he actually write?",
+      "options": [
+        "The joy of living is his who has the heart to demand it",
+        "The joy in life is his who has the will to demand it of himself",
+        "The joy of life belongs to him who dares to go and demand it",
+        "The joy of the world is his who has the heart to claim it"
+      ],
+      "answer": 0,
+      "explanation": "It closes the foreword to A Book-Lover's Holidays in the Open, published in 1916, and the word is living rather than life. It is a small thing and a fair test of how a quotation travels: nobody misquotes on purpose, but a sentence copied from a copy drifts a word at a time until it is somebody else's sentence with Roosevelt's name under it.",
+      "image": "assets/img/reading/sagamore-library-1904.jpg",
+      "imageAlt": "A book-lined room with a fireplace, a large desk and heavy chairs",
+      "credit": "Roosevelt's library at Sagamore Hill, Oyster Bay. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/books-and-writings",
+        "label": "The Author President"
+      }
+    },
+    {
+      "prompt": "Don't hit at all if it is honorably possible to avoid hitting, but never hit soft. What has happened to that one?",
+      "options": [
+        "It is a paraphrase invented by a biographer writing in the 1940s",
+        "He said it of prizefighting rather than of politics or of war",
+        "Several sentences from one 1918 speech have been fused into one",
+        "It belongs to his father, and he quoted it in the Autobiography"
+      ],
+      "answer": 2,
+      "explanation": "The substance is his and the words are nearly all his, but the sentence as it circulates has been assembled out of several from a single address — to the National Press Club in Washington in January 1918, when he had come down to press Congress and the Wilson administration on the conduct of the war. In the original he tells his audience not to get into a fight if it can be avoided, to see it through if they do, and, if they hit a man at all, to put him to sleep.",
+      "image": "assets/img/myths-expert/tr-standing-portrait.jpg",
+      "imageAlt": "Roosevelt speaking with his fist raised, papers in his other hand, beside a stone column",
+      "credit": "Theodore Roosevelt speaking, 1918. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/fake-quotes",
+        "label": "Did T.R. Really Say That?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+ "wild-west-poster": {
+  "source": "loc",
+  "ref": "94504456",
+  "source_file": "loc_pictures_94504456",
+  "description": "Buffalo Bill's wild west and congress of rough riders of the world. A squad of genuine Cuban insurgents, ...",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x957"
+ },
+ "tr-at-mess": {
+  "source": "loc",
+  "ref": "2013651530",
+  "source_file": "loc_pictures_2013651530",
+  "description": "[Theodore Roosevelt at mess, Rough Riders military camp, Montauk Point, New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1719"
+ },
+ "tr-on-horseback": {
+  "source": "loc",
+  "ref": "96512738",
+  "source_file": "loc_pictures_96512738",
+  "description": "[Theodore Roosevelt and other Rough Riders on horseback]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1106"
+ },
+ "tr-rough-rider-portrait": {
+  "source": "loc",
+  "ref": "2010646527",
+  "source_file": "loc_pictures_2010646527",
+  "description": "Col. Theodore Roosevelt of the \"Rough Riders\" - after his return from Cuba",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x720"
+ },
+ "rough-riders-camp": {
+  "source": "loc",
+  "ref": "2013651511",
+  "source_file": "loc_pictures_2013651511",
+  "description": "[Theodore Roosevelt's Rough Riders, at military camp, Montauk Point, New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x874"
+ },
+ "rough-riders-company-a": {
+  "source": "loc",
+  "ref": "2013651510",
+  "source_file": "loc_pictures_2013651510",
+  "description": "[Theodore Roosevelt's Rough Riders, Company A, at military camp, Montauk Point, New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x887"
+ },
+ "rough-riders-conference": {
+  "source": "loc",
+  "ref": "2013651529",
+  "source_file": "loc_pictures_2013651529",
+  "description": "[Theodore Roosevelt in conference, Rough Riders military camp, Montauk Point, New York]",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1149"
+ }
+}

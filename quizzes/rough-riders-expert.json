@@ -1,0 +1,291 @@
+{
+  "id": "rough-riders-expert",
+  "title": "The First Volunteer Cavalry",
+  "subtitle": "How the regiment was armed, dressed, shipped and fought, 1898",
+  "intro": "The charge is the part everyone knows. This quiz is about everything underneath it: the carbine Leonard Wood pulled strings to get, the stable fatigues the men wore because nothing else was available, the transport Roosevelt took by running his regiment to the quay, and the machine guns that fired Spanish ammunition because that was the only ammunition there was. Thirteen questions for people who have already read the standard account.",
+  "heroImage": "assets/img/rough-riders-expert/regiment-staff.jpg",
+  "heroAlt": "Six officers in field uniform standing among pine trees, Roosevelt at the right in pince-nez",
+  "heroCredit": "Staff of the First United States Volunteer Cavalry at Tampa, 1898; the Library of Congress record identifies Roosevelt and Leonard Wood in the front row. The print is mounted and its upper corner has curled and torn. Library of Congress, Prints and Photographs Division.",
+  "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+  "shuffle": {
+    "questions": true,
+    "options": true
+  },
+  "live": {
+    "seconds": 25,
+    "revealSeconds": 5
+  },
+  "badge": {
+    "title": "The First Volunteer Cavalry",
+    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's expert quiz on the Rough Riders - {tier}. Try it:",
+    "url": "https://www.trlibrary.com/tr/rise-to-power"
+  },
+  "tiers": [
+    {
+      "min": 13,
+      "name": "Read the Muster Rolls",
+      "line": "Every detail, down to the cartridge. That is remarkable."
+    },
+    {
+      "min": 11,
+      "name": "Knows the Regiment",
+      "line": "You have been past the charge and into the paperwork."
+    },
+    {
+      "min": 8,
+      "name": "Well Past the Legend",
+      "line": "A strong showing on ground that was built to be hard."
+    },
+    {
+      "min": 5,
+      "name": "Onto the Detail",
+      "line": "You are working from the sources, not the story."
+    },
+    {
+      "min": 3,
+      "name": "Following the Column",
+      "line": "This quiz was made difficult on purpose. That is a real start."
+    },
+    {
+      "min": 0,
+      "name": "New to the Ground",
+      "line": "Nobody arrives knowing this. The explanations are the point."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "At Tampa in June 1898 the transport Yucatan was allotted to the Rough Riders — and to two other regiments as well. How did the Rough Riders end up sailing in her?",
+      "options": [
+        "General Shafter settled the argument in their favour at the quayside",
+        "They drew lots against the other two regiments and won",
+        "Wood boarded from a launch; Roosevelt ran the regiment to the quay",
+        "Roosevelt paid the ship's master out of his own pocket to take them"
+      ],
+      "answer": 2,
+      "explanation": "Roosevelt tells this one against himself and enjoys it. Wood seized a stray launch and got aboard; Roosevelt, learning that the ship had also been promised to the Second Regular Infantry and the Seventy-first New York, ran to the troop train and marched his men up at the double, boarding as she came alongside and then holding her. The other two regiments arrived a few minutes later, he wrote, “being a shade less ready than we were in the matter of individual initiative.” She could not have carried half the men assigned to her in any case.",
+      "image": "assets/img/rough-riders-expert/yucatan-transport.jpg",
+      "imageAlt": "A single-funnelled steamship lying at anchor, her decks and rigging crowded with men",
+      "credit": "The transport Yucatan, which carried the Rough Riders from Tampa to Cuba, 1898. Cropped from an album page; the mount board shows at the edges. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Leonard Wood fought hard to have his volunteers issued the Krag-Jörgensen carbine that the regular cavalry carried. What was the point of it?",
+      "options": [
+        "The Krag was the only carbine light enough for men fighting on foot in Cuba",
+        "Matching the regulars' weapon made brigading with them likely",
+        "It was the one rifle chambered for the ammunition stockpiled at Tampa",
+        "Congress had forbidden the issue of any other weapon to volunteers"
+      ],
+      "answer": 1,
+      "explanation": "Roosevelt is explicit about the reasoning. Wood understood, as the Ordnance Department did not, the value of smokeless powder, and he wanted the weapons of the regulars because that meant being brigaded with them, and the regulars would do the bulk of the fighting in a short war. He got it: “he succeeded in getting our regiment armed with the Krag-Jorgensen carbine used by the regular cavalry.” State militia regiments went to war with black-powder Springfields, which announced the firer's position with every shot.",
+      "image": "assets/img/rough-riders-expert/regimental-drill.jpg",
+      "imageAlt": "Several hundred mounted cavalrymen drawn up in ranks on open ground, with a few officers riding out in front",
+      "credit": "Regimental drill of the Rough Riders at San Antonio, Texas, 1898. Cropped from a panoramic print on a card mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "The Rough Riders went to Cuba in brown canvas, not army blue. Why?",
+      "options": [
+        "Roosevelt had Brooks Brothers make canvas suits for the whole regiment",
+        "Blue wool was reserved for regiments already under orders for Cuba",
+        "The regiment voted on a uniform and chose canvas for the heat",
+        "The quartermaster had no blue wool, so Wood drew the canvas stable fatigue instead"
+      ],
+      "answer": 3,
+      "explanation": "Told flatly by the quartermaster general that no uniforms were to be had, Wood asked what was in the depot and took the Model 1884 fatigue suit of coarse brown canvas, a working garment meant for the stables. It turned out to be far better for the tropics than the regulation blue wool, and it is the reason the regiment looks unlike anybody else in the photographs. The shirts were still dark blue wool flannel, which one trooper remembered as hotter than anything else he wore.",
+      "image": "assets/img/rough-riders-expert/wood-tr-brodie.jpg",
+      "imageAlt": "Three officers sitting on camp stools outside a wall tent, Roosevelt on the left in a light canvas jacket and campaign hat",
+      "credit": "Theodore Roosevelt, Leonard Wood and Alexander Brodie at San Antonio, Texas, 1898. The print is creased and has been retouched along the lower edge. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Congress authorised more than one regiment of this kind in the spring of 1898. How many were raised, and how many reached Cuba?",
+      "options": [
+        "Three were raised; one reached Cuba",
+        "One was raised, and it reached Cuba",
+        "Six were raised; two reached Cuba",
+        "Three were raised, and all three reached Cuba"
+      ],
+      "answer": 0,
+      "explanation": "The declaration of war provided for three regiments of United States Volunteer Cavalry recruited from frontiersmen. Roosevelt and Wood got the First. The Second and Third were still forming when the expedition sailed, and the War Department mustered all three out together in the autumn as the most expensive troops it had. Roosevelt admitted watching the commander of a rival regiment at the War Department with the alertness one reserves for a competitor.",
+      "image": "assets/img/rough-riders-expert/camp-tents-san-antonio.jpg",
+      "imageAlt": "A line of shelter tents pitched on bare ground with troopers standing along a company street",
+      "credit": "Rough Rider camp at San Antonio, Texas, about May 1898. Cropped from an album page numbered in ink. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "The War Department first allotted the regiment 780 men. What did it finally muster, and what did the difference make possible?",
+      "options": [
+        "1,000 — and room for volunteers from outside the Territories",
+        "900 — and a fourth squadron held in reserve at Tampa",
+        "1,250 — and a second regiment raised in Arizona",
+        "800 — and a troop of Cuban exiles recruited in Florida"
+      ],
+      "answer": 0,
+      "explanation": "Wood was told to raise 780 men and could have raised a brigade — applications came in from every quarter of the Union within days of the announcement. The department then found the money for a thousand saddles, and that couple of hundred extra places is the only reason the regiment has an Eastern half at all: the organised troops it was allowed to accept came from the Territories, so everybody else had to be taken one at a time. Roosevelt could not accept one Harvard applicant in ten. Four New York policemen who had served under him at the Police Board talked their way in, and two of them died in Cuba. Woodbury Kane, a Harvard friend and a well-known yachtsman, turned up at San Antonio and was found washing dishes for a troop of New Mexicans. The regiment was all white: the army of 1898 was segregated, no Black applicant was enlisted in it, and the Black regulars who fought beside it were the Ninth and Tenth Cavalry.",
+      "image": "assets/img/rough-riders-expert/troop-a-arizona.jpg",
+      "imageAlt": "A long line of mounted troopers halted in open country, a guidon at the left of the line",
+      "credit": "Troop A, raised in Arizona, with Major Alexander Brodie in the foreground, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "The two Colt automatic guns the regiment took to Cuba had one awkward property. What was it?",
+      "options": [
+        "They took the cartridge of the Spanish rifle, not the American one",
+        "They had been bought second-hand from Cuban rebels at Tampa in June",
+        "No officer in the regiment had ever seen one of them fired before",
+        "They were too heavy to be carried by the regiment's pack mules"
+      ],
+      "answer": 0,
+      "explanation": "The guns were a present from a group of the New York men in the ranks — Roosevelt names them as “the gift of Stevens, Kane, Tiffany” and one or two others — and they arrived with ten thousand rounds, which Wood pointed out was nowhere near enough. Worse, they took the 7×57mm round of the Spanish Mauser rather than the .30-40 of the regiment's own carbines. Wood's answer was that they would capture more from the Spaniards. Roosevelt also declined an offer from John Jacob Astor to join as a major and bring six Maxims, on the grounds that Maxim spares came from Germany.",
+      "image": "assets/img/rough-riders-expert/colt-gun-detail.jpg",
+      "imageAlt": "About twenty men grouped behind two machine guns on tall tripods outside a wooden building, one man holding a bugle",
+      "credit": "Rough Riders with the regiment's two Colt automatic guns, San Antonio, 1898; photograph by Ernest Wilhelm Raba, whose studio signature appears on the mount. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "The first shot fired by a Rough Rider in the war was fired by a trooper on point at Las Guásimas. What happened to him?",
+      "options": [
+        "He was killed by the first Spanish volley",
+        "He was hit seven times in the fight and lived",
+        "He was taken prisoner and exchanged a week later",
+        "He was reprimanded for firing before the order came"
+      ],
+      "answer": 1,
+      "explanation": "Tom Isbell, a Cherokee trooper of L Troop, crawled to within about sixty yards of a Spanish soldier, dropped him, and pocketed the empty case as a souvenir. Then, as he put it, hell opened. Roosevelt's own account is exact: “He was wounded no less than seven times” — through the neck, the thumb, the hip, the neck again, the hand, the head and the neck once more. He survived, and afterwards went into Buffalo Bill's Wild West show.",
+      "image": "assets/img/rough-riders-expert/after-guasimas.jpg",
+      "imageAlt": "Four men in campaign hats carrying a wounded comrade slung between them across stony ground, palms behind",
+      "credit": "Troopers carrying a wounded man after the fight at Las Guásimas, Cuba, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Within a day of Las Guásimas the press was reporting that the regiment had walked into an ambush. Who put that word into circulation most damagingly?",
+      "options": [
+        "Richard Harding Davis, in a dispatch to the New York Herald",
+        "The Spanish commander, in a communiqué the wire services picked up",
+        "General Wheeler, in his official report",
+        "Stephen Crane, in a dispatch calling it a gallant blunder"
+      ],
+      "answer": 3,
+      "explanation": "Crane walked at the rear of the column and wrote that the Rough Riders had advanced noisily and without a plan and had been ambushed — “simply a gallant blunder,” though he praised the men's steadiness under fire. Roosevelt spent an appendix of his book rebutting the charge: Capron had found the Spanish outpost, the column had halted and partly deployed before a shot was fired, and they were where they expected the enemy to be. In the valley below, General Young's column of regulars — the First and the Tenth Cavalry, the latter a Black regiment — fought the same action and got a fraction of the notice. Roosevelt praised them at the time and disparaged them later, in terms that Sergeant Presley Holliday of the Tenth answered in print in 1899.",
+      "image": "assets/img/rough-riders-expert/brodie-wounded.jpg",
+      "imageAlt": "An officer standing beside a wall tent with one arm strapped across his chest in a sling",
+      "credit": "Major Alexander Brodie, wounded at Las Guásimas, photographed later at Camp Wikoff, Montauk, by Dwight L. Elmendorf. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/complex-legacy",
+        "label": "T.R.'s Complex Legacy"
+      }
+    },
+    {
+      "prompt": "Captain William O. O'Neill, mayor of Prescott, Arizona, was killed on 1 July while walking up and down in front of his men. What had he said moments before?",
+      "options": [
+        "That a captain who takes cover has no business commanding",
+        "That the Spanish bullet was not made that would kill him",
+        "That he would see them all on top of the hill",
+        "That he intended to be the first man over the crest"
+      ],
+      "answer": 1,
+      "explanation": "Bucky O'Neill held that an officer should never take cover. His men begged him to get down, and a sergeant told him a bullet was certain to hit him. He took the cigarette out of his mouth, blew out the smoke and laughed: “the Spanish bullet isn't made that will kill me.” Minutes later a Mauser round entered his mouth and came out the back of his head. Roosevelt called it the most serious loss the regiment could have suffered, and it came just before they charged.",
+      "image": "assets/img/rough-riders-expert/guasimas-headboards.jpg",
+      "imageAlt": "A row of plain wooden headboards standing in bare earth, a folded flag lying at the foot of one",
+      "credit": "Graves of the Rough Riders killed at Las Guásimas, 24 June 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "What had Leonard Wood been doing for a living in the months before he was made colonel of the regiment?",
+      "options": [
+        "Commanding a squadron of regular cavalry on the Mexican border",
+        "Practising as an army surgeon, with the President's household among his patients",
+        "Serving as the military attaché at the American legation in Madrid",
+        "Teaching tactics and horsemanship at the Army War College"
+      ],
+      "answer": 1,
+      "explanation": "Wood had gone through Harvard Medical School and joined the army as a contract surgeon. He earned the Medal of Honor on the expedition that ran down Geronimo in 1886, and by the 1890s he was an assistant attending surgeon in Washington whose patients included Grover Cleveland and then Ida McKinley. That is why he could walk into the White House to ask for Krag carbines. He had never commanded troops in the field before 1898, and Roosevelt turned down the colonelcy in his favour precisely because Wood knew how to equip a regiment and he did not.",
+      "image": "assets/img/rough-riders-expert/regiment-staff.jpg",
+      "imageAlt": "Six officers in field uniform standing among pine trees, Roosevelt at the right in pince-nez",
+      "credit": "Staff of the First United States Volunteer Cavalry at Tampa, 1898. The mounted print has a torn and curled corner. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/people",
+        "label": "The People Around Him"
+      }
+    },
+    {
+      "prompt": "The regiment took three mascots to Tampa. Which of them actually sailed to Cuba?",
+      "options": [
+        "The mountain lion only",
+        "The eagle and the dog",
+        "The dog only",
+        "All three"
+      ],
+      "answer": 2,
+      "explanation": "The Arizona troops brought a young mountain lion called Josephine, the New Mexicans a war eagle, and somewhere along the way the regiment picked up a small, knowing and thoroughly disreputable dog named Cuba. Roosevelt records that the lion and the eagle “we had been forced to leave behind in Tampa”; only the dog went through the campaign. Josephine had an infernal temper and was kept tied, though she once got loose at Montauk and climbed into bed with a trooper of the Third Cavalry, who left the tent at speed.",
+      "image": "assets/img/rough-riders-expert/mascots.jpg",
+      "imageAlt": "Men in campaign hats gathered round a crate, one holding a large eagle perched on top and another reaching towards a barred cage",
+      "credit": "The regimental mascots — the eagle, the mountain lion and the dog — at Camp Wikoff, Montauk, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Trooper George Rowland of New Mexico was sent back from Las Guásimas with a broken rib and ordered home to the States. What did he do?",
+      "options": [
+        "Appealed to Roosevelt and was allowed to stay with his troop",
+        "Went home to New Mexico and rejoined the regiment at Montauk",
+        "Waited for dark, went out of the window and walked back",
+        "Refused the order outright and was tried by court-martial for it"
+      ],
+      "answer": 2,
+      "explanation": "Roosevelt had already noticed blood coming through Rowland's shirt during the fight and sent him to the rear; the surgeons at Siboney decreed his wound serious enough to send him home. That was enough for Rowland, who waited until nightfall and left by “slipping out of the window,” walking back to the regiment and fighting on. He turned down the chance to stay East afterwards, writing to a New York comrade that he was not a buffalo or a rhinoceros or a giraffe and did not like being stared at.",
+      "image": "assets/img/rough-riders-expert/tampa-pier.jpg",
+      "imageAlt": "A crowded railway pier, with boxcars, pack mules and a transport ship lying alongside",
+      "credit": "The embarkation pier at Tampa, Florida, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Eight Rough Riders were killed at Las Guásimas on 24 June 1898, and seven were buried next morning in the common grave on the summit of the trail. Why the difference?",
+      "options": [
+        "Captain Capron's body was carried down to Siboney and buried there",
+        "One man's body was never found in the jungle above the road",
+        "Sergeant Hamilton Fish's family shipped his body home at once",
+        "One of the eight was buried by the First Cavalry with its own dead"
+      ],
+      "answer": 0,
+      "explanation": "Roosevelt's own count is eight killed and thirty-four wounded, and the first two are the pair always named together: Sergeant Hamilton Fish, grandson of Grant's Secretary of State, shot at the head of the point, and Captain Allyn Capron, the regular officer Roosevelt thought the best soldier in the regiment, hit a few minutes later. Capron's body was taken down to Siboney so that his father — an artillery captain still unloading guns at the coast — could reach it; the father was found at last and came hurrying, and his son was already in the earth. The other seven went into one long trench above the road the next morning, its bottom lined with fresh grass, while Chaplain Brown read the Episcopal service, the men sang Rock of Ages and the vultures wheeled overhead. Roosevelt wrote of them as one in the way they met death — “Indian and cowboy, miner, packer, and college athlete.”",
+      "image": "assets/img/rough-riders-expert/guasimas-headboards.jpg",
+      "imageAlt": "A row of plain wooden headboards standing in bare earth, a folded flag lying at the foot of one",
+      "credit": "The common grave of the Rough Riders buried at Las Guásimas, 24 June 1898; the Harvard record names Hamilton Fish among them. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    }
+  ]
+}

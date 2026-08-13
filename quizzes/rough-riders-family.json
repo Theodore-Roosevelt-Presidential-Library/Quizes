@@ -1,0 +1,214 @@
+{
+ "id": "rough-riders-family",
+ "title": "The Rough Riders",
+ "subtitle": "Family Edition",
+ "intro": "Twenty thousand men wrote in asking to join. They trained for two weeks. They kept a mountain lion, a war eagle and a small dog as mascots, and a boy from Tennessee stowed away on the ship. Nine short questions on the most famous regiment in American history — how it was put together, what it ate, and what it sang.",
+ "heroImage": "assets/img/rough-riders-family/tr-rough-rider-portrait.jpg",
+ "heroAlt": "Theodore Roosevelt in Rough Rider uniform, mounted on a horse",
+ "heroCredit": "Colonel Theodore Roosevelt of the Rough Riders, 1898. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/rise-to-power",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Rough Riders — Family Edition",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's family quiz about the Rough Riders — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/rise-to-power"
+ },
+ "tiers": [
+  {
+   "min": 9,
+   "name": "Colonel of the Regiment",
+   "line": "Perfect. Every man accounted for."
+  },
+  {
+   "min": 7,
+   "name": "Troop Sergeant",
+   "line": "You know this outfit well."
+  },
+  {
+   "min": 5,
+   "name": "In the Saddle",
+   "line": "Good riding. Keep going."
+  },
+  {
+   "min": 3,
+   "name": "Signed Up Today",
+   "line": "You're in. It gets easier from here."
+  },
+  {
+   "min": 0,
+   "name": "Reading the Notice",
+   "line": "Come along. There is a place for you."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "The regiment's real name was the First United States Volunteer Cavalry. Nobody in it chose the nickname Rough Riders, and at first the men fought it. What made them give in?",
+   "options": [
+    "Generals used it in official orders",
+    "The men voted on it in camp",
+    "Buffalo Bill asked them to use it",
+    "It was stitched on their saddles"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt wrote that the public christened them the Rough Riders and that they fought the term to no purpose — then the generals of division and brigade started using it in formal orders, and the regiment adopted it too. The words were already famous: Buffalo Bill Cody was touring with a show billed as his Wild West and Congress of Rough Riders of the World.",
+   "image": "assets/img/rough-riders-family/wild-west-poster.jpg",
+   "imageAlt": "A brightly coloured 1898 poster for Buffalo Bill's Wild West and Congress of Rough Riders of the World",
+   "credit": "Poster for Buffalo Bill's Wild West and Congress of Rough Riders of the World, about 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "Word went out in 1898 that Roosevelt was raising a regiment. Roughly how many men wrote in asking to join?",
+   "options": [
+    "About three hundred",
+    "About twelve hundred",
+    "About four thousand",
+    "More than twenty thousand"
+   ],
+   "answer": 3,
+   "explanation": "Accounts put it between twenty and twenty-three thousand — enough men for a whole division, for fewer than a thousand places. The letters came in sacks. Roosevelt said the hard part was never picking men; it was turning them down.",
+   "image": "assets/img/rough-riders-family/rough-riders-company-a.jpg",
+   "imageAlt": "Company A of the Rough Riders posed in rows on a grassy slope, with a small dog in the front row",
+   "credit": "Rough Riders, Company A, at Camp Wikoff, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "The Rough Riders trained together in Texas before going to war. About how long did that training last?",
+   "options": [
+    "Two weeks",
+    "Six months",
+    "Two years",
+    "Five years"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt left Washington on 12 May 1898, reached San Antonio on the 15th, and the regiment pulled out for Florida on 29 May. Most of the men had never drilled in their lives. Roosevelt cheerfully admitted he knew as little about army paperwork as they knew about drill.",
+   "image": "assets/img/rough-riders-family/rough-riders-camp.jpg",
+   "imageAlt": "A long row of Rough Riders posed in camp, with a white dog sitting among them",
+   "credit": "Rough Riders at Camp Wikoff, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "Rough Riders gave each other nicknames meaning the opposite of the truth. A smart Eastern clubman was called Tough Ike. What did they call his tent-mate, a rough cowboy?",
+   "options": [
+    "The Parson",
+    "The Schoolboy",
+    "The Dude",
+    "The Deacon"
+   ],
+   "answer": 2,
+   "explanation": "Roosevelt listed the names in his own book about the regiment. A gambler who was \"almost abnormally quiet and gentle\" got called Hell Roarer. Half the regiment were cowboys and half were college athletes, and teasing was how the two halves got acquainted.",
+   "image": "assets/img/rough-riders-family/rough-riders-company-a.jpg",
+   "imageAlt": "Rough Riders of Company A posed together in camp",
+   "credit": "Rough Riders, Company A, at Camp Wikoff, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "One song followed the Rough Riders everywhere in 1898. Which?",
+   "options": [
+    "Yankee Doodle",
+    "The Battle Hymn of the Republic",
+    "Home on the Range",
+    "A Hot Time in the Old Town Tonight"
+   ],
+   "answer": 3,
+   "explanation": "Bands played it on the transports at Tampa, and men on one ship could hear it drifting across the water from another. It became the unofficial song of the whole war. Reporters noticed that when a band struck it up in his hearing afterwards, Roosevelt blushed, took off his hat and bowed.",
+   "image": "assets/img/rough-riders-family/rough-riders-camp.jpg",
+   "imageAlt": "Rough Riders posed in a long line in camp",
+   "credit": "Rough Riders at Camp Wikoff, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "The food in Cuba was poor. What did Roosevelt do about it?",
+   "options": [
+    "He wrote to the president",
+    "He paid for food himself",
+    "He ordered the men to fish",
+    "He had food sent from New York"
+   ],
+   "answer": 1,
+   "explanation": "The men had salt pork and hard biscuit and very little else. Roosevelt heard the supply store on the coast had eleven hundred pounds of beans, and army rules said tinned and dried food could only be bought for officers — so he paid for the beans himself and shared them out. One trooper carried a sack eight miles back to camp.",
+   "image": "assets/img/rough-riders-family/tr-at-mess.jpg",
+   "imageAlt": "Theodore Roosevelt eating at a rough table under an open mess tent",
+   "credit": "Theodore Roosevelt at mess, Rough Riders camp, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "A boy from Tennessee tried to stow away on the Rough Riders' ship. What happened to him?",
+   "options": [
+    "He sailed to Cuba after all",
+    "He was sent home to his parents",
+    "He was never found",
+    "The regiment adopted him"
+   ],
+   "answer": 3,
+   "explanation": "His name was Dabney Royster and he had smuggled himself aboard at Tampa with a small rifle and three boxes of cartridges. He wept when they put him ashore. The men left behind then adopted him, had a Rough Rider uniform made to his exact measurements, and counted him one of the regiment.",
+   "image": "assets/img/rough-riders-family/rough-riders-conference.jpg",
+   "imageAlt": "Rough Riders standing about in camp among stacked crates and tents",
+   "credit": "Theodore Roosevelt in conference, Rough Riders camp, Montauk Point, New York, 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "Roosevelt's pony in Cuba was named after an American state. Which one?",
+   "options": [
+    "Vermont",
+    "Ohio",
+    "Texas",
+    "Maine"
+   ],
+   "answer": 2,
+   "explanation": "Little Texas. Roosevelt's servant Marshall, an old soldier of the Ninth Cavalry — one of the army's Black regiments — named both of Roosevelt's horses. Almost everyone else in the regiment had to leave their horses behind in Florida and walk, which earned them a second and much less glamorous nickname: Wood's Weary Walkers.",
+   "image": "assets/img/rough-riders-family/tr-rough-rider-portrait.jpg",
+   "imageAlt": "Theodore Roosevelt mounted on a horse in Rough Rider uniform and campaign hat",
+   "credit": "Colonel Theodore Roosevelt of the Rough Riders, from a stereograph published in 1898. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  },
+  {
+   "prompt": "The regiment rode a train from Texas to Florida. What did people do when it stopped along the way?",
+   "options": [
+    "Brought them milk, fruit and flowers",
+    "Asked the men to sing for them",
+    "Sold them boots, hats and saddles",
+    "Stayed away and kept the streets clear"
+   ],
+   "answer": 0,
+   "explanation": "The trip took four days and four nights, hot and dusty, with the horses to be unloaded and watered at every stop. Roosevelt wrote that everywhere the people came out to cheer them, bringing flowers, watermelons and pails of milk. Much of the route ran through the old Confederacy, and grey-haired men who had fought against the Stars and Stripes came down to the tracks to see their own sons off to fight under it.",
+   "image": "assets/img/rough-riders-expert/tampa-pier.jpg",
+   "imageAlt": "Railway tracks and freight cars running the length of the embarkation pier at Tampa, with mules, dock workers and transport ships alongside",
+   "credit": "The embarkation pier at Tampa Bay, Florida, 1898. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/rise-to-power",
+    "label": "The rise to power"
+   }
+  }
+ ]
+}

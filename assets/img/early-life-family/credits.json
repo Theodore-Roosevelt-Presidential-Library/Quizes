@@ -1,0 +1,74 @@
+{
+ "tranquility-oyster-bay": {
+  "source": "loc",
+  "ref": "92520592",
+  "source_file": "loc_pictures_92520592",
+  "description": "Tranquility, summer home at Oyster Bay of Mr. and Mrs. Theodore Roosevelt",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1019"
+ },
+ "nile-dahabeah": {
+  "source": "loc",
+  "ref": "92500966",
+  "source_file": "loc_pictures_92500966",
+  "description": "Cairo, Dahabeah or Nile boat",
+  "rights": "No known restrictions on publication in the U.S. Use elsewhere may be restricted by other countries' laws. For general information see \"Copyright and Other Restrictions...\" http://www.loc.gov/rr/print/195_copr.html.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1115"
+ },
+ "tr-age-eleven": {
+  "source": "dam",
+  "ref": "3fd2c2bb-8ff5-4758-a2ca-bbeb5806c5f0",
+  "source_file": "har_2011124_Theodore_Roosevelt_11_years_old.jpg",
+  "description": "Theodore Roosevelt, 11 years old \u2014 Carte-de-visite portrait bust of \"Teedie,\" Paris (France). Photograph by Le Jeune. \u2014 Creator: Le Jeune$$QLe Jeune \u2014 Date: 1870 April 7",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2264"
+ },
+ "tr-age-six-or-seven": {
+  "source": "dam",
+  "ref": "58a46f1b-48a6-469a-8098-23e9844d00b5",
+  "source_file": "har_2011123_Theodore_Roosevelt_6_or_7_years_old.jpg",
+  "description": "Theodore Roosevelt, 6 or 7 years old \u2014 Carte-de-visite portrait of \"Teedie\" standing, New York (N.Y.). Photograph by George Gardner Rockwood. \u2014 Creator: Rockwood, George Gardner 1832-1911$$QRockwood, George Gardner 1832-1911 \u2014 Date: probably 1865",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2271"
+ },
+ "roosevelt-children": {
+  "dam_id": "ba46f6fe-8ff8-4c13-88e8-efffbb9c2648",
+  "source_file": "har_3912908_Roosevelt_children.jpg",
+  "description": "Roosevelt children \u2014 Tintype, from left to right: Theodore Roosevelt, Corinne Robinson Roosevelt, Edith Kermit Carow Roosevelt, and Elliott Roosevelt, Oyster Bay (N.Y.). \u2014 Date: 1875",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2226",
+  "note": "cropped to the photograph from the mount held in the Theodore Roosevelt Collection"
+ },
+ "dresden-club": {
+  "dam_id": "7921f459-2537-453f-8c45-1d4df1623ae8",
+  "source_file": "har_2011125_Dresden_Literary_American_Club.jpg",
+  "description": "Dresden Literary American Club \u2014 Cabinet photograph of Roosevelt children and cousins. From left to right: Theodore Roosevelt, Elliott Roosevelt, Maud Elliott, Corinne Roosevelt Robinson, John Elliott, Dresden (Germany). Photograph b \u2014 Creator: Adler, Aug$$QAdler, Aug \u2014 Date: 1873 July 1",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2072",
+  "note": "cropped to the photograph from the mount held in the Theodore Roosevelt Collection"
+ },
+ "teedie-age-two": {
+  "dam_id": "7df183d4-8d18-4892-8b0e-91e037ca7a19",
+  "source_file": "har_2011120_Theodore_Roosevelt_about_2_years_old.jpg",
+  "description": "Theodore Roosevelt, about 2 years old \u2014 Carte-de-visite portrait of \"Teedie\" standing on a chair, New York (N.Y.). \u2014 Creator: Robinson, Corinne Roosevelt 1861-1933$$QRobinson, Corinne Roosevelt 1861-1933 \u2014 Date: ca. 1861",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x2308",
+  "note": "cropped to the photograph from the mount"
+ },
+ "tr-at-college": {
+  "dam_id": "f451f27e-a8e1-4e78-adb7-99002e780e92",
+  "source_file": "loc_2013650923_Theo_Roosevelt_at_college.tif",
+  "description": "Theo. Roosevelt at college \u2014 1 photographic print. | Photograph showing a young Theodore Roosevelt, as a freshman at Harvard, with side whiskers, head-and-shoulder portrait, facing left. \u2014 Date: 1876",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1931",
+  "note": "cropped to the photograph from the mount"
+ }
+}

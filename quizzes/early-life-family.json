@@ -1,0 +1,214 @@
+{
+ "id": "early-life-family",
+ "title": "The Making of a Boy",
+ "subtitle": "Family Edition",
+ "intro": "Dead mice in the icebox. A snapping turtle tied to the laundry tub. A boy of nine writing his own book about insects, and a boy of fourteen writing a story about a mouse who gives a dinner party. Nine short questions on Theodore Roosevelt's childhood — easy enough to play together, and there is something in here the grown-ups will not know either.",
+ "heroImage": "assets/img/early-life-family/tr-age-eleven.jpg",
+ "heroAlt": "Theodore Roosevelt as a boy of about eleven, in a large bow tie",
+ "heroCredit": "Theodore Roosevelt, eleven years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/early-life",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "The Making of a Boy — Family Edition",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's family quiz about T.R.'s childhood — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/early-life"
+ },
+ "tiers": [
+  {
+   "min": 9,
+   "name": "Best Friend of the Nursery",
+   "line": "Every single one. Teedie would be impressed."
+  },
+  {
+   "min": 7,
+   "name": "Chief Curator",
+   "line": "You know that house inside out."
+  },
+  {
+   "min": 5,
+   "name": "Fellow Collector",
+   "line": "Nicely done. Mind the mice."
+  },
+  {
+   "min": 3,
+   "name": "New Member of the Club",
+   "line": "A good start, and there is plenty more to find."
+  },
+  {
+   "min": 0,
+   "name": "Just Arrived",
+   "line": "Come in and sit down. The stories are the best part."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Theodore's aunt Anna grew up on a plantation in Georgia and came north to live with the Roosevelts. She told the children stories she had heard there. Which ones did he say he was brought up on?",
+   "options": [
+    "Peter Rabbit",
+    "Br'er Rabbit",
+    "Robin Hood",
+    "The Three Musketeers"
+   ],
+   "answer": 1,
+   "explanation": "Aunt Anna and Theodore's mother, Mittie, grew up at Bulloch Hall in Roswell, Georgia. They learned the Br'er Rabbit stories there from the people their family held as slaves. Anna carried the stories north and told them in the nursery by the hour. Theodore's uncle Robert wrote some of them down from her and printed them in a magazine, and hardly anyone noticed; years later Joel Chandler Harris published the same tales as Uncle Remus and the whole country read them. The people who told them first were never named.",
+   "image": "assets/img/early-life-family/teedie-age-two.jpg",
+   "imageAlt": "Theodore Roosevelt as a very small boy, standing on a chair",
+   "credit": "Theodore Roosevelt, about two years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "An honest accounting"
+   }
+  },
+  {
+   "prompt": "At about nine years old, Theodore wrote a small book of his own. What was it about?",
+   "options": [
+    "Pirates",
+    "Steam trains",
+    "Insects",
+    "Knights and castles"
+   ],
+   "answer": 2,
+   "explanation": "He called it Natural History on Insects and opened it with a note to the reader: \"All these insects are native of North America\". He wrote another one about ants. The handwriting wobbles and the spelling is patchy; the watching is not.",
+   "image": "assets/img/early-life-family/tr-age-eleven.jpg",
+   "imageAlt": "Theodore Roosevelt as a boy of about eleven",
+   "credit": "Theodore Roosevelt, eleven years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "In the summer of 1868 Theodore started doing something he would go on doing for much of his life. What?",
+   "options": [
+    "Keeping a diary",
+    "Playing the piano",
+    "Riding a bicycle",
+    "Writing to newspapers"
+   ],
+   "answer": 0,
+   "explanation": "He was nine, and the family was staying in the country beside the Hudson River. The little book is full of birds' nests, swimming, walking and long rides on a pony. He spelled asthma Asmer.",
+   "image": "assets/img/early-life-family/tr-age-six-or-seven.jpg",
+   "imageAlt": "Theodore Roosevelt aged six or seven, standing beside a chair with a hat in his hand",
+   "credit": "Theodore Roosevelt, six or seven years old. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "Theodore kept his collection all over the house. What did his mother order thrown out of the icebox?",
+   "options": [
+    "A basket of apples",
+    "A jar of paint",
+    "A pair of muddy boots",
+    "A stock of dead mice"
+   ],
+   "answer": 3,
+   "explanation": "Mittie Roosevelt found the mice on the ice and had them put out with the rubbish. Her son mourned \"the loss to science\". There was also a snapping turtle tied to the laundry tub and a litter of baby squirrels being fed milk through a syringe three times a day.",
+   "image": "assets/img/early-life-family/roosevelt-children.jpg",
+   "imageAlt": "Theodore, Corinne and Elliott Roosevelt with Edith Carow, out of doors at Oyster Bay",
+   "credit": "Theodore, Corinne and Elliott Roosevelt with Edith Carow, Oyster Bay, 1875. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
+    "label": "The young naturalist"
+   }
+  },
+  {
+   "prompt": "At fourteen Theodore wrote a story for a club he and his cousins had invented. What was the story about?",
+   "options": [
+    "A dinner party given by mice",
+    "A shipwreck on an island",
+    "A race between two engines",
+    "A knight fighting a dragon"
+   ],
+   "answer": 0,
+   "explanation": "The five children called themselves the Dresden Literary American Club, met on Sunday afternoons and read out whatever they had written that week. Theodore's was Mrs. Field Mouse's Dinner Party, in which a cricket in red trousers drops the cheese and a heavy maybug tips over the sofa. The club also had a secret motto they would not explain to anyone.",
+   "image": "assets/img/early-life-family/dresden-club.jpg",
+   "imageAlt": "The five children of the Dresden Literary American Club posed in a photographer's studio",
+   "credit": "The Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "One winter the whole Roosevelt family lived on a boat for about two months. Which river were they on?",
+   "options": [
+    "The Amazon",
+    "The Mississippi",
+    "The Thames",
+    "The Nile"
+   ],
+   "answer": 3,
+   "explanation": "They hired a dahabeah — a broad sailing houseboat with cabins along one side — and went up the Nile from Cairo. Theodore was fourteen. He had lately been given his first pair of spectacles, so for the first time he could properly see the birds along the bank, and he filled a notebook with them.",
+   "image": "assets/img/early-life-family/nile-dahabeah.jpg",
+   "imageAlt": "A dahabeah, a large sailing houseboat, moored on the Nile at Cairo",
+   "credit": "A dahabeah, or Nile boat, at Cairo. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "T.R.'s early life"
+   }
+  },
+  {
+   "prompt": "Theodore took up boxing as a boy and won a prize at his very first tournament. What was the prize?",
+   "options": [
+    "A gold watch",
+    "A pewter mug",
+    "A silver cup",
+    "A leather belt"
+   ],
+   "answer": 1,
+   "explanation": "A pewter mug he guessed was worth about fifty cents. He described himself as \"a painfully slow and awkward pupil\" and said he only won because the other two boys in his weight were even worse than he was. He kept the mug, bragged about it for years, and later wished he knew where it had got to.",
+   "image": "assets/img/early-life-family/tr-at-college.jpg",
+   "imageAlt": "Theodore Roosevelt as a young man with side whiskers",
+   "credit": "Theodore Roosevelt as a Harvard freshman, 1876. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/early-life/childhood-illness",
+    "label": "Building the body"
+   }
+  },
+  {
+   "prompt": "Where did the Roosevelt family spend their summers when Theodore was a boy?",
+   "options": [
+    "Niagara Falls",
+    "New Orleans",
+    "Oyster Bay, on Long Island",
+    "The Rocky Mountains"
+   ],
+   "answer": 2,
+   "explanation": "They rented a big white house with columns and a wide veranda, called Tranquility, and Theodore's father took it for four summers running. It belonged to a son of President Martin Van Buren, so the father of the twenty-sixth president was renting from the son of the eighth. Roosevelt loved that stretch of coast and built his own house, Sagamore Hill, close by.",
+   "image": "assets/img/early-life-family/tranquility-oyster-bay.jpg",
+   "imageAlt": "Tranquility, a white columned house at Oyster Bay, with two women sitting on the lawn",
+   "credit": "\"Tranquillity,\" the summer home at Oyster Bay rented by the Roosevelt family, 1872. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "Something arrived by post every month that Roosevelt called the best of its kind in the world. What was it?",
+   "options": [
+    "A newspaper",
+    "A seed catalogue",
+    "A book of maps",
+    "A children's magazine"
+   ],
+   "answer": 3,
+   "explanation": "It was called Our Young Folks, it ran from 1865 to 1873, and it printed adventure stories next to writing by Harriet Beecher Stowe and Longfellow. Roosevelt was still calling it \"the very best magazine in the world\" as a grown man. A boy shut indoors by asthma read instead, and he read enormously.",
+   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
+   "imageAlt": "A tintype photograph of the Roosevelt children",
+   "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  }
+ ]
+}

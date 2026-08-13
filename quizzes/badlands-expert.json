@@ -1,0 +1,291 @@
+{
+ "id": "badlands-expert",
+ "title": "The Dakota Papers",
+ "subtitle": "Contracts, ledgers and the men in the margins, 1883-1887",
+ "intro": "Most of what is told about Roosevelt's Badlands years is story. This quiz is about the paperwork underneath it: a cattle contract written in his own hand at St. Paul, a New York ledger everyone quotes for what he lost and nobody quotes twice, a four-hundred-dollar payment for ground he never owned, and one famous sentence nobody has ever traced to him. Thirteen questions for people who have already read the standard account and want to know how it is known.",
+ "heroImage": "assets/img/open-range/tr-brands.jpg",
+ "heroAlt": "A newspaper advertisement for two ranches, with four cattle engravings showing a maltese cross, a triangle and an elkhorn marked on their sides",
+ "heroCredit": "Theodore Roosevelt's brands, advertised in the Stockgrower's Journal of Miles City, Montana; the Harvard record dates the advertisement no earlier than 1884. Cropped from the newspaper page - slivers of the adjacent columns remain at the edges. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+ "learnMore": "https://www.trlibrary.com/tr/badlands",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 25,
+  "revealSeconds": 5
+ },
+ "badge": {
+  "title": "The Dakota Papers",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's expert quiz on the Badlands years - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/badlands"
+ },
+ "tiers": [
+  {
+   "min": 13,
+   "name": "Read the Ledger",
+   "line": "Every figure, every contract, every hedge. Remarkable."
+  },
+  {
+   "min": 11,
+   "name": "Worked the Sources",
+   "line": "You have been into the appendices, not just the story."
+  },
+  {
+   "min": 8,
+   "name": "Knows the Country",
+   "line": "A strong showing on ground that was meant to be hard."
+  },
+  {
+   "min": 5,
+   "name": "Onto the Detail",
+   "line": "You are past the standard account and into the evidence."
+  },
+  {
+   "min": 3,
+   "name": "Following the Trail",
+   "line": "This quiz was built to be difficult. That is a real start."
+  },
+  {
+   "min": 0,
+   "name": "New to the Archive",
+   "line": "Nobody arrives knowing this. The explanations are the point."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Roosevelt's first Dakota cattle contract was written in his own hand and dated at St. Paul on 27 September 1883. How was the arrangement built?",
+   "options": [
+    "He bought the ranch outright and paid Ferris and Merrifield a monthly wage",
+    "They would run the cattle for seven years, return the original value, and split any increase evenly",
+    "He leased the grazing from the Northern Pacific and took a share of each calf crop",
+    "He advanced the money as a loan at five per cent and kept no share in the herd"
+   ],
+   "answer": 1,
+   "explanation": "The document Hagedorn printed as an appendix puts in about four hundred head, at a cost not to exceed twelve thousand dollars, for a term of seven years. At the end Sylvane Ferris and Bill Merrifield were to return the equivalent in value of the original herd, and one half of any increase in value belonged to each side. They kept the accounts, could not sell the herd down below its original value without written consent, and were forbidden to take charge of anybody else's stock. It is a partnership agreement, not a purchase - and the reason the two men stayed on his side of the ledger for years afterwards.",
+   "image": "assets/img/open-range/cowpunchers-roundup.jpg",
+   "imageAlt": "Cowhands standing along a single rope run out from a wagon, holding a line of saddle horses behind it",
+   "credit": "Sylvane Ferris and two other cowpunchers at round-up, Blacktail Creek, 1883. Photograph by Theodore Roosevelt. Cropped from an album page with deckled edges and a chipped corner. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Bill Sewall and Wilmot Dow signed their own contract for the Elkhorn on 20 June 1885. In one respect its terms were worse for them than the Maltese Cross agreement was for Roosevelt's other partners. Which?",
+   "options": [
+    "They took one third of the increase, not a half",
+    "They were paid nothing at all until the third year",
+    "They had to buy their own saddle horses out of it",
+    "They could be turned off the place at any time without notice"
+   ],
+   "answer": 0,
+   "explanation": "Roosevelt put eleven hundred head, valued at twenty-five thousand dollars, on the Elkhorn for three years. Any increase over that sum went two thirds to him and one third to the two men from Maine. Carleton Putnam, working the same papers, notes that the contract otherwise duplicated the earlier one and puts the difference down to the plain fact that neither Sewall nor Dow had ever worked cattle in his life. They were rivermen and guides, hired because Roosevelt trusted them, not because they knew the business.",
+   "image": "assets/img/badlands-expert/dow-tr-sewall-cropped.jpg",
+   "imageAlt": "Three men in fur coats and hats standing on frozen open ground, the man in the middle holding a rifle",
+   "credit": "Wilmot Dow, T.R. and Bill Sewall at the Elkhorn Ranch in winter furs. Album mount and pencilled accession marks cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Roosevelt's Dakota accounts were kept in New York by a clerk in his brother-in-law's office. Setting aside interest on the money, what do those ledgers record?",
+   "options": [
+    "A net loss of about $82,500",
+    "A net loss of about $50,000",
+    "A net loss of about $23,500, later brought down to about $20,300",
+    "A modest profit, once the last of the cattle had been sold off"
+   ],
+   "answer": 2,
+   "explanation": "The clerk was Frank C. Smith, in Douglas Robinson's office, and every figure anyone quotes comes from one place: the appendix Hagedorn printed from those ledgers in 1921. It sets $82,500 spent between September 1884 and July 1885 against $42,443.32 in cattle sales to December 1891 and $16,500 of stock still on the range, leaving $23,556.68; later trading through the Elkhorn Stock Company brought the loss across both ventures to $20,292.63. Worth knowing that this is a single source wearing two decimal places - Carleton Putnam's note for both figures reads, in full, \"Hagedorn, Bad Lands, Appendix\", and Edmund Morris in turn cites Putnam. Where Putnam did work the accounts himself he came out somewhere else, putting Roosevelt's investment at a minimum of $85,675 rather than $82,500, on the ground that neither Roosevelt nor his later biographers had counted everything. Hagedorn, for his part, cheerfully left the lost interest - about fifty thousand more - to any arithmetic class that cared to work it out.",
+   "image": "assets/img/badlands-expert/elkhorn-ranch-cropped.jpg",
+   "imageAlt": "The Elkhorn ranch buildings among cottonwoods on the bank of the Little Missouri",
+   "credit": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. Cabinet-card mount cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Hunting Trips of a Ranchman came out from G. P. Putnam's Sons in 1885. What advantage did Roosevelt have over other frontier writers hunting for a publisher?",
+   "options": [
+    "He had bought a partnership in the firm",
+    "His father had founded the house years before",
+    "He had paid the whole cost of the printing himself",
+    "The book had been commissioned by the Smithsonian"
+   ],
+   "answer": 0,
+   "explanation": "After the success of The Naval War of 1812 he wrote a very large check - biographers put it at twenty thousand dollars - for a share of the house that had published it, kept a desk there, and described himself as a silent partner. George Haven Putnam, who knew him, thought silent an improbable word for Roosevelt under any responsibility whatever. The sources disagree on when he bought in, some placing it just after the naval history and some in 1884, so the year is best left open.",
+   "image": "assets/img/badlands/tr-1885-portrait.jpg",
+   "imageAlt": "Studio portrait of Theodore Roosevelt in 1885",
+   "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "The first edition of Hunting Trips of a Ranchman was deliberately made as a grand object. What was it?",
+   "options": [
+    "A cheap paper-covered run of fifty thousand for the news-stands",
+    "Six hundred copies bound in the hide of a buffalo he had shot",
+    "A subscription edition sold door to door across the western states",
+    "Five hundred copies on hand-woven paper at fifteen dollars each"
+   ],
+   "answer": 3,
+   "explanation": "Quarto sheets of thick, creamy hand-woven paper, margins two and a half inches wide, sumptuous engravings, grey canvas lettered in gold - and a price Edmund Morris calls unheard-of for the time. It sold out. The frontispiece came from a set of buckskin portraits made not in Dakota but in a New York studio, against a painted backdrop of flowers and ferns with his moccasins planted on a mat of artificial grass; friends who knew where he had actually been laughed when the book appeared.",
+   "image": "assets/img/badlands-expert/tr-buckskin-studio.jpg",
+   "imageAlt": "Theodore Roosevelt seated in fringed buckskin with a rifle across his knees, before a painted woodland studio backdrop",
+   "credit": "Theodore Roosevelt in buckskin with a rifle, photographed by Ludovici in a New York studio against a painted woodland backdrop. A halftone reproduction; the printed rule border has been cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "Roosevelt in print"
+   }
+  },
+  {
+   "prompt": "Writing his life of Thomas Hart Benton at Medora in June 1886 with almost no reference books, Roosevelt sent Henry Cabot Lodge a request. What did he need?",
+   "options": [
+    "Facts about Benton's career after he left the Senate in 1850",
+    "A publisher who would take the manuscript sight unseen",
+    "Lodge's own lecture notes on the Missouri Compromise",
+    "Leave to dedicate the finished book to Lodge himself"
+   ],
+   "answer": 0,
+   "explanation": "He opened by wondering whether Lodge's friendship would stand a very serious strain, then admitted he had pretty nearly finished Benton, mainly evolving him from my inner consciousness - but that once his subject left the Senate in 1850 he had nothing whatever to go by, and, being by nature timid and on occasion by choice truthful, would prefer some foundation of fact. The letter survives in Hagedorn, Morris and Brands alike. It is the best single line anyone has written about writing history on a cattle ranch.",
+   "image": "assets/img/little-mo/joe-ferris-store.jpg",
+   "imageAlt": "Six men standing on the plank porch of a frame store building",
+   "credit": "The store of Joe Ferris at Medora, N.D. - photographed for Hermann Hagedorn about 1920, more than thirty-five years after Roosevelt's first visit. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The author president"
+   }
+  },
+  {
+   "prompt": "In his Autobiography Roosevelt listed the three comforts he had brought out to the Elkhorn ranch house. What were they?",
+   "options": [
+    "A cast-iron cook stove, a feather bed and a case of claret",
+    "A rocking chair, shelves of books and a rubber bathtub",
+    "A writing desk, a wall clock and a barrel of Oyster Bay apples",
+    "A phonograph, a map of the territory and a spirit lamp"
+   ],
+   "answer": 1,
+   "explanation": "His own words: I got out a rocking-chair - I am very fond of rocking-chairs - and enough books to fill two or three shelves, and a rubber bathtub so that I could get a bath. The house itself ran sixty feet by thirty, eight rooms, a stone fireplace and a wide veranda whose railings were eventually buried under shed antlers. It was, by any Badlands standard of 1885, luxurious.",
+   "image": "assets/img/park/elkhorn-from-river.jpg",
+   "imageAlt": "The Elkhorn Ranch buildings among trees on the far bank, with cattle standing in the shallow Little Missouri",
+   "credit": "Elkhorn Ranch with the Little Missouri in the foreground. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "The Elkhorn ranch house had a cellar. What did Roosevelt do with it?",
+   "options": [
+    "Stored ice cut from the river in winter",
+    "Kept the ranch ledgers and brand books there",
+    "Turned it into a darkroom for his photographs",
+    "Used it as a cold room for hanging game"
+   ],
+   "answer": 2,
+   "explanation": "He was photographing seriously by then, and a good many of the surviving views of the Little Missouri country carry his name as the photographer. Bill Sewall, who built the place with Wilmot Dow, always claimed the design as his own - he remembered it proudly as a sizable place, sixty feet long. The stone foundations the two men laid are still on the ground at the Elkhorn Ranch Unit; the house itself was taken away for lumber.",
+   "image": "assets/img/little-mo/river-at-elkhorn.jpg",
+   "imageAlt": "The Little Missouri running shallow past a wooded bank below the Elkhorn ranch site",
+   "credit": "The river at Elkhorn - photographed for Hermann Hagedorn about 1919, some thirty years after Roosevelt left. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
+   }
+  },
+  {
+   "prompt": "In June 1884 Roosevelt and the Marquis de Morès rode to Miles City together on an errand that could have wrecked his later career. What were they asking for?",
+   "options": [
+    "A place in Granville Stuart's band of vigilantes",
+    "A contract to ship dressed beef on the Northern Pacific",
+    "A seat on the territorial stock commission at Helena",
+    "A judge willing to reopen the Riley Luffsey case"
+   ],
+   "answer": 0,
+   "explanation": "Horse thieves were working the Dakota and Montana border, and the Montana cattleman Granville Stuart had raised a secret company that the country called the stranglers. Both men wanted in. Stuart turned them down flat, on the ground that they were far too prominent to belong to a secret society. Stuart's men hanged a large number of people that summer without any trial at all. Morris and Clay Jenkinson, writing decades apart, both note how much Roosevelt's future rested on being told no.",
+   "image": "assets/img/dieup/miles-city-1886.jpg",
+   "imageAlt": "A large frame hotel building on a wide dirt street in Miles City, Montana",
+   "credit": "The old MacQueen House, Miles City, 1886 - where cattlemen congregated. Photograph by L. A. Huffman. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/complex-legacy",
+    "label": "A complex legacy"
+   }
+  },
+  {
+   "prompt": "Nearly every story told about Roosevelt in the Badlands traces back to one book. What is that book built from?",
+   "options": [
+    "The court records of Billings and Stark counties",
+    "Roosevelt's own daily ranch diaries, kept unbroken",
+    "The freight and passenger files of the Northern Pacific Railroad",
+    "Interviews taken about thirty-five years after the events"
+   ],
+   "answer": 3,
+   "explanation": "Hermann Hagedorn's Roosevelt in the Bad Lands, published in 1921. Roosevelt wrote letters of introduction in 1918 and named the men to see, writing to Bill Sewall to say that Hagedorn was coming and that Sewall should tell him everything, good, bad and indifferent, and not spare him the least bit. Hagedorn then went west and took down Sewall, Merrifield, Sylvane and Joe Ferris, Lincoln Lang, Dr. Stickney and the editor A. T. Packard. That makes the book the eyewitness source and a collection of thirty-five-year-old memories at once, and both facts matter when you read it.",
+   "image": "assets/img/open-range/men-at-corral.jpg",
+   "imageAlt": "A group of ranchmen at a pole corral, one mounted and holding a flag, badlands buttes behind",
+   "credit": "Merrifield, Sylvane Ferris and Joe Ferris among a group at a corral near Medora - photographed about 1919, more than thirty years after the open-range days. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/myths",
+    "label": "Fact versus fiction"
+   }
+  },
+  {
+   "prompt": "The sentence most often quoted about all this has Roosevelt saying he would never have been President but for his experiences in North Dakota. What does the evidence actually support?",
+   "options": [
+    "It is in his Autobiography, published in 1913",
+    "No manuscript source for it has ever been found",
+    "He wrote it to Bill Sewall on becoming President",
+    "He said it at Sioux Falls on 3 September 1910"
+   ],
+   "answer": 1,
+   "explanation": "It is not in the Autobiography and it is not in Hagedorn. It reaches us through later writers, in more than one wording, and the trail runs back no further than a state history published in 1966. What is dated, verbatim and unmistakably his own is the Sioux Falls speech of 3 September 1910, which Hagedorn set facing his first chapter: he called his years in the Dakota cattle country \"the most important educational asset of all my life.\" That is the sentence to use, and it says the same thing.",
+   "image": "assets/img/before-tr/medora-station-1900.jpg",
+   "imageAlt": "A crowd under a railway depot sign reading MEDORA, with a smaller board giving the mileage to St. Paul",
+   "credit": "Crowd at the Medora depot, September 16, 1900 - seventeen years after Roosevelt first stepped off a train here. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/quotes",
+    "label": "What he actually said, with sources"
+   }
+  },
+  {
+   "prompt": "Roosevelt paid four hundred dollars in 1884 for the Elkhorn site. What did the money buy?",
+   "options": [
+    "A hundred and sixty acres taken up under the Homestead Act",
+    "A grazing lease on railroad land, renewable every year",
+    "A squatter's claim, not title to the ground",
+    "Ownership of both banks of the river at that bend"
+   ],
+   "answer": 2,
+   "explanation": "The bottom was unsurveyed public domain. What changed hands was an abandoned shack and the rights the last occupant claimed around it - the ordinary currency of the open range, where hardly anyone owned the grass and nearly everyone behaved as though they did. Putnam records the payment plainly as four hundred dollars for squatter's rights. The whole cattle economy of the Little Missouri rested on arrangements no firmer than this one, which is a large part of why it could vanish in a single winter.",
+   "image": "assets/img/park/elkhorn-site-clearing.jpg",
+   "imageAlt": "A cleared river bottom with a line of cottonwoods, seen from the butte behind the old ranch site",
+   "credit": "The site of the Elkhorn ranch house, seen from the butte behind, about 1919. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  },
+  {
+   "prompt": "Roosevelt served as a deputy sheriff in the Badlands. Who was the sheriff over him?",
+   "options": [
+    "Sylvane Ferris",
+    "Bill Jones",
+    "Jake Maunders",
+    "Johnny Goodall"
+   ],
+   "answer": 1,
+   "explanation": "Hell-Roaring Bill Jones - a former Bismarck policeman who left that force, he told Roosevelt, after beating the mayor over the head with his gun, and who ran a jail with two rooms in it and lived in one of them himself. Roosevelt was his deputy for the northern end of the county and says so in the Autobiography, where Jones gets several affectionate pages; as Hagedorn's informants remembered it, Roosevelt once told him to his face that he was the nastiest-talking man he had ever heard, and Jones took the rebuke and stayed his friend. When Roosevelt brought in his three boat thieves he took them east to Dickinson, forty miles from Medora - two days and a night behind the wagon from where the ice stopped the boats, thirty-six hours of it without sleep.",
+   "image": "assets/img/badlands/dickinson-1883.jpg",
+   "imageAlt": "A scatter of low frame buildings on open prairie at Dickinson, Dakota Territory, in 1883",
+   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/badlands",
+    "label": "T.R. in the Badlands"
+   }
+  }
+ ]
+}

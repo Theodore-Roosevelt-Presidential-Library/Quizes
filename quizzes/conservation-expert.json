@@ -1,0 +1,309 @@
+{
+ "id": "conservation-expert",
+ "title": "The Machinery of Conservation",
+ "subtitle": "The men, the statutes and the paperwork behind 230 million acres",
+ "intro": "Everyone knows the acreage and the camping trip with John Muir. This quiz is about the apparatus: a forestry school in France, a bureau that had no forests, one Iowa congressman who wrote two of the load-bearing statutes, a commission Congress killed by amendment, and a world conference that was invited, accepted, and cancelled. Fourteen questions on how the policy was actually built - and on the parts of it that did not survive.",
+ "heroImage": "assets/img/conservation/pinchot-chief-forester.jpg",
+ "heroAlt": "Theodore Roosevelt in a top hat and Gifford Pinchot standing together on the deck of a river steamer, seen from behind",
+ "heroCredit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 25,
+  "revealSeconds": 5
+ },
+ "badge": {
+  "title": "The Machinery of Conservation",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's expert conservation quiz - {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency/conservation"
+ },
+ "tiers": [
+  {
+   "min": 14,
+   "name": "Chief Forester",
+   "line": "Statute, commission and cancelled conference alike. Extraordinary."
+  },
+  {
+   "min": 12,
+   "name": "Bureau Chief",
+   "line": "You know how the policy was assembled, not just what it protected."
+  },
+  {
+   "min": 9,
+   "name": "Supervisor",
+   "line": "A strong run on ground built to be difficult."
+  },
+  {
+   "min": 6,
+   "name": "District Ranger",
+   "line": "Well past the standard account and into the paperwork."
+  },
+  {
+   "min": 3,
+   "name": "New to the District",
+   "line": "This one was meant to be hard. Every wrong answer taught something."
+  },
+  {
+   "min": 0,
+   "name": "Just Signed On",
+   "line": "Nobody starts here knowing this. Read the explanations - they are the quiz."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Gifford Pinchot wanted to be a forester and had to leave the country to learn how. Where did he train?",
+   "options": [
+    "At the Royal Forestry School in Prussia",
+    "At the national forestry school at Nancy, in France",
+    "At the imperial forest college in Dehra Dun, India",
+    "At the University of Edinburgh's arboriculture faculty"
+   ],
+   "answer": 1,
+   "explanation": "No American college taught forestry when Pinchot graduated from Yale in 1889 - he had checked. So he spent the better part of a year at the École nationale forestière at Nancy, put his French to work, and travelled to meet essentially every significant forester in France, Germany, Britain and Switzerland. He came home with a European profession and no American institution to practise it in, which shaped everything he did afterwards.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Theodore Roosevelt in a top hat and Gifford Pinchot standing together on the deck of a river steamer, seen from behind",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Pinchot's first serious forestry job in America was on private land. Whose?",
+   "options": [
+    "The Weyerhaeuser timber holdings in Wisconsin",
+    "The Adirondack preserve of the Whitney family",
+    "George Vanderbilt's Biltmore estate in North Carolina",
+    "The Astor woodlands on the Hudson"
+   ],
+   "answer": 2,
+   "explanation": "He got the job in 1892 through the estate's landscape architect, Frederick Law Olmsted, and it is usually called the first systematic forest management in the United States. The setting was a 250-room French Renaissance house outside Asheville, which Pinchot privately thought would have been beyond criticism as a feudal castle. Roosevelt inspected the Biltmore forest himself years later. Managing somebody's private woodland was, at that date, the only way in America to do the work at all.",
+   "image": "assets/img/conservation-expert/big-trees.jpg",
+   "imageAlt": "Theodore Roosevelt in a long overcoat and top hat standing at a paling fence in front of an enormous redwood trunk labelled Giant",
+   "credit": "The nation's chief before the forest king - President Roosevelt at the Giant, Big Tree Grove, Santa Cruz, California, 1903. Photograph by Underwood & Underwood. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; the second frame, the publisher's mount and the printed caption cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Bernhard Fernow ran the federal government's forestry office before Pinchot did. What was odd about the job?",
+   "options": [
+    "It was funded entirely by the timber industry",
+    "It reported to the Navy rather than to Agriculture",
+    "It was forbidden by law to employ trained foresters",
+    "The office had no forests under its control at all"
+   ],
+   "answer": 3,
+   "explanation": "The German-American Fernow headed the government's first division of forestry without a single acre of federal timber to manage - the forest reserves belonged to the Interior Department. Pinchot inherited the same absurdity in 1898 and was still, as Timothy Egan puts it, a forester without a forest when he began sparring with Governor Roosevelt in Albany the following year. It took the transfer of 1905 to put the reserves and the foresters in the same department.",
+   "image": "assets/img/conservation-expert/cascade-lumbering.jpg",
+   "imageAlt": "A felled fir trunk lying along a skid road in dense forest, with a logger standing beside it and a cut stump behind",
+   "credit": "Lumbering in the Cascade Mountains near Seattle, Washington - a turn of logs at the No. 2 road donkey, Davidson and Caskey camps. Photograph copyright 1899 by D. R. Kinsey. Library of Congress, Prints and Photographs Division. Decorative border and the photographer's printed copyright line cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Pinchot reduced the whole policy to a single working test for deciding between competing uses of a resource. What was it?",
+   "options": [
+    "The greatest good of the greatest number for the longest time",
+    "The condition of the land a century from the date of decision",
+    "The highest price the resource would fetch at open auction",
+    "Whatever the state legislature of the state concerned preferred"
+   ],
+   "answer": 0,
+   "explanation": "It is the formula in the 1905 letter of instruction that governed the newly transferred forest reserves - a letter Pinchot drafted himself and then carried to Secretary of Agriculture James Wilson for signature. Where conflicting interests had to be reconciled, it said, the question would always be decided from the standpoint of the greatest good of the greatest number in the long run. That is a decision rule, not a sentiment, and it is exactly what divided Pinchot from John Muir: it assumes the resource will be used.",
+   "image": "assets/img/conservation/muir-yosemite-standing.jpg",
+   "imageAlt": "Theodore Roosevelt and John Muir standing together in Yosemite",
+   "credit": "Yosemite, Cal., with John Muir. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "One Iowa congressman wrote both the 1900 statute that ended commercial traffic in illegally taken wildlife and the 1906 statute that let a president create national monuments. Who?",
+   "options": [
+    "Francis Newlands",
+    "James Tawney",
+    "John F. Lacey",
+    "Charles Fulton"
+   ],
+   "answer": 2,
+   "explanation": "John F. Lacey of Iowa. The Lacey Act of 1900 made it a federal offence to ship across a state line any bird or animal taken in breach of state law, which broke the back of the market gunners; the Antiquities Act of 1906 gave Roosevelt the proclamation power he used eighteen times. Lacey had also carried the 1894 act that finally put teeth into the protection of Yellowstone. Watch the dates: the 1894 and 1900 laws are both sometimes called the Lacey Act.",
+   "image": "assets/img/earthday/grand-canyon-rim.jpg",
+   "imageAlt": "A pinnacle of rock standing in the Grand Canyon, with terraces and side canyons receding behind it",
+   "credit": "The Grand Canyon of Arizona from the rim in front of the Hotel El Tovar, 1905. Detroit Publishing Company. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "The 1902 reclamation act is universally called the Newlands Act. Where does the name come from?",
+   "options": [
+    "From the new lands the irrigation was to open",
+    "From Senator Francis Newlands of Nevada",
+    "From the Newlands district of the Colorado basin",
+    "From the Bureau of New Lands that administered it"
+   ],
+   "answer": 1,
+   "explanation": "Francis G. Newlands of Nevada introduced the bill and was still being called the father of the national irrigation policy years afterwards. The pun is a coincidence, and a durable one. The act set Frederick Haynes Newell's Reclamation Service to work on dams and canals across sixteen western states, and it became one of the busiest new agencies of the Roosevelt years.",
+   "image": "assets/img/frontier/rawding-sod-house.jpg",
+   "imageAlt": "A homesteading family standing in front of a low sod house on the Nebraska plains, with a cow grazing on the roof",
+   "credit": "The Sylvester Rawding family in front of their sod house north of Sargent, Custer County, Nebraska, 1886. Photograph by Solomon D. Butcher. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "On 4 March 1907, in an agricultural appropriations bill, the country's forest reserves acquired the name they still carry. What was it?",
+   "options": [
+    "Public timber districts",
+    "Federal woodland reserves",
+    "National forests",
+    "United States forest parks"
+   ],
+   "answer": 2,
+   "explanation": "Reserve was the wrong word for the policy. These lands were never locked away: the foresters sold timber off them and issued grazing and mining permits on them, and the money came back to the service to run them - so reserve, with its sense of land withheld, said the opposite of what the department meant. The clause that fixed it was a single line buried in a spending bill, and it renamed every reserve in the country at a stroke. Not an acre moved. Only the wording did, and the wording was what the whole argument had always been about.",
+   "image": "assets/img/conservation-expert/cascade-lumbering.jpg",
+   "imageAlt": "A felled fir trunk lying along a skid road in dense forest, with a logger standing beside it and a cut stump behind",
+   "credit": "Lumbering in the Cascade Mountains near Seattle, Washington - a turn of logs at the No. 2 road donkey, Davidson and Caskey camps. Photograph copyright 1899 by D. R. Kinsey. Library of Congress, Prints and Photographs Division. Decorative border and the photographer's printed copyright line cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "In 1907 Roosevelt appointed a commission to look at the rivers of the country as one connected system. What was it called?",
+   "options": [
+    "The Rivers and Harbors Board",
+    "The Public Lands Commission",
+    "The Inland Waterways Commission",
+    "The National Drainage Survey"
+   ],
+   "answer": 2,
+   "explanation": "The Inland Waterways Commission was the first federal body told to treat navigation, water power, flood control, irrigation and forest cover as parts of a single problem rather than as separate appropriations. Roosevelt went down the Mississippi with it that autumn, and at Memphis called for a national inventory of resources and a meeting of the governors. Both followed within a year. The commission is the hinge between forestry and everything conservation later came to mean.",
+   "image": "assets/img/conservation-expert/inland-waterways-left.jpg",
+   "imageAlt": "Two men in dark coats talking on the deck of a river steamer, one in a top hat, one with an arm raised toward the rigging",
+   "credit": "Theodore Roosevelt and Gifford Pinchot aboard the Inland Waterways Commission steamer on the Mississippi, 1907. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; the second frame, the publisher's mount and the burned-in negative number have been cropped away.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "The National Conservation Commission, chaired by Pinchot, delivered something in January 1909 that no country had produced before. What?",
+   "options": [
+    "A national inventory of natural resources",
+    "A treaty banning the export of raw timber",
+    "A uniform building code for federal buildings",
+    "The first federal survey of industrial wages"
+   ],
+   "answer": 0,
+   "explanation": "A reckoning of what the United States actually had - soil, water, forests, minerals - assembled in a matter of months and laid before the President. Roosevelt had called for exactly this in his speech at Memphis on the Mississippi trip. A majority of the states appointed conservation commissions of their own to feed it. It is the direct ancestor of every national resource assessment since, and it was compiled by a body Congress had never authorised and shortly afterwards forbade.",
+   "image": "assets/img/earthday/governors-conference.jpg",
+   "imageAlt": "Rows of men in formal dress posed on the White House portico in 1908",
+   "credit": "Conference of Governors on the conservation of natural resources, the White House, 13 May 1908. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt sent the report of his Country Life Commission to Congress on 9 February 1909 and asked for $25,000 to print it. What did Congress do?",
+   "options": [
+    "Voted the money and doubled the print run",
+    "Sent it back for revision by the Agriculture Department",
+    "Refused the money and forbade him to appoint any further commissions",
+    "Referred it to the states and took no action at all"
+   ],
+   "answer": 2,
+   "explanation": "The instrument was the Tawney amendment to the Sundry Civil bill - James Tawney of Minnesota chaired House Appropriations and had had enough of presidential commissions that spent nothing but produced findings. Roosevelt replied, almost his last official act, that he believed the amendment unconstitutional, that he would have vetoed the bill for it, and that had he been staying he would have refused to obey it. He notes with some satisfaction in the Autobiography that the commission had cost the government not one cent.",
+   "image": "assets/img/frontier/wheat-harvest-dakota.jpg",
+   "imageAlt": "Wood engraving of a wheat harvest in Dakota, with a mounted foreman watching gangs of men binding sheaves",
+   "credit": "Wheat-Harvesting in Dakota, drawn by R. F. Zogbaum for Harper's Weekly, 1887. Library of Congress, Prints and Photographs Division. Cropped from the page.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency",
+    "label": "The Roosevelt presidency"
+   }
+  },
+  {
+   "prompt": "In February 1909 Roosevelt hosted the first international conference ever held on conservation. Who came?",
+   "options": [
+    "Britain, France and Germany",
+    "The governors of the western states and territories",
+    "Canada, Newfoundland and Mexico",
+    "Delegates of the twenty-one American republics"
+   ],
+   "answer": 2,
+   "explanation": "The North American Conservation Conference met at the White House from 18 to 21 February 1909, with Newfoundland still a separate dominion and sending its own men. Pinchot helped pay for it and drafted Roosevelt's address. The delegates agreed a declaration of principles and then said the thing they had started ought to be world-wide - which was already, quietly, in hand.",
+   "image": "assets/img/conservation/conservation-conference.jpg",
+   "imageAlt": "Delegates of the 1909 North American Conservation Conference posed in rows",
+   "credit": "The North American Conservation Conference, the White House, 18-21 February 1909 - delegates from the United States, Canada, Newfoundland and Mexico. Photograph by Harris & Ewing. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt's last conservation project was a world conference on natural resources, to meet at The Hague in September 1909. Invitations went to fifty-eight nations and thirty accepted. What became of it?",
+   "options": [
+    "The Hague government withdrew the venue",
+    "It met, but the United States sent no delegation",
+    "Taft called it off within weeks of taking office",
+    "War scares in Europe emptied the delegate list"
+   ],
+   "answer": 2,
+   "explanation": "Britain, France, Germany, Canada and Mexico had all said yes. Taft, a few weeks into his term and unimpressed by what he took to be Pinchot overreaching, cancelled it. Two later presidents were urged to revive the idea and nothing came of that either. It is the largest single thing the Roosevelt conservation programme tried and failed to do, and the failure came from his own successor and his own party.",
+   "image": "assets/img/conservation/conservation-conference.jpg",
+   "imageAlt": "Delegates of the 1909 North American Conservation Conference posed in rows",
+   "credit": "The North American Conservation Conference, the White House, 18-21 February 1909 - delegates from the United States, Canada, Newfoundland and Mexico. Photograph by Harris & Ewing. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "In January 1910 the quarrel between Pinchot and Interior Secretary Richard Ballinger came to a head. How did it end for Pinchot?",
+   "options": [
+    "Taft dismissed him from the Forest Service",
+    "He resigned and joined Roosevelt in Africa",
+    "A Senate committee cleared him and he stayed on",
+    "He was moved sideways to the Reclamation Service"
+   ],
+   "answer": 0,
+   "explanation": "Taft fired him, and Henry Graves became the second chief of the Forest Service. Fraudulent coal claims in Alaska were the ostensible cause, though Pinchot told Congress that the central item in the quarrel was really the administration's reversal of water-power policy across the country. He wrote a long and anguished letter to Roosevelt, still in Africa, and met him in Italy that April. The Republican split that produced the 1912 campaign begins in this episode.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Theodore Roosevelt in a top hat and Gifford Pinchot standing together on the deck of a river steamer, seen from behind",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/post-presidency",
+    "label": "After the White House"
+   }
+  },
+  {
+   "prompt": "Pinchot always insisted that when he started this work the country had no word for what he was doing. What did he mean?",
+   "options": [
+    "That forestry had no accepted English translation",
+    "That the word conservation was given its present meaning only in 1907",
+    "That preservation and conservation still meant the same thing",
+    "That the term natural resources had not yet been coined"
+   ],
+   "answer": 1,
+   "explanation": "By Pinchot's own account the idea arrived on a winter's ride in Rock Creek Park in 1907 - that forests, water, soil, minerals and wildlife were one problem and not a dozen - and it then sat unnamed while he and Overton Price argued over what to call it. They borrowed from British India, where the government forest districts were Conservancies and the men who ran them Conservators, and applied a new meaning to a word already in the dictionary. Roosevelt approved it on the spot. That is one man's memory, written thirty years later; but the word is unmistakably new in its present sense, and the date is right.",
+   "image": "assets/img/earthday/yellowstone-liberty-cap.jpg",
+   "imageAlt": "Roosevelt on horseback before Liberty Cap, a rock cone in Yellowstone",
+   "credit": "President Roosevelt and Major Pitcher before Liberty Cap, Yellowstone Park, 1903 - one frame of a stereograph card. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  }
+ ]
+}

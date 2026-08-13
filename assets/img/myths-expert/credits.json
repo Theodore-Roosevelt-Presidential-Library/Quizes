@@ -1,0 +1,83 @@
+{
+ "tr-hoxsey-flight": {
+  "source": "dam",
+  "ref": "adac8c80-f479-4f3b-a165-b20f7d21add5",
+  "source_file": "loc_2009633777_Roosevelt_and_Hoxsey.tif",
+  "description": "Roosevelt and Hoxsey \u2014 1 photographic print. | Photograph showing Theodore Roosevelt and Archibald Hoxsey in a biplane preparing for flight on October 11, 1910, from Kinloch Field, St. Louis, Missouri. \u2014 Creator: Cole & Co. \u2014 Date: 1910",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x862"
+ },
+ "tr-at-desk": {
+  "source": "dam",
+  "ref": "45ac5f32-987f-4b48-bd11-714ea4e92d68",
+  "source_file": "har_3942494_Theodore_Roosevelt_writing_while_seated_.jpg",
+  "description": "Theodore Roosevelt writing while seated at his desk \u2014 Washington (D.C.). \u2014 Date: ca. 1897-1898",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1042"
+ },
+ "tr-desk-portrait": {
+  "source": "dam",
+  "ref": "a3530bd2-58d4-436a-893c-560f47951084",
+  "source_file": "loc_2013649624_Theodore_Roosevelt_full_length_portrait_.tif",
+  "description": "[Theodore Roosevelt, full-length portrait, seated at his desk writing] \u2014 1 photographic print. \u2014 Date: 1905",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1745"
+ },
+ "riis-vincent-tr": {
+  "source": "dam",
+  "ref": "961d02bf-9567-4451-a745-264f92db90d2",
+  "source_file": "har_4419540_T_R_with_Bishop_Vincent_and_Jacob_Riis.jpg",
+  "description": "T.R. with Bishop Vincent and Jacob Riis \u2014 From left to right: Jacob Riis, Theodore Roosevelt, and John H. Vincent at Higgins Memorial Hall, Chautauqua (N.Y.). Photograph by Underwood & Underwood. \u2014 Creator: Underwood & Underwood$$QUnderwood & Underwood \u2014 Date: 1905 August 11",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1721"
+ },
+ "riding-big-stick": {
+  "source": "dam",
+  "ref": "58e8d6ef-c27c-463c-9540-ffdc0a4a23e4",
+  "source_file": "loc_2013651700_Riding_him_on_the_big_stick_The_Boss_Say.tif",
+  "description": "Riding him on the big stick The Boss - Say, you're splitting the party  / \u2014 1 print. | Newspaper clipping of cartoon showing Theodore Roosevelt holding one end of \"The Big Stick\" while a man representing New York in 18th century dress holds the other.  Riding astraddle the st \u2014 Creator: Bartholomew, Charles Lewis \u2014 Date: 1908",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1657"
+ },
+ "tr-speaking-iowa-1910": {
+  "source": "dam",
+  "ref": "381339cb-a945-44a9-8680-88d2cb76f1ca",
+  "source_file": "loc_2013651265_Ex_President_Roosevelt_speaking_at_Misso.tif",
+  "description": "Ex President Roosevelt speaking at Missouri Valley, Iowa, Aug. 21, 1910 \u2014 1 photographic print on postcard mount. | Photograph showing Roosevelt speaking from what appears to be the back of a railroad car. \u2014 Date: 1910",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x903"
+ },
+ "sewall-maine": {
+  "source": "dam",
+  "ref": "ace0e658-7d1b-4249-9962-d5e712bc2bcc",
+  "source_file": "har_2254065_Bill_Sewall_Russell_R_Whitman_and_Game_W.jpg",
+  "description": "\"Bill\" Sewall, Russell R. Whitman, and Game Warden Walter Wood marking, by blaze and cairn, the place where Theodore Roosevelt camped, Lake Munsungan, Maine \u2014 Photograph by J. A. Cruikshank. \u2014 Creator: Cruikshank, J. A$$QCruikshank, J. A \u2014 Date: ca. 1921",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1400x1391"
+ },
+ "tr-standing-portrait": {
+  "source": "dam",
+  "ref": "1947eb9d-548f-4bef-a07c-05b8f0fc0dbc",
+  "source_file": "loc_2013650882_Theodore_Roosevelt_three_quarter_length_.tif",
+  "description": "[Theodore Roosevelt, three-quarter length portrait, standing, facing left, speaking] \u2014 1 photographic print. \u2014 Date: 1918",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1753"
+ },
+ "tr-speaking-table": {
+  "source": "dam",
+  "ref": "3e14bc8c-4769-41a4-a704-faa006d2383d",
+  "source_file": "loc_2013650564_Theodore_Roosevelt_standing_on_a_table_s.tif",
+  "description": "[Theodore Roosevelt standing on a table speaking to a seated audience] \u2014 1 photographic print : postcard. \u2014 Creator: Smith Studio \u2014 Date: 1910",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x902"
+ }
+}

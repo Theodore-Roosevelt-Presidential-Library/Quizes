@@ -1,0 +1,23 @@
+{
+ "elkhorn-ranch-cropped": {
+  "source": "repo-crop",
+  "ref": "assets/img/badlands/elkhorn-ranch.jpg",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "credit_line": "Elkhorn Ranch, Roosevelt's property on the Little Missouri. Photograph by Theodore Roosevelt. Cabinet-card mount cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1252x810"
+ },
+ "dow-tr-sewall-cropped": {
+  "source": "repo-crop",
+  "ref": "assets/img/badlands/dow-tr-sewall.jpg",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "credit_line": "Wilmot Dow, T.R. and Bill Sewall at the Elkhorn Ranch in winter furs. Album mount and pencilled accession marks cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1298x865"
+ },
+ "tr-buckskin-studio": {
+  "source": "repo-crop",
+  "ref": "assets/img/badlands/tr-buckskin-rifle.jpg",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "credit_line": "Theodore Roosevelt in buckskin with a rifle, photographed by Ludovici in a New York studio against a painted woodland backdrop. A halftone reproduction; the printed rule border has been cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1304x2014"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "tr-cabinet-table": {
+  "source": "dam",
+  "ref": "bdc25571-a4e5-4b56-ac37-890d17df9a59",
+  "source_file": "har_4505715_Roosevelt_cabinet.jpg",
+  "description": "Roosevelt cabinet \u2014 Clockwise around the table starting at left: Theodore Roosevelt, George B. Cortelyou, Charles Bonaparte, Truman H. Newberry, James Wilson, Oscar Solomon Straus, James R. Garfield, Gerge von Lengerke M \u2014 Creator: Underwood & Underwood$$QUnderwood & Underwood \u2014 Date: 1909 probably March 2",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1346x940",
+  "credit_line": "Theodore Roosevelt's cabinet in session, photographed by Underwood & Underwood, probably 2 March 1909 - Roosevelt at the left, with George B. Cortelyou, Charles Bonaparte, Truman H. Newberry, James Wilson, Oscar Straus and James R. Garfield among those at the table. Mount and studio copyright line cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "root": {
+  "source": "dam",
+  "ref": "b06650a9-ec3d-4b31-b3ce-af6af31df28d",
+  "source_file": "har_1255285_Elihu_Root_Secretary_of_War.jpg",
+  "description": "Elihu Root, Secretary of War \u2014 Elihu Root. Copyright 1902. \u2014 Date: 1902",
+  "rights": "Harvard University, Houghton Library \u2014 Theodore Roosevelt Collection; rights per Harvard Library terms of use",
+  "collection": "Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "px": "1230x1270",
+  "credit_line": "Elihu Root, Secretary of War, photographed by George Prince, 1902. Album mount and the studio's printed copyright line cropped away. Theodore Roosevelt Collection, Houghton Library, Harvard University."
+ },
+ "lynn-canal": {
+  "source": "loc",
+  "ref": "2005680511",
+  "source_file": "loc_pictures_2005680511",
+  "description": "Scenery in Lynn Canal",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1300x740",
+  "credit_line": "Scenery in Lynn Canal, southeastern Alaska, photographed in 1894 or 1895 - the waterway at the heart of the boundary dispute. Library of Congress, Prints and Photographs Division. Album mount and the photographer's inked inventory number cropped away."
+ }
+}

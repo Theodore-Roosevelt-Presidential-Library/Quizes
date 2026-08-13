@@ -1,0 +1,214 @@
+{
+ "id": "conservation-family",
+ "title": "What He Saved",
+ "subtitle": "Family Edition",
+ "intro": "A cave with stone honeycomb on its walls. Houses built into a cliff. A forest of fallen trees that turned into rock. Roosevelt put a fence round an enormous amount of America and told people to leave it alone, and most of it is still there. Nine short questions for playing together.",
+ "heroImage": "assets/img/conservation-family/yellowstone-arch.jpg",
+ "heroAlt": "The stone entrance arch at the north gate of Yellowstone National Park",
+ "heroCredit": "The Gardiner entrance arch, Yellowstone National Park. Library of Congress, Prints and Photographs Division.",
+ "learnMore": "https://www.trlibrary.com/tr/presidency/conservation",
+ "shuffle": {
+  "questions": true,
+  "options": true
+ },
+ "live": {
+  "seconds": 20,
+  "revealSeconds": 4
+ },
+ "badge": {
+  "title": "What He Saved — Family Edition",
+  "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's family quiz about the land he protected — {tier}. Try it:",
+  "url": "https://www.trlibrary.com/tr/presidency/conservation"
+ },
+ "tiers": [
+  {
+   "min": 9,
+   "name": "Keeper of the Whole Country",
+   "line": "Perfect. Not one acre missed."
+  },
+  {
+   "min": 7,
+   "name": "Head Ranger",
+   "line": "You know this ground very well."
+  },
+  {
+   "min": 5,
+   "name": "Trail Guide",
+   "line": "Well done. Take the long way back."
+  },
+  {
+   "min": 3,
+   "name": "Out on Your First Walk",
+   "line": "Good start. There is a great deal to see."
+  },
+  {
+   "min": 0,
+   "name": "Just Through the Gate",
+   "line": "Welcome in. The best part is still ahead."
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "A stone arch stands at the north gate of Yellowstone, and Roosevelt laid its first stone in 1903. Who do the words carved across it say the park is for?",
+   "options": [
+    "The president",
+    "The people",
+    "Scientists",
+    "The railroad"
+   ],
+   "answer": 1,
+   "explanation": "The carving reads FOR THE BENEFIT AND ENJOYMENT OF THE PEOPLE. The words were lifted from the law that made Yellowstone a park back in 1872, long before Roosevelt turned up with a trowel. Cars still drive under the arch today.",
+   "image": "assets/img/conservation-family/yellowstone-arch.jpg",
+   "imageAlt": "A motor car passing under the stone entrance arch at Yellowstone",
+   "credit": "The Gardiner entrance arch, Yellowstone National Park. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt set aside fifty-one places to protect one kind of wildlife in particular. Which?",
+   "options": [
+    "Wolves",
+    "Bears",
+    "Birds",
+    "Fish"
+   ],
+   "answer": 2,
+   "explanation": "Fifty-one federal bird reservations, most of them islands and lake shores where pelicans, herons and terns nested. The first was Pelican Island in Florida, in 1903. Feathers were the fashion for ladies' hats at the time, and a nesting island with nobody guarding it did not stay a nesting island for long.",
+   "image": "assets/img/conservation-family/pelican-island.jpg",
+   "imageAlt": "Pelicans on their nests among bare branches, with eggs in the foreground",
+   "credit": "Pelican Island, Florida, from a stereograph published in 1905. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "One of the national parks Roosevelt signed into being protects something you have to go underground to see. What?",
+   "options": [
+    "A cave",
+    "A gold mine",
+    "A buried city",
+    "A hot spring"
+   ],
+   "answer": 0,
+   "explanation": "Wind Cave, in South Dakota, made a national park in 1903 — one of the first parks anywhere set aside for a cave. Its walls carry a honeycomb of thin stone fins called boxwork, and Wind Cave holds more of it than almost anywhere else on earth. People had been snapping pieces off to sell, which is a large part of why it needed protecting.",
+   "image": "assets/img/conservation-family/wind-cave.jpg",
+   "imageAlt": "The rough honeycombed rock wall of a chamber in Wind Cave, South Dakota",
+   "credit": "Wind Cave, South Dakota, 1912. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "In 1906 Roosevelt signed a law making a national park in Colorado to protect houses. Where were the houses built?",
+   "options": [
+    "On top of a mountain",
+    "Under a lake",
+    "Inside a hollow tree",
+    "Into the side of a cliff"
+   ],
+   "answer": 3,
+   "explanation": "Mesa Verde — the first national park anywhere made to protect what people built rather than what nature made. The rooms and round towers sit tucked under an overhanging cliff, put up more than seven hundred years ago by Ancestral Puebloan people whose descendants live in Pueblo communities today. The largest of them, Cliff Palace, has around a hundred and fifty rooms.",
+   "image": "assets/img/conservation-family/mesa-verde-cliff-palace.jpg",
+   "imageAlt": "Cliff Palace at Mesa Verde, stone rooms and towers set under a huge overhanging cliff",
+   "credit": "Cliff Palace, Mesa Verde, Colorado. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt protected a place in Arizona where whole fallen trees have turned into something else. What?",
+   "options": [
+    "Ice",
+    "Diamond",
+    "Glass",
+    "Stone"
+   ],
+   "answer": 3,
+   "explanation": "The Petrified Forest, made a national monument in 1906. The trees fell more than two hundred million years ago, were buried in mud, and the wood was swapped out grain by grain for minerals until each log was solid rock. One of them lay across a gully and visitors walked over it like a bridge. Others were being carted off by the wagonload.",
+   "image": "assets/img/conservation-family/petrified-forest.jpg",
+   "imageAlt": "Visitors in Victorian clothes standing on a huge fallen petrified log spanning a gully",
+   "credit": "The log bridge, Petrified Forest, Arizona, from a stereograph published in 1903. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Just north of San Francisco, Roosevelt protected a valley of the tallest trees on earth. What kind are they?",
+   "options": [
+    "Redwoods",
+    "Oaks",
+    "Palms",
+    "Monkey puzzles"
+   ],
+   "answer": 0,
+   "explanation": "Muir Woods, made a national monument in January 1908. The valley had been bought by a private citizen who wanted to stop the trees being cut, and he gave it to the country. Coast redwoods are the tallest trees in the world and can live well over a thousand years, so some of the trees standing in that valley were already old before there was a United States to protect them.",
+   "image": "assets/img/conservation-family/cathedral-grove.jpg",
+   "imageAlt": "Tall straight redwood trunks in Cathedral Grove, Muir Woods, with light coming through high above",
+   "credit": "\"Cathedral Grove,\" Muir Woods National Monument, California. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "In the spring of 1907 Roosevelt sent out a public message about trees. Who was it addressed to?",
+   "options": [
+    "Newspaper editors",
+    "Railroad owners",
+    "Schoolchildren",
+    "State governors"
+   ],
+   "answer": 2,
+   "explanation": "It was an Arbor Day message, and he told them plainly that the country's need for trees would turn serious inside their own lifetimes. They would one day reproach his generation, he wrote, not \"for what we have used, but for what we have wasted\". Arbor Day had begun in Nebraska in 1872, where the state handed out seed and gave prizes to whoever planted the most.",
+   "image": "assets/img/conservation-family/arbor-day-school.jpg",
+   "imageAlt": "Schoolchildren gathered round a newly planted young tree on Arbor Day",
+   "credit": "Arbor Day tree planting, New York Public School No. 4, 1908. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  },
+  {
+   "prompt": "Roosevelt created a great many national forests. Roughly how many?",
+   "options": [
+    "About five",
+    "About twenty",
+    "About two thousand",
+    "About a hundred and fifty"
+   ],
+   "answer": 3,
+   "explanation": "About a hundred and fifty. A national forest is not the same thing as a national park: in a forest, trees can be cut and cattle grazed under rules, while a park is left as it is. Roosevelt's whole argument was that a country should be able to use what it has without using it up.",
+   "image": "assets/img/conservation/pinchot-chief-forester.jpg",
+   "imageAlt": "Theodore Roosevelt and Gifford Pinchot on the deck of a river steamer",
+   "credit": "President Theodore Roosevelt and Chief Forester Gifford Pinchot. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/people",
+    "label": "The people around him"
+   }
+  },
+  {
+   "prompt": "Roosevelt made eighteen national monuments. What is different about a national monument?",
+   "options": [
+    "It has to be a statue",
+    "A president can create one himself",
+    "It must be in a desert",
+    "Only soldiers may visit"
+   ],
+   "answer": 1,
+   "explanation": "A national park needs a law passed by Congress. A monument needs only the president's signature, under a law of 1906. Roosevelt used it eighteen times, including on the Grand Canyon when Congress would not make it a park.",
+   "image": "assets/img/conservation-family/devils-tower.jpg",
+   "imageAlt": "Devils Tower rising above wooded hills, reflected in a pool of water",
+   "credit": "Devils Tower, Wyoming, photographed by J. C. H. Grabill, 1890. Library of Congress, Prints and Photographs Division.",
+   "link": {
+    "url": "https://www.trlibrary.com/tr/presidency/conservation",
+    "label": "Conservation"
+   }
+  }
+ ]
+}

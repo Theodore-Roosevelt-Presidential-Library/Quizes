@@ -1,0 +1,327 @@
+{
+  "id": "whole-life",
+  "title": "The Whole Life",
+  "subtitle": "Fifteen questions, 1858 to 1919, at the hardest setting on the platform",
+  "intro": "One question from roughly each stage of a sixty-year life, and every one of them chosen because a serious reader might not know it: an uncle in Liverpool who fired a gun off Cherbourg, a boxing match at Harvard, a court that killed a bill about cigars, a post office in Baltimore, an anti-Semitic lecturer with forty Jewish policemen guarding him, a submarine in Long Island Sound, and a stray dog that wandered into a speech at an army camp and lay down in an attitude of strict neutrality. This is the hardest quiz we have. Nobody is expected to sweep it.",
+  "heroImage": "assets/img/whole-life/civil-service-commissioner.jpg",
+  "heroAlt": "Theodore Roosevelt in his early thirties, seated in a dark suit with pince-nez and a heavy moustache",
+  "heroCredit": "Theodore Roosevelt as United States Civil Service Commissioner, about 1889-95. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+  "learnMore": "https://www.trlibrary.com/tr",
+  "shuffle": {
+    "questions": true,
+    "options": true
+  },
+  "live": {
+    "seconds": 25,
+    "revealSeconds": 5
+  },
+  "badge": {
+    "title": "The Whole Life",
+    "shareText": "I scored {score}/{total} on the Theodore Roosevelt Presidential Library's hardest quiz - {tier}. Try it:",
+    "url": "https://www.trlibrary.com/tr"
+  },
+  "tiers": [
+    {
+      "min": 15,
+      "name": "The Whole Sixty Years",
+      "line": "A clean sweep of the hardest set we have written. Extraordinary."
+    },
+    {
+      "min": 13,
+      "name": "Deep in the Sources",
+      "line": "You are reading well beyond the biographies."
+    },
+    {
+      "min": 10,
+      "name": "A Serious Reader",
+      "line": "A genuinely strong score on a quiz built to defeat people."
+    },
+    {
+      "min": 7,
+      "name": "Knows the Arc",
+      "line": "You have the life in order and the detail is coming."
+    },
+    {
+      "min": 4,
+      "name": "Four Past the Post",
+      "line": "Four right on this set is more than it sounds. Read the rest."
+    },
+    {
+      "min": 0,
+      "name": "Started at the Summit",
+      "line": "This is the hardest quiz on the platform. The explanations are the reward."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "In his Autobiography Roosevelt records one particular distinction earned by his uncle Irvine Bulloch, a midshipman in the Confederate navy. What was it?",
+      "options": [
+        "He fired the Alabama's last gun at the Kearsarge",
+        "He carried the ship's colours ashore at Cherbourg",
+        "He was the last man off the sinking ship's deck",
+        "He served in three raiders in the space of a single year"
+      ],
+      "answer": 0,
+      "explanation": "Mittie Roosevelt's half-brother James was the Confederacy's naval agent in Britain and had the raider Alabama built there; her full brother Irvine sailed in the ship as a midshipman and, in Roosevelt's words, “fired the last gun discharged from her batteries in the fight with the Kearsarge.” Roosevelt states it flatly; David McCullough and others pass it on as the family's own account of the fight, which is what it is. Neither uncle was covered by the postwar amnesty — they came to see the Roosevelts in New York under assumed names — and both spent the rest of their lives in Liverpool. The boy who grew up on those stories made his first book a history of naval war.",
+      "image": "assets/img/whole-life/alabama-lithograph.jpg",
+      "imageAlt": "Colour lithograph of two sailing warships in a heavy sea, one heeling over as small boats pick up men",
+      "credit": "The sinking of the Alabama by the Kearsarge, on the cover of a Union victory march published in 1864. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/early-life",
+        "label": "Early Life"
+      }
+    },
+    {
+      "prompt": "At the Harvard Athletic Association meeting of March 1879 Roosevelt reached the final of the lightweight boxing championship and lost. What is actually remembered about that afternoon?",
+      "options": [
+        "He hushed the crowd after his opponent hit him late, and shook his hand",
+        "He fought the last two rounds with a broken thumb",
+        "He refused the trophy and gave it to his opponent",
+        "He knocked the champion down twice before losing on points"
+      ],
+      "answer": 0,
+      "explanation": "Time was called, Roosevelt dropped his guard, and C. S. Hanks — who had not heard the call — landed a heavy blow on his nose. The gallery hooted. Roosevelt threw up an arm for silence, said it was all right, pointed at the timekeeper and explained that Hanks had not heard him, then walked over with his nose bleeding and shook hands. Owen Wister, a freshman on the floor, was still telling the story fifty years later. Roosevelt lost the bout badly: Hanks had the longer reach, and Roosevelt had to box without his spectacles.",
+      "image": "assets/img/whole-life/harvard-dining-club-1880.jpg",
+      "imageAlt": "Eight young men in dark suits posed in a photographer's studio, five standing and three seated",
+      "credit": "Members of Roosevelt's Harvard dining club, 1880; the Harvard record places Roosevelt among them. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/early-life",
+        "label": "Early Life"
+      }
+    },
+    {
+      "prompt": "Roosevelt's bill banning the making of cigars in tenement flats became law and was then killed by New York's highest court. What did the judges say the law was an assault on?",
+      "options": [
+        "The hallowed influences of the home",
+        "The right of contract between master and man",
+        "The police powers reserved to the cities",
+        "The equal protection of foreign-born workers"
+      ],
+      "answer": 0,
+      "explanation": "Roosevelt was put on the committee because everyone assumed he would be against the bill. Samuel Gompers of the cigar-makers' union asked him to come and look; he went three times, found whole families rolling cigars and sleeping among the tobacco, and came back a supporter — then appeared before Governor Cleveland to argue for it, and Cleveland signed it. In 1885 the Court of Appeals threw it out in the Jacobs case, and the judges, Roosevelt wrote, “reprobated the law as an assault upon the ‘hallowed’ influences of ‘home.’” Jacobs himself occupied a whole suite of rooms and was nothing like the average. “They knew legalism, but not life,” Roosevelt said of the court, and he dated his lifelong impatience with judges who legislate from a distance to that morning. The decision blocked tenement reform in New York for twenty years.",
+      "image": "assets/img/whole-life/tenement-cigar-makers.jpg",
+      "imageAlt": "Engraving of a woman, a boy and a small child making cigars at a table in a cramped tenement room",
+      "credit": "Tenement-house cigar making in New York during the cigar makers' strike, engraving of 1877. Cropped from a bound volume; the binding edge has been trimmed off. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/new-york-politics",
+        "label": "New York Politics"
+      }
+    },
+    {
+      "prompt": "Roosevelt's Dakota book Ranch Life and the Hunting-Trail ends a description of riding out at dawn with a line that has been quoted ever since. What does it say?",
+      "options": [
+        "That black care rarely sits behind a rider whose pace is fast enough",
+        "That a man may outride his grief in the morning and meet it again at night",
+        "That the plains cure sorrow as salt air cures a fever",
+        "That no man who has ridden a round-up pities himself again"
+      ],
+      "answer": 0,
+      "explanation": "The sentence closes a passage about the outfit setting off before sunrise — the mist still lying in the hollows, the sun coming up over the edge of the plateau, the galloping horsemen throwing long shadows: “Black care rarely sits behind a rider whose pace is fast enough.” Roosevelt was writing about round-up work. Readers have taken it the other way ever since, because he had gone west in June 1884 with his wife and his mother four months dead, and David McCullough put the line at the front of Mornings on Horseback. The book grew out of the articles he wrote for Century Magazine and came out in 1888, the last of his three Badlands books.",
+      "image": "assets/img/open-range/ranch-roundup.jpg",
+      "imageAlt": "Two mounted men driving a bunch of cattle across open broken country",
+      "credit": "A Roosevelt ranch round-up near Medora, about 1885. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/badlands",
+        "label": "T.R. in the Badlands"
+      }
+    },
+    {
+      "prompt": "As a federal Civil Service Commissioner, Roosevelt picked a public fight with a member of the cabinet over one city's post office. Which cabinet officer, and which city?",
+      "options": [
+        "Postmaster General John Wanamaker, over Baltimore",
+        "Secretary of the Treasury Charles Foster, over Philadelphia",
+        "Postmaster General John Wanamaker, over Cincinnati",
+        "Secretary of the Interior John Noble, over St. Louis"
+      ],
+      "answer": 0,
+      "explanation": "Investigating a contested Republican primary in Baltimore in 1891, Roosevelt found that the postmaster had thrown out about half the classified staff and let political assessments be levied on the rest, and he recommended that twenty-five appointees be dismissed. Wanamaker — a merchant prince who had already replaced some thirty thousand fourth-class postmasters — buried the report, ran his own inquiry and told a House committee that Roosevelt's was unfair in the extreme. Roosevelt answered with an open letter calling him the head devil of the spoilsmen. President Harrison, caught between them, did as little as he could.",
+      "image": "assets/img/whole-life/civil-service-commissioner.jpg",
+      "imageAlt": "Theodore Roosevelt in his early thirties, seated in a dark suit with pince-nez and a heavy moustache",
+      "credit": "Theodore Roosevelt as United States Civil Service Commissioner, about 1889-95. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "In December 1895 an anti-Semitic preacher came from Berlin to lecture in New York and asked for police protection, while the city's Jews asked Police Commissioner Roosevelt to stop him speaking. What did Roosevelt do?",
+      "options": [
+        "Allowed the lecture but banned any admission charge",
+        "Refused protection and let the hall cancel the booking",
+        "Sent forty policemen to guard him, every one of them Jewish",
+        "Attended himself and answered the speaker from the floor"
+      ],
+      "answer": 2,
+      "explanation": "Roosevelt told the delegation that he could not stop the man, and that stopping him would only make a martyr of him. Then, as he put it in his Autobiography, “The proper thing to do was to make him ridiculous.” He detailed a Jewish sergeant and a squad of Jewish patrolmen, so that Rector Ahlwardt harangued a New York audience about the Jews under the protection of some forty policemen, “every one of them a Jew.” Forty years later Fiorello LaGuardia used the same trick on a request from the German consulate.",
+      "image": "assets/img/whole-life/mulberry-street-office.jpg",
+      "imageAlt": "Roosevelt seated at a roll-top desk stacked with papers in a plain office with a tall clock",
+      "credit": "Theodore Roosevelt in his Mulberry Street office as police commissioner of New York; halftone reproduction with the printed caption below. The New York Public Library.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "Roosevelt's first major speech as Assistant Secretary of the Navy, given at the Naval War College in June 1897, took its title from a saying of George Washington's. What was the argument?",
+      "options": [
+        "That a navy is cheaper than an army in a republic",
+        "That commerce follows the flag and the flag follows the fleet",
+        "That being ready for war is the surest way to keep the peace",
+        "That the Monroe Doctrine cannot be enforced without coaling stations"
+      ],
+      "answer": 2,
+      "explanation": "He called it Washington's Forgotten Maxim: to be prepared for war is the most effectual means of promoting peace. He was a subordinate official lecturing a service on national policy, and the speech was noticed everywhere — it is the clearest statement of the position he held for the rest of his life, and the argument he was still making against Woodrow Wilson twenty years later. Eight months later, standing in for an absent Secretary Long, he cabled Dewey to keep his squadron full of coal.",
+      "image": "assets/img/rise-to-power/assistant-secretary-navy.jpg",
+      "imageAlt": "Theodore Roosevelt in a dark suit, seated at a desk as Assistant Secretary of the Navy",
+      "credit": "Theodore Roosevelt as Assistant Secretary of the Navy, 1897-98. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "On 1 July 1898, the day of the charge at Kettle Hill, what was Roosevelt's actual rank?",
+      "options": [
+        "Colonel",
+        "Major",
+        "Brigadier general",
+        "Lieutenant colonel"
+      ],
+      "answer": 3,
+      "explanation": "He had been running the regiment since General Young went down with fever and “Wood took charge of the brigade,” but the commission had not caught up with the job. Roosevelt is precise about it in the appendix to his own book: after the San Juan fighting Wood was made a brigadier general, and he was then promoted to the nominal command of a regiment he had in fact been commanding for days. The famous photographs of Colonel Roosevelt on the captured hill show a lieutenant colonel.",
+      "image": "assets/img/rough-riders/rough-riders-top-of-hill.jpg",
+      "imageAlt": "Roosevelt standing with a large group of his men on the crest of a captured hill, a flag behind them",
+      "credit": "Roosevelt and the Rough Riders on the hill they captured, photographed by William Dinwiddie, 1898. Cropped to the photograph; the archival scan included a colour control strip. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "To force his franchise tax bill to a vote, Governor Roosevelt sent the Assembly an emergency message. The Speaker tore it up without reading it out. What did Roosevelt do next?",
+      "options": [
+        "Sent a second message, offering to read it to them himself",
+        "Called the legislature back for a special session in the autumn",
+        "Let the bill die and put the tax through the following year",
+        "Traded the bill away for a free hand over his own appointments"
+      ],
+      "answer": 0,
+      "explanation": "Roosevelt had found that the legislature had for decades handed out exclusive franchises worth millions — street railways, telephone lines, gas mains — and taxed none of them. An emergency message from the governor takes a bill out of its place in the queue, so Speaker S. Fred Nixon, under orders from the machine not to pass it, simply tore the thing up without reading it to the House and then went into an anteroom and collapsed. The second message said that if it were ignored the governor would come over and deliver it in person from the floor. The opposition folded and the bill passed comfortably. Platt told him plainly that a governor who signed such a measure had gone over to the populists; he signed it anyway, then let the corporations amend the husk of it while keeping the kernel.",
+      "image": "assets/img/whole-life/governors-office.jpg",
+      "imageAlt": "A panelled study with bookcases, two desks, leather chairs and framed pictures on the walls",
+      "credit": "The Governor's office in the New York State Executive Mansion during Roosevelt's term; the Harvard record notes his Rough Rider portrait on the wall. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/new-york-politics",
+        "label": "New York Politics"
+      }
+    },
+    {
+      "prompt": "Roosevelt refused to reappoint Platt's superintendent of insurance. Why was that harder than simply naming somebody else?",
+      "options": [
+        "The office could only be filled while the legislature was sitting",
+        "The incumbent held over until a successor was confirmed, and Platt controlled the Senate",
+        "The appointment required the assent of the state's insurance companies",
+        "Roosevelt had promised Platt the post in writing before the election"
+      ],
+      "answer": 1,
+      "explanation": "Lou Payn had been superintendent for three years and had, Roosevelt believed, altogether too intimate an arrangement with the companies he regulated. But the law let him stay in the chair until the Senate confirmed a replacement, and the machine could simply refuse to confirm anybody, for ever. Roosevelt kept his temper through every interview, made it clear he would not give way, and eventually got Francis Hendricks confirmed. It is the episode he had most in mind when he said he had never seen a bluff carried more resolutely to the limit.",
+      "image": "assets/img/whole-life/governor-dewey-parade.jpg",
+      "imageAlt": "Roosevelt riding a horse at the head of a parade past dense crowds packed on stands",
+      "credit": "Governor Roosevelt riding in the Dewey celebration parade, New York, 1899. Cropped from one half of a stereograph card; the publisher's imprint remains along the edge. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/new-york-politics",
+        "label": "New York Politics"
+      }
+    },
+    {
+      "prompt": "McKinley stayed on his front porch in the campaign of 1900 and left the travelling to his running mate. Roughly what did Roosevelt cover?",
+      "options": [
+        "About 21,000 miles and some 673 speeches",
+        "About 4,000 miles and some 90 speeches",
+        "About 9,000 miles and some 200 speeches",
+        "About 40,000 miles and some 1,500 speeches"
+      ],
+      "answer": 0,
+      "explanation": "Twenty-four states, five hundred and sixty-seven towns, an estimated three million people who saw him in the flesh, and a voice that gave out repeatedly. It was the most strenuous canvass any national candidate had yet made, and it turned a vice-presidential nomination that had been designed to bury him in Albany into a national introduction. Six months after the inauguration McKinley was dead and the man who had shaken all those hands was president.",
+      "image": "assets/img/whole-life/campaign-train-rear.jpg",
+      "imageAlt": "View from the rear of a moving train as the locomotive ahead crosses a high wooden trestle in wooded hills",
+      "credit": "Photographed from the rear platform of Roosevelt's campaign train, probably in Colorado, late September 1900. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/rise-to-power",
+        "label": "Rise to Power"
+      }
+    },
+    {
+      "prompt": "On 25 August 1905, while the Portsmouth peace conference was deadlocked, the President did something no president had done before. What?",
+      "options": [
+        "Took the controls of a steam locomotive on the Long Island Rail Road",
+        "Spoke to a foreign head of state by telephone",
+        "Went down in a submarine and stayed under for nearly an hour",
+        "Broadcast a message to the fleet by wireless telegraph"
+      ],
+      "answer": 2,
+      "explanation": "He dropped to the floor of Long Island Sound off Oyster Bay in the Plunger, a new Holland-type boat, and stayed under for about fifty-five minutes in heavy rain, watching fish through the port and then taking the controls himself — one manoeuvre brought her up stern first. The Navy had officially denied he meant to risk it. He was roundly criticised for recklessness, and he afterwards pressed the case for better pay for submarine crews. The day after the dive was the low point of the negotiations at Portsmouth; the treaty was signed within a fortnight.",
+      "image": "assets/img/whole-life/porpoise-shark-submarines.jpg",
+      "imageAlt": "Two small early submarines propped on timber blocks on a quayside with their crews sitting on top",
+      "credit": "The United States submarines Porpoise and Shark in drydock, about 1905 - boats of the same Holland type as the Plunger. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/presidency",
+        "label": "The Presidency"
+      }
+    },
+    {
+      "prompt": "Roosevelt chose an unusual place to deliver his New Nationalism speech on 31 August 1910. Where did he give it?",
+      "options": [
+        "On the floor of the Kansas House of Representatives at Topeka",
+        "From the steps of the state capitol at Lincoln, Nebraska",
+        "At a Chautauqua tent meeting outside Kansas City",
+        "On a kitchen table in a grove where John Brown had fought"
+      ],
+      "answer": 3,
+      "explanation": "The ground was Osawatomie, Kansas, where John Brown had fought Missouri raiders in 1856, and the occasion was the dedication of a park to Brown's memory. Roosevelt climbed onto a kitchen table because the crowd could not see him, and set out the programme he had been building for years — property subordinate to human welfare, a square deal enforced by a strong federal executive. It made his break with the Taft Republicans effectively irreparable, and it supplied the platform he ran on two years later.",
+      "image": "assets/img/myths-expert/tr-speaking-table.jpg",
+      "imageAlt": "Roosevelt standing on a long wooden table addressing a seated outdoor audience in folding chairs",
+      "credit": "Theodore Roosevelt speaking from a table to a seated audience, 1910; the Library of Congress record does not identify the place. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/post-presidency",
+        "label": "After the White House"
+      }
+    },
+    {
+      "prompt": "Roosevelt was in London in May 1910, on his way home from Africa. What was he doing there officially?",
+      "options": [
+        "Representing the United States at the funeral of Edward VII",
+        "Accepting an honorary degree from the University of London",
+        "Sitting as an arbitrator in an Anglo-American fisheries dispute",
+        "Opening the American pavilion at the Japan-British Exhibition"
+      ],
+      "answer": 0,
+      "explanation": "President Taft appointed his predecessor special representative of the United States at the King's funeral, so a private citizen walked in the greatest gathering of European royalty of the age. Roosevelt spent the week being called on by kings at the American ambassador's house and enjoying their squabbles: the King of Bulgaria and Archduke Franz Ferdinand had quarrelled on the Orient Express over whose private car went nearer the engine. Four years later Franz Ferdinand's murder began the war Roosevelt spent his last years arguing about.",
+      "image": "assets/img/whole-life/freedom-of-london-1910.jpg",
+      "imageAlt": "A crowded Gothic hall with rows of robed and uniformed dignitaries seated around an open floor",
+      "credit": "The Freedom of the City of London conferred on Roosevelt at the Guildhall during the same London visit, 1910. Cropped from a torn two-part mount. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/post-presidency",
+        "label": "After the White House"
+      }
+    },
+    {
+      "prompt": "Roosevelt spent two days in August 1915 at the volunteer officers' training camp at Plattsburg, New York, and made a speech on the drill ground. Who got the official reprimand for it?",
+      "options": [
+        "General Leonard Wood, who ran the camp",
+        "Roosevelt, barred afterwards from army posts",
+        "The camp's commandant of cadets",
+        "The War Department's press officer in New York"
+      ],
+      "answer": 0,
+      "explanation": "Roosevelt reviewed the battalions, took midday chow with the men and watched the whole camp pass in review — his own sons were among the trainees who went to Plattsburg in those years — and then, standing on a federal army post, told fourteen hundred of them and a couple of thousand onlookers that for thirteen months the country had “used elocution as a substitute for action.” Wood had vetted the speech and ordered it softened before it went to the press; one of Roosevelt's aides gave out the unexpurgated text instead. At the station that night Roosevelt added that he would stand by the President “so long as the President stands by the country.” Secretary of War Lindley Garrison's telegram of reprimand went to Wood, who had to salute and take it, and Roosevelt at once dictated a statement absolving him of any blame. A stray Airedale had wandered into the middle of the speech and rolled onto its back in front of the crowd; Roosevelt stopped to say that its attitude was strictly one of neutrality.",
+      "image": "assets/img/war/tr-1918-b.jpg",
+      "imageAlt": "Roosevelt standing on a porch with one fist raised, papers in his hand, addressing a crowd packed onto the grass below",
+      "credit": "Theodore Roosevelt speaking from a porch to a crowd out of doors, 3 April 1918 — the date is written on the negative, three years after Plattsburg. Library of Congress, Prints and Photographs Division.",
+      "link": {
+        "url": "https://www.trlibrary.com/tr/post-presidency",
+        "label": "After the White House"
+      }
+    }
+  ]
+}

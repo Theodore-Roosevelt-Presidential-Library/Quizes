@@ -1,0 +1,74 @@
+{
+ "yellowstone-arch": {
+  "source": "loc",
+  "ref": "2024694637",
+  "source_file": "loc_pictures_2024694637",
+  "description": "The Gardiner Entrance Arch, Yellowstone Park",
+  "rights": "Rights status not evaluated. For general information see: \"Copyright and Other Restrictions...\" https://hdl.loc.gov/loc.pnp/res.195.copr",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x919"
+ },
+ "arbor-day-school": {
+  "source": "loc",
+  "ref": "2014680386",
+  "source_file": "loc_pictures_2014680386",
+  "description": "Planting of trees, Arbor Day, N.Y. Public School #4, 173rd St. & Fulton Ave., New York",
+  "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1008"
+ },
+ "mesa-verde-cliff-palace": {
+  "source": "loc",
+  "ref": "2008678195",
+  "source_file": "loc_pictures_2008678195",
+  "description": "Cliff Palace, Mesa Verde",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x1073"
+ },
+ "petrified-forest": {
+  "source": "loc",
+  "ref": "2017653000",
+  "source_file": "loc_pictures_2017653000",
+  "description": "The Famous Log Bridge, Spanning a Chasm 50 Feet Wide, Petrified Forest, Arizona, U. S. A.",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x738"
+ },
+ "devils-tower": {
+  "source": "loc",
+  "ref": "99613927",
+  "source_file": "loc_pictures_99613927",
+  "description": "Devil's Tower",
+  "rights": "No known restrictions on reproduction.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x982"
+ },
+ "wind-cave": {
+  "source": "loc",
+  "ref": "2024693301",
+  "source_file": "loc_pictures_2024693301",
+  "description": "Grand Canon, Wind Cave, S.D.",
+  "rights": "Rights status not evaluated. For general information see: \"Copyright and Other Restrictions...\" https://hdl.loc.gov/loc.pnp/res.195.copr",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x895"
+ },
+ "pelican-island": {
+  "source": "loc",
+  "ref": "2018648320",
+  "source_file": "loc_pictures_2018648320",
+  "description": "Pelican Islands, Florida--\"City of refuge\" for pelicans--protected by Uncle Sam from extinction",
+  "rights": "No known restrictions on publication.",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x740"
+ },
+ "cathedral-grove": {
+  "source": "loc",
+  "ref": "2024686797",
+  "source_file": "loc_pictures_2024686797",
+  "description": "\"Cathedral Grove,\" Muir Woods Nat'l Monument, California",
+  "rights": "Rights status not evaluated. For general information see: \"Copyright and Other Restrictions...\" https://hdl.loc.gov/loc.pnp/res.195.copr",
+  "collection": "Library of Congress, Prints and Photographs Division.",
+  "px": "1400x2165"
+ }
+}
