@@ -2,7 +2,7 @@
  "id": "naturalist",
  "title": "The Naturalist",
  "subtitle": "Roosevelt and the Natural World",
- "intro": "He founded a museum in his bedroom at nine, learned taxidermy from a man who had travelled with Audubon, and grew into a president who could correct professional ornithologists over dinner. Fifteen questions on the science that ran underneath everything else he did.",
+ "intro": "The natural history was not a hobby he outgrew. He kept lists, argued with professionals, wrote books that scientists read, and carried the habit of close observation with him into the White House. Eleven questions on the science that ran underneath everything else he did.",
  "heroImage": "assets/img/shared/tr-reading-tent.jpg",
  "heroAlt": "Roosevelt reading in front of his tent in a hunting camp",
  "heroCredit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
@@ -22,27 +22,27 @@
  },
  "tiers": [
   {
-   "min": 15,
+   "min": 11,
    "name": "Curator",
    "line": "Perfect. Every specimen labelled."
   },
   {
-   "min": 13,
+   "min": 9,
    "name": "Field Ornithologist",
    "line": "You know your warblers."
   },
   {
-   "min": 10,
+   "min": 7,
    "name": "Collector",
    "line": "A well-kept cabinet."
   },
   {
-   "min": 7,
+   "min": 5,
    "name": "Amateur Naturalist",
    "line": "Good notes, keep going."
   },
   {
-   "min": 4,
+   "min": 3,
    "name": "Sunday Birdwatcher",
    "line": "The list is growing."
   },
@@ -54,60 +54,6 @@
  ],
  "questions": [
   {
-   "prompt": "What did the young Roosevelt call his boyhood collection?",
-   "options": [
-    "The Teedie Collection",
-    "The East 20th Street Cabinet",
-    "The Roosevelt Museum of Natural History",
-    "The Manhattan Society of Naturalists"
-   ],
-   "answer": 2,
-   "explanation": "The Roosevelt Museum of Natural History, founded with two cousins and equipped with its own labels. It spread out of his bedroom and through the house, to the visible strain of the household staff.",
-   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
-   "imageAlt": "Tintype of the Roosevelt children",
-   "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": {
-    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
-    "label": "Building a museum in his bedroom"
-   }
-  },
-  {
-   "prompt": "What was the museum's first specimen?",
-   "options": [
-    "A robin's egg taken in Central Park",
-    "A seal's skull",
-    "A trilobite fossil",
-    "A mounted red squirrel"
-   ],
-   "answer": 1,
-   "explanation": "He came across a dead seal laid out on a plank in a market on Broadway, went back day after day to measure it, and eventually got hold of the head so that he could clean the skull. That skull became the first item in the collection, and he traced his whole interest in natural history back to that one animal — a boy with a folding rule, taking the measurements of something he had only ever read about.",
-   "image": "assets/img/early-life/roosevelt-children-tintype.jpg",
-   "imageAlt": "The Roosevelt children",
-   "credit": "The Roosevelt children. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": {
-    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
-    "label": "The young naturalist"
-   }
-  },
-  {
-   "prompt": "Who taught him taxidermy, and what was that man's claim to fame?",
-   "options": [
-    "John G. Bell, who travelled with Audubon",
-    "Carl Akeley, who pioneered the museum diorama",
-    "Louis Agassiz of Harvard",
-    "Spencer Baird of the Smithsonian"
-   ],
-   "answer": 0,
-   "explanation": "John G. Bell kept a musty little taxidermy shop on Broadway and had gone west with John James Audubon. Roosevelt took lessons there as a boy and mounted his own specimens for years afterwards. Bell is also the reason the collection stopped being a heap — a seal skull here, a turtle shell there, some mice caught in the pantry — and started being something with labels and a method behind it.",
-   "image": "assets/img/early-life/dresden-club.jpg",
-   "imageAlt": "The Roosevelt children and companions in Dresden",
-   "credit": "Dresden Literary American Club. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": {
-    "url": "https://www.trlibrary.com/tr/early-life/young-naturalist",
-    "label": "The young naturalist"
-   }
-  },
-  {
    "prompt": "What did Roosevelt intend to become when he entered Harvard in 1876?",
    "options": [
     "An officer in the navy",
@@ -116,7 +62,7 @@
     "A scientist"
    ],
    "answer": 3,
-   "explanation": "He went up meaning to be a scientist — a field naturalist of the kind Bell and Audubon had been. What put him off was the direction the discipline was taking: Harvard science by the 1870s meant the laboratory and the microscope rather than the outdoor field study he loved. He turned to history and politics instead, and never stopped doing natural history on the side.",
+   "explanation": "He went up meaning to be a scientist — a field naturalist of the kind Audubon had been. What put him off was the direction the discipline was taking: Harvard science by the 1870s meant the laboratory and the microscope rather than the outdoor field study he loved. He turned to history and politics instead, and never stopped doing natural history on the side.",
    "image": "assets/img/early-life/tr-at-college.jpg",
    "imageAlt": "Theodore Roosevelt as a college student",
    "credit": "\"Theo. Roosevelt at college.\" Library of Congress, Prints and Photographs Division.",
@@ -141,24 +87,6 @@
    "link": {
     "url": "https://www.trlibrary.com/tr/early-life/father",
     "label": "Theodore Roosevelt Sr."
-   }
-  },
-  {
-   "prompt": "Roosevelt published his first natural history work at what stage of life?",
-   "options": [
-    "As a Harvard undergraduate",
-    "He never published on natural history",
-    "In retirement",
-    "During his presidency"
-   ],
-   "answer": 0,
-   "explanation": "He was eighteen, with one year of college behind him. The Summer Birds of the Adirondacks in Franklin County, N.Y. appeared in 1877 — a four-page catalogue written in the mountains with a Harvard friend, Henry Davis Minot, and printed at their own expense. Roosevelt had gone up to Harvard the previous autumn, so it is an undergraduate's pamphlet, and it made him a published naturalist four years before he was a published historian.",
-   "image": "assets/img/backtoschool/harvard-holworthy.jpg",
-   "imageAlt": "Holworthy Hall in Harvard Yard, photographed in the nineteenth century",
-   "credit": "Holworthy Hall, Harvard Yard. Photograph by William Notman & Son. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
-   "link": {
-    "url": "https://www.trlibrary.com/tr/books-and-writings",
-    "label": "The author president"
    }
   },
   {
@@ -242,7 +170,7 @@
     "Superficial — he leaned on professional guides"
    ],
    "answer": 1,
-   "explanation": "He identified birds by ear, kept lists everywhere he went, and on a walk through the English countryside in 1910 with the British statesman Edward Grey he named the species by song as they went. Grey, himself a serious birdwatcher, was impressed. He was also willing to argue the point with professional ornithologists, in print, while holding federal office.",
+   "explanation": "He identified birds by ear and kept lists everywhere he went. On a day's walk through the English countryside in 1910 he named the species by song as they went, and his host — a British statesman who was himself a serious field ornithologist — came away impressed. He was also willing to argue the point with professional ornithologists, in print, while holding federal office.",
    "image": "assets/img/shared/tr-reading-tent.jpg",
    "imageAlt": "Roosevelt reading in front of his tent",
    "credit": "Roosevelt reading in front of his tent in hunting camp. Library of Congress, Prints and Photographs Division. Cropped from the album mount.",
@@ -260,7 +188,7 @@
     "The Winning of the West"
    ],
    "answer": 2,
-   "explanation": "Hunting Trips of a Ranchman, published in 1885 and illustrated in part by Frederic Remington. It was followed by Ranch Life and the Hunting-Trail and later The Wilderness Hunter — all part natural history, part memoir.",
+   "explanation": "Hunting Trips of a Ranchman, published in 1885. It was followed by Ranch Life and the Hunting-Trail and later The Wilderness Hunter — all part natural history, part memoir.",
    "image": "assets/img/badlands/tr-1885-portrait.jpg",
    "imageAlt": "Theodore Roosevelt in buckskin with a rifle, 1885",
    "credit": "Theodore Roosevelt in 1885. Library of Congress, Prints and Photographs Division.",

@@ -198,14 +198,14 @@
    }
   },
   {
-   "prompt": "Which two landmark consumer-protection laws did Roosevelt sign in 1906?",
+   "prompt": "Roosevelt signed the Pure Food and Drug Act in 1906. Which other consumer-protection law did he sign that year?",
    "options": [
-    "The Sherman and Clayton Acts",
-    "The Federal Reserve and Federal Trade Commission Acts",
-    "The Hepburn and Elkins Acts",
-    "The Pure Food and Drug Act and the Meat Inspection Act"
+    "The Elkins Act",
+    "The Newlands Reclamation Act",
+    "The Meat Inspection Act",
+    "The Federal Reserve Act"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Both in 1906, and both owing something to the public revulsion that followed Upton Sinclair's The Jungle. Sinclair had aimed at the conditions of the workers and hit the nation's stomach instead — as he put it himself.",
    "image": "assets/img/presidency/tr-private-office.jpg",
    "imageAlt": "Theodore Roosevelt in his office",

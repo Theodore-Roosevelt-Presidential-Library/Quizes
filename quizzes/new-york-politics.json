@@ -162,21 +162,21 @@
    }
   },
   {
-   "prompt": "On February 14, 1884, while Roosevelt was in Albany, what happened?",
+   "prompt": "Roosevelt's Reform Charter Bill became law in 1884. What did it change?",
    "options": [
-    "His wife and his mother died on the same day",
-    "His own party stripped him of a committee chair",
-    "The Assembly chamber was gutted by fire",
-    "He resigned his seat without explanation"
+    "It gave the state comptroller a veto over the city's budget",
+    "It stripped the aldermen of their veto over the mayor's appointments",
+    "It abolished the Board of Aldermen and replaced it with a commission",
+    "It moved New York City's elections off the presidential year"
    ],
-   "answer": 0,
-   "explanation": "Both women died in the same house, hours apart. His mother died of typhoid at three in the morning; his wife Alice died that afternoon of Bright's disease, two days after their daughter was born. In his diary he drew a heavy cross and wrote: \"The light has gone out of my life.\" He went back to Albany within days and finished the session — chairing his committee, reporting his bills, saying nothing about any of it.",
+   "answer": 1,
+   "explanation": "The aldermen were the legislative half of New York's city government, and almost no voter could name one of them — creatures of the bosses, Roosevelt called them. Yet nothing the mayor did stuck without their approval, in a city that employed twelve thousand people. Roosevelt's bill moved the appointing power to the mayor alone, so that one visible person could be held to account at the next election, and Governor Cleveland signed it on 17 March 1884. Two years later Roosevelt ran for that office himself — an office worth having largely because of his own bill.",
    "image": "assets/img/new-york-politics/assembly-notman.jpg",
    "imageAlt": "The New York State Assembly, composite photograph",
    "credit": "New York State Assembly, composite photograph by the Notman Photo Company. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/badlands",
-    "label": "Where he went next"
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York politics"
    }
   },
   {

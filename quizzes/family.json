@@ -80,7 +80,7 @@
     "Corinne Robinson"
    ],
    "answer": 2,
-   "explanation": "Edith Kermit Carow, whom he had known since childhood — she was a friend of his sister Corinne and had been in and out of the house on East 20th Street since they were small. They married in London in December 1886.",
+   "explanation": "Edith Kermit Carow. They married in London in December 1886, and from then on she ran Sagamore Hill — the accounts, the farm, the staff, the children, and most days the president himself. Her word on the house was final, and nobody, her husband included, argued with it for long.",
    "image": "assets/img/family/edith-portrait.jpg",
    "imageAlt": "Théobald Chartran's painted portrait of Edith Kermit Roosevelt in a plumed hat, seated on a stone bench in a garden",
    "credit": "Théobald Chartran's 1902 portrait of Edith Kermit Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
@@ -144,18 +144,18 @@
    }
   },
   {
-   "prompt": "How is Eleanor Roosevelt related to Theodore?",
+   "prompt": "What went on at Cooper's Bluff, a mile from Sagamore Hill?",
    "options": [
-    "His daughter",
-    "No relation; she married into the other branch",
-    "His cousin",
-    "His niece — daughter of his brother Elliott"
+    "Sunday services were held on the sand in fine weather",
+    "They raced one another down a huge sandbank into the bay",
+    "The children's schoolhouse stood at the foot of it",
+    "A gate lodge stood where the drive met the shore road"
    ],
-   "answer": 3,
-   "explanation": "She was his niece, Elliott's daughter, born in 1884 — the same year as Theodore's Alice. When she married her distant cousin Franklin in 1905, it was Uncle Theodore who gave her away, and the newspapers noted that the president rather overshadowed the groom.",
-   "image": "assets/img/family/family-portrait.jpg",
-   "imageAlt": "Theodore and Edith Roosevelt seated with five children in a studio group portrait, the youngest a baby",
-   "credit": "Theodore and Edith Roosevelt with Alice, Ted, Kermit, Ethel and the infant Archie, photographed by C. M. Gilbert, January 1895 — five children; Quentin, the sixth, was born two years later. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "answer": 1,
+   "explanation": "Roosevelt called it “a gigantic sand-bank rising from the edge of the bay,” and the family ran handicap races down it, timed and started one after another. If the tide was high some of them were sure to run into the water, which was most of the appeal. His sister Corinne remembered as many as twenty children lined up on top waiting for the word go, and her brother turning to them with a twinkle in his eye: “There is a little path down the side, but I always jump off the top.”",
+   "image": "assets/img/family/ted-archie-ethel.jpg",
+   "imageAlt": "Ted, Archie and Ethel Roosevelt on a windy day at Sagamore Hill",
+   "credit": "Ted, Archie, and Ethel Roosevelt one windy day at Sagamore Hill, Oyster Bay. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
    "link": {
     "url": "https://www.trlibrary.com/tr/family",
     "label": "The Roosevelt family"

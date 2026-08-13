@@ -126,17 +126,17 @@
    }
   },
   {
-   "prompt": "What was Roosevelt's third party in 1912 popularly called?",
+   "prompt": "Roosevelt's new party held its founding convention at Chicago in August 1912. What made it sound unlike other party conventions?",
    "options": [
-    "The Independent Republicans",
-    "The Populist Party",
-    "The Progressive, or Bull Moose, Party",
-    "The Union Party"
+    "It refused to seat any delegate who had ever held office",
+    "The delegates sang hymns, and paraded round the hall singing them",
+    "The platform was written on the floor, by open vote",
+    "It adjourned twice for want of a quorum"
    ],
-   "answer": 2,
-   "explanation": "Formally the Progressive Party. The nickname came from Roosevelt's own line that he felt as fit as a bull moose, and it stuck to the party, its cartoons and its campaign.",
+   "answer": 1,
+   "explanation": "They sang “Onward, Christian Soldiers” and “The Battle Hymn of the Republic”, and marched through the hall doing it. Doris Kearns Goodwin, Kathleen Dalton and Lewis Gould all describe the same scene, and the comparison every one of them reaches for is a revival meeting. The delegates had come to found a cause as much as to nominate a candidate, and they behaved accordingly.",
    "image": "assets/img/post-presidency/bull-moose-nomination.jpg",
-   "imageAlt": "Roosevelt and Hiram Johnson after the Progressive Party nomination",
+   "imageAlt": "Roosevelt standing beside his running mate after the 1912 nomination",
    "credit": "Roosevelt and Johnson after nomination. Library of Congress, Prints and Photographs Division.",
    "link": {
     "url": "https://www.trlibrary.com/tr/post-presidency",

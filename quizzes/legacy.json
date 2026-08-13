@@ -216,15 +216,15 @@
    }
   },
   {
-   "prompt": "The Roosevelts produced a second president. Who, and what was the relation?",
+   "prompt": "A second Roosevelt took the presidential oath in March 1933. Which one?",
    "options": [
-    "Franklin Roosevelt, his younger brother",
     "Kermit Roosevelt, his son and fellow explorer",
     "Theodore Roosevelt Jr., his eldest son",
-    "Franklin Roosevelt, a distant cousin"
+    "Franklin Delano Roosevelt",
+    "Nicholas Longworth, his son-in-law"
    ],
-   "answer": 3,
-   "explanation": "Franklin Delano Roosevelt was a fifth cousin from the Hyde Park branch of the family — the Democratic branch — and he married Theodore's niece Eleanor in 1905, which made the connection close as well as distant. Theodore gave the bride away, on St Patrick's Day, and the guests were said to have followed him out of the room afterwards. Franklin took Theodore's old job at the Navy Department and copied a good deal else besides. The two branches were of different parties, and the Oyster Bay Roosevelts campaigned against Franklin more than once.",
+   "answer": 2,
+   "explanation": "Franklin Delano Roosevelt, who came from the family's other branch and the other party. He had followed Theodore's route into public life long before he followed him into the White House — the same early job at the Navy Department, and a good deal else besides. Theodore's own side of the family did not take it kindly, and campaigned against him more than once. The other names here are all family, and not one of them ever held the office.",
    "image": "assets/img/family/family-portrait.jpg",
    "imageAlt": "Theodore and Edith Roosevelt seated with five children in a studio group portrait, the youngest a baby",
    "credit": "Theodore and Edith Roosevelt with Alice, Ted, Kermit, Ethel and the infant Archie, photographed by C. M. Gilbert, January 1895 — five children; Quentin, the sixth, was born two years later. Theodore Roosevelt Collection, Houghton Library, Harvard University.",

@@ -144,21 +144,21 @@
    }
   },
   {
-   "prompt": "What did Roosevelt take with him to read while chasing the boat thieves in 1886?",
+   "prompt": "In July 1899 Governor Roosevelt let it be known that he was taking a whole month's rest. How did he spend it?",
    "options": [
-    "Anna Karenina and Matthew Arnold",
-    "A pocket Bible and nothing else",
-    "A one-volume Shakespeare",
-    "Nothing — there was no room in the boat"
+    "Writing a biography of Oliver Cromwell",
+    "Prospecting a ranch site in Wyoming",
+    "Writing the last volume of The Winning of the West",
+    "Reading through Gibbon's Decline and Fall"
    ],
    "answer": 0,
-   "explanation": "Anna Karenina on the boat and Matthew Arnold on the overland march, read by firelight to stay awake while guarding three prisoners. He was, by any measure, an unusual frontier deputy. He got through the Tolstoy start to finish in the course of the chase, and had opinions about it afterwards — mostly disapproving ones, delivered at length.",
-   "image": "assets/img/badlands/little-missouri.jpg",
-   "imageAlt": "The Little Missouri River",
-   "credit": "\"A plains river\" — the Little Missouri. Photograph by Theodore Roosevelt. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "explanation": "“I really mean to rest one whole month,” he told his sister Corinne — and then finished the sentence: he did not mean to do one single thing in it, “except write a life of Oliver Cromwell.” She thought that a curious notion of a rest, and said so in the memoir she wrote of him afterwards. He worked at the book through the summer of 1899, in the middle of his term as governor of New York, and Scribner's published it the next year — his third biography, after Thomas Hart Benton and Gouverneur Morris.",
+   "image": "assets/img/whole-life/governors-office.jpg",
+   "imageAlt": "A panelled study with bookcases, two desks, leather chairs and framed pictures on the walls",
+   "credit": "The Governor's office in the New York State Executive Mansion during Roosevelt's term. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/badlands",
-    "label": "T.R. in the Badlands"
+    "url": "https://www.trlibrary.com/tr/new-york-politics",
+    "label": "New York Politics"
    }
   },
   {
@@ -180,33 +180,33 @@
    }
   },
   {
-   "prompt": "What was the \"pigskin library\"?",
+   "prompt": "In 1912 the professional historians of the United States paid Roosevelt a compliment. What did they do?",
    "options": [
-    "His reading room at the White House",
-    "A travelling library bound in pigskin",
-    "A book club he founded in Washington",
-    "The Sagamore Hill book collection"
+    "They elected him president of the American Historical Association",
+    "They named their prize for narrative history after him",
+    "They asked him to write the association's official history",
+    "They gave The Winning of the West a lifetime award"
    ],
-   "answer": 1,
-   "explanation": "A compact travelling library, rebound in pigskin so it would survive heat, damp and being carried across East Africa in a saddlebag. He read it in camp throughout the expedition — several photographs show him doing exactly that, tent flap open behind him. The point of the pigskin was not luxury but survival: cloth bindings rot, and he intended to finish the books.",
-   "image": "assets/img/shared/tr-reading-kijabe.jpg",
-   "imageAlt": "Roosevelt reading in front of his tent at Kijabe",
-   "credit": "Roosevelt reading in front of his tent in camp at Kijabe. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "answer": 0,
+   "explanation": "They elected him their president, and on 27 December 1912 he gave the presidential address at their meeting in Boston — seven weeks after losing the election as the Progressive candidate. He called it “History as Literature,” and his argument was that a great historian has to be a writer as well as a researcher: able “to put flesh and blood on dry bones,” to make “dead men living before our eyes.” It is the best short statement of why he wrote the way he did.",
+   "image": "assets/img/election1912/tr-campaign-1912.jpg",
+   "imageAlt": "Theodore Roosevelt seated in the back of an open touring car, an aide in a bowler hat in front of him",
+   "credit": "Ex-President Roosevelt in the campaign of 1912. One frame of a Keystone stereograph. Library of Congress, Prints and Photographs Division.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/post-presidency",
-    "label": "Post-presidency"
+    "url": "https://www.trlibrary.com/tr/books-and-writings",
+    "label": "The Author President"
    }
   },
   {
-   "prompt": "How fast was Roosevelt reputed to read?",
+   "prompt": "Besides the books, Roosevelt was a relentless letter writer. Roughly how many letters is he estimated to have written?",
    "options": [
-    "Extremely fast — a book a day",
-    "Slowly, and the same books over",
-    "Only in short bursts between meetings",
-    "He preferred to be read to aloud"
+    "About fifteen thousand",
+    "About a hundred and fifty thousand",
+    "About three hundred and fifty thousand",
+    "About twelve hundred"
    ],
-   "answer": 0,
-   "explanation": "Contemporaries reported he could get through a book in an evening and several in a day when unoccupied, with recall to match — he would produce passages years later, accurately, in argument. He read constantly: between appointments, at meals, on trains, and on horseback in Dakota.",
+   "answer": 1,
+   "explanation": "The figure usually given is 150,000, and it began as Roosevelt's own late-life estimate before biographers adopted it — so treat it as an estimate rather than a count. He wrote or dictated to family, cabinet officers, naturalists, children and complete strangers, some letters running to many pages. Elting Morison's edition gathers a fraction of them into eight thick volumes. The earliest to survive was written when he was nine, to his mother.",
    "image": "assets/img/shared/tr-seated-portrait.jpg",
    "imageAlt": "Seated portrait of Theodore Roosevelt",
    "credit": "Theodore Roosevelt, three-quarter length portrait, seated. Library of Congress, Prints and Photographs Division.",

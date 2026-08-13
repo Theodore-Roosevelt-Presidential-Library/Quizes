@@ -270,21 +270,21 @@
    }
   },
   {
-   "prompt": "How did Roosevelt graduate from Harvard in 1880?",
+   "prompt": "In the late summer of 1880, weeks after leaving Harvard, Roosevelt went west with his brother Elliott. To do what?",
    "options": [
-    "Magna cum laude and Phi Beta Kappa",
-    "Summa cum laude, first in his class",
-    "He left without taking a degree",
-    "Bottom of his class, having spent four years boxing"
+    "Shoot birds across Illinois, Iowa and Minnesota",
+    "Prospect for silver in Colorado",
+    "Report on the Adirondack lumber camps for a magazine",
+    "Walk the length of the Erie Canal"
    ],
    "answer": 0,
-   "explanation": "Magna cum laude and Phi Beta Kappa, ranked twenty-first in his class — accounts differ on how many men were in that class, so the rank is worth more than the fraction. He had also boxed, rowed, joined the Porcellian, edited for the Harvard Advocate — and started writing a serious naval history in his spare time. The first chapters of what became The Naval War of 1812 were drafted before he left Cambridge, and the finished book was in print two years later — a twenty-three-year-old's technical history that the Navy took seriously.",
-   "image": "assets/img/early-life/harvard-advocate-1880.jpg",
-   "imageAlt": "The Harvard Advocate editorial board photographed in 1880",
-   "credit": "Harvard Advocate board, 1880. Library of Congress, Prints and Photographs Division.",
+   "explanation": "A hunting trip that ran for weeks, ending at Moorhead on the Red River, at the edge of what was then unorganised Dakota Territory. Between them the brothers brought down 404 birds — grouse, snipe, plover, geese — and Theodore kept a tally, finishing two ahead of Elliott, which mattered to him more than it should have. His asthma was bad out there and some nights he had to sleep sitting up. It was his first sight of the big country west of Chicago, and he came home talking about the size of it.",
+   "image": "assets/img/early-life/elliott-and-theodore-hunting.jpg",
+   "imageAlt": "Elliott and Theodore Roosevelt photographed standing in hunting outfits",
+   "credit": "Elliott and Theodore Roosevelt in hunting outfits, photographed by H. Rocher at Chicago in the summer of 1880 — at the start of this trip. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/early-life/harvard",
-    "label": "Roosevelt at Harvard"
+    "url": "https://www.trlibrary.com/tr/early-life",
+    "label": "The making of a boy"
    }
   },
   {

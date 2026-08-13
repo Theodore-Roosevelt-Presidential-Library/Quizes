@@ -234,15 +234,15 @@
    }
   },
   {
-   "prompt": "Between the 1880s and the 1900s the sources of American immigration shifted. In which direction?",
+   "prompt": "In August 1882 Congress passed the first general federal immigration law. What did it do?",
    "options": [
-    "From Asia to Europe",
-    "From the countryside to the cities within Europe itself",
-    "From southern and eastern Europe back to northern and western Europe",
-    "From northern and western Europe to southern and eastern Europe"
+    "Set a yearly quota for each country of origin, based on the census",
+    "Charged fifty cents a head and barred convicts and anyone likely to need relief",
+    "Required every arrival to read a passage in English before landing",
+    "Left it to the steamship companies to decide who was fit to land"
    ],
-   "answer": 3,
-   "explanation": "In 1882, a record year for the century, roughly seven arrivals in eight came from Britain, Ireland, Germany and Scandinavia. By 1907, when the annual figure passed a million and a quarter, the proportions had almost exactly reversed and most newcomers came from Italy, Greece, Austria-Hungary, Russia and the Balkans. Contemporaries called this the new immigration and much of the political argument of the next thirty years grew out of it — including the restriction laws and the racial theorising that came with them, which are part of this history and not a footnote to it.",
+   "answer": 1,
+   "explanation": "Congress had suspended Chinese immigration earlier the same year; the August act was the first to set terms for everybody arriving by sea. Sean Cashman and Richard White give it the same shape - fifty cents a head, and the door shut on convicts, on the mentally ill, and on anyone an official judged likely to end up on public relief. That last clause was the elastic one: it needed no crime and no diagnosis, only an official's judgement.",
    "image": "assets/img/gilded-age/immigrants-arrived.jpg",
    "imageAlt": "A crowded railed hall seen from above, hundreds of people with tags on their coats moving between barriers",
    "credit": "Immigrants just arrived, the Immigrant Building, Ellis Island, New York Harbor, copyrighted 1904 by Underwood & Underwood. One half of a stereograph card. Library of Congress, Prints and Photographs Division.",
@@ -260,7 +260,7 @@
     "1903"
    ],
    "answer": 1,
-   "explanation": "Before that, New York had processed arrivals at Castle Garden on the Battery, and states rather than Washington had run the business. Richard White puts about eighty per cent of all later immigrants through the new station; the first ashore was Annie Moore of County Cork, travelling with two younger brothers on a ship whose other passengers were mostly Russian Jews. One thing the station is famous for it never did. The National Archives calls the story that inspectors Americanised immigrants' surnames one of the biggest myths in American immigration history: the clerks worked from passenger lists written by the shipping company before the ship left Europe, they had interpreters, and they had no authority to change anybody's name. Families did change their own names, but later, in the neighbourhood, to get work. The myth is durable enough that careful histories of this period still print it as fact.",
+   "explanation": "Richard White puts about eighty per cent of all later immigrants through the new station, which was built to sort arrivals and to turn back the small minority the law excluded. The first ashore was Annie Moore of County Cork, travelling with two younger brothers to join their father, who was already living in New York. Most of the other passengers on her ship were Russian Jews - the changing face of immigration, as White puts it, arriving on the same manifest as a girl from Cork.",
    "image": "assets/img/gilded-age/ellis-island-landing.jpg",
    "imageAlt": "A group of women in headscarves and children carrying bundles walking up a wooden gangway, a large brick building behind",
    "credit": "Landing at Ellis Island, about 1902. Library of Congress, Prints and Photographs Division.",

@@ -98,7 +98,7 @@
     "The Maltese Cross and the Elkhorn"
    ],
    "answer": 3,
-   "explanation": "The Maltese Cross, also called Chimney Butte, about seven miles south of Medora; and the Elkhorn, roughly thirty-five miles north, named for a pair of interlocked elk antlers found on the site.",
+   "explanation": "The Maltese Cross, also called Chimney Butte, about seven miles south of Medora; and the Elkhorn, roughly thirty-five miles north in a bend of the river, deliberately far from anyone. The Maltese Cross was a going concern he bought into; the Elkhorn he had built from scratch, and it was the one he called his home ranch.",
    "image": "assets/img/badlands/maltese-cross-ranch.jpg",
    "imageAlt": "The Maltese Cross Ranch house",
    "credit": "Maltese Cross Ranch house as it was when T.R. lived there. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
@@ -270,21 +270,21 @@
    }
   },
   {
-   "prompt": "Where is Roosevelt buried?",
+   "prompt": "For seven summers Roosevelt ran the country from Oyster Bay. Where did his staff actually work?",
    "options": [
-    "Youngs Memorial Cemetery, Oyster Bay",
-    "Arlington National Cemetery",
-    "Hyde Park",
-    "The Badlands"
+    "Rented rooms in the village, down the hill from the house",
+    "In a railroad car parked on a siding at the station",
+    "On the ground floor of the house itself",
+    "Aboard a Navy yacht moored in the bay"
    ],
    "answer": 0,
-   "explanation": "In Youngs Memorial Cemetery at Oyster Bay, on a wooded slope near Sagamore Hill, beside Edith. The arrangements were deliberately plain — there was no state funeral.",
-   "image": "assets/img/family/sagamore-library.jpg",
-   "imageAlt": "The library at Sagamore Hill",
-   "credit": "Library at Sagamore Hill. Library of Congress, Prints and Photographs Division.",
+   "explanation": "Roosevelt kept house and office apart. The executive staff rented space in the village below — the Oyster Bay Bank Building in the summer of 1902, and from 1903 through his last presidential summer in 1908 the new Moore Building. A secretary carried the day's cables and letters up the hill each morning, took dictation, and carried the replies back down to go out by wire to Washington. Before 1902 the house had no telephone at all: anyone who wanted Roosevelt rang the village drugstore, which sent a boy up the hill on a bicycle.",
+   "image": "assets/img/table/sagamore-exterior.jpg",
+   "imageAlt": "Sagamore Hill, a large shingled house with a wide porch, seen across the lawn",
+   "credit": "Sagamore Hill, about 1905. Library of Congress, Prints and Photographs Division.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/legacy",
-    "label": "T.R.'s legacy"
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
    }
   },
   {
@@ -306,21 +306,21 @@
    }
   },
   {
-   "prompt": "Which town did Roosevelt march the boat thieves to, roughly a hundred miles overland?",
+   "prompt": "Besides Sagamore Hill, the Roosevelts kept one other country retreat while he was president. Where?",
    "options": [
-    "Mandan",
-    "Bismarck",
-    "Miles City",
-    "Dickinson"
+    "A cabin in the Virginia Piedmont, south of Charlottesville",
+    "A cottage on Campobello Island, New Brunswick",
+    "A fishing camp on the Maine coast at Islesboro",
+    "A shooting lodge in the Alleghenies of Pennsylvania"
    ],
-   "answer": 3,
-   "explanation": "Dickinson, the nearest place with a sheriff and a courthouse. He kept the prisoners moving for around thirty-six hours and arrived barely able to walk, his feet so blistered that Dr Victor Stickney had to treat them.",
-   "image": "assets/img/badlands/dickinson-1883.jpg",
-   "imageAlt": "Dickinson, Dakota Territory, in 1883",
-   "credit": "Dickinson, N.D., 1883. Theodore Roosevelt Collection, Houghton Library, Harvard University.",
+   "answer": 0,
+   "explanation": "Edith found it in the spring of 1905 and bought it almost on the spot: a two-storey farm-worker's cottage and fifteen acres in Albemarle County, about fourteen miles south of Charlottesville, for two hundred and eighty dollars. She called it Pine Knot, after one of her husband's favourite phrases. It had no amenities beyond a stove. Roosevelt cooked his own fried chicken on kerosene, refused a Secret Service detail, and went chiefly for the birds — on one visit he and the naturalist John Burroughs walked the fields and identified seventy-five species between them.",
+   "image": "assets/img/family/edith-portrait.jpg",
+   "imageAlt": "Théobald Chartran's painted portrait of Edith Kermit Roosevelt in a plumed hat, seated on a stone bench in a garden",
+   "credit": "Théobald Chartran's 1902 portrait of Edith Kermit Roosevelt, photographed by Frances Benjamin Johnston. Library of Congress, Prints and Photographs Division.",
    "link": {
-    "url": "https://www.trlibrary.com/tr/badlands",
-    "label": "T.R. in the Badlands"
+    "url": "https://www.trlibrary.com/tr/homes-and-places",
+    "label": "Where history happened"
    }
   }
  ]
