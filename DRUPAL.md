@@ -442,3 +442,73 @@ Run it before building nodes, not just before committing quizzes.
 - The image review from 11 August is still outstanding — the Square Deal's
   doubled stereograph frame, the single portrait on The People Around Him, and
   `07_father.jpg` for the Greatheart hero.
+
+---
+
+## ALL 77 LIVE — 13 August 2026
+
+The nine tier and family nodes were built and published. Verified with
+genuinely anonymous requests (`credentials: 'omit'`, cache-busted) from the
+browser console: **9/9 return 200**, each page's title is right, and each
+carries a `data-trpl-quiz` value matching its own slug with the embed script
+present. The admin content list shows **77 published Quiz nodes**.
+
+### Corrections to the notes above, learned the hard way this run
+
+**Field references must be re-registered after EVERY navigation.** The note
+from 11 August said they were "stable across page loads". They are stable
+within a page, but a `find` call is required after each `navigate` or the
+refs resolve to nothing and the batch aborts mid-form. Budget one `find` per
+node.
+
+**The Add media button is not reliably a toggle.** The 12 August note said
+clicking twice opens and closes it. What actually happens is less orderly:
+sometimes the first click is swallowed and the second opens the dialog,
+sometimes two clicks open then close it. Do not count clicks. **Click once,
+screenshot, and click again only if the dialog is not up.** Three nodes cost
+extra round trips to this.
+
+**The media dialog's own refs do not exist until it is open.** Register the
+search box with a fresh `find` *after* confirming the dialog is up, not
+before.
+
+**Read the form back with JavaScript, not by eye.** One line pulls
+`title[0][value]`, `path[0][alias]`, `path[0][pathauto]`,
+`moderation_state[0][state]` and the embed id straight off the DOM. That is
+faster than a screenshot and it is the only check that catches a silently
+discarded field. Every one of these nine was read back before saving.
+
+**Save as → Published on the create form works.** No second edit pass is
+needed, and the moderation-state trap from 11 August does not apply to
+new nodes.
+
+### The sandbox proxy cannot verify this work
+
+`curl` from the workspace returned HTTP 200 and the *same wrong page title*
+for all nine distinct URLs. It is serving stale or mismatched cached
+responses. `mcp__workspace__web_fetch` returned correct pages, and the
+browser console is authoritative. **Do not accept a workspace `curl` as
+evidence that a page is live.**
+
+### The media library has no photograph of Roosevelt as a child
+
+Searches for `boyhood` and `teedie` return nothing; `young` returns four
+portraits of him as a young man. `early-life-family` therefore carries
+`4_TR_young_portrait.jpg` as its teaser, which is not a boy. The quiz's own
+hero image, served from GitHub Pages, *is* a boyhood portrait, so only the
+teaser and social card are affected. Worth pulling a childhood image from
+the DAM.
+
+### Teaser images used
+
+| Slug | Media item |
+|---|---|
+| `badlands-expert` | `01_wilderness_badlands.jpg` |
+| `conservation-expert` | `2_forests_sequoia.jpg` |
+| `presidency-expert` | `10_s10_us_capitol.jpg` |
+| `rough-riders-expert` | `TR Rough Riders` |
+| `myths-expert` | `qt-hub_misquotes_43` |
+| `whole-life` | `01_s1_portrait_pach.jpg` |
+| `early-life-family` | `4_TR_young_portrait.jpg` — see above |
+| `conservation-family` | `02_publiclands_grandcanyon.jpg` |
+| `rough-riders-family` | `TR Rough Riders` |
