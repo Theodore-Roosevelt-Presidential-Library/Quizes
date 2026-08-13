@@ -123,14 +123,44 @@ def load(paths=None):
     return out
 
 
+def index_text():
+    """Gallery card blurbs, keyed by quiz id.
+
+    These matter more than their length suggests. The blurb is rendered on the
+    card the visitor clicks, and again as the node's meta description, so a
+    blurb that states an answer gives it away before the quiz has even opened.
+    The first version of this tool did not look at them, and missed
+    other-roosevelts' card announcing its own first answer in the opening
+    sentence.
+    """
+    try:
+        idx = json.load(open(os.path.join(BASE, "quizzes", "index.json"),
+                             encoding="utf-8"))
+    except Exception:
+        return {}
+    # The TITLE counts too, and is the easiest of all to overlook. The quiz
+    # titled "Sixteen Battleships" hands over presidency q11, whose answer is
+    # "Sixteen battleships sent around the world"; the quiz titled "A Book a
+    # Day" handed over books-and-writings' reading-speed question until that
+    # question was replaced. A title is the largest text on the card.
+    return {e["id"]: (e.get("title", "") + " " + e.get("blurb", ""))
+            for e in idx.get("quizzes", []) if isinstance(e, dict) and "id" in e}
+
+
 def scan(only=None):
     quizzes = load()
+    blurbs = index_text()
     # Every question's haystack: what a player READS besides the options.
     hay = {}
     for qid, q in quizzes.items():
         for i, x in enumerate(q.get("questions", []), 1):
             hay[(qid, i)] = significant(
                 (x.get("prompt", "") + " " + x.get("explanation", "")))
+        # The intro and the gallery blurb are read before any question, so
+        # they leak into EVERY question of their own quiz as well as others.
+        # Keyed with 0 so the report can name them.
+        hay[(qid, 0)] = significant(
+            (q.get("intro", "") + " " + blurbs.get(qid, "")))
 
     findings = []
     for qid, q in quizzes.items():
@@ -144,7 +174,14 @@ def scan(only=None):
             if len(sig) < MIN_SIG:
                 continue
             for (oid, oi), words in hay.items():
-                if oid == qid:
+                # A quiz may repeat itself between questions — that is the
+                # author's business. But its own intro and blurb sit ABOVE the
+                # questions and on the card the visitor clicked, so a quiz
+                # giving away its own answer there is a real leak and the one
+                # nobody thinks to look for.
+                if oid == qid and oi != 0:
+                    continue
+                if oid == qid and i == 0:
                     continue
                 if sig <= words:
                     findings.append((qid, i, opts[a], oid, oi, len(sig)))
@@ -167,9 +204,10 @@ if __name__ == "__main__":
     print("%d possible answer leak(s). Each is a question whose scored answer\n"
           "is spelled out in another quiz's prompt or explanation.\n" % len(findings))
     for qid, i, ans, oid, oi, n in findings:
+        where = ("%s's own intro/blurb" % oid) if oi == 0 else "%s q%d" % (oid, oi)
         print("  %s q%d  — answer %r" % (qid, i, ans[:64]))
-        print("      is given away by %s q%d  (%d distinctive words shared)\n"
-              % (oid, oi, n))
+        print("      is given away by %s  (%d distinctive words shared)\n"
+              % (where, n))
     print("Read them before deciding. Two questions about the same event will\n"
           "share vocabulary honestly; what matters is whether a player who\n"
           "reads one can score the other without knowing anything.")

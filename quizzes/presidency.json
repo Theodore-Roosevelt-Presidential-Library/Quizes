@@ -234,18 +234,18 @@
    }
   },
   {
-   "prompt": "What was the Great White Fleet?",
+   "prompt": "For years the railroads set their own freight rates and no federal body could overrule them. What did Roosevelt's Hepburn Act of 1906 change?",
    "options": [
-    "The dredging fleet that cut the Culebra Cut",
-    "Sixteen battleships sent around the world",
-    "A programme of subsidies for American merchant shipping",
-    "The white-hulled steamers of the Great Lakes grain trade"
+    "Put the railroads under government ownership",
+    "Let a federal commission set maximum rates",
+    "Left rate-setting to the state legislatures",
+    "Guaranteed the railroads a fixed yearly profit"
    ],
    "answer": 1,
-   "explanation": "Sixteen battleships with their hulls painted peacetime white, sent on a circumnavigation that left Hampton Roads in December 1907 and came home in February 1909, two weeks before Roosevelt left office. He sent them partly to impress Japan, partly to prove the navy could coal and supply itself that far from home, and partly to make it politically impossible for Congress to shrink the fleet afterwards. When the Senate threatened to withhold the money he pointed out that he already had enough to get the fleet to the Pacific, and Congress could decide whether to pay for the trip back.",
-   "image": "assets/img/fleet/reviewing-fleet-from-mayflower.jpg",
-   "imageAlt": "President Roosevelt aboard the Mayflower reviewing the fleet at Hampton Roads",
-   "credit": "President Roosevelt reviewing the fleet from the Mayflower, Hampton Roads, Virginia, 1907. Library of Congress, Prints and Photographs Division.",
+   "explanation": "The Interstate Commerce Commission had been on the books since 1887, but the courts had taken away its power to fix a rate, so for nineteen years it mostly issued reports. The Hepburn Act let it throw out a rate a shipper complained of and set a maximum in its place, with the courts free to review what it did. The same law reached sleeping cars, express companies and oil pipelines, and it ended the free railroad pass for everyone but railway employees — a courtesy the roads had long handed to friendly editors and legislators. Roosevelt wrote afterwards that the bill gave the commission “for the first time real control over the railways.” It was the domestic bill he fought hardest to get, and he traded away others in Congress to win it.",
+   "image": "assets/img/presidency/tr-private-office.jpg",
+   "imageAlt": "Theodore Roosevelt at his desk in the White House office",
+   "credit": "Theodore Roosevelt, 26th President of the United States, in his private office. Library of Congress, Prints and Photographs Division. One frame of a stereograph card; publisher's mount and caption strip removed.",
    "link": {
     "url": "https://www.trlibrary.com/tr/presidency",
     "label": "The presidency"
