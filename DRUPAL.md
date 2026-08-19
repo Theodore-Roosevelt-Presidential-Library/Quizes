@@ -437,11 +437,22 @@ Run it before building nodes, not just before committing quizzes.
 
 ### Still open
 
-- The sitemap: all of `/tr` and all of `/visit` are missing, and the 77 quiz
-  nodes want checking into it.
 - The image review from 11 August is still outstanding — the Square Deal's
   doubled stereograph frame, the single portrait on The People Around Him, and
   `07_father.jpg` for the Greatheart hero.
+
+---
+
+## THE SITEMAP IS FIXED — checked 13 August 2026
+
+Carried as an open item in every status note since 11 August, and it is no
+longer true. `sitemap.xml` now holds **1,039 URLs**: 196 under `/tr`, 57 under
+`/visit`, and 78 under `/quiz` — the 77 quiz nodes plus the listing page.
+Nothing further is needed here.
+
+Worth the thirty seconds it took to check. A stale "still open" item gets
+copied forward from note to note and eventually somebody spends a day on work
+that was already done.
 
 ---
 
